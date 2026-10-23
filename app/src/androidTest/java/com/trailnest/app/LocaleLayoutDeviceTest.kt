@@ -156,9 +156,9 @@ class LocaleLayoutDeviceTest {
                         compose.onNodeWithText(strings.getString(R.string.save_walk)).performScrollTo().assertExists()
                     }
                     if (screen == "Share") {
-                        compose.onNodeWithText(strings.getString(R.string.share_plan_title)).assertIsDisplayed()
+                        compose.onNodeWithText(strings.getString(R.string.share_plan_title)).performScrollTo().assertIsDisplayed()
                         compose.onNodeWithText(strings.getString(R.string.expected_return)).performScrollTo().assertIsDisplayed()
-                        compose.onNodeWithText(strings.getString(R.string.open_share_options)).assertIsDisplayed()
+                        compose.onNodeWithText(strings.getString(R.string.open_share_options)).performScrollTo().assertIsDisplayed()
                     }
                     if (screen == "Route") compose.onNodeWithContentDescription(strings.getString(R.string.accessibility_geometry,fixture.title)).assertExists()
                     Assert.assertTrue("No accessible heading on $screen",compose.onAllNodes(SemanticsMatcher.keyIsDefined(SemanticsProperties.Heading)).fetchSemanticsNodes().isNotEmpty())

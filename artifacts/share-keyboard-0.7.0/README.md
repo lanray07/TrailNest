@@ -1,0 +1,9 @@
+# Android 0.7 keyboard access evidence
+
+Physical Fire KFTRWI, API 28, with its real software keyboard. Real app composables, default MaterialTheme and synthetic QA fixtures. These are test captures, not marketing screenshots or human-approved translations. Panes are 360/800 dp wide with 100%/200% fonts; dialog height also respects the actual space above the keyboard.
+
+All 76 combinations across 19 locales passed both the keyboard matrix and the general layout/accessibility matrix (684 main screen/configuration combinations). The keyboard matrix records 228 real touchscreen action taps: invalid Share, valid Share with preserved contact, and Cancel for every configuration. Native action bounds are fully above the input-method window before each tap. Callback and validation assertions prove the taps reached the form. Next-key order passes for every configuration. Done, first Back hiding the keyboard, second Back dismissing, and an outside tap with the keyboard open were also checked on en-US-360-1.0.
+
+The general matrix additionally checks 988 control states, 13483 placed target observations, 3693 fully visible hit bounds, 76 keyboard navigation sequences, 380 native accessibility-focus targets and 304 native traversal pairs. Observations are repeated controls, not unique control counts. 912 unplaced lazy-item observations are separately counted and excluded from target measurements.
+
+The device stayed PIN-locked. Instrumentation temporarily allows only synthetic draft dialog windows to show their IME above the lock. No normal-app window gets those flags, and all test windows end with their activities. Global locale/font settings and normal-app data were untouched. No Sharesheet was launched and no message was sent: shared text is captured in memory. All translations remain drafts. Other keyboard/device acceptance and human VoiceView/TalkBack and linguistic review remain pending. See ../../docs/SHARE-KEYBOARD.md and ../../docs/VERIFICATION.md.

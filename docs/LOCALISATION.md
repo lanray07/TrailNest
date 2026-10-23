@@ -1,4 +1,4 @@
-# Localisation drafts — Android 0.6
+# Localisation drafts — Android 0.7
 
 All 19 configured Android locales have **unreviewed drafts**, not release-approved translations: en-US, en-GB, en-AU, en-IN, fr, de, it, es, es-MX, pt-BR, pt-PT, nl, pl, sv, ja, ar, hi, zh-Hans and ko. Each bundle contains 249 strings and four plural resources. Regional English drafts intentionally share much of the source wording; regional adaptation still requires review. Spanish for Mexico also requires regional review.
 
@@ -15,7 +15,7 @@ Navigation uses a scrollable rail on sufficiently wide layouts at normal font si
 - `localisation/<tag>.json`: draft text/forms, source SHA-256 fingerprint, provenance and explicit `reviewed:false`. Safety-related text also requires a named safety reviewer before approval. Plural-category completeness is validated, but plural grammar and regional adaptation remain unreviewed.
 - `app/src/translationPreview/res/values-b+.../`: generated preview-only Android resources with region/script distinctions, including Portuguese variants and Simplified Chinese.
 
-Run `node tools/localise.mjs --check --preview`, then `gradlew.bat :app:assembleTranslationPreview`. The signed development APK installs separately as **TrailNest Draft**, package `com.trailnest.app.draft`, version `0.6.0-draft`, with a visible draft banner. Its data is separate from the normal app. On Android versions supporting per-app language settings, its locale configuration lists the 19 targets; older systems use device language selection where available. This build is for review, not distribution as a supported multilingual product. No in-app machine translation or translation network request is included.
+Run `node tools/localise.mjs --check --preview`, then `gradlew.bat :app:assembleTranslationPreview`. The signed development APK installs separately as **TrailNest Draft**, package `com.trailnest.app.draft`, version `0.7.0-draft`, with a visible draft banner. Its data is separate from the normal app. On Android versions supporting per-app language settings, its locale configuration lists the 19 targets; older systems use device language selection where available. This build is for review, not distribution as a supported multilingual product. No in-app machine translation or translation network request is included.
 
 ## Repeatable device layout matrix
 

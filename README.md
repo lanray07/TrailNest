@@ -1,6 +1,6 @@
 # TrailNest
 
-A working Android development build and companion website for private walk preparation, GPX geometry and a walking journal. **Android version 0.6.0 is not the complete production application described in the brief and is not approved for Appstore submission.** The companion website remains the separate 0.1 preview.
+A working Android development build and companion website for private walk preparation, GPX geometry and a walking journal. **Android version 0.7.0 is not the complete production application described in the brief and is not approved for Appstore submission.** The companion website remains the separate 0.1 preview.
 
 ## Run
 
@@ -20,7 +20,7 @@ Website: `cd website`, `npm run dev`, then open `http://127.0.0.1:4173`. No depe
 - Private, bounded GPX import/export; finite-coordinate checks, XML entity rejection, single continuous route/track policy, 50,000-point/5 MB limits and SHA-256 geometry checks.
 - Offline geometry pack marking with one-pack free limit. All imports are already private local files; marking a pack does not download extra content. No map tiles or reviewed directions are included.
 - Foreground location using Android LocationManager; nearest-segment progress, deviation threshold, stale-fix and accuracy handling; route geometry preview. Touch controls and optional TextToSpeech with audio focus. Push-to-talk uses an installed system recognition activity; only explicit English commands are parsed.
-- Explicit user-initiated Sharesheet plan sharing with editable estimated duration, required future return time (including time-zone/offset in shared text), and optional contact details. Ambiguous/nonexistent daylight-saving times are rejected. No automatic location transmission or emergency monitoring.
+- Explicit user-initiated Sharesheet plan sharing with editable estimated duration, required future return time (including time-zone/offset in shared text), and optional contact details. Ambiguous/nonexistent daylight-saving times are rejected. No automatic location transmission or emergency monitoring. The whole share form scrolls above the software keyboard, with Next/Done input actions; see `docs/SHARE-KEYBOARD.md`.
 - Browser companion with local checklist, journal, GPX geometry tools, country selection, honest coverage states, privacy/support pages, sitemap and WebSite structured data. Browser and Android data are separate and do not sync.
 - Country/locale registries; resource extraction across all default values XML files, plural-category/placeholder validation, translation-draft auditing; editorial record validation/retirement; draft listing copy and an executable release evidence gate. Displayed app text and validation/share messages are resource-backed. All 19 configured locales have complete unreviewed draft bundles (249 strings and four plural resources each). A separate translation-preview build isolates those drafts from normal builds. A repeatable on-device matrix checks normal/200% fonts and narrow/tablet layouts; human linguistic and comprehensive accessibility review remain pending. See `docs/LOCALISATION.md` and `docs/VERIFICATION.md` for executed evidence.
 

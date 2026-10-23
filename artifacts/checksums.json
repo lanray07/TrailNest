@@ -1,29 +1,29 @@
 [
   {
-    "file": "TrailNest-0.6.0-debug.apk",
-    "bytes": 20399095,
-    "sha256": "b1ec4cc5f7d1afba1701f547e9d25b8c83aa2eca81a2f924f2867e902ae4d5c0",
+    "file": "TrailNest-0.7.0-debug.apk",
+    "bytes": 20405012,
+    "sha256": "8f5f0fa379ffcba0803d793707646c518cb0c2b4230a0664070560392aff8c4c",
     "signed": true,
     "productionApproved": false
   },
   {
-    "file": "TrailNest-0.6.0-release-unsigned.apk",
+    "file": "TrailNest-0.7.0-release-unsigned.apk",
     "bytes": 14443779,
-    "sha256": "04f5a196fc69cd80c5afad14b2dc38c52ee21c428717659e2c66ba60253c7d88",
+    "sha256": "620278d14d6322a9045217b5bb41fd8efed99a405bb0f0480999c56089a62db7",
     "signed": false,
     "productionApproved": false
   },
   {
-    "file": "TrailNest-0.6.0-device-tests.apk",
-    "bytes": 1152577,
-    "sha256": "9fe5eb1e6743d31b81f80d6475f2b087fc556bab8a95d553ccc97dccc14350ab",
+    "file": "TrailNest-0.7.0-device-tests.apk",
+    "bytes": 1170296,
+    "sha256": "1083fbc5a134c5ea30cdf3febd1f4ef4b969988c4e0e7dc9d8b4fd67de8dd91b",
     "signed": true,
     "productionApproved": false
   },
   {
-    "file": "TrailNest-0.6.0-translation-preview.apk",
-    "bytes": 20707041,
-    "sha256": "f53e7c3dd15024ad27e598b4ad1e16c2f0ce16fe90602caaa886f0272a031682",
+    "file": "TrailNest-0.7.0-translation-preview.apk",
+    "bytes": 20712942,
+    "sha256": "fee330d0d63d83d8370deb3f246fd22de8fdc60cfcc869a523730d4ec95fd2e9",
     "signed": true,
     "productionApproved": false
   }

@@ -11,8 +11,8 @@ android {
         applicationId = "com.trailnest.app"
         minSdk = 26
         targetSdk = 35
-        versionCode = 6
-        versionName = "0.6.0"
+        versionCode = 7
+        versionName = "0.7.0"
         buildConfigField("boolean", "DRAFT_TRANSLATIONS", "false")
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

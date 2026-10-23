@@ -1,0 +1,139 @@
+{
+  "version": "0.7.0",
+  "versionCode": 7,
+  "date": "2026-10-23",
+  "android": {
+    "debugBuild": "passed",
+    "unsignedReleaseBuild": "passed",
+    "translationPreviewBuild": "passed",
+    "translationPreviewApplicationId": "com.trailnest.app.draft",
+    "translationPreviewVersion": "0.7.0-draft",
+    "jvmTests": {
+      "passed": 36,
+      "failures": 0
+    },
+    "debugLint": {
+      "errors": 0,
+      "warnings": 30
+    },
+    "translationPreviewLint": {
+      "errors": 0,
+      "warnings": 36
+    },
+    "instrumentationBuild": "passed",
+    "instrumentationTests": {
+      "compiled": 11,
+      "executed": 11,
+      "passed": 11,
+      "failures": 0,
+      "seconds": 843.517
+    },
+    "device": {
+      "model": "KFTRWI",
+      "api": 28
+    },
+    "debugSignature": "verified_v2",
+    "translationPreviewSignature": "verified_v2",
+    "physicalFireValidation": "partial_ui_keyboard_accessibility_layout_and_data_tests",
+    "languageLayoutValidation": "passed_device_matrix",
+    "normalAppDataTouched": false,
+    "systemLocale": "en-GB",
+    "systemFontScale": 1
+  },
+  "layoutMatrix": {
+    "configuredLocales": 19,
+    "configurations": 76,
+    "screensPerConfiguration": 9,
+    "screenConfigurations": 684,
+    "fontScales": [
+      1,
+      2
+    ],
+    "viewportsDp": [
+      [
+        360,
+        640
+      ],
+      [
+        800,
+        640
+      ]
+    ],
+    "failures": 0,
+    "report": "artifacts/share-keyboard-0.7.0/layout-matrix.json",
+    "humanLinguisticReview": "pending",
+    "comprehensiveAccessibilityReview": "pending"
+  },
+  "tooling": {
+    "testsPassed": 9
+  },
+  "website": {
+    "testsPassed": 5,
+    "build": "passed",
+    "version": "0.1.0",
+    "deploymentChanged": false,
+    "localisationChanged": false
+  },
+  "totalTestsPassed": 61,
+  "localisation": {
+    "stringsExtracted": 249,
+    "pluralResources": 4,
+    "configuredLocales": 19,
+    "draftEntriesPerLocale": 253,
+    "missingEntries": 0,
+    "invalidEntries": 0,
+    "detectedHardcodedUiPatterns": 0,
+    "approvedLocales": 0,
+    "allEntriesReviewedFalse": true,
+    "draftResourcesIsolatedFromNormalBuilds": true,
+    "humanReview": "pending",
+    "releaseLocalisationCheck": "blocked_as_expected"
+  },
+  "productionReleaseReady": false,
+  "releaseGate": "blocked_for_documented_prerequisites",
+  "checksums": "artifacts/checksums.json",
+  "accessibility": {
+    "configurations": 76,
+    "controlAudits": 988,
+    "labelledActionObservations": 14395,
+    "measuredPlacedTargets": 13483,
+    "unplacedActionObservations": 912,
+    "fullyVisibleTouchBoundsChecked": 3693,
+    "minimumAllocatedTargetDp": 48,
+    "keyboardNavigationSequences": 76,
+    "nativeAccessibilityFocusTargets": 380,
+    "nativeTraversalPairs": 304,
+    "nativeFocusVerification": "refreshed virtual-node accessibility focus flag",
+    "nativeTraversalMethod": "child order and non-conflicting overrides",
+    "failures": 0,
+    "manualVoiceViewTalkBackReview": "pending",
+    "keyboardOpenDialogOcclusionAcceptance": "passed_native_keyboard_bounds_and_real_touch_matrix_on_KFTRWI_API28; other keyboards/devices pending",
+    "humanTranslationReview": "pending"
+  },
+  "shareKeyboard": {
+    "configuredLocales": 19,
+    "configurations": 76,
+    "fontScales": [
+      1,
+      2
+    ],
+    "paneWidthsDp": [
+      360,
+      800
+    ],
+    "actualKeyboardWindowRequired": true,
+    "nativeBoundsMustBeAboveKeyboard": true,
+    "realActionTouches": 228,
+    "invalidSubmissionPreservesForm": true,
+    "validSubmissionPreservesContact": true,
+    "cancellationVerified": true,
+    "imeNextOrder": "duration>return>contact",
+    "doneBackOutsideConfiguration": "en-US-360-1.0",
+    "failures": 0,
+    "report": "artifacts/share-keyboard-0.7.0/keyboard-matrix.json",
+    "otherDeviceKeyboardAcceptance": "pending",
+    "humanSpokenReview": "pending",
+    "inputMethod": "com.amazon.redstone/.FireKeyboardService",
+    "keyboardSystemLocale": "en-GB"
+  }
+}
