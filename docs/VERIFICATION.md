@@ -2,6 +2,12 @@
 
 Build date: 23 October 2026. Commands run in `D:\App Projects\TrailNest` using JDK 17, Android SDK 35, AGP 8.11.1 and Gradle 8.13.
 
+## Premium icon LAT update submitted
+
+On 23 October 2026 Amazon unlocked Test 1: the original annual-billing release showed **Test in-progress**, and **Add upcoming version** was enabled. Copied the existing test into `TrailNest 0.8.1 premium icon LAT` (`amzn1.devportal.apprelease.ae8fab0c47624aa98575b31a06360bc2`). Rechecked the signed APK's SHA-256, package `com.trailnest.app`, version `0.8.1-lat` / code **9**, and v2/v3 signatures. Replaced the copied code-8 APK; Amazon accepted and saved code 9. Retained the 12 selected Fire tablets, English-only language support and only the original TrailNest tester group. Existing content/export declarations were copied without new certifications.
+
+Submitted the upcoming version within Test 1. Amazon's dashboard shows the premium-icon release **Test submitted** and the previous release **Test in-progress**. Publication of the new update and purchase/restore acceptance have not been observed. The upload follow-up automation was paused after success. No production promotion occurred; all translations remain drafts. [Sanitized submission record](../artifacts/premium-icon-lat-submission.json); local screenshot: `artifacts/reports/amazon-setup/premium-lat-submitted.png`.
+
 ## Android 0.8.1 premium icon
 
 Replaced the Android and Amazon draft tablet icons with the generated evergreen/gold medallion. The transparent master, exact prompt and integration details are retained in [design/PREMIUM-ICON.md](../design/PREMIUM-ICON.md). Reviewed the 512px export and a 48px rendering; the adaptive launcher uses an inset foreground to protect the rim. Both Amazon draft icon sizes persisted after page reload; browser proof is saved locally under `artifacts/reports/amazon-setup/premium-listing-icons.png`.

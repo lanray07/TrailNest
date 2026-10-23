@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-23",
+  "appId": "amzn1.devportal.mobileapp.a5a90d52147643eeaca74c16ac6f8d94",
+  "releaseId": "amzn1.devportal.apprelease.ae8fab0c47624aa98575b31a06360bc2",
+  "releaseName": "TrailNest 0.8.1 premium icon LAT",
+  "track": "Test 1",
+  "apk": "TrailNest-0.8.1-lat.apk",
+  "versionCode": 9,
+  "versionName": "0.8.1-lat",
+  "sha256": "56f62aca5e3b771151b324270b2ff2b1368de200a7e69a2ffebe1b477cc476f1",
+  "signatureVerification": [
+    "v2",
+    "v3"
+  ],
+  "amazonUploadAccepted": true,
+  "amazonVersionCodeObserved": 9,
+  "status": "Test submitted",
+  "previousReleaseStatus": "Test in-progress",
+  "deviceSelectionsRetained": 12,
+  "languageSupport": [
+    "English"
+  ],
+  "testerGroup": "TrailNest annual billing LAT",
+  "onlyOriginalTesterGroupSelected": true,
+  "publicProductionSubmitted": false,
+  "translations": "19 locales remain draft, zero approved",
+  "proof": "artifacts/reports/amazon-setup/premium-lat-submitted.png",
+  "newPurchaseAcceptancePerformed": false
+}
