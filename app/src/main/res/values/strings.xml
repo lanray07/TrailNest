@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TrailNest</string>
+    <string name="discover">Discover</string>
+    <string name="my_walks">My walks</string>
+    <string name="offline">Offline packs</string>
+    <string name="checklist">Checklist</string>
+    <string name="settings">Settings</string>
+    <string name="headline">A little further.\nA little freer.</string>
+    <string name="tagline">Discover more. Walk confidently. Explore your way.</string>
+    <string name="no_routes">Good walks start with good information.</string>
+    <string name="coverage_message">Our UK route collection is being prepared. Only reviewed routes will appear here.</string>
+</resources>

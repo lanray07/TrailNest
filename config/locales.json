@@ -1,0 +1,26 @@
+{
+  "checkedOn": "2026-10-23",
+  "source": "https://developer.amazon.com/docs/app-submission/distribute-your-app-internationally.html",
+  "note": "Official storefront locales are separate from device language preferences. Recheck the source before each release; en-GB and es-MX are requested in-app targets, not separately listed storefront localizations in this source.",
+  "locales": [
+    {"tag":"en-US","amazonListing":true,"reviewed":false},
+    {"tag":"en-GB","amazonListing":false,"reviewed":false},
+    {"tag":"en-AU","amazonListing":true,"reviewed":false},
+    {"tag":"en-IN","amazonListing":true,"reviewed":false},
+    {"tag":"fr","amazonListing":true,"reviewed":false},
+    {"tag":"de","amazonListing":true,"reviewed":false},
+    {"tag":"it","amazonListing":true,"reviewed":false},
+    {"tag":"es","amazonListing":true,"reviewed":false},
+    {"tag":"es-MX","amazonListing":false,"reviewed":false},
+    {"tag":"pt-BR","amazonListing":true,"reviewed":false},
+    {"tag":"pt-PT","amazonListing":true,"reviewed":false},
+    {"tag":"nl","amazonListing":true,"reviewed":false},
+    {"tag":"pl","amazonListing":true,"reviewed":false},
+    {"tag":"sv","amazonListing":true,"reviewed":false},
+    {"tag":"ja","amazonListing":true,"reviewed":false},
+    {"tag":"ar","amazonListing":false,"reviewed":false,"rtl":true,"optional":true},
+    {"tag":"hi","amazonListing":false,"reviewed":false,"optional":true},
+    {"tag":"zh-Hans","amazonListing":false,"reviewed":false,"optional":true},
+    {"tag":"ko","amazonListing":false,"reviewed":false,"optional":true}
+  ]
+}

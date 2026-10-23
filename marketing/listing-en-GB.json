@@ -1,0 +1,15 @@
+{
+  "status": "development_draft_not_for_submission",
+  "proposedCommercialTitle": "TrailNest – Walks, Hiking & Offline Maps",
+  "titleAvailability": "not_verified",
+  "currentBuildTitle": "TrailNest – Walk Journal & Preparation",
+  "shortDescription": "Prepare your next walk, keep a private journal and import your own GPX geometry. This development build has no published route catalogue, offline basemap downloads or purchasing.",
+  "longDescription": "TrailNest is a calm, private companion for preparing and remembering walks. Check your essentials before heading outdoors, record completed walks with notes, ratings and favourites, and import one continuous GPX route or track. View the imported geometry and save one route as an offline geometry pack. Imported routes are private and unreviewed. No rights of access are implied.\n\nThe Android development build offers foreground location progress where the device provides location, with accuracy and stale-fix checks. Compatible installed voices can read progress aloud. Speech recognition depends on the device service and may require internet.\n\nThe reviewed UK walking route catalogue is being prepared. No curated routes, offline basemap tiles, validated turn-by-turn guidance, premium products or subscriptions are available in this version. TrailNest does not provide emergency monitoring.\n\nYour journal and preferences stay on your device. No accounts, advertising or analytics are implemented.",
+  "features": ["Prepare with a persistent personal checklist", "Keep a private walking journal", "Import and export GPX route geometry", "Store one offline route geometry pack", "Choose miles or kilometres and light or dark appearance"],
+  "keywords": ["walk journal", "walking checklist", "GPX geometry", "walk preparation"],
+  "releaseNotes": "Initial development build. Device and Appstore acceptance testing pending.",
+  "metadataSource": "https://developer.amazon.com/docs/app-submission/appstore-details.html",
+  "verifiedLimits": {"shortDescriptionBytes":2000,"longDescriptionCharacters":4000,"featureBulletsMin":3,"featureBulletsMax":5},
+  "unknownLimits": ["display title limit and availability require Developer Console verification"],
+  "checkedOn": "2026-10-23"
+}

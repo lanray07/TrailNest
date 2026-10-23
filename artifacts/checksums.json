@@ -1,0 +1,23 @@
+[
+  {
+    "file": "TrailNest-0.1.0-debug.apk",
+    "bytes": 20336539,
+    "sha256": "0e4fa0e25da95f9954a0d89eb92bbb16633fb6b8aa92565550eb201c738c1f87",
+    "signed": true,
+    "productionApproved": false
+  },
+  {
+    "file": "TrailNest-0.1.0-release-unsigned.apk",
+    "bytes": 14237059,
+    "sha256": "2c2d628125e45929a43b7e696b9650cf6f8a4abdc8514d9412db4232b3ec9fb6",
+    "signed": false,
+    "productionApproved": false
+  },
+  {
+    "file": "TrailNest-0.1.0-device-tests.apk",
+    "bytes": 1084377,
+    "sha256": "aee71b68ce6c46895a8c103b25e3449d394f5c40a6e421fa81b7ac2e350f8ebf",
+    "signed": true,
+    "productionApproved": false
+  }
+]

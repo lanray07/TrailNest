@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "capabilityStates": ["supported_verified","supported_limited","planned","unavailable"],
+  "countries": [
+    {"iso":"GB","languages":["en-GB"],"units":"imperial","mapProviders":[],"coverage":"planned","offlineMaps":false,"accessRules":[],"emergencySources":[],"products":[],"legalNotices":[],"contentStatus":"awaiting_licensed_reviewed_routes"},
+    {"iso":"US","languages":["en-US"],"units":"imperial","mapProviders":[],"coverage":"planned","offlineMaps":false,"accessRules":[],"emergencySources":[],"products":[],"legalNotices":[],"contentStatus":"planned"},
+    {"iso":"CA","languages":["en-CA","fr-CA"],"units":"metric","mapProviders":[],"coverage":"planned","offlineMaps":false,"accessRules":[],"emergencySources":[],"products":[],"legalNotices":[],"contentStatus":"planned"},
+    {"iso":"DE","languages":["de"],"units":"metric","mapProviders":[],"coverage":"planned","offlineMaps":false,"accessRules":[],"emergencySources":[],"products":[],"legalNotices":[],"contentStatus":"planned"},
+    {"iso":"FR","languages":["fr"],"units":"metric","mapProviders":[],"coverage":"planned","offlineMaps":false,"accessRules":[],"emergencySources":[],"products":[],"legalNotices":[],"contentStatus":"planned"},
+    {"iso":"IT","languages":["it"],"units":"metric","mapProviders":[],"coverage":"planned","offlineMaps":false,"accessRules":[],"emergencySources":[],"products":[],"legalNotices":[],"contentStatus":"planned"},
+    {"iso":"ES","languages":["es"],"units":"metric","mapProviders":[],"coverage":"planned","offlineMaps":false,"accessRules":[],"emergencySources":[],"products":[],"legalNotices":[],"contentStatus":"planned"},
+    {"iso":"NL","languages":["nl"],"units":"metric","mapProviders":[],"coverage":"planned","offlineMaps":false,"accessRules":[],"emergencySources":[],"products":[],"legalNotices":[],"contentStatus":"planned"},
+    {"iso":"JP","languages":["ja"],"units":"metric","mapProviders":[],"coverage":"planned","offlineMaps":false,"accessRules":[],"emergencySources":[],"products":[],"legalNotices":[],"contentStatus":"planned"},
+    {"iso":"AU","languages":["en-AU"],"units":"metric","mapProviders":[],"coverage":"planned","offlineMaps":false,"accessRules":[],"emergencySources":[],"products":[],"legalNotices":[],"contentStatus":"planned"}
+  ]
+}

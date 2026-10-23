@@ -1,0 +1,15 @@
+.gradle/
+.kotlin/
+**/build/
+local.properties
+**/node_modules/
+website/dist/
+*.jks
+*.keystore
+.env*
+.idea/
+tools/.cache/
+artifacts/*.apk
+artifacts/*.tar.gz
+artifacts/*.log
+artifacts/reports/

@@ -1,0 +1,387 @@
+{
+  "generatedAt": "2026-10-23T06:38:00.606Z",
+  "registryCheckedOn": "2026-10-23",
+  "resourceStrings": 10,
+  "fullyLocalised": false,
+  "locales": [
+    {
+      "tag": "en-US",
+      "amazonListing": true,
+      "missing": [
+        "app_name",
+        "discover",
+        "my_walks",
+        "offline",
+        "checklist",
+        "settings",
+        "headline",
+        "tagline",
+        "no_routes",
+        "coverage_message"
+      ],
+      "invalid": [],
+      "needsReview": [],
+      "approved": false
+    },
+    {
+      "tag": "en-GB",
+      "amazonListing": false,
+      "missing": [
+        "app_name",
+        "discover",
+        "my_walks",
+        "offline",
+        "checklist",
+        "settings",
+        "headline",
+        "tagline",
+        "no_routes",
+        "coverage_message"
+      ],
+      "invalid": [],
+      "needsReview": [],
+      "approved": false
+    },
+    {
+      "tag": "en-AU",
+      "amazonListing": true,
+      "missing": [
+        "app_name",
+        "discover",
+        "my_walks",
+        "offline",
+        "checklist",
+        "settings",
+        "headline",
+        "tagline",
+        "no_routes",
+        "coverage_message"
+      ],
+      "invalid": [],
+      "needsReview": [],
+      "approved": false
+    },
+    {
+      "tag": "en-IN",
+      "amazonListing": true,
+      "missing": [
+        "app_name",
+        "discover",
+        "my_walks",
+        "offline",
+        "checklist",
+        "settings",
+        "headline",
+        "tagline",
+        "no_routes",
+        "coverage_message"
+      ],
+      "invalid": [],
+      "needsReview": [],
+      "approved": false
+    },
+    {
+      "tag": "fr",
+      "amazonListing": true,
+      "missing": [
+        "app_name",
+        "discover",
+        "my_walks",
+        "offline",
+        "checklist",
+        "settings",
+        "headline",
+        "tagline",
+        "no_routes",
+        "coverage_message"
+      ],
+      "invalid": [],
+      "needsReview": [],
+      "approved": false
+    },
+    {
+      "tag": "de",
+      "amazonListing": true,
+      "missing": [
+        "app_name",
+        "discover",
+        "my_walks",
+        "offline",
+        "checklist",
+        "settings",
+        "headline",
+        "tagline",
+        "no_routes",
+        "coverage_message"
+      ],
+      "invalid": [],
+      "needsReview": [],
+      "approved": false
+    },
+    {
+      "tag": "it",
+      "amazonListing": true,
+      "missing": [
+        "app_name",
+        "discover",
+        "my_walks",
+        "offline",
+        "checklist",
+        "settings",
+        "headline",
+        "tagline",
+        "no_routes",
+        "coverage_message"
+      ],
+      "invalid": [],
+      "needsReview": [],
+      "approved": false
+    },
+    {
+      "tag": "es",
+      "amazonListing": true,
+      "missing": [
+        "app_name",
+        "discover",
+        "my_walks",
+        "offline",
+        "checklist",
+        "settings",
+        "headline",
+        "tagline",
+        "no_routes",
+        "coverage_message"
+      ],
+      "invalid": [],
+      "needsReview": [],
+      "approved": false
+    },
+    {
+      "tag": "es-MX",
+      "amazonListing": false,
+      "missing": [
+        "app_name",
+        "discover",
+        "my_walks",
+        "offline",
+        "checklist",
+        "settings",
+        "headline",
+        "tagline",
+        "no_routes",
+        "coverage_message"
+      ],
+      "invalid": [],
+      "needsReview": [],
+      "approved": false
+    },
+    {
+      "tag": "pt-BR",
+      "amazonListing": true,
+      "missing": [
+        "app_name",
+        "discover",
+        "my_walks",
+        "offline",
+        "checklist",
+        "settings",
+        "headline",
+        "tagline",
+        "no_routes",
+        "coverage_message"
+      ],
+      "invalid": [],
+      "needsReview": [],
+      "approved": false
+    },
+    {
+      "tag": "pt-PT",
+      "amazonListing": true,
+      "missing": [
+        "app_name",
+        "discover",
+        "my_walks",
+        "offline",
+        "checklist",
+        "settings",
+        "headline",
+        "tagline",
+        "no_routes",
+        "coverage_message"
+      ],
+      "invalid": [],
+      "needsReview": [],
+      "approved": false
+    },
+    {
+      "tag": "nl",
+      "amazonListing": true,
+      "missing": [
+        "app_name",
+        "discover",
+        "my_walks",
+        "offline",
+        "checklist",
+        "settings",
+        "headline",
+        "tagline",
+        "no_routes",
+        "coverage_message"
+      ],
+      "invalid": [],
+      "needsReview": [],
+      "approved": false
+    },
+    {
+      "tag": "pl",
+      "amazonListing": true,
+      "missing": [
+        "app_name",
+        "discover",
+        "my_walks",
+        "offline",
+        "checklist",
+        "settings",
+        "headline",
+        "tagline",
+        "no_routes",
+        "coverage_message"
+      ],
+      "invalid": [],
+      "needsReview": [],
+      "approved": false
+    },
+    {
+      "tag": "sv",
+      "amazonListing": true,
+      "missing": [
+        "app_name",
+        "discover",
+        "my_walks",
+        "offline",
+        "checklist",
+        "settings",
+        "headline",
+        "tagline",
+        "no_routes",
+        "coverage_message"
+      ],
+      "invalid": [],
+      "needsReview": [],
+      "approved": false
+    },
+    {
+      "tag": "ja",
+      "amazonListing": true,
+      "missing": [
+        "app_name",
+        "discover",
+        "my_walks",
+        "offline",
+        "checklist",
+        "settings",
+        "headline",
+        "tagline",
+        "no_routes",
+        "coverage_message"
+      ],
+      "invalid": [],
+      "needsReview": [],
+      "approved": false
+    },
+    {
+      "tag": "ar",
+      "amazonListing": false,
+      "missing": [
+        "app_name",
+        "discover",
+        "my_walks",
+        "offline",
+        "checklist",
+        "settings",
+        "headline",
+        "tagline",
+        "no_routes",
+        "coverage_message"
+      ],
+      "invalid": [],
+      "needsReview": [],
+      "approved": false
+    },
+    {
+      "tag": "hi",
+      "amazonListing": false,
+      "missing": [
+        "app_name",
+        "discover",
+        "my_walks",
+        "offline",
+        "checklist",
+        "settings",
+        "headline",
+        "tagline",
+        "no_routes",
+        "coverage_message"
+      ],
+      "invalid": [],
+      "needsReview": [],
+      "approved": false
+    },
+    {
+      "tag": "zh-Hans",
+      "amazonListing": false,
+      "missing": [
+        "app_name",
+        "discover",
+        "my_walks",
+        "offline",
+        "checklist",
+        "settings",
+        "headline",
+        "tagline",
+        "no_routes",
+        "coverage_message"
+      ],
+      "invalid": [],
+      "needsReview": [],
+      "approved": false
+    },
+    {
+      "tag": "ko",
+      "amazonListing": false,
+      "missing": [
+        "app_name",
+        "discover",
+        "my_walks",
+        "offline",
+        "checklist",
+        "settings",
+        "headline",
+        "tagline",
+        "no_routes",
+        "coverage_message"
+      ],
+      "invalid": [],
+      "needsReview": [],
+      "approved": false
+    }
+  ],
+  "hardcodedComposeStrings": [
+    {
+      "file": "app\\src\\main\\java\\com\\trailnest\\app\\ui\\TrailApp.kt",
+      "count": 18
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\trailnest\\app\\ui\\PlanningScreens.kt",
+      "count": 47
+    },
+    {
+      "file": "app\\src\\main\\java\\com\\trailnest\\app\\ui\\RouteScreen.kt",
+      "count": 10
+    }
+  ],
+  "plurals": {
+    "status": "not_implemented",
+    "message": "No plurals resources exist yet. Convert quantity-dependent hardcoded UI to Android plurals before locale release."
+  }
+}

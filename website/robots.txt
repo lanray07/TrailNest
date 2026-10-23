@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://trailnest-walks.boboyen411891.chatgpt.site/sitemap.xml

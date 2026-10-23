@@ -1,0 +1,15 @@
+{
+  "releaseReady": false,
+  "failures": [
+    "No verified country coverage or contracted map provider.",
+    "No licensed, editorially approved routes published.",
+    "Listing locales, in-app string migration and human review incomplete.",
+    "Physical Fire tablet test evidence missing.",
+    "Amazon SDK, product and server RVS verification missing.",
+    "Release signing missing.",
+    "Operator, support contact and privacy review missing.",
+    "Eight honest, localised Android marketing screenshots missing.",
+    "Accessibility and RTL review missing.",
+    "Appstore title availability missing."
+  ]
+}
