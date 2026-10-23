@@ -2,7 +2,19 @@
 
 Build date: 23 October 2026. Commands run in `D:\App Projects\TrailNest` using JDK 17, Android SDK 35, AGP 8.11.1 and Gradle 8.13.
 
-## Amazon console, hosted sandbox and physical App Tester setup
+## Dedicated LAT configuration and test submission
+
+On 23 October 2026 the owner authorized direct transfer of the Amazon RVS shared key into Vercel LAT Secret storage and nominated one consenting tester. The transfer completed without printing the credential, writing it locally or putting it in the APK/Git. A separate RSA-3072 verifier key was generated in memory; its private key is in Vercel Secret storage only. Node 22 LAT deployment readiness returned anonymous 204; malformed verification requests returned 400 and static source paths 404. A 20/minute/IP WAF test returned 429 on request 21. An actual Preview deployment returned 302 to Vercel Authentication; existing protection settings were retained. Readiness is not evidence of a verified real LAT receipt.
+
+The dedicated non-debuggable `lat` variant built with `:app:assembleLat :app:testDebugUnitTest :app:lintLat -PtrailnestLatBillingEnabled=true --offline --max-workers=2` (**4m 19s**). **62 JVM tests** passed; LAT lint had zero errors / 23 warnings. The normal `:app:assembleRelease :app:lintDebug` check passed (**2m 35s**), with zero debug lint errors / 32 warnings; normal release BuildConfig retained `BILLING_ENABLED=false`, `LAT_BUILD=false`, environment production and no configured SKUs/URL. A deliberate attempt to enable LAT on `assembleRelease` was rejected by the existing release guard. Backend/tooling tests passed **25/25** and localisation audit passed for all 19 draft bundles, with zero approved locales.
+
+Signed `artifacts/TrailNest-0.8.0-lat.apk` with a separate LAT-only Android key stored outside Git under the owner's protected credential directory. The password is protected with Windows DPAPI; directory ACLs restrict access to owner/SYSTEM. APK signatures v2/v3 verify, the package is `com.trailnest.app`, version code 8 / `0.8.0-lat`, and both packaged public keys match the intended Amazon/LAT pins. The APK includes English fallback only and is labelled TrailNest LAT. [SHA-256 and sanitized environment evidence](../artifacts/amazon-lat-setup.json).
+
+Uploaded the signed APK and rendered existing vector icon to the dedicated LAT release, declared its actual data/location/private-content features and enabled English only. The portal accepted the content questionnaire; its general warning about personal information remains relevant for Amazon's review. After explicit owner confirmation, applied export compliance and tester rights/consent/18+ certifications, registered the one-member TrailNest group and selected only that group. Uploaded both subscription icons and submitted the annual IAP using **Submit to Test**; the dashboard shows **TEST / Approved** at GBP 4.99 annually. No live IAP promotion occurred.
+
+Submitted LAT release `TrailNest annual billing LAT 2026-10-23` (`amzn1.devportal.apprelease.7731a438b4bf42ec8d2a3abc8b6071a0`). Amazon's authoritative dashboard result is **Test submitted**. Manage testers is disabled until publication; invitation delivery and actual LAT purchase/restore/renewal/fulfillment have not been observed. The binary is selected for 12 Fire tablet models, with a portal API-filtering warning for other devices. This is test submission, not public Appstore submission or production approval. All translations remain drafts.
+
+## Initial Amazon console, hosted sandbox and physical App Tester setup (before LAT submission)
 
 Created the unpublished TrailNest console app and annual term at GBP 4.99 (Amazon-calculated US price USD 6.69), saved the actual Amazon public key, and deployed the Node 22 Vercel adapter with a separate sandbox RSA key. The owner authorized a public sandbox Production alias with protected Previews. Actual edge testing returned 429 on request 21 of a 20/minute/IP window. Final anonymous checks returned readiness 204, malformed JSON-body request 400 and static server-source path 404. See [sanitized setup record](../artifacts/amazon-setup.json) and [setup guide](AMAZON-SETUP.md).
 

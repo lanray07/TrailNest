@@ -114,7 +114,7 @@ class AmazonBillingRuntime private constructor(context: Context) {
         override fun elapsed() = SystemClock.elapsedRealtime()
         override fun boot() = runCatching { Settings.Global.getInt(app.contentResolver, Settings.Global.BOOT_COUNT, -1) }.getOrDefault(-1).takeIf { it >= 0 } ?: processBootFallback
     }
-    private val guard = if (BuildConfig.BILLING_ENABLED && (BuildConfig.DEBUG || BuildConfig.BILLING_ENVIRONMENT == "production")) runCatching {
+    private val guard = if (BuildConfig.BILLING_ENABLED && billingBuildAllowed(BuildConfig.DEBUG, BuildConfig.BILLING_ENVIRONMENT, BuildConfig.LAT_BUILD)) runCatching {
         app.assets.open("AppstoreAuthenticationKey.pem").use { require(it.read() >= 0) }
         LeaseGuard(app.assets.open("billing-verifier-public.pem").bufferedReader().use { it.readText() }, BuildConfig.APPLICATION_ID,
             BuildConfig.BILLING_ENVIRONMENT, BuildConfig.BILLING_PARENT_SKU, BuildConfig.BILLING_ANNUAL_SKU, clock)

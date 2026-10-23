@@ -11,11 +11,16 @@ val billingEnvironment = providers.gradleProperty("trailnestBillingEnvironment")
 val billingParent = providers.gradleProperty("trailnestBillingParentSku").getOrElse("")
 val billingAnnual = providers.gradleProperty("trailnestBillingAnnualSku").getOrElse("")
 val billingUrl = providers.gradleProperty("trailnestBillingVerificationUrl").getOrElse("")
+val latBillingEnabled = providers.gradleProperty("trailnestLatBillingEnabled").getOrElse("false") == "true"
+val latBillingUrl = "https://trailnest-billing-lat.vercel.app/v1/amazon/verify"
 fun billingLiteral(value: String): String {
     require(value.none { it.code < 32 }) { "Invalid billing build setting" }
     return "\"" + value.replace("\\", "\\\\").replace("\"", "\\\"") + "\""
 }
 require(billingEnvironment in listOf("production", "sandbox", "lat"))
+if (latBillingEnabled) {
+    require(file("src/main/assets/AppstoreAuthenticationKey.pem").isFile && file("src/lat/assets/billing-verifier-public.pem").isFile) { "Configure the independent LAT public keys" }
+}
 if (billingEnabled) {
     require(billingParent.matches(Regex("[A-Za-z0-9._-]{1,200}")) && billingAnnual.matches(Regex("[A-Za-z0-9._-]{1,200}"))) { "Configure actual Amazon subscription SKUs" }
     val endpoint = URI(billingUrl)
@@ -33,6 +38,7 @@ android {
         versionCode = 8
         versionName = "0.8.0"
         buildConfigField("boolean", "DRAFT_TRANSLATIONS", "false")
+        buildConfigField("boolean", "LAT_BUILD", "false")
         buildConfigField("boolean", "BILLING_ENABLED", billingEnabled.toString())
         buildConfigField("String", "BILLING_ENVIRONMENT", billingLiteral(billingEnvironment))
         buildConfigField("String", "BILLING_PARENT_SKU", billingLiteral(billingParent))
@@ -55,6 +61,20 @@ android {
             versionNameSuffix = "-draft"
             matchingFallbacks += "debug"
             buildConfigField("boolean", "DRAFT_TRANSLATIONS", "true")
+        }
+        create("lat") {
+            initWith(getByName("release"))
+            isDebuggable = false
+            signingConfig = null
+            versionNameSuffix = "-lat"
+            matchingFallbacks += "release"
+            resValue("string", "lat_app_name", "TrailNest LAT")
+            buildConfigField("boolean", "LAT_BUILD", "true")
+            buildConfigField("boolean", "BILLING_ENABLED", latBillingEnabled.toString())
+            buildConfigField("String", "BILLING_ENVIRONMENT", billingLiteral("lat"))
+            buildConfigField("String", "BILLING_PARENT_SKU", billingLiteral("com.trailnest.premium"))
+            buildConfigField("String", "BILLING_ANNUAL_SKU", billingLiteral("com.trailnest.premium_term"))
+            buildConfigField("String", "BILLING_VERIFICATION_URL", billingLiteral(latBillingUrl))
         }
     }
 }

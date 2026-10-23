@@ -10,6 +10,7 @@ website/dist/
 .idea/
 tools/.cache/
 artifacts/*.apk
+artifacts/*.apk.idsig
 artifacts/*.tar.gz
 artifacts/*.log
 artifacts/reports/

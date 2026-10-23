@@ -8,6 +8,14 @@ import java.security.Signature
 import java.util.Base64
 
 class BillingTest {
+    @Test fun nonProductionBillingRequiresDebugOrDedicatedLatBuild() {
+        assertFalse(billingBuildAllowed(false, "lat", false))
+        assertFalse(billingBuildAllowed(false, "sandbox", false))
+        assertFalse(billingBuildAllowed(false, "sandbox", true))
+        assertTrue(billingBuildAllowed(false, "lat", true))
+        assertTrue(billingBuildAllowed(false, "production", false))
+        assertTrue(billingBuildAllowed(true, "sandbox", false))
+    }
     @Test fun appTesterAnnualSpellingIsNormalizedOnlyInSandbox() {
         assertEquals("Annual", amazonSubscriptionPeriod("Annually", true))
         assertEquals("Annual", amazonSubscriptionPeriod("Annual", true))

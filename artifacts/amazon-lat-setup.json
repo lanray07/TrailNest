@@ -1,0 +1,109 @@
+{
+  "checkedOn": "2026-10-23",
+  "productionApproved": false,
+  "verifier": {
+    "url": "https://trailnest-billing-lat.vercel.app/v1/amazon/verify",
+    "projectId": "prj_77R1enZh8tGps7njlv5W509qzL2B",
+    "deploymentId": "dpl_J28JPVkwXdd9cKjovnVrujndcP2W",
+    "node": "22.x",
+    "environment": "lat",
+    "applicationId": "com.trailnest.app",
+    "parentSku": "com.trailnest.premium",
+    "annualSku": "com.trailnest.premium_term",
+    "actualSharedKeyTransferredDirectlyToSecretStorage": true,
+    "sharedKeySavedLocallyOrCommitted": false,
+    "independentRsaSigningKeyBits": 3072,
+    "privateSigningKeyInVercelOnly": true,
+    "latPublicKeySha256": "98c6d0fdd22db2118a8a12ff53a117d8fd21d426aec93643bc403312754924b8",
+    "anonymousReadyStatus": 204,
+    "invalidBodyStatus": 400,
+    "staticServerSourceStatus": 404,
+    "edgeLimitPerMinutePerIp": 20,
+    "observed21stStatus": 429,
+    "edgeTestPerformedBeforeReady": true,
+    "previewAnonymousStatus": 302,
+    "previewRedirectHost": "vercel.com",
+    "existingSsoProtectionRetained": "all_except_custom_domains",
+    "activeLatReceiptVerified": false
+  },
+  "apk": {
+    "file": "TrailNest-0.8.0-lat.apk",
+    "bytes": 14652292,
+    "sha256": "5367ba88aa9c044e9ebc8416d988c6666c50735df00a893af037caf44f4a8417",
+    "package": "com.trailnest.app",
+    "versionCode": 8,
+    "versionName": "0.8.0-lat",
+    "debuggable": false,
+    "latBuild": true,
+    "billingEnabled": true,
+    "unreviewedLocaleResourcesIncluded": false,
+    "packagedPublicKeysMatched": true,
+    "signatureSchemes": [
+      "v2",
+      "v3"
+    ],
+    "signerCertificateSha256": "81165e89362519d5f691d581536e2393cb8370b4260b0f7118eb46bc60487077",
+    "latOnlyAndroidSigningKeyOutsideRepository": true,
+    "passwordProtectedByWindowsDpapi": true,
+    "productionBinary": false
+  },
+  "amazon": {
+    "appId": "amzn1.devportal.mobileapp.a5a90d52147643eeaca74c16ac6f8d94",
+    "latReleaseId": "amzn1.devportal.apprelease.7731a438b4bf42ec8d2a3abc8b6071a0",
+    "releaseName": "TrailNest annual billing LAT 2026-10-23",
+    "status": "Test submitted",
+    "iapStatus": "Approved",
+    "iapScope": "TEST only",
+    "apkUploaded": true,
+    "appAndIapIconsUploaded": true,
+    "languageSupport": [
+      "English"
+    ],
+    "exportCertificationExplicitlyConfirmedByOwner": true,
+    "testerCertificationExplicitlyConfirmedByOwner": true,
+    "testerGroup": "TrailNest annual billing LAT",
+    "testersRegisteredAndAssigned": 1,
+    "testerAddressesCommitted": false,
+    "invitationDeliveryObserved": false,
+    "contentQuestionnaireComplete": true,
+    "declaredPersonalInformation": true,
+    "declaredLocationServices": true,
+    "declaredUserGeneratedContent": true,
+    "selectedFireTabletModels": 12,
+    "selectedTvModels": 0,
+    "selectedAutomotiveModels": 0,
+    "apiDeviceFilteringWarningObserved": true,
+    "latPublicationPending": true,
+    "latPurchasesExecuted": false,
+    "publicAppstoreSubmitted": false
+  },
+  "checks": {
+    "androidJvmTestsPassed": 62,
+    "backendTestsPassed": 16,
+    "toolingTestsPassed": 9,
+    "latLint": {
+      "errors": 0,
+      "warnings": 23
+    },
+    "debugLint": {
+      "errors": 0,
+      "warnings": 32
+    },
+    "normalReleaseAssembled": true,
+    "normalReleaseBillingEnabled": false,
+    "normalReleaseLatBuild": false,
+    "nonProductionNormalReleaseGuardRejected": true,
+    "localisationAuditPassed": true,
+    "configuredLocales": 19,
+    "approvedLocales": 0
+  },
+  "remaining": [
+    "Amazon LAT publication and invitation delivery",
+    "Install through LAT under the consenting Amazon tester account",
+    "Verify actual signed LAT entitlement, durable persistence, fulfillment and restore",
+    "Exercise remaining renewal/refund/account/offline/failure acceptance",
+    "Review wider device coverage and privacy/store declarations",
+    "Prepare separately configured production service and signed production build",
+    "Human review of draft translations"
+  ]
+}
