@@ -152,6 +152,11 @@
     <string name="distance_miles_value">%1$s mi</string>
     <string name="distance_km_value">%1$s kilómetros</string>
     <string name="translation_draft_notice">Vista previa de traducción no revisada · Solo borradores</string>
+    <string name="accessibility_action_for">%1$s: %2$s</string>
+    <string name="accessibility_rating">%1$d de 5 estrellas para %2$s</string>
+    <string name="accessibility_expanded">Expandido</string>
+    <string name="accessibility_collapsed">Contraído</string>
+    <string name="accessibility_geometry">Vista general de la geometría de la ruta para %1$s</string>
     <string name="checklist_title">Un poco de preparación ayuda mucho.</string>
     <string name="checklist_description">Tu lista de verificación personal previa a la caminata. Adapta tu kit a la ruta, la climatología y tus necesidades.</string>
     <string name="checklist_safety">Una lista de verificación completa no puede garantizar la seguridad. Consulta las condiciones actuales, el acceso y tu propia capacidad.</string>

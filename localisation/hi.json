@@ -2240,5 +2240,35 @@
     "sourceHash": "be2f542729b77c98d4b65afdc0de2c21be1ab22be9b47721dd7e480c7c9f2fb0",
     "reviewed": false,
     "provenance": "agent draft; human review pending"
+  },
+  "accessibility_expanded": {
+    "text": "विस्तृत",
+    "sourceHash": "9853d6612eebe7fc530d1855d671f1a2a3eaa26b29705fd9a88020b155176069",
+    "reviewed": false,
+    "provenance": "agent accessibility draft; human linguistic and assistive-technology review pending"
+  },
+  "accessibility_collapsed": {
+    "text": "संक्षिप्त",
+    "sourceHash": "5f0335ddd5bfa699fdee4be12f5a9bd4bf67c56bfc3bff42d608dcfd5106d1c1",
+    "reviewed": false,
+    "provenance": "agent accessibility draft; human linguistic and assistive-technology review pending"
+  },
+  "accessibility_rating": {
+    "text": "%2$s के लिए 5 में से %1$d तारे",
+    "sourceHash": "23492f816b27e146e8fee005f4c1d763f5050f696136c44020f7af820c513044",
+    "reviewed": false,
+    "provenance": "agent accessibility draft; human linguistic and assistive-technology review pending"
+  },
+  "accessibility_geometry": {
+    "text": "%1$s के मार्ग की आकृति का अवलोकन",
+    "sourceHash": "9c74575834ff2adbd576a21d93aea2ee2768c6555409d96f2581b9e3dd60bdce",
+    "reviewed": false,
+    "provenance": "agent accessibility draft; human linguistic and assistive-technology review pending"
+  },
+  "accessibility_action_for": {
+    "text": "%1$s: %2$s",
+    "sourceHash": "9fd41ba9abc9e1e9af8963f445db0131f1dcfd4bbcea049369800d1ce10e3a67",
+    "reviewed": false,
+    "provenance": "agent accessibility draft; human linguistic and assistive-technology review pending"
   }
 }

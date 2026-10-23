@@ -1,0 +1,113 @@
+{
+  "version": "0.6.0",
+  "versionCode": 6,
+  "date": "2026-10-23",
+  "android": {
+    "debugBuild": "passed",
+    "unsignedReleaseBuild": "passed",
+    "translationPreviewBuild": "passed",
+    "translationPreviewApplicationId": "com.trailnest.app.draft",
+    "translationPreviewVersion": "0.6.0-draft",
+    "jvmTests": {
+      "passed": 36,
+      "failures": 0
+    },
+    "debugLint": {
+      "errors": 0,
+      "warnings": 30
+    },
+    "translationPreviewLint": {
+      "errors": 0,
+      "warnings": 36
+    },
+    "instrumentationBuild": "passed",
+    "instrumentationTests": {
+      "compiled": 10,
+      "executed": 10,
+      "passed": 10,
+      "failures": 0,
+      "seconds": 494.882
+    },
+    "device": {
+      "model": "KFTRWI",
+      "api": 28
+    },
+    "debugSignature": "verified_v2",
+    "translationPreviewSignature": "verified_v2",
+    "physicalFireValidation": "partial_ui_accessibility_layout_and_data_tests",
+    "languageLayoutValidation": "passed_device_matrix",
+    "normalAppDataTouched": false,
+    "systemLocale": "en-GB",
+    "systemFontScale": 1
+  },
+  "layoutMatrix": {
+    "configuredLocales": 19,
+    "configurations": 76,
+    "screensPerConfiguration": 9,
+    "screenConfigurations": 684,
+    "fontScales": [
+      1,
+      2
+    ],
+    "viewportsDp": [
+      [
+        360,
+        640
+      ],
+      [
+        800,
+        640
+      ]
+    ],
+    "failures": 0,
+    "report": "artifacts/accessibility-0.6.0/matrix.json",
+    "humanLinguisticReview": "pending",
+    "comprehensiveAccessibilityReview": "pending"
+  },
+  "tooling": {
+    "testsPassed": 9
+  },
+  "website": {
+    "testsPassed": 5,
+    "build": "passed",
+    "version": "0.1.0",
+    "deploymentChanged": false,
+    "localisationChanged": false
+  },
+  "totalTestsPassed": 60,
+  "localisation": {
+    "stringsExtracted": 249,
+    "pluralResources": 4,
+    "configuredLocales": 19,
+    "draftEntriesPerLocale": 253,
+    "missingEntries": 0,
+    "invalidEntries": 0,
+    "detectedHardcodedUiPatterns": 0,
+    "approvedLocales": 0,
+    "allEntriesReviewedFalse": true,
+    "draftResourcesIsolatedFromNormalBuilds": true,
+    "humanReview": "pending",
+    "releaseLocalisationCheck": "blocked_as_expected"
+  },
+  "productionReleaseReady": false,
+  "releaseGate": "blocked_for_documented_prerequisites",
+  "checksums": "artifacts/checksums.json",
+  "accessibility": {
+    "configurations": 76,
+    "controlAudits": 988,
+    "labelledActionObservations": 14386,
+    "measuredPlacedTargets": 13483,
+    "unplacedActionObservations": 903,
+    "fullyVisibleTouchBoundsChecked": 3756,
+    "minimumAllocatedTargetDp": 48,
+    "keyboardNavigationSequences": 76,
+    "nativeAccessibilityFocusTargets": 380,
+    "nativeTraversalPairs": 304,
+    "nativeFocusVerification": "refreshed virtual-node accessibility focus flag",
+    "nativeTraversalMethod": "child order and non-conflicting overrides",
+    "failures": 0,
+    "manualVoiceViewTalkBackReview": "pending",
+    "keyboardOpenDialogOcclusionAcceptance": "pending; share captures have keyboard covering lower dialog; Compose visibility does not establish freedom from separate-window occlusion",
+    "humanTranslationReview": "pending"
+  }
+}

@@ -152,6 +152,11 @@
     <string name="distance_miles_value">%1$s み</string>
     <string name="distance_km_value">%1$s km</string>
     <string name="translation_draft_notice">未レビューの翻訳プレビュー · 下書きのみ</string>
+    <string name="accessibility_action_for">%1$s：%2$s</string>
+    <string name="accessibility_rating">%2$sの評価、5つ星のうち%1$d</string>
+    <string name="accessibility_expanded">展開</string>
+    <string name="accessibility_collapsed">折りたたみ</string>
+    <string name="accessibility_geometry">%1$sのルート形状の概要</string>
     <string name="checklist_title">ちょっとした準備が大いに役立ちます。</string>
     <string name="checklist_description">あなた専用の散歩前チェックリスト。キットをルート、天候、ニーズに合わせて調整してください。</string>
     <string name="checklist_safety">チェックリストを完了しても安全は保証できません。現状やアクセス、自分の実力を確認してみましょう。</string>

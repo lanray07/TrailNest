@@ -65,8 +65,8 @@ import com.trailnest.app.domain.*
                                 "Coverage" -> CoverageScreen()
                             }
                 }
-                if (notice != null) AlertDialog(onDismissRequest = dismiss, title = { TrailText(stringResource(R.string.app_name)) }, text = { TrailText(notice) }, confirmButton = { TextButton(onClick = dismiss) { TrailText(stringResource(R.string.ui_got_it)) } })
-                else if (modelMessage != null) AlertDialog(onDismissRequest = { model.message.value = null }, title = { TrailText(stringResource(R.string.app_name)) }, text = { TrailText(modelMessage!!) }, confirmButton = { TextButton(onClick = { model.message.value = null }) { TrailText(stringResource(R.string.ui_got_it)) } })
+                if (notice != null) AlertDialog(onDismissRequest = dismiss, title = { DialogTitle(stringResource(R.string.app_name)) }, text = { TrailText(notice) }, confirmButton = { TextButton(onClick = dismiss) { TrailText(stringResource(R.string.ui_got_it)) } })
+                else if (modelMessage != null) AlertDialog(onDismissRequest = { model.message.value = null }, title = { DialogTitle(stringResource(R.string.app_name)) }, text = { TrailText(modelMessage!!) }, confirmButton = { TextButton(onClick = { model.message.value = null }) { TrailText(stringResource(R.string.ui_got_it)) } })
             }
         }
     }

@@ -8,6 +8,8 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.semantics.*
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Path
@@ -43,7 +45,8 @@ import androidx.compose.ui.res.stringResource
     Page(route.title, stringResource(R.string.route_description)) {
         TextButton(onClick = back) { TrailText(stringResource(R.string.ui_back_to_routes)) }
         TrailText(stringResource(R.string.route_summary, distanceText(route.metres, imperial), androidx.compose.ui.res.pluralStringResource(R.plurals.route_points, points.size, points.size)))
-        Canvas(Modifier.fillMaxWidth().height(260.dp).background(Sage)) {
+        val overviewDescription = stringResource(R.string.accessibility_geometry, route.title)
+        Canvas(Modifier.fillMaxWidth().height(260.dp).background(Sage).testTag("route-geometry").semantics { contentDescription = overviewDescription }) {
             val minLat = points.minOf { it.lat }; val maxLat = points.maxOf { it.lat }
             val minLon = points.minOf { it.lon }; val maxLon = points.maxOf { it.lon }
             val correction = kotlin.math.cos(Math.toRadians((minLat + maxLat) / 2)).coerceAtLeast(0.01)

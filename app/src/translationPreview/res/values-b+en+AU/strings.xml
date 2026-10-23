@@ -152,6 +152,11 @@
     <string name="distance_miles_value">%1$s mi</string>
     <string name="distance_km_value">%1$s km</string>
     <string name="translation_draft_notice">Unreviewed translation preview · Drafts only</string>
+    <string name="accessibility_action_for">%1$s: %2$s</string>
+    <string name="accessibility_rating">%1$d of 5 stars for %2$s</string>
+    <string name="accessibility_expanded">Expanded</string>
+    <string name="accessibility_collapsed">Collapsed</string>
+    <string name="accessibility_geometry">Route geometry overview for %1$s</string>
     <string name="checklist_title">A little preparation goes a long way.</string>
     <string name="checklist_description">Your personal pre-walk checklist. Adapt your kit to the route, weather and your needs.</string>
     <string name="checklist_safety">A completed checklist cannot guarantee safety. Check current conditions, access and your own ability.</string>

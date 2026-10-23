@@ -152,6 +152,11 @@
     <string name="distance_miles_value">%1$s mi</string>
     <string name="distance_km_value">%1$s km</string>
     <string name="translation_draft_notice">Nierecenzowany podgląd tłumaczenia · Tylko wersje robocze</string>
+    <string name="accessibility_action_for">%1$s: %2$s</string>
+    <string name="accessibility_rating">%1$d z 5 gwiazdek dla %2$s</string>
+    <string name="accessibility_expanded">Rozwinięte</string>
+    <string name="accessibility_collapsed">Zwinięte</string>
+    <string name="accessibility_geometry">Przegląd geometrii trasy dla %1$s</string>
     <string name="checklist_title">Małe przygotowanie może bardzo pomóc.</string>
     <string name="checklist_description">Twoja osobista lista kontrolna przed spacerem. Dostosuj swój zestaw do trasy, pogody i swoich potrzeb.</string>
     <string name="checklist_safety">Wypełniona lista kontrolna nie gwarantuje bezpieczeństwa. Sprawdź aktualne warunki, dostęp i własne możliwości.</string>

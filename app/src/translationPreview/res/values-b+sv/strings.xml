@@ -152,6 +152,11 @@
     <string name="distance_miles_value">%1$s mi</string>
     <string name="distance_km_value">%1$s km</string>
     <string name="translation_draft_notice">Ogranskad översättningsförhandsgranskning · Endast utkast</string>
+    <string name="accessibility_action_for">%1$s: %2$s</string>
+    <string name="accessibility_rating">%1$d av 5 stjärnor för %2$s</string>
+    <string name="accessibility_expanded">Utökad</string>
+    <string name="accessibility_collapsed">Komprimerad</string>
+    <string name="accessibility_geometry">Översikt över ruttens geometri för %1$s</string>
     <string name="checklist_title">Lite förberedelser räcker långt.</string>
     <string name="checklist_description">Din personliga checklista före promenad. Anpassa ditt kit efter rutten, vädret och dina behov.</string>
     <string name="checklist_safety">En ifylld checklista kan inte garantera säkerheten. Kontrollera aktuella förhållanden, tillgång och din egen förmåga.</string>

@@ -152,6 +152,11 @@
     <string name="distance_miles_value">%1$s mi</string>
     <string name="distance_km_value">%1$skm</string>
     <string name="translation_draft_notice">Aperçu de la traduction non révisée · Brouillons uniquement</string>
+    <string name="accessibility_action_for">%1$s: %2$s</string>
+    <string name="accessibility_rating">%1$d étoiles sur 5 pour %2$s</string>
+    <string name="accessibility_expanded">Développé</string>
+    <string name="accessibility_collapsed">Réduit</string>
+    <string name="accessibility_geometry">Aperçu de la géométrie du parcours pour %1$s</string>
     <string name="checklist_title">Un peu de préparation suffit.</string>
     <string name="checklist_description">Votre liste de contrôle personnelle avant la marche. Adaptez votre kit au parcours, à la météo et à vos besoins.</string>
     <string name="checklist_safety">Une liste de contrôle complétée ne peut garantir la sécurité. Vérifiez les conditions actuelles, l\'accès et vos propres capacités.</string>

@@ -152,6 +152,11 @@
     <string name="distance_miles_value">%1$s mi</string>
     <string name="distance_km_value">%1$s km</string>
     <string name="translation_draft_notice">Anteprima della traduzione non revisionata · Solo bozze</string>
+    <string name="accessibility_action_for">%1$s: %2$s</string>
+    <string name="accessibility_rating">%1$d stelle su 5 per %2$s</string>
+    <string name="accessibility_expanded">Espanso</string>
+    <string name="accessibility_collapsed">Compresso</string>
+    <string name="accessibility_geometry">Panoramica della geometria del percorso per %1$s</string>
     <string name="checklist_title">A little preparation goes a long way.</string>
     <string name="checklist_description">La tua personale checklist pre-camminata. Adatta il tuo kit al percorso, al tempo e alle tue esigenze.</string>
     <string name="checklist_safety">Una lista di controllo completata non può garantire la sicurezza. Controlla le condizioni attuali, l\'accesso e le tue capacità.</string>

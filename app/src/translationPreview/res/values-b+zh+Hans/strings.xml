@@ -152,6 +152,11 @@
     <string name="distance_miles_value">%1$s米</string>
     <string name="distance_km_value">%1$s 公里</string>
     <string name="translation_draft_notice">未审稿翻译预览 · 仅草稿</string>
+    <string name="accessibility_action_for">%1$s：%2$s</string>
+    <string name="accessibility_rating">%2$s的评分：5星中的%1$d星</string>
+    <string name="accessibility_expanded">已展开</string>
+    <string name="accessibility_collapsed">已折叠</string>
+    <string name="accessibility_geometry">%1$s的路线几何概览</string>
     <string name="checklist_title">一点准备就会大有帮助。</string>
     <string name="checklist_description">您的个人步行前检查清单。根据路线、天气和您的需求调整您的装备。</string>
     <string name="checklist_safety">完整的检查表并不能保证安全。检查当前条件、访问权限和您自己的能力。</string>

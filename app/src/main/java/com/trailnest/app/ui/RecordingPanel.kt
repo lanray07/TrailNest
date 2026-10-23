@@ -48,7 +48,7 @@ import java.util.Locale
         }
         TrailText(stringResource(R.string.recording_privacy), style = MaterialTheme.typography.bodySmall)
     }
-    if (discard) AlertDialog(onDismissRequest = { discard = false }, title = { TrailText(stringResource(R.string.discard_recording)) },
+    if (discard) AlertDialog(onDismissRequest = { discard = false }, title = { DialogTitle(stringResource(R.string.discard_recording)) },
         text = { TrailText(stringResource(R.string.discard_recording_body)) },
         confirmButton = { TextButton(onClick = { discard = false; action("discard") }, enabled = !busy) { TrailText(stringResource(R.string.discard_recording)) } },
         dismissButton = { TextButton(onClick = { discard = false }) { TrailText(stringResource(R.string.cancel)) } })

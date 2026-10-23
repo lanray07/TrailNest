@@ -65,7 +65,7 @@ class TrailDeviceTest {
         try {
             compose.onNodeWithText("My walks", useUnmergedTree = true).performClick()
             compose.onNodeWithTag("journal-list").performScrollToNode(hasTestTag("walk-$id"))
-            compose.onNode(hasText("Edit walk") and hasAnyAncestor(hasTestTag("walk-$id"))).performClick()
+            compose.onNode(hasContentDescription(context.getString(R.string.accessibility_action_for,context.getString(R.string.edit_walk),walk.title)) and hasAnyAncestor(hasTestTag("walk-$id"))).performClick()
             compose.waitUntil(5000) { compose.onAllNodesWithTag("journal-editor").fetchSemanticsNodes().isNotEmpty() }
             compose.onNodeWithText("Notes").performTextReplacement("Edited QA notes")
             val day = LocalDate.now().minusDays(1)

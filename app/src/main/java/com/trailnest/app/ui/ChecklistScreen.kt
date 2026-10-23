@@ -33,21 +33,21 @@ import com.trailnest.app.domain.*
         if (items.isEmpty()) TrailText(stringResource(R.string.empty_checklist))
         items.forEachIndexed { index, item ->
             Column {
-                Row(Modifier.fillMaxWidth().toggleable(value = item.checked, role = Role.Checkbox, onValueChange = { check(item.id) }), verticalAlignment = Alignment.CenterVertically) {
+                Row(Modifier.fillMaxWidth().heightIn(min = 48.dp).toggleable(value = item.checked, role = Role.Checkbox, onValueChange = { check(item.id) }), verticalAlignment = Alignment.CenterVertically) {
                     Checkbox(item.checked, onCheckedChange = null)
                     TrailText(item.title, Modifier.weight(1f))
                 }
                 if (editing) FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-                    TextButton(onClick = { renameId = item.id; draft = item.title }) { TrailText(stringResource(R.string.rename_item)) }
-                    TextButton(onClick = { move(item.id, -1) }, enabled = index > 0) { TrailText(stringResource(R.string.move_up)) }
-                    TextButton(onClick = { move(item.id, 1) }, enabled = index < items.lastIndex) { TrailText(stringResource(R.string.move_down)) }
-                    TextButton(onClick = { removePrompt = item }) { TrailText(stringResource(R.string.remove_item)) }
+                    TextButton(onClick = { renameId = item.id; draft = item.title }) { ContextActionText(stringResource(R.string.rename_item), item.title) }
+                    TextButton(onClick = { move(item.id, -1) }, enabled = index > 0) { ContextActionText(stringResource(R.string.move_up), item.title) }
+                    TextButton(onClick = { move(item.id, 1) }, enabled = index < items.lastIndex) { ContextActionText(stringResource(R.string.move_down), item.title) }
+                    TextButton(onClick = { removePrompt = item }) { ContextActionText(stringResource(R.string.remove_item), item.title) }
                 }
             }
         }
         if (editing) TrailPanel {
             OutlinedTextField(draft, { draft = it.take(120); error = null }, label = { TrailText(stringResource(R.string.checklist_item_name)) }, modifier = Modifier.fillMaxWidth())
-            error?.let { TrailText(it, color = MaterialTheme.colorScheme.error) }
+            error?.let { FormError(it) }
             Button(onClick = {
                 runCatching { PersonalChecklist.validateTitle(draft) }.onSuccess {
                     if (renameId == null) add(it) else rename(renameId!!, it)
@@ -59,6 +59,6 @@ import com.trailnest.app.domain.*
         }
         TrailText(stringResource(R.string.checklist_safety))
     }
-    if (restorePrompt) AlertDialog(onDismissRequest = { restorePrompt = false }, title = { TrailText(stringResource(R.string.restore_defaults)) }, text = { TrailText(stringResource(R.string.restore_defaults_warning)) }, confirmButton = { TextButton(onClick = { restore(); restorePrompt = false; renameId = null; draft = "" }) { TrailText(stringResource(R.string.restore_defaults)) } }, dismissButton = { TextButton(onClick = { restorePrompt = false }) { TrailText(stringResource(R.string.cancel)) } })
-    removePrompt?.let { item -> AlertDialog(onDismissRequest = { removePrompt = null }, title = { TrailText(stringResource(R.string.remove_item)) }, text = { TrailText(item.title) }, confirmButton = { TextButton(onClick = { remove(item.id); removePrompt = null; if (renameId == item.id) { renameId = null; draft = "" } }) { TrailText(stringResource(R.string.remove_item)) } }, dismissButton = { TextButton(onClick = { removePrompt = null }) { TrailText(stringResource(R.string.cancel)) } }) }
+    if (restorePrompt) AlertDialog(onDismissRequest = { restorePrompt = false }, title = { DialogTitle(stringResource(R.string.restore_defaults)) }, text = { TrailText(stringResource(R.string.restore_defaults_warning)) }, confirmButton = { TextButton(onClick = { restore(); restorePrompt = false; renameId = null; draft = "" }) { TrailText(stringResource(R.string.restore_defaults)) } }, dismissButton = { TextButton(onClick = { restorePrompt = false }) { TrailText(stringResource(R.string.cancel)) } })
+    removePrompt?.let { item -> AlertDialog(onDismissRequest = { removePrompt = null }, title = { DialogTitle(stringResource(R.string.remove_item)) }, text = { TrailText(item.title) }, confirmButton = { TextButton(onClick = { remove(item.id); removePrompt = null; if (renameId == item.id) { renameId = null; draft = "" } }) { TrailText(stringResource(R.string.remove_item)) } }, dismissButton = { TextButton(onClick = { removePrompt = null }) { TrailText(stringResource(R.string.cancel)) } }) }
 }

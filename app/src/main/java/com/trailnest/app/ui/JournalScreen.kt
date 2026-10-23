@@ -12,6 +12,7 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.semantics.*
 import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
@@ -45,8 +46,9 @@ import java.util.*
     LaunchedEffect(editor) { if (editor != null) scroll.animateScrollToItem(3) }
     LaunchedEffect(recordingRevealKey) { if (recordingRevealKey > 0) scroll.scrollToItem(if (editor == null) 3 else 4) }
     val totals = JournalRules.total(walks.map { ActivityEntry(it.date, it.metres, it.minutes) })
+    val journalTitle = stringResource(R.string.journal_title)
     val visible = walks.filter { !favouritesOnly || it.favourite }
-    LazyColumn(Modifier.fillMaxSize().testTag("journal-list"), state = scroll, contentPadding = PaddingValues(24.dp), verticalArrangement = Arrangement.spacedBy(22.dp)) {
+    LazyColumn(Modifier.fillMaxSize().testTag("journal-list").semantics { paneTitle = journalTitle; isTraversalGroup = true }, state = scroll, contentPadding = PaddingValues(24.dp), verticalArrangement = Arrangement.spacedBy(22.dp)) {
         item("header") { Column(verticalArrangement = Arrangement.spacedBy(16.dp)) { Heading(stringResource(R.string.journal_title)); TrailText(stringResource(R.string.journal_description)) } }
         item("totals") { TrailText(stringResource(R.string.journal_totals, pluralStringResource(R.plurals.walk_count, totals.walks, totals.walks), distanceText(totals.metres, imperial), totals.minutes)) }
         item("tools") { FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
@@ -65,27 +67,27 @@ import java.util.*
             TrailText(stringResource(R.string.walk_summary, DateFormat.getDateInstance(DateFormat.DEFAULT, locale).format(Date(walk.date)), distanceText(walk.metres, imperial), walk.minutes))
             if (walk.notes.isNotBlank()) TrailText(walk.notes)
             FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-                TextButton(onClick = { editor = walk.id }) { TrailText(stringResource(R.string.edit_walk)) }
-                TextButton(onClick = { save(walk.copy(favourite = !walk.favourite)) }) { TrailText(stringResource(if (walk.favourite) R.string.unfavourite else R.string.favourite)) }
-                TextButton(onClick = { deleting = walk }) { TrailText(stringResource(R.string.delete_entry)) }
+                TextButton(onClick = { editor = walk.id }) { ContextActionText(stringResource(R.string.edit_walk), walk.title) }
+                TextButton(onClick = { save(walk.copy(favourite = !walk.favourite)) }) { ContextActionText(stringResource(if (walk.favourite) R.string.unfavourite else R.string.favourite), walk.title) }
+                TextButton(onClick = { deleting = walk }) { ContextActionText(stringResource(R.string.delete_entry), walk.title) }
             }
             TrailText(stringResource(R.string.personal_rating))
             FlowRow {
-                (1..5).forEach { rating -> FilterChip(selected = walk.rating == rating, onClick = { save(walk.copy(rating = if (walk.rating == rating) 0 else rating)) }, label = { TrailText(stringResource(R.string.rating_value, rating)) }, modifier = Modifier.padding(end = 6.dp)) }
+                (1..5).forEach { rating -> FilterChip(selected = walk.rating == rating, onClick = { save(walk.copy(rating = if (walk.rating == rating) 0 else rating)) }, label = { val description = stringResource(R.string.accessibility_rating, rating, walk.title); TrailText(stringResource(R.string.rating_value, rating), Modifier.clearAndSetSemantics { contentDescription = description }) }, modifier = Modifier.padding(end = 6.dp)) }
             }
             val ownPhotos = photos.filter { it.walkId == walk.id }
             if (ownPhotos.isNotEmpty()) FlowRow(horizontalArrangement = Arrangement.spacedBy(12.dp)) { ownPhotos.forEachIndexed { i, photo ->
                 Column(Modifier.width(128.dp)) {
                     LocalWalkPhoto(photo, stringResource(R.string.walk_photo_description, i + 1, walk.title))
-                    TextButton(onClick = { deletingPhoto = photo }) { TrailText(stringResource(R.string.remove_photo)) }
+                    TextButton(onClick = { deletingPhoto = photo }) { ContextActionText(stringResource(R.string.remove_photo), stringResource(R.string.walk_photo_description, i + 1, walk.title)) }
                 }
             } }
-            OutlinedButton(onClick = { photoTarget = walk.id; picker.launch(arrayOf("image/*")) }, enabled = !busy && ownPhotos.size < 8) { TrailText(stringResource(R.string.add_photo)) }
+            OutlinedButton(onClick = { photoTarget = walk.id; picker.launch(arrayOf("image/*")) }, enabled = !busy && ownPhotos.size < 8) { ContextActionText(stringResource(R.string.add_photo), walk.title) }
             TrailText(stringResource(R.string.photo_privacy), style = MaterialTheme.typography.bodySmall)
         } }
     }
-    deleting?.let { walk -> AlertDialog(onDismissRequest = { deleting = null }, title = { TrailText(stringResource(R.string.delete_walk_title)) }, text = { TrailText(stringResource(R.string.delete_walk_body, walk.title)) }, confirmButton = { TextButton(onClick = { delete(walk.id); if (editor == walk.id) editor = null; deleting = null }) { TrailText(stringResource(R.string.delete_entry)) } }, dismissButton = { TextButton(onClick = { deleting = null }) { TrailText(stringResource(R.string.cancel)) } }) }
-    deletingPhoto?.let { photo -> AlertDialog(onDismissRequest = { deletingPhoto = null }, title = { TrailText(stringResource(R.string.remove_photo)) }, text = { TrailText(stringResource(R.string.remove_photo_body)) }, confirmButton = { TextButton(onClick = { removePhoto(photo); deletingPhoto = null }) { TrailText(stringResource(R.string.remove_photo)) } }, dismissButton = { TextButton(onClick = { deletingPhoto = null }) { TrailText(stringResource(R.string.cancel)) } }) }
+    deleting?.let { walk -> AlertDialog(onDismissRequest = { deleting = null }, title = { DialogTitle(stringResource(R.string.delete_walk_title)) }, text = { TrailText(stringResource(R.string.delete_walk_body, walk.title)) }, confirmButton = { TextButton(onClick = { delete(walk.id); if (editor == walk.id) editor = null; deleting = null }) { TrailText(stringResource(R.string.delete_entry)) } }, dismissButton = { TextButton(onClick = { deleting = null }) { TrailText(stringResource(R.string.cancel)) } }) }
+    deletingPhoto?.let { photo -> AlertDialog(onDismissRequest = { deletingPhoto = null }, title = { DialogTitle(stringResource(R.string.remove_photo)) }, text = { TrailText(stringResource(R.string.remove_photo_body)) }, confirmButton = { TextButton(onClick = { removePhoto(photo); deletingPhoto = null }) { TrailText(stringResource(R.string.remove_photo)) } }, dismissButton = { TextButton(onClick = { deletingPhoto = null }) { TrailText(stringResource(R.string.cancel)) } }) }
 }
 
 @Composable private fun WalkEditor(existing: Walk?, imperial: Boolean, save: (Walk) -> Unit, close: () -> Unit) {
@@ -105,7 +107,7 @@ import java.util.*
         OutlinedTextField(distance, { distance = it }, label = { TrailText(stringResource(if (imperial) R.string.distance_miles else R.string.distance_km)) }, modifier = Modifier.fillMaxWidth())
         OutlinedTextField(minutes, { minutes = it }, label = { TrailText(stringResource(R.string.duration_minutes)) }, modifier = Modifier.fillMaxWidth())
         OutlinedTextField(notes, { notes = it.take(5000) }, label = { TrailText(stringResource(R.string.walk_notes)) }, modifier = Modifier.fillMaxWidth())
-        error?.let { TrailText(it, color = MaterialTheme.colorScheme.error) }
+        error?.let { FormError(it) }
         Button(onClick = {
             runCatching {
                 JournalRules.validate(title, distance, minutes, locale)
@@ -146,5 +148,5 @@ import java.util.*
         value = withContext(Dispatchers.IO) { runCatching { BitmapFactory.decodeFile(PhotoStore(context).file(photo.fileName).path, BitmapFactory.Options().apply { inSampleSize = 4 }) }.getOrNull() }
     }
     if (bitmap != null) Image(bitmap!!.asImageBitmap(), description, Modifier.fillMaxWidth().height(100.dp), contentScale = ContentScale.Crop)
-    else TrailText(stringResource(R.string.photo_unavailable))
+    else ContextActionText(stringResource(R.string.photo_unavailable), description)
 }

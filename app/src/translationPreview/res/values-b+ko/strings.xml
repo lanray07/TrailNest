@@ -152,6 +152,11 @@
     <string name="distance_miles_value">%1$s 미</string>
     <string name="distance_km_value">%1$skm</string>
     <string name="translation_draft_notice">미검토 번역 미리보기 · 초안만</string>
+    <string name="accessibility_action_for">%1$s: %2$s</string>
+    <string name="accessibility_rating">%2$s의 별점: 5점 중 %1$d점</string>
+    <string name="accessibility_expanded">펼쳐짐</string>
+    <string name="accessibility_collapsed">접힘</string>
+    <string name="accessibility_geometry">%1$s의 경로 모양 개요</string>
     <string name="checklist_title">약간의 준비가 큰 도움이 됩니다.</string>
     <string name="checklist_description">개인 걷기 전 체크리스트. 경로, 날씨, 필요에 맞게 키트를 조정하세요.</string>
     <string name="checklist_safety">완성된 체크리스트가 안전을 보장할 수는 없습니다. 현재 상황과 접근성, 자신의 능력을 확인해보세요.</string>

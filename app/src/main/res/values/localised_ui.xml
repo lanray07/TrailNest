@@ -152,4 +152,9 @@
     <string name="distance_km_value">%1$s km</string>
     <string name="translation_draft_notice">Unreviewed translation preview · Drafts only</string>
     <plurals name="route_points"><item quantity="one">%1$d point</item><item quantity="other">%1$d points</item></plurals>
+    <string name="accessibility_action_for">%1$s: %2$s</string>
+    <string name="accessibility_rating">%1$d of 5 stars for %2$s</string>
+    <string name="accessibility_expanded">Expanded</string>
+    <string name="accessibility_collapsed">Collapsed</string>
+    <string name="accessibility_geometry">Route geometry overview for %1$s</string>
 </resources>

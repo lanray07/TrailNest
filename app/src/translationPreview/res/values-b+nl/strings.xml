@@ -152,6 +152,11 @@
     <string name="distance_miles_value">%1$s mi</string>
     <string name="distance_km_value">%1$s km</string>
     <string name="translation_draft_notice">Onbeoordeeld vertalingsvoorbeeld · Alleen concepten</string>
+    <string name="accessibility_action_for">%1$s: %2$s</string>
+    <string name="accessibility_rating">%1$d van 5 sterren voor %2$s</string>
+    <string name="accessibility_expanded">Uitgeklapt</string>
+    <string name="accessibility_collapsed">Ingeklapt</string>
+    <string name="accessibility_geometry">Overzicht van de routegeometrie voor %1$s</string>
     <string name="checklist_title">Met een beetje voorbereiding kom je al een heel eind.</string>
     <string name="checklist_description">Jouw persoonlijke checklist vóór de wandeling. Pas uw uitrusting aan de route, het weer en uw behoeften aan.</string>
     <string name="checklist_safety">Een ingevulde checklist kan de veiligheid niet garanderen. Controleer de huidige voorwaarden, toegang en uw eigen mogelijkheden.</string>

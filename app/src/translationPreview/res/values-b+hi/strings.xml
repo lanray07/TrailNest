@@ -152,6 +152,11 @@
     <string name="distance_miles_value">%1$s मील</string>
     <string name="distance_km_value">%1$s किमी</string>
     <string name="translation_draft_notice">असमीक्षित अनुवाद पूर्वावलोकन · केवल ड्राफ्ट</string>
+    <string name="accessibility_action_for">%1$s: %2$s</string>
+    <string name="accessibility_rating">%2$s के लिए 5 में से %1$d तारे</string>
+    <string name="accessibility_expanded">विस्तृत</string>
+    <string name="accessibility_collapsed">संक्षिप्त</string>
+    <string name="accessibility_geometry">%1$s के मार्ग की आकृति का अवलोकन</string>
     <string name="checklist_title">थोड़ी सी तैयारी बहुत काम आती है।</string>
     <string name="checklist_description">आपकी व्यक्तिगत प्री-वॉक चेकलिस्ट। अपनी किट को मार्ग, मौसम और अपनी आवश्यकताओं के अनुसार अनुकूलित करें।</string>
     <string name="checklist_safety">एक पूर्ण चेकलिस्ट सुरक्षा की गारंटी नहीं दे सकती। वर्तमान स्थितियों, पहुंच और अपनी क्षमता की जांच करें।</string>

@@ -6,6 +6,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.semantics.*
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
@@ -16,7 +17,7 @@ val Forest = Color(0xFF285C4D)
 val Ivory = Color(0xFFF7F5EE)
 val Ink = Color(0xFF26332E)
 val Sage = Color(0xFFE7EBDF)
-@Composable fun Heading(text: String, small: Boolean = false) { TrailText(text, fontFamily = FontFamily.Serif, fontSize = if (small) 26.sp else 38.sp, lineHeight = if (small) 36.sp else 48.sp, fontWeight = FontWeight.Medium) }
+@Composable fun Heading(text: String, small: Boolean = false) { TrailText(text, Modifier.semantics { heading() }, fontFamily = FontFamily.Serif, fontSize = if (small) 26.sp else 38.sp, lineHeight = if (small) 36.sp else 48.sp, fontWeight = FontWeight.Medium) }
 @Composable fun SectionLabel(text: String) {
     val locale = androidx.compose.ui.platform.LocalConfiguration.current.locales[0]
     TrailText(text.uppercase(locale), style = MaterialTheme.typography.labelMedium,
@@ -32,7 +33,7 @@ val Sage = Color(0xFFE7EBDF)
     TrailPanel(Modifier.fillMaxWidth()) { Heading(title, true); TrailText(body, lineHeight = 24.sp); if (action != null) Button(onClick) { TrailText(action) } }
 }
 @Composable fun Page(title: String, subtitle: String? = null, content: @Composable ColumnScope.() -> Unit) {
-    Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(contentPadding()), verticalArrangement = Arrangement.spacedBy(22.dp)) {
+    Column(Modifier.fillMaxSize().semantics { paneTitle = title; isTraversalGroup = true }.verticalScroll(rememberScrollState()).padding(contentPadding()), verticalArrangement = Arrangement.spacedBy(22.dp)) {
         Heading(title); if (subtitle != null) TrailText(subtitle, lineHeight = 24.sp); content()
         Spacer(Modifier.height(32.dp))
     }

@@ -25,7 +25,7 @@ import kotlin.math.ceil
     var returnTime by rememberSaveable(route.id) { mutableStateOf(LocalDateTime.now().plusMinutes(estimate.toLong() + 30).format(DateTimeFormatter.ofPattern("uuuu-MM-dd'T'HH:mm"))) }
     var contact by rememberSaveable(route.id) { mutableStateOf("") }
     var error by remember { mutableStateOf<String?>(null) }
-    AlertDialog(modifier = Modifier.widthIn(max = (config.screenWidthDp - 32).coerceAtMost(560).dp).heightIn(max = (config.screenHeightDp - 48).coerceAtLeast(240).dp).fillMaxWidth(), properties = androidx.compose.ui.window.DialogProperties(usePlatformDefaultWidth = false), onDismissRequest = dismiss, title = { TrailText(stringResource(R.string.share_plan_title)) }, text = {
+    AlertDialog(modifier = Modifier.widthIn(max = (config.screenWidthDp - 32).coerceAtMost(560).dp).heightIn(max = (config.screenHeightDp - 48).coerceAtLeast(240).dp).fillMaxWidth(), properties = androidx.compose.ui.window.DialogProperties(usePlatformDefaultWidth = false), onDismissRequest = dismiss, title = { DialogTitle(stringResource(R.string.share_plan_title)) }, text = {
         Column(Modifier.verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(12.dp)) {
             TrailText(route.title)
             OutlinedTextField(duration, { duration = it }, label = { TrailText(stringResource(R.string.estimated_minutes)) })
@@ -33,7 +33,7 @@ import kotlin.math.ceil
             OutlinedTextField(returnTime, { returnTime = it }, textStyle = LocalTextStyle.current.copy(textDirection = androidx.compose.ui.text.style.TextDirection.Ltr), label = { TrailText(stringResource(R.string.expected_return)) }, supportingText = { TrailText(stringResource(R.string.return_time_hint, zone.id)) })
             OutlinedTextField(contact, { contact = it.take(500) }, label = { TrailText(stringResource(R.string.optional_contact)) })
             TrailText(stringResource(R.string.share_plan_privacy))
-            error?.let { TrailText(it, color = MaterialTheme.colorScheme.error) }
+            error?.let { FormError(it) }
         }
     }, confirmButton = { TextButton(onClick = {
         runCatching {

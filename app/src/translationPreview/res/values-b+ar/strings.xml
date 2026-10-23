@@ -152,6 +152,11 @@
     <string name="distance_miles_value">%1$s ميل</string>
     <string name="distance_km_value">%1$s كم</string>
     <string name="translation_draft_notice">معاينة الترجمة غير المراجعة · المسودات فقط</string>
+    <string name="accessibility_action_for">%1$s: %2$s</string>
+    <string name="accessibility_rating">%1$d من 5 نجوم لـ %2$s</string>
+    <string name="accessibility_expanded">موسّع</string>
+    <string name="accessibility_collapsed">مطوي</string>
+    <string name="accessibility_geometry">نظرة عامة على شكل المسار لـ %1$s</string>
     <string name="checklist_title">القليل من التحضير يقطع شوطا طويلا.</string>
     <string name="checklist_description">قائمة المراجعة الشخصية الخاصة بك قبل المشي. قم بتكييف مجموعتك مع الطريق والطقس واحتياجاتك.</string>
     <string name="checklist_safety">لا يمكن لقائمة المراجعة المكتملة أن تضمن السلامة. تحقق من الظروف الحالية والوصول وقدرتك الخاصة.</string>
