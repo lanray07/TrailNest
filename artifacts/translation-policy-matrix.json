@@ -1,0 +1,549 @@
+{
+  "configurations": [
+    {
+      "locale": "ar",
+      "widthDp": 360,
+      "heightDp": 640,
+      "fontScale": 2,
+      "screens": [
+        "Discover",
+        "My walks",
+        "Checklist",
+        "Offline packs",
+        "Settings",
+        "Coverage",
+        "Route",
+        "Share",
+        "Recording"
+      ],
+      "status": "passed"
+    },
+    {
+      "locale": "ar",
+      "widthDp": 800,
+      "heightDp": 640,
+      "fontScale": 2,
+      "screens": [
+        "Discover",
+        "My walks",
+        "Checklist",
+        "Offline packs",
+        "Settings",
+        "Coverage",
+        "Route",
+        "Share",
+        "Recording"
+      ],
+      "status": "passed"
+    },
+    {
+      "locale": "de",
+      "widthDp": 360,
+      "heightDp": 640,
+      "fontScale": 2,
+      "screens": [
+        "Discover",
+        "My walks",
+        "Checklist",
+        "Offline packs",
+        "Settings",
+        "Coverage",
+        "Route",
+        "Share",
+        "Recording"
+      ],
+      "status": "passed"
+    },
+    {
+      "locale": "de",
+      "widthDp": 800,
+      "heightDp": 640,
+      "fontScale": 2,
+      "screens": [
+        "Discover",
+        "My walks",
+        "Checklist",
+        "Offline packs",
+        "Settings",
+        "Coverage",
+        "Route",
+        "Share",
+        "Recording"
+      ],
+      "status": "passed"
+    }
+  ],
+  "accessibility": [
+    {
+      "configuration": "ar-360-2.0",
+      "navigation": {
+        "keyboardOrder": "Discover>My walks>Offline packs>Checklist>Settings",
+        "nativeAccessibilityFocusTargets": 5,
+        "nativeFocusVerification": "refreshed virtual-node accessibility focus flag",
+        "nativeTraversalPairs": 4,
+        "nativeTraversalMethod": "child order and non-conflicting overrides",
+        "explicitTraversalIndices": true
+      },
+      "controls": [
+        {
+          "labelledActions": 6,
+          "measuredTargets": 6,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 6,
+          "screen": "Navigation"
+        },
+        {
+          "labelledActions": 13,
+          "measuredTargets": 13,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "screen": "Discover"
+        },
+        {
+          "labelledActions": 11,
+          "measuredTargets": 8,
+          "unplacedActions": 3,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 5,
+          "screen": "Journal editor"
+        },
+        {
+          "labelledActions": 12,
+          "measuredTargets": 12,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 4,
+          "screen": "Journal card a11y-a"
+        },
+        {
+          "labelledActions": 10,
+          "measuredTargets": 10,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 5,
+          "screen": "Journal card a11y-b"
+        },
+        {
+          "labelledActions": 10,
+          "measuredTargets": 10,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 5,
+          "screen": "My walks"
+        },
+        {
+          "labelledActions": 61,
+          "measuredTargets": 61,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "screen": "Checklist"
+        },
+        {
+          "labelledActions": 5,
+          "measuredTargets": 5,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "screen": "Offline packs"
+        },
+        {
+          "labelledActions": 4,
+          "measuredTargets": 4,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "screen": "Settings"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "screen": "Coverage"
+        },
+        {
+          "labelledActions": 7,
+          "measuredTargets": 7,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "screen": "Route"
+        },
+        {
+          "labelledActions": 6,
+          "measuredTargets": 6,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 4,
+          "screen": "Share"
+        },
+        {
+          "labelledActions": 7,
+          "measuredTargets": 7,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 4,
+          "screen": "Recording"
+        }
+      ]
+    },
+    {
+      "configuration": "ar-800-2.0",
+      "navigation": {
+        "keyboardOrder": "Discover>My walks>Offline packs>Checklist>Settings",
+        "nativeAccessibilityFocusTargets": 5,
+        "nativeFocusVerification": "refreshed virtual-node accessibility focus flag",
+        "nativeTraversalPairs": 4,
+        "nativeTraversalMethod": "child order and non-conflicting overrides",
+        "explicitTraversalIndices": true
+      },
+      "controls": [
+        {
+          "labelledActions": 6,
+          "measuredTargets": 6,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 6,
+          "screen": "Navigation"
+        },
+        {
+          "labelledActions": 13,
+          "measuredTargets": 13,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "screen": "Discover"
+        },
+        {
+          "labelledActions": 11,
+          "measuredTargets": 8,
+          "unplacedActions": 3,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 5,
+          "screen": "Journal editor"
+        },
+        {
+          "labelledActions": 12,
+          "measuredTargets": 12,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 7,
+          "screen": "Journal card a11y-a"
+        },
+        {
+          "labelledActions": 21,
+          "measuredTargets": 21,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 5,
+          "screen": "Journal card a11y-b"
+        },
+        {
+          "labelledActions": 21,
+          "measuredTargets": 21,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 5,
+          "screen": "My walks"
+        },
+        {
+          "labelledActions": 61,
+          "measuredTargets": 61,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 9,
+          "screen": "Checklist"
+        },
+        {
+          "labelledActions": 5,
+          "measuredTargets": 5,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "screen": "Offline packs"
+        },
+        {
+          "labelledActions": 4,
+          "measuredTargets": 4,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "screen": "Settings"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "screen": "Coverage"
+        },
+        {
+          "labelledActions": 7,
+          "measuredTargets": 7,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "screen": "Route"
+        },
+        {
+          "labelledActions": 6,
+          "measuredTargets": 6,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 5,
+          "screen": "Share"
+        },
+        {
+          "labelledActions": 7,
+          "measuredTargets": 7,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 7,
+          "screen": "Recording"
+        }
+      ]
+    },
+    {
+      "configuration": "de-360-2.0",
+      "navigation": {
+        "keyboardOrder": "Discover>My walks>Offline packs>Checklist>Settings",
+        "nativeAccessibilityFocusTargets": 5,
+        "nativeFocusVerification": "refreshed virtual-node accessibility focus flag",
+        "nativeTraversalPairs": 4,
+        "nativeTraversalMethod": "child order and non-conflicting overrides",
+        "explicitTraversalIndices": true
+      },
+      "controls": [
+        {
+          "labelledActions": 6,
+          "measuredTargets": 6,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 6,
+          "screen": "Navigation"
+        },
+        {
+          "labelledActions": 13,
+          "measuredTargets": 13,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "screen": "Discover"
+        },
+        {
+          "labelledActions": 11,
+          "measuredTargets": 8,
+          "unplacedActions": 3,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 3,
+          "screen": "Journal editor"
+        },
+        {
+          "labelledActions": 21,
+          "measuredTargets": 12,
+          "unplacedActions": 9,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 4,
+          "screen": "Journal card a11y-a"
+        },
+        {
+          "labelledActions": 10,
+          "measuredTargets": 10,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 4,
+          "screen": "Journal card a11y-b"
+        },
+        {
+          "labelledActions": 10,
+          "measuredTargets": 10,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 4,
+          "screen": "My walks"
+        },
+        {
+          "labelledActions": 61,
+          "measuredTargets": 61,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "screen": "Checklist"
+        },
+        {
+          "labelledActions": 5,
+          "measuredTargets": 5,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "screen": "Offline packs"
+        },
+        {
+          "labelledActions": 4,
+          "measuredTargets": 4,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "screen": "Settings"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "screen": "Coverage"
+        },
+        {
+          "labelledActions": 7,
+          "measuredTargets": 7,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "screen": "Route"
+        },
+        {
+          "labelledActions": 6,
+          "measuredTargets": 6,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 3,
+          "screen": "Share"
+        },
+        {
+          "labelledActions": 7,
+          "measuredTargets": 7,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 4,
+          "screen": "Recording"
+        }
+      ]
+    },
+    {
+      "configuration": "de-800-2.0",
+      "navigation": {
+        "keyboardOrder": "Discover>My walks>Offline packs>Checklist>Settings",
+        "nativeAccessibilityFocusTargets": 5,
+        "nativeFocusVerification": "refreshed virtual-node accessibility focus flag",
+        "nativeTraversalPairs": 4,
+        "nativeTraversalMethod": "child order and non-conflicting overrides",
+        "explicitTraversalIndices": true
+      },
+      "controls": [
+        {
+          "labelledActions": 6,
+          "measuredTargets": 6,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 6,
+          "screen": "Navigation"
+        },
+        {
+          "labelledActions": 13,
+          "measuredTargets": 13,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "screen": "Discover"
+        },
+        {
+          "labelledActions": 11,
+          "measuredTargets": 8,
+          "unplacedActions": 3,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 5,
+          "screen": "Journal editor"
+        },
+        {
+          "labelledActions": 21,
+          "measuredTargets": 12,
+          "unplacedActions": 9,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 4,
+          "screen": "Journal card a11y-a"
+        },
+        {
+          "labelledActions": 21,
+          "measuredTargets": 21,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 5,
+          "screen": "Journal card a11y-b"
+        },
+        {
+          "labelledActions": 21,
+          "measuredTargets": 21,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 5,
+          "screen": "My walks"
+        },
+        {
+          "labelledActions": 61,
+          "measuredTargets": 61,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 7,
+          "screen": "Checklist"
+        },
+        {
+          "labelledActions": 5,
+          "measuredTargets": 5,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "screen": "Offline packs"
+        },
+        {
+          "labelledActions": 4,
+          "measuredTargets": 4,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "screen": "Settings"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "screen": "Coverage"
+        },
+        {
+          "labelledActions": 7,
+          "measuredTargets": 7,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "screen": "Route"
+        },
+        {
+          "labelledActions": 6,
+          "measuredTargets": 6,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 5,
+          "screen": "Share"
+        },
+        {
+          "labelledActions": 7,
+          "measuredTargets": 7,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 7,
+          "screen": "Recording"
+        }
+      ]
+    }
+  ],
+  "failures": [],
+  "device": "KFTRWI",
+  "api": 28
+}

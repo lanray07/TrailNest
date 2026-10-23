@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-23",
+  "version": "0.8.3",
+  "versionCode": 11,
+  "humanTranslationReviewRequired": false,
+  "decision": "owner_waived_translation_review",
+  "humanApprovalClaimed": false,
+  "reviewMetadataPreserved": true,
+  "translationBannerRemoved": true,
+  "localesActive": 19,
+  "localeReleaseCheck": "passed",
+  "toolingTests": 10,
+  "toolingFailures": 0,
+  "buildResult": "BUILD SUCCESSFUL",
+  "buildDuration": "3m 43s",
+  "lintErrors": 0,
+  "debugLintWarnings": 48,
+  "latLintWarnings": 40,
+  "warningsSuppressed": false,
+  "device": {
+    "model": "KFTRWI",
+    "api": 28,
+    "instrumentedTests": 1,
+    "durationSeconds": 45.274,
+    "locales": [
+      "ar",
+      "de"
+    ],
+    "widthsDp": [
+      360,
+      800
+    ],
+    "fontScale": 2,
+    "configurations": 4,
+    "failures": 0,
+    "matrix": "artifacts/translation-policy-matrix.json",
+    "scope": "Focused banner-removal smoke checks. Full 19-locale matrix passed on 0.8.2; translation text is unchanged."
+  },
+  "apks": "artifacts/translation-policy-apks.json",
+  "unrelatedReleaseGatesRetained": true,
+  "productionApproved": false,
+  "amazonUploadPerformed": false
+}

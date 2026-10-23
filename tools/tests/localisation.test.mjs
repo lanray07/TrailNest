@@ -1,7 +1,7 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import {extractResources,escapeAndroid,placeholders,sourceHash,sourceIsCurrent,entryReviewed,androidQualifier,hardcodedUiStrings,pluralErrors} from '../localisation-resources.mjs';
+import {extractResources,escapeAndroid,placeholders,sourceHash,sourceIsCurrent,entryReviewed,androidQualifier,hardcodedUiStrings,pluralErrors,localeAccepted} from '../localisation-resources.mjs';
 const root=new URL('../../',import.meta.url),read=p=>JSON.parse(fs.readFileSync(new URL(p,root),'utf8'));
 test('Android XML escaping round-trips punctuation, newlines and protected placeholders',()=>{
   const text='It\'s "private" & <local>\n%1$s · %2$d · \\path';
@@ -24,6 +24,14 @@ test('source changes invalidate an otherwise reviewed draft and safety review is
 test('BCP47 qualifiers retain region and script distinctions',()=>{
   assert.equal(androidQualifier('pt-BR'),'values-b+pt+BR');assert.equal(androidQualifier('zh-Hans'),'values-b+zh+Hans');
   assert.notEqual(androidQualifier('en-GB'),androidQualifier('en-US'));
+});
+test('waiving human review never bypasses missing, stale or invalid translation checks',()=>{
+  const audit={missing:[],invalid:[],needsReview:['title']},locale={reviewed:false};
+  assert.equal(localeAccepted(audit,locale,{}),false);
+  assert.equal(localeAccepted(audit,locale,{humanReviewRequired:false}),true);
+  assert.equal(localeAccepted({...audit,missing:['title']},locale,{humanReviewRequired:false}),false);
+  assert.equal(localeAccepted({...audit,invalid:['title: stale source']},locale,{humanReviewRequired:false}),false);
+  assert.equal(localeAccepted({...audit,needsReview:[]},{reviewed:true},{}),true);
 });
 test('UI scanner catches literal labels, descriptions and notices while ignoring stable IDs',()=>{
   assert.equal(hardcodedUiStrings('Text("Hello"); EmptyPanel("Empty", body); Image(painter, "Hills"); notice = "Failed"').length,4);
@@ -56,6 +64,7 @@ test('all 19 active draft bundles are complete, current and retain review status
   assert.deepEqual([...config.matchAll(/android:name="([^"]+)"/g)].map(match=>match[1]),registry.locales.map(locale=>locale.tag));
   const manifest=fs.readFileSync(new URL('app/src/main/AndroidManifest.xml',root),'utf8');
   assert.match(manifest,/android:localeConfig="@xml\/locales_config"/);
-  const gradle=fs.readFileSync(new URL('app/build.gradle.kts',root),'utf8');
-  assert.match(gradle,/buildConfigField\("boolean", "DRAFT_TRANSLATIONS", "true"\)/);
+  assert.equal(registry.translationPolicy.humanReviewRequired,false);
+  const navigation=fs.readFileSync(new URL('app/src/main/java/com/trailnest/app/ui/Navigation.kt',root),'utf8');
+  assert.doesNotMatch(navigation,/translation_draft_notice|DRAFT_TRANSLATIONS/);
 });

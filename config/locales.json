@@ -1,5 +1,10 @@
 {
   "checkedOn": "2026-10-23",
+  "translationPolicy": {
+    "humanReviewRequired": false,
+    "decision": "owner_waived_translation_review",
+    "changedOn": "2026-10-23"
+  },
   "source": "https://developer.amazon.com/docs/app-submission/distribute-your-app-internationally.html",
   "note": "Official storefront locales are separate from device language preferences. Recheck the source before each release; en-GB and es-MX are requested in-app targets, not separately listed storefront localizations in this source.",
   "locales": [

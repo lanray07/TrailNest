@@ -2,6 +2,14 @@
 
 Build date: 23 October 2026. Commands run in `D:\App Projects\TrailNest` using JDK 17, Android SDK 35, AGP 8.11.1 and Gradle 8.13.
 
+## Android 0.8.3 owner translation-policy change
+
+The owner explicitly waived human translation review on 23 October 2026. Recorded that policy in `config/locales.json`, removed the translation draft banner and its build flag, and updated translation/release checks to use policy acceptance. All 19 locales pass `node tools/localise.mjs --check --generate --release`. Provenance, source fingerprints and actual review history remain intact; no reviewer or approval is fabricated. Missing/stale strings, protected terms, placeholders, plurals and hardcoded UI checks still apply. Unrelated release prerequisites remain in place.
+
+**10 tooling tests passed**, including waiver rejection of missing/invalid/stale translations. The four app variants, debug/LAT lint and preview instrumentation APK built successfully in **3m 43s**. Lint: **zero errors / 48 debug and 40 LAT warnings**; the extra unused resource warning is the retained historical translation-notice text. No warning was suppressed. JVM domain tests were unchanged and not rerun for this policy/banner change.
+
+The focused instrumented Fire KFTRWI/API 28 smoke test passed **4/4 configurations**: Arabic/German, 360/800 dp widths, 200% fonts, nine screens per case. It completed in **45.274 seconds**. The full 19-locale matrix passed on 0.8.2; translated text is unchanged. A fresh Arabic screenshot confirms the removed banner. All four 0.8.3/code 11 APKs contain the 19 configured locale qualifiers; debug/preview/LAT signatures verify, and the signed LAT APK is ready locally. No Amazon upload was performed. [Verification](../artifacts/verification-0.8.3.json), [matrix](../artifacts/translation-policy-matrix.json), [APK hashes](../artifacts/translation-policy-apks.json).
+
 ## Android 0.8.2 active translations
 
 Enabled all 19 configured locale bundles in the shared `main` resource set, inherited by debug, release, LAT and translation-preview APKs. Every bundle retains 259 strings / four plurals, source hashes and `reviewed:false`; zero locales are approved. All variants retain the draft notice. Locale configuration is inherited from the main manifest; text follows the device/app language with English fallback. Synthetic device tests now use the `.draft` package identity for isolation, independently of the draft-notice flag.

@@ -5,6 +5,10 @@ export const xmlText=text=>text.replace(/&(?:amp|lt|gt|quot|apos);|&#(?:x[0-9a-f
 export const escapeAndroid=text=>text.replaceAll('\\','\\\\').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll("'","\\'").replaceAll('"','\\"').replaceAll('\n','\\n').replaceAll('\t','\\t').replaceAll('\r','\\r');
 export const androidQualifier=tag=>'values-b+'+tag.replaceAll('-','+');
 export function entryReviewed(entry){return entry?.reviewed===true&&typeof entry.reviewer==='string'&&!!entry.reviewer.trim()&&typeof entry.reviewedAt==='string'&&Number.isFinite(Date.parse(entry.reviewedAt))&&(!entry.requiresSafetyReview||(typeof entry.safetyReviewer==='string'&&!!entry.safetyReviewer.trim()));}
+export function localeAccepted(audit,locale,policy){
+  return audit.missing.length===0&&audit.invalid.length===0&&
+    (policy?.humanReviewRequired===false||(audit.needsReview.length===0&&locale.reviewed===true));
+}
 export const sourceIsCurrent=(source,entry)=>entry?.sourceHash===sourceHash(source);
 export function hardcodedUiStrings(content){
   const patterns=[/(?:Text|Heading|Page|SectionLabel|EmptyPanel)\s*\(\s*"/g,/(?:Image|Icon)\s*\([^,\n]+,\s*"/g,/\b(?:notice|message\.value)\s*=\s*"/g,/\bText\(\s*if\s*\([^\n]*?\)\s*"/g];

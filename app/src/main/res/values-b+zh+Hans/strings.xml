@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- UNREVIEWED DRAFT. Active in app; never a release approval. -->
+<!-- Generated translations. Provenance and review history are retained in localisation JSON. -->
 <resources>
     <string name="billing_offer">年度订阅：%1$s。除非在 Amazon 账户中取消，否则会自动续订。</string>
     <string name="billing_subscribe">订阅</string>

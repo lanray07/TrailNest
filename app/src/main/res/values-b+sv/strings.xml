@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- UNREVIEWED DRAFT. Active in app; never a release approval. -->
+<!-- Generated translations. Provenance and review history are retained in localisation JSON. -->
 <resources>
     <string name="billing_offer">Årsprenumeration: %1$s. Förnyas automatiskt om du inte säger upp den i ditt Amazon-konto.</string>
     <string name="billing_subscribe">Prenumerera</string>

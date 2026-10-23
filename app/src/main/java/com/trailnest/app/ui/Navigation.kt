@@ -44,7 +44,6 @@ import androidx.compose.ui.unit.dp
         Column(Modifier.semantics { isTraversalGroup = true }.onPreviewKeyEvent {
             if (expanded && !sidebar && it.type == KeyEventType.KeyDown && it.key == Key.Escape) { expanded = false; true } else false
         }) {
-            if (BuildConfig.DRAFT_TRANSLATIONS) TrailText(stringResource(R.string.translation_draft_notice), Modifier.fillMaxWidth().padding(12.dp), color = MaterialTheme.colorScheme.error)
             if (!sidebar) OutlinedButton(onClick = { expanded = !expanded }, Modifier.fillMaxWidth().padding(horizontal = 16.dp).heightIn(min = 56.dp).focusRequester(toggleFocus).testTag("navigation-toggle").semantics { stateDescription = menuState; traversalIndex = -1f }) {
                 Icon(if (expanded) Icons.Outlined.Close else Icons.Outlined.Menu, null)
                 Spacer(Modifier.width(12.dp))

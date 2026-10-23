@@ -1,10 +1,15 @@
 {
-  "generatedAt": "2026-10-23T20:26:55.172Z",
+  "generatedAt": "2026-10-23T20:44:29.211Z",
   "registryCheckedOn": "2026-10-23",
   "resourceStrings": 259,
   "resourcePlurals": 4,
-  "fullyLocalised": false,
-  "draftOnly": true,
+  "humanReviewComplete": false,
+  "draftOnly": false,
+  "translationPolicy": {
+    "humanReviewRequired": false,
+    "decision": "owner_waived_translation_review",
+    "changedOn": "2026-10-23"
+  },
   "resourceSourceSet": "main",
   "locales": [
     {
@@ -277,7 +282,8 @@
         "walk_count",
         "recording_saved_notes"
       ],
-      "approved": false
+      "approved": false,
+      "accepted": true
     },
     {
       "tag": "en-GB",
@@ -549,7 +555,8 @@
         "walk_count",
         "recording_saved_notes"
       ],
-      "approved": false
+      "approved": false,
+      "accepted": true
     },
     {
       "tag": "en-AU",
@@ -821,7 +828,8 @@
         "walk_count",
         "recording_saved_notes"
       ],
-      "approved": false
+      "approved": false,
+      "accepted": true
     },
     {
       "tag": "en-IN",
@@ -1093,7 +1101,8 @@
         "walk_count",
         "recording_saved_notes"
       ],
-      "approved": false
+      "approved": false,
+      "accepted": true
     },
     {
       "tag": "fr",
@@ -1365,7 +1374,8 @@
         "walk_count",
         "recording_saved_notes"
       ],
-      "approved": false
+      "approved": false,
+      "accepted": true
     },
     {
       "tag": "de",
@@ -1637,7 +1647,8 @@
         "walk_count",
         "recording_saved_notes"
       ],
-      "approved": false
+      "approved": false,
+      "accepted": true
     },
     {
       "tag": "it",
@@ -1909,7 +1920,8 @@
         "walk_count",
         "recording_saved_notes"
       ],
-      "approved": false
+      "approved": false,
+      "accepted": true
     },
     {
       "tag": "es",
@@ -2181,7 +2193,8 @@
         "walk_count",
         "recording_saved_notes"
       ],
-      "approved": false
+      "approved": false,
+      "accepted": true
     },
     {
       "tag": "es-MX",
@@ -2453,7 +2466,8 @@
         "walk_count",
         "recording_saved_notes"
       ],
-      "approved": false
+      "approved": false,
+      "accepted": true
     },
     {
       "tag": "pt-BR",
@@ -2725,7 +2739,8 @@
         "walk_count",
         "recording_saved_notes"
       ],
-      "approved": false
+      "approved": false,
+      "accepted": true
     },
     {
       "tag": "pt-PT",
@@ -2997,7 +3012,8 @@
         "walk_count",
         "recording_saved_notes"
       ],
-      "approved": false
+      "approved": false,
+      "accepted": true
     },
     {
       "tag": "nl",
@@ -3269,7 +3285,8 @@
         "walk_count",
         "recording_saved_notes"
       ],
-      "approved": false
+      "approved": false,
+      "accepted": true
     },
     {
       "tag": "pl",
@@ -3541,7 +3558,8 @@
         "walk_count",
         "recording_saved_notes"
       ],
-      "approved": false
+      "approved": false,
+      "accepted": true
     },
     {
       "tag": "sv",
@@ -3813,7 +3831,8 @@
         "walk_count",
         "recording_saved_notes"
       ],
-      "approved": false
+      "approved": false,
+      "accepted": true
     },
     {
       "tag": "ja",
@@ -4085,7 +4104,8 @@
         "walk_count",
         "recording_saved_notes"
       ],
-      "approved": false
+      "approved": false,
+      "accepted": true
     },
     {
       "tag": "ar",
@@ -4357,7 +4377,8 @@
         "walk_count",
         "recording_saved_notes"
       ],
-      "approved": false
+      "approved": false,
+      "accepted": true
     },
     {
       "tag": "hi",
@@ -4629,7 +4650,8 @@
         "walk_count",
         "recording_saved_notes"
       ],
-      "approved": false
+      "approved": false,
+      "accepted": true
     },
     {
       "tag": "zh-Hans",
@@ -4901,7 +4923,8 @@
         "walk_count",
         "recording_saved_notes"
       ],
-      "approved": false
+      "approved": false,
+      "accepted": true
     },
     {
       "tag": "ko",
@@ -5173,18 +5196,20 @@
         "walk_count",
         "recording_saved_notes"
       ],
-      "approved": false
+      "approved": false,
+      "accepted": true
     }
   ],
   "hardcodedComposeStrings": [],
   "plurals": {
-    "status": "requires_reviewed_translations",
+    "status": "passed",
     "resources": [
       "route_points",
       "checklist_progress",
       "walk_count",
       "recording_saved_notes"
     ],
-    "message": "Source extraction and locale plural-category/placeholder validation implemented. Reviewed translations remain required."
-  }
+    "message": "Plural categories, source freshness and placeholders validated; human-review policy is recorded separately."
+  },
+  "translationReady": true
 }

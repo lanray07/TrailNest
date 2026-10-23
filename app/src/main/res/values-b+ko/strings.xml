@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- UNREVIEWED DRAFT. Active in app; never a release approval. -->
+<!-- Generated translations. Provenance and review history are retained in localisation JSON. -->
 <resources>
     <string name="billing_offer">연간 구독: %1$s. Amazon 계정에서 취소하지 않으면 자동으로 갱신됩니다.</string>
     <string name="billing_subscribe">구독</string>

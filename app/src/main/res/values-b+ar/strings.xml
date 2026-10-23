@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- UNREVIEWED DRAFT. Active in app; never a release approval. -->
+<!-- Generated translations. Provenance and review history are retained in localisation JSON. -->
 <resources>
     <string name="billing_offer">اشتراك سنوي: %1$s. يتجدد تلقائيًا ما لم تُلغِه في حساب Amazon.</string>
     <string name="billing_subscribe">اشترك</string>

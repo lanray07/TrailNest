@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- UNREVIEWED DRAFT. Active in app; never a release approval. -->
+<!-- Generated translations. Provenance and review history are retained in localisation JSON. -->
 <resources>
     <string name="billing_offer">Subskrypcja roczna: %1$s. Odnawia się automatycznie, chyba że anulujesz ją na koncie Amazon.</string>
     <string name="billing_subscribe">Subskrybuj</string>
