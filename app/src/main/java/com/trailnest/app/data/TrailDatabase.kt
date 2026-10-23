@@ -13,6 +13,7 @@ data class ImportedRoute(@PrimaryKey val id: String, val title: String, val geom
 @Entity(tableName = "walk_photos", foreignKeys = [ForeignKey(entity = Walk::class, parentColumns = ["id"], childColumns = ["walkId"], onDelete = ForeignKey.CASCADE)], indices = [Index("walkId")])
 data class WalkPhoto(@PrimaryKey val id: String, val walkId: String, val fileName: String)
 @Dao interface TrailDao {
+    @Insert(onConflict = OnConflictStrategy.IGNORE) suspend fun insertRecording(walk: Walk): Long
     @Query("SELECT * FROM walks ORDER BY date DESC") fun walks(): Flow<List<Walk>>
     @Upsert suspend fun save(walk: Walk)
     @Query("DELETE FROM walks WHERE id = :id") suspend fun deleteWalk(id: String)

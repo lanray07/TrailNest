@@ -21,18 +21,23 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.trailnest.app.data.*
 import com.trailnest.app.domain.*
 
-@Composable fun TrailApp(model: TrailViewModel, notice: String?, dismiss: () -> Unit, fix: Location?, locating: Boolean, voiceReady: Boolean, command: VoiceCommand, onConsumeCommand: () -> Unit, onImport: () -> Unit, onExport: (ImportedRoute) -> Unit, onLocation: () -> Unit, onSpeak: (String) -> Unit, onListen: () -> Unit, onShare: (String) -> Unit, onNotice: (String) -> Unit) {
+@Composable fun TrailApp(model: TrailViewModel, notice: String?, dismiss: () -> Unit, fix: Location?, locating: Boolean, voiceReady: Boolean, command: VoiceCommand, onConsumeCommand: () -> Unit, onImport: () -> Unit, onExport: (ImportedRoute) -> Unit, onLocation: () -> Unit, onSpeak: (String) -> Unit, onListen: () -> Unit, onShare: (String) -> Unit, onNotice: (String) -> Unit, recordingPage: Int = 0, onRecordingAction: (String) -> Unit = {}) {
     val prefs by model.prefs.collectAsStateWithLifecycle()
     val walks by model.walks.collectAsStateWithLifecycle()
     val routes by model.routes.collectAsStateWithLifecycle()
     val photos by model.photos.collectAsStateWithLifecycle()
     val photoBusy by model.photoBusy.collectAsStateWithLifecycle()
     val modelMessage by model.message.collectAsStateWithLifecycle()
+    val recordingError by model.recordingError.collectAsStateWithLifecycle()
+    LaunchedEffect(recordingError) { recordingError?.let { model.message.value = it; model.recordingError.value = null } }
     val dark = prefs[booleanPreferencesKey("dark")] ?: false
     val imperial = prefs[stringPreferencesKey("units")] != "metric"
     val scheme = if (dark) darkColorScheme(primary = Color(0xFFA7D3BC), background = Color(0xFF17241E), surface = Color(0xFF22332A), onSurface = Ivory) else lightColorScheme(primary = Forest, background = Ivory, surface = Color(0xFFFCFBF7), onSurface = Ink, outlineVariant = Color(0xFFDDDFD5))
     var page by rememberSaveable { mutableStateOf("Discover") }
     var selectedId by rememberSaveable { mutableStateOf<String?>(null) }
+    LaunchedEffect(recordingPage) { if (recordingPage > 0) { page = "My walks"; selectedId = null } }
+    val recording by model.recording.collectAsStateWithLifecycle()
+    val recordingBusy by model.recordingBusy.collectAsStateWithLifecycle()
     val selected = routes.find { it.id == selectedId }
     val labels = listOf(stringResource(R.string.discover), stringResource(R.string.my_walks), stringResource(R.string.offline), stringResource(R.string.checklist), stringResource(R.string.settings))
     val keys = listOf("Discover", "My walks", "Offline packs", "Checklist", "Settings")
@@ -54,7 +59,8 @@ import com.trailnest.app.domain.*
                             if (selected != null) RouteScreen(selected, fix, locating, imperial, voiceReady, command, onConsumeCommand, onLocation, onSpeak, onListen, onExport, onShare, { selectedId = null }, onNotice)
                             else when (page) {
                                 "Discover" -> DiscoverScreen({ page = it }, onImport)
-                                "My walks" -> JournalScreen(walks, photos, imperial, photoBusy, model::save, model::deleteWalk, model::addPhoto, model::deletePhoto)
+                                "My walks" -> JournalScreen(walks, photos, imperial, photoBusy, model::save, model::deleteWalk, model::addPhoto, model::deletePhoto,
+                                    recordingRevealKey = recordingPage, recording = { RecordingPanel(recording, imperial, recordingBusy, onRecordingAction, model::finishRecording) })
                                 "Offline packs" -> PacksScreen(routes, imperial, onImport, {
                                     if (Gpx.digest(it.geometry) == it.sha256) selectedId = it.id
                                     else onNotice("Integrity check failed. Reimport the original GPX.")

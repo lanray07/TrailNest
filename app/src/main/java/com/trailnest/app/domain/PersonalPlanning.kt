@@ -22,7 +22,7 @@ object JournalRules {
     fun validate(title: String, distance: String, minutes: String) {
         val d = distance.toDoubleOrNull(); val m = minutes.toIntOrNull()
         require(title.trim().isNotEmpty() && title.trim().length <= 120) { "Enter a walk title of up to 120 characters." }
-        require(d != null && d.isFinite() && d > 0 && d <= 1000) { "Enter a positive distance of up to 1,000." }
+        require(d != null && d.isFinite() && d >= 0 && d <= 1000) { "Enter a distance from zero to 1,000. Zero means no distance was measured." }
         require(m != null && m in 1..10080) { "Enter a duration between 1 and 10,080 minutes." }
     }
     fun total(entries: List<ActivityEntry>) = ActivityTotal(entries.size, entries.sumOf { it.metres }, entries.sumOf { it.minutes.toLong() })

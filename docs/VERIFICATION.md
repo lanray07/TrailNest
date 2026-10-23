@@ -2,6 +2,19 @@
 
 Build date: 23 October 2026. Commands run in `D:\App Projects\TrailNest` using JDK 17, Android SDK 35, AGP 8.11.1 and Gradle 8.13.
 
+## Android 0.3.0 background recording update
+
+The final source passed `gradlew.bat :app:assembleDebug :app:assembleRelease :app:testDebugUnitTest :app:lintDebug :app:assembleDebugAndroidTest --offline --max-workers=2`. Final build: **BUILD SUCCESSFUL in 1m 34s**, after correcting a journal callback omitted during the notification shortcut change. APK metadata identifies version **0.3.0**, version code **3**.
+
+- Android JVM tests: **32 passed**, zero failures. Ten new recording tests cover active time excluding pauses, segment breaks, accepted movement, inaccurate/stale/future fixes, outages/jumps, duplicate/out-of-order fixes, stale location status, interrupted-draft timing, zero-distance editing, and cached fixes predating resume.
+- Tooling tests: **3 passed**. Website tests: **5 passed**; website build passed. The website remains the separate 0.1 preview and was not redeployed.
+- Lint: **zero errors, 23 warnings**. The additional warning recommends the SharedPreferences KTX editing helper; the recorder checks the explicit durable commit result. Existing dependency/resource/platform recommendations remain. Existing RouteScreen always-true compiler warnings remain. No warnings were suppressed.
+- **9 device tests compiled, 0 executed**. New device coverage checks recording review/save UI and idempotent Room insertion preserving later edits. ADB reported no connected device. No physical Fire OS, GPS, screen-off, permission or notification behavior is claimed as tested; the pending acceptance cases are in `RECORDING.md`.
+- Localisation: **94 strings and 3 plural resources** extracted; 19 locale targets audited, zero approved locales. Editorial validation passed with an empty catalogue. The production release gate still correctly fails for the documented licences, translations, Fire validation, billing, signing and other missing release prerequisites.
+- Debug, unsigned release and device-test APKs are packaged under `artifacts/TrailNest-0.3.0-*.apk`, with hashes in `artifacts/checksums.json`. `apksigner verify --verbose` verified the debug APK with Signature Scheme v2. APKs are local ignored build deliverables. Machine-readable results: `artifacts/verification-0.3.0.json`.
+
+Recording uses an explicit location foreground service, separate from foreground route progress. Only aggregate duration/distance checkpoints persist; coordinates remain in memory. Interrupted recordings recover paused, and completing a recovered draft uses its stable ID to prevent duplicate journal entries. This is not a recorded-track export feature or emergency monitor. `RECORDING.md` describes behavior and limitations.
+
 ## Android 0.2.0 update
 
 The final source passed `gradlew.bat :app:assembleDebug :app:assembleRelease :app:testDebugUnitTest :app:lintDebug :app:assembleDebugAndroidTest --offline --max-workers=2`. The final repeat after the journal lazy-list change completed successfully. APK metadata identifies version **0.2.0**, version code **2**.

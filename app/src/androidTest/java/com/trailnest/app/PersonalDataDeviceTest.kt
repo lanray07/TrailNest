@@ -17,6 +17,18 @@ import java.util.UUID
 
 @RunWith(AndroidJUnit4::class)
 class PersonalDataDeviceTest {
+    @Test fun savingRecoveredRecordingIsIdempotentAndPreservesJournalEdits() = runBlocking {
+        val context = InstrumentationRegistry.getInstrumentation().targetContext
+        val db = Room.inMemoryDatabaseBuilder(context, TrailDatabase::class.java).build()
+        try {
+            val walk = Walk("recording", "Original", 123, 0.0, 1, "No reliable fix", 0, false)
+            assertTrue(db.dao().insertRecording(walk) != -1L)
+            db.dao().save(walk.copy(title = "Edited", rating = 5, favourite = true))
+            assertEquals(-1L, db.dao().insertRecording(walk))
+            assertEquals("Edited", db.dao().walk(walk.id)!!.title)
+            assertTrue(db.dao().walk(walk.id)!!.favourite)
+        } finally { db.close() }
+    }
     @Test fun versionOneDatabaseMigratesWithoutLosingJournalOrRoute() = runBlocking {
         val context = InstrumentationRegistry.getInstrumentation().targetContext
         val name = "migration-test-${UUID.randomUUID()}.db"

@@ -1,0 +1,30 @@
+{
+  "version": "0.3.0",
+  "versionCode": 3,
+  "date": "2026-10-23",
+  "android": {
+    "debugBuild": "passed",
+    "unsignedReleaseBuild": "passed",
+    "jvmTests": {"passed":32,"failures":0},
+    "lint": {"errors":0,"warnings":23},
+    "instrumentationBuild": "passed",
+    "debugSignature": "verified_v2",
+    "instrumentationTests": {"compiled":9,"executed":0},
+    "physicalFireValidation": "not_run_no_device"
+  },
+  "tooling": {"testsPassed":3},
+  "website": {"testsPassed":5,"build":"passed","version":"0.1.0","deploymentChanged":false},
+  "localisation": {"stringsExtracted":94,"pluralResources":3,"approvedLocales":0},
+  "recording": {
+    "foregroundServiceType":"location",
+    "recovery":"paused_explicit_resume_required",
+    "persistentCoordinates":false,
+    "recordedTrackExport":false,
+    "checkpointIntervalTargetMillis":5000,
+    "maximumCheckpointLossGuaranteed":false,
+    "journalInsertion":"stable_session_id_insert_ignore"
+  },
+  "productionReleaseReady": false,
+  "releaseGate": "blocked_for_documented_prerequisites",
+  "checksums": "artifacts/checksums.json"
+}

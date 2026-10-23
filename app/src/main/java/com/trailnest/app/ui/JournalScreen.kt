@@ -29,7 +29,7 @@ import java.time.format.TextStyle
 import java.util.*
 
 @OptIn(ExperimentalLayoutApi::class)
-@Composable fun JournalScreen(walks: List<Walk>, photos: List<WalkPhoto>, imperial: Boolean, busy: Boolean, save: (Walk) -> Unit, delete: (String) -> Unit, addPhoto: (String, android.net.Uri) -> Unit, removePhoto: (WalkPhoto) -> Unit) {
+@Composable fun JournalScreen(walks: List<Walk>, photos: List<WalkPhoto>, imperial: Boolean, busy: Boolean, save: (Walk) -> Unit, delete: (String) -> Unit, addPhoto: (String, android.net.Uri) -> Unit, removePhoto: (WalkPhoto) -> Unit, recordingRevealKey: Int = 0, recording: @Composable () -> Unit = {}) {
     var editor by rememberSaveable { mutableStateOf<String?>(null) }
     var deleting by remember { mutableStateOf<Walk?>(null) }
     var deletingPhoto by remember { mutableStateOf<WalkPhoto?>(null) }
@@ -41,6 +41,7 @@ import java.util.*
     }
     val scroll = rememberLazyListState()
     LaunchedEffect(editor) { if (editor != null) scroll.animateScrollToItem(3) }
+    LaunchedEffect(recordingRevealKey) { if (recordingRevealKey > 0) scroll.scrollToItem(if (editor == null) 3 else 4) }
     val totals = JournalRules.total(walks.map { ActivityEntry(it.date, it.metres, it.minutes) })
     val visible = walks.filter { !favouritesOnly || it.favourite }
     LazyColumn(Modifier.fillMaxSize().testTag("journal-list"), state = scroll, contentPadding = PaddingValues(24.dp), verticalArrangement = Arrangement.spacedBy(22.dp)) {
@@ -53,6 +54,7 @@ import java.util.*
         if (editor != null) item("editor-$editor") {
             WalkEditor(walks.find { it.id == editor }, imperial, { save(it); editor = null }, { editor = null })
         }
+        item("recording") { recording() }
         item("summary") { JournalSummary(walks, imperial) }
         if (busy) item("photo-progress") { Column { LinearProgressIndicator(Modifier.fillMaxWidth()); Text(stringResource(R.string.importing_photo)) } }
         if (visible.isEmpty() && editor == null) item("empty") { EmptyPanel(stringResource(R.string.journal_empty_title), stringResource(if (favouritesOnly) R.string.no_favourites else R.string.journal_empty_body)) }

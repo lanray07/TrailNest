@@ -6,5 +6,9 @@
   "walk_count": {
     "one": "%1$d walk",
     "other": "%1$d walks"
+  },
+  "recording_saved_notes": {
+    "one": "Live recording: %1$d active second. Distance is estimated and may be incomplete; pauses and location gaps are excluded.",
+    "other": "Live recording: %1$d active seconds. Distance is estimated and may be incomplete; pauses and location gaps are excluded."
   }
 }

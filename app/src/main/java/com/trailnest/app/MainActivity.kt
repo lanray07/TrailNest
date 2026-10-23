@@ -36,6 +36,40 @@ class MainActivity : ComponentActivity(), LocationListener {
     private var voiceCommand by mutableStateOf(VoiceCommand.UNKNOWN)
     private var tts: TextToSpeech? = null
     private var exportRoute: ImportedRoute? = null
+    private var recordingPage by mutableIntStateOf(0)
+    private val recordingPermission = registerForActivityResult(ActivityResultContracts.RequestMultiplePermissions()) {
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
+            if (android.os.Build.VERSION.SDK_INT >= 33) notificationPermission.launch(Manifest.permission.POST_NOTIFICATIONS)
+            else startRecording()
+        } else notice = getString(R.string.recording_permission)
+    }
+    private val notificationPermission = registerForActivityResult(ActivityResultContracts.RequestPermission()) { startRecording() }
+    private fun startRecording() {
+        val precise = ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED
+        val providers = locationManager.getProviders(true).filter { it == LocationManager.NETWORK_PROVIDER || (precise && it == LocationManager.GPS_PROVIDER) }
+        if (providers.isEmpty()) { notice = getString(R.string.recording_location_disabled); return }
+        runCatching { ContextCompat.startForegroundService(this, Intent(this, WalkRecordingService::class.java)) }
+            .onFailure { notice = getString(R.string.recording_start_failed) }
+    }
+    private fun recordingAction(action: String) {
+        runCatching { when (action) {
+            "start" -> recordingPermission.launch(arrayOf(Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.ACCESS_COARSE_LOCATION))
+            "pause" -> {
+                // Stopping the service releases all location subscriptions before editing/saving.
+                stopService(Intent(this, WalkRecordingService::class.java))
+                RecordingStore.get(this).pause()
+            }
+            "discard" -> {
+                stopService(Intent(this, WalkRecordingService::class.java))
+                RecordingStore.get(this).state.value?.id?.let { RecordingStore.get(this).clear(it) }
+            }
+            else -> Unit
+        } }.onFailure { notice = it.message ?: getString(R.string.recording_start_failed) }
+    }
+    override fun onNewIntent(intent: Intent) {
+        super.onNewIntent(intent)
+        if (intent.action == WalkRecordingService.OPEN) recordingPage++
+    }
     private val audioManager by lazy { getSystemService(AUDIO_SERVICE) as AudioManager }
     private val audioFocus by lazy { AudioFocusRequest.Builder(AudioManager.AUDIOFOCUS_GAIN_TRANSIENT_MAY_DUCK)
         .setAudioAttributes(AudioAttributes.Builder().setUsage(AudioAttributes.USAGE_ASSISTANCE_NAVIGATION_GUIDANCE).setContentType(AudioAttributes.CONTENT_TYPE_SPEECH).build())
@@ -65,6 +99,7 @@ class MainActivity : ComponentActivity(), LocationListener {
     }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        if (intent.action == WalkRecordingService.OPEN) recordingPage++
         tts = TextToSpeech(this) { status ->
             voiceReady = status == TextToSpeech.SUCCESS && (tts?.setLanguage(Locale.getDefault()) ?: -1) >= TextToSpeech.LANG_AVAILABLE
         }
@@ -77,6 +112,7 @@ class MainActivity : ComponentActivity(), LocationListener {
         setContent {
             TrailApp(model, notice, { notice = null }, fix, locating, voiceReady, voiceCommand,
                 onConsumeCommand = { voiceCommand = VoiceCommand.UNKNOWN },
+                recordingPage = recordingPage, onRecordingAction = ::recordingAction,
                 onImport = { importer.launch(arrayOf("application/gpx+xml", "application/xml", "text/xml", "application/octet-stream")) },
                 onExport = { exportRoute = it; exporter.launch("${it.title.replace(Regex("[^a-zA-Z0-9 -]"), "").take(80)}.gpx") },
                 onLocation = { if (locating) stopLocation() else permission.launch(arrayOf(Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.ACCESS_COARSE_LOCATION)) },
