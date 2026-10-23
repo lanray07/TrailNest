@@ -1,6 +1,6 @@
 # TrailNest
 
-A working Android development build and companion website for private walk preparation, GPX geometry and a walking journal. **Android version 0.8.0 is not the complete production application described in the brief and is not approved for Appstore submission.** The companion website remains the separate 0.1 preview.
+A working Android development build and companion website for private walk preparation, GPX geometry and a walking journal. **Android version 0.8.1 is not the complete production application described in the brief and is not approved for Appstore submission.** The companion website remains the separate 0.1 preview.
 
 ## Run
 
@@ -12,7 +12,7 @@ Website: `cd website`, `npm run dev`, then open `http://127.0.0.1:4173`. No depe
 
 ## Implemented
 
-- Kotlin/Compose adaptive tablet rail and scrollable phone/large-font navigation, wrapping actions and RTL-aware text direction; original TrailNest vector icon, generated imaginary landscape, light/dark appearance and miles/kilometres.
+- Kotlin/Compose adaptive tablet rail and scrollable phone/large-font navigation, wrapping actions and RTL-aware text direction; premium evergreen/gold TrailNest icon, generated imaginary landscape, light/dark appearance and miles/kilometres.
 - Editable Room journal with completed-walk dates, notes, ratings, favourites and a favourites filter. Monthly activity and selectable yearly summaries use the device time zone. Editing notes preserves the original distance without rounding drift.
 - Background walk recording: explicit start, pause/resume, finish/review/save and discard, with a location foreground service and notification controls. Active duration excludes pauses; interrupted drafts recover paused. Only aggregate estimated distance and duration are persisted, with duplicate-safe journal saves. See `docs/RECORDING.md` for device limitations.
 - Private walk photos: explicit system file picker, up to eight per saved walk, 20 MB input limit, sampled decoding, orientation correction, and app-private resized JPEG copies with EXIF/location metadata removed. Removing copies leaves original photos untouched. Room schema 1→2 migration retains existing journal entries and imported routes; deleting a walk cascades its photo rows and removes private files.

@@ -2,6 +2,14 @@
 
 Build date: 23 October 2026. Commands run in `D:\App Projects\TrailNest` using JDK 17, Android SDK 35, AGP 8.11.1 and Gradle 8.13.
 
+## Android 0.8.1 premium icon
+
+Replaced the Android and Amazon draft tablet icons with the generated evergreen/gold medallion. The transparent master, exact prompt and integration details are retained in [design/PREMIUM-ICON.md](../design/PREMIUM-ICON.md). Reviewed the 512px export and a 48px rendering; the adaptive launcher uses an inset foreground to protect the rim. Both Amazon draft icon sizes persisted after page reload; browser proof is saved locally under `artifacts/reports/amazon-setup/premium-listing-icons.png`.
+
+Final `:app:assembleTranslationPreview :app:assembleLat :app:lintLat -PtrailnestLatBillingEnabled=true --offline --max-workers=2` passed in **2m 21s**, with **zero errors / 23 warnings**. Removed the unused old launcher colour reported by the first lint pass. Refreshed the 0.8.1/code 9 APKs after the final build; LAT signatures v2/v3 and preview signature v2 verify. [Asset and APK hashes / sanitized evidence](../artifacts/premium-icon.json). Unit tests were not rerun for this resource-only change. No device install was performed because ADB reported the Fire device unauthorized.
+
+Amazon's existing LAT remains **Test submitted** with 0.8.0/code 8 and its previous artwork; **Add upcoming version** is disabled. The new signed LAT APK is ready locally, but was not uploaded. The approved TEST subscription is also read-only and retains its previous artwork. The upcoming public draft listing has the new icons; it has not been submitted. All 19 translations remain drafts with zero approved locales. The separate website preview was unchanged.
+
 ## Dedicated LAT configuration and test submission
 
 On 23 October 2026 the owner authorized direct transfer of the Amazon RVS shared key into Vercel LAT Secret storage and nominated one consenting tester. The transfer completed without printing the credential, writing it locally or putting it in the APK/Git. A separate RSA-3072 verifier key was generated in memory; its private key is in Vercel Secret storage only. Node 22 LAT deployment readiness returned anonymous 204; malformed verification requests returned 400 and static source paths 404. A 20/minute/IP WAF test returned 429 on request 21. An actual Preview deployment returned 302 to Vercel Authentication; existing protection settings were retained. Readiness is not evidence of a verified real LAT receipt.

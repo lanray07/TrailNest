@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-23",
+  "version": "0.8.1",
+  "versionCode": 9,
+  "generation": "Built-in image-generation tool; exact prompt in design/PREMIUM-ICON.md",
+  "assets": [
+    {
+      "path": "design/trailnest-premium-icon.png",
+      "sha256": "7376dfd175e26c9d35089ab7cd7d26db76f754d0f21aabc80e133d221e7b78ef"
+    },
+    {
+      "path": "marketing/app-icon-512.png",
+      "sha256": "8ad6dd42fea98d6638da9ad88fca440e850c87757d5797aa9f513d9d228e9f20"
+    },
+    {
+      "path": "marketing/app-icon-114.png",
+      "sha256": "db76f7390e751031be3440f2bd3441ea48df01ef3710c199514141ca213dc1c5"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/ic_trailnest.png",
+      "sha256": "8ad6dd42fea98d6638da9ad88fca440e850c87757d5797aa9f513d9d228e9f20"
+    }
+  ],
+  "master": {
+    "width": 1254,
+    "height": 1254,
+    "transparentOutsideMedallion": true
+  },
+  "exports": {
+    "amazonLarge": 512,
+    "amazonSmall": 114,
+    "android": 512,
+    "visualReviewSizes": [
+      512,
+      48
+    ],
+    "resampling": "Sharp Lanczos3"
+  },
+  "build": {
+    "command": "gradlew.bat :app:assembleTranslationPreview :app:assembleLat :app:lintLat -PtrailnestLatBillingEnabled=true --offline --max-workers=2",
+    "result": "BUILD SUCCESSFUL",
+    "duration": "2m 21s",
+    "lintErrors": 0,
+    "lintWarnings": 23,
+    "unitTests": "Not rerun for this resource-only change",
+    "apks": [
+      {
+        "path": "artifacts/TrailNest-0.8.1-lat.apk",
+        "sha256": "56f62aca5e3b771151b324270b2ff2b1368de200a7e69a2ffebe1b477cc476f1"
+      },
+      {
+        "path": "artifacts/TrailNest-0.8.1-translation-preview.apk",
+        "sha256": "11bcf57326c93cc941e545c30b8682a3bc3bc4eb40d8c659b525e0e55be7f65f"
+      }
+    ],
+    "latSignatures": [
+      "v2",
+      "v3"
+    ],
+    "previewSignatures": [
+      "v2"
+    ]
+  },
+  "amazon": {
+    "upcomingDraftTabletIconsUploaded": true,
+    "persistedAfterReload": true,
+    "proof": "artifacts/reports/amazon-setup/premium-listing-icons.png",
+    "currentLatStatus": "Test submitted",
+    "currentLatVersion": "0.8.0-lat / code 8",
+    "newLatApkUploaded": false,
+    "reason": "Add upcoming version disabled while Amazon processes submitted test",
+    "iapArtworkUpdated": false,
+    "iapReason": "Approved TEST item is read-only in current console UI"
+  },
+  "physicalDeviceCheck": "No install performed; ADB device unauthorized",
+  "translations": {
+    "locales": 19,
+    "status": "draft",
+    "approved": 0
+  }
+}

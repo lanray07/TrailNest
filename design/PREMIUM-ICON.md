@@ -1,0 +1,9 @@
+# TrailNest premium icon
+
+Created 23 October 2026 with the built-in image-generation tool, replacing the previous flat mountain/path mark at the owner's request. The transparent square master is `trailnest-premium-icon.png`; the 512px and 114px Amazon PNGs are exported under `marketing/`, and the app consumes the 512px PNG through `drawable-nodpi/ic_trailnest.png`. Exports use Lanczos resizing and retain alpha.
+
+The adaptive launcher places the complete medallion inside an 18% foreground inset on a deep evergreen background to protect its rim from launcher masks. The in-app navigation displays the same unmasked medallion. The icon contains no text and makes no claim about actual route/map coverage. Human translation approvals are unchanged.
+
+## Generation prompt
+
+Use case: logo-brand. Create ONE exquisite premium app icon for TrailNest, an elegant walking and hiking journal app. A distinctive compact circular medallion, centered, occupying 90% of a square canvas with genuine transparent pixels outside the circular silhouette. Rich deep evergreen enamel background, two beautifully sculpted layered mountain ridges in emerald and muted jade, a wide flowing warm ivory hiking trail winding from the lower foreground into the valley, a small softly luminous warm gold rising sun above the valley. Extremely polished, sophisticated outdoor luxury brand, restrained warm brushed-gold rim and edge highlights, subtle dimensional relief and velvety depth, crisp simple silhouettes, superb visual balance. Strong recognizable geometry that still reads as a tiny 48px mobile icon; mountain-and-trail motif is the hero. Flat front view, no perspective tilt, no external cast shadow, no phone mockup, no board or multiple options. No text, letters, words, watermark, crowns, diamonds, compass ticks, excessive decoration, photographic scenery or busy detail. Deliver clean isolated final production artwork, no background beyond the circular medallion.
