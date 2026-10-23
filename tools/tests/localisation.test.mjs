@@ -29,13 +29,13 @@ test('UI scanner catches literal labels, descriptions and notices while ignoring
   assert.equal(hardcodedUiStrings('Text("Hello"); EmptyPanel("Empty", body); Image(painter, "Hills"); notice = "Failed"').length,4);
   assert.equal(hardcodedUiStrings('"My walks" -> JournalScreen(); Text(userNotes); Text(stringResource(R.string.title))').length,0);
 });
-test('all 19 draft bundles are complete, current, unreviewed and match preview resources',()=>{
+test('all 19 active draft bundles are complete, current and retain review status',()=>{
   const registry=read('config/locales.json'),source=read('localisation/source.json'),plurals=read('localisation/plurals-source.json');
   assert.equal(registry.locales.length,19);
   for(const locale of registry.locales){
     assert.equal(locale.reviewed,false);
     const data=read(`localisation/${locale.tag}.json`);
-    const rendered=extractResources([fs.readFileSync(new URL(`app/src/translationPreview/res/${androidQualifier(locale.tag)}/strings.xml`,root),'utf8')]);
+    const rendered=extractResources([fs.readFileSync(new URL(`app/src/main/res/${androidQualifier(locale.tag)}/strings.xml`,root),'utf8')]);
     assert.deepEqual(Object.keys(rendered.strings).sort(),Object.keys(source).sort());
     assert.deepEqual(Object.keys(rendered.plurals).sort(),Object.keys(plurals).sort());
     for(const [key,value]of Object.entries(source)){
@@ -48,6 +48,14 @@ test('all 19 draft bundles are complete, current, unreviewed and match preview r
       assert.deepEqual(pluralErrors(value,data[key],locale.tag),[]);assert.deepEqual(rendered.plurals[key],data[key].forms);
     }
   }
-  // Draft resources must stay outside the normal APK's source set.
-  assert.equal(fs.readdirSync(new URL('app/src/main/res/',root)).filter(name=>name.startsWith('values-b+')||/^values-[a-z]{2}(?:-r[A-Z]{2})?$/.test(name)).length,0);
+  // Every variant inherits the same locales; preview overrides cannot mask them.
+  assert.equal(fs.readdirSync(new URL('app/src/main/res/',root)).filter(name=>name.startsWith('values-b+')).length,19);
+  const previewRes=new URL('app/src/translationPreview/res/',root);
+  assert.equal(fs.existsSync(previewRes)?fs.readdirSync(previewRes).filter(name=>name.startsWith('values-b+')).length:0,0);
+  const config=fs.readFileSync(new URL('app/src/main/res/xml/locales_config.xml',root),'utf8');
+  assert.deepEqual([...config.matchAll(/android:name="([^"]+)"/g)].map(match=>match[1]),registry.locales.map(locale=>locale.tag));
+  const manifest=fs.readFileSync(new URL('app/src/main/AndroidManifest.xml',root),'utf8');
+  assert.match(manifest,/android:localeConfig="@xml\/locales_config"/);
+  const gradle=fs.readFileSync(new URL('app/build.gradle.kts',root),'utf8');
+  assert.match(gradle,/buildConfigField\("boolean", "DRAFT_TRANSLATIONS", "true"\)/);
 });

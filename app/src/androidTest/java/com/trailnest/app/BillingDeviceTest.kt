@@ -46,7 +46,7 @@ class BillingDeviceTest {
     }
     data class Case(val tag:String,val width:Int)
     @Test fun configuredBillingDraftLayoutsAndControlStates() {
-        Assume.assumeTrue(BuildConfig.DRAFT_TRANSLATIONS)
+        Assume.assumeTrue(BuildConfig.APPLICATION_ID.endsWith(".draft"))
         prepareTestWindow { compose.activity }
         val instrumentation=InstrumentationRegistry.getInstrumentation();val app=instrumentation.targetContext
         val output=File(app.getExternalFilesDir(null),"billing-checks").apply { mkdirs() }

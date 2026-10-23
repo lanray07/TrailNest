@@ -13,7 +13,7 @@ fun prepareTestWindow(activity: () -> Activity) {
     repeat(2) {
         val current = activity()
         instrumentation.runOnMainSync {
-            if (BuildConfig.DRAFT_TRANSLATIONS && Build.VERSION.SDK_INT >= 27) { current.setTurnScreenOn(true); current.setShowWhenLocked(true) }
+            if (BuildConfig.APPLICATION_ID.endsWith(".draft") && Build.VERSION.SDK_INT >= 27) { current.setTurnScreenOn(true); current.setShowWhenLocked(true) }
             current.window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
         }
         instrumentation.waitForIdleSync()

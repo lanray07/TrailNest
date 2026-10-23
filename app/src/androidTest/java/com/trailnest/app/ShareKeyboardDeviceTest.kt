@@ -36,7 +36,7 @@ class ShareKeyboardDeviceTest {
     data class Case(val tag: String, val width: Int, val scale: Float)
 
     @Test fun actionsAreTouchableAboveOpenKeyboard() {
-        Assume.assumeTrue("Draft package isolates all synthetic fixtures",BuildConfig.DRAFT_TRANSLATIONS)
+        Assume.assumeTrue("Draft package isolates all synthetic fixtures",BuildConfig.APPLICATION_ID.endsWith(".draft"))
         prepareTestWindow { compose.activity }
         val instrumentation = InstrumentationRegistry.getInstrumentation()
         instrumentation.setInTouchMode(true)

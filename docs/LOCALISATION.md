@@ -1,6 +1,6 @@
-# Localisation drafts — Android 0.8
+# Active localisation drafts — Android 0.8.2
 
-All 19 configured Android locales have **unreviewed drafts**, not release-approved translations: en-US, en-GB, en-AU, en-IN, fr, de, it, es, es-MX, pt-BR, pt-PT, nl, pl, sv, ja, ar, hi, zh-Hans and ko. Each bundle contains 259 strings and four plural resources. Regional English drafts intentionally share much of the source wording; regional adaptation still requires review. Spanish for Mexico also requires regional review.
+All 19 configured Android locales are **active in every Android variant** while retaining their **unreviewed draft** status: en-US, en-GB, en-AU, en-IN, fr, de, it, es, es-MX, pt-BR, pt-PT, nl, pl, sv, ja, ar, hi, zh-Hans and ko. Each bundle contains 259 strings and four plural resources. Regional English drafts intentionally share much of the source wording; regional adaptation still requires review. Spanish for Mexico also requires regional review. Activation is not human approval, and the app continues to show its draft notice.
 
 The migration covers navigation, discover/coverage/pack screens, route progress and spoken status, settings/privacy, journal summaries, validation/errors, system sharing text, accessibility image descriptions and default checklist items. Brand names, internal navigation IDs, protocol fields, GPX XML, ISO date formats, country metadata and the existing English voice-command recognition vocabulary are not translated as display text. Country names displayed in coverage use the device locale. Human-entered names, notes, contacts and renamed/custom checklist items are never translated. Unchanged legacy default checklist labels retain their IDs/check states and now resolve through locale resources; explicit renames remain literal user text.
 
@@ -10,12 +10,12 @@ Navigation uses a scrollable rail on sufficiently wide layouts at normal font si
 
 ## Files and preview
 
-- `app/src/main/res/values/`: complete English fallback text. The normal debug and release APKs use these resources and contain no draft locale resource directories.
+- `app/src/main/res/values/`: complete English fallback text for unsupported device languages and untranslated non-display identifiers.
 - `localisation/source.json` and `plurals-source.json`: decoded translation source, generated from all default values XML files; non-translatable brand/build labels are excluded.
 - `localisation/<tag>.json`: draft text/forms, source SHA-256 fingerprint, provenance and explicit `reviewed:false`. Safety-related text also requires a named safety reviewer before approval. Plural-category completeness is validated, but plural grammar and regional adaptation remain unreviewed.
-- `app/src/translationPreview/res/values-b+.../`: generated preview-only Android resources with region/script distinctions, including Portuguese variants and Simplified Chinese.
+- `app/src/main/res/values-b+.../`: generated active Android resources shared by debug, release, LAT and translation-preview builds, retaining region/script distinctions, including Portuguese variants and Simplified Chinese.
 
-Run `node tools/localise.mjs --check --preview`, then `gradlew.bat :app:assembleTranslationPreview`. The signed development APK installs separately as **TrailNest Draft**, package `com.trailnest.app.draft`, version `0.8.0-draft`, with a visible draft banner. Its data is separate from the normal app. On Android versions supporting per-app language settings, its locale configuration lists the 19 targets; older systems use device language selection where available. This build is for review, not distribution as a supported multilingual product. No in-app machine translation or translation network request is included.
+Run `node tools/localise.mjs --check --generate` (`--preview` remains a compatible alias), then build the desired variant. All variants share the 19-target locale configuration and select text from the device/app language; older Fire OS versions use device language selection where available. The separate **TrailNest Draft** package (`com.trailnest.app.draft`, `0.8.2-draft`) remains available for review with isolated data. There is no in-app language picker or runtime translation service. The previously submitted 0.8.1 LAT APK remains English-only; activating translations in source does not replace an already submitted binary or certify additional Amazon listing languages.
 
 ## Repeatable device layout matrix
 
@@ -31,7 +31,7 @@ The five accessibility additions in Android 0.6 are agent-authored drafts: conte
 
 ## Checks and human review
 
-`node tools/localise.mjs --check` fails on missing text, source changes, placeholder/protected-term problems or detected hardcoded UI strings. `--preview` validates every locale before writing preview files. `node --test tools/tests/*.test.mjs` verifies XML round-tripping, all 19 bundles and their generated resources, plural categories, placeholder preservation, source-change invalidation, review requirements and draft isolation. The scanner detects known UI/message call patterns; it is not a complete Kotlin semantic parser. Source review also checked remaining literal usage.
+`node tools/localise.mjs --check` fails on missing text, source changes, placeholder/protected-term problems or detected hardcoded UI strings. `--generate` validates every locale before writing shared resources and the locale configuration. `node --test tools/tests/*.test.mjs` verifies XML round-tripping, all 19 bundles and their generated resources, plural categories, placeholder preservation, source-change invalidation, review requirements and shared locale activation. Synthetic device tests check the `.draft` application ID for isolation, independently of the draft-notice flag now enabled in all variants. The scanner detects known UI/message call patterns; it is not a complete Kotlin semantic parser. Source review also checked remaining literal usage.
 
 Every translation remains `reviewed:false`; the registry's locale approval flags also remain false. A future human review must check meaning in the actual screen, placeholders, quantities (including Arabic and Polish forms), terminology, regional usage, text expansion, RTL mixed-script content, large fonts, spoken output, and safety/access/privacy wording. Record the reviewer and ISO review date against the current source hash; safety entries additionally require a safety reviewer. A changed English source invalidates the existing translation even if its review metadata was previously complete. Structural validity alone never approves a locale.
 

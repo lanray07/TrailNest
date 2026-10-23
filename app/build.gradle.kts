@@ -35,9 +35,9 @@ android {
         applicationId = "com.trailnest.app"
         minSdk = 26
         targetSdk = 35
-        versionCode = 9
-        versionName = "0.8.1"
-        buildConfigField("boolean", "DRAFT_TRANSLATIONS", "false")
+        versionCode = 10
+        versionName = "0.8.2"
+        buildConfigField("boolean", "DRAFT_TRANSLATIONS", "true")
         buildConfigField("boolean", "LAT_BUILD", "false")
         buildConfigField("boolean", "BILLING_ENABLED", billingEnabled.toString())
         buildConfigField("String", "BILLING_ENVIRONMENT", billingLiteral(billingEnvironment))

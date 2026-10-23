@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-23",
+  "version": "0.8.2",
+  "versionCode": 10,
+  "localesActive": 19,
+  "resourceSourceSet": "main",
+  "approvedLocales": 0,
+  "translationStatus": "draft",
+  "draftNoticeEnabledInAllVariants": true,
+  "generation": "node tools/localise.mjs --check --generate",
+  "stringsPerLocale": 259,
+  "pluralResourcesPerLocale": 4,
+  "toolingTests": 9,
+  "jvmTests": 62,
+  "jvmFailures": 0,
+  "buildResult": "BUILD SUCCESSFUL",
+  "buildDuration": "6m 40s",
+  "lint": {
+    "errors": 0,
+    "debugWarnings": 47,
+    "latWarnings": 39,
+    "warningsSuppressed": false
+  },
+  "device": {
+    "model": "KFTRWI",
+    "api": 28,
+    "package": "com.trailnest.app.draft",
+    "instrumentedTests": 1,
+    "durationSeconds": 500.559,
+    "matrixConfigurations": 76,
+    "localeTargets": 19,
+    "widthsDp": [
+      360,
+      800
+    ],
+    "heightDp": 640,
+    "fontScales": [
+      1,
+      2
+    ],
+    "screenConfigurations": 684.0,
+    "failures": 0,
+    "matrix": "artifacts/active-locales-matrix.json",
+    "matrixSha256": "419bd5f64b6533001dc5181037b573d925db8650ad11fb3b470e6c6cd00d08a9",
+    "systemLanguageChanged": false,
+    "normalJournalTouched": false
+  },
+  "apks": "artifacts/active-locales-apks.json",
+  "latSignatures": [
+    "v2",
+    "v3"
+  ],
+  "debugAndPreviewSignatures": [
+    "v2"
+  ],
+  "amazonUploadPerformed": false,
+  "currentlySubmittedLatVersion": "0.8.1-lat / code 9",
+  "websiteChanged": false,
+  "productionApproved": false
+}

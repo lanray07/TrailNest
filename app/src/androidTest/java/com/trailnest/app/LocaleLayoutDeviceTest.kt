@@ -33,7 +33,7 @@ class LocaleLayoutDeviceTest {
     data class Case(val tag: String, val width: Int, val scale: Float, val screen: String = "Discover")
     private val tags = listOf("en-US","en-GB","en-AU","en-IN","fr","de","it","es","es-MX","pt-BR","pt-PT","nl","pl","sv","ja","ar","hi","zh-Hans","ko")
     @Test fun localeFontAndViewportMatrix() {
-        Assume.assumeTrue("Run against the isolated translationPreview APK", BuildConfig.DRAFT_TRANSLATIONS)
+        Assume.assumeTrue("Run against the isolated translationPreview APK", BuildConfig.APPLICATION_ID.endsWith(".draft"))
         prepareTestWindow { compose.activity }
         val instrumentation = InstrumentationRegistry.getInstrumentation()
         val app = instrumentation.targetContext
