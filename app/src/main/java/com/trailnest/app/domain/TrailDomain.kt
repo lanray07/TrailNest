@@ -28,13 +28,6 @@ class UnconfiguredMapProvider : MapProvider {
     override val permission = TilePermission(id, null, false)
     override fun styleUrl(country: String): String? = null
 }
-sealed interface PurchaseState { data object Unavailable : PurchaseState; data class Verified(val expiresAt: Long, val checkedAt: Long) : PurchaseState }
-fun PurchaseState.isEntitled(now: Long): Boolean = this is PurchaseState.Verified && now < expiresAt && now >= checkedAt && now - checkedAt < 24 * 60 * 60 * 1000
-interface BillingProvider { suspend fun restore(): PurchaseState; suspend fun purchase(sku: String): PurchaseState }
-class UnconfiguredBilling : BillingProvider {
-    override suspend fun restore() = PurchaseState.Unavailable
-    override suspend fun purchase(sku: String) = PurchaseState.Unavailable
-}
 object TrailMath {
     fun distance(a: GeoPoint, b: GeoPoint): Double {
         val p1 = Math.toRadians(a.lat); val p2 = Math.toRadians(b.lat)

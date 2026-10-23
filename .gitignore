@@ -13,3 +13,5 @@ artifacts/*.apk
 artifacts/*.tar.gz
 artifacts/*.log
 artifacts/reports/
+billing-server/secrets/
+*.private.pem

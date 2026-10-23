@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- UNREVIEWED DRAFT. Preview build only; never a release approval. -->
 <resources>
+    <string name="billing_offer">Assinatura anual: %1$s. Renova automaticamente, salvo cancelamento na sua conta Amazon.</string>
+    <string name="billing_subscribe">Assinar</string>
+    <string name="billing_restore">Restaurar compras</string>
+    <string name="billing_active">Verificação Premium válida até %1$s.</string>
+    <string name="billing_checking">Verificando compras…</string>
+    <string name="billing_pending">Aguardando aprovação da Amazon.</string>
+    <string name="billing_problem">A verificação de compras está indisponível. Restaure quando estiver online.</string>
+    <string name="billing_benefit">Premium permite mais pacotes privados de geometria GPX. Mapas licenciados e rotas selecionadas não estão disponíveis.</string>
+    <string name="billing_no_offer">Nenhuma oferta anual da Amazon está disponível no momento.</string>
+    <string name="billing_limit">Contas gratuitas podem manter um pacote de geometria. Remova um pacote ou restaure uma assinatura ativa.</string>
     <string name="navigation_open">Abrir navegação</string>
     <string name="navigation_close">Fechar navegação</string>
     <string name="packs_empty_title">Leve sua rota com você.</string>

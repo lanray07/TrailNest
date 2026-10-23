@@ -39,7 +39,8 @@ import com.trailnest.app.domain.*
     }
 }
 @OptIn(ExperimentalLayoutApi::class)
-@Composable fun SettingsScreen(prefs: Preferences, toggle: (String) -> Unit, setting: (String, String) -> Unit, voiceReady: Boolean) {
+@Composable fun SettingsScreen(prefs: Preferences, toggle: (String) -> Unit, setting: (String, String) -> Unit, voiceReady: Boolean,
+    billing: com.trailnest.app.billing.BillingState = com.trailnest.app.billing.BillingState(), buy: () -> Unit = {}, restore: () -> Unit = {}) {
     Page(stringResource(R.string.ui_make_yourself_at_home)) {
         TrailPanel(Modifier.fillMaxWidth()) {
             Heading(stringResource(R.string.ui_your_preferences), true)
@@ -49,7 +50,7 @@ import com.trailnest.app.domain.*
             TrailText(stringResource(if (voiceReady) R.string.voice_available else R.string.voice_unavailable))
             TrailText(stringResource(R.string.ui_recognition_depends_on_your_device_s_installed_service_it_may_req))
         }
-        TrailPanel(Modifier.fillMaxWidth()) { Heading(stringResource(R.string.ui_trailnest_premium), true); TrailText(stringResource(R.string.ui_purchasing_is_not_available_in_this_build_no_products_prices_or_p)); TrailText(stringResource(R.string.ui_your_checklist_journal_and_one_offline_geometry_pack_are_availabl)) }
+        BillingPanel(billing, buy, restore)
         TrailPanel(Modifier.fillMaxWidth()) { Heading(stringResource(R.string.ui_your_privacy), true); TrailText(stringResource(R.string.ui_walks_imports_and_preferences_stay_on_this_device_no_accounts_ads)); TrailText(stringResource(R.string.ui_system_speech_services_may_process_voice_data_under_their_own_pri)) }
         TrailPanel(Modifier.fillMaxWidth()) { Heading(stringResource(R.string.ui_responsible_access), true); TrailText(stringResource(R.string.ui_follow_local_signs_respect_wildlife_and_livestock_leave_gates_as_)); TrailText(stringResource(R.string.ui_uk_reference_gov_uk_government_publications_the_countryside_code_)) }
         TrailText(stringResource(R.string.build_notice, BuildConfig.VERSION_NAME))

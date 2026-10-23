@@ -1,0 +1,1342 @@
+{
+  "version": "0.8.0-draft",
+  "applicationId": "com.trailnest.app.draft",
+  "fixtureTheme": "MaterialTheme default; synthetic QA fixtures",
+  "configurations": [
+    {
+      "locale": "en-US",
+      "widthDp": 360,
+      "heightDp": 640,
+      "fontScale": 2,
+      "syntheticOffer": "QA PRICE",
+      "states": [
+        "disabled",
+        "ready",
+        "checking",
+        "pending",
+        "active",
+        "unverified",
+        "no-offer"
+      ],
+      "controlAudits": [
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "ready"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "pending"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "active"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "unverified"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "no-offer"
+        }
+      ]
+    },
+    {
+      "locale": "en-GB",
+      "widthDp": 360,
+      "heightDp": 640,
+      "fontScale": 2,
+      "syntheticOffer": "QA PRICE",
+      "states": [
+        "disabled",
+        "ready",
+        "checking",
+        "pending",
+        "active",
+        "unverified",
+        "no-offer"
+      ],
+      "controlAudits": [
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "ready"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "pending"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "active"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "unverified"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "no-offer"
+        }
+      ]
+    },
+    {
+      "locale": "en-AU",
+      "widthDp": 360,
+      "heightDp": 640,
+      "fontScale": 2,
+      "syntheticOffer": "QA PRICE",
+      "states": [
+        "disabled",
+        "ready",
+        "checking",
+        "pending",
+        "active",
+        "unverified",
+        "no-offer"
+      ],
+      "controlAudits": [
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "ready"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "pending"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "active"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "unverified"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "no-offer"
+        }
+      ]
+    },
+    {
+      "locale": "en-IN",
+      "widthDp": 360,
+      "heightDp": 640,
+      "fontScale": 2,
+      "syntheticOffer": "QA PRICE",
+      "states": [
+        "disabled",
+        "ready",
+        "checking",
+        "pending",
+        "active",
+        "unverified",
+        "no-offer"
+      ],
+      "controlAudits": [
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "ready"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "pending"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "active"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "unverified"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "no-offer"
+        }
+      ]
+    },
+    {
+      "locale": "fr",
+      "widthDp": 360,
+      "heightDp": 640,
+      "fontScale": 2,
+      "syntheticOffer": "QA PRICE",
+      "states": [
+        "disabled",
+        "ready",
+        "checking",
+        "pending",
+        "active",
+        "unverified",
+        "no-offer"
+      ],
+      "controlAudits": [
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "ready"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "pending"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "active"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "unverified"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "no-offer"
+        }
+      ]
+    },
+    {
+      "locale": "de",
+      "widthDp": 360,
+      "heightDp": 640,
+      "fontScale": 2,
+      "syntheticOffer": "QA PRICE",
+      "states": [
+        "disabled",
+        "ready",
+        "checking",
+        "pending",
+        "active",
+        "unverified",
+        "no-offer"
+      ],
+      "controlAudits": [
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "ready"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "pending"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "active"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "unverified"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "no-offer"
+        }
+      ]
+    },
+    {
+      "locale": "it",
+      "widthDp": 360,
+      "heightDp": 640,
+      "fontScale": 2,
+      "syntheticOffer": "QA PRICE",
+      "states": [
+        "disabled",
+        "ready",
+        "checking",
+        "pending",
+        "active",
+        "unverified",
+        "no-offer"
+      ],
+      "controlAudits": [
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "ready"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "pending"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "active"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "unverified"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "no-offer"
+        }
+      ]
+    },
+    {
+      "locale": "es",
+      "widthDp": 360,
+      "heightDp": 640,
+      "fontScale": 2,
+      "syntheticOffer": "QA PRICE",
+      "states": [
+        "disabled",
+        "ready",
+        "checking",
+        "pending",
+        "active",
+        "unverified",
+        "no-offer"
+      ],
+      "controlAudits": [
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "ready"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "pending"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "active"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "unverified"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "no-offer"
+        }
+      ]
+    },
+    {
+      "locale": "es-MX",
+      "widthDp": 360,
+      "heightDp": 640,
+      "fontScale": 2,
+      "syntheticOffer": "QA PRICE",
+      "states": [
+        "disabled",
+        "ready",
+        "checking",
+        "pending",
+        "active",
+        "unverified",
+        "no-offer"
+      ],
+      "controlAudits": [
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "ready"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "pending"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "active"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "unverified"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "no-offer"
+        }
+      ]
+    },
+    {
+      "locale": "pt-BR",
+      "widthDp": 360,
+      "heightDp": 640,
+      "fontScale": 2,
+      "syntheticOffer": "QA PRICE",
+      "states": [
+        "disabled",
+        "ready",
+        "checking",
+        "pending",
+        "active",
+        "unverified",
+        "no-offer"
+      ],
+      "controlAudits": [
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "ready"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "pending"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "active"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "unverified"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "no-offer"
+        }
+      ]
+    },
+    {
+      "locale": "pt-PT",
+      "widthDp": 360,
+      "heightDp": 640,
+      "fontScale": 2,
+      "syntheticOffer": "QA PRICE",
+      "states": [
+        "disabled",
+        "ready",
+        "checking",
+        "pending",
+        "active",
+        "unverified",
+        "no-offer"
+      ],
+      "controlAudits": [
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "ready"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "pending"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "active"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "unverified"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "no-offer"
+        }
+      ]
+    },
+    {
+      "locale": "nl",
+      "widthDp": 360,
+      "heightDp": 640,
+      "fontScale": 2,
+      "syntheticOffer": "QA PRICE",
+      "states": [
+        "disabled",
+        "ready",
+        "checking",
+        "pending",
+        "active",
+        "unverified",
+        "no-offer"
+      ],
+      "controlAudits": [
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "ready"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "pending"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "active"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "unverified"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "no-offer"
+        }
+      ]
+    },
+    {
+      "locale": "pl",
+      "widthDp": 360,
+      "heightDp": 640,
+      "fontScale": 2,
+      "syntheticOffer": "QA PRICE",
+      "states": [
+        "disabled",
+        "ready",
+        "checking",
+        "pending",
+        "active",
+        "unverified",
+        "no-offer"
+      ],
+      "controlAudits": [
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "ready"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "pending"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "active"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "unverified"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "no-offer"
+        }
+      ]
+    },
+    {
+      "locale": "sv",
+      "widthDp": 360,
+      "heightDp": 640,
+      "fontScale": 2,
+      "syntheticOffer": "QA PRICE",
+      "states": [
+        "disabled",
+        "ready",
+        "checking",
+        "pending",
+        "active",
+        "unverified",
+        "no-offer"
+      ],
+      "controlAudits": [
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "ready"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "pending"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "active"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "unverified"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "no-offer"
+        }
+      ]
+    },
+    {
+      "locale": "ja",
+      "widthDp": 360,
+      "heightDp": 640,
+      "fontScale": 2,
+      "syntheticOffer": "QA PRICE",
+      "states": [
+        "disabled",
+        "ready",
+        "checking",
+        "pending",
+        "active",
+        "unverified",
+        "no-offer"
+      ],
+      "controlAudits": [
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "ready"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "pending"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "active"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "unverified"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "no-offer"
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "widthDp": 360,
+      "heightDp": 640,
+      "fontScale": 2,
+      "syntheticOffer": "QA PRICE",
+      "states": [
+        "disabled",
+        "ready",
+        "checking",
+        "pending",
+        "active",
+        "unverified",
+        "no-offer"
+      ],
+      "controlAudits": [
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "ready"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "pending"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "active"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "unverified"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "no-offer"
+        }
+      ]
+    },
+    {
+      "locale": "hi",
+      "widthDp": 360,
+      "heightDp": 640,
+      "fontScale": 2,
+      "syntheticOffer": "QA PRICE",
+      "states": [
+        "disabled",
+        "ready",
+        "checking",
+        "pending",
+        "active",
+        "unverified",
+        "no-offer"
+      ],
+      "controlAudits": [
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "ready"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "pending"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "active"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "unverified"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "no-offer"
+        }
+      ]
+    },
+    {
+      "locale": "zh-Hans",
+      "widthDp": 360,
+      "heightDp": 640,
+      "fontScale": 2,
+      "syntheticOffer": "QA PRICE",
+      "states": [
+        "disabled",
+        "ready",
+        "checking",
+        "pending",
+        "active",
+        "unverified",
+        "no-offer"
+      ],
+      "controlAudits": [
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "ready"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "pending"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "active"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "unverified"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "no-offer"
+        }
+      ]
+    },
+    {
+      "locale": "ko",
+      "widthDp": 360,
+      "heightDp": 640,
+      "fontScale": 2,
+      "syntheticOffer": "QA PRICE",
+      "states": [
+        "disabled",
+        "ready",
+        "checking",
+        "pending",
+        "active",
+        "unverified",
+        "no-offer"
+      ],
+      "controlAudits": [
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "ready"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "pending"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "active"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "unverified"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "no-offer"
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "widthDp": 800,
+      "heightDp": 640,
+      "fontScale": 2,
+      "syntheticOffer": "QA PRICE",
+      "states": [
+        "disabled",
+        "ready",
+        "checking",
+        "pending",
+        "active",
+        "unverified",
+        "no-offer"
+      ],
+      "controlAudits": [
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "ready"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "pending"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "active"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "unverified"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "no-offer"
+        }
+      ]
+    },
+    {
+      "locale": "de",
+      "widthDp": 800,
+      "heightDp": 640,
+      "fontScale": 2,
+      "syntheticOffer": "QA PRICE",
+      "states": [
+        "disabled",
+        "ready",
+        "checking",
+        "pending",
+        "active",
+        "unverified",
+        "no-offer"
+      ],
+      "controlAudits": [
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "ready"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "pending"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "active"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "unverified"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "no-offer"
+        }
+      ]
+    },
+    {
+      "locale": "ja",
+      "widthDp": 800,
+      "heightDp": 640,
+      "fontScale": 2,
+      "syntheticOffer": "QA PRICE",
+      "states": [
+        "disabled",
+        "ready",
+        "checking",
+        "pending",
+        "active",
+        "unverified",
+        "no-offer"
+      ],
+      "controlAudits": [
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "ready"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "pending"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "active"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "unverified"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "no-offer"
+        }
+      ]
+    },
+    {
+      "locale": "hi",
+      "widthDp": 800,
+      "heightDp": 640,
+      "fontScale": 2,
+      "syntheticOffer": "QA PRICE",
+      "states": [
+        "disabled",
+        "ready",
+        "checking",
+        "pending",
+        "active",
+        "unverified",
+        "no-offer"
+      ],
+      "controlAudits": [
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "ready"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "pending"
+        },
+        {
+          "labelledActions": 1,
+          "measuredTargets": 1,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 1,
+          "mode": "active"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "unverified"
+        },
+        {
+          "labelledActions": 2,
+          "measuredTargets": 2,
+          "unplacedActions": 0,
+          "minimumAllocatedTargetDp": 48,
+          "fullyVisibleTouchBoundsChecked": 2,
+          "mode": "no-offer"
+        }
+      ]
+    }
+  ],
+  "failures": []
+}

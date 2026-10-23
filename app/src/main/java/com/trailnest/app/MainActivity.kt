@@ -20,6 +20,8 @@ import android.media.AudioManager
 import android.media.AudioAttributes
 import android.media.AudioFocusRequest
 import androidx.lifecycle.lifecycleScope
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.trailnest.app.billing.AmazonBillingRuntime
 import com.trailnest.app.data.*
 import com.trailnest.app.domain.*
 import kotlinx.coroutines.Dispatchers
@@ -28,6 +30,7 @@ import kotlinx.coroutines.withContext
 import java.util.Locale
 
 class MainActivity : ComponentActivity(), LocationListener {
+    private val billing by lazy { AmazonBillingRuntime.get(applicationContext) }
     private val model: TrailViewModel by viewModels()
     private var notice by mutableStateOf<String?>(null)
     private var fix by mutableStateOf<Location?>(null)
@@ -99,6 +102,7 @@ class MainActivity : ComponentActivity(), LocationListener {
     }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        billing.start()
         if (intent.action == WalkRecordingService.OPEN) recordingPage++
         tts = TextToSpeech(this) { status ->
             voiceReady = status == TextToSpeech.SUCCESS && (tts?.setLanguage(resources.configuration.locales[0]) ?: -1) >= TextToSpeech.LANG_AVAILABLE
@@ -110,7 +114,9 @@ class MainActivity : ComponentActivity(), LocationListener {
             override fun onError(utteranceId: String?) { audioManager.abandonAudioFocusRequest(audioFocus) }
         })
         setContent {
+            val billingState by billing.state.collectAsStateWithLifecycle()
             TrailApp(model, notice, { notice = null }, fix, locating, voiceReady, voiceCommand,
+                billing = billingState, onBuy = billing::buy, onRestore = billing::refresh, premiumAvailable = billing::hasPremium,
                 onConsumeCommand = { voiceCommand = VoiceCommand.UNKNOWN },
                 recordingPage = recordingPage, onRecordingAction = ::recordingAction,
                 onImport = { importer.launch(arrayOf("application/gpx+xml", "application/xml", "text/xml", "application/octet-stream")) },
@@ -129,6 +135,7 @@ class MainActivity : ComponentActivity(), LocationListener {
                 onNotice = { notice = it })
         }
     }
+    override fun onResume() { super.onResume(); billing.refresh() }
     private fun startLocation() {
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) return
         try {

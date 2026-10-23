@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- UNREVIEWED DRAFT. Preview build only; never a release approval. -->
 <resources>
+    <string name="billing_offer">اشتراك سنوي: %1$s. يتجدد تلقائيًا ما لم تُلغِه في حساب Amazon.</string>
+    <string name="billing_subscribe">اشترك</string>
+    <string name="billing_restore">استعادة المشتريات</string>
+    <string name="billing_active">التحقق من Premium صالح حتى %1$s.</string>
+    <string name="billing_checking">جارٍ التحقق من المشتريات…</string>
+    <string name="billing_pending">بانتظار موافقة Amazon.</string>
+    <string name="billing_problem">التحقق من المشتريات غير متاح. استعد المشتريات عند الاتصال بالإنترنت.</string>
+    <string name="billing_benefit">يسمح Premium بمزيد من حزم أشكال GPX الخاصة. الخرائط المرخّصة والمسارات المختارة غير متاحة.</string>
+    <string name="billing_no_offer">لا يتوفر عرض سنوي من Amazon حاليًا.</string>
+    <string name="billing_limit">يمكن للحسابات المجانية الاحتفاظ بحزمة أشكال واحدة. أزل حزمة أو استعد اشتراكًا نشطًا.</string>
     <string name="navigation_open">فتح التنقل</string>
     <string name="navigation_close">إغلاق التنقل</string>
     <string name="packs_empty_title">خذ طريقك معك.</string>

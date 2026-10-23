@@ -1,0 +1,22 @@
+{
+  "version": "0.8.0",
+  "sdk": "com.amazon.device:amazon-appstore-sdk:3.0.9",
+  "integration": "implemented_disabled_by_default",
+  "defaultBuildsBillingEnabled": false,
+  "server": "implemented_not_hosted_or_configured",
+  "actualConsoleProductsConfigured": false,
+  "amazonPublicKeyConfigured": false,
+  "liveRvsSharedSecretConfigured": false,
+  "appTesterAcceptance": false,
+  "liveAppTestingAcceptance": false,
+  "liveRvsCallsExecuted": 0,
+  "livePurchasesExecuted": 0,
+  "offlineLeaseMaxHours": 6,
+  "signedLeaseAccountReceiptSkuPackageEnvironmentBinding": true,
+  "backendReadinessBeforeCheckout": true,
+  "oneTimePacksImplemented": false,
+  "promotionalTrialOffersSupported": false,
+  "premiumBenefit": "additional private GPX geometry packs only",
+  "humanTranslationReview": "pending",
+  "releaseApproved": false
+}

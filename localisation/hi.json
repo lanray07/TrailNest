@@ -2270,5 +2270,65 @@
     "sourceHash": "9fd41ba9abc9e1e9af8963f445db0131f1dcfd4bbcea049369800d1ce10e3a67",
     "reviewed": false,
     "provenance": "agent accessibility draft; human linguistic and assistive-technology review pending"
+  },
+  "billing_offer": {
+    "text": "वार्षिक सदस्यता: %1$s। अपने Amazon खाते में रद्द न करने तक यह अपने आप नवीनीकृत होती है।",
+    "sourceHash": "05c0a4c27c10422467681f0fb97fce192e6d4a7e9d2c8aeb24e7b61a39f36386",
+    "reviewed": false,
+    "provenance": "agent billing draft; human linguistic and commercial-terms review pending"
+  },
+  "billing_subscribe": {
+    "text": "सदस्यता लें",
+    "sourceHash": "bbce327a0c77d5eb9b1813b2d1f69d0f0fc721d992342470ba767fda0c079300",
+    "reviewed": false,
+    "provenance": "agent billing draft; human linguistic and commercial-terms review pending"
+  },
+  "billing_restore": {
+    "text": "खरीदारियाँ बहाल करें",
+    "sourceHash": "542896d5857e7ea1bcedf64fd643780f25c722aa9e6ee0f21dd3db6069c7e1c3",
+    "reviewed": false,
+    "provenance": "agent billing draft; human linguistic and commercial-terms review pending"
+  },
+  "billing_active": {
+    "text": "Premium सत्यापन %1$s तक मान्य है।",
+    "sourceHash": "0bd54e4c4ba43c919ef317ac1e27017cecdec1bbd9be8d8840d41036709264a3",
+    "reviewed": false,
+    "provenance": "agent billing draft; human linguistic and commercial-terms review pending"
+  },
+  "billing_checking": {
+    "text": "खरीदारियाँ जाँची जा रही हैं…",
+    "sourceHash": "34752d3230c9f39ba86b89c91ecd6fbad5155e0ee6ad07c930d4298380827e6c",
+    "reviewed": false,
+    "provenance": "agent billing draft; human linguistic and commercial-terms review pending"
+  },
+  "billing_pending": {
+    "text": "Amazon की मंज़ूरी की प्रतीक्षा है।",
+    "sourceHash": "c8f052ff67934ad18ff5c6c5f82810bc12a63e8a8fbbebed029ddcd1a1d71e52",
+    "reviewed": false,
+    "provenance": "agent billing draft; human linguistic and commercial-terms review pending"
+  },
+  "billing_problem": {
+    "text": "खरीद सत्यापन उपलब्ध नहीं है। ऑनलाइन होने पर बहाल करें।",
+    "sourceHash": "d96d3c6de2dbaed263fed40ec135dfd81ae0423f5e3d81619b309c481f35cf2e",
+    "reviewed": false,
+    "provenance": "agent billing draft; human linguistic and commercial-terms review pending"
+  },
+  "billing_benefit": {
+    "text": "Premium से अधिक निजी GPX ज्यामिति पैक रखे जा सकते हैं। लाइसेंस वाले मानचित्र और चुने हुए मार्ग उपलब्ध नहीं हैं।",
+    "sourceHash": "0bd2073476dbc7819b59a782b958cfd460e76862b2c0b343fa81d494a5dfd6e8",
+    "reviewed": false,
+    "provenance": "agent billing draft; human linguistic and commercial-terms review pending"
+  },
+  "billing_no_offer": {
+    "text": "अभी Amazon का कोई वार्षिक ऑफ़र उपलब्ध नहीं है।",
+    "sourceHash": "e2c1457ff32eca94348f5569eee1127bfd12b6788680b59d33a45082869aefe3",
+    "reviewed": false,
+    "provenance": "agent billing draft; human linguistic and commercial-terms review pending"
+  },
+  "billing_limit": {
+    "text": "मुफ़्त खाते एक ज्यामिति पैक रख सकते हैं। कोई पैक हटाएँ या सक्रिय सदस्यता बहाल करें।",
+    "sourceHash": "327fd324d160203df270c66d6cabac09a6120037a5d351c6e87f1df9b4acc9cb",
+    "reviewed": false,
+    "provenance": "agent billing draft; human linguistic and commercial-terms review pending"
   }
 }

@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- UNREVIEWED DRAFT. Preview build only; never a release approval. -->
 <resources>
+    <string name="billing_offer">Subskrypcja roczna: %1$s. Odnawia się automatycznie, chyba że anulujesz ją na koncie Amazon.</string>
+    <string name="billing_subscribe">Subskrybuj</string>
+    <string name="billing_restore">Przywróć zakupy</string>
+    <string name="billing_active">Weryfikacja Premium ważna do %1$s.</string>
+    <string name="billing_checking">Sprawdzanie zakupów…</string>
+    <string name="billing_pending">Oczekiwanie na zatwierdzenie przez Amazon.</string>
+    <string name="billing_problem">Weryfikacja zakupów jest niedostępna. Przywróć je po połączeniu z internetem.</string>
+    <string name="billing_benefit">Premium pozwala przechowywać więcej prywatnych pakietów geometrii GPX. Licencjonowane mapy i wybrane trasy są niedostępne.</string>
+    <string name="billing_no_offer">Obecnie Amazon nie udostępnia oferty rocznej.</string>
+    <string name="billing_limit">Darmowe konta mogą przechowywać jeden pakiet geometrii. Usuń pakiet lub przywróć aktywną subskrypcję.</string>
     <string name="navigation_open">Otwórz nawigację</string>
     <string name="navigation_close">Zamknij nawigację</string>
     <string name="packs_empty_title">Zabierz ze sobą trasę.</string>

@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- UNREVIEWED DRAFT. Preview build only; never a release approval. -->
 <resources>
+    <string name="billing_offer">Jahresabo: %1$s. Verlängert sich automatisch, sofern es nicht in Ihrem Amazon-Konto gekündigt wird.</string>
+    <string name="billing_subscribe">Abonnieren</string>
+    <string name="billing_restore">Käufe wiederherstellen</string>
+    <string name="billing_active">Premium-Verifizierung gültig bis %1$s.</string>
+    <string name="billing_checking">Käufe werden geprüft…</string>
+    <string name="billing_pending">Amazon-Genehmigung ausstehend.</string>
+    <string name="billing_problem">Käufe können derzeit nicht verifiziert werden. Stellen Sie sie wieder her, sobald Sie online sind.</string>
+    <string name="billing_benefit">Premium erlaubt zusätzliche private GPX-Geometriepakete. Lizenzierte Karten und kuratierte Routen sind nicht verfügbar.</string>
+    <string name="billing_no_offer">Derzeit ist kein Jahresangebot von Amazon verfügbar.</string>
+    <string name="billing_limit">Kostenlose Konten können ein Geometriepaket speichern. Entfernen Sie ein Paket oder stellen Sie ein aktives Abo wieder her.</string>
     <string name="navigation_open">Navigation öffnen</string>
     <string name="navigation_close">Navigation schließen</string>
     <string name="packs_empty_title">Nehmen Sie Ihre Route mit.</string>

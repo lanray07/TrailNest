@@ -24,7 +24,8 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.trailnest.app.data.*
 import com.trailnest.app.domain.*
 
-@Composable fun TrailApp(model: TrailViewModel, notice: String?, dismiss: () -> Unit, fix: Location?, locating: Boolean, voiceReady: Boolean, command: VoiceCommand, onConsumeCommand: () -> Unit, onImport: () -> Unit, onExport: (ImportedRoute) -> Unit, onLocation: () -> Unit, onSpeak: (String) -> Unit, onListen: () -> Unit, onShare: (String) -> Unit, onNotice: (String) -> Unit, recordingPage: Int = 0, onRecordingAction: (String) -> Unit = {}) {
+@Composable fun TrailApp(model: TrailViewModel, notice: String?, dismiss: () -> Unit, fix: Location?, locating: Boolean, voiceReady: Boolean, command: VoiceCommand, onConsumeCommand: () -> Unit, onImport: () -> Unit, onExport: (ImportedRoute) -> Unit, onLocation: () -> Unit, onSpeak: (String) -> Unit, onListen: () -> Unit, onShare: (String) -> Unit, onNotice: (String) -> Unit, recordingPage: Int = 0, onRecordingAction: (String) -> Unit = {},
+    billing: com.trailnest.app.billing.BillingState = com.trailnest.app.billing.BillingState(), onBuy: () -> Unit = {}, onRestore: () -> Unit = {}, premiumAvailable: () -> Boolean = { false }) {
     val prefs by model.prefs.collectAsStateWithLifecycle()
     val walks by model.walks.collectAsStateWithLifecycle()
     val routes by model.routes.collectAsStateWithLifecycle()
@@ -56,12 +57,12 @@ import com.trailnest.app.domain.*
                                     if (Gpx.digest(it.geometry) == it.sha256) selectedId = it.id
                                     else onNotice(context.getString(R.string.error_integrity))
                                 }, { route ->
-                                    if (!route.packed && routes.count { it.packed } >= 1) onNotice(context.getString(R.string.error_pack_limit))
+                                    if (!route.packed && routes.count { it.packed } >= 1 && !premiumAvailable()) onNotice(context.getString(if (billing.configured) R.string.billing_limit else R.string.error_pack_limit))
                                     else if (Gpx.digest(route.geometry) != route.sha256) onNotice(context.getString(R.string.error_integrity))
                                     else model.save(route.copy(packed = !route.packed))
                                 }, model::deleteRoute)
                                 "Checklist" -> ChecklistScreen(model.checklist(prefs), model::checkItem, model::addItem, model::renameItem, model::removeItem, model::moveItem, model::resetChecklist, model::restoreChecklist)
-                                "Settings" -> SettingsScreen(prefs, model::toggle, model::setting, voiceReady)
+                                "Settings" -> SettingsScreen(prefs, model::toggle, model::setting, voiceReady, billing, onBuy, onRestore)
                                 "Coverage" -> CoverageScreen()
                             }
                 }

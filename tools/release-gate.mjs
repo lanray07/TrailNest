@@ -6,7 +6,7 @@ if(!catalogue.routes.some(r=>r.publicationStatus==='published'&&r.humanApproved&
 if(locales.locales.some(l=>l.amazonListing&&!l.approved))failures.push('Listing locale translations and human review incomplete.');
 if(locales.hardcodedComposeStrings.length)failures.push('Hardcoded app text migration incomplete.');
 let evidence={};try{evidence=await json('artifacts/release-evidence.json');}catch{}
-for(const [key,label]of Object.entries({fireDeviceTest:'Physical Fire tablet test evidence',amazonIapVerified:'Amazon SDK, product and server RVS verification',signingConfigured:'Release signing',operatorAndPrivacyApproved:'Operator, support contact and privacy review',marketingScreenshotsApproved:'Eight honest, localised Android marketing screenshots',accessibilityReviewed:'Accessibility and RTL review',titleAvailabilityChecked:'Appstore title availability'}))if(evidence[key]!==true)failures.push(`${label} missing.`);
+for(const [key,label]of Object.entries({fireDeviceTest:'Physical Fire tablet test evidence',amazonIapVerified:'Amazon products, hosted RVS and live billing acceptance',signingConfigured:'Release signing',operatorAndPrivacyApproved:'Operator, support contact and privacy review',marketingScreenshotsApproved:'Eight honest, localised Android marketing screenshots',accessibilityReviewed:'Accessibility and RTL review',titleAvailabilityChecked:'Appstore title availability'}))if(evidence[key]!==true)failures.push(`${label} missing.`);
 await fs.writeFile(new URL('artifacts/release-gate.json',base),JSON.stringify({releaseReady:failures.length===0,failures},null,2)+'\n');
 console.log(failures.length?`Release blocked:\n${failures.map(f=>' - '+f).join('\n')}`:'Release evidence complete.');
 process.exitCode=failures.length?1:0;

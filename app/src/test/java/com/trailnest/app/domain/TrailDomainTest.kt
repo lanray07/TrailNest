@@ -22,7 +22,6 @@ class TrailDomainTest {
     @Test(expected = IllegalArgumentException::class) fun invalidCoordinatesRejected() { GeoPoint(Double.NaN, 0.0) }
     @Test fun offlineTilesRequireExplicitContract() { assertFalse(TilePermission("OS", null, true).mayDownload); assertFalse(TilePermission("OS", "contract", false).mayDownload); assertTrue(TilePermission("licensed", "contract", true).mayDownload) }
     @Test fun publicationRequiresReviewerAndRights() { assertFalse(RouteProvenance("partner", null, "partner", "reviewer", "2026-10-23", true).canPublish) }
-    @Test fun unconfiguredBillingCannotGrantPremium() { assertFalse(PurchaseState.Unavailable.isEntitled(1000)); assertFalse(PurchaseState.Verified(500, 100).isEntitled(1000)); assertFalse(PurchaseState.Verified(Long.MAX_VALUE, 0).isEntitled(86400001)); assertTrue(PurchaseState.Verified(2000, 100).isEntitled(1000)) }
     @Test fun localeIsSeparateFromCoverage() { assertTrue(Countries.all.all { it.coverage == Coverage.PLANNED && !it.offlineTiles }); assertEquals(10, Countries.all.map { it.iso }.distinct().size) }
     @Test fun voiceCommandsAreExplicitAndLocaleAware() { assertEquals(VoiceCommand.PAUSE, parseCommand("Pause navigation.", Locale.UK)); assertEquals(VoiceCommand.UNKNOWN, parseCommand("Pause navigation.", Locale.GERMAN)) }
     @Test fun unitsConvert() { assertEquals("1.0 mi", TrailMath.formatDistance(1609.344, true, Locale.US)); assertEquals("1.0 km", TrailMath.formatDistance(1000.0, false, Locale.UK)) }

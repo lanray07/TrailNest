@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="billing_offer">Annual subscription: %1$s. Renews automatically unless cancelled in your Amazon account.</string>
+    <string name="billing_subscribe">Subscribe</string>
+    <string name="billing_restore">Restore purchases</string>
+    <string name="billing_active">Premium verification valid until %1$s.</string>
+    <string name="billing_checking">Checking purchases…</string>
+    <string name="billing_pending">Awaiting Amazon approval.</string>
+    <string name="billing_problem">Purchase verification is unavailable. Restore when online.</string>
+    <string name="billing_benefit">Premium allows more private GPX geometry packs. Licensed maps and curated routes are unavailable.</string>
+    <string name="billing_no_offer">No annual offer is available from Amazon right now.</string>
+    <string name="billing_limit">Free accounts can keep one geometry pack. Remove a pack or restore an active subscription.</string>
+</resources>

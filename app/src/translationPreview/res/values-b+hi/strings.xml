@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- UNREVIEWED DRAFT. Preview build only; never a release approval. -->
 <resources>
+    <string name="billing_offer">वार्षिक सदस्यता: %1$s। अपने Amazon खाते में रद्द न करने तक यह अपने आप नवीनीकृत होती है।</string>
+    <string name="billing_subscribe">सदस्यता लें</string>
+    <string name="billing_restore">खरीदारियाँ बहाल करें</string>
+    <string name="billing_active">Premium सत्यापन %1$s तक मान्य है।</string>
+    <string name="billing_checking">खरीदारियाँ जाँची जा रही हैं…</string>
+    <string name="billing_pending">Amazon की मंज़ूरी की प्रतीक्षा है।</string>
+    <string name="billing_problem">खरीद सत्यापन उपलब्ध नहीं है। ऑनलाइन होने पर बहाल करें।</string>
+    <string name="billing_benefit">Premium से अधिक निजी GPX ज्यामिति पैक रखे जा सकते हैं। लाइसेंस वाले मानचित्र और चुने हुए मार्ग उपलब्ध नहीं हैं।</string>
+    <string name="billing_no_offer">अभी Amazon का कोई वार्षिक ऑफ़र उपलब्ध नहीं है।</string>
+    <string name="billing_limit">मुफ़्त खाते एक ज्यामिति पैक रख सकते हैं। कोई पैक हटाएँ या सक्रिय सदस्यता बहाल करें।</string>
     <string name="navigation_open">नेविगेशन खोलें</string>
     <string name="navigation_close">नेविगेशन बंद करें</string>
     <string name="packs_empty_title">अपना मार्ग अपने साथ लें।</string>

@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- UNREVIEWED DRAFT. Preview build only; never a release approval. -->
 <resources>
+    <string name="billing_offer">Årsprenumeration: %1$s. Förnyas automatiskt om du inte säger upp den i ditt Amazon-konto.</string>
+    <string name="billing_subscribe">Prenumerera</string>
+    <string name="billing_restore">Återställ köp</string>
+    <string name="billing_active">Premium-verifiering giltig till %1$s.</string>
+    <string name="billing_checking">Kontrollerar köp…</string>
+    <string name="billing_pending">Väntar på godkännande från Amazon.</string>
+    <string name="billing_problem">Köpverifiering är inte tillgänglig. Återställ när du är online.</string>
+    <string name="billing_benefit">Premium tillåter fler privata GPX-geometripaket. Licensierade kartor och utvalda rutter är inte tillgängliga.</string>
+    <string name="billing_no_offer">Inget årsabonnemang från Amazon är tillgängligt just nu.</string>
+    <string name="billing_limit">Gratiskonton kan behålla ett geometripaket. Ta bort ett paket eller återställ en aktiv prenumeration.</string>
     <string name="navigation_open">Öppna navigering</string>
     <string name="navigation_close">Stäng navigering</string>
     <string name="packs_empty_title">Ta din rutt med dig.</string>

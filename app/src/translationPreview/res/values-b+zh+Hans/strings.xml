@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- UNREVIEWED DRAFT. Preview build only; never a release approval. -->
 <resources>
+    <string name="billing_offer">年度订阅：%1$s。除非在 Amazon 账户中取消，否则会自动续订。</string>
+    <string name="billing_subscribe">订阅</string>
+    <string name="billing_restore">恢复购买</string>
+    <string name="billing_active">Premium 验证有效期至 %1$s。</string>
+    <string name="billing_checking">正在检查购买…</string>
+    <string name="billing_pending">正在等待 Amazon 批准。</string>
+    <string name="billing_problem">购买验证不可用。请在联网后恢复购买。</string>
+    <string name="billing_benefit">Premium 允许保存更多私人 GPX 几何数据包。授权地图和精选路线暂不可用。</string>
+    <string name="billing_no_offer">Amazon 目前没有可用的年度优惠。</string>
+    <string name="billing_limit">免费账户可保留一个几何数据包。请移除一个数据包或恢复有效订阅。</string>
     <string name="navigation_open">打开导航</string>
     <string name="navigation_close">关闭导航</string>
     <string name="packs_empty_title">随身携带您的路线。</string>
