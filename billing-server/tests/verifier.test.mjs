@@ -84,3 +84,15 @@ test('HTTP rate limit bounds upstream calls and resets after its window',async()
   });
 });
 test('unconfigured server refuses to start',async()=>{await assert.rejects(startServer({}));});
+
+test('sandbox diagnostics expose fixed status/shape fields without receipt identities or secrets',async()=>{
+  const events=[];
+  const verify=createVerifier({...config,environment:'sandbox'},{now:()=>now,audit:e=>events.push(e),fetchImpl:async()=>response({...receipt,termSku:'wrong'})});
+  await assert.rejects(verify(request),denied);
+  assert.equal(events[0].event,'receipt_rejected');assert.equal(events[0].termMatches,false);
+  const serialized=JSON.stringify(events);
+  for(const value of [request.amazonUserId,request.receiptId,config.sharedSecret,'wrong'])assert(!serialized.includes(value));
+  const production=[];
+  await createVerifier(config,{now:()=>now,audit:e=>production.push(e),fetchImpl:async()=>response(receipt)})(request);
+  assert.deepEqual(production,[]);
+});

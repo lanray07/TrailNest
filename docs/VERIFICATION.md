@@ -2,6 +2,16 @@
 
 Build date: 23 October 2026. Commands run in `D:\App Projects\TrailNest` using JDK 17, Android SDK 35, AGP 8.11.1 and Gradle 8.13.
 
+## Amazon console, hosted sandbox and physical App Tester setup
+
+Created the unpublished TrailNest console app and annual term at GBP 4.99 (Amazon-calculated US price USD 6.69), saved the actual Amazon public key, and deployed the Node 22 Vercel adapter with a separate sandbox RSA key. The owner authorized a public sandbox Production alias with protected Previews. Actual edge testing returned 429 on request 21 of a 20/minute/IP window. Final anonymous checks returned readiness 204, malformed JSON-body request 400 and static server-source path 404. See [sanitized setup record](../artifacts/amazon-setup.json) and [setup guide](AMAZON-SETUP.md).
+
+`testDebugUnitTest`, `lintDebug` and `lintTranslationPreview` passed in 2m 58s: **61 JVM tests**, zero lint errors, 32 debug / 38 preview warnings. The configured sandbox `assembleTranslationPreview` passed separately. Its development-signed v2 APK and SHA-256 are recorded in the setup JSON; it is not a submission build. Backend tests passed **16/16**, tooling tests **9/9**, and localisation extraction audited 259 strings / four plurals across 19 locales with **zero approved**. Normal billing defaults remain disabled. Historical 0.8.0 packaged APK/checksum records below predate this setup; use the separate sandbox artifact record for this configured build.
+
+On the connected Fire KFTRWI/API 28, App Tester displayed the annual US offer. Canceled checkout granted no entitlement. Completed sandbox checkout and SDK restore returned the parent receipt and contacted real sandbox RVS. RVS returned HTTP 200 with matching receipt/product/term identifiers, but `term: "1 Month"` and renewal dates 5–12 milliseconds before verifier validation. The verifier correctly returned 403, cached no lease and did not fulfill the receipt. Console `Annually` and experimental `Annual` spellings reproduced rejection; auto-renew on and toggling grace did not establish a future horizon. **Successful entitlement/fulfillment acceptance remains blocked.** No production RVS call, charged transaction, LAT invitation or submission was performed.
+
+Restored the original device catalog and all three subscription settings to Off, removed only TrailNest's sandbox transactions, retained other apps' test transactions, stopped the draft app and set sandbox mode to `none`. The LAT project exists but has no configured service yet. The real shared key, independent LAT signing key, signed LAT binary, consenting tester group and full LAT acceptance are still required. Translations remain drafts pending human review.
+
 ## Android 0.8.0 Amazon billing preparation
 
 Final source passed `gradlew.bat :app:assembleDebug :app:assembleRelease :app:assembleTranslationPreview :app:testDebugUnitTest :app:lintDebug :app:lintTranslationPreview :app:assembleDebugAndroidTest --offline --max-workers=2` (**BUILD SUCCESSFUL in 14m 42s**). Preview instrumentation also built with `-PtrailnestTestBuildType=translationPreview`. SDK 3.0.9 was resolved online from Maven Central before offline checks. Metadata is **0.8.0 / code 8**, or **0.8.0-draft**, package `com.trailnest.app.draft`.

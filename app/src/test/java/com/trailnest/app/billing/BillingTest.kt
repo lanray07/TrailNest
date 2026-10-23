@@ -8,6 +8,13 @@ import java.security.Signature
 import java.util.Base64
 
 class BillingTest {
+    @Test fun appTesterAnnualSpellingIsNormalizedOnlyInSandbox() {
+        assertEquals("Annual", amazonSubscriptionPeriod("Annually", true))
+        assertEquals("Annual", amazonSubscriptionPeriod("Annual", true))
+        assertEquals("Annually", amazonSubscriptionPeriod("Annually", false))
+        assertEquals("Monthly", amazonSubscriptionPeriod("Monthly", true))
+        assertNull(amazonSubscriptionPeriod(null, true))
+    }
     companion object {
         private val keys = KeyPairGenerator.getInstance("RSA").apply { initialize(2048) }.generateKeyPair()
         private val publicPem = "-----BEGIN PUBLIC KEY-----\n" + Base64.getEncoder().encodeToString(keys.public.encoded) + "\n-----END PUBLIC KEY-----"

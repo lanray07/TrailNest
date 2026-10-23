@@ -1,0 +1,19 @@
+{
+  "com.trailnest.premium_term": {
+    "title": "TrailNest Premium",
+    "itemType": "SUBSCRIPTION",
+    "price": 6.69,
+    "description": "Save additional private GPX geometry packs in TrailNest while your subscription is active. Maps and curated routes are currently unavailable. An annual subscription renews automatically unless canceled through Amazon.",
+    "languageTitleMap": {
+      "US": "TrailNest Premium"
+    },
+    "languageDescriptionMap": {
+      "US": "Save additional private GPX geometry packs in TrailNest while your subscription is active. Maps and curated routes are currently unavailable. An annual subscription renews automatically unless canceled through Amazon."
+    },
+    "currencyPriceMap": {
+      "US": 6.69
+    },
+    "subscriptionParent": "com.trailnest.premium",
+    "term": "Annually"
+  }
+}

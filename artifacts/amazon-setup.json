@@ -1,0 +1,81 @@
+{
+  "checkedOn": "2026-10-23",
+  "productionApproved": false,
+  "translations": {"locales": 19, "approved": 0, "draftOnly": true},
+  "amazon": {
+    "appCreated": true,
+    "subscriptionPublished": false,
+    "parentSku": "com.trailnest.premium",
+    "annualSku": "com.trailnest.premium_term",
+    "baseAnnualPrice": {"currency": "GBP", "amount": 4.99},
+    "consoleCalculatedUsPrice": {"currency": "USD", "amount": 6.69},
+    "rawExportUsPriceIsZero": true
+  },
+  "sandbox": {
+    "url": "https://trailnest-billing-sandbox.vercel.app",
+    "deploymentId": "dpl_ESynd8jfA8FSxuoWvW6ZjwZmQKrf",
+    "amazonEnvironment": "sandbox",
+    "vercelDeploymentTarget": "production",
+    "productionAliasPublic": true,
+    "previewProtectionRetained": true,
+    "anonymousReadyStatus": 204,
+    "invalidBodyStatus": 400,
+    "staticServerSourceStatus": 404,
+    "edgeRateLimit": {"requestsPerMinutePerIp": 20, "observed21stStatus": 429},
+    "privateSigningKeyLocation": "Vercel Secret storage only",
+    "apk": {
+      "file": "TrailNest-0.8.0-sandbox-draft.apk",
+      "applicationId": "com.trailnest.app.draft",
+      "versionCode": 8,
+      "versionName": "0.8.0-draft",
+      "sha256": "95bab2eacb9214a568d80fff20de5e8662d152f2e4fb69a7ce2f1109fb566543",
+      "developmentSignedV2": true,
+      "submissionBuild": false
+    }
+  },
+  "physicalAppTester": {
+    "device": "Fire KFTRWI, API 28",
+    "appTesterVersion": "3.0.200459.0_3080810",
+    "marketplace": "US",
+    "catalogAnnualPriceDisplayed": "US$6.69",
+    "cancelCheckoutNoEntitlement": true,
+    "successfulCheckoutCallback": true,
+    "restoreCallbackWithParentReceipt": true,
+    "realSandboxRvsCalled": true,
+    "rvsHttpStatus": 200,
+    "receiptIdParentAndTermBindingsMatched": true,
+    "observedRvsTerm": "1 Month",
+    "observedRenewalOffsetMilliseconds": [-5, -12],
+    "verifierHttpStatus": 403,
+    "signedLeaseCached": false,
+    "rejectedReceiptFulfilled": false,
+    "annualSpellingsExercised": ["Annually", "Annual"],
+    "autoRenewOnStillDenied": true,
+    "graceToggleDidNotProduceValidHorizon": true,
+    "entitlementAcceptance": "blocked_by_sandbox_receipt_dates",
+    "fullAcceptanceSuitePassed": false,
+    "originalCatalogRestored": true,
+    "subscriptionSettingsRestoredToOff": true,
+    "trailNestTestTransactionsRemoved": true,
+    "otherAppsTransactionsPreserved": true,
+    "finalDeviceSandboxMode": "none"
+  },
+  "checks": {
+    "androidJvmTests": {"passed": 61, "failed": 0},
+    "debugLint": {"errors": 0, "warnings": 32},
+    "translationPreviewLint": {"errors": 0, "warnings": 38},
+    "backendTests": {"passed": 16, "failed": 0},
+    "toolingTests": {"passed": 9, "failed": 0},
+    "localisationAuditPassed": true,
+    "configuredSandboxApkBuildPassed": true
+  },
+  "remaining": [
+    "Resolve sandbox receipt-date discrepancy and pass entitlement/fulfillment acceptance",
+    "Configure isolated LAT signing key, actual RVS shared key and endpoint",
+    "Prepare and check dedicated signed LAT APK",
+    "Receive consenting tester list before invitations",
+    "Execute LAT purchase, renewal, cancellation, restore and failure acceptance",
+    "Complete production signing, separate production verifier and all submission gates",
+    "Human review of draft translations"
+  ]
+}

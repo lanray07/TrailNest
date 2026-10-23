@@ -10,6 +10,9 @@ data class BillingState(val configured: Boolean = false, val price: String? = nu
     val premium: Boolean get() = premiumUntil != null
 }
 data class StoreOffer(val sku: String, val price: String, val type: String, val period: String?, val promotional: Boolean = false)
+// App Tester echoes the console export's "Annually" spelling; production uses "Annual".
+internal fun amazonSubscriptionPeriod(period: String?, sandbox: Boolean): String? =
+    if (sandbox && period == "Annually") "Annual" else period
 data class StoreReceipt(val id: String, val sku: String, val type: String)
 sealed interface StoreEvent {
     data class User(val request: String, val user: String?) : StoreEvent

@@ -46,7 +46,7 @@ async function boundedJson(response){
   try {return JSON.parse(Buffer.concat(chunks).toString('utf8'));}catch{throw new VerificationError(503);}
 }
 
-export function createVerifier(rawConfig,{fetchImpl=fetch,now=Date.now}={}){
+export function createVerifier(rawConfig,{fetchImpl=fetch,now=Date.now,audit=()=>{}}={}){
   const config=validateConfig(rawConfig);
   return async request=>{
     if(!request||Array.isArray(request)||Object.keys(request).sort().join(',')!=='amazonUserId,receiptId'||
@@ -58,11 +58,29 @@ export function createVerifier(rawConfig,{fetchImpl=fetch,now=Date.now}={}){
     // Never log errors containing this URL: RVS includes the secret in its path.
     try {
       response=await fetchImpl(url,{method:'GET',redirect:'manual',signal:AbortSignal.timeout(5000),headers:{Accept:'application/json'}});
+      if(config.environment==='sandbox'&&response.status!==200)audit({event:'rvs_status',status:response.status});
       if(response.status===400||response.status===410||response.status===497)throw new VerificationError(403);
       if(response.status!==200)throw new VerificationError(503);
       receipt=await boundedJson(response);
     }catch(error){throw error instanceof VerificationError?error:new VerificationError(503);}
-    const issuedAt=now(),expiresAt=receiptExpiry(receipt,request,config,issuedAt);
+    const issuedAt=now();let expiresAt;
+    try{expiresAt=receiptExpiry(receipt,request,config,issuedAt);}
+    catch(error){
+      // Fixed-shape sandbox diagnostics, never identities, receipt IDs or URLs.
+      if(config.environment==='sandbox')audit({
+        event:'receipt_rejected',receiptMatches:receipt?.receiptId===request.receiptId,
+        parentMatches:receipt?.productId===config.parentSku,termMatches:receipt?.termSku===config.termSku,
+        typeMatches:receipt?.productType==='SUBSCRIPTION',testFlagType:typeof receipt?.testTransaction,betaFlagType:typeof receipt?.betaProduct,
+        purchaseDateValid:Number.isSafeInteger(receipt?.purchaseDate)&&receipt.purchaseDate>0&&receipt.purchaseDate<=issuedAt,
+        cancelEffective:typeof receipt?.cancelDate==='number'&&receipt.cancelDate<=issuedAt,
+        renewalPast:typeof receipt?.renewalDate==='number'&&receipt.renewalDate<=issuedAt,
+        termKind:['Annual','Annually','1 Year','Monthly','1 Month'].includes(receipt?.term)?receipt.term:'other',
+        autoRenewing:receipt?.autoRenewing===true,
+        renewalOffsetMs:Number.isSafeInteger(receipt?.renewalDate)?receipt.renewalDate-issuedAt:null,
+        dateShapes:['cancelDate','renewalDate','gracePeriodEndDate'].map(name=>receipt?.[name]===null?'null':typeof receipt?.[name])
+      });
+      throw error;
+    }
     const payload=['TN1',config.applicationId,config.environment,hash(request.amazonUserId),hash(request.receiptId),config.parentSku,config.termSku,issuedAt,expiresAt].join('\n');
     const encoded=Buffer.from(payload,'utf8').toString('base64url');
     const signature=sign('RSA-SHA256',Buffer.from(encoded,'ascii'),config.privateKey).toString('base64url');

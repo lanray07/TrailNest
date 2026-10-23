@@ -14,30 +14,39 @@ import java.net.URL
 
 class AmazonSdkStore(private val context: Context, private val annualSku: String) : AmazonStore, PurchasingListener {
     private var listener: (StoreEvent) -> Unit = {}
+    private fun sandboxDiagnostic(message: String) {
+        if (BuildConfig.DEBUG && BuildConfig.BILLING_ENVIRONMENT == "sandbox") android.util.Log.i("TrailNestBilling", message)
+    }
     override fun register(listener: (StoreEvent) -> Unit) {
+        sandboxDiagnostic("register sandbox listener")
         this.listener = listener
         PurchasingService.registerListener(context.applicationContext, this)
         PurchasingService.enablePendingPurchases()
     }
-    override fun user() = PurchasingService.getUserData().toString()
+    override fun user(): String { sandboxDiagnostic("request user"); return PurchasingService.getUserData().toString() }
     override fun product(sku: String) = PurchasingService.getProductData(setOf(sku)).toString()
     override fun updates(reset: Boolean) = PurchasingService.getPurchaseUpdates(reset).toString()
     override fun purchase(sku: String) = PurchasingService.purchase(sku).toString()
     override fun fulfilled(receipt: String) = PurchasingService.notifyFulfillment(receipt, FulfillmentResult.FULFILLED)
     override fun onUserDataResponse(response: UserDataResponse) {
+        sandboxDiagnostic("user status=${response.requestStatus} present=${response.userData != null}")
         listener(StoreEvent.User(response.requestId.toString(), response.userData?.userId?.takeIf { response.requestStatus == UserDataResponse.RequestStatus.SUCCESSFUL }))
     }
     override fun onProductDataResponse(response: ProductDataResponse) {
         val product = if (response.requestStatus == ProductDataResponse.RequestStatus.SUCCESSFUL) response.productData?.get(annualSku) else null
-        val offer = product?.let { StoreOffer(it.sku, it.price ?: "", it.productType.name, it.subscriptionPeriod,
+        sandboxDiagnostic("product status=${response.requestStatus} present=${product != null} period=${product?.subscriptionPeriod} pricePresent=${!product?.price.isNullOrBlank()} trial=${!product?.freeTrialPeriod.isNullOrBlank()} promotions=${product?.promotions?.size ?: 0} bases=${product?.bases?.size ?: 0}")
+        val offer = product?.let { StoreOffer(it.sku, it.price ?: "", it.productType.name, amazonSubscriptionPeriod(it.subscriptionPeriod, BuildConfig.BILLING_ENVIRONMENT == "sandbox"),
             !it.promotions.isNullOrEmpty() || !it.freeTrialPeriod.isNullOrBlank() || !it.bases.isNullOrEmpty()) }
         listener(StoreEvent.Products(response.requestId.toString(), offer))
     }
     private fun Receipt.model() = StoreReceipt(receiptId, sku, productType.name)
     override fun onPurchaseResponse(response: PurchaseResponse) {
+        val skuKind = when (response.receipt?.sku) { BuildConfig.BILLING_PARENT_SKU -> "parent"; annualSku -> "term"; null -> "none"; else -> "other" }
+        sandboxDiagnostic("purchase status=${response.requestStatus} receiptSkuKind=$skuKind")
         listener(StoreEvent.Purchase(response.requestId.toString(), response.userData?.userId, response.receipt?.model(), response.requestStatus.name))
     }
     override fun onPurchaseUpdatesResponse(response: PurchaseUpdatesResponse) {
+        sandboxDiagnostic("restore status=${response.requestStatus} more=${response.hasMore()} count=${response.receipts?.size ?: 0} parent=${response.receipts.orEmpty().count { it.sku == BuildConfig.BILLING_PARENT_SKU }} term=${response.receipts.orEmpty().count { it.sku == annualSku }}")
         listener(StoreEvent.Updates(response.requestId.toString(), response.userData?.userId, response.receipts.orEmpty().map { it.model() }, response.hasMore(), response.requestStatus == PurchaseUpdatesResponse.RequestStatus.SUCCESSFUL))
     }
 }
@@ -66,7 +75,9 @@ class HttpsReceiptVerifier(private val endpoint: String) : ReceiptVerifier {
             val body = JSONObject().put("amazonUserId", user).put("receiptId", receipt).toString().toByteArray(Charsets.UTF_8)
             connection.setFixedLengthStreamingMode(body.size)
             connection.outputStream.use { it.write(body) }
-            when (connection.responseCode) {
+            val status = connection.responseCode
+            if (BuildConfig.DEBUG && BuildConfig.BILLING_ENVIRONMENT == "sandbox") android.util.Log.i("TrailNestBilling", "verification http=$status")
+            when (status) {
                 200 -> {
                     val bytes = connection.inputStream.use { input ->
                         val out = java.io.ByteArrayOutputStream(); val buffer = ByteArray(2048)
