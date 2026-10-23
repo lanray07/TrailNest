@@ -51,8 +51,9 @@ class PersonalPlanningTest {
     }
     @Test fun sharedPlanIncludesExplicitReturnOffsetAndContactWithoutLiveClaims() {
         val plan = SharedWalkPlan("My private GPX", GeoPoint(51.0, -1.0), "3.0 km", 60, ZonedDateTime.parse("2026-10-23T15:00:00+01:00[Europe/London]"), "Home contact")
-        val text = plan.text(Instant.parse("2026-10-23T10:00:00Z"))
-        assertTrue(text.contains("+01:00 [Europe/London]")); assertTrue(text.contains("Home contact")); assertTrue(text.contains("no live tracking"))
-        assertTrue(runCatching { plan.text(Instant.parse("2026-10-23T16:00:00Z")) }.isFailure)
+        val template = "%1\$s|%2\$s|%3\$s|%4\$d|%5\$s%6\$s"
+        val text = plan.text(template, "|%1\$s", Instant.parse("2026-10-23T10:00:00Z"))
+        assertTrue(text.contains("+01:00 [Europe/London]")); assertTrue(text.contains("Home contact")); assertTrue(text.contains("3.0 km|60"))
+        assertTrue(runCatching { plan.text(template, "|%1\$s", Instant.parse("2026-10-23T16:00:00Z")) }.isFailure)
     }
 }

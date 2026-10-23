@@ -16,6 +16,8 @@ import java.time.format.DateTimeFormatter
 import kotlin.math.ceil
 
 @Composable fun SharePlanDialog(route: ImportedRoute, imperial: Boolean, share: (String) -> Unit, dismiss: () -> Unit) {
+    val context = androidx.compose.ui.platform.LocalContext.current
+    val locale = androidx.compose.ui.platform.LocalConfiguration.current.locales[0]
     val zone = ZoneId.systemDefault()
     val estimate = ceil(route.metres / 4000 * 60).toInt().coerceAtLeast(1)
     var duration by rememberSaveable(route.id) { mutableStateOf(estimate.toString()) }
@@ -34,7 +36,7 @@ import kotlin.math.ceil
         }
     }, confirmButton = { TextButton(onClick = {
         runCatching {
-            SharedWalkPlan(route.title, Gpx.points(route).first(), TrailMath.formatDistance(route.metres, imperial), duration.toIntOrNull() ?: 0, SharedWalkPlan.parseReturn(returnTime, zone), contact).text()
-        }.onSuccess { share(it); dismiss() }.onFailure { error = it.message ?: "Check the plan details." }
+            SharedWalkPlan(route.title, Gpx.points(route).first(), context.distanceText(route.metres, imperial, locale), duration.toIntOrNull() ?: 0, SharedWalkPlan.parseReturn(returnTime, zone), contact).text(context.getString(R.string.shared_plan_body), context.getString(R.string.shared_plan_contact), locale = locale)
+        }.onSuccess { share(it); dismiss() }.onFailure { error = context.userMessage(it, R.string.error_plan) }
     }) { Text(stringResource(R.string.open_share_options)) } }, dismissButton = { TextButton(onClick = dismiss) { Text(stringResource(R.string.cancel)) } })
 }

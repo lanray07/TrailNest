@@ -1,5 +1,6 @@
 package com.trailnest.app.data
 
+import com.trailnest.app.domain.TextFailure
 import android.content.Context
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
@@ -14,21 +15,21 @@ import java.util.UUID
 class PhotoStore(private val context: Context) {
     private val directory get() = File(context.filesDir, "walk_photos").also { check(it.isDirectory || it.mkdirs()) }
     fun file(name: String): File {
-        require(Regex("[a-f0-9-]{36}\\.jpg").matches(name)) { "Invalid photo reference." }
+        require(Regex("[a-f0-9-]{36}\\.jpg").matches(name)) { throw TextFailure("error_invalid_photo_reference") }
         return File(directory, name)
     }
     fun import(uri: Uri): String {
         val bytes = context.contentResolver.openInputStream(uri)?.use { input ->
             val out = ByteArrayOutputStream(); val buffer = ByteArray(8192)
-            while (true) { val count = input.read(buffer); if (count < 0) break; require(out.size() + count <= 20 * 1024 * 1024) { "Choose a photo smaller than 20 MB." }; out.write(buffer, 0, count) }
+            while (true) { val count = input.read(buffer); if (count < 0) break; require(out.size() + count <= 20 * 1024 * 1024) { throw TextFailure("error_choose_a_photo_smaller_than_20_mb") }; out.write(buffer, 0, count) }
             out.toByteArray()
-        } ?: error("The selected photo cannot be opened.")
+        } ?: throw TextFailure("error_the_selected_photo_cannot_be_opened")
         val bounds = BitmapFactory.Options().apply { inJustDecodeBounds = true }
         BitmapFactory.decodeByteArray(bytes, 0, bytes.size, bounds)
-        require(bounds.outWidth > 0 && bounds.outHeight > 0) { "Choose a supported image file." }
+        require(bounds.outWidth > 0 && bounds.outHeight > 0) { throw TextFailure("error_choose_a_supported_image_file") }
         var sample = 1
         while (maxOf(bounds.outWidth, bounds.outHeight) / sample > 1600) sample *= 2
-        val decoded = BitmapFactory.decodeByteArray(bytes, 0, bytes.size, BitmapFactory.Options().apply { inSampleSize = sample }) ?: error("The image cannot be decoded.")
+        val decoded = BitmapFactory.decodeByteArray(bytes, 0, bytes.size, BitmapFactory.Options().apply { inSampleSize = sample }) ?: throw TextFailure("error_the_image_cannot_be_decoded")
         val orientation = runCatching { ExifInterface(bytes.inputStream()).getAttributeInt(ExifInterface.TAG_ORIENTATION, ExifInterface.ORIENTATION_NORMAL) }.getOrDefault(ExifInterface.ORIENTATION_NORMAL)
         val matrix = Matrix().apply {
             when (orientation) {

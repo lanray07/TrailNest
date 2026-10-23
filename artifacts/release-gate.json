@@ -3,7 +3,7 @@
   "failures": [
     "No verified country coverage or contracted map provider.",
     "No licensed, editorially approved routes published.",
-    "Listing locales, in-app string migration and human review incomplete.",
+    "Listing locale translations and human review incomplete.",
     "Physical Fire tablet test evidence missing.",
     "Amazon SDK, product and server RVS verification missing.",
     "Release signing missing.",

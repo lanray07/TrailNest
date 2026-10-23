@@ -1,4 +1,8 @@
 {
+  "route_points": {
+    "one": "%1$d point",
+    "other": "%1$d points"
+  },
   "checklist_progress": {
     "one": "%1$d of %2$d item checked",
     "other": "%1$d of %2$d items checked"

@@ -1,0 +1,2232 @@
+{
+  "packs_empty_title": {
+    "text": "Neem je route mee.",
+    "sourceHash": "05930a8488b564f5e9961c29466961ba4a0ead52c98f754ac938c4b9daca2bae",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_a_brighter_outdoors_one_step_at_a_time": {
+    "text": "Een helderder buitenleven.\nStap voor stap.",
+    "sourceHash": "93b9a7f339e212ad0abd80eec06242dd65c918e9104ad6d21a66eaf3807e58b8",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_got_it": {
+    "text": "Ik snap het",
+    "sourceHash": "481e29fbd9ffbe690383f7d881fc83608fae4c41117cce47eedb864ce28004f2",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_search_a_town_region_or_national_park": {
+    "text": "Zoek een stad, regio of nationaal park",
+    "sourceHash": "a314790d2e981087fc65250f427a2e820fd8844d968227ec94431160d84209db",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_united_kingdom_coverage_planned": {
+    "text": "Verenigd Koninkrijk · Dekking gepland",
+    "sourceHash": "1de6688224cdbc90d84934e62698d223989696aa1c5574e2eb7398b3fc35ca45",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_your_next_adventure": {
+    "text": "Je volgende avontuur",
+    "sourceHash": "98201d395128e8ec5af72ec053ebe181945e5f9a93e7496799cc08aaef8e586b",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_explore_coverage": {
+    "text": "Ontdek de dekking",
+    "sourceHash": "a874fdc10ff90223f2fc622b70fdc34c5bd37253a531a2294b31bea85419168d",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_be_prepared": {
+    "text": "Wees voorbereid",
+    "sourceHash": "ca33cb7fed81ea680ca6cb9a218ca244d6f8c9da9e31a441932368bab22c2deb",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_a_little_preparation_goes_a_long_way": {
+    "text": "Met een beetje voorbereiding kom je al een heel eind.",
+    "sourceHash": "032574463c689943e951931b1a2f4c5fa39300813fd188df507d94e0c0f672a0",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_open_checklist": {
+    "text": "Controlelijst openen",
+    "sourceHash": "bd9f0b474973c0a52b4b94b2ec2ba7e51782ebdaa3f6639cb069c1675261f061",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_continue_your_journey": {
+    "text": "Vervolg uw reis",
+    "sourceHash": "70e8338b33f50ba927d6f12d0661883cb5f3f8798769a9c95a7c63cd6b033c51",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_import_your_own_gpx": {
+    "text": "Importeer uw eigen GPX",
+    "sourceHash": "70d044b2b8615ff0aa7ab9210fa9618194acae6c55b1e9b41836cc6da3b8e224",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_imported_routes_remain_private_and_unreviewed_check_access_and_co": {
+    "text": "Geïmporteerde routes blijven privé en worden niet beoordeeld. Controleer de toegang en voorwaarden voordat u gaat lopen.",
+    "sourceHash": "df8d96909ce6822633a05ac27e3fc7dae910e93af796e5d8b5064490399f59ca",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "ui_offline_route_packs": {
+    "text": "Offline routepakketten",
+    "sourceHash": "f72d1813862a79ea6a65e27eb2c3ac16dae86a664486dd71fe47279e21d65e9a",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_walk_journal": {
+    "text": "Wandeldagboek",
+    "sourceHash": "8ea8bb4427f7304d7e7ddfebad3b3530eea8d28752f52fdec7607251681e11ed",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_ready_when_you_are": {
+    "text": "Klaar als jij dat bent.",
+    "sourceHash": "faa08540271e7c080a0ba15f1de08b2975150dc8acdfccee3097c8d26d9021b3",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_import_gpx": {
+    "text": "Importeer GPX",
+    "sourceHash": "0fe02a0f52860bf54f51142d9e655322025efbe5a11ede9c71aeef63b455620e",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_user_supplied_access_unreviewed_no_turn_instructions": {
+    "text": "Door gebruiker opgegeven · Toegang niet beoordeeld · Geen afslaginstructies",
+    "sourceHash": "8da3bb7e96676d31152833db466bd0a3405d929abf402bc148c7470901a17778",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "ui_open_route": {
+    "text": "Route openen",
+    "sourceHash": "a10f4e8791d8bf80f785c86647aa6c2c4ef1c104b4b2a7d942a0d0dfe8d7d3d5",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_delete_import": {
+    "text": "Import verwijderen",
+    "sourceHash": "eaf95aafc77fad37e6baf5a8e8e364829ccb6bfde510f0a5cff555d2a3fcc70d",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_delete_imported_route": {
+    "text": "Geïmporteerde route verwijderen?",
+    "sourceHash": "d37d3023179363efc4f2e691fadad313bd8bb6bd95ecb3496f9bc0c0ea26cb63",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_the_route_and_its_offline_pack_will_be_removed_from_this_device": {
+    "text": "De route en het offlinepakket worden van dit apparaat verwijderd.",
+    "sourceHash": "23c1177da848130f0756860c7609dda42fa08bb0d8bb6edc03cfac75ee28b942",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_delete": {
+    "text": "Verwijderen",
+    "sourceHash": "b26de372b4b0eaac60202884a72db98a6be6e9036e785ea867ea01c5f7921098",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_keep_route": {
+    "text": "Route behouden",
+    "sourceHash": "19b3c8a6b85ee3867077943b7a15054441812af0582e96f87be53ebf0e4580ce",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_good_information_comes_first": {
+    "text": "Goede informatie staat voorop.",
+    "sourceHash": "1e963e373f20f12ac5c75e2dd126f927bbfff036b108bc64fee136c60d5ff76c",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_offline_basemap_downloads_unavailable": {
+    "text": "Offline basiskaartdownloads niet beschikbaar",
+    "sourceHash": "f4a1019596e5f7d10db237ceee340e7bc58b2bfa570fdbe86cc725e6a73f6657",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_make_yourself_at_home": {
+    "text": "Doe alsof je thuis bent.",
+    "sourceHash": "eb41f710e3a4491db81379983c6619e7ef63599c6a1ec400f3af6e2b4f42d1e4",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_your_preferences": {
+    "text": "Uw voorkeuren",
+    "sourceHash": "d99bf3d783b0df6d2b4ab230b6330c021fbff25ca9c03a9979eb1f0c87dc98e1",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_dark_appearance": {
+    "text": "Donker uiterlijk",
+    "sourceHash": "10944c682074d57fcfad7ffb14030fb05beb8bba252ad216b2caec2ec82376b4",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_distance_units": {
+    "text": "Afstandseenheden",
+    "sourceHash": "f380301ddacde9ea5b09373de0e6fdc338f20a1971fbf7328555604c3d4f69ee",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_miles": {
+    "text": "Mijlen",
+    "sourceHash": "5bd9c048220c94c0a825b07de9fa6c0b117add9b23ace5b4238624fffad7fa36",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_kilometres": {
+    "text": "Kilometers",
+    "sourceHash": "ff4b53736b5d05daca2e320474f0a3ba85179db4908280c2854722f37ef69039",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_recognition_depends_on_your_device_s_installed_service_it_may_req": {
+    "text": "Herkenning is afhankelijk van de geïnstalleerde service op uw apparaat. Het kan zijn dat er een internetverbinding nodig is. Aanraakbedieningen zijn altijd beschikbaar.",
+    "sourceHash": "469cab97b7de3c62d8d3bcf88c33b811e4ec000f4cefe735249c2479804999ee",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_trailnest_premium": {
+    "text": "TrailNest Premium",
+    "sourceHash": "6070fd1968f70992f7fc75eff72c6ea8d0553ffd92f2b22a6073664126ed4490",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_purchasing_is_not_available_in_this_build_no_products_prices_or_p": {
+    "text": "Kopen is niet beschikbaar in deze build. Er zijn geen producten, prijzen of betaalde rechten geconfigureerd.",
+    "sourceHash": "0e9ca350fda22254cf4298d0194951f7caa9d080dc4fa2a6315cb7f072fdeb13",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_your_checklist_journal_and_one_offline_geometry_pack_are_availabl": {
+    "text": "Uw checklist, dagboek en één offline geometriepakket zijn gratis beschikbaar. GPX-tools zijn opgenomen in deze ontwikkelingsrelease.",
+    "sourceHash": "62b5dae300b501ef025a25bcd1a990d6d058b1dce6eba36fa0b465f1ad976dae",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_your_privacy": {
+    "text": "Uw privacy",
+    "sourceHash": "2e29ad563dc6d16cf6f74d8685cd162f8ee8cc5b07de474613ff7abb25ca8460",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "ui_walks_imports_and_preferences_stay_on_this_device_no_accounts_ads": {
+    "text": "Wandelingen, imports en voorkeuren blijven op dit apparaat staan. Geen accounts, advertenties of analyses. De routevoortgang stopt wanneer de app de voorgrond verlaat. De livewandelingopname start alleen wanneer u daarvoor kiest en gaat door met een voorgrondservice totdat deze wordt gepauzeerd of voltooid, ook als het scherm is uitgeschakeld. Opname slaat alleen de geschatte afstand en actieve duur op; coördinaten worden weggegooid. Bij delen wordt het Android-aandeelblad alleen geopend wanneer u dit kiest.",
+    "sourceHash": "859f79ad2593df5a2d8dd212b86687d27607499a7e6a613846cc036a192f1971",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_system_speech_services_may_process_voice_data_under_their_own_pri": {
+    "text": "Systeemspraakdiensten kunnen spraakgegevens verwerken onder hun eigen privacyvoorwaarden. Als u de installatie ongedaan maakt, worden de lokale gegevens gewist. Back-ups zijn uitgeschakeld.",
+    "sourceHash": "169334df4c704c25335e6db8c7aa3e900262edf9da9355fb5467baacbb1890bc",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_responsible_access": {
+    "text": "Verantwoorde toegang",
+    "sourceHash": "b67334fea9ab86526899b19e6cbe90e2118f368bd1e9f4787656a9a00dca9a06",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "ui_follow_local_signs_respect_wildlife_and_livestock_leave_gates_as_": {
+    "text": "Volg de lokale borden, respecteer wilde dieren en vee, laat de poorten achter zoals ze gevonden zijn en neem zwerfvuil mee naar huis. Regels variëren per land en regio; controleer de huidige richtlijnen van de betreffende landbeheerder.",
+    "sourceHash": "1ce8dab31a9154e2e58b36bee66de748b2efc35d359c0f3b2f8caeffd226922c",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "ui_uk_reference_gov_uk_government_publications_the_countryside_code_": {
+    "text": "Britse referentie: gov.uk/government/publications/the-countryside-code. De Engeland- en Walescode is geen mondiaal toegangsbeleid.",
+    "sourceHash": "cc7c40d34a40c1edc39a931fa77a3b781cda0c3568de19241d3b383d16c8b975",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "ui_back_to_routes": {
+    "text": "Terug naar routes",
+    "sourceHash": "408f3b734cfe3dcab1c2c6229b3eb36863f23b00aee0a16c85df02e3669dc7a6",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_geometry_overview_green_start_brown_finish_teal_recent_position_n": {
+    "text": "Geometrieoverzicht · Groen: start · Bruin: finish · Blauwgroen: recente positie. Geen basiskaart. Noord is boven; schaal varieert afhankelijk van de routegrenzen.",
+    "sourceHash": "cc34fdd632b0c00d17c24e7e980ad43539b89b33c99b94800ddaac30802acc1c",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_your_route_at_a_glance": {
+    "text": "Jouw route in één oogopslag.",
+    "sourceHash": "97788905f4123c80395e37af2d9c499323146924d505913b90f412054a20704e",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.153Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_read_progress_aloud": {
+    "text": "Lees de voortgang voor",
+    "sourceHash": "cb5d0abaf221c3fb7f18bbccfcd4c6f5143063dd87ff472561e0b77a06301c33",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_push_to_talk": {
+    "text": "Duwen om te praten",
+    "sourceHash": "ea31daabafa3f1b248e96bab82d2381772018ed5fee6fcfbfc242d517c37a82f",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_no_validated_turn_instructions_are_included_spoken_output_reports": {
+    "text": "Er zijn geen gevalideerde afslaginstructies bijgevoegd. Gesproken output rapporteert alleen vooruitgang en onzekerheid. Deze weergave vervangt geen kaart of toegangscontroles.",
+    "sourceHash": "fe6113c1a085b1ab896c64148e6fd41cbc57008eed684b90597f936f222f3f08",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "ui_export_gpx": {
+    "text": "GPX exporteren",
+    "sourceHash": "ca6d412b185ede33dd51976d93e0493a50d7646e2cc7e3bd53e9d078707e6301",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "packs_description": {
+    "text": "Privé GPX-geometrie opgeslagen op uw apparaat. Basiskaarttegels, hoogteverschillen en herziene richtingen zijn niet inbegrepen.",
+    "sourceHash": "21759e7f0386166df0efc52afa73885d3c18477ec8c59da6badd95d6f2d20a93",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "packs_empty_description": {
+    "text": "Importeer een GPX-track, inspecteer de geometrie ervan en sla deze vervolgens op als uw offline routepakket. Er zijn geen kaartdownloads geconfigureerd.",
+    "sourceHash": "5338b685277b754875d00ac37ff0028932ca3c11b50fec8a4f3f98562440677a",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "coverage_description": {
+    "text": "Taalondersteuning impliceert geen routedekking. Elke markt begint met gelicentieerde gegevens en redactionele beoordeling.",
+    "sourceHash": "8baf80db918b32812b8c0cfe4198fb66504622a899bc7b012f4f5e1f00abf0fb",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_offline_geometry_pack": {
+    "text": "Offline geometriepakket",
+    "sourceHash": "b03f6760e0e00d8ef423c79d5e031141fc9cbd40efd9b17ae5e0d22e4f0975b0",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_private_gpx_import": {
+    "text": "Privé GPX-import",
+    "sourceHash": "50e50871164f204794da2353ab6cbfc7a2657c691628bd4cd7e70ca577f3fa32",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_sha_256_integrity_check_passed": {
+    "text": "SHA-256 integriteitscontrole geslaagd",
+    "sourceHash": "61939775405e4472242774c3ca62ee4c9a5650729a0ae59ca172a887423da878",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_integrity_check_failed": {
+    "text": "Integriteitscontrole mislukt",
+    "sourceHash": "a48bbadc9fbbc7cdbe4139c4d87dec823f54f69fac7a384aaa2199e39055e39d",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_remove_offline_pack": {
+    "text": "Offline pakket verwijderen",
+    "sourceHash": "e9cc623187ecee7371991d2f90e9218c2b9f9655dc9fca936045f46ea650c0b3",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_save_geometry_offline": {
+    "text": "Geometrie offline opslaan",
+    "sourceHash": "0830efa99e8acec6ccd169ce4cd181119cd7acffebe6d9b3c6c5ce664ec11b7f",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "packs_usage": {
+    "text": "%1$d van 1 gratis pakket opgeslagen · %2$d bytes aan geometrie",
+    "sourceHash": "8a7b269605f10208b8b87ee1cc3ca86a368aabc882370baba66ae26cc2f73a5a",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "country_planned": {
+    "text": "%1$s · Gepland · Geen gepubliceerde beoordeelde routes",
+    "sourceHash": "b71dc10109a57bf00902693b5f27228387f05a5c0c00b811a69f5dfa907722df",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "voice_available": {
+    "text": "Gesproken uitvoer: beschikbaar voor apparaattaal",
+    "sourceHash": "aa015a03f4642d24318eb554c3f2f8eed64c2a53620afc24b4e3fea372332053",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "voice_unavailable": {
+    "text": "Gesproken uitvoer: geen compatibele stem geïnstalleerd",
+    "sourceHash": "1fe4d8b8d995441607575296f8f9077a4cf93ab419939574078ceef816a1a6b1",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "offline_short": {
+    "text": "Offline",
+    "sourceHash": "cff17bc0d0c9823ceedf84ea0ab2896bd05d57906c8f6139778ebdc4bd8c1cd7",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "landscape_description": {
+    "text": "Geïllustreerde heuvels en kronkelend voetpad, een denkbeeldig landschap",
+    "sourceHash": "687601882aa161ff8f62f82ec5e715fbd0776976b0780380e64c157073d19243",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_integrity": {
+    "text": "Integriteitscontrole mislukt. Importeer de originele GPX opnieuw.",
+    "sourceHash": "95ff48df20abe28634985f91bc5eb642f99c63412355cdb9f7150c946c3ade1a",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_pack_limit": {
+    "text": "In de gratis laag wordt één routepakket opgeslagen. Verwijder eerst het bestaande pakket. Premium-aankoop is nog niet geconfigureerd.",
+    "sourceHash": "796e87709f8837711bdcc4983d944ec2a1e44dfe57d7dea813f3d754c530f99e",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "filter_0": {
+    "text": "Alle wandelingen",
+    "sourceHash": "d24485737d7806debce3c2905fe39c80566187beb44b9d22c1f9ecffa0363a48",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "filter_1": {
+    "text": "Bos",
+    "sourceHash": "c1f5c19f9704f09305d8731520969b8fde62686c789a3de93247e15de6167ccc",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "filter_2": {
+    "text": "Kust",
+    "sourceHash": "ee5a6b5c6dc08f66de3148708314ef2cd37cf75f3e493f5bcced9bde4408cc18",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "filter_3": {
+    "text": "Rivieroever",
+    "sourceHash": "9d92eba99534f1e32b4e09dc769c65628121fbe5e046e723105d15737cc7501c",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "filter_4": {
+    "text": "Heuvels",
+    "sourceHash": "d76749697eb2cf144761f72ba4ed17dd462552ff242b38f822daf744ab0cdde6",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "search_empty": {
+    "text": "Geen enkele beoordeelde route komt overeen met “%1$s”. Probeer uw eigen GPX te importeren terwijl onze collectie wordt voorbereid.",
+    "sourceHash": "e0c6e4ef983183d50d2feb57601b685a1f056db13af844010ecc1ca1c199238d",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "filter_empty": {
+    "text": "%1$s-filter geselecteerd. Er zijn nog geen beoordeelde routes beschikbaar.",
+    "sourceHash": "087ce0a0f99719bd44022e29393e9d86cb71c67cff444295b6af1afead231afe",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "preparation_item": {
+    "text": "• %1$s",
+    "sourceHash": "f55974ac5f4a202fed1dc34229cb7b4dc1a62bd531dfc1f56d5b1ac52b2a43e9",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "location_paused": {
+    "text": "Locatie onderbroken.",
+    "sourceHash": "97d1f541099929a669966789f4baf90731b2936fb2ea6d2aa52e4747b5b93f0b",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "location_waiting": {
+    "text": "Wachten op een recente locatiefix.",
+    "sourceHash": "1dde15c25fc7452a653849de00c5d74abb9f3bd35f647b8796dfb6b2ca0bdcdd",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "location_uncertain": {
+    "text": "Locatienauwkeurigheid is slecht. Positie is onzeker.",
+    "sourceHash": "f4b179194bcb5024de5420ccac48c3c521381d46ee9c30f5525a1983fb54ab92",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "route_off_route": {
+    "text": "Het lijkt erop dat u zich buiten de geplande route bevindt. Controleer uw omgeving.",
+    "sourceHash": "016252eeb619a294b60952c20013d9198c16827f95cb569a4187b503215ec76e",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "route_remaining": {
+    "text": "Ongeveer %1$s resterend.",
+    "sourceHash": "55ea2910697857a92dfe7e2325b856e868b6c07fedd654eeed3557e7777af80e",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "voice_save_hint": {
+    "text": "Gebruik Neem een ​​wandeling op in uw dagboek om afstand, duur en notities op te slaan.",
+    "sourceHash": "a98c73caadf1b8b233fdf55937e2ee852a1033659eb8fc74249df4ea48769a51",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "route_description": {
+    "text": "Privé geïmporteerde route · Toegang en routebeschrijving niet beoordeeld",
+    "sourceHash": "51bc994a063e46cf3fc234a32e92af21cb64d45ae808d7867115b829cdfa1d45",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "route_summary": {
+    "text": "%1$s · %2$s",
+    "sourceHash": "e815c74b80a6814d8bc3ef1de0438b08a20fd215f1603f29774e665893c90150",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "reported_accuracy": {
+    "text": "Gerapporteerde nauwkeurigheid: ±%1$d m",
+    "sourceHash": "d308271b4c710a4459376fe9b6421e67ee2accadc7bc6485b0427c7e57c1f55a",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "pause_location": {
+    "text": "Locatie pauzeren",
+    "sourceHash": "bf2326ce3074a34e7562b35b2b3c42a4f6f1d0643c15a5f771a46fc0ec7bff6e",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "foreground_location": {
+    "text": "Locatie gebruiken terwijl de app geopend is",
+    "sourceHash": "fa9dadec2fc3abd0cef47fc422d537e5c16794ad1410e037de53f1f80a311942",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "walk_summary": {
+    "text": "%1$s · %2$s · %3$d min",
+    "sourceHash": "04b9ed2b1e16111c335fcb61e413750591e31d666e10ec458a1e33c8c65eb2ed",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_use_an_item_name_between_1_and_120_characters": {
+    "text": "Gebruik een itemnaam tussen 1 en 120 tekens.",
+    "sourceHash": "38222c3b3b654ca1fcecdec80db62edafdec193f698900dc07fb53ce822c4eb9",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_a_completed_walk_cannot_be_dated_in_the_future": {
+    "text": "Een voltooide wandeling kan niet in de toekomst worden gedateerd.",
+    "sourceHash": "6d883ddd50e0a141522ac2101f3e1b12a7766333e0a33d9f4b7ab3863d0e5b81",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_choose_a_date_from_1970_onwards": {
+    "text": "Kies een datum vanaf 1970.",
+    "sourceHash": "28c0ea3c1e2f19a552ae1b8f19b5c709d5a3313ce22ae4bced00ca9f18a2e109",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_enter_a_walk_title_of_up_to_120_characters": {
+    "text": "Voer een wandeltitel van maximaal 120 tekens in.",
+    "sourceHash": "0d864836b19740c7fe5a74fc26831ecd47844ac47df62d94a02507c4058b1816",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_enter_a_distance_from_zero_to_1_000_zero_means_no_distance_was_me": {
+    "text": "Voer een afstand in van nul tot 1.000. Nul betekent dat er geen afstand is gemeten.",
+    "sourceHash": "f47af413a41e3cfb59ff530dad6dead0f7c71b318fe42a36e2f96bd9a49268a4",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_enter_a_duration_between_1_and_10_080_minutes": {
+    "text": "Voer een duur in tussen 1 en 10.080 minuten.",
+    "sourceHash": "09f9909f633e0c833b91c3dcb9973678f092025acbc7f0958beebd051a00e01c",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_choose_a_return_time_outside_a_daylight_saving_clock_change": {
+    "text": "Kies een terugkomsttijd buiten de zomertijdwijziging.",
+    "sourceHash": "d4a40347ac0df34a8f7fdbbc89d4f1928cc07b8690779f9a0150a0d90320f9cf",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "error_choose_an_expected_return_time_in_the_future": {
+    "text": "Kies een verwachte terugkomsttijd in de toekomst.",
+    "sourceHash": "c419ba0449b266414aca7884a234841f0d245b8cfe8b2f64449ec9f83f8e8260",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "error_enter_an_estimated_duration_between_1_and_10_080_minutes": {
+    "text": "Voer een geschatte duur in tussen 1 en 10.080 minuten.",
+    "sourceHash": "5e14408c70cd7933ce8b8f6e719fa5e3ec453bf1c17dd19a8cdebaea5df0a6e1",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_contact_details_must_be_500_characters_or_fewer": {
+    "text": "Contactgegevens moeten 500 tekens of minder bevatten.",
+    "sourceHash": "867a75002707ead8fe9587b9cfaccc600cf1597735299e7c8e281e2be4d62564",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_gpx_must_be_smaller_than_5_mb": {
+    "text": "GPX moet kleiner zijn dan 5 MB.",
+    "sourceHash": "441bb59cc1cddd67ba15ee743659d51ec8ed8cf00bd419dac0fe88f1a5b885b9",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_external_xml_declarations_are_not_allowed": {
+    "text": "Externe XML-declaraties zijn niet toegestaan.",
+    "sourceHash": "472009b50cc3d43cd7ea878f2c4f695e229d079d00fc4c8cccde6813d5d223a2",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_the_document_root_must_be_gpx": {
+    "text": "De documenthoofdmap moet GPX zijn.",
+    "sourceHash": "cfca6c540093146472495727b0e628f4c653ccbb080325c1c0c97b83e0619771",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_import_one_track_at_a_time": {
+    "text": "Importeer één track tegelijk.",
+    "sourceHash": "1ccf19d86891e883e549a3956ce92afad3d31101585b00e569913a5cc4c3efc3",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_multiple_track_segments_could_conceal_gaps_import_one_continuous_": {
+    "text": "Meerdere spoorsegmenten kunnen gaten verbergen. Importeer één doorlopend segment.",
+    "sourceHash": "2dc93a97103a5ca5698e15859783afc5f283dba320eaa04ea9c293be5984c49f",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_import_one_continuous_route_or_track": {
+    "text": "Importeer één doorlopende route of track.",
+    "sourceHash": "01a2bdff692dc2723fbb005f9bd69fbf6e8490ae607b93a88b4a1302dbc3283d",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_mixed_routes_and_tracks_are_not_supported": {
+    "text": "Gemengde routes en tracks worden niet ondersteund.",
+    "sourceHash": "4251de8ff9cdd57a6a5ded9e125a116dc06e7d8a012c492b7423eeae69c3eaec",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_gpx_exceeds_50_000_points": {
+    "text": "GPX overschrijdt 50.000 punten.",
+    "sourceHash": "0f8eec30b44e24a31e3c8c81358d3762e6b5029940075516a51d936979d54371",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_choose_a_gpx_file_with_at_least_two_track_or_route_points": {
+    "text": "Kies een GPX-bestand met minimaal twee track- of routepunten.",
+    "sourceHash": "a8c69520e0bf0a07d1c5cb9effe15dc69f5d6387cbb75448ec9e6f5e8d94534a",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_the_route_has_no_length": {
+    "text": "De route heeft geen lengte.",
+    "sourceHash": "40cc253584a2e82ab39750e1789eb0e5dc91e4ad3255259c39c07f20500f9fea",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_invalid_photo_reference": {
+    "text": "Ongeldige fotoreferentie.",
+    "sourceHash": "b5a6f3e93af55af8c9f01d6a8157f615bb62eeb2934f9f695e29c580aabb1042",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_choose_a_photo_smaller_than_20_mb": {
+    "text": "Kies een foto kleiner dan 20 MB.",
+    "sourceHash": "91249ba9090549126ac5656bc5403ed0aeada3f5ac99abf47fdc02fcafda5d85",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_choose_a_supported_image_file": {
+    "text": "Kies een ondersteund afbeeldingsbestand.",
+    "sourceHash": "471ffd34da2b091d1aadd9250bf38bb1ddbcc31e8f57e522dc91378a79f9e82b",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_the_selected_photo_cannot_be_opened": {
+    "text": "De geselecteerde foto kan niet worden geopend.",
+    "sourceHash": "702bed6f52084f7efb35f95dffcd7cb767efd83e9a8a6137eb57bd1b1f612fe3",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_the_image_cannot_be_decoded": {
+    "text": "De afbeelding kan niet worden gedecodeerd.",
+    "sourceHash": "476916430f07346d5179e7d396f2f16b65d0be0049b172454ec57fb36cc9d0f2",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_unable_to_checkpoint_recording_free_device_storage_before_continu": {
+    "text": "Kan geen controlepuntopname maken. Gratis apparaatopslag voordat u doorgaat.",
+    "sourceHash": "41bde95090d6fa7e0a4aa0e99b08a86e9d4d19695360730e2234df4ef0cf483e",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "error_save_the_walk_before_adding_a_photo": {
+    "text": "Sla de wandeling op voordat je een foto toevoegt.",
+    "sourceHash": "e386dbdb16655c8a6d2d40fca8fc03420ab93954345d84e5c1a38fb375bc2bd3",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_each_walk_can_contain_up_to_eight_photos": {
+    "text": "Elke wandeling kan maximaal acht foto's bevatten.",
+    "sourceHash": "96f07862764c27cd5facd10c130b92e3f7c0829d106042f6242687eef59d5e7a",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_unable_to_open_this_file": {
+    "text": "Kan dit bestand niet openen.",
+    "sourceHash": "3543fbd69142a77d69a7b419520d789066a984e8cc4e75d7fc81a104c195d89d",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_unable_to_open_destination": {
+    "text": "Kan bestemming niet openen.",
+    "sourceHash": "7fa88a360228ef6c9b86fad9d168f8cd3287ca23f4a93781a4e86765905fdb35",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_location_permission_was_declined_route_overview_is_still_availabl": {
+    "text": "Locatietoestemming is geweigerd. Routeoverzicht is nog steeds beschikbaar.",
+    "sourceHash": "a9a1e46f405ef243e00ed1a0b2440d478d454ea15c87733768c04f799500638b",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "ui_gpx_imported_privately_access_and_directions_have_not_been_review": {
+    "text": "GPX particulier geïmporteerd. Toegang en routebeschrijving zijn niet beoordeeld.",
+    "sourceHash": "e557d9f33cd128c27545576566adba073ccb2cb4e15bfc11fea0149e79c25c4e",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "ui_gpx_exported": {
+    "text": "GPX geëxporteerd.",
+    "sourceHash": "c57bcf9fbf386149190f8528edf6930323a9b1b50d995f5e87bfef7a1691b7ba",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_command_not_recognised_use_the_touch_controls_english_commands_ar": {
+    "text": "Commando niet herkend. Gebruik de aanraakbedieningen. Engelse opdrachten worden momenteel ondersteund.",
+    "sourceHash": "f30e5575e9bb3caf26640b4c9eb9789195a6c52f6a88ecb6bcb4a81a7a74c7db",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_no_compatible_voice_is_installed_for_this_language": {
+    "text": "Er is geen compatibele stem geïnstalleerd voor deze taal.",
+    "sourceHash": "54839e769dc335bfc0fedcc0e6452bda1abd2b389f2647d6ecc163abd30534e4",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_audio_is_unavailable_use_the_on_screen_progress": {
+    "text": "Audio is niet beschikbaar. Gebruik de voortgang op het scherm.",
+    "sourceHash": "5ab357968b09ae759246629104dc6383636c14f5a397cf151fae9d5626a090c8",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_speech_recognition_is_unavailable_on_this_device_use_touch_contro": {
+    "text": "Spraakherkenning is niet beschikbaar op dit apparaat. Gebruik aanraakbedieningen.",
+    "sourceHash": "4ef0ed81ccb6392114020ccc622b0b53e139a234deaaaf30f31829ee5d68a112",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_enable_location_in_device_settings_some_fire_tablets_have_no_gps_": {
+    "text": "Locatie inschakelen in apparaatinstellingen. Sommige Fire-tablets hebben geen GPS-ontvanger.",
+    "sourceHash": "e15ab663a214539159c78ad46d79f2a2c09621f0bf9470214e329db5b6002a78",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_location_permission_is_required": {
+    "text": "Locatietoestemming is vereist.",
+    "sourceHash": "08cf6a08fd6f0884127f3ededabe0603915ce96e36e7afe1f05649616f8916e2",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "error_export": {
+    "text": "Exporteren mislukt. Kies een beschrijfbare bestemming en probeer het opnieuw.",
+    "sourceHash": "8b942fe000fc9e110b7aee2cad07376465db48e76d1cc0ddcf1fd50e75f9ba3a",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_import": {
+    "text": "Kan GPX niet importeren. Kies een geldige doorlopende GPX-route of -track.",
+    "sourceHash": "ca178931572c373c94342fb8a3a0761bde56a90f8035727f0c4926bf67df8a11",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "imported_walk": {
+    "text": "Geïmporteerde wandeling",
+    "sourceHash": "258550253abf13bba947ca405e17f9fae7939dae62d7b13b2602edca369e4061",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_journal": {
+    "text": "Voer geldige wandelinggegevens in, met behulp van het weergegeven datumformaat.",
+    "sourceHash": "9d3b0102dfaca404a3b6fe5f87687896f52e3f1dc5c4d14b8a34c29a3c551430",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_checklist": {
+    "text": "Gebruik een itemnaam tussen 1 en 120 tekens.",
+    "sourceHash": "38222c3b3b654ca1fcecdec80db62edafdec193f698900dc07fb53ce822c4eb9",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_plan": {
+    "text": "Controleer de plandetails en het retourtijdformaat.",
+    "sourceHash": "211e08e331587fd10484bfb5809d1a986d8bdc51cc045db96ec8b1aba9e8abe3",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_photo": {
+    "text": "Foto-import mislukt. Kies een ondersteunde afbeelding en probeer het opnieuw.",
+    "sourceHash": "769a00e510ba7eb36b3fef9afbb2e23d8dd4c5396f668645764ac4a4145c3b19",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_recording_save": {
+    "text": "Kan opname niet opslaan. Uw dagboek of concept kan worden gecontroleerd wanneer er opslagruimte beschikbaar is.",
+    "sourceHash": "fa7d0dcaa81ce09beee391af9178c78d1f5b193bed520a6a4388267c138e4b49",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "checklist_default_0": {
+    "text": "Drinkwater",
+    "sourceHash": "4fbfe29236ee912d53fce1d1b82f8dc98b35a9fa5c42426aa80884dfb9c9ba78",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "checklist_default_1": {
+    "text": "Geschikt schoeisel",
+    "sourceHash": "53ccb1ee5151b97f5a5f66bcf68c01e9b7238bed118dca66b480a81a1fc4f6ab",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "checklist_default_2": {
+    "text": "Kleding die geschikt is voor het weer",
+    "sourceHash": "3a38a1e4195a26393e695638a6c5cde9c8c7d5fbf5cfdac5dd5302d21096719f",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "checklist_default_3": {
+    "text": "Opgeladen telefoon",
+    "sourceHash": "566f805a72b95be136bbf06e18cc18b08ca1720183acaba9af28e2334f492c42",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "checklist_default_4": {
+    "text": "Powerbank",
+    "sourceHash": "67b046f3b4236c40431cddf5b5fdb139f0f7201bcfe00970d305b448f48c4477",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "checklist_default_5": {
+    "text": "Hapjes",
+    "sourceHash": "44f76189b63eb47a41dbaf64e8b20e7609725059d4ac90650bdf7a4c1cbb9287",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "checklist_default_6": {
+    "text": "Offline route-informatie",
+    "sourceHash": "19d514ab00a3229210699ab7a786c0c331b7b79e60b0b6c7798f2d0885ed6d2c",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "checklist_default_7": {
+    "text": "Controleer huidige omstandigheden",
+    "sourceHash": "a477764fdd52fd5000e8aa3f2bef5ce4c4e21e7697b9e2a91f1cb81d7ffd4232",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "checklist_default_8": {
+    "text": "Contactplan voor noodgevallen",
+    "sourceHash": "22bdf7e2bbb0018e607dc84f8a11c0cdb7211d677d197de171dbfa3e61713110",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.154Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "checklist_default_9": {
+    "text": "Hondenriem, indien relevant",
+    "sourceHash": "c8be5e2a1903cf1d84b366edc783115c795ce6bc0de98b62f7f5b5621ff7aa78",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "checklist_default_10": {
+    "text": "Benodigdheden voor eerste hulp",
+    "sourceHash": "051d1905350f613e0afa9934c1ea3c69b94374618c75a82223605dd546208e9f",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "shared_plan_body": {
+    "text": "TrailNest wandelplan\n%1$s\nBegin: %2$s\nAfstand: %3$s\nGeschatte duur: %4$d min (persoonlijke schatting)\nVerwacht rendement: %5$s%6$s\nToegang niet beoordeeld. GPX-geometrie kan afzonderlijk worden geëxporteerd. Alleen statisch plan; geen live tracking of noodmonitoring.",
+    "sourceHash": "8b633f82a03039f54ea4400dbb692960d424407c0354c93b2d1f341f43ee356b",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "shared_plan_contact": {
+    "text": "\nOptioneel contact: %1$s",
+    "sourceHash": "bdaf975f93cad44c55145756f6d452ca188699e6ddf33797f7938c3ab1839e55",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "distance_miles_value": {
+    "text": "%1$s mi",
+    "sourceHash": "94a7d4af3baec1a2d9e7f6ae7eccf9ad019a080bc12792dd78bc7986d0816efd",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "distance_km_value": {
+    "text": "%1$s km",
+    "sourceHash": "f20d363ae1915b3391dfba55bc4d938044882ccd75f8828f7be58bd24a362684",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "translation_draft_notice": {
+    "text": "Onbeoordeeld vertalingsvoorbeeld · Alleen concepten",
+    "sourceHash": "f685456d559c63ffde517979417a61ce3aace10d02ed6ff52d88028d5fc7d7a8",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "checklist_title": {
+    "text": "Met een beetje voorbereiding kom je al een heel eind.",
+    "sourceHash": "032574463c689943e951931b1a2f4c5fa39300813fd188df507d94e0c0f672a0",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "checklist_description": {
+    "text": "Jouw persoonlijke checklist vóór de wandeling. Pas uw uitrusting aan de route, het weer en uw behoeften aan.",
+    "sourceHash": "c89e9928bbee655a2da5820272ea15e386b5318321314f90125e6ba27872e6ea",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "checklist_safety": {
+    "text": "Een ingevulde checklist kan de veiligheid niet garanderen. Controleer de huidige voorwaarden, toegang en uw eigen mogelijkheden.",
+    "sourceHash": "35949d11b8df452f12e342f4c4fc0c9e2fb568232dc2d3c782f0f49deeb08a7c",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "edit_checklist": {
+    "text": "Controlelijst bewerken",
+    "sourceHash": "b70b9bfd6dc6d894ba9bb5499071bed6766f2fcd2e709c7f1aae48e4864da0b7",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "finish_editing": {
+    "text": "Bewerken voltooien",
+    "sourceHash": "e3f3ad99a5dab6ba670e7b2341ed6615a911556c1b280dd18178a3614d7cf4dd",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "reset_checklist": {
+    "text": "Controlelijst opnieuw instellen",
+    "sourceHash": "32865e3b592ad1a89ebc4d31625bb08c160d09d0bd7b1f260c8f02ac175ec708",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "empty_checklist": {
+    "text": "Uw checklist is leeg. Voeg items toe of herstel de standaardinstellingen.",
+    "sourceHash": "5cf249d15ead52ba1fce409987bd523160449c55ab045ca8d618d8e159a5ed23",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "checklist_item_name": {
+    "text": "Artikelnaam",
+    "sourceHash": "28edf3b77ba7ecb278454843910d3004ea25248d2f84374198b24443cea000a9",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "add_item": {
+    "text": "Artikel toevoegen",
+    "sourceHash": "b6e9536b0698451c30c0234d6deb55d55ffe2c5971557199b47ff22c58b1d480",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "rename_item": {
+    "text": "Hernoemen",
+    "sourceHash": "d6952b4e54d246ddccdbd03bb88c35d7d33e0845dc4120195a46a689297e9d12",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "move_up": {
+    "text": "Omhoog",
+    "sourceHash": "d49ea60a2312df2f30c411f30fe4884b4e504d837ef053c7f79d5d762fcd24d7",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "move_down": {
+    "text": "Ga naar beneden",
+    "sourceHash": "a06a50e63f0c240e67639dc7fda144d7967da9118ec3ef97f36363c37e9d7fd1",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "remove_item": {
+    "text": "Verwijderen",
+    "sourceHash": "9469a102f04ea196365c93fa64ca212b2b242f572b394238063093cc809020f5",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "save_changes": {
+    "text": "Wijzigingen opslaan",
+    "sourceHash": "a9851c28b343e87b5854922a712e56bd2f9fd9f7976749f60921acf88abc6d99",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "cancel": {
+    "text": "Annuleren",
+    "sourceHash": "c0774c185060fc1366ab0c01488af84eb5e4e1f4f59229431e064de73e0de6c5",
+    "reviewed": false,
+    "provenance": "agent-adjusted machine draft",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "restore_defaults": {
+    "text": "Standaardchecklist herstellen",
+    "sourceHash": "a2b453ce1919283e9c4d3a3eadb4ea32518904446133e51bb9947171008c344d",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "restore_defaults_warning": {
+    "text": "Uw huidige checklist vervangen door de standaardwaarden? Aangepaste items en aangevinkte statussen worden verwijderd.",
+    "sourceHash": "43168908972438d2a417a3fbb5ca524ca13432ee5c2da5c450fa53f64843466a",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "journal_title": {
+    "text": "Jouw wandelverhaal.",
+    "sourceHash": "1dbc1a2ad9746872ef4ce73b204f5d449b939a5daa8081561dfc7a4ea369dd9a",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "journal_description": {
+    "text": "Een privéruimte voor de plaatsen waar je bent geweest en de momenten die de moeite waard zijn om te bewaren.",
+    "sourceHash": "9d8c977bb8a83099acccd9c6a59b9598b7c23b1af1131198f7408f992a047b86",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "journal_totals": {
+    "text": "%1$s · %2$s · %3$d min",
+    "sourceHash": "04b9ed2b1e16111c335fcb61e413750591e31d666e10ec458a1e33c8c65eb2ed",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "record_walk": {
+    "text": "Neem een wandeling op",
+    "sourceHash": "ef0b28c3092bf174b3bc5032f2795041f98050b36b65ccff50b3b9db32e2137d",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "edit_walk": {
+    "text": "Wandeling bewerken",
+    "sourceHash": "5b22db55f329586bb4ebbf9b5ce98fa212252bb28812bcce86371f40cf32ef43",
+    "reviewed": false,
+    "provenance": "agent-adjusted machine draft",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "save_walk": {
+    "text": "Wandeling opslaan",
+    "sourceHash": "f0ab1c5ccbcc88b6415e8a625de002440aaa08e0510e40170e396dbdf48b62ad",
+    "reviewed": false,
+    "provenance": "agent-adjusted machine draft",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "walk_title": {
+    "text": "Titel van de wandeling",
+    "sourceHash": "20db3f0f32b98888b051456cca61dba54acf5cf624d1e3adc1ebcfa24800a548",
+    "reviewed": false,
+    "provenance": "agent-adjusted machine draft",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "walk_date": {
+    "text": "Datum wandeling",
+    "sourceHash": "41b5586ab2052f9ead4a8aa334fd5f48af53feba46317ac3498486468326003d",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "date_format_hint": {
+    "text": "YYYY-MM-DD · Alleen voltooide wandelingen",
+    "sourceHash": "52abb5fc14e3714834eabfb33fee4b4cebd0ee175bf89d3036dce31306615a82",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "distance_miles": {
+    "text": "Afstand (mijl)",
+    "sourceHash": "5c01c7e6b5039e73b93715e129f37555020475a9184fd51aa85ec1e1eee1854e",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "distance_km": {
+    "text": "Afstand (km)",
+    "sourceHash": "ee668cf89a552602dd3fed82160b2ec0b698df30dc1c5097b1e2126553e5a339",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "duration_minutes": {
+    "text": "Duur (minuten)",
+    "sourceHash": "346b382b32cab6f61d04e870fbbf33aa330bc9ccee129a24446185ece343f65a",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "walk_notes": {
+    "text": "Notities",
+    "sourceHash": "28a939dccbff00d72d3f023442a9d16f293da56937e299cd36513b64f6760570",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "favourites_only": {
+    "text": "Alleen favorieten",
+    "sourceHash": "f17442613d36467f40d741693f772a83bf509ab640d641644e51396b7eea0c07",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "favourite": {
+    "text": "Favoriet",
+    "sourceHash": "d7e2c290050cd25a4f84ef819eb70beb0be1715e471aa2901de7b8726c3af543",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "unfavourite": {
+    "text": "Niet favoriet",
+    "sourceHash": "7e5f19123979d007c36f6581b6c3a651cab70663af00a37f7a047f41ee37dfe7",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "journal_empty_title": {
+    "text": "Elke wandeling heeft een verhaal.",
+    "sourceHash": "09ff910f6024c65ed3054c751b6bc64b912f4e3cc0fe1da4475cf040b830d29f",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "journal_empty_body": {
+    "text": "Voeg een voltooide wandeling toe om uw persoonlijke dagboek te starten.",
+    "sourceHash": "2fe96fd799e1b41ed746483736b92fe2fd1252cb9cf16d54bed2dae1c60564c4",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "no_favourites": {
+    "text": "Markeer een wandeling als favoriet om deze hier te vinden.",
+    "sourceHash": "3ee47184b30703ad4e5637339a28f89475cdae2a4e56448f3e46498a0fc733b8",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "delete_entry": {
+    "text": "Invoer verwijderen",
+    "sourceHash": "93af6037a582e5725ac3dfebfa70f6914fe5ff292c9b6c76b54bf04936e5b140",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "delete_walk_title": {
+    "text": "Deze wandeling verwijderen?",
+    "sourceHash": "218b941cf71d5ac72052f43ecd0515cda9147aacd795038d8fa0667990e518dc",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "delete_walk_body": {
+    "text": "“%1$s” en de privéfotokopieën ervan worden permanent van dit apparaat verwijderd.",
+    "sourceHash": "958b520c7ef93308b635aa5a4c66e139853f784a3eb718c71e139ecf649e17a9",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "personal_rating": {
+    "text": "Persoonlijke beoordeling · Selecteer opnieuw om te wissen",
+    "sourceHash": "2ecab2778a75413ccea53248343dadc0e67a0ad68f24c241fcc12fabae83abed",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "rating_value": {
+    "text": "%1$d / 5",
+    "sourceHash": "48a8cd17a4a9cbfc23dd67a99eef2a5a759eff299fc55afe1e6babba41ab5978",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "add_photo": {
+    "text": "Privéfoto toevoegen",
+    "sourceHash": "fe792051c72aaec4999feff576a9d52de306e0725c13942ec796dc29cc06d37c",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "remove_photo": {
+    "text": "Foto verwijderen",
+    "sourceHash": "cd18785a9972f3581943ed67856ef3c0aa8279a72b3549ddae9012960953e16a",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "remove_photo_body": {
+    "text": "Deze app-privékopie verwijderen? Uw originele foto blijft ongewijzigd.",
+    "sourceHash": "e8af58c5c9f6a96471ae1f31a85aeec7f449ce0662a1b0ea978c7f1fbf310a0c",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "photo_privacy": {
+    "text": "Maximaal acht foto's per wandeling. Kopieën blijven privé op dit apparaat; locatiemetagegevens worden verwijderd.",
+    "sourceHash": "66bb0fb3eee0574abe64f7a0ccf4a852508f24077295e2dd3bd13dce13d3ca9e",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "walk_photo_description": {
+    "text": "Foto %1$d voor %2$s",
+    "sourceHash": "73ea30de446644791bb185706e59eeaec920c70dd3ae4619e6a8e01a7fb057dd",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "photo_unavailable": {
+    "text": "Foto niet beschikbaar",
+    "sourceHash": "8cdc38ab4aa492bbbd57e1a241d3b4927ad64b8d4a181d433c1a4fcb2c7c5273",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "importing_photo": {
+    "text": "Privéfoto importeren…",
+    "sourceHash": "39f7fae81d541e7701a9d94828dcb91e971d3d7f4b2a85251dbb9699a7a41ece",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "year_summary": {
+    "text": "Uw %1$d wandeloverzicht",
+    "sourceHash": "8865366952f6a6a12e8bde68f8f24ebdb5799d9bef708a34f69ab68d46f645d9",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "previous_year": {
+    "text": "Vorig jaar",
+    "sourceHash": "626f99d2fe184eb3918f91bddf252cc1c75978f7d68cb929195a52955e7f097e",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "next_year": {
+    "text": "Volgend jaar",
+    "sourceHash": "b19aca07c46d70fa4e2ac910ecdde9f4bb47defa7833745cd78a11994ed8082c",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "show_months": {
+    "text": "Maandelijkse activiteit weergeven",
+    "sourceHash": "bbf9c3034d9eef15f3555cbbc9efc49b54e29ba98325bf4e70bd8b327c1038b9",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "hide_months": {
+    "text": "Maandelijkse activiteit verbergen",
+    "sourceHash": "8a313db0afb00037983b39febef2ab7263f0fe51375605728f14a80e50d86b9c",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "month_summary": {
+    "text": "%1$s · %2$s · %3$s · %4$d min",
+    "sourceHash": "fcc223f1724246252837491ad5a761ebd54c607817e12aa84300c82638f88b52",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "share_plan_title": {
+    "text": "Deel wandelplan",
+    "sourceHash": "b52c43ce426fb8f5b8b5e25d34b144cfa83b28294c70a36087c5058464c70afa",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "estimated_minutes": {
+    "text": "Geschatte duur (minuten)",
+    "sourceHash": "99a5378d47e8da3f5a3e27b3a11dfa86c8a629924ae6bf558044fbd82eac31b1",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "duration_estimate_hint": {
+    "text": "De initiële schatting gaat uit van 4 km/u. Pas het aan uw tempo, stops en terrein aan.",
+    "sourceHash": "6444771f51e1bc51d6d919fe3da66faaa5f48194cbed0a8b8c58db289172682c",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "expected_return": {
+    "text": "Verwachte terugkomsttijd",
+    "sourceHash": "ce6504ac147e6430732f9221e9596c605f182a7e7d97afee7671422b5769b51c",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "return_time_hint": {
+    "text": "YYYY-MM-DDTHH:MM · Tijdzone van apparaat: %1$s",
+    "sourceHash": "eebad2f244ef5d564cc442a00591d8381f1e8ff10a74b8b29dfe9abd3f5e1232",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "optional_contact": {
+    "text": "Optionele contactgegevens",
+    "sourceHash": "d4671a26d955d6feb37005f377f055869746eeb5adc4dc7039bd695d0d0e6da5",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "share_plan_privacy": {
+    "text": "Alleen dit statische plan wordt gedeeld wanneer u de deelopties opent. Er is geen live tracking of noodmonitoring.",
+    "sourceHash": "82c3c2725848b126d4b98e84718b56bb1c207dd39e38992366032849312bbae9",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "open_share_options": {
+    "text": "Opties voor delen openen",
+    "sourceHash": "3bfa7e7511bb6edd3a93a174574544dbabcea59d8855228b1596f7dca56198ed",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "build_notice": {
+    "text": "TrailNest %1$s · Ontwikkelingsbuild · Niet goedgekeurd voor Appstore-release",
+    "sourceHash": "960b9a10accb7013e349a78ffe20b547a01b81435410cfa085ec035d9e6e8c41",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "recording_channel": {
+    "text": "Wandelopname",
+    "sourceHash": "5f1804dce9dd7f55853e64e624e1f456cc3bf69f4ebd83de9bc0c04af08ef109",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "recording_active": {
+    "text": "Uw wandeling opnemen",
+    "sourceHash": "ba6ff2bdb2943a4e9ba6456018183e23c1b12ed35267c5b34cf2e56e707dcd67",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "recording_paused": {
+    "text": "Wandelopname gepauzeerd",
+    "sourceHash": "dc6749116e8cdc23300e5bbdb02c08dbdd381f7918acbb3a55b20f3889cf9ac7",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "recording_notification": {
+    "text": "Open TrailNest om te hervatten, te voltooien of weg te gooien.",
+    "sourceHash": "17c378f6d4316d84fafc57532034062f68aff9afaa471948e5a45070ca83502c",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "start_recording": {
+    "text": "Opname starten",
+    "sourceHash": "6378ea362ff0e76687aa5ed94534819eb25efbdad297291df9989f6c5ca46c8d",
+    "reviewed": false,
+    "provenance": "agent-adjusted machine draft",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "pause_recording": {
+    "text": "Opname pauzeren",
+    "sourceHash": "d63dc90d99a26f21987aa99f697f9cea79b18fa13c8ca4caf853926aa91ca877",
+    "reviewed": false,
+    "provenance": "agent-adjusted machine draft",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "resume_recording": {
+    "text": "Opname hervatten",
+    "sourceHash": "5df366356cdb00d2fa012588d71c98c1ea506c56d7a0222e0ccff8d5fb680f43",
+    "reviewed": false,
+    "provenance": "agent-adjusted machine draft",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "finish_recording": {
+    "text": "Afronden en controleren",
+    "sourceHash": "b6a5b5c1c72fa5b41ff3c4e4d4e3279ab45050c0039c1d4e60e69a8e6c508816",
+    "reviewed": false,
+    "provenance": "agent-adjusted machine draft",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "discard_recording": {
+    "text": "Opname verwijderen",
+    "sourceHash": "926cb6694d7a320d62a2e752f8eb677a1a62d83d29831bf49b69a12848a7c1c2",
+    "reviewed": false,
+    "provenance": "agent-adjusted machine draft",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "discard_recording_body": {
+    "text": "Deze niet-opgeslagen wandeling definitief verwijderen?",
+    "sourceHash": "01322f54a15d1bb593c96bec5c87f551dd98ad167ba1ec3ef98d1ef0d5f4fb47",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "recording_description": {
+    "text": "Neemt op terwijl het scherm is uitgeschakeld of de app is geminimaliseerd, met een aanhoudende melding. Houd locatie ingeschakeld. Batterijbedieningen en GPS-beschikbaarheid van het apparaat kunnen de opname onderbreken. Afstand is een schatting; dit is geen veiligheidstracker.",
+    "sourceHash": "53670990b4b21c4ccde7ee69cc14dde1eef0ca6db9e07d00513b0671c518da4d",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "recording_privacy": {
+    "text": "Alleen de duur en de geschatte afstand worden privé op dit apparaat opgeslagen. Coördinaten worden in het geheugen gebruikt en weggegooid. Er wordt niets geüpload.",
+    "sourceHash": "2533b10b5a5b525f746176779f9778951a9a07120a4471a08ff10235d1084416",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "recording_interrupted": {
+    "text": "Opname is onderbroken. Het laatste controlepunt is gepauzeerd; expliciet hervatten. Tijd en afstand sinds dat controlepunt ontbreken mogelijk.",
+    "sourceHash": "8bc24a5ceb1199f9d555d0e0269a968a916180920d60af8533ed985d63c9adcc",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "recording_notifications": {
+    "text": "Meldingen toestaan ​​wanneer u wordt gevraagd om opnamebedieningen buiten de app te zien. Als meldingen zijn uitgeschakeld, heropent u Mijn wandelingen om te pauzeren of te beëindigen.",
+    "sourceHash": "e538c5ad6779590da432abb63d8d4d92f13f5e58db1c4e34a8705b6cc2cd930c",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "recording_waiting": {
+    "text": "Wachten op een recente locatie nauwkeurig tot op 40 m of beter. De tijd gaat door; afstand kan onvolledig zijn.",
+    "sourceHash": "e9c6d2e94b273e84a15ab9a8fec89d2609f030bb2225b93f0047ebf2c4cce604",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "recording_measurements": {
+    "text": "%1$s · %2$s actieve tijd",
+    "sourceHash": "da20ffeb50aab72f00884f928c4c7fd4567cc670f9d30f4e4ed9355a1c80b5c4",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "recording_save_hint": {
+    "text": "De journaalduur wordt naar boven afgerond op minimaal één hele minuut. Nulafstand betekent dat er geen betrouwbare beweging is gemeten; je kunt het later corrigeren.",
+    "sourceHash": "8daf95058d04a8f831cccff0391efeb3a5f3ad63fc05cb12c6fe6383348976a2",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "recording_permission": {
+    "text": "Toestaan ​​dat de locatie een wandeling registreert. De geschatte locatie kan te onnauwkeurig zijn om de afstand te meten.",
+    "sourceHash": "7e1b010c9c43eef97e33f7dc41610157bfa0214b9216ba7bd4ebd59b2807425c",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "recording_location_disabled": {
+    "text": "Locatie inschakelen in apparaatinstellingen. Dit apparaat heeft een beschikbare locatieprovider nodig om op te nemen.",
+    "sourceHash": "8521744b1707e4f8727241dd32c7351f6b92f6eb24eceb9ce155fc6418b353d6",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "recording_start_failed": {
+    "text": "Opname kon niet starten. Controleer locatierechten en apparaatinstellingen; elk bestaand concept wordt gepauzeerd.",
+    "sourceHash": "5fd05f83b0151ef9a6ae99d8c85a3819c17ae3a69eb679c03f7eb64e1737f7cc",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "recording_title_required": {
+    "text": "Voer een wandelingtitel in voordat u deze opslaat.",
+    "sourceHash": "ec0250860623254c2175dc396aefe0ce41a332c7f02c9b6303b46eb169076983",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "discover": {
+    "text": "Ontdekken",
+    "sourceHash": "b22f790b1fd2ecd35e9bfd7527771fce23854ac6e826be0bfa01fd006084b9cf",
+    "reviewed": false,
+    "provenance": "agent-adjusted machine draft",
+    "generatedAt": "2026-10-23T09:13:41.155Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "my_walks": {
+    "text": "Mijn wandelingen",
+    "sourceHash": "cd3ed5a45d5261678695914065952202b48c4f32e34cc57c6119f0423cd8f0fd",
+    "reviewed": false,
+    "provenance": "agent-adjusted machine draft",
+    "generatedAt": "2026-10-23T09:13:41.156Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "offline": {
+    "text": "Offlinepakketten",
+    "sourceHash": "ce677921672c70fbce7697e85ba8055dcfe2976ff80258c08dac27943c8021f5",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.156Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "checklist": {
+    "text": "Controlelijst",
+    "sourceHash": "eeeccc83b41aff85903e10da491c9c2630ed562a6d29432227e226c95e0f10b0",
+    "reviewed": false,
+    "provenance": "agent-adjusted machine draft",
+    "generatedAt": "2026-10-23T09:13:41.156Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "settings": {
+    "text": "Instellingen",
+    "sourceHash": "83909f82446ee9c3e82a04ace7c904f1b6a4b230d1b970b55932d62959fbe73d",
+    "reviewed": false,
+    "provenance": "agent-adjusted machine draft",
+    "generatedAt": "2026-10-23T09:13:41.156Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "headline": {
+    "text": "Nog even verder.\nEen beetje vrijer.",
+    "sourceHash": "fe87e35b585ae34d2ad5d4619b6220db4ce3248fff09e3e1031ed531e2fa694a",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.156Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "tagline": {
+    "text": "Ontdek meer. Loop zelfverzekerd. Ontdek jouw weg.",
+    "sourceHash": "e6f66e45b2bdfa61c85900f4a2fa167917359c438d1dada180e432c88836e650",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.156Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "no_routes": {
+    "text": "Goede wandelingen beginnen met goede informatie.",
+    "sourceHash": "f418200330f28af1d8238606798e0b6aecfec24584ccf5b4f6ae36803842faa3",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.156Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "coverage_message": {
+    "text": "Onze Britse routecollectie wordt voorbereid. Alleen beoordeelde routes verschijnen hier.",
+    "sourceHash": "dd46343a6d37783b3e362bdd5e0bc366aa614df568612cfda95690f9f3e73170",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.156Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "route_points": {
+    "forms": {
+      "one": "%1$d-punt",
+      "other": "%1$d-punten"
+    },
+    "sourceHash": "17c8bc7d59ca2b691d767c606b7fd97ba3a78fece483b98bb2e884413f9be514",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.156Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false,
+    "pluralGrammarReviewPending": true
+  },
+  "checklist_progress": {
+    "forms": {
+      "one": "%1$d van %2$d-item aangevinkt",
+      "other": "%1$d van %2$d-items aangevinkt"
+    },
+    "sourceHash": "e63dc677b8f7d7322f8d350309532826b768193d485d615ec8935833be5b216d",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.156Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false,
+    "pluralGrammarReviewPending": true
+  },
+  "walk_count": {
+    "forms": {
+      "one": "%1$d lopen",
+      "other": "%1$d loopt"
+    },
+    "sourceHash": "71c49fab29374ad311b48074528c0a95b907499ddf24f2f69d8d1183c96c2910",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.156Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false,
+    "pluralGrammarReviewPending": true
+  },
+  "recording_saved_notes": {
+    "forms": {
+      "one": "Live-opname: %1$d actieve seconde. De afstand wordt geschat en kan onvolledig zijn; pauzes en locatieverschillen zijn uitgesloten.",
+      "other": "Live-opname: %1$d actieve seconden. De afstand wordt geschat en kan onvolledig zijn; pauzes en locatieverschillen zijn uitgesloten."
+    },
+    "sourceHash": "cfd379d84ef3140bb96907b99d05c814cb4c77916f33b37de2d6fe5c69eba58c",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.156Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false,
+    "pluralGrammarReviewPending": true
+  }
+}

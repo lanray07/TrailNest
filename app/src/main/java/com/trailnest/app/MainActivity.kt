@@ -64,7 +64,7 @@ class MainActivity : ComponentActivity(), LocationListener {
                 RecordingStore.get(this).state.value?.id?.let { RecordingStore.get(this).clear(it) }
             }
             else -> Unit
-        } }.onFailure { notice = it.message ?: getString(R.string.recording_start_failed) }
+        } }.onFailure { notice = userMessage(it, R.string.recording_start_failed) }
     }
     override fun onNewIntent(intent: Intent) {
         super.onNewIntent(intent)
@@ -76,32 +76,32 @@ class MainActivity : ComponentActivity(), LocationListener {
         .setOnAudioFocusChangeListener { change -> if (change < 0) tts?.stop() }.build() }
     private val locationManager by lazy { getSystemService(LOCATION_SERVICE) as LocationManager }
     private val permission = registerForActivityResult(ActivityResultContracts.RequestMultiplePermissions()) { grants ->
-        if (grants.values.any { it }) startLocation() else { notice = "Location permission was declined. Route overview is still available." }
+        if (grants.values.any { it }) startLocation() else { notice = getString(R.string.ui_location_permission_was_declined_route_overview_is_still_availabl) }
     }
     private val importer = registerForActivityResult(ActivityResultContracts.OpenDocument()) { uri ->
         if (uri != null) lifecycleScope.launch {
-            runCatching { withContext(Dispatchers.IO) { contentResolver.openInputStream(uri)?.let { Gpx.read(it, "Imported walk") } ?: error("Unable to open this file.") } }
-                .onSuccess { model.save(it); notice = "GPX imported privately. Access and directions have not been reviewed." }
-                .onFailure { notice = it.message ?: "Unable to import GPX." }
+            runCatching { withContext(Dispatchers.IO) { contentResolver.openInputStream(uri)?.let { Gpx.read(it, getString(R.string.imported_walk)) } ?: throw TextFailure("error_unable_to_open_this_file") } }
+                .onSuccess { model.save(it); notice = getString(R.string.ui_gpx_imported_privately_access_and_directions_have_not_been_review) }
+                .onFailure { notice = userMessage(it, R.string.error_import) }
         }
     }
     private val exporter = registerForActivityResult(ActivityResultContracts.CreateDocument("application/gpx+xml")) { uri ->
         val route = exportRoute; exportRoute = null
         if (uri != null && route != null) lifecycleScope.launch {
-            runCatching { withContext(Dispatchers.IO) { val stream = contentResolver.openOutputStream(uri) ?: error("Unable to open destination."); stream.bufferedWriter().use { it.write(Gpx.export(route)) } } }
-                .onSuccess { notice = "GPX exported." }.onFailure { notice = "Export failed: ${it.message}" }
+            runCatching { withContext(Dispatchers.IO) { val stream = contentResolver.openOutputStream(uri) ?: throw TextFailure("error_unable_to_open_destination"); stream.bufferedWriter().use { it.write(Gpx.export(route)) } } }
+                .onSuccess { notice = getString(R.string.ui_gpx_exported) }.onFailure { notice = userMessage(it, R.string.error_export) }
         }
     }
     private val recognition = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
         val text = result.data?.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS)?.firstOrNull()
-        voiceCommand = text?.let { parseCommand(it, Locale.getDefault()) } ?: VoiceCommand.UNKNOWN
-        if (voiceCommand == VoiceCommand.UNKNOWN) notice = "Command not recognised. Use the touch controls. English commands are currently supported."
+        voiceCommand = text?.let { parseCommand(it, resources.configuration.locales[0]) } ?: VoiceCommand.UNKNOWN
+        if (voiceCommand == VoiceCommand.UNKNOWN) notice = getString(R.string.ui_command_not_recognised_use_the_touch_controls_english_commands_ar)
     }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         if (intent.action == WalkRecordingService.OPEN) recordingPage++
         tts = TextToSpeech(this) { status ->
-            voiceReady = status == TextToSpeech.SUCCESS && (tts?.setLanguage(Locale.getDefault()) ?: -1) >= TextToSpeech.LANG_AVAILABLE
+            voiceReady = status == TextToSpeech.SUCCESS && (tts?.setLanguage(resources.configuration.locales[0]) ?: -1) >= TextToSpeech.LANG_AVAILABLE
         }
         tts?.setOnUtteranceProgressListener(object : UtteranceProgressListener() {
             override fun onStart(utteranceId: String?) = Unit
@@ -117,15 +117,15 @@ class MainActivity : ComponentActivity(), LocationListener {
                 onExport = { exportRoute = it; exporter.launch("${it.title.replace(Regex("[^a-zA-Z0-9 -]"), "").take(80)}.gpx") },
                 onLocation = { if (locating) stopLocation() else permission.launch(arrayOf(Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.ACCESS_COARSE_LOCATION)) },
                 onSpeak = {
-                    if (!voiceReady) notice = "No compatible voice is installed for this language."
+                    if (!voiceReady) notice = getString(R.string.ui_no_compatible_voice_is_installed_for_this_language)
                     else if (audioManager.requestAudioFocus(audioFocus) == AudioManager.AUDIOFOCUS_REQUEST_GRANTED) tts?.speak(it, TextToSpeech.QUEUE_FLUSH, null, "trailnest-prompt")
-                    else notice = "Audio is unavailable. Use the on-screen progress."
+                    else notice = getString(R.string.ui_audio_is_unavailable_use_the_on_screen_progress)
                 },
                 onListen = {
-                    val intent = Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH).putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM).putExtra(RecognizerIntent.EXTRA_LANGUAGE, Locale.getDefault().toLanguageTag())
-                    runCatching { recognition.launch(intent) }.onFailure { notice = "Speech recognition is unavailable on this device. Use touch controls." }
+                    val intent = Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH).putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM).putExtra(RecognizerIntent.EXTRA_LANGUAGE, resources.configuration.locales[0].toLanguageTag())
+                    runCatching { recognition.launch(intent) }.onFailure { notice = getString(R.string.ui_speech_recognition_is_unavailable_on_this_device_use_touch_contro) }
                 },
-                onShare = { text -> startActivity(Intent.createChooser(Intent(Intent.ACTION_SEND).setType("text/plain").putExtra(Intent.EXTRA_TEXT, text), "Share walk plan")) },
+                onShare = { text -> startActivity(Intent.createChooser(Intent(Intent.ACTION_SEND).setType("text/plain").putExtra(Intent.EXTRA_TEXT, text), getString(R.string.share_plan_title))) },
                 onNotice = { notice = it })
         }
     }
@@ -133,10 +133,10 @@ class MainActivity : ComponentActivity(), LocationListener {
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) return
         try {
             val providers = locationManager.getProviders(true).filter { it == LocationManager.GPS_PROVIDER || it == LocationManager.NETWORK_PROVIDER }
-            if (providers.isEmpty()) { notice = "Enable location in device settings. Some Fire tablets have no GPS receiver."; return }
+            if (providers.isEmpty()) { notice = getString(R.string.ui_enable_location_in_device_settings_some_fire_tablets_have_no_gps_); return }
             providers.forEach { locationManager.requestLocationUpdates(it, 3000L, 2f, this) }
             locating = true
-        } catch (_: SecurityException) { notice = "Location permission is required." }
+        } catch (_: SecurityException) { notice = getString(R.string.ui_location_permission_is_required) }
     }
     private fun stopLocation() { locationManager.removeUpdates(this); locating = false; fix = null }
     override fun onLocationChanged(location: Location) { fix = location }

@@ -15,6 +15,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.res.pluralStringResource
@@ -30,6 +31,7 @@ import java.util.*
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable fun JournalScreen(walks: List<Walk>, photos: List<WalkPhoto>, imperial: Boolean, busy: Boolean, save: (Walk) -> Unit, delete: (String) -> Unit, addPhoto: (String, android.net.Uri) -> Unit, removePhoto: (WalkPhoto) -> Unit, recordingRevealKey: Int = 0, recording: @Composable () -> Unit = {}) {
+    val locale = LocalConfiguration.current.locales[0]
     var editor by rememberSaveable { mutableStateOf<String?>(null) }
     var deleting by remember { mutableStateOf<Walk?>(null) }
     var deletingPhoto by remember { mutableStateOf<WalkPhoto?>(null) }
@@ -46,7 +48,7 @@ import java.util.*
     val visible = walks.filter { !favouritesOnly || it.favourite }
     LazyColumn(Modifier.fillMaxSize().testTag("journal-list"), state = scroll, contentPadding = PaddingValues(24.dp), verticalArrangement = Arrangement.spacedBy(22.dp)) {
         item("header") { Column(verticalArrangement = Arrangement.spacedBy(16.dp)) { Heading(stringResource(R.string.journal_title)); Text(stringResource(R.string.journal_description)) } }
-        item("totals") { Text(stringResource(R.string.journal_totals, pluralStringResource(R.plurals.walk_count, totals.walks, totals.walks), TrailMath.formatDistance(totals.metres, imperial), totals.minutes)) }
+        item("totals") { Text(stringResource(R.string.journal_totals, pluralStringResource(R.plurals.walk_count, totals.walks, totals.walks), distanceText(totals.metres, imperial), totals.minutes)) }
         item("tools") { FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             Button(onClick = { editor = "new" }) { Text(stringResource(R.string.record_walk)) }
             FilterChip(favouritesOnly, { favouritesOnly = !favouritesOnly }, label = { Text(stringResource(R.string.favourites_only)) })
@@ -60,7 +62,7 @@ import java.util.*
         if (visible.isEmpty() && editor == null) item("empty") { EmptyPanel(stringResource(R.string.journal_empty_title), stringResource(if (favouritesOnly) R.string.no_favourites else R.string.journal_empty_body)) }
         items(visible, key = { "walk-${it.id}" }) { walk -> TrailPanel(Modifier.fillMaxWidth().testTag("walk-${walk.id}")) {
             Heading(walk.title, true)
-            Text("${DateFormat.getDateInstance().format(Date(walk.date))} · ${TrailMath.formatDistance(walk.metres, imperial)} · ${walk.minutes} min")
+            Text(stringResource(R.string.walk_summary, DateFormat.getDateInstance(DateFormat.DEFAULT, locale).format(Date(walk.date)), distanceText(walk.metres, imperial), walk.minutes))
             if (walk.notes.isNotBlank()) Text(walk.notes)
             FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
                 TextButton(onClick = { editor = walk.id }) { Text(stringResource(R.string.edit_walk)) }
@@ -87,9 +89,11 @@ import java.util.*
 }
 
 @Composable private fun WalkEditor(existing: Walk?, imperial: Boolean, save: (Walk) -> Unit, close: () -> Unit) {
+    val context = LocalContext.current
+    val locale = LocalConfiguration.current.locales[0]
     val zone = ZoneId.systemDefault()
     var title by rememberSaveable { mutableStateOf(existing?.title ?: "") }
-    var distance by rememberSaveable { mutableStateOf(existing?.let { JournalRules.editableDistance(it.metres, imperial) } ?: "") }
+    var distance by rememberSaveable { mutableStateOf(existing?.let { JournalRules.editableDistance(it.metres, imperial, locale) } ?: "") }
     var minutes by rememberSaveable { mutableStateOf(existing?.minutes?.toString() ?: "") }
     var date by rememberSaveable { mutableStateOf(existing?.let { Instant.ofEpochMilli(it.date).atZone(zone).toLocalDate().toString() } ?: LocalDate.now().toString()) }
     var notes by rememberSaveable { mutableStateOf(existing?.notes ?: "") }
@@ -104,17 +108,18 @@ import java.util.*
         error?.let { Text(it, color = MaterialTheme.colorScheme.error) }
         Button(onClick = {
             runCatching {
-                JournalRules.validate(title, distance, minutes)
+                JournalRules.validate(title, distance, minutes, locale)
                 val day = JournalRules.date(date)
                 val timestamp = if (existing != null && Instant.ofEpochMilli(existing.date).atZone(zone).toLocalDate() == day) existing.date else day.atTime(12, 0).atZone(zone).toInstant().toEpochMilli()
-                Walk(existing?.id ?: UUID.randomUUID().toString(), title.trim(), timestamp, JournalRules.editedMetres(distance, imperial, existing?.metres), minutes.toInt(), notes, existing?.rating ?: 0, existing?.favourite ?: false)
-            }.onSuccess(save).onFailure { error = it.message ?: "Enter valid walk details." }
+                Walk(existing?.id ?: UUID.randomUUID().toString(), title.trim(), timestamp, JournalRules.editedMetres(distance, imperial, existing?.metres, locale), minutes.toInt(), notes, existing?.rating ?: 0, existing?.favourite ?: false)
+            }.onSuccess(save).onFailure { error = context.userMessage(it, R.string.error_journal) }
         }) { Text(stringResource(R.string.save_walk)) }
         TextButton(onClick = close) { Text(stringResource(R.string.cancel)) }
     }
 }
 
 @Composable private fun JournalSummary(walks: List<Walk>, imperial: Boolean) {
+    val locale = LocalConfiguration.current.locales[0]
     val zone = ZoneId.systemDefault()
     var year by rememberSaveable { mutableIntStateOf(LocalDate.now().year) }
     var expanded by rememberSaveable { mutableStateOf(false) }
@@ -122,14 +127,14 @@ import java.util.*
     val summary = JournalRules.year(entries, year, zone)
     TrailPanel(Modifier.fillMaxWidth()) {
         Heading(stringResource(R.string.year_summary, year), true)
-        Text(stringResource(R.string.journal_totals, pluralStringResource(R.plurals.walk_count, summary.walks, summary.walks), TrailMath.formatDistance(summary.metres, imperial), summary.minutes))
+        Text(stringResource(R.string.journal_totals, pluralStringResource(R.plurals.walk_count, summary.walks, summary.walks), distanceText(summary.metres, imperial), summary.minutes))
         Row {
             TextButton(onClick = { year-- }, enabled = year > 1970) { Text(stringResource(R.string.previous_year)) }
             TextButton(onClick = { year++ }, enabled = year < LocalDate.now().year) { Text(stringResource(R.string.next_year)) }
         }
         TextButton(onClick = { expanded = !expanded }) { Text(stringResource(if (expanded) R.string.hide_months else R.string.show_months)) }
         if (expanded) JournalRules.months(entries, year, zone).forEachIndexed { index, month ->
-            Text(stringResource(R.string.month_summary, Month.of(index + 1).getDisplayName(TextStyle.FULL, Locale.getDefault()), pluralStringResource(R.plurals.walk_count, month.walks, month.walks), TrailMath.formatDistance(month.metres, imperial), month.minutes))
+            Text(stringResource(R.string.month_summary, Month.of(index + 1).getDisplayName(TextStyle.FULL, locale), pluralStringResource(R.plurals.walk_count, month.walks, month.walks), distanceText(month.metres, imperial), month.minutes))
         }
     }
 }

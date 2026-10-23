@@ -39,7 +39,7 @@ class TrailViewModel(app: Application) : AndroidViewModel(app) {
                         (draft.activeMillis / 1000).coerceAtMost(Int.MAX_VALUE.toLong()).toInt(), draft.activeMillis / 1000) +
                         if (notes.isBlank()) "" else "\n" + notes.take(5000), 0, false))
                 recorder.clear(draft.id)
-            } catch (error: Exception) { message.value = error.message ?: "Unable to save recording. Your draft is retained." }
+            } catch (error: Exception) { message.value = getApplication<Application>().userMessage(error, R.string.error_recording_save) }
             finally { recordingBusy.value = false }
         }
     }
@@ -53,27 +53,35 @@ class TrailViewModel(app: Application) : AndroidViewModel(app) {
     companion object { private val photoMutex = Mutex() }
     init { viewModelScope.launch(Dispatchers.IO) { photoMutex.withLock { photoStore.prune(dao.photoFileNames().toSet()) } } }
     private val checklistKey = stringPreferencesKey("personal_checklist_v1")
+    private fun initialChecklist(checked: (Int) -> Boolean = { false }) = PersonalChecklist.initial(checked).mapIndexed { index, item ->
+        item.copy(title = getApplication<Application>().checklistDefault(index))
+    }
     fun checklist(prefs: Preferences): List<ChecklistItem> {
-        val legacy = PersonalChecklist.initial { prefs[booleanPreferencesKey("kit_$it")] == true }
+        val legacy = initialChecklist { prefs[booleanPreferencesKey("kit_$it")] == true }
         val raw = prefs[checklistKey] ?: return legacy
         return runCatching {
             val array = JSONArray(raw)
-            List(array.length()) { i -> array.getJSONObject(i).let { ChecklistItem(it.getString("id"), it.getString("title"), it.getBoolean("checked")) } }
+            List(array.length()) { i -> array.getJSONObject(i).let {
+                val id = it.getString("id"); val title = it.getString("title")
+                val index = if (it.has("defaultIndex")) it.getInt("defaultIndex").takeIf { n -> n in 0..10 }
+                    else id.removePrefix("kit_").toIntOrNull()?.takeIf { n -> id == "kit_$n" && n in 0..10 && title == getApplication<Application>().englishChecklistDefault(n) }
+                ChecklistItem(id, index?.let { n -> getApplication<Application>().checklistDefault(n) } ?: title, it.getBoolean("checked"), index)
+            } }
         }.getOrElse { legacy }
     }
     private fun updateChecklist(change: (List<ChecklistItem>) -> List<ChecklistItem>) {
         viewModelScope.launch { getApplication<Application>().preferences.edit { prefs ->
             val items = change(checklist(prefs))
-            prefs[checklistKey] = JSONArray().apply { items.forEach { put(JSONObject().put("id", it.id).put("title", it.title).put("checked", it.checked)) } }.toString()
+            prefs[checklistKey] = JSONArray().apply { items.forEach { put(JSONObject().put("id", it.id).put("title", it.title).put("checked", it.checked).put("defaultIndex", it.defaultIndex ?: -1)) } }.toString()
         } }
     }
     fun checkItem(id: String) = updateChecklist { items -> items.map { if (it.id == id) it.copy(checked = !it.checked) else it } }
     fun addItem(title: String) { val clean = PersonalChecklist.validateTitle(title); updateChecklist { if (it.size < 100) it + ChecklistItem(UUID.randomUUID().toString(), clean) else it } }
-    fun renameItem(id: String, title: String) { val clean = PersonalChecklist.validateTitle(title); updateChecklist { items -> items.map { if (it.id == id) it.copy(title = clean) else it } } }
+    fun renameItem(id: String, title: String) { val clean = PersonalChecklist.validateTitle(title); updateChecklist { items -> items.map { if (it.id == id) it.copy(title = clean, defaultIndex = null) else it } } }
     fun removeItem(id: String) = updateChecklist { items -> items.filterNot { it.id == id } }
     fun moveItem(id: String, offset: Int) = updateChecklist { items -> items.toMutableList().apply { val from = indexOfFirst { it.id == id }; val to = from + offset; if (from >= 0 && to in indices) add(to, removeAt(from)) } }
     fun resetChecklist() = updateChecklist(PersonalChecklist::reset)
-    fun restoreChecklist() = updateChecklist { PersonalChecklist.initial() }
+    fun restoreChecklist() = updateChecklist { initialChecklist() }
     fun toggle(key: String) { viewModelScope.launch { getApplication<Application>().preferences.edit { it[booleanPreferencesKey(key)] = !(it[booleanPreferencesKey(key)] ?: false) } } }
     fun setting(key: String, value: String) { viewModelScope.launch { getApplication<Application>().preferences.edit { it[stringPreferencesKey(key)] = value } } }
     fun save(walk: Walk) { viewModelScope.launch { dao.save(walk) } }
@@ -88,12 +96,12 @@ class TrailViewModel(app: Application) : AndroidViewModel(app) {
         photoBusy.value = true
         viewModelScope.launch {
             try { photoMutex.withLock {
-                require(dao.walk(walkId) != null) { "Save the walk before adding a photo." }
-                require(dao.photosFor(walkId).size < 8) { "Each walk can contain up to eight photos." }
+                require(dao.walk(walkId) != null) { throw TextFailure("error_save_the_walk_before_adding_a_photo") }
+                require(dao.photosFor(walkId).size < 8) { throw TextFailure("error_each_walk_can_contain_up_to_eight_photos") }
                 val name = withContext(Dispatchers.IO) { photoStore.import(uri) }
                 try { dao.addPhoto(WalkPhoto(UUID.randomUUID().toString(), walkId, name)) }
                 catch (error: Exception) { withContext(Dispatchers.IO) { photoStore.remove(name) }; throw error }
-            } } catch (error: Exception) { message.value = error.message ?: "Photo import failed." }
+            } } catch (error: Exception) { message.value = getApplication<Application>().userMessage(error, R.string.error_photo) }
             finally { photoBusy.value = false }
         }
     }

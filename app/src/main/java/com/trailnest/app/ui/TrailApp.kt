@@ -6,6 +6,9 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.*
+import androidx.compose.ui.draw.scale
+import androidx.compose.ui.platform.LocalLayoutDirection
+import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.runtime.saveable.rememberSaveable
@@ -41,19 +44,21 @@ import com.trailnest.app.domain.*
     val selected = routes.find { it.id == selectedId }
     val labels = listOf(stringResource(R.string.discover), stringResource(R.string.my_walks), stringResource(R.string.offline), stringResource(R.string.checklist), stringResource(R.string.settings))
     val keys = listOf("Discover", "My walks", "Offline packs", "Checklist", "Settings")
+    val context = androidx.compose.ui.platform.LocalContext.current
     val icons = listOf(Icons.Outlined.Explore, Icons.Outlined.BookmarkBorder, Icons.Outlined.Download, Icons.Outlined.Checklist, Icons.Outlined.Settings)
     MaterialTheme(colorScheme = scheme) {
         Surface(Modifier.fillMaxSize(), color = scheme.background) {
             BoxWithConstraints(Modifier.safeDrawingPadding()) {
                 val wide = maxWidth >= 720.dp
                 Column {
+                    if (BuildConfig.DRAFT_TRANSLATIONS) Text(stringResource(R.string.translation_draft_notice), Modifier.fillMaxWidth().padding(12.dp), color = scheme.error)
                     Row(Modifier.weight(1f)) {
                         if (wide) Column(Modifier.width(180.dp).fillMaxHeight().padding(14.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
-                            Image(painterResource(R.drawable.ic_trailnest), "TrailNest", Modifier.size(64.dp).align(Alignment.CenterHorizontally))
-                            Text("TrailNest", fontSize = 26.sp, modifier = Modifier.align(Alignment.CenterHorizontally))
+                            Image(painterResource(R.drawable.ic_trailnest), stringResource(R.string.app_name), Modifier.size(64.dp).align(Alignment.CenterHorizontally))
+                            Text(stringResource(R.string.app_name), fontSize = 26.sp, modifier = Modifier.align(Alignment.CenterHorizontally))
                             Spacer(Modifier.height(20.dp))
                             keys.forEachIndexed { i, key -> NavigationDrawerItem(label = { Text(labels[i]) }, selected = page == key, onClick = { page = key; selectedId = null }, icon = { Icon(icons[i], null) }) }
-                            Spacer(Modifier.weight(1f)); Text("A brighter outdoors.\nOne step at a time.", Modifier.padding(12.dp), style = MaterialTheme.typography.bodySmall)
+                            Spacer(Modifier.weight(1f)); Text(stringResource(R.string.ui_a_brighter_outdoors_one_step_at_a_time), Modifier.padding(12.dp), style = MaterialTheme.typography.bodySmall)
                         }
                         Box(Modifier.weight(1f)) {
                             if (selected != null) RouteScreen(selected, fix, locating, imperial, voiceReady, command, onConsumeCommand, onLocation, onSpeak, onListen, onExport, onShare, { selectedId = null }, onNotice)
@@ -63,10 +68,10 @@ import com.trailnest.app.domain.*
                                     recordingRevealKey = recordingPage, recording = { RecordingPanel(recording, imperial, recordingBusy, onRecordingAction, model::finishRecording) })
                                 "Offline packs" -> PacksScreen(routes, imperial, onImport, {
                                     if (Gpx.digest(it.geometry) == it.sha256) selectedId = it.id
-                                    else onNotice("Integrity check failed. Reimport the original GPX.")
+                                    else onNotice(context.getString(R.string.error_integrity))
                                 }, { route ->
-                                    if (!route.packed && routes.count { it.packed } >= 1) onNotice("The free tier stores one route pack. Remove the existing pack first. Premium purchasing is not yet configured.")
-                                    else if (Gpx.digest(route.geometry) != route.sha256) onNotice("Integrity check failed. Reimport the original GPX.")
+                                    if (!route.packed && routes.count { it.packed } >= 1) onNotice(context.getString(R.string.error_pack_limit))
+                                    else if (Gpx.digest(route.geometry) != route.sha256) onNotice(context.getString(R.string.error_integrity))
                                     else model.save(route.copy(packed = !route.packed))
                                 }, model::deleteRoute)
                                 "Checklist" -> ChecklistScreen(model.checklist(prefs), model::checkItem, model::addItem, model::renameItem, model::removeItem, model::moveItem, model::resetChecklist, model::restoreChecklist)
@@ -76,11 +81,11 @@ import com.trailnest.app.domain.*
                         }
                     }
                     if (!wide) NavigationBar {
-                        keys.forEachIndexed { i, key -> NavigationBarItem(selected = page == key, onClick = { page = key; selectedId = null }, icon = { Icon(icons[i], labels[i]) }, label = { Text(if (i == 2) "Offline" else labels[i], fontSize = 10.sp) }) }
+                        keys.forEachIndexed { i, key -> NavigationBarItem(selected = page == key, onClick = { page = key; selectedId = null }, icon = { Icon(icons[i], labels[i]) }, label = { Text(if (i == 2) stringResource(R.string.offline_short) else labels[i], fontSize = 10.sp) }) }
                     }
                 }
-                if (notice != null) AlertDialog(onDismissRequest = dismiss, title = { Text("TrailNest") }, text = { Text(notice) }, confirmButton = { TextButton(onClick = dismiss) { Text("Got it") } })
-                else if (modelMessage != null) AlertDialog(onDismissRequest = { model.message.value = null }, title = { Text("TrailNest") }, text = { Text(modelMessage!!) }, confirmButton = { TextButton(onClick = { model.message.value = null }) { Text("Got it") } })
+                if (notice != null) AlertDialog(onDismissRequest = dismiss, title = { Text(stringResource(R.string.app_name)) }, text = { Text(notice) }, confirmButton = { TextButton(onClick = dismiss) { Text(stringResource(R.string.ui_got_it)) } })
+                else if (modelMessage != null) AlertDialog(onDismissRequest = { model.message.value = null }, title = { Text(stringResource(R.string.app_name)) }, text = { Text(modelMessage!!) }, confirmButton = { TextButton(onClick = { model.message.value = null }) { Text(stringResource(R.string.ui_got_it)) } })
             }
         }
     }
@@ -89,31 +94,32 @@ import com.trailnest.app.domain.*
 @OptIn(ExperimentalLayoutApi::class)
 @Composable fun DiscoverScreen(navigate: (String) -> Unit, onImport: () -> Unit) {
     var search by rememberSaveable { mutableStateOf("") }
-    var filter by rememberSaveable { mutableStateOf("All walks") }
+    var filter by rememberSaveable { mutableIntStateOf(0) }
+    val filters = listOf(stringResource(R.string.filter_0), stringResource(R.string.filter_1), stringResource(R.string.filter_2), stringResource(R.string.filter_3), stringResource(R.string.filter_4))
     Page(stringResource(R.string.headline), stringResource(R.string.tagline)) {
         // Original editorial illustration; it does not depict a published route.
-        Image(painterResource(R.drawable.landscape), "Illustrated hills and winding footpath, an imaginary landscape", Modifier.fillMaxWidth().height(180.dp), contentScale = androidx.compose.ui.layout.ContentScale.Crop)
-        OutlinedTextField(search, { search = it }, Modifier.fillMaxWidth(), label = { Text("Search a town, region or national park") }, leadingIcon = { Icon(Icons.Outlined.Search, null) }, singleLine = true, shape = RoundedCornerShape(50))
-        TextButton(onClick = { navigate("Coverage") }) { Icon(Icons.Outlined.Place, null); Text("United Kingdom · Coverage planned") }
-        FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) { listOf("All walks", "Woodland", "Coastal", "Riverside", "Hills").forEach { FilterChip(selected = filter == it, onClick = { filter = it }, label = { Text(it) }) } }
+        Image(painterResource(R.drawable.landscape), stringResource(R.string.landscape_description), Modifier.fillMaxWidth().height(180.dp), contentScale = androidx.compose.ui.layout.ContentScale.Crop)
+        OutlinedTextField(search, { search = it }, Modifier.fillMaxWidth(), label = { Text(stringResource(R.string.ui_search_a_town_region_or_national_park)) }, leadingIcon = { Icon(Icons.Outlined.Search, null) }, singleLine = true, shape = RoundedCornerShape(50))
+        TextButton(onClick = { navigate("Coverage") }) { Icon(Icons.Outlined.Place, null); Text(stringResource(R.string.ui_united_kingdom_coverage_planned)) }
+        FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) { filters.forEachIndexed { index, label -> FilterChip(selected = filter == index, onClick = { filter = index }, label = { Text(label) }) } }
         TrailPanel(Modifier.fillMaxWidth()) {
-            SectionLabel("Your next adventure")
+            SectionLabel(stringResource(R.string.ui_your_next_adventure))
             Heading(stringResource(R.string.no_routes), true)
-            Text(if (search.isNotBlank()) "No reviewed routes match “$search”. Try importing your own GPX while our collection is prepared." else stringResource(R.string.coverage_message))
-            if (filter != "All walks") Text("${filter} filter selected. No reviewed routes are available yet.")
-            Button(onClick = { navigate("Coverage") }) { Text("Explore coverage"); Icon(Icons.Outlined.ChevronRight, null) }
+            Text(if (search.isNotBlank()) stringResource(R.string.search_empty , search) else stringResource(R.string.coverage_message))
+            if (filter != 0) Text(stringResource(R.string.filter_empty, filters[filter]))
+            Button(onClick = { navigate("Coverage") }) { Text(stringResource(R.string.ui_explore_coverage)); Icon(Icons.Outlined.ChevronRight, null, Modifier.scale(if (LocalLayoutDirection.current == LayoutDirection.Rtl) -1f else 1f, 1f)) }
         }
         TrailPanel(Modifier.fillMaxWidth()) {
-            SectionLabel("Be prepared"); Heading("A little preparation goes a long way.", true)
-            listOf("Drinking water", "Suitable footwear", "Charged phone").forEach { Text("•  $it") }
-            OutlinedButton(onClick = { navigate("Checklist") }) { Text("Open checklist") }
+            SectionLabel(stringResource(R.string.ui_be_prepared)); Heading(stringResource(R.string.ui_a_little_preparation_goes_a_long_way), true)
+            listOf(0, 1, 3).forEach { Text(stringResource(R.string.preparation_item, checklistDefault(it))) }
+            OutlinedButton(onClick = { navigate("Checklist") }) { Text(stringResource(R.string.ui_open_checklist)) }
         }
-        SectionLabel("Continue your journey")
-        OutlinedButton(onClick = onImport, modifier = Modifier.fillMaxWidth()) { Icon(Icons.Outlined.UploadFile, null); Text("Import your own GPX") }
-        Text("Imported routes remain private and unreviewed. Check access and conditions before you walk.", style = MaterialTheme.typography.bodySmall)
+        SectionLabel(stringResource(R.string.ui_continue_your_journey))
+        OutlinedButton(onClick = onImport, modifier = Modifier.fillMaxWidth()) { Icon(Icons.Outlined.UploadFile, null); Text(stringResource(R.string.ui_import_your_own_gpx)) }
+        Text(stringResource(R.string.ui_imported_routes_remain_private_and_unreviewed_check_access_and_co), style = MaterialTheme.typography.bodySmall)
         Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-            TextButton(onClick = { navigate("Offline packs") }) { Text("Offline route packs") }
-            TextButton(onClick = { navigate("My walks") }) { Text("Walk journal") }
+            TextButton(onClick = { navigate("Offline packs") }) { Text(stringResource(R.string.ui_offline_route_packs)) }
+            TextButton(onClick = { navigate("My walks") }) { Text(stringResource(R.string.ui_walk_journal)) }
         }
     }
 }

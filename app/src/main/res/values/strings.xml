@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TrailNest</string>
+    <string name="app_name" translatable="false">TrailNest</string>
     <string name="discover">Discover</string>
     <string name="my_walks">My walks</string>
     <string name="offline">Offline packs</string>

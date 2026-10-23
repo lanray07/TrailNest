@@ -2,6 +2,20 @@
 
 Build date: 23 October 2026. Commands run in `D:\App Projects\TrailNest` using JDK 17, Android SDK 35, AGP 8.11.1 and Gradle 8.13.
 
+## Android 0.4.0 localisation update
+
+Final source passed `gradlew.bat :app:assembleDebug :app:assembleRelease :app:assembleTranslationPreview :app:testDebugUnitTest :app:lintDebug :app:lintTranslationPreview :app:assembleDebugAndroidTest --offline --max-workers=2` — **BUILD SUCCESSFUL in 4m 37s**. Build checks caught and corrected an unavailable mirrored icon API, an escaped-format test fixture, and Compose configuration observation; no lint errors were suppressed. Normal APK metadata is **0.4.0 / code 4**; the separate draft APK is **0.4.0-draft**, package `com.trailnest.app.draft`.
+
+- **36 Android JVM tests passed**, zero failures: 32 existing checks plus four localisation tests covering decimal commas/local digits, rejected grouping/non-finite input, exact-distance preservation (including a language change), and stable validation message keys. UI uses the resource configuration's locale, including per-app language settings, rather than assuming the system Java default for formatting or speech.
+- **9 Node tooling tests passed**. These validate extraction/escaping, indexed and width-qualified placeholders, stale-source invalidation, review requirements, BCP47 qualifiers, UI literal detection, every entry and plural form in all 19 JSON/preview bundles, draft isolation, and migration SQL. Website tests: **5 passed**; its build passed. **50 tests total passed.**
+- Localisation structural check passed: **242 strings + 4 plural resources per locale**, **19 locales**, **zero missing entries**, **zero invalid entries**, **zero detected hardcoded UI call patterns**, **zero approved locales**. Every entry remains `reviewed:false`; no reviewer/date approval was fabricated. The release localisation check intentionally exits nonzero pending human review. Scanner scope and draft provenance are documented in `LOCALISATION.md`.
+- Normal debug lint: **0 errors / 26 warnings**. Draft-preview lint: **0 errors / 33 warnings**. Remaining warnings include dependency/platform recommendations, quantity-candidate heuristics (including year/photo labels), typography, locale handling for future App Bundles, and attributes ignored on older Android versions. Existing RouteScreen compiler always-true warnings remain. These checks do not certify translation meaning or layouts.
+- Debug, unsigned release, draft-preview and device-test APKs were packaged with SHA-256 hashes. Both debug and draft-preview APKs passed `apksigner verify --verbose` with Signature Scheme v2. `aapt2 dump resources` confirmed 19 locale variants plus English fallback for the draft APK's `journal_title`; the normal debug APK has the English fallback only for that app resource.
+- **9 device tests compiled; 0 executed.** ADB reported no connected device. Human linguistic/safety review, per-app locale behavior, live speech, RTL/large-font rendering and physical Fire validation remain pending. No screenshots or passed device/language-layout test is claimed.
+- Editorial validation passed with the empty catalogue. The overall release gate still fails for the documented production prerequisites; it now distinguishes translation/human-review work from hardcoded-text migration, which is complete for the migrated Android display paths. Website localisation and deployment remain unchanged at the English 0.1 preview.
+
+Details: `docs/LOCALISATION.md`; machine-readable evidence: `artifacts/verification-0.4.0.json`. Generated APKs are local ignored deliverables.
+
 ## Android 0.3.0 background recording update
 
 The final source passed `gradlew.bat :app:assembleDebug :app:assembleRelease :app:testDebugUnitTest :app:lintDebug :app:assembleDebugAndroidTest --offline --max-workers=2`. Final build: **BUILD SUCCESSFUL in 1m 34s**, after correcting a journal callback omitted during the notification shortcut change. APK metadata identifies version **0.3.0**, version code **3**.

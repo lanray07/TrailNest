@@ -17,7 +17,7 @@ val Ivory = Color(0xFFF7F5EE)
 val Ink = Color(0xFF26332E)
 val Sage = Color(0xFFE7EBDF)
 @Composable fun Heading(text: String, small: Boolean = false) { Text(text, fontFamily = FontFamily.Serif, fontSize = if (small) 26.sp else 38.sp, lineHeight = if (small) 32.sp else 43.sp, fontWeight = FontWeight.Medium) }
-@Composable fun SectionLabel(text: String) { Text(text.uppercase(), style = MaterialTheme.typography.labelMedium, letterSpacing = 1.6.sp, color = MaterialTheme.colorScheme.primary) }
+@Composable fun SectionLabel(text: String) { Text(text.uppercase(androidx.compose.ui.platform.LocalConfiguration.current.locales[0]), style = MaterialTheme.typography.labelMedium, letterSpacing = 1.6.sp, color = MaterialTheme.colorScheme.primary) }
 @Composable fun TrailPanel(modifier: Modifier = Modifier, content: @Composable ColumnScope.() -> Unit) {
     Surface(modifier, shape = RoundedCornerShape(20.dp), color = MaterialTheme.colorScheme.surface, border = BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant)) {
         Column(Modifier.padding(24.dp), verticalArrangement = Arrangement.spacedBy(16.dp), content = content)

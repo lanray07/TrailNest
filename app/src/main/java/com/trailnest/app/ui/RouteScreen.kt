@@ -26,22 +26,23 @@ import androidx.compose.ui.res.stringResource
     LaunchedEffect(locating) { while (locating) { now = SystemClock.elapsedRealtimeNanos(); delay(3000) } }
     val fresh = fix != null && (now - fix.elapsedRealtimeNanos) / 1e9 < 30 && now >= fix.elapsedRealtimeNanos
     val progress = if (fresh && fix != null && fix.hasAccuracy()) TrailMath.progress(points, GeoPoint(fix.latitude, fix.longitude), fix.accuracy.toDouble()) else null
-    val status = when { !locating -> "Location paused."; progress == null -> "Waiting for a recent location fix."; progress.uncertain -> "Location accuracy is poor. Position is uncertain."; progress.offRoute -> "You appear to be off the planned route. Check your surroundings."; else -> "Approximately ${TrailMath.formatDistance(progress.remainingMetres, imperial)} remaining." }
+    val context = androidx.compose.ui.platform.LocalContext.current
+    val status = when { !locating -> stringResource(R.string.location_paused); progress == null -> stringResource(R.string.location_waiting); progress.uncertain -> stringResource(R.string.location_uncertain); progress.offRoute -> stringResource(R.string.route_off_route); else -> stringResource(R.string.route_remaining, distanceText(progress.remainingMetres, imperial)) }
     LaunchedEffect(command) {
         when (command) {
             VoiceCommand.REPEAT, VoiceCommand.DISTANCE -> speak(status)
             VoiceCommand.PAUSE -> if (locating) onLocation()
             VoiceCommand.RESUME -> if (!locating) onLocation()
-            VoiceCommand.SAVE -> notice("Use Record a walk in your journal to save distance, duration and notes.")
+            VoiceCommand.SAVE -> notice(context.getString(R.string.voice_save_hint))
             else -> Unit
         }
         consume()
     }
     val latestLocating by rememberUpdatedState(locating)
     DisposableEffect(route.id) { onDispose { if (latestLocating) onLocation() } }
-    Page(route.title, "Private imported route · Access and directions unreviewed") {
-        TextButton(onClick = back) { Text("Back to routes") }
-        Text("${TrailMath.formatDistance(route.metres, imperial)} · ${points.size} points")
+    Page(route.title, stringResource(R.string.route_description)) {
+        TextButton(onClick = back) { Text(stringResource(R.string.ui_back_to_routes)) }
+        Text(stringResource(R.string.route_summary, distanceText(route.metres, imperial), androidx.compose.ui.res.pluralStringResource(R.plurals.route_points, points.size, points.size)))
         Canvas(Modifier.fillMaxWidth().height(260.dp).background(Sage)) {
             val minLat = points.minOf { it.lat }; val maxLat = points.maxOf { it.lat }
             val minLon = points.minOf { it.lon }; val maxLon = points.maxOf { it.lon }
@@ -55,16 +56,16 @@ import androidx.compose.ui.res.stringResource
             drawCircle(Forest, 8.dp.toPx(), offset(points.first())); drawCircle(Color(0xFF8D7159), 8.dp.toPx(), offset(points.last()))
             if (fresh && fix != null) { val pos = offset(GeoPoint(fix.latitude, fix.longitude)); if (pos.x in 0f..size.width && pos.y in 0f..size.height) drawCircle(Color(0xFF287E83), 7.dp.toPx(), pos) }
         }
-        Text("Geometry overview · Green: start · Brown: finish · Teal: recent position. No basemap. North is up; scale varies with route bounds.", style = MaterialTheme.typography.bodySmall)
+        Text(stringResource(R.string.ui_geometry_overview_green_start_brown_finish_teal_recent_position_n), style = MaterialTheme.typography.bodySmall)
         TrailPanel(Modifier.fillMaxWidth()) {
-            Heading("Your route, at a glance.", true); Text(status)
-            if (fresh && fix != null) Text("Reported accuracy: ±${fix.accuracy.toInt()} m")
-            Button(onClick = onLocation) { Text(if (locating) "Pause location" else "Use location while app is open") }
-            OutlinedButton(onClick = { speak(status) }, enabled = voiceReady) { Text("Read progress aloud") }
-            TextButton(onClick = listen) { Text("Push to talk") }
-            Text("No validated turn instructions are included. Spoken output reports progress and uncertainty only. This view does not replace a map or access checks.")
+            Heading(stringResource(R.string.ui_your_route_at_a_glance), true); Text(status)
+            if (fresh && fix != null) Text(stringResource(R.string.reported_accuracy, fix.accuracy.toInt()))
+            Button(onClick = onLocation) { Text(stringResource(if (locating) R.string.pause_location else R.string.foreground_location)) }
+            OutlinedButton(onClick = { speak(status) }, enabled = voiceReady) { Text(stringResource(R.string.ui_read_progress_aloud)) }
+            TextButton(onClick = listen) { Text(stringResource(R.string.ui_push_to_talk)) }
+            Text(stringResource(R.string.ui_no_validated_turn_instructions_are_included_spoken_output_reports))
         }
-        OutlinedButton(onClick = { export(route) }) { Text("Export GPX") }
+        OutlinedButton(onClick = { export(route) }) { Text(stringResource(R.string.ui_export_gpx)) }
         TextButton(onClick = { sharing = true }) { Text(stringResource(R.string.share_plan_title)) }
     }
     if (sharing) SharePlanDialog(route, imperial, share) { sharing = false }

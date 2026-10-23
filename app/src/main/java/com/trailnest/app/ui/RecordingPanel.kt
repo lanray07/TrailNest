@@ -13,6 +13,7 @@ import java.util.Locale
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable fun RecordingPanel(draft: RecordingDraft?, imperial: Boolean, busy: Boolean, action: (String) -> Unit, save: (String, String) -> Unit) {
+    val locale = androidx.compose.ui.platform.LocalConfiguration.current.locales[0]
     var review by rememberSaveable(draft?.id) { mutableStateOf(false) }
     var discard by remember { mutableStateOf(false) }
     var title by rememberSaveable(draft?.id) { mutableStateOf("") }
@@ -25,8 +26,8 @@ import java.util.Locale
             Button(onClick = { action("start") }, enabled = !busy) { Text(stringResource(R.string.start_recording)) }
         } else {
             val seconds = draft.activeMillis / 1000
-            Text(stringResource(R.string.recording_measurements, TrailMath.formatDistance(draft.metres, imperial),
-                String.format(Locale.getDefault(), "%02d:%02d:%02d", seconds / 3600, seconds / 60 % 60, seconds % 60)))
+            Text(stringResource(R.string.recording_measurements, distanceText(draft.metres, imperial),
+                String.format(locale, "%02d:%02d:%02d", seconds / 3600, seconds / 60 % 60, seconds % 60)))
             if (!draft.running) Text(stringResource(R.string.recording_paused))
             if (draft.interrupted) Text(stringResource(R.string.recording_interrupted))
             if (draft.running && !draft.hasFix) Text(stringResource(R.string.recording_waiting))

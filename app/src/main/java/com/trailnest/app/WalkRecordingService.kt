@@ -19,7 +19,7 @@ class WalkRecordingService : Service(), LocationListener {
     private var listening = false
     private val ticker = object : Runnable {
         override fun run() {
-            try { store.tick(); notifyState() } catch (error: Exception) { store.error.value = error.message; stopSelf(); return }
+            try { store.tick(); notifyState() } catch (error: Exception) { store.error.value = userMessage(error, R.string.recording_start_failed); stopSelf(); return }
             handler.postDelayed(this, 5_000)
         }
     }
@@ -50,14 +50,14 @@ class WalkRecordingService : Service(), LocationListener {
     }
     private fun pause() {
         runCatching { locations.removeUpdates(this) }; listening = false
-        runCatching { store.pause() }.onFailure { store.error.value = it.message }
+        runCatching { store.pause() }.onFailure { store.error.value = userMessage(it, R.string.recording_start_failed) }
         handler.removeCallbacks(ticker)
     }
     override fun onLocationChanged(location: Location) {
         if (!listening) return
         runCatching {
             if (location.hasAccuracy()) store.fix(GeoPoint(location.latitude, location.longitude), location.accuracy, location.elapsedRealtimeNanos / 1_000_000)
-        }.onFailure { store.error.value = it.message; pause(); stopSelf() }
+        }.onFailure { store.error.value = userMessage(it, R.string.recording_start_failed); pause(); stopSelf() }
     }
     override fun onProviderDisabled(provider: String) { pause(); notifyState() }
     private fun notification(): Notification {

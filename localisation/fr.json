@@ -1,0 +1,2236 @@
+{
+  "packs_empty_title": {
+    "text": "Suivez votre itinéraire avec vous.",
+    "sourceHash": "05930a8488b564f5e9961c29466961ba4a0ead52c98f754ac938c4b9daca2bae",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.075Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_a_brighter_outdoors_one_step_at_a_time": {
+    "text": "Un extérieur plus lumineux.\nUn pas à la fois.",
+    "sourceHash": "93b9a7f339e212ad0abd80eec06242dd65c918e9104ad6d21a66eaf3807e58b8",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.075Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_got_it": {
+    "text": "Compris",
+    "sourceHash": "481e29fbd9ffbe690383f7d881fc83608fae4c41117cce47eedb864ce28004f2",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.075Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_search_a_town_region_or_national_park": {
+    "text": "Rechercher une ville, une région ou un parc national",
+    "sourceHash": "a314790d2e981087fc65250f427a2e820fd8844d968227ec94431160d84209db",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.075Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_united_kingdom_coverage_planned": {
+    "text": "Royaume-Uni · Couverture prévue",
+    "sourceHash": "1de6688224cdbc90d84934e62698d223989696aa1c5574e2eb7398b3fc35ca45",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.075Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_your_next_adventure": {
+    "text": "Votre prochaine aventure",
+    "sourceHash": "98201d395128e8ec5af72ec053ebe181945e5f9a93e7496799cc08aaef8e586b",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.075Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_explore_coverage": {
+    "text": "Explorez la couverture",
+    "sourceHash": "a874fdc10ff90223f2fc622b70fdc34c5bd37253a531a2294b31bea85419168d",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.075Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_be_prepared": {
+    "text": "Soyez prêt",
+    "sourceHash": "ca33cb7fed81ea680ca6cb9a218ca244d6f8c9da9e31a441932368bab22c2deb",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.075Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_a_little_preparation_goes_a_long_way": {
+    "text": "Un peu de préparation suffit.",
+    "sourceHash": "032574463c689943e951931b1a2f4c5fa39300813fd188df507d94e0c0f672a0",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.075Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_open_checklist": {
+    "text": "Ouvrir la liste de contrôle",
+    "sourceHash": "bd9f0b474973c0a52b4b94b2ec2ba7e51782ebdaa3f6639cb069c1675261f061",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.075Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_continue_your_journey": {
+    "text": "Continuez votre voyage",
+    "sourceHash": "70e8338b33f50ba927d6f12d0661883cb5f3f8798769a9c95a7c63cd6b033c51",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_import_your_own_gpx": {
+    "text": "Importez votre propre GPX",
+    "sourceHash": "70d044b2b8615ff0aa7ab9210fa9618194acae6c55b1e9b41836cc6da3b8e224",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_imported_routes_remain_private_and_unreviewed_check_access_and_co": {
+    "text": "Les itinéraires importés restent privés et non vérifiés. Vérifiez l'accès et les conditions avant de marcher.",
+    "sourceHash": "df8d96909ce6822633a05ac27e3fc7dae910e93af796e5d8b5064490399f59ca",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "ui_offline_route_packs": {
+    "text": "Packs d'itinéraires hors ligne",
+    "sourceHash": "f72d1813862a79ea6a65e27eb2c3ac16dae86a664486dd71fe47279e21d65e9a",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_walk_journal": {
+    "text": "Journal de marche",
+    "sourceHash": "8ea8bb4427f7304d7e7ddfebad3b3530eea8d28752f52fdec7607251681e11ed",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_ready_when_you_are": {
+    "text": "Prêt quand vous l'êtes.",
+    "sourceHash": "faa08540271e7c080a0ba15f1de08b2975150dc8acdfccee3097c8d26d9021b3",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_import_gpx": {
+    "text": "Importer GPX",
+    "sourceHash": "0fe02a0f52860bf54f51142d9e655322025efbe5a11ede9c71aeef63b455620e",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_user_supplied_access_unreviewed_no_turn_instructions": {
+    "text": "Fourni par l'utilisateur · Accès non vérifié · Aucune instruction de virage",
+    "sourceHash": "8da3bb7e96676d31152833db466bd0a3405d929abf402bc148c7470901a17778",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "ui_open_route": {
+    "text": "Itinéraire ouvert",
+    "sourceHash": "a10f4e8791d8bf80f785c86647aa6c2c4ef1c104b4b2a7d942a0d0dfe8d7d3d5",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_delete_import": {
+    "text": "Supprimer l'importation",
+    "sourceHash": "eaf95aafc77fad37e6baf5a8e8e364829ccb6bfde510f0a5cff555d2a3fcc70d",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_delete_imported_route": {
+    "text": "Supprimer l'itinéraire importé ?",
+    "sourceHash": "d37d3023179363efc4f2e691fadad313bd8bb6bd95ecb3496f9bc0c0ea26cb63",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_the_route_and_its_offline_pack_will_be_removed_from_this_device": {
+    "text": "L'itinéraire et son pack hors ligne seront supprimés de cet appareil.",
+    "sourceHash": "23c1177da848130f0756860c7609dda42fa08bb0d8bb6edc03cfac75ee28b942",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_delete": {
+    "text": "Supprimer",
+    "sourceHash": "b26de372b4b0eaac60202884a72db98a6be6e9036e785ea867ea01c5f7921098",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_keep_route": {
+    "text": "Conserver l'itinéraire",
+    "sourceHash": "19b3c8a6b85ee3867077943b7a15054441812af0582e96f87be53ebf0e4580ce",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_good_information_comes_first": {
+    "text": "Les bonnes informations passent avant tout.",
+    "sourceHash": "1e963e373f20f12ac5c75e2dd126f927bbfff036b108bc64fee136c60d5ff76c",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_offline_basemap_downloads_unavailable": {
+    "text": "Téléchargements de fonds de carte hors ligne indisponibles",
+    "sourceHash": "f4a1019596e5f7d10db237ceee340e7bc58b2bfa570fdbe86cc725e6a73f6657",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_make_yourself_at_home": {
+    "text": "Faites comme chez vous.",
+    "sourceHash": "eb41f710e3a4491db81379983c6619e7ef63599c6a1ec400f3af6e2b4f42d1e4",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_your_preferences": {
+    "text": "Vos préférences",
+    "sourceHash": "d99bf3d783b0df6d2b4ab230b6330c021fbff25ca9c03a9979eb1f0c87dc98e1",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_dark_appearance": {
+    "text": "Aspect sombre",
+    "sourceHash": "10944c682074d57fcfad7ffb14030fb05beb8bba252ad216b2caec2ec82376b4",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_distance_units": {
+    "text": "Unités de distance",
+    "sourceHash": "f380301ddacde9ea5b09373de0e6fdc338f20a1971fbf7328555604c3d4f69ee",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_miles": {
+    "text": "Milles",
+    "sourceHash": "5bd9c048220c94c0a825b07de9fa6c0b117add9b23ace5b4238624fffad7fa36",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_kilometres": {
+    "text": "Kilomètres",
+    "sourceHash": "ff4b53736b5d05daca2e320474f0a3ba85179db4908280c2854722f37ef69039",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_recognition_depends_on_your_device_s_installed_service_it_may_req": {
+    "text": "La reconnaissance dépend du service installé sur votre appareil. Cela peut nécessiter une connexion Internet. Les commandes tactiles sont toujours disponibles.",
+    "sourceHash": "469cab97b7de3c62d8d3bcf88c33b811e4ec000f4cefe735249c2479804999ee",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_trailnest_premium": {
+    "text": "TrailNest Premium",
+    "sourceHash": "6070fd1968f70992f7fc75eff72c6ea8d0553ffd92f2b22a6073664126ed4490",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_purchasing_is_not_available_in_this_build_no_products_prices_or_p": {
+    "text": "L'achat n'est pas disponible dans cette version. Aucun produit, prix ou droit payant n'est configuré.",
+    "sourceHash": "0e9ca350fda22254cf4298d0194951f7caa9d080dc4fa2a6315cb7f072fdeb13",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_your_checklist_journal_and_one_offline_geometry_pack_are_availabl": {
+    "text": "Votre liste de contrôle, votre journal et un pack de géométrie hors ligne sont disponibles gratuitement. Les outils GPX sont inclus dans cette version de développement.",
+    "sourceHash": "62b5dae300b501ef025a25bcd1a990d6d058b1dce6eba36fa0b465f1ad976dae",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_your_privacy": {
+    "text": "Votre vie privée",
+    "sourceHash": "2e29ad563dc6d16cf6f74d8685cd162f8ee8cc5b07de474613ff7abb25ca8460",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "ui_walks_imports_and_preferences_stay_on_this_device_no_accounts_ads": {
+    "text": "Les promenades, importations et préférences restent sur cet appareil. Pas de comptes, de publicités ou d'analyses. La progression de l'itinéraire s'arrête lorsque l'application quitte le premier plan. L'enregistrement de la marche en direct démarre uniquement lorsque vous le choisissez et continue avec un service de premier plan jusqu'à ce qu'il soit mis en pause ou terminé, y compris avec l'écran éteint. L'enregistrement stocke uniquement la distance estimée et la durée d'activité ; les coordonnées sont ignorées. Le partage ouvre la feuille de partage Android uniquement lorsque vous le choisissez.",
+    "sourceHash": "859f79ad2593df5a2d8dd212b86687d27607499a7e6a613846cc036a192f1971",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_system_speech_services_may_process_voice_data_under_their_own_pri": {
+    "text": "Les services vocaux du système peuvent traiter les données vocales selon leurs propres conditions de confidentialité. La désinstallation efface les données locales. Les sauvegardes sont désactivées.",
+    "sourceHash": "169334df4c704c25335e6db8c7aa3e900262edf9da9355fb5467baacbb1890bc",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_responsible_access": {
+    "text": "Accès responsable",
+    "sourceHash": "b67334fea9ab86526899b19e6cbe90e2118f368bd1e9f4787656a9a00dca9a06",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "ui_follow_local_signs_respect_wildlife_and_livestock_leave_gates_as_": {
+    "text": "Suivez les panneaux locaux, respectez la faune et le bétail, laissez les barrières telles qu'elles sont et rapportez les déchets à la maison. Les règles varient selon les pays et les régions ; vérifiez les directives actuelles du gestionnaire foncier concerné.",
+    "sourceHash": "1ce8dab31a9154e2e58b36bee66de748b2efc35d359c0f3b2f8caeffd226922c",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "ui_uk_reference_gov_uk_government_publications_the_countryside_code_": {
+    "text": "Référence britannique : gov.uk/government/publications/the-countryside-code. Le code de l'Angleterre et du Pays de Galles ne constitue pas une politique d'accès mondiale.",
+    "sourceHash": "cc7c40d34a40c1edc39a931fa77a3b781cda0c3568de19241d3b383d16c8b975",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "ui_back_to_routes": {
+    "text": "Retour aux itinéraires",
+    "sourceHash": "408f3b734cfe3dcab1c2c6229b3eb36863f23b00aee0a16c85df02e3669dc7a6",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_geometry_overview_green_start_brown_finish_teal_recent_position_n": {
+    "text": "Aperçu de la géométrie · Vert : début · Marron : fin · Sarcelle : position récente. Pas de fond de carte. Le nord est en haut ; l'échelle varie en fonction des limites de l'itinéraire.",
+    "sourceHash": "cc34fdd632b0c00d17c24e7e980ad43539b89b33c99b94800ddaac30802acc1c",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_your_route_at_a_glance": {
+    "text": "Votre itinéraire, en un coup d'oeil.",
+    "sourceHash": "97788905f4123c80395e37af2d9c499323146924d505913b90f412054a20704e",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_read_progress_aloud": {
+    "text": "Lire la progression à voix haute",
+    "sourceHash": "cb5d0abaf221c3fb7f18bbccfcd4c6f5143063dd87ff472561e0b77a06301c33",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_push_to_talk": {
+    "text": "Appuyer pour parler",
+    "sourceHash": "ea31daabafa3f1b248e96bab82d2381772018ed5fee6fcfbfc242d517c37a82f",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_no_validated_turn_instructions_are_included_spoken_output_reports": {
+    "text": "Aucune instruction de virage validée n'est incluse. La sortie vocale rapporte uniquement les progrès et l’incertitude. Cette vue ne remplace pas une carte ou des contrôles d'accès.",
+    "sourceHash": "fe6113c1a085b1ab896c64148e6fd41cbc57008eed684b90597f936f222f3f08",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "ui_export_gpx": {
+    "text": "Exporter GPX",
+    "sourceHash": "ca6d412b185ede33dd51976d93e0493a50d7646e2cc7e3bd53e9d078707e6301",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "packs_description": {
+    "text": "Géométrie GPX privée stockée sur votre appareil. Les tuiles de fond de carte, l’élévation et les directions révisées ne sont pas incluses.",
+    "sourceHash": "21759e7f0386166df0efc52afa73885d3c18477ec8c59da6badd95d6f2d20a93",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "packs_empty_description": {
+    "text": "Importez une piste GPX, inspectez sa géométrie, puis enregistrez-la en tant que pack d'itinéraires hors ligne. Aucun téléchargement de carte n'est configuré.",
+    "sourceHash": "5338b685277b754875d00ac37ff0028932ca3c11b50fec8a4f3f98562440677a",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "coverage_description": {
+    "text": "La prise en charge linguistique n'implique pas la couverture de l'itinéraire. Chaque marché commence par des données sous licence et une révision éditoriale.",
+    "sourceHash": "8baf80db918b32812b8c0cfe4198fb66504622a899bc7b012f4f5e1f00abf0fb",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_offline_geometry_pack": {
+    "text": "Pack de géométrie hors ligne",
+    "sourceHash": "b03f6760e0e00d8ef423c79d5e031141fc9cbd40efd9b17ae5e0d22e4f0975b0",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_private_gpx_import": {
+    "text": "Importation privée GPX",
+    "sourceHash": "50e50871164f204794da2353ab6cbfc7a2657c691628bd4cd7e70ca577f3fa32",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_sha_256_integrity_check_passed": {
+    "text": "Contrôle d'intégrité SHA-256 réussi",
+    "sourceHash": "61939775405e4472242774c3ca62ee4c9a5650729a0ae59ca172a887423da878",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_integrity_check_failed": {
+    "text": "Échec du contrôle d'intégrité",
+    "sourceHash": "a48bbadc9fbbc7cdbe4139c4d87dec823f54f69fac7a384aaa2199e39055e39d",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_remove_offline_pack": {
+    "text": "Supprimer le pack hors ligne",
+    "sourceHash": "e9cc623187ecee7371991d2f90e9218c2b9f9655dc9fca936045f46ea650c0b3",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_save_geometry_offline": {
+    "text": "Enregistrer la géométrie hors ligne",
+    "sourceHash": "0830efa99e8acec6ccd169ce4cd181119cd7acffebe6d9b3c6c5ce664ec11b7f",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "packs_usage": {
+    "text": "%1$d sur 1 pack gratuit enregistré · %2$d octets de géométrie",
+    "sourceHash": "8a7b269605f10208b8b87ee1cc3ca86a368aabc882370baba66ae26cc2f73a5a",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "country_planned": {
+    "text": "%1$s · Planifié · Aucun itinéraire révisé publié",
+    "sourceHash": "b71dc10109a57bf00902693b5f27228387f05a5c0c00b811a69f5dfa907722df",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "voice_available": {
+    "text": "Sortie vocale : disponible pour la langue de l'appareil",
+    "sourceHash": "aa015a03f4642d24318eb554c3f2f8eed64c2a53620afc24b4e3fea372332053",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "voice_unavailable": {
+    "text": "Sortie vocale : aucune voix compatible installée",
+    "sourceHash": "1fe4d8b8d995441607575296f8f9077a4cf93ab419939574078ceef816a1a6b1",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "offline_short": {
+    "text": "Hors ligne",
+    "sourceHash": "cff17bc0d0c9823ceedf84ea0ab2896bd05d57906c8f6139778ebdc4bd8c1cd7",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "landscape_description": {
+    "text": "Collines illustrées et sentier sinueux, un paysage imaginaire",
+    "sourceHash": "687601882aa161ff8f62f82ec5e715fbd0776976b0780380e64c157073d19243",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_integrity": {
+    "text": "Échec du contrôle d'intégrité. Réimportez le GPX d'origine.",
+    "sourceHash": "95ff48df20abe28634985f91bc5eb642f99c63412355cdb9f7150c946c3ade1a",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_pack_limit": {
+    "text": "Le niveau gratuit stocke un pack de routes. Supprimez d’abord le pack existant. L'achat Premium n'est pas encore configuré.",
+    "sourceHash": "796e87709f8837711bdcc4983d944ec2a1e44dfe57d7dea813f3d754c530f99e",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "filter_0": {
+    "text": "Toutes les balades",
+    "sourceHash": "d24485737d7806debce3c2905fe39c80566187beb44b9d22c1f9ecffa0363a48",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "filter_1": {
+    "text": "Forêt",
+    "sourceHash": "c1f5c19f9704f09305d8731520969b8fde62686c789a3de93247e15de6167ccc",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "filter_2": {
+    "text": "Côtier",
+    "sourceHash": "ee5a6b5c6dc08f66de3148708314ef2cd37cf75f3e493f5bcced9bde4408cc18",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "filter_3": {
+    "text": "Bord de rivière",
+    "sourceHash": "9d92eba99534f1e32b4e09dc769c65628121fbe5e046e723105d15737cc7501c",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "filter_4": {
+    "text": "Collines",
+    "sourceHash": "d76749697eb2cf144761f72ba4ed17dd462552ff242b38f822daf744ab0cdde6",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "search_empty": {
+    "text": "Aucun itinéraire examiné ne correspond à « %1$s ». Essayez d'importer votre propre GPX pendant que notre collection est préparée.",
+    "sourceHash": "e0c6e4ef983183d50d2feb57601b685a1f056db13af844010ecc1ca1c199238d",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "filter_empty": {
+    "text": "Filtre %1$s sélectionné. Aucun itinéraire examiné n'est encore disponible.",
+    "sourceHash": "087ce0a0f99719bd44022e29393e9d86cb71c67cff444295b6af1afead231afe",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "preparation_item": {
+    "text": "• %1$s",
+    "sourceHash": "f55974ac5f4a202fed1dc34229cb7b4dc1a62bd531dfc1f56d5b1ac52b2a43e9",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "location_paused": {
+    "text": "Localisation suspendue.",
+    "sourceHash": "97d1f541099929a669966789f4baf90731b2936fb2ea6d2aa52e4747b5b93f0b",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "location_waiting": {
+    "text": "En attente d'un correctif de localisation récent.",
+    "sourceHash": "1dde15c25fc7452a653849de00c5d74abb9f3bd35f647b8796dfb6b2ca0bdcdd",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "location_uncertain": {
+    "text": "La précision de la localisation est médiocre. La position est incertaine.",
+    "sourceHash": "f4b179194bcb5024de5420ccac48c3c521381d46ee9c30f5525a1983fb54ab92",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "route_off_route": {
+    "text": "Vous semblez être hors de l'itinéraire prévu. Vérifiez votre environnement.",
+    "sourceHash": "016252eeb619a294b60952c20013d9198c16827f95cb569a4187b503215ec76e",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "route_remaining": {
+    "text": "Il reste environ %1$s.",
+    "sourceHash": "55ea2910697857a92dfe7e2325b856e868b6c07fedd654eeed3557e7777af80e",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "voice_save_hint": {
+    "text": "Utilisez Enregistrez une promenade dans votre journal pour enregistrer la distance, la durée et les notes.",
+    "sourceHash": "a98c73caadf1b8b233fdf55937e2ee852a1033659eb8fc74249df4ea48769a51",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "route_description": {
+    "text": "Itinéraire privé importé · Accès et directions non révisés",
+    "sourceHash": "51bc994a063e46cf3fc234a32e92af21cb64d45ae808d7867115b829cdfa1d45",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "route_summary": {
+    "text": "%1$s · %2$s",
+    "sourceHash": "e815c74b80a6814d8bc3ef1de0438b08a20fd215f1603f29774e665893c90150",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "reported_accuracy": {
+    "text": "Précision rapportée : ±%1$d m",
+    "sourceHash": "d308271b4c710a4459376fe9b6421e67ee2accadc7bc6485b0427c7e57c1f55a",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "pause_location": {
+    "text": "Emplacement de la pause",
+    "sourceHash": "bf2326ce3074a34e7562b35b2b3c42a4f6f1d0643c15a5f771a46fc0ec7bff6e",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "foreground_location": {
+    "text": "Utiliser la localisation lorsque l'application est ouverte",
+    "sourceHash": "fa9dadec2fc3abd0cef47fc422d537e5c16794ad1410e037de53f1f80a311942",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "walk_summary": {
+    "text": "%1$s · %2$s · %3$d min",
+    "sourceHash": "04b9ed2b1e16111c335fcb61e413750591e31d666e10ec458a1e33c8c65eb2ed",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_use_an_item_name_between_1_and_120_characters": {
+    "text": "Utilisez un nom d'élément compris entre 1 et 120 caractères.",
+    "sourceHash": "38222c3b3b654ca1fcecdec80db62edafdec193f698900dc07fb53ce822c4eb9",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_a_completed_walk_cannot_be_dated_in_the_future": {
+    "text": "Une promenade complétée ne peut être datée dans le futur.",
+    "sourceHash": "6d883ddd50e0a141522ac2101f3e1b12a7766333e0a33d9f4b7ab3863d0e5b81",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_choose_a_date_from_1970_onwards": {
+    "text": "Choisissez une date à partir de 1970.",
+    "sourceHash": "28c0ea3c1e2f19a552ae1b8f19b5c709d5a3313ce22ae4bced00ca9f18a2e109",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_enter_a_walk_title_of_up_to_120_characters": {
+    "text": "Saisissez un titre de promenade comportant jusqu'à 120 caractères.",
+    "sourceHash": "0d864836b19740c7fe5a74fc26831ecd47844ac47df62d94a02507c4058b1816",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_enter_a_distance_from_zero_to_1_000_zero_means_no_distance_was_me": {
+    "text": "Saisissez une distance de zéro à 1 000. Zéro signifie qu'aucune distance n'a été mesurée.",
+    "sourceHash": "f47af413a41e3cfb59ff530dad6dead0f7c71b318fe42a36e2f96bd9a49268a4",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_enter_a_duration_between_1_and_10_080_minutes": {
+    "text": "Saisissez une durée comprise entre 1 et 10 080 minutes.",
+    "sourceHash": "09f9909f633e0c833b91c3dcb9973678f092025acbc7f0958beebd051a00e01c",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_choose_a_return_time_outside_a_daylight_saving_clock_change": {
+    "text": "Choisissez une heure de retour en dehors d'un changement d'heure d'été.",
+    "sourceHash": "d4a40347ac0df34a8f7fdbbc89d4f1928cc07b8690779f9a0150a0d90320f9cf",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "error_choose_an_expected_return_time_in_the_future": {
+    "text": "Choisissez une heure de retour prévue dans le futur.",
+    "sourceHash": "c419ba0449b266414aca7884a234841f0d245b8cfe8b2f64449ec9f83f8e8260",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "error_enter_an_estimated_duration_between_1_and_10_080_minutes": {
+    "text": "Saisissez une durée estimée entre 1 et 10 080 minutes.",
+    "sourceHash": "5e14408c70cd7933ce8b8f6e719fa5e3ec453bf1c17dd19a8cdebaea5df0a6e1",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_contact_details_must_be_500_characters_or_fewer": {
+    "text": "Les coordonnées doivent comporter 500 caractères ou moins.",
+    "sourceHash": "867a75002707ead8fe9587b9cfaccc600cf1597735299e7c8e281e2be4d62564",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_gpx_must_be_smaller_than_5_mb": {
+    "text": "GPX doit être inférieur à 5 Mo.",
+    "sourceHash": "441bb59cc1cddd67ba15ee743659d51ec8ed8cf00bd419dac0fe88f1a5b885b9",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_external_xml_declarations_are_not_allowed": {
+    "text": "Les déclarations XML externes ne sont pas autorisées.",
+    "sourceHash": "472009b50cc3d43cd7ea878f2c4f695e229d079d00fc4c8cccde6813d5d223a2",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_the_document_root_must_be_gpx": {
+    "text": "La racine du document doit être GPX.",
+    "sourceHash": "cfca6c540093146472495727b0e628f4c653ccbb080325c1c0c97b83e0619771",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_import_one_track_at_a_time": {
+    "text": "Importez une piste à la fois.",
+    "sourceHash": "1ccf19d86891e883e549a3956ce92afad3d31101585b00e569913a5cc4c3efc3",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_multiple_track_segments_could_conceal_gaps_import_one_continuous_": {
+    "text": "Plusieurs segments de voie pourraient masquer des espaces. Importez un segment continu.",
+    "sourceHash": "2dc93a97103a5ca5698e15859783afc5f283dba320eaa04ea9c293be5984c49f",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_import_one_continuous_route_or_track": {
+    "text": "Importez un itinéraire ou une piste continue.",
+    "sourceHash": "01a2bdff692dc2723fbb005f9bd69fbf6e8490ae607b93a88b4a1302dbc3283d",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.076Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_mixed_routes_and_tracks_are_not_supported": {
+    "text": "Les itinéraires et pistes mixtes ne sont pas pris en charge.",
+    "sourceHash": "4251de8ff9cdd57a6a5ded9e125a116dc06e7d8a012c492b7423eeae69c3eaec",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_gpx_exceeds_50_000_points": {
+    "text": "GPX dépasse 50 000 points.",
+    "sourceHash": "0f8eec30b44e24a31e3c8c81358d3762e6b5029940075516a51d936979d54371",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_choose_a_gpx_file_with_at_least_two_track_or_route_points": {
+    "text": "Choisissez un fichier GPX avec au moins deux points de trace ou d'itinéraire.",
+    "sourceHash": "a8c69520e0bf0a07d1c5cb9effe15dc69f5d6387cbb75448ec9e6f5e8d94534a",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_the_route_has_no_length": {
+    "text": "L'itinéraire n'a pas de longueur.",
+    "sourceHash": "40cc253584a2e82ab39750e1789eb0e5dc91e4ad3255259c39c07f20500f9fea",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_invalid_photo_reference": {
+    "text": "Référence photo invalide.",
+    "sourceHash": "b5a6f3e93af55af8c9f01d6a8157f615bb62eeb2934f9f695e29c580aabb1042",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_choose_a_photo_smaller_than_20_mb": {
+    "text": "Choisissez une photo inférieure à 20 Mo.",
+    "sourceHash": "91249ba9090549126ac5656bc5403ed0aeada3f5ac99abf47fdc02fcafda5d85",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_choose_a_supported_image_file": {
+    "text": "Choisissez un fichier image pris en charge.",
+    "sourceHash": "471ffd34da2b091d1aadd9250bf38bb1ddbcc31e8f57e522dc91378a79f9e82b",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_the_selected_photo_cannot_be_opened": {
+    "text": "La photo sélectionnée ne peut pas être ouverte.",
+    "sourceHash": "702bed6f52084f7efb35f95dffcd7cb767efd83e9a8a6137eb57bd1b1f612fe3",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_the_image_cannot_be_decoded": {
+    "text": "L'image ne peut pas être décodée.",
+    "sourceHash": "476916430f07346d5179e7d396f2f16b65d0be0049b172454ec57fb36cc9d0f2",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_unable_to_checkpoint_recording_free_device_storage_before_continu": {
+    "text": "Impossible de vérifier l'enregistrement du point. Libérez le stockage de l'appareil avant de continuer.",
+    "sourceHash": "41bde95090d6fa7e0a4aa0e99b08a86e9d4d19695360730e2234df4ef0cf483e",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "error_save_the_walk_before_adding_a_photo": {
+    "text": "Enregistrez la balade avant d'ajouter une photo.",
+    "sourceHash": "e386dbdb16655c8a6d2d40fca8fc03420ab93954345d84e5c1a38fb375bc2bd3",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_each_walk_can_contain_up_to_eight_photos": {
+    "text": "Chaque balade peut contenir jusqu'à huit photos.",
+    "sourceHash": "96f07862764c27cd5facd10c130b92e3f7c0829d106042f6242687eef59d5e7a",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_unable_to_open_this_file": {
+    "text": "Impossible d'ouvrir ce fichier.",
+    "sourceHash": "3543fbd69142a77d69a7b419520d789066a984e8cc4e75d7fc81a104c195d89d",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_unable_to_open_destination": {
+    "text": "Impossible d'ouvrir la destination.",
+    "sourceHash": "7fa88a360228ef6c9b86fad9d168f8cd3287ca23f4a93781a4e86765905fdb35",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_location_permission_was_declined_route_overview_is_still_availabl": {
+    "text": "L'autorisation de localisation a été refusée. L'aperçu de l'itinéraire est toujours disponible.",
+    "sourceHash": "a9a1e46f405ef243e00ed1a0b2440d478d454ea15c87733768c04f799500638b",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "ui_gpx_imported_privately_access_and_directions_have_not_been_review": {
+    "text": "GPX importé en privé. L'accès et les directions n'ont pas été revus.",
+    "sourceHash": "e557d9f33cd128c27545576566adba073ccb2cb4e15bfc11fea0149e79c25c4e",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "ui_gpx_exported": {
+    "text": "GPX exporté.",
+    "sourceHash": "c57bcf9fbf386149190f8528edf6930323a9b1b50d995f5e87bfef7a1691b7ba",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_command_not_recognised_use_the_touch_controls_english_commands_ar": {
+    "text": "Commande non reconnue. Utilisez les commandes tactiles. Les commandes en anglais sont actuellement prises en charge.",
+    "sourceHash": "f30e5575e9bb3caf26640b4c9eb9789195a6c52f6a88ecb6bcb4a81a7a74c7db",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_no_compatible_voice_is_installed_for_this_language": {
+    "text": "Aucune voix compatible n'est installée pour cette langue.",
+    "sourceHash": "54839e769dc335bfc0fedcc0e6452bda1abd2b389f2647d6ecc163abd30534e4",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_audio_is_unavailable_use_the_on_screen_progress": {
+    "text": "L'audio n'est pas disponible. Utilisez la progression à l’écran.",
+    "sourceHash": "5ab357968b09ae759246629104dc6383636c14f5a397cf151fae9d5626a090c8",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_speech_recognition_is_unavailable_on_this_device_use_touch_contro": {
+    "text": "La reconnaissance vocale n'est pas disponible sur cet appareil. Utilisez les commandes tactiles.",
+    "sourceHash": "4ef0ed81ccb6392114020ccc622b0b53e139a234deaaaf30f31829ee5d68a112",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_enable_location_in_device_settings_some_fire_tablets_have_no_gps_": {
+    "text": "Activez la localisation dans les paramètres de l'appareil. Certaines tablettes Fire n'ont pas de récepteur GPS.",
+    "sourceHash": "e15ab663a214539159c78ad46d79f2a2c09621f0bf9470214e329db5b6002a78",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "ui_location_permission_is_required": {
+    "text": "Une autorisation de localisation est requise.",
+    "sourceHash": "08cf6a08fd6f0884127f3ededabe0603915ce96e36e7afe1f05649616f8916e2",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "error_export": {
+    "text": "L'exportation a échoué. Choisissez une destination accessible en écriture et réessayez.",
+    "sourceHash": "8b942fe000fc9e110b7aee2cad07376465db48e76d1cc0ddcf1fd50e75f9ba3a",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_import": {
+    "text": "Impossible d'importer GPX. Choisissez un itinéraire ou une piste GPX continue et valide.",
+    "sourceHash": "ca178931572c373c94342fb8a3a0761bde56a90f8035727f0c4926bf67df8a11",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "imported_walk": {
+    "text": "Promenade importée",
+    "sourceHash": "258550253abf13bba947ca405e17f9fae7939dae62d7b13b2602edca369e4061",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_journal": {
+    "text": "Saisissez les détails de la marche valides, en utilisant le format de date affiché.",
+    "sourceHash": "9d3b0102dfaca404a3b6fe5f87687896f52e3f1dc5c4d14b8a34c29a3c551430",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_checklist": {
+    "text": "Utilisez un nom d'élément compris entre 1 et 120 caractères.",
+    "sourceHash": "38222c3b3b654ca1fcecdec80db62edafdec193f698900dc07fb53ce822c4eb9",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_plan": {
+    "text": "Vérifiez les détails du plan et le format de l'heure de retour.",
+    "sourceHash": "211e08e331587fd10484bfb5809d1a986d8bdc51cc045db96ec8b1aba9e8abe3",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_photo": {
+    "text": "L'importation des photos a échoué. Choisissez une image prise en charge et réessayez.",
+    "sourceHash": "769a00e510ba7eb36b3fef9afbb2e23d8dd4c5396f668645764ac4a4145c3b19",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "error_recording_save": {
+    "text": "Impossible de sauvegarder l'enregistrement. Votre journal ou brouillon peut être vérifié lorsque le stockage est disponible.",
+    "sourceHash": "fa7d0dcaa81ce09beee391af9178c78d1f5b193bed520a6a4388267c138e4b49",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "checklist_default_0": {
+    "text": "Eau potable",
+    "sourceHash": "4fbfe29236ee912d53fce1d1b82f8dc98b35a9fa5c42426aa80884dfb9c9ba78",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "checklist_default_1": {
+    "text": "Chaussures adaptées",
+    "sourceHash": "53ccb1ee5151b97f5a5f66bcf68c01e9b7238bed118dca66b480a81a1fc4f6ab",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "checklist_default_2": {
+    "text": "Vêtements adaptés aux conditions météorologiques",
+    "sourceHash": "3a38a1e4195a26393e695638a6c5cde9c8c7d5fbf5cfdac5dd5302d21096719f",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "checklist_default_3": {
+    "text": "Téléphone chargé",
+    "sourceHash": "566f805a72b95be136bbf06e18cc18b08ca1720183acaba9af28e2334f492c42",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "checklist_default_4": {
+    "text": "Banque d'alimentation",
+    "sourceHash": "67b046f3b4236c40431cddf5b5fdb139f0f7201bcfe00970d305b448f48c4477",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "checklist_default_5": {
+    "text": "Collations",
+    "sourceHash": "44f76189b63eb47a41dbaf64e8b20e7609725059d4ac90650bdf7a4c1cbb9287",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "checklist_default_6": {
+    "text": "Informations sur l'itinéraire hors ligne",
+    "sourceHash": "19d514ab00a3229210699ab7a786c0c331b7b79e60b0b6c7798f2d0885ed6d2c",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "checklist_default_7": {
+    "text": "Vérifiez les conditions actuelles",
+    "sourceHash": "a477764fdd52fd5000e8aa3f2bef5ce4c4e21e7697b9e2a91f1cb81d7ffd4232",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "checklist_default_8": {
+    "text": "Plan de contact d'urgence",
+    "sourceHash": "22bdf7e2bbb0018e607dc84f8a11c0cdb7211d677d197de171dbfa3e61713110",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "checklist_default_9": {
+    "text": "Laisse pour chien, si pertinent",
+    "sourceHash": "c8be5e2a1903cf1d84b366edc783115c795ce6bc0de98b62f7f5b5621ff7aa78",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "checklist_default_10": {
+    "text": "Les essentiels de premiers secours",
+    "sourceHash": "051d1905350f613e0afa9934c1ea3c69b94374618c75a82223605dd546208e9f",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "shared_plan_body": {
+    "text": "Plan de marche TrailNest\n%1$s\nDébut : %2$s\nDistance: %3$s\nDurée estimée : %4$d min (estimation personnelle)\nRendement attendu : %5$s%6$s\nAccès non révisé. La géométrie GPX peut être exportée séparément. Plan statique uniquement ; pas de suivi en direct ni de surveillance d’urgence.",
+    "sourceHash": "8b633f82a03039f54ea4400dbb692960d424407c0354c93b2d1f341f43ee356b",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "shared_plan_contact": {
+    "text": "\nContact optionnel : %1$s",
+    "sourceHash": "bdaf975f93cad44c55145756f6d452ca188699e6ddf33797f7938c3ab1839e55",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "distance_miles_value": {
+    "text": "%1$s mi",
+    "sourceHash": "94a7d4af3baec1a2d9e7f6ae7eccf9ad019a080bc12792dd78bc7986d0816efd",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "distance_km_value": {
+    "text": "%1$skm",
+    "sourceHash": "f20d363ae1915b3391dfba55bc4d938044882ccd75f8828f7be58bd24a362684",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "translation_draft_notice": {
+    "text": "Aperçu de la traduction non révisée · Brouillons uniquement",
+    "sourceHash": "f685456d559c63ffde517979417a61ce3aace10d02ed6ff52d88028d5fc7d7a8",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "checklist_title": {
+    "text": "Un peu de préparation suffit.",
+    "sourceHash": "032574463c689943e951931b1a2f4c5fa39300813fd188df507d94e0c0f672a0",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "checklist_description": {
+    "text": "Votre liste de contrôle personnelle avant la marche. Adaptez votre kit au parcours, à la météo et à vos besoins.",
+    "sourceHash": "c89e9928bbee655a2da5820272ea15e386b5318321314f90125e6ba27872e6ea",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "checklist_safety": {
+    "text": "Une liste de contrôle complétée ne peut garantir la sécurité. Vérifiez les conditions actuelles, l'accès et vos propres capacités.",
+    "sourceHash": "35949d11b8df452f12e342f4c4fc0c9e2fb568232dc2d3c782f0f49deeb08a7c",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "edit_checklist": {
+    "text": "Modifier la liste de contrôle",
+    "sourceHash": "b70b9bfd6dc6d894ba9bb5499071bed6766f2fcd2e709c7f1aae48e4864da0b7",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "finish_editing": {
+    "text": "Terminer l'édition",
+    "sourceHash": "e3f3ad99a5dab6ba670e7b2341ed6615a911556c1b280dd18178a3614d7cf4dd",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "reset_checklist": {
+    "text": "Réinitialiser la liste de contrôle",
+    "sourceHash": "32865e3b592ad1a89ebc4d31625bb08c160d09d0bd7b1f260c8f02ac175ec708",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "empty_checklist": {
+    "text": "Votre liste de contrôle est vide. Ajoutez des éléments ou restaurez les valeurs par défaut.",
+    "sourceHash": "5cf249d15ead52ba1fce409987bd523160449c55ab045ca8d618d8e159a5ed23",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "checklist_item_name": {
+    "text": "Nom de l'article",
+    "sourceHash": "28edf3b77ba7ecb278454843910d3004ea25248d2f84374198b24443cea000a9",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "add_item": {
+    "text": "Ajouter un article",
+    "sourceHash": "b6e9536b0698451c30c0234d6deb55d55ffe2c5971557199b47ff22c58b1d480",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "rename_item": {
+    "text": "Renommer",
+    "sourceHash": "d6952b4e54d246ddccdbd03bb88c35d7d33e0845dc4120195a46a689297e9d12",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "move_up": {
+    "text": "Monter",
+    "sourceHash": "d49ea60a2312df2f30c411f30fe4884b4e504d837ef053c7f79d5d762fcd24d7",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "move_down": {
+    "text": "Descendre",
+    "sourceHash": "a06a50e63f0c240e67639dc7fda144d7967da9118ec3ef97f36363c37e9d7fd1",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "remove_item": {
+    "text": "Supprimer",
+    "sourceHash": "9469a102f04ea196365c93fa64ca212b2b242f572b394238063093cc809020f5",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "save_changes": {
+    "text": "Enregistrer les modifications",
+    "sourceHash": "a9851c28b343e87b5854922a712e56bd2f9fd9f7976749f60921acf88abc6d99",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.077Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "cancel": {
+    "text": "Annuler",
+    "sourceHash": "c0774c185060fc1366ab0c01488af84eb5e4e1f4f59229431e064de73e0de6c5",
+    "reviewed": false,
+    "provenance": "agent-adjusted machine draft",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "restore_defaults": {
+    "text": "Restaurer la liste de contrôle par défaut",
+    "sourceHash": "a2b453ce1919283e9c4d3a3eadb4ea32518904446133e51bb9947171008c344d",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "restore_defaults_warning": {
+    "text": "Remplacer votre liste de contrôle actuelle par les valeurs par défaut ? Les éléments personnalisés et les états cochés seront supprimés.",
+    "sourceHash": "43168908972438d2a417a3fbb5ca524ca13432ee5c2da5c450fa53f64843466a",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "journal_title": {
+    "text": "Votre histoire de marche.",
+    "sourceHash": "1dbc1a2ad9746872ef4ce73b204f5d449b939a5daa8081561dfc7a4ea369dd9a",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "journal_description": {
+    "text": "Un espace privé pour les lieux que vous avez visités et les moments à conserver.",
+    "sourceHash": "9d8c977bb8a83099acccd9c6a59b9598b7c23b1af1131198f7408f992a047b86",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "journal_totals": {
+    "text": "%1$s · %2$s · %3$d min",
+    "sourceHash": "04b9ed2b1e16111c335fcb61e413750591e31d666e10ec458a1e33c8c65eb2ed",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "record_walk": {
+    "text": "Enregistrer une promenade",
+    "sourceHash": "ef0b28c3092bf174b3bc5032f2795041f98050b36b65ccff50b3b9db32e2137d",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "edit_walk": {
+    "text": "Modifier la randonnée",
+    "sourceHash": "5b22db55f329586bb4ebbf9b5ce98fa212252bb28812bcce86371f40cf32ef43",
+    "reviewed": false,
+    "provenance": "agent-adjusted machine draft",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "save_walk": {
+    "text": "Enregistrer la randonnée",
+    "sourceHash": "f0ab1c5ccbcc88b6415e8a625de002440aaa08e0510e40170e396dbdf48b62ad",
+    "reviewed": false,
+    "provenance": "agent-adjusted machine draft",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "walk_title": {
+    "text": "Titre de la randonnée",
+    "sourceHash": "20db3f0f32b98888b051456cca61dba54acf5cf624d1e3adc1ebcfa24800a548",
+    "reviewed": false,
+    "provenance": "agent-adjusted machine draft",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "walk_date": {
+    "text": "Date de la promenade",
+    "sourceHash": "41b5586ab2052f9ead4a8aa334fd5f48af53feba46317ac3498486468326003d",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "date_format_hint": {
+    "text": "YYYY-MM-DD · Promenades terminées uniquement",
+    "sourceHash": "52abb5fc14e3714834eabfb33fee4b4cebd0ee175bf89d3036dce31306615a82",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "distance_miles": {
+    "text": "Distance (miles)",
+    "sourceHash": "5c01c7e6b5039e73b93715e129f37555020475a9184fd51aa85ec1e1eee1854e",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "distance_km": {
+    "text": "Distance (km)",
+    "sourceHash": "ee668cf89a552602dd3fed82160b2ec0b698df30dc1c5097b1e2126553e5a339",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "duration_minutes": {
+    "text": "Durée (minutes)",
+    "sourceHash": "346b382b32cab6f61d04e870fbbf33aa330bc9ccee129a24446185ece343f65a",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "walk_notes": {
+    "text": "Remarques",
+    "sourceHash": "28a939dccbff00d72d3f023442a9d16f293da56937e299cd36513b64f6760570",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "favourites_only": {
+    "text": "Favoris uniquement",
+    "sourceHash": "f17442613d36467f40d741693f772a83bf509ab640d641644e51396b7eea0c07",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "favourite": {
+    "text": "Favoris",
+    "sourceHash": "d7e2c290050cd25a4f84ef819eb70beb0be1715e471aa2901de7b8726c3af543",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "unfavourite": {
+    "text": "Je n'aime plus",
+    "sourceHash": "7e5f19123979d007c36f6581b6c3a651cab70663af00a37f7a047f41ee37dfe7",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "journal_empty_title": {
+    "text": "Chaque promenade a une histoire.",
+    "sourceHash": "09ff910f6024c65ed3054c751b6bc64b912f4e3cc0fe1da4475cf040b830d29f",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "journal_empty_body": {
+    "text": "Ajoutez une marche terminée pour commencer votre journal personnel.",
+    "sourceHash": "2fe96fd799e1b41ed746483736b92fe2fd1252cb9cf16d54bed2dae1c60564c4",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "no_favourites": {
+    "text": "Marquez une promenade comme favorite pour la retrouver ici.",
+    "sourceHash": "3ee47184b30703ad4e5637339a28f89475cdae2a4e56448f3e46498a0fc733b8",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "delete_entry": {
+    "text": "Supprimer l'entrée",
+    "sourceHash": "93af6037a582e5725ac3dfebfa70f6914fe5ff292c9b6c76b54bf04936e5b140",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "delete_walk_title": {
+    "text": "Supprimer cette balade ?",
+    "sourceHash": "218b941cf71d5ac72052f43ecd0515cda9147aacd795038d8fa0667990e518dc",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "delete_walk_body": {
+    "text": "« %1$s » et ses copies de photos privées seront définitivement supprimées de cet appareil.",
+    "sourceHash": "958b520c7ef93308b635aa5a4c66e139853f784a3eb718c71e139ecf649e17a9",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "personal_rating": {
+    "text": "Évaluation personnelle · Sélectionnez à nouveau pour effacer",
+    "sourceHash": "2ecab2778a75413ccea53248343dadc0e67a0ad68f24c241fcc12fabae83abed",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "rating_value": {
+    "text": "%1$d / 5",
+    "sourceHash": "48a8cd17a4a9cbfc23dd67a99eef2a5a759eff299fc55afe1e6babba41ab5978",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "add_photo": {
+    "text": "Ajouter une photo privée",
+    "sourceHash": "fe792051c72aaec4999feff576a9d52de306e0725c13942ec796dc29cc06d37c",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "remove_photo": {
+    "text": "Supprimer la photo",
+    "sourceHash": "cd18785a9972f3581943ed67856ef3c0aa8279a72b3549ddae9012960953e16a",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "remove_photo_body": {
+    "text": "Supprimer cette copie privée de l'application ? Votre photo originale restera inchangée.",
+    "sourceHash": "e8af58c5c9f6a96471ae1f31a85aeec7f449ce0662a1b0ea978c7f1fbf310a0c",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "photo_privacy": {
+    "text": "Jusqu'à huit photos par promenade. Les copies restent privées sur cet appareil ; les métadonnées de localisation sont supprimées.",
+    "sourceHash": "66bb0fb3eee0574abe64f7a0ccf4a852508f24077295e2dd3bd13dce13d3ca9e",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "walk_photo_description": {
+    "text": "Photo %1$d pour %2$s",
+    "sourceHash": "73ea30de446644791bb185706e59eeaec920c70dd3ae4619e6a8e01a7fb057dd",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "photo_unavailable": {
+    "text": "Photo indisponible",
+    "sourceHash": "8cdc38ab4aa492bbbd57e1a241d3b4927ad64b8d4a181d433c1a4fcb2c7c5273",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "importing_photo": {
+    "text": "Importation d'une photo privée…",
+    "sourceHash": "39f7fae81d541e7701a9d94828dcb91e971d3d7f4b2a85251dbb9699a7a41ece",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "year_summary": {
+    "text": "Votre résumé de marche %1$d",
+    "sourceHash": "8865366952f6a6a12e8bde68f8f24ebdb5799d9bef708a34f69ab68d46f645d9",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "previous_year": {
+    "text": "Année précédente",
+    "sourceHash": "626f99d2fe184eb3918f91bddf252cc1c75978f7d68cb929195a52955e7f097e",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "next_year": {
+    "text": "L'année prochaine",
+    "sourceHash": "b19aca07c46d70fa4e2ac910ecdde9f4bb47defa7833745cd78a11994ed8082c",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "show_months": {
+    "text": "Afficher l'activité mensuelle",
+    "sourceHash": "bbf9c3034d9eef15f3555cbbc9efc49b54e29ba98325bf4e70bd8b327c1038b9",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "hide_months": {
+    "text": "Masquer l'activité mensuelle",
+    "sourceHash": "8a313db0afb00037983b39febef2ab7263f0fe51375605728f14a80e50d86b9c",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "month_summary": {
+    "text": "%1$s · %2$s · %3$s · %4$d min",
+    "sourceHash": "fcc223f1724246252837491ad5a761ebd54c607817e12aa84300c82638f88b52",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "share_plan_title": {
+    "text": "Partager le plan de marche",
+    "sourceHash": "b52c43ce426fb8f5b8b5e25d34b144cfa83b28294c70a36087c5058464c70afa",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "estimated_minutes": {
+    "text": "Durée estimée (minutes)",
+    "sourceHash": "99a5378d47e8da3f5a3e27b3a11dfa86c8a629924ae6bf558044fbd82eac31b1",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "duration_estimate_hint": {
+    "text": "L'estimation initiale utilise 4 km/h. Ajustez-le en fonction de votre rythme, de vos arrêts et du terrain.",
+    "sourceHash": "6444771f51e1bc51d6d919fe3da66faaa5f48194cbed0a8b8c58db289172682c",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "expected_return": {
+    "text": "Heure de retour prévue",
+    "sourceHash": "ce6504ac147e6430732f9221e9596c605f182a7e7d97afee7671422b5769b51c",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "return_time_hint": {
+    "text": "YYYY-MM-DDTHH:MM · Fuseau horaire de l'appareil : %1$s",
+    "sourceHash": "eebad2f244ef5d564cc442a00591d8381f1e8ff10a74b8b29dfe9abd3f5e1232",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "optional_contact": {
+    "text": "Coordonnées facultatives",
+    "sourceHash": "d4671a26d955d6feb37005f377f055869746eeb5adc4dc7039bd695d0d0e6da5",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "share_plan_privacy": {
+    "text": "Seul ce plan statique est partagé lorsque vous ouvrez les options de partage. Il n’y a pas de suivi en direct ni de surveillance d’urgence.",
+    "sourceHash": "82c3c2725848b126d4b98e84718b56bb1c207dd39e38992366032849312bbae9",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "open_share_options": {
+    "text": "Ouvrir les options de partage",
+    "sourceHash": "3bfa7e7511bb6edd3a93a174574544dbabcea59d8855228b1596f7dca56198ed",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "build_notice": {
+    "text": "TrailNest %1$s · Version de développement · Non approuvé pour la version Appstore",
+    "sourceHash": "960b9a10accb7013e349a78ffe20b547a01b81435410cfa085ec035d9e6e8c41",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "recording_channel": {
+    "text": "Enregistrement de marche",
+    "sourceHash": "5f1804dce9dd7f55853e64e624e1f456cc3bf69f4ebd83de9bc0c04af08ef109",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "recording_active": {
+    "text": "Enregistrer votre marche",
+    "sourceHash": "ba6ff2bdb2943a4e9ba6456018183e23c1b12ed35267c5b34cf2e56e707dcd67",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "recording_paused": {
+    "text": "Enregistrement de marche en pause",
+    "sourceHash": "dc6749116e8cdc23300e5bbdb02c08dbdd381f7918acbb3a55b20f3889cf9ac7",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "recording_notification": {
+    "text": "Ouvrez TrailNest pour reprendre, terminer ou supprimer.",
+    "sourceHash": "17c378f6d4316d84fafc57532034062f68aff9afaa471948e5a45070ca83502c",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "start_recording": {
+    "text": "Démarrer l’enregistrement",
+    "sourceHash": "6378ea362ff0e76687aa5ed94534819eb25efbdad297291df9989f6c5ca46c8d",
+    "reviewed": false,
+    "provenance": "agent-adjusted machine draft",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "pause_recording": {
+    "text": "Mettre en pause",
+    "sourceHash": "d63dc90d99a26f21987aa99f697f9cea79b18fa13c8ca4caf853926aa91ca877",
+    "reviewed": false,
+    "provenance": "agent-adjusted machine draft",
+    "generatedAt": "2026-10-23T09:13:41.078Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "resume_recording": {
+    "text": "Reprendre l’enregistrement",
+    "sourceHash": "5df366356cdb00d2fa012588d71c98c1ea506c56d7a0222e0ccff8d5fb680f43",
+    "reviewed": false,
+    "provenance": "agent-adjusted machine draft",
+    "generatedAt": "2026-10-23T09:13:41.079Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "finish_recording": {
+    "text": "Terminer et vérifier",
+    "sourceHash": "b6a5b5c1c72fa5b41ff3c4e4d4e3279ab45050c0039c1d4e60e69a8e6c508816",
+    "reviewed": false,
+    "provenance": "agent-adjusted machine draft",
+    "generatedAt": "2026-10-23T09:13:41.079Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "discard_recording": {
+    "text": "Supprimer l’enregistrement",
+    "sourceHash": "926cb6694d7a320d62a2e752f8eb677a1a62d83d29831bf49b69a12848a7c1c2",
+    "reviewed": false,
+    "provenance": "agent-adjusted machine draft",
+    "generatedAt": "2026-10-23T09:13:41.079Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "discard_recording_body": {
+    "text": "Supprimer définitivement cette promenade non enregistrée ?",
+    "sourceHash": "01322f54a15d1bb593c96bec5c87f551dd98ad167ba1ec3ef98d1ef0d5f4fb47",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.079Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "recording_description": {
+    "text": "Enregistre lorsque l'écran est éteint ou que l'application est réduite, avec une notification persistante. Gardez la localisation activée. Les contrôles de la batterie et la disponibilité du GPS de l'appareil peuvent interrompre l'enregistrement. La distance est une estimation ; ce n'est pas un tracker de sécurité.",
+    "sourceHash": "53670990b4b21c4ccde7ee69cc14dde1eef0ca6db9e07d00513b0671c518da4d",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.079Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "recording_privacy": {
+    "text": "Seules la durée et la distance estimée sont stockées en privé sur cet appareil. Les coordonnées sont utilisées en mémoire et supprimées. Rien n'est téléchargé.",
+    "sourceHash": "2533b10b5a5b525f746176779f9778951a9a07120a4471a08ff10235d1084416",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.079Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "recording_interrupted": {
+    "text": "L'enregistrement a été interrompu. Le dernier point de contrôle est mis en pause ; reprendre explicitement. Le temps et la distance depuis ce point de contrôle peuvent être manquants.",
+    "sourceHash": "8bc24a5ceb1199f9d555d0e0269a968a916180920d60af8533ed985d63c9adcc",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.079Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "recording_notifications": {
+    "text": "Autorisez les notifications lorsqu'on vous demande de voir les commandes d'enregistrement en dehors de l'application. Si les notifications sont désactivées, rouvrez Mes promenades pour mettre en pause ou terminer.",
+    "sourceHash": "e538c5ad6779590da432abb63d8d4d92f13f5e58db1c4e34a8705b6cc2cd930c",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.079Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "recording_waiting": {
+    "text": "En attente d'une localisation récente précise à 40 m ou mieux. Le temps continue ; la distance peut être incomplète.",
+    "sourceHash": "e9c6d2e94b273e84a15ab9a8fec89d2609f030bb2225b93f0047ebf2c4cce604",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.079Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "recording_measurements": {
+    "text": "%1$s · Temps actif %2$s",
+    "sourceHash": "da20ffeb50aab72f00884f928c4c7fd4567cc670f9d30f4e4ed9355a1c80b5c4",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.079Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "recording_save_hint": {
+    "text": "La durée du journal est arrondie à au moins une minute entière. Une distance nulle signifie qu’aucun mouvement fiable n’a été mesuré ; vous pourrez le corriger plus tard.",
+    "sourceHash": "8daf95058d04a8f831cccff0391efeb3a5f3ad63fc05cb12c6fe6383348976a2",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.079Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "recording_permission": {
+    "text": "Autoriser l'emplacement à enregistrer une promenade. La localisation approximative peut être trop imprécise pour mesurer la distance.",
+    "sourceHash": "7e1b010c9c43eef97e33f7dc41610157bfa0214b9216ba7bd4ebd59b2807425c",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.079Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "recording_location_disabled": {
+    "text": "Activez la localisation dans les paramètres de l'appareil. Cet appareil a besoin d'un fournisseur de localisation disponible pour enregistrer.",
+    "sourceHash": "8521744b1707e4f8727241dd32c7351f6b92f6eb24eceb9ce155fc6418b353d6",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.079Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "recording_start_failed": {
+    "text": "L'enregistrement n'a pas pu démarrer. Vérifiez les autorisations de localisation et les paramètres de l'appareil ; tout brouillon existant est mis en pause.",
+    "sourceHash": "5fd05f83b0151ef9a6ae99d8c85a3819c17ae3a69eb679c03f7eb64e1737f7cc",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.079Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "recording_title_required": {
+    "text": "Saisissez un titre de promenade avant de sauvegarder.",
+    "sourceHash": "ec0250860623254c2175dc396aefe0ce41a332c7f02c9b6303b46eb169076983",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.079Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false
+  },
+  "discover": {
+    "text": "Découvrir",
+    "sourceHash": "b22f790b1fd2ecd35e9bfd7527771fce23854ac6e826be0bfa01fd006084b9cf",
+    "reviewed": false,
+    "provenance": "agent-adjusted machine draft",
+    "generatedAt": "2026-10-23T09:13:41.079Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "my_walks": {
+    "text": "Mes randonnées",
+    "sourceHash": "cd3ed5a45d5261678695914065952202b48c4f32e34cc57c6119f0423cd8f0fd",
+    "reviewed": false,
+    "provenance": "agent-adjusted machine draft",
+    "generatedAt": "2026-10-23T09:13:41.079Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "offline": {
+    "text": "Packs hors ligne",
+    "sourceHash": "ce677921672c70fbce7697e85ba8055dcfe2976ff80258c08dac27943c8021f5",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.079Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "checklist": {
+    "text": "Liste de préparation",
+    "sourceHash": "eeeccc83b41aff85903e10da491c9c2630ed562a6d29432227e226c95e0f10b0",
+    "reviewed": false,
+    "provenance": "agent-adjusted machine draft",
+    "generatedAt": "2026-10-23T09:13:41.079Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "settings": {
+    "text": "Paramètres",
+    "sourceHash": "83909f82446ee9c3e82a04ace7c904f1b6a4b230d1b970b55932d62959fbe73d",
+    "reviewed": false,
+    "provenance": "agent-adjusted machine draft",
+    "generatedAt": "2026-10-23T09:13:41.079Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "headline": {
+    "text": "Un peu plus loin.\nUn peu plus libre.",
+    "sourceHash": "fe87e35b585ae34d2ad5d4619b6220db4ce3248fff09e3e1031ed531e2fa694a",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.079Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "tagline": {
+    "text": "Découvrez-en plus. Marchez en toute confiance. Explorez votre chemin.",
+    "sourceHash": "e6f66e45b2bdfa61c85900f4a2fa167917359c438d1dada180e432c88836e650",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.079Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "no_routes": {
+    "text": "Une bonne balade commence par une bonne information.",
+    "sourceHash": "f418200330f28af1d8238606798e0b6aecfec24584ccf5b4f6ae36803842faa3",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.079Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "coverage_message": {
+    "text": "Notre collection de routes au Royaume-Uni est en cours de préparation. Seuls les itinéraires révisés apparaîtront ici.",
+    "sourceHash": "dd46343a6d37783b3e362bdd5e0bc366aa614df568612cfda95690f9f3e73170",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.079Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false
+  },
+  "route_points": {
+    "forms": {
+      "one": "Point %1$d",
+      "many": "Points %1$d",
+      "other": "Points %1$d"
+    },
+    "sourceHash": "17c8bc7d59ca2b691d767c606b7fd97ba3a78fece483b98bb2e884413f9be514",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.079Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false,
+    "pluralGrammarReviewPending": true
+  },
+  "checklist_progress": {
+    "forms": {
+      "one": "Article %1$d de %2$d vérifié",
+      "many": "%1$d des éléments %2$d vérifiés",
+      "other": "%1$d des éléments %2$d vérifiés"
+    },
+    "sourceHash": "e63dc677b8f7d7322f8d350309532826b768193d485d615ec8935833be5b216d",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.079Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false,
+    "pluralGrammarReviewPending": true
+  },
+  "walk_count": {
+    "forms": {
+      "one": "Marche %1$d",
+      "many": "%1$d marche",
+      "other": "%1$d marche"
+    },
+    "sourceHash": "71c49fab29374ad311b48074528c0a95b907499ddf24f2f69d8d1183c96c2910",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.079Z",
+    "requiresSafetyReview": false,
+    "regionalAdaptationPending": false,
+    "pluralGrammarReviewPending": true
+  },
+  "recording_saved_notes": {
+    "forms": {
+      "one": "Enregistrement en direct : seconde active %1$d. La distance est estimée et peut être incomplète ; les pauses et les écarts de localisation sont exclus.",
+      "many": "Enregistrement en direct : secondes actives %1$d. La distance est estimée et peut être incomplète ; les pauses et les écarts de localisation sont exclus.",
+      "other": "Enregistrement en direct : secondes actives %1$d. La distance est estimée et peut être incomplète ; les pauses et les écarts de localisation sont exclus."
+    },
+    "sourceHash": "cfd379d84ef3140bb96907b99d05c814cb4c77916f33b37de2d6fe5c69eba58c",
+    "reviewed": false,
+    "provenance": "machine draft via public Google Translate web interface",
+    "generatedAt": "2026-10-23T09:13:41.079Z",
+    "requiresSafetyReview": true,
+    "regionalAdaptationPending": false,
+    "pluralGrammarReviewPending": true
+  }
+}

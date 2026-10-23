@@ -1,0 +1,42 @@
+{
+  "version": "0.4.0",
+  "versionCode": 4,
+  "date": "2026-10-23",
+  "android": {
+    "debugBuild": "passed",
+    "unsignedReleaseBuild": "passed",
+    "translationPreviewBuild": "passed",
+    "translationPreviewApplicationId": "com.trailnest.app.draft",
+    "translationPreviewVersion": "0.4.0-draft",
+    "jvmTests": {"passed":36,"failures":0},
+    "debugLint": {"errors":0,"warnings":26},
+    "translationPreviewLint": {"errors":0,"warnings":33},
+    "instrumentationBuild": "passed",
+    "instrumentationTests": {"compiled":9,"executed":0},
+    "debugSignature": "verified_v2",
+    "translationPreviewSignature": "verified_v2",
+    "physicalFireValidation": "not_run_no_device",
+    "languageLayoutValidation": "not_run_no_device"
+  },
+  "tooling": {"testsPassed":9},
+  "website": {"testsPassed":5,"build":"passed","version":"0.1.0","deploymentChanged":false,"localisationChanged":false},
+  "totalTestsPassed": 50,
+  "localisation": {
+    "stringsExtracted":242,
+    "pluralResources":4,
+    "configuredLocales":19,
+    "draftEntriesPerLocale":246,
+    "missingEntries":0,
+    "invalidEntries":0,
+    "detectedHardcodedUiPatterns":0,
+    "approvedLocales":0,
+    "allEntriesReviewedFalse":true,
+    "draftResourcesIsolatedFromNormalBuilds":true,
+    "apkResourceInspection":{"resource":"journal_title","previewLocaleVariants":19,"normalDebugLocaleVariants":0,"englishFallbackPresent":true},
+    "humanReview":"pending",
+    "releaseLocalisationCheck":"blocked_as_expected"
+  },
+  "productionReleaseReady": false,
+  "releaseGate": "blocked_for_documented_prerequisites",
+  "checksums": "artifacts/checksums.json"
+}

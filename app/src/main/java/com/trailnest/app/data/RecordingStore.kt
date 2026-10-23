@@ -37,7 +37,7 @@ class RecordingStore private constructor(context: Context) {
         val raw = draft?.let { JSONObject().put("id", it.id).put("started", it.startedAt).put("active", it.activeMillis)
             .put("metres", it.metres).put("running", it.running).put("interrupted", it.interrupted).toString() }
         mutable.value = draft
-        check(prefs.edit().putString("draft", raw).commit()) { "Unable to checkpoint recording. Free device storage before continuing." }
+        check(prefs.edit().putString("draft", raw).commit()) { throw TextFailure("error_unable_to_checkpoint_recording_free_device_storage_before_continu") }
     }
     companion object {
         @Volatile private var instance: RecordingStore? = null

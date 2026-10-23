@@ -15,6 +15,7 @@ import com.trailnest.app.domain.*
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable fun ChecklistScreen(items: List<ChecklistItem>, check: (String) -> Unit, add: (String) -> Unit, rename: (String, String) -> Unit, remove: (String) -> Unit, move: (String, Int) -> Unit, reset: () -> Unit, restore: () -> Unit) {
+    val context = androidx.compose.ui.platform.LocalContext.current
     var editing by rememberSaveable { mutableStateOf(false) }
     var draft by rememberSaveable { mutableStateOf("") }
     var renameId by rememberSaveable { mutableStateOf<String?>(null) }
@@ -51,7 +52,7 @@ import com.trailnest.app.domain.*
                 runCatching { PersonalChecklist.validateTitle(draft) }.onSuccess {
                     if (renameId == null) add(it) else rename(renameId!!, it)
                     draft = ""; renameId = null
-                }.onFailure { error = it.message }
+                }.onFailure { error = context.userMessage(it, R.string.error_checklist) }
             }, enabled = items.size < 100 || renameId != null) { Text(stringResource(if (renameId == null) R.string.add_item else R.string.save_changes)) }
             if (renameId != null) TextButton(onClick = { renameId = null; draft = "" }) { Text(stringResource(R.string.cancel)) }
             TextButton(onClick = { restorePrompt = true }) { Text(stringResource(R.string.restore_defaults)) }

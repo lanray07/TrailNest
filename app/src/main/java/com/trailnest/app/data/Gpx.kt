@@ -1,5 +1,6 @@
 package com.trailnest.app.data
 
+import com.trailnest.app.domain.TextFailure
 import android.util.Xml
 import com.trailnest.app.domain.GeoPoint
 import com.trailnest.app.domain.TrailMath
@@ -22,9 +23,9 @@ object Gpx {
             }
             output.toByteArray()
         }
-        require(bytes.size <= 5 * 1024 * 1024) { "GPX must be smaller than 5 MB." }
+        require(bytes.size <= 5 * 1024 * 1024) { throw TextFailure("error_gpx_must_be_smaller_than_5_mb") }
         val text = bytes.toString(Charsets.UTF_8)
-        require(!text.contains("<!DOCTYPE", true) && !text.contains("<!ENTITY", true)) { "External XML declarations are not allowed." }
+        require(!text.contains("<!DOCTYPE", true) && !text.contains("<!ENTITY", true)) { throw TextFailure("error_external_xml_declarations_are_not_allowed") }
         val parser = Xml.newPullParser()
         parser.setFeature(XmlPullParser.FEATURE_PROCESS_NAMESPACES, true)
         parser.setInput(text.reader())
@@ -32,24 +33,24 @@ object Gpx {
         var rootSeen = false; var segments = 0; var routes = 0; var tracks = 0
         while (parser.eventType != XmlPullParser.END_DOCUMENT) {
             if (parser.eventType == XmlPullParser.START_TAG) {
-                if (parser.depth == 1) require(parser.name == "gpx") { "The document root must be GPX." }
+                if (parser.depth == 1) require(parser.name == "gpx") { throw TextFailure("error_the_document_root_must_be_gpx") }
                 when (parser.name) {
                     "gpx" -> rootSeen = true
-                    "trk" -> { tracks++; require(tracks <= 1 && routes == 0) { "Import one track at a time." } }
-                    "trkseg" -> { segments++; require(segments <= 1) { "Multiple track segments could conceal gaps. Import one continuous segment." } }
-                    "rte" -> { routes++; require(routes <= 1 && tracks == 0) { "Import one continuous route or track." } }
+                    "trk" -> { tracks++; require(tracks <= 1 && routes == 0) { throw TextFailure("error_import_one_track_at_a_time") } }
+                    "trkseg" -> { segments++; require(segments <= 1) { throw TextFailure("error_multiple_track_segments_could_conceal_gaps_import_one_continuous_") } }
+                    "rte" -> { routes++; require(routes <= 1 && tracks == 0) { throw TextFailure("error_import_one_continuous_route_or_track") } }
                     "name" -> if (title == fallbackTitle) title = parser.nextText().take(120).ifBlank { fallbackTitle }
                     "trkpt", "rtept" -> {
-                        require(!(tracks > 0 && routes > 0)) { "Mixed routes and tracks are not supported." }
-                        require(points.size < 50000) { "GPX exceeds 50,000 points." }
+                        require(!(tracks > 0 && routes > 0)) { throw TextFailure("error_mixed_routes_and_tracks_are_not_supported") }
+                        require(points.size < 50000) { throw TextFailure("error_gpx_exceeds_50_000_points") }
                         points.add(GeoPoint(parser.getAttributeValue(null, "lat").toDouble(), parser.getAttributeValue(null, "lon").toDouble()))
                     }
                 }
             }
             parser.next()
         }
-        require(rootSeen && points.size >= 2) { "Choose a GPX file with at least two track or route points." }
-        require(TrailMath.length(points) > 0) { "The route has no length." }
+        require(rootSeen && points.size >= 2) { throw TextFailure("error_choose_a_gpx_file_with_at_least_two_track_or_route_points") }
+        require(TrailMath.length(points) > 0) { throw TextFailure("error_the_route_has_no_length") }
         val geometry = points.joinToString(";") { "${it.lat},${it.lon}" }
         return ImportedRoute(UUID.randomUUID().toString(), title, geometry, TrailMath.length(points), System.currentTimeMillis(), digest(geometry))
     }
