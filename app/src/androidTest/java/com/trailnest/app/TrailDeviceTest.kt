@@ -25,6 +25,7 @@ class TrailDeviceTest {
     @get:Rule val compose = createAndroidComposeRule<MainActivity>()
     private var originalPreferences: Preferences? = null
     @Before fun isolateChecklist() = runBlocking {
+        prepareTestWindow { compose.activity }
         val store = InstrumentationRegistry.getInstrumentation().targetContext.preferences
         originalPreferences = store.data.first()
         store.edit { prefs -> prefs.remove(stringPreferencesKey("personal_checklist_v1")); (0..10).forEach { prefs.remove(booleanPreferencesKey("kit_$it")) } }
@@ -36,7 +37,7 @@ class TrailDeviceTest {
     }
     @Test fun homeExplainsUnavailableCoverage() {
         compose.onNodeWithText("Good walks start with good information.").performScrollTo().assertIsDisplayed()
-        compose.onNodeWithText("Explore coverage").performClick()
+        compose.onNodeWithText("Explore coverage").performScrollTo().performClick()
         compose.onNodeWithText("Good information comes first.").assertIsDisplayed()
     }
     @Test fun checklistCanBeChecked() {

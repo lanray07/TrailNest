@@ -42,25 +42,11 @@ import com.trailnest.app.domain.*
     val recording by model.recording.collectAsStateWithLifecycle()
     val recordingBusy by model.recordingBusy.collectAsStateWithLifecycle()
     val selected = routes.find { it.id == selectedId }
-    val labels = listOf(stringResource(R.string.discover), stringResource(R.string.my_walks), stringResource(R.string.offline), stringResource(R.string.checklist), stringResource(R.string.settings))
-    val keys = listOf("Discover", "My walks", "Offline packs", "Checklist", "Settings")
     val context = androidx.compose.ui.platform.LocalContext.current
-    val icons = listOf(Icons.Outlined.Explore, Icons.Outlined.BookmarkBorder, Icons.Outlined.Download, Icons.Outlined.Checklist, Icons.Outlined.Settings)
     MaterialTheme(colorScheme = scheme) {
         Surface(Modifier.fillMaxSize(), color = scheme.background) {
-            BoxWithConstraints(Modifier.safeDrawingPadding()) {
-                val wide = maxWidth >= 720.dp
-                Column {
-                    if (BuildConfig.DRAFT_TRANSLATIONS) Text(stringResource(R.string.translation_draft_notice), Modifier.fillMaxWidth().padding(12.dp), color = scheme.error)
-                    Row(Modifier.weight(1f)) {
-                        if (wide) Column(Modifier.width(180.dp).fillMaxHeight().padding(14.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
-                            Image(painterResource(R.drawable.ic_trailnest), stringResource(R.string.app_name), Modifier.size(64.dp).align(Alignment.CenterHorizontally))
-                            Text(stringResource(R.string.app_name), fontSize = 26.sp, modifier = Modifier.align(Alignment.CenterHorizontally))
-                            Spacer(Modifier.height(20.dp))
-                            keys.forEachIndexed { i, key -> NavigationDrawerItem(label = { Text(labels[i]) }, selected = page == key, onClick = { page = key; selectedId = null }, icon = { Icon(icons[i], null) }) }
-                            Spacer(Modifier.weight(1f)); Text(stringResource(R.string.ui_a_brighter_outdoors_one_step_at_a_time), Modifier.padding(12.dp), style = MaterialTheme.typography.bodySmall)
-                        }
-                        Box(Modifier.weight(1f)) {
+            Box(Modifier.fillMaxSize()) {
+                TrailScaffold(page, { page = it; selectedId = null }) {
                             if (selected != null) RouteScreen(selected, fix, locating, imperial, voiceReady, command, onConsumeCommand, onLocation, onSpeak, onListen, onExport, onShare, { selectedId = null }, onNotice)
                             else when (page) {
                                 "Discover" -> DiscoverScreen({ page = it }, onImport)
@@ -78,14 +64,9 @@ import com.trailnest.app.domain.*
                                 "Settings" -> SettingsScreen(prefs, model::toggle, model::setting, voiceReady)
                                 "Coverage" -> CoverageScreen()
                             }
-                        }
-                    }
-                    if (!wide) NavigationBar {
-                        keys.forEachIndexed { i, key -> NavigationBarItem(selected = page == key, onClick = { page = key; selectedId = null }, icon = { Icon(icons[i], labels[i]) }, label = { Text(if (i == 2) stringResource(R.string.offline_short) else labels[i], fontSize = 10.sp) }) }
-                    }
                 }
-                if (notice != null) AlertDialog(onDismissRequest = dismiss, title = { Text(stringResource(R.string.app_name)) }, text = { Text(notice) }, confirmButton = { TextButton(onClick = dismiss) { Text(stringResource(R.string.ui_got_it)) } })
-                else if (modelMessage != null) AlertDialog(onDismissRequest = { model.message.value = null }, title = { Text(stringResource(R.string.app_name)) }, text = { Text(modelMessage!!) }, confirmButton = { TextButton(onClick = { model.message.value = null }) { Text(stringResource(R.string.ui_got_it)) } })
+                if (notice != null) AlertDialog(onDismissRequest = dismiss, title = { TrailText(stringResource(R.string.app_name)) }, text = { TrailText(notice) }, confirmButton = { TextButton(onClick = dismiss) { TrailText(stringResource(R.string.ui_got_it)) } })
+                else if (modelMessage != null) AlertDialog(onDismissRequest = { model.message.value = null }, title = { TrailText(stringResource(R.string.app_name)) }, text = { TrailText(modelMessage!!) }, confirmButton = { TextButton(onClick = { model.message.value = null }) { TrailText(stringResource(R.string.ui_got_it)) } })
             }
         }
     }
@@ -99,27 +80,27 @@ import com.trailnest.app.domain.*
     Page(stringResource(R.string.headline), stringResource(R.string.tagline)) {
         // Original editorial illustration; it does not depict a published route.
         Image(painterResource(R.drawable.landscape), stringResource(R.string.landscape_description), Modifier.fillMaxWidth().height(180.dp), contentScale = androidx.compose.ui.layout.ContentScale.Crop)
-        OutlinedTextField(search, { search = it }, Modifier.fillMaxWidth(), label = { Text(stringResource(R.string.ui_search_a_town_region_or_national_park)) }, leadingIcon = { Icon(Icons.Outlined.Search, null) }, singleLine = true, shape = RoundedCornerShape(50))
-        TextButton(onClick = { navigate("Coverage") }) { Icon(Icons.Outlined.Place, null); Text(stringResource(R.string.ui_united_kingdom_coverage_planned)) }
-        FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) { filters.forEachIndexed { index, label -> FilterChip(selected = filter == index, onClick = { filter = index }, label = { Text(label) }) } }
+        OutlinedTextField(search, { search = it }, Modifier.fillMaxWidth(), label = { TrailText(stringResource(R.string.ui_search_a_town_region_or_national_park)) }, leadingIcon = { Icon(Icons.Outlined.Search, null) }, singleLine = true, shape = RoundedCornerShape(50))
+        TextButton(onClick = { navigate("Coverage") }) { Icon(Icons.Outlined.Place, null); TrailText(stringResource(R.string.ui_united_kingdom_coverage_planned)) }
+        FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) { filters.forEachIndexed { index, label -> FilterChip(selected = filter == index, onClick = { filter = index }, label = { TrailText(label) }) } }
         TrailPanel(Modifier.fillMaxWidth()) {
             SectionLabel(stringResource(R.string.ui_your_next_adventure))
             Heading(stringResource(R.string.no_routes), true)
-            Text(if (search.isNotBlank()) stringResource(R.string.search_empty , search) else stringResource(R.string.coverage_message))
-            if (filter != 0) Text(stringResource(R.string.filter_empty, filters[filter]))
-            Button(onClick = { navigate("Coverage") }) { Text(stringResource(R.string.ui_explore_coverage)); Icon(Icons.Outlined.ChevronRight, null, Modifier.scale(if (LocalLayoutDirection.current == LayoutDirection.Rtl) -1f else 1f, 1f)) }
+            TrailText(if (search.isNotBlank()) stringResource(R.string.search_empty , search) else stringResource(R.string.coverage_message))
+            if (filter != 0) TrailText(stringResource(R.string.filter_empty, filters[filter]))
+            Button(onClick = { navigate("Coverage") }) { TrailText(stringResource(R.string.ui_explore_coverage), Modifier.weight(1f, fill = false)); Icon(Icons.Outlined.ChevronRight, null, Modifier.scale(if (LocalLayoutDirection.current == LayoutDirection.Rtl) -1f else 1f, 1f)) }
         }
         TrailPanel(Modifier.fillMaxWidth()) {
             SectionLabel(stringResource(R.string.ui_be_prepared)); Heading(stringResource(R.string.ui_a_little_preparation_goes_a_long_way), true)
-            listOf(0, 1, 3).forEach { Text(stringResource(R.string.preparation_item, checklistDefault(it))) }
-            OutlinedButton(onClick = { navigate("Checklist") }) { Text(stringResource(R.string.ui_open_checklist)) }
+            listOf(0, 1, 3).forEach { TrailText(stringResource(R.string.preparation_item, checklistDefault(it))) }
+            OutlinedButton(onClick = { navigate("Checklist") }) { TrailText(stringResource(R.string.ui_open_checklist)) }
         }
         SectionLabel(stringResource(R.string.ui_continue_your_journey))
-        OutlinedButton(onClick = onImport, modifier = Modifier.fillMaxWidth()) { Icon(Icons.Outlined.UploadFile, null); Text(stringResource(R.string.ui_import_your_own_gpx)) }
-        Text(stringResource(R.string.ui_imported_routes_remain_private_and_unreviewed_check_access_and_co), style = MaterialTheme.typography.bodySmall)
-        Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-            TextButton(onClick = { navigate("Offline packs") }) { Text(stringResource(R.string.ui_offline_route_packs)) }
-            TextButton(onClick = { navigate("My walks") }) { Text(stringResource(R.string.ui_walk_journal)) }
+        OutlinedButton(onClick = onImport, modifier = Modifier.fillMaxWidth()) { Icon(Icons.Outlined.UploadFile, null); TrailText(stringResource(R.string.ui_import_your_own_gpx)) }
+        TrailText(stringResource(R.string.ui_imported_routes_remain_private_and_unreviewed_check_access_and_co), style = MaterialTheme.typography.bodySmall)
+        FlowRow(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+            TextButton(onClick = { navigate("Offline packs") }) { TrailText(stringResource(R.string.ui_offline_route_packs)) }
+            TextButton(onClick = { navigate("My walks") }) { TrailText(stringResource(R.string.ui_walk_journal)) }
         }
     }
 }

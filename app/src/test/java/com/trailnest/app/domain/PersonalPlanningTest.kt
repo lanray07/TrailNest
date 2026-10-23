@@ -54,6 +54,9 @@ class PersonalPlanningTest {
         val template = "%1\$s|%2\$s|%3\$s|%4\$d|%5\$s%6\$s"
         val text = plan.text(template, "|%1\$s", Instant.parse("2026-10-23T10:00:00Z"))
         assertTrue(text.contains("+01:00 [Europe/London]")); assertTrue(text.contains("Home contact")); assertTrue(text.contains("3.0 km|60"))
+        assertTrue(text.contains("\u206651.0, -1.0\u2069"))
+        assertTrue(text.contains("\u20662026-10-23 15:00 +01:00 [Europe/London]\u2069"))
+        assertEquals(2, text.count { it == '\u2066' }); assertEquals(2, text.count { it == '\u2069' })
         assertTrue(runCatching { plan.text(template, "|%1\$s", Instant.parse("2026-10-23T16:00:00Z")) }.isFailure)
     }
 }

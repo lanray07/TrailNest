@@ -1,6 +1,6 @@
 # TrailNest
 
-A working Android development build and companion website for private walk preparation, GPX geometry and a walking journal. **Android version 0.4.0 is not the complete production application described in the brief and is not approved for Appstore submission.** The companion website remains the separate 0.1 preview.
+A working Android development build and companion website for private walk preparation, GPX geometry and a walking journal. **Android version 0.5.0 is not the complete production application described in the brief and is not approved for Appstore submission.** The companion website remains the separate 0.1 preview.
 
 ## Run
 
@@ -12,7 +12,7 @@ Website: `cd website`, `npm run dev`, then open `http://127.0.0.1:4173`. No depe
 
 ## Implemented
 
-- Kotlin/Compose adaptive tablet rail and phone navigation; original TrailNest vector icon, generated imaginary landscape, light/dark appearance and miles/kilometres.
+- Kotlin/Compose adaptive tablet rail and scrollable phone/large-font navigation, wrapping actions and RTL-aware text direction; original TrailNest vector icon, generated imaginary landscape, light/dark appearance and miles/kilometres.
 - Editable Room journal with completed-walk dates, notes, ratings, favourites and a favourites filter. Monthly activity and selectable yearly summaries use the device time zone. Editing notes preserves the original distance without rounding drift.
 - Background walk recording: explicit start, pause/resume, finish/review/save and discard, with a location foreground service and notification controls. Active duration excludes pauses; interrupted drafts recover paused. Only aggregate estimated distance and duration are persisted, with duplicate-safe journal saves. See `docs/RECORDING.md` for device limitations.
 - Private walk photos: explicit system file picker, up to eight per saved walk, 20 MB input limit, sampled decoding, orientation correction, and app-private resized JPEG copies with EXIF/location metadata removed. Removing copies leaves original photos untouched. Room schema 1→2 migration retains existing journal entries and imported routes; deleting a walk cascades its photo rows and removes private files.
@@ -22,7 +22,7 @@ Website: `cd website`, `npm run dev`, then open `http://127.0.0.1:4173`. No depe
 - Foreground location using Android LocationManager; nearest-segment progress, deviation threshold, stale-fix and accuracy handling; route geometry preview. Touch controls and optional TextToSpeech with audio focus. Push-to-talk uses an installed system recognition activity; only explicit English commands are parsed.
 - Explicit user-initiated Sharesheet plan sharing with editable estimated duration, required future return time (including time-zone/offset in shared text), and optional contact details. Ambiguous/nonexistent daylight-saving times are rejected. No automatic location transmission or emergency monitoring.
 - Browser companion with local checklist, journal, GPX geometry tools, country selection, honest coverage states, privacy/support pages, sitemap and WebSite structured data. Browser and Android data are separate and do not sync.
-- Country/locale registries; resource extraction across all default values XML files, plural-category/placeholder validation, partial translation-draft auditing; editorial record validation/retirement; draft listing copy and an executable release evidence gate. Displayed app text and validation/share messages are resource-backed. All 19 configured locales have complete unreviewed draft bundles (242 strings and four plural resources each). A separate translation-preview build isolates those drafts from normal builds; human review and device/layout validation remain pending. See `docs/LOCALISATION.md`.
+- Country/locale registries; resource extraction across all default values XML files, plural-category/placeholder validation, translation-draft auditing; editorial record validation/retirement; draft listing copy and an executable release evidence gate. Displayed app text and validation/share messages are resource-backed. All 19 configured locales have complete unreviewed draft bundles (244 strings and four plural resources each). A separate translation-preview build isolates those drafts from normal builds. A repeatable on-device matrix checks normal/200% fonts and narrow/tablet layouts; human linguistic and comprehensive accessibility review remain pending. See `docs/LOCALISATION.md` and `docs/VERIFICATION.md` for executed evidence.
 
 ## Missing or blocked
 
@@ -30,9 +30,9 @@ The user confirmed no commercial map/route-content licences. Therefore all catal
 
 Amazon Appstore SDK integration, product setup, server receipt verification and production entitlement handling are **not implemented**. The billing abstraction stays unavailable. A server, secrets and Amazon console setup are still required. No real purchase success is simulated.
 
-Other remaining scope: human-reviewed translations and language layout checks, localized website/metadata/screenshots, hosted authorized-partner CMS and reports workflow, custom route planning, validated turn instructions, elevation and terrain/facility metadata, download workers/recovery/version updates, full brand-asset set and the eight requested marketing screenshots. These are pending implementation, not merely hidden behind credentials.
+Other remaining scope: human linguistic and accessibility review, additional device acceptance checks, localized website/metadata/screenshots, hosted authorized-partner CMS and reports workflow, custom route planning, validated turn instructions, elevation and terrain/facility metadata, download workers/recovery/version updates, full brand-asset set and the eight requested marketing screenshots. These are pending implementation, not merely hidden behind credentials.
 
-The public operator name/support/privacy contact and legal review are not supplied. The proposed commercial title’s availability is not checked. Physical Fire OS testing, accessibility/RTL/large-font review and release signing are pending. Minimum SDK 26 excludes earlier Fire OS devices; assess actual target devices before changing this.
+The public operator name/support/privacy contact and legal review are not supplied. The proposed commercial title’s availability is not checked. Fire layout/UI/data checks are recorded in `docs/VERIFICATION.md`; broader Fire acceptance, human accessibility/language review and release signing remain pending. Minimum SDK 26 excludes earlier Fire OS devices; assess actual target devices before changing this.
 
 ## Verification and release
 

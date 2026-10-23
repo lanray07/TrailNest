@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- UNREVIEWED DRAFT. Preview build only; never a release approval. -->
 <resources>
+    <string name="navigation_open">탐색 메뉴 열기</string>
+    <string name="navigation_close">탐색 메뉴 닫기</string>
     <string name="packs_empty_title">원하는 경로를 선택하세요.</string>
     <string name="ui_a_brighter_outdoors_one_step_at_a_time">더 밝은 야외.\n한 번에 한 단계씩.</string>
     <string name="ui_got_it">알겠습니다</string>

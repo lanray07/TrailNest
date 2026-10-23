@@ -41,8 +41,8 @@ import androidx.compose.ui.res.stringResource
     val latestLocating by rememberUpdatedState(locating)
     DisposableEffect(route.id) { onDispose { if (latestLocating) onLocation() } }
     Page(route.title, stringResource(R.string.route_description)) {
-        TextButton(onClick = back) { Text(stringResource(R.string.ui_back_to_routes)) }
-        Text(stringResource(R.string.route_summary, distanceText(route.metres, imperial), androidx.compose.ui.res.pluralStringResource(R.plurals.route_points, points.size, points.size)))
+        TextButton(onClick = back) { TrailText(stringResource(R.string.ui_back_to_routes)) }
+        TrailText(stringResource(R.string.route_summary, distanceText(route.metres, imperial), androidx.compose.ui.res.pluralStringResource(R.plurals.route_points, points.size, points.size)))
         Canvas(Modifier.fillMaxWidth().height(260.dp).background(Sage)) {
             val minLat = points.minOf { it.lat }; val maxLat = points.maxOf { it.lat }
             val minLon = points.minOf { it.lon }; val maxLon = points.maxOf { it.lon }
@@ -56,17 +56,17 @@ import androidx.compose.ui.res.stringResource
             drawCircle(Forest, 8.dp.toPx(), offset(points.first())); drawCircle(Color(0xFF8D7159), 8.dp.toPx(), offset(points.last()))
             if (fresh && fix != null) { val pos = offset(GeoPoint(fix.latitude, fix.longitude)); if (pos.x in 0f..size.width && pos.y in 0f..size.height) drawCircle(Color(0xFF287E83), 7.dp.toPx(), pos) }
         }
-        Text(stringResource(R.string.ui_geometry_overview_green_start_brown_finish_teal_recent_position_n), style = MaterialTheme.typography.bodySmall)
+        TrailText(stringResource(R.string.ui_geometry_overview_green_start_brown_finish_teal_recent_position_n), style = MaterialTheme.typography.bodySmall)
         TrailPanel(Modifier.fillMaxWidth()) {
-            Heading(stringResource(R.string.ui_your_route_at_a_glance), true); Text(status)
-            if (fresh && fix != null) Text(stringResource(R.string.reported_accuracy, fix.accuracy.toInt()))
-            Button(onClick = onLocation) { Text(stringResource(if (locating) R.string.pause_location else R.string.foreground_location)) }
-            OutlinedButton(onClick = { speak(status) }, enabled = voiceReady) { Text(stringResource(R.string.ui_read_progress_aloud)) }
-            TextButton(onClick = listen) { Text(stringResource(R.string.ui_push_to_talk)) }
-            Text(stringResource(R.string.ui_no_validated_turn_instructions_are_included_spoken_output_reports))
+            Heading(stringResource(R.string.ui_your_route_at_a_glance), true); TrailText(status)
+            if (fresh && fix != null) TrailText(stringResource(R.string.reported_accuracy, fix.accuracy.toInt()))
+            Button(onClick = onLocation) { TrailText(stringResource(if (locating) R.string.pause_location else R.string.foreground_location)) }
+            OutlinedButton(onClick = { speak(status) }, enabled = voiceReady) { TrailText(stringResource(R.string.ui_read_progress_aloud)) }
+            TextButton(onClick = listen) { TrailText(stringResource(R.string.ui_push_to_talk)) }
+            TrailText(stringResource(R.string.ui_no_validated_turn_instructions_are_included_spoken_output_reports))
         }
-        OutlinedButton(onClick = { export(route) }) { Text(stringResource(R.string.ui_export_gpx)) }
-        TextButton(onClick = { sharing = true }) { Text(stringResource(R.string.share_plan_title)) }
+        OutlinedButton(onClick = { export(route) }) { TrailText(stringResource(R.string.ui_export_gpx)) }
+        TextButton(onClick = { sharing = true }) { TrailText(stringResource(R.string.share_plan_title)) }
     }
     if (sharing) SharePlanDialog(route, imperial, share) { sharing = false }
 }

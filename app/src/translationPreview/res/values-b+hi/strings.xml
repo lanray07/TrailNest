@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- UNREVIEWED DRAFT. Preview build only; never a release approval. -->
 <resources>
+    <string name="navigation_open">नेविगेशन खोलें</string>
+    <string name="navigation_close">नेविगेशन बंद करें</string>
     <string name="packs_empty_title">अपना मार्ग अपने साथ लें।</string>
     <string name="ui_a_brighter_outdoors_one_step_at_a_time">एक उज्जवल आउटडोर।\nएक समय में एक कदम।</string>
     <string name="ui_got_it">समझ गया</string>

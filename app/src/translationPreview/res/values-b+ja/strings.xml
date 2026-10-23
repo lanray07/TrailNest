@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- UNREVIEWED DRAFT. Preview build only; never a release approval. -->
 <resources>
+    <string name="navigation_open">ナビゲーションを開く</string>
+    <string name="navigation_close">ナビゲーションを閉じる</string>
     <string name="packs_empty_title">自分のルートを持ち歩きましょう。</string>
     <string name="ui_a_brighter_outdoors_one_step_at_a_time">より明るい屋外。\n一度に一歩ずつ。</string>
     <string name="ui_got_it">分かりました</string>

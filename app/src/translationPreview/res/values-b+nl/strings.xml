@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- UNREVIEWED DRAFT. Preview build only; never a release approval. -->
 <resources>
+    <string name="navigation_open">Navigatie openen</string>
+    <string name="navigation_close">Navigatie sluiten</string>
     <string name="packs_empty_title">Neem je route mee.</string>
     <string name="ui_a_brighter_outdoors_one_step_at_a_time">Een helderder buitenleven.\nStap voor stap.</string>
     <string name="ui_got_it">Ik snap het</string>

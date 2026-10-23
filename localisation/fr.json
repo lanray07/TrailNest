@@ -2232,5 +2232,17 @@
     "requiresSafetyReview": true,
     "regionalAdaptationPending": false,
     "pluralGrammarReviewPending": true
+  },
+  "navigation_open": {
+    "text": "Ouvrir la navigation",
+    "sourceHash": "47760aefb75836fb6bc4f20a5053ec83ec02f17101ce6cbc61df023640e8431a",
+    "reviewed": false,
+    "provenance": "agent draft; human review pending"
+  },
+  "navigation_close": {
+    "text": "Fermer la navigation",
+    "sourceHash": "be2f542729b77c98d4b65afdc0de2c21be1ab22be9b47721dd7e480c7c9f2fb0",
+    "reviewed": false,
+    "provenance": "agent draft; human review pending"
   }
 }

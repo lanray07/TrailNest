@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- UNREVIEWED DRAFT. Preview build only; never a release approval. -->
 <resources>
+    <string name="navigation_open">Abrir navegação</string>
+    <string name="navigation_close">Fechar navegação</string>
     <string name="packs_empty_title">Leve a sua rota consigo.</string>
     <string name="ui_a_brighter_outdoors_one_step_at_a_time">Um exterior mais luminoso.\nUm passo de cada vez.</string>
     <string name="ui_got_it">Percebi</string>

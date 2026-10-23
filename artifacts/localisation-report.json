@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-23T09:31:46.190Z",
+  "generatedAt": "2026-10-23T10:40:37.536Z",
   "registryCheckedOn": "2026-10-23",
-  "resourceStrings": 242,
+  "resourceStrings": 244,
   "resourcePlurals": 4,
   "fullyLocalised": false,
   "draftOnly": true,
@@ -12,6 +12,8 @@
       "missing": [],
       "invalid": [],
       "needsReview": [
+        "navigation_open",
+        "navigation_close",
         "packs_empty_title",
         "ui_a_brighter_outdoors_one_step_at_a_time",
         "ui_got_it",
@@ -267,6 +269,8 @@
       "missing": [],
       "invalid": [],
       "needsReview": [
+        "navigation_open",
+        "navigation_close",
         "packs_empty_title",
         "ui_a_brighter_outdoors_one_step_at_a_time",
         "ui_got_it",
@@ -522,6 +526,8 @@
       "missing": [],
       "invalid": [],
       "needsReview": [
+        "navigation_open",
+        "navigation_close",
         "packs_empty_title",
         "ui_a_brighter_outdoors_one_step_at_a_time",
         "ui_got_it",
@@ -777,6 +783,8 @@
       "missing": [],
       "invalid": [],
       "needsReview": [
+        "navigation_open",
+        "navigation_close",
         "packs_empty_title",
         "ui_a_brighter_outdoors_one_step_at_a_time",
         "ui_got_it",
@@ -1032,6 +1040,8 @@
       "missing": [],
       "invalid": [],
       "needsReview": [
+        "navigation_open",
+        "navigation_close",
         "packs_empty_title",
         "ui_a_brighter_outdoors_one_step_at_a_time",
         "ui_got_it",
@@ -1287,6 +1297,8 @@
       "missing": [],
       "invalid": [],
       "needsReview": [
+        "navigation_open",
+        "navigation_close",
         "packs_empty_title",
         "ui_a_brighter_outdoors_one_step_at_a_time",
         "ui_got_it",
@@ -1542,6 +1554,8 @@
       "missing": [],
       "invalid": [],
       "needsReview": [
+        "navigation_open",
+        "navigation_close",
         "packs_empty_title",
         "ui_a_brighter_outdoors_one_step_at_a_time",
         "ui_got_it",
@@ -1797,6 +1811,8 @@
       "missing": [],
       "invalid": [],
       "needsReview": [
+        "navigation_open",
+        "navigation_close",
         "packs_empty_title",
         "ui_a_brighter_outdoors_one_step_at_a_time",
         "ui_got_it",
@@ -2052,6 +2068,8 @@
       "missing": [],
       "invalid": [],
       "needsReview": [
+        "navigation_open",
+        "navigation_close",
         "packs_empty_title",
         "ui_a_brighter_outdoors_one_step_at_a_time",
         "ui_got_it",
@@ -2307,6 +2325,8 @@
       "missing": [],
       "invalid": [],
       "needsReview": [
+        "navigation_open",
+        "navigation_close",
         "packs_empty_title",
         "ui_a_brighter_outdoors_one_step_at_a_time",
         "ui_got_it",
@@ -2562,6 +2582,8 @@
       "missing": [],
       "invalid": [],
       "needsReview": [
+        "navigation_open",
+        "navigation_close",
         "packs_empty_title",
         "ui_a_brighter_outdoors_one_step_at_a_time",
         "ui_got_it",
@@ -2817,6 +2839,8 @@
       "missing": [],
       "invalid": [],
       "needsReview": [
+        "navigation_open",
+        "navigation_close",
         "packs_empty_title",
         "ui_a_brighter_outdoors_one_step_at_a_time",
         "ui_got_it",
@@ -3072,6 +3096,8 @@
       "missing": [],
       "invalid": [],
       "needsReview": [
+        "navigation_open",
+        "navigation_close",
         "packs_empty_title",
         "ui_a_brighter_outdoors_one_step_at_a_time",
         "ui_got_it",
@@ -3327,6 +3353,8 @@
       "missing": [],
       "invalid": [],
       "needsReview": [
+        "navigation_open",
+        "navigation_close",
         "packs_empty_title",
         "ui_a_brighter_outdoors_one_step_at_a_time",
         "ui_got_it",
@@ -3582,6 +3610,8 @@
       "missing": [],
       "invalid": [],
       "needsReview": [
+        "navigation_open",
+        "navigation_close",
         "packs_empty_title",
         "ui_a_brighter_outdoors_one_step_at_a_time",
         "ui_got_it",
@@ -3837,6 +3867,8 @@
       "missing": [],
       "invalid": [],
       "needsReview": [
+        "navigation_open",
+        "navigation_close",
         "packs_empty_title",
         "ui_a_brighter_outdoors_one_step_at_a_time",
         "ui_got_it",
@@ -4092,6 +4124,8 @@
       "missing": [],
       "invalid": [],
       "needsReview": [
+        "navigation_open",
+        "navigation_close",
         "packs_empty_title",
         "ui_a_brighter_outdoors_one_step_at_a_time",
         "ui_got_it",
@@ -4347,6 +4381,8 @@
       "missing": [],
       "invalid": [],
       "needsReview": [
+        "navigation_open",
+        "navigation_close",
         "packs_empty_title",
         "ui_a_brighter_outdoors_one_step_at_a_time",
         "ui_got_it",
@@ -4602,6 +4638,8 @@
       "missing": [],
       "invalid": [],
       "needsReview": [
+        "navigation_open",
+        "navigation_close",
         "packs_empty_title",
         "ui_a_brighter_outdoors_one_step_at_a_time",
         "ui_got_it",

@@ -50,8 +50,8 @@ data class SharedWalkPlan(val title: String, val start: GeoPoint, val distance: 
         require(expectedReturn.toInstant().isAfter(now)) { throw TextFailure("error_choose_an_expected_return_time_in_the_future") }
         require(estimatedMinutes in 1..10080) { throw TextFailure("error_enter_an_estimated_duration_between_1_and_10_080_minutes") }
         require(contact.length <= 500) { throw TextFailure("error_contact_details_must_be_500_characters_or_fewer") }
-        return String.format(locale, template, title, "${start.lat}, ${start.lon}", distance, estimatedMinutes,
-            expectedReturn.format(java.time.format.DateTimeFormatter.ofPattern("uuuu-MM-dd HH:mm XXX '['VV']'")),
+        return String.format(locale, template, title, DirectionalText.ltr("${start.lat}, ${start.lon}"), distance, estimatedMinutes,
+            DirectionalText.ltr(expectedReturn.format(java.time.format.DateTimeFormatter.ofPattern("uuuu-MM-dd HH:mm XXX '['VV']'"))),
             if (contact.isBlank()) "" else String.format(locale, contactTemplate, contact.trim()))
     }
 }

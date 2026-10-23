@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- UNREVIEWED DRAFT. Preview build only; never a release approval. -->
 <resources>
+    <string name="navigation_open">打开导航</string>
+    <string name="navigation_close">关闭导航</string>
     <string name="packs_empty_title">随身携带您的路线。</string>
     <string name="ui_a_brighter_outdoors_one_step_at_a_time">户外更明亮。\n一次一步。</string>
     <string name="ui_got_it">明白了</string>
