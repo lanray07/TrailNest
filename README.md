@@ -1,6 +1,6 @@
 # TrailNest
 
-A working Android development build and companion website for private walk preparation, GPX geometry and a walking journal. **Version 0.1.0 is not the complete production application described in the brief and is not approved for Appstore submission.**
+A working Android development build and companion website for private walk preparation, GPX geometry and a walking journal. **Android version 0.2.0 is not the complete production application described in the brief and is not approved for Appstore submission.** The companion website remains the separate 0.1 preview.
 
 ## Run
 
@@ -13,13 +13,15 @@ Website: `cd website`, `npm run dev`, then open `http://127.0.0.1:4173`. No depe
 ## Implemented
 
 - Kotlin/Compose adaptive tablet rail and phone navigation; original TrailNest vector icon, generated imaginary landscape, light/dark appearance and miles/kilometres.
-- Room journal with notes, ratings, favourites, distance/duration totals and confirmed deletion. DataStore preferences and persistent preparation checklist.
+- Editable Room journal with completed-walk dates, notes, ratings, favourites and a favourites filter. Monthly activity and selectable yearly summaries use the device time zone. Editing notes preserves the original distance without rounding drift.
+- Private walk photos: explicit system file picker, up to eight per saved walk, 20 MB input limit, sampled decoding, orientation correction, and app-private resized JPEG copies with EXIF/location metadata removed. Removing copies leaves original photos untouched. Room schema 1→2 migration retains existing journal entries and imported routes; deleting a walk cascades its photo rows and removes private files.
+- Custom checklists: add, rename, reorder and remove items, atomically reset checked states, or confirm restoring defaults. Existing v0.1 checklist progress migrates on first edit. Checklist progress and journal walk counts use Android plural resources.
 - Private, bounded GPX import/export; finite-coordinate checks, XML entity rejection, single continuous route/track policy, 50,000-point/5 MB limits and SHA-256 geometry checks.
 - Offline geometry pack marking with one-pack free limit. All imports are already private local files; marking a pack does not download extra content. No map tiles or reviewed directions are included.
 - Foreground location using Android LocationManager; nearest-segment progress, deviation threshold, stale-fix and accuracy handling; route geometry preview. Touch controls and optional TextToSpeech with audio focus. Push-to-talk uses an installed system recognition activity; only explicit English commands are parsed.
-- Explicit user-initiated Sharesheet plan sharing. No automatic location transmission, background recording or emergency monitoring.
+- Explicit user-initiated Sharesheet plan sharing with editable estimated duration, required future return time (including time-zone/offset in shared text), and optional contact details. Ambiguous/nonexistent daylight-saving times are rejected. No automatic location transmission, background recording or emergency monitoring.
 - Browser companion with local checklist, journal, GPX geometry tools, country selection, honest coverage states, privacy/support pages, sitemap and WebSite structured data. Browser and Android data are separate and do not sync.
-- Country/locale registries; partial localisation extraction/translation-draft auditing; editorial record validation/retirement; draft listing copy and an executable release evidence gate.
+- Country/locale registries; resource extraction across all default values XML files, plural-category/placeholder validation, partial translation-draft auditing; editorial record validation/retirement; draft listing copy and an executable release evidence gate. New feature UI labels are resource-backed; other legacy strings and reviewed translations remain unfinished.
 
 ## Missing or blocked
 
@@ -27,13 +29,15 @@ The user confirmed no commercial map/route-content licences. Therefore all catal
 
 Amazon Appstore SDK integration, product setup, server receipt verification and production entitlement handling are **not implemented**. The billing abstraction stays unavailable. A server, secrets and Amazon console setup are still required. No real purchase success is simulated.
 
-Other remaining scope: complete string/resource migration and reviewed translations, plural rules, localized website/metadata/screenshots, hosted authorized-partner CMS and reports workflow, custom route planning, validated turn instructions, elevation and terrain/facility metadata, background walk recording, photos, editable journal dates, monthly/yearly summaries, customizable checklist items, download workers/recovery/version updates, full brand-asset set and the eight requested marketing screenshots. These are pending implementation, not merely hidden behind credentials.
+Other remaining scope: complete legacy string/resource and plural migration and reviewed translations, localized website/metadata/screenshots, hosted authorized-partner CMS and reports workflow, custom route planning, validated turn instructions, elevation and terrain/facility metadata, background walk recording, download workers/recovery/version updates, full brand-asset set and the eight requested marketing screenshots. These are pending implementation, not merely hidden behind credentials.
 
 The public operator name/support/privacy contact and legal review are not supplied. The proposed commercial title’s availability is not checked. Physical Fire OS testing, accessibility/RTL/large-font review and release signing are pending. Minimum SDK 26 excludes earlier Fire OS devices; assess actual target devices before changing this.
 
 ## Verification and release
 
-See `docs/VERIFICATION.md` for actual commands and evidence. `node tools/localise.mjs` produces `artifacts/localisation-report.json`. `node tools/editorial.mjs validate` validates the catalogue. `node tools/release-gate.mjs` intentionally exits nonzero while release evidence is missing. Do not set evidence flags without performing the corresponding validation.
+See `docs/VERIFICATION.md` for actual commands and evidence, and `docs/PERSONAL-FEATURES.md` for the 0.2 feature details. `node tools/localise.mjs` produces `artifacts/localisation-report.json`. `node tools/editorial.mjs validate` validates the catalogue. `node tools/release-gate.mjs` intentionally exits nonzero while release evidence is missing. Do not set evidence flags without performing the corresponding validation.
+
+`node --test tools/tests/*.test.mjs` runs resource/plural regressions and an SQLite regression test executing the actual Kotlin migration SQL. It requires Node 24 with `node:sqlite` (experimental in the tested runtime). This SQL check complements, but does not replace, the device test that opens the migrated database through Room.
 
 `app/src/androidTest` contains device tests, and `tools/capture-android.ps1` captures real screen evidence. These require a connected device. No passed device run or real Android screenshot is claimed when a device is unavailable.
 

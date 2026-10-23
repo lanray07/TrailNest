@@ -1,0 +1,10 @@
+{
+  "checklist_progress": {
+    "one": "%1$d of %2$d item checked",
+    "other": "%1$d of %2$d items checked"
+  },
+  "walk_count": {
+    "one": "%1$d walk",
+    "other": "%1$d walks"
+  }
+}

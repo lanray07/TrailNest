@@ -2,7 +2,21 @@
 
 Build date: 23 October 2026. Commands run in `D:\App Projects\TrailNest` using JDK 17, Android SDK 35, AGP 8.11.1 and Gradle 8.13.
 
-## Executed
+## Android 0.2.0 update
+
+The final source passed `gradlew.bat :app:assembleDebug :app:assembleRelease :app:testDebugUnitTest :app:lintDebug :app:assembleDebugAndroidTest --offline --max-workers=2`. The final repeat after the journal lazy-list change completed successfully. APK metadata identifies version **0.2.0**, version code **2**.
+
+- Android JVM tests: **22 passed**, zero failures (12 original domain checks and 10 personal-planning checks). New coverage includes leap/future dates, timezone month/year boundaries, unchanged-distance preservation, checklist legacy IDs/reset behavior, and daylight-saving/return-time validation.
+- `node --test tools/tests/*.test.mjs`: **3 passed**. These check multi-file resource extraction, plural categories/placeholders and actual migration SQL with existing data, foreign keys and cascading photo-row deletion. Node 24’s SQLite API emits its experimental-feature notice. This test does not constitute execution of Room’s Android migration validator.
+- Website `npm test`: **5 passed**; `npm run build`: passed. The Android features in this update are separate from the existing website 0.1 preview; no website deployment was changed.
+- Android lint: **zero errors, 22 warnings**. Warnings include dependency/SDK upgrades, existing resource/backup/icon recommendations, platform `ExifInterface` versus AndroidX recommendations, and two plural-candidate heuristics for photo ordinal/year labels. No lint warning was suppressed.
+- The debug APK passed `apksigner verify --verbose` with APK Signature Scheme v2. Debug, unsigned release and compiled device-test APKs were packaged as `artifacts/TrailNest-0.2.0-*.apk`; `artifacts/checksums.json` was regenerated. The packaging script checks app APK metadata against the declared version before copying.
+- Localisation audit: **73 string and 2 plural resources extracted**, 19 locale targets audited, zero locales approved. Existing hardcoded UI and reviewed translations are still incomplete. Editorial validation passed with an empty catalogue. The release evidence gate still correctly fails for the known production prerequisites.
+- ADB reported no connected device. The **7 device tests compiled but were not run**, including real Room migration validation, EXIF stripping on a synthetic photo, checklist UI, and journal editing with preserved rating/favourite/distance. No new Android screenshot or Fire OS behavior result is claimed. Checklist UI tests temporarily isolate preferences and restore them afterward; journal/database/photo fixtures clean up their own records/files.
+
+`artifacts/verification-0.2.0.json` contains a machine-readable summary. `PERSONAL-FEATURES.md` describes the implemented behaviors and boundaries.
+
+## Version 0.1 baseline checks
 
 - `gradlew.bat :app:assembleDebug :app:assembleRelease :app:testDebugUnitTest :app:lintDebug :app:assembleDebugAndroidTest` — succeeded. Debug APK, unsigned release APK and instrumentation APK produced. Twelve JUnit domain tests passed. Lint passed with warnings about dependency versions/target SDK and platform recommendations; this does not certify Fire compatibility.
 - A final repeat rebuilt the updated GPX/audio code and all APKs, and passed all twelve domain tests, then caught an unescaped drive colon in the newly added local SDK configuration. That configuration was corrected; `gradlew.bat :app:lintDebug --offline` then succeeded. No lint errors remain; eighteen warnings remain. The final APKs were packaged after their successful assembly and their SHA-256 hashes regenerated. `apksigner verify --verbose` verified the debug APK with APK Signature Scheme v2.

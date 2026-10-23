@@ -16,10 +16,12 @@ import androidx.compose.ui.unit.dp
 import com.trailnest.app.data.*
 import com.trailnest.app.domain.*
 import kotlinx.coroutines.delay
-import java.util.Locale
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.ui.res.stringResource
 
 @Composable fun RouteScreen(route: ImportedRoute, fix: Location?, locating: Boolean, imperial: Boolean, voiceReady: Boolean, command: VoiceCommand, consume: () -> Unit, onLocation: () -> Unit, speak: (String) -> Unit, listen: () -> Unit, export: (ImportedRoute) -> Unit, share: (String) -> Unit, back: () -> Unit, notice: (String) -> Unit) {
     val points = remember(route.geometry) { Gpx.points(route) }
+    var sharing by rememberSaveable(route.id) { mutableStateOf(false) }
     var now by remember { mutableLongStateOf(SystemClock.elapsedRealtimeNanos()) }
     LaunchedEffect(locating) { while (locating) { now = SystemClock.elapsedRealtimeNanos(); delay(3000) } }
     val fresh = fix != null && (now - fix.elapsedRealtimeNanos) / 1e9 < 30 && now >= fix.elapsedRealtimeNanos
@@ -63,6 +65,7 @@ import java.util.Locale
             Text("No validated turn instructions are included. Spoken output reports progress and uncertainty only. This view does not replace a map or access checks.")
         }
         OutlinedButton(onClick = { export(route) }) { Text("Export GPX") }
-        TextButton(onClick = { val first = points.first(); share("TrailNest walk plan\n${route.title}\nStart: ${String.format(Locale.ROOT, "%.6f, %.6f", first.lat, first.lon)}\nDistance: ${TrailMath.formatDistance(route.metres, imperial)}\nAccess unreviewed. Expected return time: please add before sending. This is a static plan, with no live monitoring.") }) { Text("Share walk plan") }
+        TextButton(onClick = { sharing = true }) { Text(stringResource(R.string.share_plan_title)) }
     }
+    if (sharing) SharePlanDialog(route, imperial, share) { sharing = false }
 }

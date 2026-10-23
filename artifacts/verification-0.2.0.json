@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "versionCode": 2,
+  "date": "2026-10-23",
+  "android": {
+    "debugBuild": "passed",
+    "unsignedReleaseBuild": "passed",
+    "jvmTests": {"passed":22,"failures":0},
+    "lint": {"errors":0,"warnings":22},
+    "instrumentationBuild": "passed",
+    "instrumentationTests": {"compiled":7,"executed":0},
+    "debugSignature": "verified_v2",
+    "physicalFireValidation": "not_run_no_device"
+  },
+  "tooling": {"testsPassed":3,"migrationValidation":"actual_SQL_in_Node_SQLite_not_Room_on_device"},
+  "website": {"testsPassed":5,"build":"passed","version":"0.1.0","deploymentChanged":false},
+  "localisation": {"stringsExtracted":73,"pluralResources":2,"approvedLocales":0},
+  "productionReleaseReady": false,
+  "releaseGate": "blocked_for_documented_prerequisites",
+  "checksums": "artifacts/checksums.json"
+}

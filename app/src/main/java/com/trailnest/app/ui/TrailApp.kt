@@ -25,6 +25,9 @@ import com.trailnest.app.domain.*
     val prefs by model.prefs.collectAsStateWithLifecycle()
     val walks by model.walks.collectAsStateWithLifecycle()
     val routes by model.routes.collectAsStateWithLifecycle()
+    val photos by model.photos.collectAsStateWithLifecycle()
+    val photoBusy by model.photoBusy.collectAsStateWithLifecycle()
+    val modelMessage by model.message.collectAsStateWithLifecycle()
     val dark = prefs[booleanPreferencesKey("dark")] ?: false
     val imperial = prefs[stringPreferencesKey("units")] != "metric"
     val scheme = if (dark) darkColorScheme(primary = Color(0xFFA7D3BC), background = Color(0xFF17241E), surface = Color(0xFF22332A), onSurface = Ivory) else lightColorScheme(primary = Forest, background = Ivory, surface = Color(0xFFFCFBF7), onSurface = Ink, outlineVariant = Color(0xFFDDDFD5))
@@ -51,7 +54,7 @@ import com.trailnest.app.domain.*
                             if (selected != null) RouteScreen(selected, fix, locating, imperial, voiceReady, command, onConsumeCommand, onLocation, onSpeak, onListen, onExport, onShare, { selectedId = null }, onNotice)
                             else when (page) {
                                 "Discover" -> DiscoverScreen({ page = it }, onImport)
-                                "My walks" -> JournalScreen(walks, imperial, model::save, model::deleteWalk)
+                                "My walks" -> JournalScreen(walks, photos, imperial, photoBusy, model::save, model::deleteWalk, model::addPhoto, model::deletePhoto)
                                 "Offline packs" -> PacksScreen(routes, imperial, onImport, {
                                     if (Gpx.digest(it.geometry) == it.sha256) selectedId = it.id
                                     else onNotice("Integrity check failed. Reimport the original GPX.")
@@ -60,7 +63,7 @@ import com.trailnest.app.domain.*
                                     else if (Gpx.digest(route.geometry) != route.sha256) onNotice("Integrity check failed. Reimport the original GPX.")
                                     else model.save(route.copy(packed = !route.packed))
                                 }, model::deleteRoute)
-                                "Checklist" -> ChecklistScreen(prefs, model::toggle)
+                                "Checklist" -> ChecklistScreen(model.checklist(prefs), model::checkItem, model::addItem, model::renameItem, model::removeItem, model::moveItem, model::resetChecklist, model::restoreChecklist)
                                 "Settings" -> SettingsScreen(prefs, model::toggle, model::setting, voiceReady)
                                 "Coverage" -> CoverageScreen()
                             }
@@ -71,6 +74,7 @@ import com.trailnest.app.domain.*
                     }
                 }
                 if (notice != null) AlertDialog(onDismissRequest = dismiss, title = { Text("TrailNest") }, text = { Text(notice) }, confirmButton = { TextButton(onClick = dismiss) { Text("Got it") } })
+                else if (modelMessage != null) AlertDialog(onDismissRequest = { model.message.value = null }, title = { Text("TrailNest") }, text = { Text(modelMessage!!) }, confirmButton = { TextButton(onClick = { model.message.value = null }) { Text("Got it") } })
             }
         }
     }
