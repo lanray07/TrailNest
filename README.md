@@ -1,6 +1,6 @@
 # TrailNest
 
-A working Android development build and companion website for private walk preparation, GPX geometry and a walking journal. **Android version 0.8.4 is not the complete production application described in the brief and is not approved for Appstore submission.** The companion website remains the separate 0.1 preview.
+A working Android development build and companion website for private walk preparation, GPX geometry and a walking journal. **Android version 0.8.5 is not the complete production application described in the brief and is not approved for Appstore submission.** The companion website remains the separate 0.1 preview.
 
 ## Run
 

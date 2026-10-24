@@ -1,99 +1,69 @@
 {
-  "version": "0.8.4",
-  "versionCode": 12,
+  "version": "0.8.5",
+  "versionCode": 13,
   "date": "2026-10-24",
   "device": {
     "model": "KFTRWI",
     "api": 28,
     "package": "com.trailnest.app.draft"
   },
-  "languageSwitchBaseline": {
-    "languagesApplied": 19,
-    "testPassed": true,
-    "durationSeconds": 25.48,
-    "rtlVerified": true,
+  "ownerResumedKindleTesting": true,
+  "languageSwitch": {
     "applicationContextStringsVerified": true,
-    "activityRecreationVerified": true,
     "deviceDefaultResetVerified": true,
-    "finalNotificationRegressionIncluded": false
+    "testPassed": true,
+    "arabicRtlVerified": true,
+    "activityRecreationVerified": true,
+    "localesApplied": 19
+  },
+  "notificationRegression": {
+    "launchIntentIdentityPreserved": true,
+    "savedNavigationHandlingVerified": true,
+    "passed": true,
+    "test": "LanguageNotificationDeviceTest#notificationNavigationIsNotReplayedByLanguageRecreation",
+    "coldLaunchVerified": true,
+    "settingsRetainedAfterFrenchAndGermanChanges": true,
+    "warmNewIntentVerified": true
+  },
+  "deviceRegressionRunner": {
+    "testsPassed": 2,
+    "durationSeconds": 29.617
   },
   "layout": {
+    "fullRunPassed": true,
+    "report": "artifacts/language-picker-matrix.json",
     "plannedConfigurations": 76,
-    "completedBeforeStop": 58,
-    "completedIds": [
-      "en-US-360-1.0",
-      "en-US-360-2.0",
-      "en-US-800-1.0",
-      "en-US-800-2.0",
-      "en-GB-360-1.0",
-      "en-GB-360-2.0",
-      "en-GB-800-1.0",
-      "en-GB-800-2.0",
-      "en-AU-360-1.0",
-      "en-AU-360-2.0",
-      "en-AU-800-1.0",
-      "en-AU-800-2.0",
-      "en-IN-360-1.0",
-      "en-IN-360-2.0",
-      "en-IN-800-1.0",
-      "en-IN-800-2.0",
-      "fr-360-1.0",
-      "fr-360-2.0",
-      "fr-800-1.0",
-      "fr-800-2.0",
-      "de-360-1.0",
-      "de-360-2.0",
-      "de-800-1.0",
-      "de-800-2.0",
-      "it-360-1.0",
-      "it-360-2.0",
-      "it-800-1.0",
-      "it-800-2.0",
-      "es-360-1.0",
-      "es-360-2.0",
-      "es-800-1.0",
-      "es-800-2.0",
-      "es-MX-360-1.0",
-      "es-MX-360-2.0",
-      "es-MX-800-1.0",
-      "es-MX-800-2.0",
-      "pt-BR-360-1.0",
-      "pt-BR-360-2.0",
-      "pt-BR-800-1.0",
-      "pt-BR-800-2.0",
-      "pt-PT-360-1.0",
-      "pt-PT-360-2.0",
-      "pt-PT-800-1.0",
-      "pt-PT-800-2.0",
-      "nl-360-1.0",
-      "nl-360-2.0",
-      "nl-800-1.0",
-      "nl-800-2.0",
-      "pl-360-1.0",
-      "pl-360-2.0",
-      "pl-800-1.0",
-      "pl-800-2.0",
-      "sv-360-1.0",
-      "sv-360-2.0",
-      "sv-800-1.0",
-      "sv-800-2.0",
-      "ja-360-1.0",
-      "ja-360-2.0"
+    "failures": 0,
+    "durationSeconds": 613.572,
+    "fontScales": [
+      1.0,
+      2.0
     ],
-    "lastRetrievedReportConfigurations": 32,
-    "confirmedPassedInRetrievedReport": 32,
-    "retrievedReportFailures": [],
-    "fullRunPassed": false,
-    "interruptedDeliberately": true,
-    "reason": "Stopped TrailNest instrumentation when DishNest reported exclusive Kindle use. The terminal process-crashed runner message resulted from that deliberate stop."
+    "languageDialogAudits": 76,
+    "widthsDp": [
+      360,
+      800
+    ],
+    "passedConfigurations": 76,
+    "locales": 19
   },
-  "pending": [
-    "Final notification-intent regression device test",
-    "Full layout-matrix completion and inspection of results after last retrieved snapshot",
-    "Force-stop/relaunch persistence probe",
-    "Physical API 33+ system-language synchronization"
-  ],
-  "deviceOperationsStopped": true,
+  "restartPersistence": {
+    "report": "artifacts/locale-restart-persistence.json",
+    "passed": true
+  },
+  "kindleLanguageChecksComplete": true,
+  "instrumentationCompleted": true,
+  "realAmazonBuildUpdated": false,
   "translationPolicy": "owner_waived_translation_review",
-  "productionSubmissionApproved": false
+  "notPhysicallyTested": [
+    "API 33+ framework app-language settings synchronization",
+    "VoiceView/TalkBack spoken behavior",
+    "Other hardware/API levels"
+  ],
+  "productionSubmissionApproved": false,
+  "previousRun": {
+    "version": "0.8.4",
+    "supersededByThisCompletedRun": true,
+    "interruptedForDishNest": true
+  }
 }

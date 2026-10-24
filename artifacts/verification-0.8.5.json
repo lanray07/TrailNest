@@ -1,0 +1,36 @@
+{
+  "version": "0.8.5",
+  "versionCode": 13,
+  "buildPassed": true,
+  "appVariantsBuilt": [
+    "debug",
+    "release",
+    "lat",
+    "translationPreview"
+  ],
+  "instrumentationApkBuilt": true,
+  "buildDurationSeconds": 192,
+  "unitTestsPassed": 62,
+  "toolingTestsPassed": 10,
+  "localesAccepted": 19,
+  "resourceStrings": 261,
+  "pluralResources": 4,
+  "debugLint": {
+    "warnings": 42,
+    "errors": 0
+  },
+  "latLint": {
+    "warnings": 40,
+    "errors": 0
+  },
+  "latSignatureVerified": [
+    "v2",
+    "v3"
+  ],
+  "kindleLanguageAcceptanceComplete": true,
+  "deviceTestsPassed": 3,
+  "layoutConfigurationsPassed": 76,
+  "deviceEvidence": "artifacts/language-picker-device-verification.json",
+  "fullFireAcceptanceComplete": false,
+  "productionSubmissionApproved": false
+}

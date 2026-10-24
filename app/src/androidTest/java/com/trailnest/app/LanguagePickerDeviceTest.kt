@@ -17,15 +17,6 @@ class LanguagePickerDeviceTest {
         val tags = AppLanguage.supportedTags(compose.activity)
         Assert.assertEquals(19, tags.distinct().size)
         try {
-            // A previously consumed recording notification must not reopen My walks
-            // when a later language change recreates Settings.
-            compose.runOnIdle {
-                val activity = compose.activity
-                activity.startActivity(android.content.Intent(activity, MainActivity::class.java)
-                    .setAction(WalkRecordingService.OPEN).addFlags(android.content.Intent.FLAG_ACTIVITY_SINGLE_TOP))
-            }
-            compose.waitUntil(10_000) { compose.onAllNodesWithTag("live-recording").fetchSemanticsNodes().isNotEmpty() }
-            compose.waitForIdle()
             if (compose.onAllNodesWithTag("navigation-toggle").fetchSemanticsNodes().isNotEmpty())
                 compose.onNodeWithTag("navigation-toggle").performClick()
             compose.onNodeWithTag("nav-Settings").performScrollTo().performClick()

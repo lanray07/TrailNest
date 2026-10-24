@@ -1,0 +1,22 @@
+{
+  "version": "0.8.5-draft",
+  "versionCode": 13,
+  "date": "2026-10-24",
+  "device": "KFTRWI",
+  "api": 28,
+  "selectedLocale": "fr",
+  "processStopConfirmedByNoPid": true,
+  "frenchUiPersistedAfterRelaunch": true,
+  "deviceDefaultResetPersistedAfterSecondRelaunch": true,
+  "systemLanguageChanged": false,
+  "testPackage": "com.trailnest.app.draft",
+  "frenchEvidence": [
+    "artifacts/reports/lat-device/language-final-fr-persisted.xml",
+    "artifacts/reports/lat-device/language-fr-persisted-final.png"
+  ],
+  "resetEvidence": [
+    "artifacts/reports/lat-device/language-device-reset-final.png",
+    "artifacts/reports/lat-device/language-device-persisted-final.png"
+  ],
+  "verification": "UI selection, force-stop/relaunch and inspected screenshots/hierarchies; no private preference injection"
+}

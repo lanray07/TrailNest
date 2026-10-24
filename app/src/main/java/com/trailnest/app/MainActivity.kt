@@ -71,15 +71,19 @@ class MainActivity : AppCompatActivity(), LocationListener {
     }
     override fun onNewIntent(intent: Intent) {
         super.onNewIntent(intent)
-        setIntent(intent)
-        consumeRecordingIntent()
+        openRecordingIntent(intent)
     }
-    private fun consumeRecordingIntent() {
+    private fun openRecordingIntent(intent: Intent) {
         if (intent.action == WalkRecordingService.OPEN) {
             recordingPage++
-            // Activity recreation for language changes must not replay navigation.
-            setIntent(Intent(intent).setAction(null))
         }
+    }
+    override fun onSaveInstanceState(outState: Bundle) {
+        // Keep the launch Intent stable for Android lifecycle observers. A saved
+        // activity has already handled its initial navigation; fresh intents are
+        // always handled separately in onNewIntent.
+        outState.putBoolean("recording_launch_handled", true)
+        super.onSaveInstanceState(outState)
     }
     private val audioManager by lazy { getSystemService(AUDIO_SERVICE) as AudioManager }
     private val audioFocus by lazy { AudioFocusRequest.Builder(AudioManager.AUDIOFOCUS_GAIN_TRANSIENT_MAY_DUCK)
@@ -111,7 +115,7 @@ class MainActivity : AppCompatActivity(), LocationListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         billing.start()
-        consumeRecordingIntent()
+        if (savedInstanceState?.getBoolean("recording_launch_handled") != true) openRecordingIntent(intent)
         tts = TextToSpeech(this) { status ->
             voiceReady = status == TextToSpeech.SUCCESS && (tts?.setLanguage(resources.configuration.locales[0]) ?: -1) >= TextToSpeech.LANG_AVAILABLE
         }
