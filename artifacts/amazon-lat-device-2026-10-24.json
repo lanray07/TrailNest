@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-24",
+  "appId": "amzn1.devportal.mobileapp.a5a90d52147643eeaca74c16ac6f8d94",
+  "releaseId": "amzn1.devportal.apprelease.ae8fab0c47624aa98575b31a06360bc2",
+  "test": "Test 1",
+  "releaseName": "TrailNest 0.8.1 premium icon LAT",
+  "consoleStatus": "Test in-progress",
+  "asin": "B0HP3R43FK",
+  "device": {
+    "model": "KFTRWI",
+    "api": 28,
+    "unlocked": true,
+    "package": "com.trailnest.app",
+    "versionName": "0.8.1-lat",
+    "versionCode": 9,
+    "installer": "com.amazon.venezia",
+    "sandboxMode": "none"
+  },
+  "installation": {
+    "initialLatPackageAbsent": true,
+    "downloadedDirectlyThroughAmazonAppstore": true,
+    "freeDownloadObserved": true,
+    "launchPassed": true,
+    "classesDexMatchesUploadedApk": true,
+    "amazonPublicKeyMatchesUploadedApk": true,
+    "verifierPublicKeyMatchesUploadedApk": true
+  },
+  "catalog": {
+    "parentSku": "com.trailnest.premium",
+    "termSku": "com.trailnest.premium_term",
+    "consoleTestStatus": "Approved",
+    "consoleTermStatus": "Live",
+    "consoleTerm": "Annually",
+    "consoleGbPrice": "GBP 4.99",
+    "sdkMode": "Production, as required for LAT",
+    "sdkMarketplace": "GB",
+    "userDataReceived": true,
+    "sdkProductResponseDataEmpty": true,
+    "annualOfferVisible": false,
+    "subscribeDisabledObserved": true,
+    "rootCause": "Unresolved: approved annual SKU not returned in the current Amazon GB LAT session; no term-normalization or authentication fix is established"
+  },
+  "restore": {
+    "triggered": true,
+    "premiumGrantedObserved": false
+  },
+  "verifierReadinessStatus": 204,
+  "purchaseAttempted": false,
+  "checkoutCancellationTestCompleted": false,
+  "activeReceiptVerified": false,
+  "fulfillmentObserved": false,
+  "acceptance": "Blocked at offer availability; successful purchase/restore/renewal acceptance not passed",
+  "diagnostics": {
+    "temporaryKiwiTagRestored": true,
+    "rawPrivateLogsRemoved": true,
+    "accountIdentifiersCommitted": false,
+    "receiptIdentifiersCommitted": false,
+    "secretsCommitted": false
+  },
+  "currentSourceVersion": "0.8.3",
+  "newApkUploaded": false,
+  "proof": "artifacts/reports/lat-device/offer-final.png"
+}

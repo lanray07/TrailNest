@@ -2,6 +2,14 @@
 
 Build date: 23 October 2026. Commands run in `D:\App Projects\TrailNest` using JDK 17, Android SDK 35, AGP 8.11.1 and Gradle 8.13.
 
+## Physical Amazon-distributed LAT check — 24 October 2026
+
+The owner connected/unlocked the Fire tablet and reported Test 1 downloaded. Initially only the isolated `.draft` development package was installed. Opened the observed Test 1 ASIN directly in Amazon Appstore, completed its **Free Download**, and verified installation of `com.trailnest.app`, **0.8.1-lat/code 9**, with installer **com.amazon.venezia** on KFTRWI/API 28. Sandbox mode remained `none`. The console shows `TrailNest 0.8.1 premium icon LAT` **Test in-progress**. Installed `classes.dex`, Amazon authentication public key and LAT verifier public key match the uploaded 0.8.1 APK; this is an Amazon-distributed LAT installation, not a sideload.
+
+Launch and Settings worked. The app displayed **No annual offer is available from Amazon right now**, with Subscribe disabled. Restore was triggered and did not display a Premium entitlement. Targeted temporary Kiwi logging showed production SDK mode, successful command results/user data for marketplace GB and an empty product-response data object. The `UNAVAILABLE` field belonged to optional LWA consent, not authentication failure. The console independently shows the correct parent/term SKUs, TEST **Approved**, annual term **Live** and GBP 4.99. The catalog root cause is not established; do not change annual-term validation or keys based on this observation. LAT verifier readiness returned **204**.
+
+The offer-unavailable condition reproduced after refresh/restart. No checkout, cancellation, purchase, signed receipt acceptance or fulfillment was completed. Full billing acceptance remains blocked at catalog availability. Restored the temporary log tag and removed raw private SDK logs; only sanitized observations are committed. No accounts, subscription resets, production settings or APK uploads were changed. Source 0.8.3 is newer than the installed LAT binary. [Sanitized device evidence](../artifacts/amazon-lat-device-2026-10-24.json); local screen proof: `artifacts/reports/lat-device/offer-final.png`.
+
 ## Android 0.8.3 owner translation-policy change
 
 The owner explicitly waived human translation review on 23 October 2026. Recorded that policy in `config/locales.json`, removed the translation draft banner and its build flag, and updated translation/release checks to use policy acceptance. All 19 locales pass `node tools/localise.mjs --check --generate --release`. Provenance, source fingerprints and actual review history remain intact; no reviewer or approval is fabricated. Missing/stale strings, protected terms, placeholders, plurals and hardcoded UI checks still apply. Unrelated release prerequisites remain in place.
