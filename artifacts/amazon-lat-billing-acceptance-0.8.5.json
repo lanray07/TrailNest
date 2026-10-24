@@ -1,0 +1,54 @@
+{
+  "checkedOn": "2026-10-24",
+  "package": "com.trailnest.app",
+  "versionName": "0.8.5-lat",
+  "versionCode": 13,
+  "installer": "com.amazon.venezia",
+  "sandboxMode": "none",
+  "test": "Test 1",
+  "releaseId": "amzn1.devportal.apprelease.5fa07afa050744c3b86656e484b2c1df",
+  "parentSku": "com.trailnest.premium",
+  "annualSku": "com.trailnest.premium_term",
+  "displayedAnnualPrice": "GBP 4.99",
+  "latNoChargeDocumentation": "https://developer.amazon.com/docs/in-app-purchasing/iap-lat.html#promote-in-app-item-to-live-app",
+  "ownerExplicitlyAuthorizedCheckoutAndTerms": true,
+  "canceledCheckout": {
+    "performedBeforeCompletedPurchase": true,
+    "premiumGrantObserved": false,
+    "subscribeRemainedVisible": true
+  },
+  "completedCheckout": {
+    "verifyAndSubscribePressedOnce": true,
+    "amazonOrderCompleteObserved": true,
+    "authenticationChallengeObserved": false,
+    "premiumVerificationValidObserved": true,
+    "subscribeRemovedObserved": true,
+    "receiptSignatureAndBindingAcceptanceEvidence": "Premium state is reachable only after HTTPS verifier returns a signed lease, LeaseGuard verifies RSA signature, package, LAT environment, account/receipt hashes, parent and annual SKUs, and expiry, and durable private cache write succeeds.",
+    "fulfillmentEvidence": "The same verified and persisted grant path calls notifyFulfillment(FULFILLED); no independent Amazon fulfillment acknowledgment was captured.",
+    "rawReceiptOrAccountIdentifiersRetainedInReport": false,
+    "bankStatementChargeAuditPerformed": false
+  },
+  "restore": {
+    "triggeredAfterPremiumActivation": true,
+    "premiumRetained": true,
+    "verificationValidUntilAdvancedObserved": true
+  },
+  "processRestart": {
+    "forceStoppedThenRelaunched": true,
+    "premiumVerificationValidObserved": true,
+    "subscribeAbsent": true
+  },
+  "safety": {
+    "dataCleared": false,
+    "subscriptionsReset": false,
+    "appUninstalled": false,
+    "accountOrSecurityChanged": false,
+    "verificationChecksWeakened": false,
+    "publicAppstoreSubmitted": false
+  },
+  "evidenceDirectory": "artifacts/reports/amazon-setup",
+  "screenshots": ["after-subscribe.png", "entitlement.png", "restore-success.png", "restart-premium.png"],
+  "requestedCoreChecksPassed": true,
+  "fullCommercialBillingAcceptanceComplete": false,
+  "remaining": ["Renewal and expiry scenarios", "Refund and cancellation lifecycle", "Offline and verifier-failure scenarios", "Independent fulfillment acknowledgment", "Production configuration and release acceptance"]
+}
