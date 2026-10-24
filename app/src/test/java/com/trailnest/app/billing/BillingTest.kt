@@ -88,6 +88,36 @@ class BillingTest {
     @Test fun authoritativeEmptyRestoreClearsCache() { Fixture().use { f -> f.ready(); f.engine.buy(); f.purchase(); f.identity(); f.updates(emptyList()); /* Recent successful checkout is retained until RVS says otherwise. */ f.answer = { _, _ -> ReceiptResult.Denied }; f.identity(); f.updates(emptyList()); assertFalse(f.engine.state.value.premium) } }
     @Test fun coldStartEmptyHistoryClearsPreviouslyCachedLease() { Fixture().use { f -> f.cache.value = f.guard.checkpoint(f.guard.verify(token(f.clock),"user")!!); f.identity(); assertTrue(f.engine.state.value.premium); f.updates(emptyList()); assertFalse(f.engine.state.value.premium); assertNull(f.cache.value) } }
     @Test fun networkFailureUsesOnlyBoundUnexpiredCache() { Fixture().use { f -> f.cache.value = f.guard.checkpoint(f.guard.verify(token(f.clock),"user")!!); f.identity(); f.answer = { _, _ -> ReceiptResult.Retry }; f.updates(listOf(f.receipt)); assertTrue(f.engine.state.value.premium); f.clock.advance(100_000); f.engine.tick(); assertFalse(f.engine.state.value.premium); assertTrue(f.store.fulfilled.isEmpty()) } }
+    @Test fun renewedReceiptRestoresAfterExpiryButRefundCannotBeResurrectedByOutage() { Fixture().use { f ->
+        f.ready(); f.engine.buy(); f.purchase()
+        val firstExpiry = f.engine.state.value.premiumUntil!!
+        f.clock.advance(100_000); f.engine.tick(); assertFalse(f.engine.state.value.premium)
+        // Amazon may reuse the receipt ID across a continuous renewal.
+        f.identity(); f.updates(listOf(f.receipt))
+        assertTrue(f.engine.state.value.premiumUntil!! > firstExpiry)
+        val fulfilledBeforeRefund = f.store.fulfilled.size
+        f.answer = { _, _ -> ReceiptResult.Denied }
+        f.identity(); f.updates(listOf(f.receipt))
+        assertFalse(f.engine.state.value.premium); assertNull(f.cache.value)
+        f.answer = { _, _ -> ReceiptResult.Retry }
+        f.identity(); f.updates(listOf(f.receipt))
+        assertFalse(f.engine.state.value.premium); assertNull(f.cache.value)
+        assertEquals(fulfilledBeforeRefund, f.store.fulfilled.size)
+    } }
+    @Test fun repeatedOfflineRestoresNeverExtendTheSignedExpiry() { Fixture().use { f ->
+        f.ready(); f.engine.buy(); f.purchase()
+        val originalCache = f.cache.value!!
+        f.answer = { _, _ -> ReceiptResult.Retry }
+        repeat(3) {
+            f.clock.advance(30_000); f.identity(); f.updates(listOf(f.receipt))
+            assertTrue(f.engine.state.value.premium)
+            assertEquals(originalCache, f.cache.value)
+        }
+        f.clock.advance(10_000); f.engine.tick()
+        assertFalse(f.engine.state.value.premium)
+        f.identity(); f.updates(listOf(f.receipt))
+        assertFalse(f.engine.state.value.premium); assertNull(f.cache.value)
+    } }
     @Test fun denialClearsMatchingCacheEvenWhenAnotherReceiptNeedsRetry() { Fixture().use { f -> f.cache.value = f.guard.checkpoint(f.guard.verify(token(f.clock),"user")!!); f.identity(); f.answer = { _, r -> if(r == "receipt") ReceiptResult.Denied else ReceiptResult.Retry }; f.updates(listOf(f.receipt,StoreReceipt("other","parent","SUBSCRIPTION"))); assertFalse(f.engine.state.value.premium) } }
     @Test fun revokedLeaseIsSuppressedEvenWhenDiskClearFails() { Fixture().use { f -> f.cache.value = f.guard.checkpoint(f.guard.verify(token(f.clock),"user")!!); f.cache.failClear = true; f.identity(); f.answer = { _, _ -> ReceiptResult.Denied }; f.updates(listOf(f.receipt)); assertNotNull(f.cache.value); assertFalse(f.engine.state.value.premium); f.engine.tick(); assertFalse(f.engine.state.value.premium) } }
     @Test fun accountSwitchRejectsCachedLeaseAndStaleUserCallback() { Fixture().use { f -> f.cache.value = f.guard.checkpoint(f.guard.verify(token(f.clock),"user")!!); f.identity(); val stale = f.store.userRequest; f.engine.refresh(); f.store.callback(StoreEvent.User(stale,"user")); assertFalse(f.engine.state.value.premium); f.store.callback(StoreEvent.User(f.store.userRequest,"different")); assertFalse(f.engine.state.value.premium); assertNull(f.cache.value) } }

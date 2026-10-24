@@ -1,0 +1,50 @@
+{
+  "checkedOn": "2026-10-24",
+  "package": "com.trailnest.app",
+  "versionName": "0.8.5-lat",
+  "versionCode": 13,
+  "coreAcceptanceRecord": "amazon-lat-billing-acceptance-0.8.5.json",
+  "kindle": {
+    "api": 28,
+    "warmOfflinePremiumRetained": true,
+    "signedExpiryExtendedWhileOffline": false,
+    "coldStartOfflineResult": "inconclusive",
+    "coldStartInterruption": "Another active tablet task launched its app during the observation window; no TrailNest cold-start verdict is claimed.",
+    "originalWifiEnabled": true,
+    "wifiRestoredEnabled": true,
+    "furtherDeviceActionsStoppedAfterConflict": true,
+    "screenshotsDirectory": "artifacts/reports/amazon-setup",
+    "warmOfflineScreenshot": "offline-warm.png",
+    "existingSubscriptionReset": false,
+    "accelerationEnabledByThisPass": false,
+    "actualRenewalObserved": false,
+    "actualRefundOrRevocationPerformed": false
+  },
+  "automatedChecks": {
+    "androidUnitTests": 64,
+    "androidFailures": 0,
+    "backendTests": 17,
+    "backendFailures": 0,
+    "toolingTests": 10,
+    "toolingFailures": 0,
+    "newLifecycleTests": [
+      "Same-receipt renewal after expiry, then refund followed by verifier outage",
+      "Repeated offline restores retain only the original signed expiry",
+      "Backend signed lease renewal, future cancellation boundary, effective refund and outage"
+    ],
+    "testData": "Isolated QA identities, ephemeral test signing key and controlled clocks; no live receipts fabricated."
+  },
+  "runtimeSourceChanged": false,
+  "verificationGuardsWeakened": false,
+  "actualLifecycleAcceptanceComplete": false,
+  "remaining": [
+    "Exclusive Kindle test window for cold-start offline restore and recovery",
+    "Owner approval before accelerated testing cancels the existing test subscription",
+    "Actual Amazon annual accelerated renewal and expiry observations",
+    "Actual refund/revocation observation, distinguished from a console reset"
+  ],
+  "references": [
+    "https://developer.amazon.com/docs/app-testing/accelerated-subscriptions-introduction.html",
+    "https://developer.amazon.com/docs/app-testing/accelerated-subscriptions-time-table.html"
+  ]
+}

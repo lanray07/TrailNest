@@ -44,6 +44,26 @@ test('future cancellation caps access and grace extends a past renewal without o
   assert.throws(()=>receiptExpiry({...receipt,cancelDate:now,gracePeriodEndDate:now+2000},request,config,now),denied);
   assert.equal(receiptExpiry({...receipt,renewalDate:null,autoRenewing:false},request,config,now),now+MAX_LEASE_MS);
 });
+
+test('continuous renewal advances a signed lease but effective refund and later outage issue none',async()=>{
+  let time=now, current={...receipt,renewalDate:now+1000}, status=200;
+  const verifier=createVerifier(config,{now:()=>time,fetchImpl:async()=>response(current,status)});
+  const fields=result=>Buffer.from(result.lease.split('.')[0],'base64url').toString().split('\n');
+  assert.equal(Number(fields(await verifier(request))[8]),now+1000);
+  time+=1000;
+  await assert.rejects(verifier(request),denied);
+  current={...current,renewalDate:time+2000};
+  const renewed=fields(await verifier(request));
+  assert.equal(renewed[4],hash(request.receiptId));
+  assert.equal(Number(renewed[7]),time);
+  assert.equal(Number(renewed[8]),time+2000);
+  current={...current,cancelDate:time+500};
+  assert.equal(Number(fields(await verifier(request))[8]),time+500);
+  time+=500;
+  await assert.rejects(verifier(request),denied);
+  status=503;
+  await assert.rejects(verifier(request),error=>error.status===503);
+});
 test('RVS error mapping denies revoked receipts; outage/credentials/throttling/redirect remain retryable',async()=>{
   for(const status of [400,410,497])await assert.rejects(make({},async()=>response({},status))(request),denied);
   for(const status of [429,496,500,302])await assert.rejects(make({},async()=>response({},status))(request),e=>e.status===503&&!e.message.includes(config.sharedSecret));
