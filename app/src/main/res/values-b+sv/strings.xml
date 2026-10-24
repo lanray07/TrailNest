@@ -11,6 +11,8 @@
     <string name="billing_benefit">Premium tillåter fler privata GPX-geometripaket. Licensierade kartor och utvalda rutter är inte tillgängliga.</string>
     <string name="billing_no_offer">Inget årsabonnemang från Amazon är tillgängligt just nu.</string>
     <string name="billing_limit">Gratiskonton kan behålla ett geometripaket. Ta bort ett paket eller återställ en aktiv prenumeration.</string>
+    <string name="language_title">Appspråk</string>
+    <string name="language_device">Använd enhetens språk</string>
     <string name="navigation_open">Öppna navigering</string>
     <string name="navigation_close">Stäng navigering</string>
     <string name="packs_empty_title">Ta din rutt med dig.</string>

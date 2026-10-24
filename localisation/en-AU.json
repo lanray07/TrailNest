@@ -2330,5 +2330,17 @@
     "sourceHash": "327fd324d160203df270c66d6cabac09a6120037a5d351c6e87f1df9b4acc9cb",
     "reviewed": false,
     "provenance": "agent billing draft; human linguistic and commercial-terms review pending"
+  },
+  "language_title": {
+    "text": "App language",
+    "sourceHash": "328f384847f7d268813200844abd48eda71fc8a8d717430f7e5e0bffa8229dbe",
+    "reviewed": false,
+    "provenance": "agent_authored_language_picker_2026-10-24"
+  },
+  "language_device": {
+    "text": "Use device language",
+    "sourceHash": "ea8c5b00e0d5c66b0caec1eb12ec0105d369679c2bbadaf63c6b2f45b76b6da8",
+    "reviewed": false,
+    "provenance": "agent_authored_language_picker_2026-10-24"
   }
 }

@@ -11,6 +11,8 @@
     <string name="billing_benefit">Premiumでは非公開のGPXジオメトリパックを追加で保存できます。ライセンス付き地図と選定ルートは利用できません。</string>
     <string name="billing_no_offer">現在、Amazonの年間プランは利用できません。</string>
     <string name="billing_limit">無料アカウントはジオメトリパックを1つ保存できます。パックを削除するか、有効なサブスクリプションを復元してください。</string>
+    <string name="language_title">アプリの言語</string>
+    <string name="language_device">端末の言語を使用</string>
     <string name="navigation_open">ナビゲーションを開く</string>
     <string name="navigation_close">ナビゲーションを閉じる</string>
     <string name="packs_empty_title">自分のルートを持ち歩きましょう。</string>

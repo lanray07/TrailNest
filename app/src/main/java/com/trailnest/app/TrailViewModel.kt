@@ -28,14 +28,14 @@ class TrailViewModel(app: Application) : AndroidViewModel(app) {
     fun finishRecording(title: String, notes: String) {
         val draft = recording.value ?: return
         if (draft.running || recordingBusy.value) return
-        if (title.isBlank()) { message.value = getApplication<Application>().getString(R.string.recording_title_required); return }
+        if (title.isBlank()) { message.value = androidx.core.content.ContextCompat.getString(getApplication(), R.string.recording_title_required); return }
         recordingBusy.value = true
         viewModelScope.launch {
             try {
                 // Stable session ID plus INSERT IGNORE also handles a crash after DB commit but before draft removal.
                 dao.insertRecording(Walk(draft.id, title.trim().take(120), draft.startedAt, draft.metres,
                     ((draft.activeMillis + 59_999) / 60_000).coerceAtLeast(1).coerceAtMost(Int.MAX_VALUE.toLong()).toInt(),
-                    getApplication<Application>().resources.getQuantityString(R.plurals.recording_saved_notes,
+                    androidx.core.content.ContextCompat.getContextForLanguage(getApplication()).resources.getQuantityString(R.plurals.recording_saved_notes,
                         (draft.activeMillis / 1000).coerceAtMost(Int.MAX_VALUE.toLong()).toInt(), draft.activeMillis / 1000) +
                         if (notes.isBlank()) "" else "\n" + notes.take(5000), 0, false))
                 recorder.clear(draft.id)

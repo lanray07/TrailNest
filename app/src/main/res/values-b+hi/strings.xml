@@ -11,6 +11,8 @@
     <string name="billing_benefit">Premium से अधिक निजी GPX ज्यामिति पैक रखे जा सकते हैं। लाइसेंस वाले मानचित्र और चुने हुए मार्ग उपलब्ध नहीं हैं।</string>
     <string name="billing_no_offer">अभी Amazon का कोई वार्षिक ऑफ़र उपलब्ध नहीं है।</string>
     <string name="billing_limit">मुफ़्त खाते एक ज्यामिति पैक रख सकते हैं। कोई पैक हटाएँ या सक्रिय सदस्यता बहाल करें।</string>
+    <string name="language_title">ऐप की भाषा</string>
+    <string name="language_device">डिवाइस की भाषा का उपयोग करें</string>
     <string name="navigation_open">नेविगेशन खोलें</string>
     <string name="navigation_close">नेविगेशन बंद करें</string>
     <string name="packs_empty_title">अपना मार्ग अपने साथ लें।</string>

@@ -11,6 +11,8 @@
     <string name="billing_benefit">Premium erlaubt zusätzliche private GPX-Geometriepakete. Lizenzierte Karten und kuratierte Routen sind nicht verfügbar.</string>
     <string name="billing_no_offer">Derzeit ist kein Jahresangebot von Amazon verfügbar.</string>
     <string name="billing_limit">Kostenlose Konten können ein Geometriepaket speichern. Entfernen Sie ein Paket oder stellen Sie ein aktives Abo wieder her.</string>
+    <string name="language_title">App-Sprache</string>
+    <string name="language_device">Gerätesprache verwenden</string>
     <string name="navigation_open">Navigation öffnen</string>
     <string name="navigation_close">Navigation schließen</string>
     <string name="packs_empty_title">Nehmen Sie Ihre Route mit.</string>

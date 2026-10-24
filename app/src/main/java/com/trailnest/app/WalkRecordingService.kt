@@ -30,7 +30,7 @@ class WalkRecordingService : Service(), LocationListener {
             return START_NOT_STICKY
         }
         getSystemService(NotificationManager::class.java).createNotificationChannel(
-            NotificationChannel(CHANNEL, getString(R.string.recording_channel), NotificationManager.IMPORTANCE_LOW))
+            NotificationChannel(CHANNEL, ContextCompat.getString(this, R.string.recording_channel), NotificationManager.IMPORTANCE_LOW))
         try {
             if (Build.VERSION.SDK_INT >= 29) startForeground(ID, notification(), ServiceInfo.FOREGROUND_SERVICE_TYPE_LOCATION)
             else startForeground(ID, notification())
@@ -45,7 +45,7 @@ class WalkRecordingService : Service(), LocationListener {
             providers.forEach { locations.requestLocationUpdates(it, 3_000L, 0f, this) }
             listening = true
             handler.removeCallbacks(ticker); handler.post(ticker)
-        } catch (_: Exception) { store.error.value = getString(R.string.recording_start_failed); pause(); stopForeground(STOP_FOREGROUND_REMOVE); stopSelf() }
+        } catch (_: Exception) { store.error.value = ContextCompat.getString(this, R.string.recording_start_failed); pause(); stopForeground(STOP_FOREGROUND_REMOVE); stopSelf() }
         return START_NOT_STICKY
     }
     private fun pause() {
@@ -65,10 +65,10 @@ class WalkRecordingService : Service(), LocationListener {
             .addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP or Intent.FLAG_ACTIVITY_CLEAR_TOP), PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT)
         val paused = store.state.value?.running != true
         return Notification.Builder(this, CHANNEL).setSmallIcon(R.drawable.ic_recording)
-            .setContentTitle(getString(if (paused) R.string.recording_paused else R.string.recording_active))
-            .setContentText(getString(R.string.recording_notification)).setContentIntent(open).setOngoing(true)
+            .setContentTitle(ContextCompat.getString(this, if (paused) R.string.recording_paused else R.string.recording_active))
+            .setContentText(ContextCompat.getString(this, R.string.recording_notification)).setContentIntent(open).setOngoing(true)
             .setOnlyAlertOnce(true).apply {
-                if (!paused) addAction(Notification.Action.Builder(null, getString(R.string.pause_recording),
+                if (!paused) addAction(Notification.Action.Builder(null, ContextCompat.getString(this@WalkRecordingService, R.string.pause_recording),
                     PendingIntent.getService(this@WalkRecordingService, 1, Intent(this@WalkRecordingService, WalkRecordingService::class.java).setAction(PAUSE), PendingIntent.FLAG_IMMUTABLE)).build())
             }.build()
     }

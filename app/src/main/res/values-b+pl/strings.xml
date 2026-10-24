@@ -11,6 +11,8 @@
     <string name="billing_benefit">Premium pozwala przechowywać więcej prywatnych pakietów geometrii GPX. Licencjonowane mapy i wybrane trasy są niedostępne.</string>
     <string name="billing_no_offer">Obecnie Amazon nie udostępnia oferty rocznej.</string>
     <string name="billing_limit">Darmowe konta mogą przechowywać jeden pakiet geometrii. Usuń pakiet lub przywróć aktywną subskrypcję.</string>
+    <string name="language_title">Język aplikacji</string>
+    <string name="language_device">Użyj języka urządzenia</string>
     <string name="navigation_open">Otwórz nawigację</string>
     <string name="navigation_close">Zamknij nawigację</string>
     <string name="packs_empty_title">Zabierz ze sobą trasę.</string>

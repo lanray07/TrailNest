@@ -11,6 +11,8 @@
     <string name="billing_benefit">Premium staat meer privé GPX-geometriepakketten toe. Kaarten met licentie en geselecteerde routes zijn niet beschikbaar.</string>
     <string name="billing_no_offer">Er is momenteel geen jaaraanbod van Amazon beschikbaar.</string>
     <string name="billing_limit">Gratis accounts kunnen één geometriepakket bewaren. Verwijder een pakket of herstel een actief abonnement.</string>
+    <string name="language_title">App-taal</string>
+    <string name="language_device">Apparaattaal gebruiken</string>
     <string name="navigation_open">Navigatie openen</string>
     <string name="navigation_close">Navigatie sluiten</string>
     <string name="packs_empty_title">Neem je route mee.</string>

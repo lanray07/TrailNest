@@ -11,6 +11,8 @@
     <string name="billing_benefit">Premium allows more private GPX geometry packs. Licensed maps and curated routes are unavailable.</string>
     <string name="billing_no_offer">No annual offer is available from Amazon right now.</string>
     <string name="billing_limit">Free accounts can keep one geometry pack. Remove a pack or restore an active subscription.</string>
+    <string name="language_title">App language</string>
+    <string name="language_device">Use device language</string>
     <string name="navigation_open">Open navigation</string>
     <string name="navigation_close">Close navigation</string>
     <string name="packs_empty_title">Take your route with you.</string>

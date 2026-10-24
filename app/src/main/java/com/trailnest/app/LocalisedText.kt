@@ -12,7 +12,7 @@ import java.util.Locale
 
 fun Context.userMessage(error: Throwable, @StringRes fallback: Int): String {
     val id = if (error is TextFailure) errorResources[error.resourceName] ?: fallback else fallback
-    return getString(id)
+    return androidx.core.content.ContextCompat.getString(this, id)
 }
 
 fun Context.distanceText(metres: Double, imperial: Boolean, locale: Locale = resources.configuration.locales[0]): String {
@@ -26,7 +26,7 @@ fun Context.distanceText(metres: Double, imperial: Boolean, locale: Locale = res
 private val defaultKit = listOf(R.string.checklist_default_0, R.string.checklist_default_1, R.string.checklist_default_2,
     R.string.checklist_default_3, R.string.checklist_default_4, R.string.checklist_default_5, R.string.checklist_default_6,
     R.string.checklist_default_7, R.string.checklist_default_8, R.string.checklist_default_9, R.string.checklist_default_10)
-fun Context.checklistDefault(index: Int) = getString(defaultKit[index])
+fun Context.checklistDefault(index: Int) = androidx.core.content.ContextCompat.getString(this, defaultKit[index])
 @Composable fun checklistDefault(index: Int) = stringResource(defaultKit[index])
 fun Context.englishChecklistDefault(index: Int): String {
     val config = android.content.res.Configuration(resources.configuration).apply { setLocale(Locale.UK) }

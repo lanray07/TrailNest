@@ -11,6 +11,8 @@
     <string name="billing_benefit">Premium 允许保存更多私人 GPX 几何数据包。授权地图和精选路线暂不可用。</string>
     <string name="billing_no_offer">Amazon 目前没有可用的年度优惠。</string>
     <string name="billing_limit">免费账户可保留一个几何数据包。请移除一个数据包或恢复有效订阅。</string>
+    <string name="language_title">应用语言</string>
+    <string name="language_device">使用设备语言</string>
     <string name="navigation_open">打开导航</string>
     <string name="navigation_close">关闭导航</string>
     <string name="packs_empty_title">随身携带您的路线。</string>

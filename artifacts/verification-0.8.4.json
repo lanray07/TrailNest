@@ -1,0 +1,27 @@
+{
+  "version": "0.8.4",
+  "versionCode": 12,
+  "buildPassed": true,
+  "unitTestsPassed": 62,
+  "toolingTestsPassed": 10,
+  "localesAccepted": 19,
+  "resourceStrings": 261,
+  "pluralResources": 4,
+  "debugLint": {
+    "warnings": 42,
+    "errors": 0
+  },
+  "latLint": {
+    "warnings": 40,
+    "errors": 0
+  },
+  "latSignatureVerified": [
+    "v2",
+    "v3"
+  ],
+  "deviceBaselineLanguageTestPassed": true,
+  "finalDeviceAcceptanceComplete": false,
+  "deviceEvidence": "artifacts/language-picker-device-verification.json",
+  "deviceWorkStoppedForDishNest": true,
+  "productionSubmissionApproved": false
+}

@@ -35,8 +35,8 @@ android {
         applicationId = "com.trailnest.app"
         minSdk = 26
         targetSdk = 35
-        versionCode = 11
-        versionName = "0.8.3"
+        versionCode = 12
+        versionName = "0.8.4"
         buildConfigField("boolean", "LAT_BUILD", "false")
         buildConfigField("boolean", "BILLING_ENABLED", billingEnabled.toString())
         buildConfigField("String", "BILLING_ENVIRONMENT", billingLiteral(billingEnvironment))
@@ -77,6 +77,7 @@ android {
     }
 }
 dependencies {
+    implementation("androidx.appcompat:appcompat:1.7.0")
     implementation("com.amazon.device:amazon-appstore-sdk:3.0.9")
     implementation(platform("androidx.compose:compose-bom:2025.04.01"))
     implementation("androidx.activity:activity-compose:1.10.1")

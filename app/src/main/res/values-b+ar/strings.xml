@@ -11,6 +11,8 @@
     <string name="billing_benefit">يسمح Premium بمزيد من حزم أشكال GPX الخاصة. الخرائط المرخّصة والمسارات المختارة غير متاحة.</string>
     <string name="billing_no_offer">لا يتوفر عرض سنوي من Amazon حاليًا.</string>
     <string name="billing_limit">يمكن للحسابات المجانية الاحتفاظ بحزمة أشكال واحدة. أزل حزمة أو استعد اشتراكًا نشطًا.</string>
+    <string name="language_title">لغة التطبيق</string>
+    <string name="language_device">استخدام لغة الجهاز</string>
     <string name="navigation_open">فتح التنقل</string>
     <string name="navigation_close">إغلاق التنقل</string>
     <string name="packs_empty_title">خذ طريقك معك.</string>

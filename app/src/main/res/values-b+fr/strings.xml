@@ -11,6 +11,8 @@
     <string name="billing_benefit">Premium permet davantage de packs de géométrie GPX privés. Les cartes sous licence et les itinéraires sélectionnés sont indisponibles.</string>
     <string name="billing_no_offer">Aucune offre annuelle Amazon n’est disponible actuellement.</string>
     <string name="billing_limit">Les comptes gratuits peuvent conserver un pack de géométrie. Supprimez un pack ou restaurez un abonnement actif.</string>
+    <string name="language_title">Langue de l’application</string>
+    <string name="language_device">Utiliser la langue de l’appareil</string>
     <string name="navigation_open">Ouvrir la navigation</string>
     <string name="navigation_close">Fermer la navigation</string>
     <string name="packs_empty_title">Suivez votre itinéraire avec vous.</string>

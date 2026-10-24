@@ -40,10 +40,12 @@ import com.trailnest.app.domain.*
 }
 @OptIn(ExperimentalLayoutApi::class)
 @Composable fun SettingsScreen(prefs: Preferences, toggle: (String) -> Unit, setting: (String, String) -> Unit, voiceReady: Boolean,
-    billing: com.trailnest.app.billing.BillingState = com.trailnest.app.billing.BillingState(), buy: () -> Unit = {}, restore: () -> Unit = {}) {
+    billing: com.trailnest.app.billing.BillingState = com.trailnest.app.billing.BillingState(), buy: () -> Unit = {}, restore: () -> Unit = {},
+    languageTag: String = "", selectLanguage: (String) -> Unit = {}) {
     Page(stringResource(R.string.ui_make_yourself_at_home)) {
         TrailPanel(Modifier.fillMaxWidth()) {
             Heading(stringResource(R.string.ui_your_preferences), true)
+            LanguagePicker(languageTag, selectLanguage)
             Row(Modifier.fillMaxWidth().heightIn(min = 48.dp).testTag("setting-dark").toggleable(prefs[booleanPreferencesKey("dark")] ?: false, role = Role.Switch, onValueChange = { toggle("dark") }), verticalAlignment = androidx.compose.ui.Alignment.CenterVertically) { Switch(prefs[booleanPreferencesKey("dark")] ?: false, onCheckedChange = null); TrailText(stringResource(R.string.ui_dark_appearance), Modifier.weight(1f)) }
             TrailText(stringResource(R.string.ui_distance_units))
             FlowRow(Modifier.selectableGroup(), horizontalArrangement = Arrangement.spacedBy(12.dp)) { FilterChip(prefs[stringPreferencesKey("units")] != "metric", { setting("units", "imperial") }, modifier = Modifier.semantics { role = Role.RadioButton }, label = { TrailText(stringResource(R.string.ui_miles)) }); FilterChip(prefs[stringPreferencesKey("units")] == "metric", { setting("units", "metric") }, modifier = Modifier.semantics { role = Role.RadioButton }, label = { TrailText(stringResource(R.string.ui_kilometres)) }) }

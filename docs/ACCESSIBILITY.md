@@ -4,7 +4,7 @@ The native app uses Material control semantics, localised visible labels and add
 
 Headings expose heading semantics. Pages expose pane titles; navigation and page content have separate traversal groups, and navigation destinations have explicit reading-order indices. The compact menu supports keyboard focus entry, Escape/Back dismissal and returning focus to its toggle. Keyboard input focus and accessibility focus are checked separately.
 
-The dark-appearance setting is one labelled switch row; its drawn switch does not introduce another toggle action. Distance choices expose a single-choice group and radio-button roles. Checklist rows expose one labelled checkbox. Validation messages expose error semantics and a polite live region; recording timers do not announce every update. The route geometry overview has a textual description.
+The dark-appearance setting is one labelled switch row; its drawn switch does not introduce another toggle action. Distance choices expose a single-choice group and radio-button roles. The language picker exposes native language names, a selected radio row, a scrollable list and device-default reset. Its labels wrap and each row allocates at least 48 dp. Checklist rows expose one labelled checkbox. Validation messages expose error semantics and a polite live region; recording timers do not announce every update. The route geometry overview has a textual description.
 
 ## Repeat the checks
 
@@ -24,7 +24,7 @@ The UiAutomation service temporarily requests accessibility-tree information and
 
 ## Human acceptance remains required
 
-See `VERIFICATION.md` and the versioned artifacts for executed results. Automated semantics, native node and focus checks do not prove spoken pronunciation, announcement quality, reader-specific swipe behaviour, gesture usability or translation accuracy. A human should review all drafts with VoiceView/TalkBack, including grouped controls, error announcements, dialog entry/exit, reading order, RTL mixed-script names and alternative input. Other hardware and Android versions still need acceptance testing. These checks do not approve the release-evidence accessibility or translation flags.
+See `VERIFICATION.md` and the versioned artifacts for executed results. Automated semantics, native node and focus checks do not prove spoken pronunciation, announcement quality, reader-specific swipe behaviour, gesture usability or translation accuracy. VoiceView/TalkBack acceptance remains pending for grouped controls, error announcements, dialog entry/exit, reading order, RTL mixed-script names and alternative input. Other hardware and Android versions still need acceptance testing. Translation human review was waived by the owner; this does not claim spoken accessibility acceptance or change translation provenance.
 
 Compose visibility assertions do not detect every separate-window occlusion. The historical 0.6 share captures show the keyboard covering the lower dialog area. Android 0.7 adds a separate real-keyboard matrix checking native button bounds and actual touchscreen dispatch, plus Done/Back/outside dismissal. This passed on the Fire device across all 19 locales; other keyboards/devices and human spoken review remain pending. See `SHARE-KEYBOARD.md` for scope and repetition.
 

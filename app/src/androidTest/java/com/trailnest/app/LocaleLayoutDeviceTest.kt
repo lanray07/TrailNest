@@ -147,6 +147,11 @@ class LocaleLayoutDeviceTest {
                         compose.onNodeWithContentDescription(strings.getString(R.string.accessibility_action_for,strings.getString(R.string.rename_item),subject)).assertExists()
                     }
                     if (screen == "Settings") {
+                        compose.onNodeWithTag("language-picker").performScrollTo().performClick()
+                        compose.onNodeWithTag("language-option-device").assert(SemanticsMatcher.expectValue(SemanticsProperties.Role,Role.RadioButton)).assertIsSelected()
+                        for (language in tags) compose.onNodeWithTag("language-option-$language").performScrollTo().assertIsDisplayed()
+                        checks.put(compose.auditAccessibleControls(app.resources.displayMetrics.density).put("screen","Language picker"))
+                        compose.onNodeWithText(strings.getString(R.string.cancel)).performClick()
                         compose.onNodeWithTag("setting-dark").assert(SemanticsMatcher.expectValue(SemanticsProperties.Role,Role.Switch)).assert(hasText(strings.getString(R.string.ui_dark_appearance))).assertIsOff().performClick().assertIsOn()
                         compose.onNodeWithText(strings.getString(R.string.ui_kilometres)).performScrollTo().assert(SemanticsMatcher.expectValue(SemanticsProperties.Role,Role.RadioButton)).performClick().assertIsSelected()
                         compose.onNodeWithText(strings.getString(R.string.ui_miles)).assertIsNotSelected()

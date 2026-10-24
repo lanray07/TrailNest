@@ -62,7 +62,8 @@ import com.trailnest.app.domain.*
                                     else model.save(route.copy(packed = !route.packed))
                                 }, model::deleteRoute)
                                 "Checklist" -> ChecklistScreen(model.checklist(prefs), model::checkItem, model::addItem, model::renameItem, model::removeItem, model::moveItem, model::resetChecklist, model::restoreChecklist)
-                                "Settings" -> SettingsScreen(prefs, model::toggle, model::setting, voiceReady, billing, onBuy, onRestore)
+                                "Settings" -> SettingsScreen(prefs, model::toggle, model::setting, voiceReady, billing, onBuy, onRestore,
+                                    AppLanguage.selectedTag(), { AppLanguage.select(context, it) })
                                 "Coverage" -> CoverageScreen()
                             }
                 }

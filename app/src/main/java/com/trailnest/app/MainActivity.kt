@@ -8,7 +8,7 @@ import android.location.LocationManager
 import android.os.Bundle
 import android.speech.tts.TextToSpeech
 import android.speech.tts.UtteranceProgressListener
-import androidx.activity.ComponentActivity
+import androidx.appcompat.app.AppCompatActivity
 import androidx.activity.compose.setContent
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.activity.viewModels
@@ -29,7 +29,7 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import java.util.Locale
 
-class MainActivity : ComponentActivity(), LocationListener {
+class MainActivity : AppCompatActivity(), LocationListener {
     private val billing by lazy { AmazonBillingRuntime.get(applicationContext) }
     private val model: TrailViewModel by viewModels()
     private var notice by mutableStateOf<String?>(null)
@@ -71,7 +71,15 @@ class MainActivity : ComponentActivity(), LocationListener {
     }
     override fun onNewIntent(intent: Intent) {
         super.onNewIntent(intent)
-        if (intent.action == WalkRecordingService.OPEN) recordingPage++
+        setIntent(intent)
+        consumeRecordingIntent()
+    }
+    private fun consumeRecordingIntent() {
+        if (intent.action == WalkRecordingService.OPEN) {
+            recordingPage++
+            // Activity recreation for language changes must not replay navigation.
+            setIntent(Intent(intent).setAction(null))
+        }
     }
     private val audioManager by lazy { getSystemService(AUDIO_SERVICE) as AudioManager }
     private val audioFocus by lazy { AudioFocusRequest.Builder(AudioManager.AUDIOFOCUS_GAIN_TRANSIENT_MAY_DUCK)
@@ -103,7 +111,7 @@ class MainActivity : ComponentActivity(), LocationListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         billing.start()
-        if (intent.action == WalkRecordingService.OPEN) recordingPage++
+        consumeRecordingIntent()
         tts = TextToSpeech(this) { status ->
             voiceReady = status == TextToSpeech.SUCCESS && (tts?.setLanguage(resources.configuration.locales[0]) ?: -1) >= TextToSpeech.LANG_AVAILABLE
         }

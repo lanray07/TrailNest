@@ -1,0 +1,27 @@
+[
+  {
+    "sha256": "4f8c2e5fef4ecb5791c1f677f07ab570038df1a60fa867b9b3d6eb99d871d38e",
+    "signed": true,
+    "file": "TrailNest-0.8.4-debug.apk"
+  },
+  {
+    "sha256": "abb412bb582e2abfdcee3ed45efd90db0875f8e73eeb8cc025eaca394e925083",
+    "signed": false,
+    "file": "TrailNest-0.8.4-release-unsigned.apk"
+  },
+  {
+    "sha256": "09738552994ac0a0889977f542f37ff35633042f36dc84a0c14c8249b357bb66",
+    "signed": true,
+    "file": "TrailNest-0.8.4-locales-preview.apk"
+  },
+  {
+    "sha256": "762c31d4bae2cdcbe7928b57873826a53d64018c58252d67242e0879583442b9",
+    "signed": true,
+    "file": "TrailNest-0.8.4-locales-device-tests.apk"
+  },
+  {
+    "sha256": "124c17ad10c9bdce83c4e2fc49b64eb786f104fca8044e261ea5075ae3d581e0",
+    "signed": true,
+    "file": "TrailNest-0.8.4-lat.apk"
+  }
+]
