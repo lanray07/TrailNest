@@ -1,0 +1,51 @@
+{
+  "checkedOn": "2026-10-24",
+  "sourceCommit": "ac11a81851dcacda9fda665117139658de4d21df",
+  "apk": {
+    "file": "TrailNest-0.8.5-lat.apk",
+    "sha256": "34223215463cc4b5b54752cc3367390d40c67b2d83f0ccc13fdff5261a571bd9",
+    "package": "com.trailnest.app",
+    "versionName": "0.8.5-lat",
+    "versionCode": 13,
+    "signatureVerified": ["v2", "v3"]
+  },
+  "amazon": {
+    "track": "Test 1",
+    "releaseId": "amzn1.devportal.apprelease.5fa07afa050744c3b86656e484b2c1df",
+    "releaseName": "TrailNest 0.8.5 languages LAT",
+    "status": "Test in-progress",
+    "existingTestUpdated": true,
+    "existingTesterGroup": "TrailNest annual billing LAT",
+    "selectedFireTabletModels": 12,
+    "selectedTvModels": 0,
+    "selectedAutomotiveModels": 0,
+    "availableSupportedLanguageCheckboxesSelected": 13,
+    "swedishListingCheckboxUnavailable": true,
+    "publicAppstoreSubmitted": false
+  },
+  "kindle": {
+    "model": "KFTRWI",
+    "api": 28,
+    "updateInstalledThroughAppstore": true,
+    "installer": "com.amazon.venezia",
+    "installedPackage": "com.trailnest.app",
+    "installedVersionName": "0.8.5-lat",
+    "installedVersionCode": 13,
+    "launchPassed": true,
+    "premiumInAppIconObserved": true,
+    "all19LocaleOptionsObservedAcrossScrollingPicker": true,
+    "frenchSelectionPassed": true,
+    "frenchPersistedAcrossProcessRestart": true,
+    "originalDeviceLanguagePreferenceRestored": true,
+    "deviceLanguageResetPersistedAcrossProcessRestart": true,
+    "annualOfferUnavailableMessageObserved": true,
+    "subscribeDisabled": true,
+    "purchaseAttempted": false,
+    "dataClearedOrAppUninstalled": false,
+    "sideloadedOverAmazonBuild": false
+  },
+  "priorChecks": "verification-0.8.5.json",
+  "evidenceDirectory": "artifacts/reports/amazon-setup",
+  "billingAcceptanceComplete": false,
+  "productionSubmissionApproved": false
+}
