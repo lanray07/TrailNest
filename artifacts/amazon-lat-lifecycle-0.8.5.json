@@ -17,6 +17,10 @@
     "warmOfflineScreenshot": "offline-warm.png",
     "existingSubscriptionReset": false,
     "accelerationEnabledByThisPass": false,
+    "ownerApprovedTrailNestAcceleration": true,
+    "existingTestAccelerationLockedAfterStart": true,
+    "replacementTestCreated": false,
+    "ownerReservedKindleForCraftfolio": true,
     "actualRenewalObserved": false,
     "actualRefundOrRevocationPerformed": false
   },
@@ -39,12 +43,13 @@
   "actualLifecycleAcceptanceComplete": false,
   "remaining": [
     "Exclusive Kindle test window for cold-start offline restore and recovery",
-    "Owner approval before accelerated testing cancels the existing test subscription",
+    "Replacement LAT setup: Amazon does not allow changing acceleration after Test 1 has started; existing-test approval does not authorize a separate track or ending Test 1",
     "Actual Amazon annual accelerated renewal and expiry observations",
     "Actual refund/revocation observation, distinguished from a console reset"
   ],
   "references": [
     "https://developer.amazon.com/docs/app-testing/accelerated-subscriptions-introduction.html",
-    "https://developer.amazon.com/docs/app-testing/accelerated-subscriptions-time-table.html"
+    "https://developer.amazon.com/docs/app-testing/accelerated-subscriptions-time-table.html",
+    "https://developer.amazon.com/docs/app-testing/live-app-testing-getting-started.html"
   ]
 }
