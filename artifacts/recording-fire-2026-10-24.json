@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-24",
+  "timezone": "Europe/London",
+  "device": {"model": "KFTRWI", "api": 28},
+  "manualBuild": {"package": "com.trailnest.app", "versionName": "0.8.1-lat", "versionCode": 9, "installer": "com.amazon.venezia"},
+  "currentSourceVersion": "0.8.3",
+  "recordingImplementationUnchangedSinceManualBuild": true,
+  "checks": {
+    "foregroundServiceWhileScreenAsleep": true,
+    "activeTimeIncludesShortScreenOffInterval": true,
+    "notificationPause": true,
+    "pauseTimeExcluded": true,
+    "explicitResume": true,
+    "forceStopRecoveredPausedWithWarning": true,
+    "recoveredActiveSeconds": 201,
+    "savedEntryCount": 1,
+    "savedJournalMinutes": 4,
+    "savedDistanceMetres": 0,
+    "savedEntrySurvivesProcessRestart": true,
+    "draftRemovedAfterSave": true,
+    "syntheticEntryRemovedAfterVerification": true
+  },
+  "deviceInstrumentation": {
+    "package": "com.trailnest.app.draft",
+    "versionName": "0.8.3-draft",
+    "passed": 2,
+    "durationSeconds": 7.168,
+    "tests": ["RecordingUiDeviceTest", "PersonalDataDeviceTest#savingRecoveredRecordingIsIdempotentAndPreservesJournalEdits"]
+  },
+  "limitations": ["No reliable location fix or measured outdoor distance", "No real-fix paused-distance acceptance", "No reboot or permission-revocation test", "No prolonged battery/Doze test", "No API 31 approximate-location or API 33 notification-denial test", "No injected commit-to-draft-clear crash in the installed LAT app"],
+  "documentation": "docs/RECORDING.md",
+  "localEvidenceDirectory": "artifacts/reports/lat-device/",
+  "fullFireAcceptanceComplete": false
+}
