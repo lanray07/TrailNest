@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-24",
+  "testedVersion": "0.8.1-lat",
+  "testedVersionCode": 9,
+  "sourceVersion": "0.8.3",
+  "account": {
+    "ownerConfirmedKindleUsesInvitedTester": true,
+    "test1TesterCount": 1,
+    "invitationStatus": "Delivered",
+    "browserIdentityMatchesInvitedTester": true,
+    "accountCredentialsEntered": false,
+    "accountChanged": false
+  },
+  "installedBuildConfig": {
+    "applicationId": "com.trailnest.app",
+    "billingEnabled": true,
+    "debug": false,
+    "latBuild": true,
+    "environment": "lat",
+    "parentSku": "com.trailnest.premium",
+    "annualSku": "com.trailnest.premium_term",
+    "verificationUrl": "https://trailnest-billing-lat.vercel.app/v1/amazon/verify",
+    "source": "Read static fields directly from installed APK classes2.dex"
+  },
+  "skuChecks": {
+    "consoleParentLength": 21,
+    "consoleTermLength": 26,
+    "ascii": true,
+    "noSurroundingWhitespace": true,
+    "matchesInstalledBuild": true,
+    "testStatus": "Approved",
+    "termStatus": "Live",
+    "term": "Annually",
+    "gbPrice": "GBP 4.99"
+  },
+  "client": {
+    "appstoreVersion": "release-9.2810.1.3.9711.0_2002796410",
+    "lastUpdated": "2026-08-01",
+    "inAppPurchasingEnabled": true,
+    "automaticUpdatesEnabled": true,
+    "cacheBefore": "58.00 MB",
+    "cacheAfter": "0 B",
+    "clearStorageUsed": false,
+    "approximately41MbUserDataRetained": true,
+    "protectedForceStopRefused": true,
+    "protectionBypassed": false
+  },
+  "freshProbe": {
+    "getItemDataIssued": true,
+    "emptyProductResponse": true,
+    "annualSkuReturned": false,
+    "authTokenVerificationFailure": false,
+    "sdkParserConfirmedEmptyMapMarksSkuUnavailable": true,
+    "annualTermFilterReachedWithOffer": false,
+    "readinessStatus": 204,
+    "restoreRetried": true,
+    "offerVisible": false,
+    "premiumObserved": false,
+    "purchaseAttempted": false,
+    "signedReceiptAccepted": false,
+    "fulfillmentObserved": false,
+    "proof": "artifacts/reports/lat-device/catalog-retry.png"
+  },
+  "automatedChecks": {
+    "billingUnitTests": 27,
+    "billingUnitFailures": 0,
+    "verifierTests": 16,
+    "verifierFailures": 0
+  },
+  "conclusion": "No app-side SKU, key or term-parsing fix established. Missing SKU occurs in Amazon's catalog response; cache clear and refresh did not resolve it. Exact catalog root cause awaits Amazon investigation.",
+  "appCodeChanged": false,
+  "subscriptionConfigurationChanged": false,
+  "newApkUploaded": false,
+  "support": {
+    "ownerAuthorizedSubmission": true,
+    "caseId": "22783242591",
+    "url": "https://developer.amazon.com/support/cases/22783242591",
+    "status": "In Process: pending Amazon action",
+    "category": "Testing Tool for App",
+    "topic": "Live App Testing - Live App Testing Issues",
+    "osType": "FOS",
+    "body": "artifacts/amazon-lat-catalog-support.txt",
+    "screenshotAttached": true,
+    "confirmation": "artifacts/reports/lat-device/amazon-support-case-22783242591.png"
+  },
+  "cleanup": {
+    "temporaryLoggingRestored": true,
+    "privateAccountCapturesRemoved": true,
+    "rawPrivateLogsCommitted": false,
+    "testerEmailCommitted": false,
+    "receiptIdsCommitted": false,
+    "secretsCommitted": false
+  }
+}

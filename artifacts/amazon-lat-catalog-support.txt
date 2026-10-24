@@ -1,0 +1,44 @@
+Subject: TrailNest LAT Test 1: approved annual TEST SKU missing from GB getProductData response
+
+Please investigate catalog availability for this Live App Test. The annual subscription is approved in Developer Console, but the Amazon-distributed app receives an empty product-data response for its exact term SKU in marketplace GB.
+
+Application: TrailNest
+App ID: amzn1.devportal.mobileapp.a5a90d52147643eeaca74c16ac6f8d94
+LAT track: Test 1
+LAT release: amzn1.devportal.apprelease.ae8fab0c47624aa98575b31a06360bc2
+Release name: TrailNest 0.8.1 premium icon LAT
+Test ASIN: B0HP3R43FK
+Package: com.trailnest.app
+Installed version: 0.8.1-lat / version code 9
+Device: Fire KFTRWI, Fire OS based on Android API 28
+Appstore client: release-9.2810.1.3.9711.0_2002796410 (last updated 1 August 2026)
+Appstore SDK: com.amazon.device:amazon-appstore-sdk:3.0.9
+Marketplace returned by getUserData: GB
+Observed: 24 October 2026; latest retry approximately 07:53 UTC / 08:53 BST
+
+Parent SKU: com.trailnest.premium
+Annual term SKU: com.trailnest.premium_term
+Developer Console: TEST / Approved; annual term Live / Annually; GBP 4.99
+Both SKU input values are exact ASCII, without leading/trailing whitespace.
+
+Reproduction:
+1. Use the invited Test 1 account (owner confirms this is the Kindle's registered account; invitation status is Delivered).
+2. Download/install the TEST 1 app from Amazon Appstore. Installer is com.amazon.venezia, not ADB.
+3. Leave debug.amazon.sandboxmode set to none.
+4. Open TrailNest Settings. It requests PurchasingService.getProductData(setOf("com.trailnest.premium_term")).
+5. The Kiwi getItem_data command returns an empty product data map, {}. The annual offer remains absent and Subscribe is disabled.
+6. Restore/refresh and restarting TrailNest reproduce the same result. No Premium entitlement is granted.
+
+Checks completed:
+- Read the installed APK's BuildConfig: billing enabled, LAT_BUILD=true, DEBUG=false, environment lat, exact expected parent/term SKUs.
+- Amazon authentication public key and LAT verifier public key match the uploaded APK.
+- User data and SDK command responses succeed; no AUTH_TOKEN_VERIFICATION_FAILURE was observed in the targeted retry.
+- Confirmed from the bundled SDK V2 product parser that an empty map makes the requested SKU unavailable before the app's annual-period filter. No term metadata is returned to relax or normalize.
+- Kindle Appstore In-App Purchasing and Automatic Updates are enabled.
+- Cleared only Appstore cache (58 MB to 0 B), retained its approximately 41 MB of user data, and retried. The response stayed empty.
+- Fire OS refuses to force-stop the protected Appstore package; no protection was bypassed.
+- LAT verifier readiness returns HTTP 204; no checkout was started because the offer is absent.
+
+Please confirm that this TEST-only subscription/annual term is published and associated with Test 1 and its GB catalog entry. Please refresh or repair its test-catalog mapping if necessary, or identify a specific configuration/client requirement we have missed.
+
+This report deliberately excludes tester email, Amazon account IDs, receipt IDs, authentication payloads, shared keys and private signing material. Sanitized diagnostics or public configuration hashes can be provided if needed. The full billing suite has not passed; no purchase/receipt-verification/fulfillment success is claimed.
