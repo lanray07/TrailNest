@@ -1,0 +1,60 @@
+{
+  "configuredOn": "2026-10-24",
+  "appId": "amzn1.devportal.mobileapp.a5a90d52147643eeaca74c16ac6f8d94",
+  "track": "Test 2",
+  "releaseId": "amzn1.devportal.apprelease.9986a4a62bac40879b87e146365a0849",
+  "channelId": "amzn1.channel.0bf4a27282ed41c285529ec23aa9bfe9",
+  "releaseName": "TrailNest 0.8.5 accelerated renewal LAT",
+  "statusObserved": "Test submitted",
+  "source": {
+    "copiedFrom": "Test 1",
+    "releaseName": "TrailNest 0.8.5 languages LAT",
+    "existingTrackEditedOrEnded": false,
+    "existingTrackStatusAfterSubmission": "Test in-progress"
+  },
+  "apk": {
+    "copiedExistingFile": true,
+    "file": "TrailNest-0.8.5-lat.apk",
+    "package": "com.trailnest.app",
+    "versionName": "0.8.5-lat",
+    "versionCode": 13,
+    "localSha256Rechecked": "34223215463cc4b5b54752cc3367390d40c67b2d83f0ccc13fdff5261a571bd9"
+  },
+  "configuration": {
+    "acceleratedTimelinesEnabledBeforeSubmission": true,
+    "annualRenewalIntervalMinutes": 30,
+    "appPrice": "Free",
+    "annualIapBasePrice": "GBP 4.99 (no-charge LAT testing)",
+    "testerGroup": "TrailNest annual billing LAT",
+    "otherTesterGroupsSelected": false,
+    "selectedFireTablets": 12,
+    "selectedFireTv": 0,
+    "selectedAutomotive": 0,
+    "listingLanguageCheckboxesInherited": 13,
+    "inAppLocales": 19,
+    "contentQuestionnaire": "Complete, copied",
+    "exportDeclaration": "Existing checked declaration copied without change",
+    "publicAppstoreSubmission": false
+  },
+  "device": {
+    "reservedForCraftfolio": true,
+    "adbUsedThisSetup": false,
+    "test2Installed": false,
+    "purchaseOrRenewalExecuted": false,
+    "subscriptionsResetManually": false
+  },
+  "publicationPending": true,
+  "firstTrack2PublicationMayTakeUpToHours": 24,
+  "evidenceScreenshot": "artifacts/reports/amazon-setup/accelerated-test2-submitted.png",
+  "references": [
+    "https://developer.amazon.com/docs/app-testing/live-app-testing-getting-started.html",
+    "https://developer.amazon.com/docs/app-testing/accelerated-subscriptions-time-table.html"
+  ],
+  "remaining": [
+    "Amazon publication of Test 2 and its tester download link/ASIN",
+    "Explicit owner release of Kindle from Craftfolio",
+    "Install the Test 2 Amazon-distributed build and confirm correct test context",
+    "Authorized free LAT purchase, renewal and expiry verification",
+    "Remaining offline and refund/revocation acceptance"
+  ]
+}
