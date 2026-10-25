@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-25",
+  "ownerApprovedLocalUninstallAndDataDeletion": true,
+  "package": "com.trailnest.app",
+  "localUninstallResult": "Success",
+  "reinstalledFromAmazonAsin": "B0HP35N9SY",
+  "storeBadge": "TEST 2",
+  "storeActionAfterInstallation": "OPEN",
+  "installedVersion": "0.8.5-lat",
+  "installedVersionCode": 13,
+  "installer": "com.amazon.venezia",
+  "firstInstallTimeDisplayed": "2026-10-25 08:53:44",
+  "lastUpdateTimeDisplayed": "2026-10-25 08:53:44",
+  "appDataDeletionWasNotAStoreSubscriptionReset": true,
+  "postInstall": {
+    "launchedFromTest2Listing": true,
+    "libraryShowsTest1AndTest2Open": true,
+    "existingPremiumRestoredWithoutNewCheckout": true,
+    "signedLeaseHorizonApproximatelyHours": 6,
+    "subscribeAbsentWhilePremiumActive": true,
+    "sixHourLeaseDoesNotProveOrDisproveAcceleration": true,
+    "newTest2SubscriptionPurchaseExecuted": false,
+    "actualRenewalOrExpiryObserved": false,
+    "amazonContentSyncExecuted": false
+  },
+  "preserved": {
+    "test1ConsoleTrackUnchanged": true,
+    "test1SubscriptionNotResetOrCanceled": true,
+    "test2SubscriptionNotReset": true,
+    "accountsSecretsAndVerificationGuardsUnchanged": true,
+    "otherAppsNotUninstalled": true
+  },
+  "remaining": "Distinct Test 2 checkout and actual accelerated lifecycle observations; current restored Premium suppresses a new checkout. Obtain owner approval before a reset scoped only to Test 2.",
+  "evidenceDirectory": "artifacts/reports/amazon-setup",
+  "screenshots": ["test2-reinstalled.png", "library-postinstall.png"]
+}
