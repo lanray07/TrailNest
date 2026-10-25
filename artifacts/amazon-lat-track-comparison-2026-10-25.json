@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-25",
+  "purpose": "Compare LAT listings without resetting Test 1 or deleting device data",
+  "test1": {
+    "asin": "B0HP3R43FK",
+    "libraryBadgeObserved": "TEST 1",
+    "libraryVersion": "0.8.5-lat",
+    "libraryAction": "OPEN",
+    "consoleConfigurationChanged": false,
+    "subscriptionResetOrCanceled": false
+  },
+  "test2": {
+    "asin": "B0HP35N9SY",
+    "asinSource": "Existing Kindle notification matching TrailNest accelerated renewal release; only ASIN and match flags extracted, raw notification data not saved",
+    "storeBadgeObserved": "TEST 2",
+    "initialAction": "GET",
+    "freeDownloadAccepted": true,
+    "subsequentAction": "OPEN",
+    "freshProcessLaunchedFromListing": true,
+    "acceleratedSubscriptionPurchaseAttempted": false,
+    "actualSdkTrackAssociationConfirmed": false
+  },
+  "installedPackage": {
+    "applicationId": "com.trailnest.app",
+    "version": "0.8.5-lat",
+    "versionCode": 13,
+    "installer": "com.amazon.venezia",
+    "lastUpdateTimeDisplayed": "2026-10-24 12:18:00",
+    "packageReplacementObservedDuringTest2Download": false,
+    "freshRestoreShowedPremium": true,
+    "freshLeaseHorizonApproximatelyHours": 6,
+    "actual30MinuteRenewalOrExpiryObserved": false,
+    "uninstalled": false,
+    "dataCleared": false
+  },
+  "interpretation": "Test 2 listing and invitation are independently identified. Store redemption alone did not replace the installed binary, and continued Premium verification does not prove accelerated Test 2 context. Do not claim Test 2 lifecycle acceptance.",
+  "nextStep": "Owner approval needed before uninstalling/reinstalling local TrailNest to switch tracks, because local journals/imports/preferences may be deleted. Keep Test 1 console track and subscription unchanged.",
+  "amazonTrackSwitchReference": "https://developer.amazon.com/docs/app-testing/appstore-beta-hub.html#manage-multiple-versions-of-the-same-app",
+  "referenceScope": "Amazon's documented multi-track switch procedure is in its Fire TV Beta Hub guide; this Kindle's exact switch behavior still requires verification.",
+  "evidenceDirectory": "artifacts/reports/amazon-setup",
+  "screenshots": ["library-match.png", "test2-actual.png", "test2-install-state.png"]
+}
