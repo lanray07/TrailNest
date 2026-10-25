@@ -1,0 +1,30 @@
+Follow-up for Amazon Developer Support case 22783242591 — posted with owner approval, 10/25/2026 - 09:24:00
+
+The original Test 1 annual offer is now available and its free LAT purchase, signed receipt verification, restore and process restart passed. Please keep Test 1 unchanged; its original missing-offer report is no longer the current blocker.
+
+Current issue: Test 2 restores an active, non-accelerated-looking test receipt even after a Test 2-only subscription reset, preventing a fresh accelerated checkout.
+
+App: TrailNest / com.trailnest.app
+App ID: amzn1.devportal.mobileapp.a5a90d52147643eeaca74c16ac6f8d94
+Test 1 ASIN: B0HP3R43FK (keep unchanged)
+Test 2 ASIN: B0HP35N9SY
+Test 2 release: amzn1.devportal.apprelease.9986a4a62bac40879b87e146365a0849
+Test 2 channel: amzn1.channel.0bf4a27282ed41c285529ec23aa9bfe9
+Both tracks: Test in-progress
+Parent: com.trailnest.premium
+Annual term: com.trailnest.premium_term
+Test 2 accelerated timelines: Enable saved before submission; annual maps to 30 minutes.
+
+On 25 October 2026 we uninstalled only TrailNest with owner consent, then downloaded/installed from the TEST 2 listing B0HP35N9SY. Android confirmed a fresh install at 08:53:44, 0.8.5-lat/code 13, installer com.amazon.venezia. Both tracks use that same uploaded binary/package/version. No sideload or account change.
+
+At 9:05 AM, Test 2 Manage Testers confirmed 'Tester subscriptions are successfully reset' for the existing one-tester group. Test 1 was not reset, edited, ended or canceled. Restore purchases and a full app process restart still obtained active signed Premium, so no fresh Test 2 subscription purchase was attempted.
+
+A temporary identifier-free diagnostic of a successful Amazon RVS response showed: testTransaction=true, betaProduct=true, autoRenewing=true, purchase age under one day, renewal horizon over six hours, no scheduled cancel date and no grace period. The lease was verified and bound to the current SDK user/receipt/package/SKUs. This is not merely a stale offline cache. The six-hour application lease itself is not evidence of Amazon subscription timing. Temporary diagnostics were removed and the original verifier restored.
+
+The backend is stateless and verifies each SDK Amazon user ID / receipt ID pair with RVS. It does not merge purchases by email or grant from a SKU-level account record. No verification guard was weakened.
+
+Device: KFTRWI / Android API 28. Appstore release-9.2810.1.3.9711.0_2002796410, last updated 1 August 2026. Automatic Updates is enabled. No Sync Amazon Content or client update control is exposed in My account, quick settings or Appstore version settings. We did not deregister or clear Appstore data. A transient restore-unavailable warning clears on retry; successful verification POSTs return 200.
+
+Please confirm the installed package's LAT track/user/receipt association and whether this Appstore client supports independent IAP state for the new multiple-LAT-tracks feature. Please repair or advise how to refresh Test 2's association without resetting Test 1, changing accounts or ending either track. Explain why Test 2's successful reset still returns an active receipt with a renewal more than six hours away. We have not established a new Test 2 purchase, accelerated renewal or expiry.
+
+No tester addresses, account/receipt identifiers, tokens, keys, authentication logs or presigned attachment URLs are included. Sanitized screenshots/configuration can be provided if needed.

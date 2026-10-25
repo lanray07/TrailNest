@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-25",
+  "test2Asin": "B0HP35N9SY",
+  "test1KeptUnchanged": true,
+  "additionalSubscriptionResets": 0,
+  "additionalPurchases": 0,
+  "reproduction": {
+    "trigger": "Restore purchases after the scoped Test 2 subscription reset",
+    "expectedForFreshCheckout": "No restored active Premium and a fresh eligible checkout",
+    "actual": "Verified Premium is restored; fresh checkout remains blocked",
+    "deviceProbeExitCode": 1,
+    "localCacheOnlyExplanationInsufficient": true
+  },
+  "temporaryLatVerifierProbe": {
+    "fixedShapePrivacyAndSignedOutputParityAssertionsPassed": true,
+    "observedFromSuccessfulAmazonRvsResponse": {
+      "testTransaction": true,
+      "betaProduct": true,
+      "autoRenewing": true,
+      "purchaseAge": "under_day",
+      "renewalHorizon": "over_six_hours",
+      "cancelScheduled": false,
+      "gracePresent": false,
+      "leaseHorizon": "over_hour"
+    },
+    "identifiersTokensKeysAndExactReceiptDatesLogged": false,
+    "verificationRulesChanged": false,
+    "originalDeploymentRestored": "dpl_J28JPVkwXdd9cKjovnVrujndcP2W",
+    "temporaryDeploymentRemoved": "dpl_deqGsRAYtbKofgo7yLoNwpACiCjs",
+    "instrumentedSourcesCommitted": false
+  },
+  "interpretation": "Amazon RVS still reports an active auto-renewing test receipt with a renewal beyond six hours, inconsistent with an expected upcoming 30-minute accelerated boundary. A new signed grant is issued, so local cache alone cannot explain the result. The receipt's exact LAT track remains unproven. Store association/reset propagation or client behavior needs Amazon clarification. No safe client entitlement override is justified.",
+  "deviceInspection": {
+    "appstoreVersion": "release-9.2810.1.3.9711.0_2002796410",
+    "appstoreLastUpdatedDisplayed": "1/8/26",
+    "automaticUpdatesPreviouslyConfirmedEnabled": true,
+    "syncAmazonContentControlFound": false,
+    "clientUpdateControlFoundOnVersionPage": false,
+    "accountDeregisteredOrChanged": false,
+    "appstoreDataCleared": false,
+    "knownTrackAsinFoundInTargetedRecentStoreLogs": false
+  },
+  "sources": [
+    "https://developer.amazon.com/docs/app-testing/live-app-testing-faq.html",
+    "https://developer.amazon.com/docs/app-testing/manage-testers.html",
+    "https://developer.amazon.com/docs/app-testing/accelerated-subscriptions-time-table.html"
+  ],
+  "checks": {
+    "androidUnitTests": 64,
+    "androidGradleTask": "passed; up-to-date cached results",
+    "backendTestsPassed": 17,
+    "toolingTestsPassed": 10
+  },
+  "supportFollowup": "artifacts/amazon-lat-test2-support-followup.txt",
+  "supportFollowupSent": true,
+  "supportCase": "22783242591",
+  "supportAuthorDisplayed": "Lanray",
+  "supportTimestampDisplayed": "10/25/2026 - 09:24:00",
+  "supportStatus": "In Process: pending Amazon action",
+  "remaining": "Resolve receipt/test-track association before a distinct free Test 2 checkout and actual accelerated renewal/expiry observation. Do not reset Test 1 or weaken verification.",
+  "actualAcceleratedRenewalOrExpiryAcceptance": false
+}
