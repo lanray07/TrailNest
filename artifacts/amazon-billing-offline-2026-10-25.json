@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-25",
+  "package": "com.trailnest.app",
+  "version": "0.8.5-lat",
+  "versionCode": 13,
+  "installer": "com.amazon.venezia",
+  "test2StoreAssociationIndependentlyVerified": false,
+  "trackAttribution": "Installed build only; Test 1 and Test 2 share the package/version. Test 2 invitation link or ASIN still needed.",
+  "verificationInvestigation": {
+    "unavailableWarningObservedAlongsideUnexpiredPremium": true,
+    "onlineRestoreClearedWarning": true,
+    "onlineRestoreAdvancedSignedLease": true,
+    "verifierPost200CountObserved": 3,
+    "runtimeLogSource": "Vercel CLI, explicitly scoped to LAT project; connector returned forbidden",
+    "rawAccountReceiptOrAuthenticationLogsSaved": false,
+    "historicTransientFailureCauseEstablished": false,
+    "persistentVerificationDefectReproduced": false,
+    "offlineWarningReproduced": true,
+    "offlineWarningMeaning": "New verification cannot complete while offline; existing bound, unexpired Premium remains valid."
+  },
+  "offlineChecks": {
+    "wifiInitiallyEnabled": true,
+    "wifiDisabled": true,
+    "activeDefaultNetworkNoneConfirmed": true,
+    "warmPremiumRetained": true,
+    "restoreWhileOfflineRetainedPremium": true,
+    "coldProcessRestartWhileOfflineRetainedPremium": true,
+    "offlineTimeoutObservationSecondsPerStage": 35,
+    "signedExpiryUnchangedWhileOffline": true,
+    "subscribeAbsentWhilePremiumActive": true,
+    "wifiRestoredEnabled": true,
+    "onlineRestoreRecoveredWithoutNewPurchase": true
+  },
+  "checks": {
+    "androidUnitTests": 64,
+    "backendTests": 17,
+    "toolingTests": 10,
+    "failures": 0
+  },
+  "scope": {
+    "runtimeSourceChanged": false,
+    "verificationChecksWeakened": false,
+    "subscriptionResetOrCanceled": false,
+    "newCheckoutAttempted": false,
+    "test1ConfigurationChanged": false,
+    "deviceClockOrAccountChanged": false
+  },
+  "screenshotsDirectory": "artifacts/reports/amazon-setup",
+  "screenshots": [
+    "refresh-result.png",
+    "offline-warm-20261025.png",
+    "offline-restore-20261025.png",
+    "offline-cold-20261025.png",
+    "online-recovered.png"
+  ],
+  "remaining": [
+    "Independently confirm Test 2 store association from invitation link/ASIN",
+    "Actual Test 2 accelerated renewal and expiry",
+    "Actual revocation/refund acceptance"
+  ]
+}
