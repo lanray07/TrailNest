@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-25",
+  "ownerApprovedTest2OnlySubscriptionReset": true,
+  "testNumber": 2,
+  "release": "amzn1.devportal.apprelease.9986a4a62bac40879b87e146365a0849",
+  "channel": "amzn1.channel.0bf4a27282ed41c285529ec23aa9bfe9",
+  "asin": "B0HP35N9SY",
+  "scope": "Existing TrailNest annual billing LAT group, one tester, Test 2 only",
+  "consoleAction": "Reset subscriptions",
+  "consoleResult": "Tester subscriptions are successfully reset",
+  "consoleTimestampDisplayed": "October 25th 2026, 9:05 AM",
+  "test1EditedOrReset": false,
+  "postResetDashboard": {
+    "test1": "Test in-progress",
+    "test2": "Test in-progress"
+  },
+  "deviceObservations": {
+    "restorePurchasesExecuted": true,
+    "processForceStopAndRestartExecuted": true,
+    "signedPremiumStillActive": true,
+    "verificationDeadlineAfterRestartDisplayed": "25 Oct 2026 15:06",
+    "subscribeAbsentWhilePremiumActive": true,
+    "verificationUnavailableWarningVisibleAfterRestart": false,
+    "newCheckoutAttempted": false,
+    "actualAcceleratedRenewalObserved": false,
+    "actualAcceleratedExpiryObserved": false,
+    "leaseHorizonDoesNotEstablishAmazonRenewalPeriod": true,
+    "subsequentRestoreAt0907ProducedWarning": true,
+    "warningRetainedPreviouslyValidPremium": true,
+    "retryRestoreClearedWarning": true,
+    "latestVerificationDeadlineDisplayed": "25 Oct 2026 15:08",
+    "warningRootCauseEstablished": false
+  },
+  "latVerifierObservations": {
+    "path": "/v1/amazon/verify",
+    "responseStatus": 200,
+    "timestampsUnixMs": [
+      1792919136982,
+      1792919158907,
+      1792919187700
+    ]
+  },
+  "interpretation": "Reset completed in the Test 2 console, but the app continues to obtain a valid signed entitlement. Receipt track attribution and accelerated lifecycle remain unresolved. No client or backend defect established; no verification guards changed.",
+  "checks": {
+    "androidUnitTests": 64,
+    "androidTask": "passed, up-to-date cached results",
+    "backendTestsPassed": 17,
+    "toolingTestsPassed": 10
+  },
+  "evidenceDirectory": "artifacts/reports/amazon-setup",
+  "screenshots": [
+    "test2-subscription-reset-success.png",
+    "reset-cold-settings.png",
+    "test2-after-reset-final.png",
+    "test2-reset-retry.png"
+  ],
+  "remaining": "Resolve store receipt/test-track attribution before a distinct free Test 2 checkout and actual renewal/expiry observations. Do not reset Test 1 or repeat resets automatically."
+}
