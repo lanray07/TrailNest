@@ -66,7 +66,7 @@
   },
   "currentSupportEvidenceSubmittedWithOwnerApproval": "10/27/2026 - 07:24:16; case 22783242591",
   "sensitiveEvidenceExcludedFromGit": true,
-  "remaining": "Observe later 30-minute renewals and automatic cancellation/expiry after four renewals. RVS advances nominal annual renewal dates during the accelerated real-time schedule; the first renewal is observed, so the nominal annual date itself is not a blocker.",
+  "remaining": "Four accelerated renewals observed at 30-minute intervals; allow final period through 10:00:52 UTC, then observe automatic cancellation and device loss of Premium. No accelerated expiry pass claimed yet.",
   "postAuthenticationRestoreAtUtc": "2026-10-27T07:34:29Z",
   "sdkReceiptCountAfterAuthentication": 1,
   "purchaseDateFromRvsUtc": "2026-10-27T07:30:52Z",
@@ -83,7 +83,7 @@
     "latOnly": true,
     "originalRegressionFailedThenPassed": true,
     "cleanDeploymentId": "dpl_9ggDyLD7omWnqhPnksG9zMvwewdS",
-    "temporaryLifecycleProbeDeploymentId": "dpl_HpMGwrHuUAqzjE5WkTEDTVaZ6Gxi"
+    "temporaryLifecycleProbeDeploymentId": "dpl_HTq7xr7htXCRmUrKjbXwNtJiqmYa"
   },
   "processRestartAfterFix": {
     "forceStopRelaunchExecuted": true,
@@ -107,6 +107,41 @@
       "signedVerificationHttpStatus": 200,
       "rsaSignatureValid": true,
       "fulfillmentResult": "FULFILLED"
+    },
+    {
+      "observedAtUtc": "2026-10-27T08:31:14.157Z",
+      "renewalNumber": 2,
+      "purchaseDateUnchanged": true,
+      "previousRvsRenewalDateUtc": "2028-10-27T07:30:52Z",
+      "rvsRenewalDateUtc": "2029-10-27T07:30:52Z",
+      "signedVerificationHttpStatus": 200,
+      "rsaSignatureValid": true,
+      "fulfillmentResult": "FULFILLED",
+      "deviceColdRestartPremiumRetained": true,
+      "deviceVerificationWarningVisible": false,
+      "deviceDeadlineDisplayed": "2026-10-27 14:32 UTC"
+    },
+    {
+      "observedAtUtc": "2026-10-27T09:01:13.910Z",
+      "renewalNumber": 3,
+      "purchaseDateUnchanged": true,
+      "previousRvsRenewalDateUtc": "2029-10-27T07:30:52Z",
+      "rvsRenewalDateUtc": "2030-10-27T07:30:52Z",
+      "signedVerificationHttpStatus": 200,
+      "rsaSignatureValid": true,
+      "fulfillmentResult": "FULFILLED"
+    },
+    {
+      "observedAtUtc": "2026-10-27T09:31:13.075Z",
+      "renewalNumber": 4,
+      "purchaseDateUnchanged": true,
+      "previousRvsRenewalDateUtc": "2030-10-27T07:30:52Z",
+      "rvsRenewalDateUtc": "2031-10-27T07:30:52Z",
+      "signedVerificationHttpStatus": 200,
+      "rsaSignatureValid": true,
+      "fulfillmentResult": "FULFILLED",
+      "cancelDate": null,
+      "autoRenewing": true
     }
   ],
   "test2OfflineChecks": {
@@ -120,5 +155,11 @@
     "onlineRestoreClearedWarning": true,
     "offlineExpiryNotYetObserved": true,
     "onlineRestoredDeadlineDisplayed": "2026-10-27 14:03 UTC"
+  },
+  "cleanLatDeploymentValidated": {
+    "observedAtUtc": "2026-10-27T09:06:25.747Z",
+    "authenticatedCliHttpStatus": 200,
+    "rsaSignatureAndAccountReceiptPackageEnvironmentBindingsValid": true,
+    "maximumLeaseMs": 21600000
   }
 }
