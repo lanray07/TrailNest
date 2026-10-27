@@ -33,6 +33,32 @@ test('sandbox and LAT are explicitly isolated from production',async()=>{
   await assert.rejects(make({},async()=>response({...receipt,betaProduct:true}))(request),denied);
   await make({environment:'lat'},async()=>response({...receipt,betaProduct:true,testTransaction:true}))(request);
 });
+
+test('LAT lease tolerates observed subsecond issuer lead without extending access or weakening receipt dates',async()=>{
+  const current={...receipt,testTransaction:true,betaProduct:true,purchaseDate:now-500};
+  const fields=result=>Buffer.from(result.lease.split('.')[0],'base64url').toString().split('\n');
+  const lat=createVerifier({...config,environment:'lat'},{now:()=>now,fetchImpl:async()=>response(current)});
+  const result=await lat(request),f=fields(result);
+  const issued=Number(f[7]),expires=Number(f[8]),clientNow=now-500;
+  assert(issued<=clientNow,'observed client clock must have reached signed lease start');
+  assert.equal(issued,now-2000);
+  assert.equal(expires,now+MAX_LEASE_MS-2000);
+  assert.equal(expires-issued,MAX_LEASE_MS);
+  assert(verify('RSA-SHA256',Buffer.from(result.lease.split('.')[0],'ascii'),keys.publicKey,Buffer.from(result.lease.split('.')[1],'base64url')));
+  assert.equal(f[3],hash(request.amazonUserId));assert.equal(f[4],hash(request.receiptId));
+  current.cancelDate=now+1000;
+  assert.equal(Number(fields(await lat(request))[8]),now+1000);
+  current.cancelDate=now;
+  await assert.rejects(lat(request),denied);
+  current.cancelDate=null;current.purchaseDate=now+1;
+  await assert.rejects(lat(request),denied);
+  const production=fields(await make()(request));
+  assert.equal(Number(production[7]),now);
+  assert.equal(Number(production[8]),now+MAX_LEASE_MS);
+  const shortLease=fields(await make({environment:'lat',leaseMs:1000})(request));
+  assert.equal(Number(shortLease[7]),now-500);
+  assert.equal(Number(shortLease[8]),now+500);
+});
 test('refunds, expiry, mismatched IDs/products/terms/types and malformed receipts cannot grant',async()=>{
   for(const patch of [{cancelDate:now},{cancelDate:now-1},{renewalDate:now-1},{receiptId:'other'}, {productId:'other'},{termSku:'other'},{productType:'ENTITLED'},{purchaseDate:now+1},{testTransaction:'false'},{betaProduct:null},{cancelDate:undefined},{renewalDate:-1},{baseReceipts:['other']}]){
     await assert.rejects(make({},async()=>response({...receipt,...patch}))(request),denied);

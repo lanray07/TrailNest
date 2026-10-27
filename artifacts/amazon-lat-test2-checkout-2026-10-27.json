@@ -7,7 +7,10 @@
   "installer": "com.amazon.venezia",
   "test2StoreBadgeObserved": "TEST 2",
   "launchedFromTest2StoreOpen": true,
-  "consoleStatus": {"test1": "Test in-progress", "test2": "Test in-progress"},
+  "consoleStatus": {
+    "test1": "Test in-progress",
+    "test2": "Test in-progress"
+  },
   "preCheckout": {
     "manualRestoreAtUtc": "2026-10-27T07:19:41Z",
     "sdkResponseAtUtc": "2026-10-27T07:19:42.066Z",
@@ -22,24 +25,70 @@
     "subscribePressed": true,
     "nativeAmazonCheckoutShown": true,
     "buttonDisplayed": "VERIFY AND SUBSCRIBE",
-    "finalButtonPressed": false,
-    "amazonOrderCompleted": false,
-    "actionTimeTermsConfirmation": "Requested; pending owner response",
-    "authenticationChallengeObserved": false
+    "finalButtonPressed": true,
+    "actionTimeTermsConfirmation": "Owner approved free Test 2 purchase and Appstore terms",
+    "authenticationChallengeObserved": true,
+    "attempts": [
+      {
+        "confirmedAtUtc": "2026-10-27T07:30:47Z",
+        "result": "Amazon purchase-processing error after checkout had waited for owner confirmation",
+        "receiptIdKeysObserved": 0,
+        "postErrorHistoryAtUtc": "2026-10-27T07:32:11.430Z",
+        "postErrorReceiptCount": 0
+      },
+      {
+        "confirmedAtUtc": "2026-10-27T07:32:37Z",
+        "result": "Fresh checkout requests Amazon account password; awaiting owner authentication",
+        "authenticationEnteredByAgent": false
+      }
+    ],
+    "ownerReportedAuthenticationCompleted": true,
+    "completionEvidence": "New SDK receipt and successful signed RVS grant after owner authentication; no independent Amazon order-complete screen captured.",
+    "amazonOrderCompleteScreenObserved": false,
+    "completedPurchaseConfirmedByNewSdkReceiptAndSignedRvs": true
   },
   "latNoChargeReference": "https://developer.amazon.com/docs/in-app-purchasing/iap-lat.html",
   "acceleratedTimelineReference": "https://developer.amazon.com/docs/app-testing/accelerated-subscriptions-time-table.html",
   "documentedAnnualPeriodMinutes": 30,
   "actualAcceleratedRenewalObserved": false,
   "actualAcceleratedExpiryObserved": false,
-  "signedPurchaseVerificationCompleted": false,
+  "signedPurchaseVerificationCompleted": true,
   "test1EditedResetOrCanceled": false,
   "additionalSubscriptionsReset": false,
   "appDataClearedOrPackageReinstalled": false,
   "accountsSecretsOrVerificationGuardsChanged": false,
   "temporaryDiagnosticLoggingRestored": true,
-  "checks": {"androidUnitTests": 64, "androidTask": "passed; cached up-to-date results", "backendTestsPassed": 17, "toolingTestsPassed": 10},
+  "checks": {
+    "androidUnitTests": 64,
+    "androidTask": "passed; cached up-to-date results",
+    "backendTestsPassed": 18,
+    "toolingTestsPassed": 10
+  },
   "currentSupportEvidenceSubmittedWithOwnerApproval": "10/27/2026 - 07:24:16; case 22783242591",
   "sensitiveEvidenceExcludedFromGit": true,
-  "remaining": "Final checkout terms confirmation, actual signed purchase acceptance, renewal and automatic expiry observations. No lifecycle pass is claimed."
+  "remaining": "Observe first expected accelerated boundary at 08:00:52 UTC and later automatic expiry. RVS currently reports a nominal annual renewal, not a 30-minute date; no accelerated acceptance claimed.",
+  "postAuthenticationRestoreAtUtc": "2026-10-27T07:34:29Z",
+  "sdkReceiptCountAfterAuthentication": 1,
+  "purchaseDateFromRvsUtc": "2026-10-27T07:30:52Z",
+  "renewalDateFromRvsBaselineUtc": "2027-10-27T07:30:52Z",
+  "premiumActiveAfterSignerTimingChange": true,
+  "premiumVerificationDisplayedAfterChange": "27 Oct 2026 13:39",
+  "latClockFix": {
+    "issuerLeadRelativeReceivingHostMs": 393,
+    "deviceClockAlsoApproximately400MsAheadOfHost": true,
+    "subsecondTimingAsExactAndroidFailureCauseDirectlyInstrumented": false,
+    "conservativeLeaseBackdateMs": 2000,
+    "maximumLeaseNotExtended": true,
+    "androidChecksUnchanged": true,
+    "latOnly": true,
+    "originalRegressionFailedThenPassed": true,
+    "cleanDeploymentId": "dpl_9ggDyLD7omWnqhPnksG9zMvwewdS",
+    "temporaryLifecycleProbeDeploymentId": "dpl_F6np7nqGUWXTqqwEWwfXjJz7naLz"
+  },
+  "processRestartAfterFix": {
+    "forceStopRelaunchExecuted": true,
+    "premiumRetained": true,
+    "verificationWarningVisible": false,
+    "verificationDeadlineDisplayed": "27 Oct 2026 13:45"
+  }
 }

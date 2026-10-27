@@ -63,24 +63,31 @@ export function createVerifier(rawConfig,{fetchImpl=fetch,now=Date.now,audit=()=
       if(response.status!==200)throw new VerificationError(503);
       receipt=await boundedJson(response);
     }catch(error){throw error instanceof VerificationError?error:new VerificationError(503);}
-    const issuedAt=now();let expiresAt;
-    try{expiresAt=receiptExpiry(receipt,request,config,issuedAt);}
+    const verifiedAt=now();let expiresAt;
+    try{expiresAt=receiptExpiry(receipt,request,config,verifiedAt);}
     catch(error){
       // Fixed-shape sandbox diagnostics, never identities, receipt IDs or URLs.
       if(config.environment==='sandbox')audit({
         event:'receipt_rejected',receiptMatches:receipt?.receiptId===request.receiptId,
         parentMatches:receipt?.productId===config.parentSku,termMatches:receipt?.termSku===config.termSku,
         typeMatches:receipt?.productType==='SUBSCRIPTION',testFlagType:typeof receipt?.testTransaction,betaFlagType:typeof receipt?.betaProduct,
-        purchaseDateValid:Number.isSafeInteger(receipt?.purchaseDate)&&receipt.purchaseDate>0&&receipt.purchaseDate<=issuedAt,
-        cancelEffective:typeof receipt?.cancelDate==='number'&&receipt.cancelDate<=issuedAt,
-        renewalPast:typeof receipt?.renewalDate==='number'&&receipt.renewalDate<=issuedAt,
+        purchaseDateValid:Number.isSafeInteger(receipt?.purchaseDate)&&receipt.purchaseDate>0&&receipt.purchaseDate<=verifiedAt,
+        cancelEffective:typeof receipt?.cancelDate==='number'&&receipt.cancelDate<=verifiedAt,
+        renewalPast:typeof receipt?.renewalDate==='number'&&receipt.renewalDate<=verifiedAt,
         termKind:['Annual','Annually','1 Year','Monthly','1 Month'].includes(receipt?.term)?receipt.term:'other',
         autoRenewing:receipt?.autoRenewing===true,
-        renewalOffsetMs:Number.isSafeInteger(receipt?.renewalDate)?receipt.renewalDate-issuedAt:null,
+        renewalOffsetMs:Number.isSafeInteger(receipt?.renewalDate)?receipt.renewalDate-verifiedAt:null,
         dateShapes:['cancelDate','renewalDate','gracePeriodEndDate'].map(name=>receipt?.[name]===null?'null':typeof receipt?.[name])
       });
       throw error;
     }
+    // Observed LAT issuer lead can put an otherwise valid token just ahead of
+    // Fire's clock. Keep Android's strict time checks: start the LAT lease up
+    // to two seconds earlier and shorten its deadline by the same amount.
+    // Validate Amazon purchase/cancel/renewal dates at the real verification time.
+    const backdate=config.environment==='lat'?Math.min(2000,Math.floor(config.leaseMs/2)):0;
+    const issuedAt=verifiedAt-backdate;
+    expiresAt=Math.min(expiresAt,issuedAt+config.leaseMs);
     const payload=['TN1',config.applicationId,config.environment,hash(request.amazonUserId),hash(request.receiptId),config.parentSku,config.termSku,issuedAt,expiresAt].join('\n');
     const encoded=Buffer.from(payload,'utf8').toString('base64url');
     const signature=sign('RSA-SHA256',Buffer.from(encoded,'ascii'),config.privateKey).toString('base64url');
