@@ -38,7 +38,7 @@
       },
       {
         "confirmedAtUtc": "2026-10-27T07:32:37Z",
-        "result": "Fresh checkout requests Amazon account password; awaiting owner authentication",
+        "result": "Fresh checkout requested Amazon account password; owner subsequently completed authentication and a new SDK receipt was restored.",
         "authenticationEnteredByAgent": false
       }
     ],
@@ -51,7 +51,7 @@
   "acceleratedTimelineReference": "https://developer.amazon.com/docs/app-testing/accelerated-subscriptions-time-table.html",
   "documentedAnnualPeriodMinutes": 30,
   "actualAcceleratedRenewalObserved": true,
-  "actualAcceleratedExpiryObserved": false,
+  "actualAcceleratedExpiryObserved": true,
   "signedPurchaseVerificationCompleted": true,
   "test1EditedResetOrCanceled": false,
   "additionalSubscriptionsReset": false,
@@ -66,7 +66,7 @@
   },
   "currentSupportEvidenceSubmittedWithOwnerApproval": "10/27/2026 - 07:24:16; case 22783242591",
   "sensitiveEvidenceExcludedFromGit": true,
-  "remaining": "Four accelerated renewals observed at 30-minute intervals; allow final period through 10:00:52 UTC, then observe automatic cancellation and device loss of Premium. No accelerated expiry pass claimed yet.",
+  "remaining": "Reconnect the Kindle to verify native Premium revocation on online Restore and no resurrection on a subsequent cold offline restart. Amazon four-renewal cycle, automatic expiry and verifier denial are observed; device expiry acceptance is not claimed.",
   "postAuthenticationRestoreAtUtc": "2026-10-27T07:34:29Z",
   "sdkReceiptCountAfterAuthentication": 1,
   "purchaseDateFromRvsUtc": "2026-10-27T07:30:52Z",
@@ -83,7 +83,9 @@
     "latOnly": true,
     "originalRegressionFailedThenPassed": true,
     "cleanDeploymentId": "dpl_9ggDyLD7omWnqhPnksG9zMvwewdS",
-    "temporaryLifecycleProbeDeploymentId": "dpl_HTq7xr7htXCRmUrKjbXwNtJiqmYa"
+    "temporaryLifecycleProbeDeploymentId": "dpl_HTq7xr7htXCRmUrKjbXwNtJiqmYa",
+    "temporaryHostedProbeRemoved": true,
+    "cleanFixedDeploymentRestored": true
   },
   "processRestartAfterFix": {
     "forceStopRelaunchExecuted": true,
@@ -161,5 +163,41 @@
     "authenticatedCliHttpStatus": 200,
     "rsaSignatureAndAccountReceiptPackageEnvironmentBindingsValid": true,
     "maximumLeaseMs": 21600000
+  },
+  "acceleratedExpiryObservation": {
+    "scope": "Amazon RVS and hosted verifier; final native app revocation not yet observed",
+    "observedAtUtc": "2026-10-27T10:01:15.421Z",
+    "rvsCancelDateUtc": "2026-10-27T10:01:02Z",
+    "rvsRenewalDate": null,
+    "rvsAutoRenewing": true,
+    "rvsTestTransaction": true,
+    "rvsBetaProduct": true,
+    "signedVerifierHttpStatus": 403,
+    "newLeaseIssued": false,
+    "purchaseDateUnchanged": true,
+    "manualCancellationOrResetPerformed": false,
+    "observedRenewalsBeforeExpiry": 4
+  },
+  "deviceExpiryAcceptance": {
+    "completed": false,
+    "blockedReason": "Kindle USB debugging connection disappeared before final expiry check. Owner reconnection question is pending.",
+    "connectionAbsentObservedAtUtc": [
+      "2026-10-27T09:52:19Z",
+      "2026-10-27T10:01Z"
+    ],
+    "noOfflineBoundaryToggleExecutedAfterDisconnection": true,
+    "lastObservedWifiEnabled": true,
+    "remainingChecks": [
+      "Online Restore must revoke Premium after definitive expiry.",
+      "Cold offline restart after known revocation must not resurrect Premium."
+    ]
+  },
+  "cleanFinalVerification": {
+    "observedAtUtc": "2026-10-27T10:02:24.126Z",
+    "deploymentId": "dpl_9ggDyLD7omWnqhPnksG9zMvwewdS",
+    "expiredReceiptHttpStatus": 403,
+    "readinessHttpStatus": 204,
+    "temporaryLifecycleLoggingRemoved": true,
+    "timerHelperCompleted": true
   }
 }
