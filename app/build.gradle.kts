@@ -13,6 +13,15 @@ val billingAnnual = providers.gradleProperty("trailnestBillingAnnualSku").getOrE
 val billingUrl = providers.gradleProperty("trailnestBillingVerificationUrl").getOrElse("")
 val latBillingEnabled = providers.gradleProperty("trailnestLatBillingEnabled").getOrElse("false") == "true"
 val latBillingUrl = "https://trailnest-billing-lat.vercel.app/v1/amazon/verify"
+// Optional operator-provided production credentials. No keystore is generated,
+// and an unconfigured release continues to build unsigned for local checks.
+val releaseSigningNames = listOf("TRAILNEST_RELEASE_KEYSTORE", "TRAILNEST_RELEASE_STORE_PASSWORD", "TRAILNEST_RELEASE_KEY_ALIAS", "TRAILNEST_RELEASE_KEY_PASSWORD")
+val releaseSigningValues = releaseSigningNames.associateWith { providers.environmentVariable(it).orNull }
+val releaseSigningConfigured = releaseSigningValues.values.any { it != null }
+if (releaseSigningConfigured) {
+    require(releaseSigningValues.values.all { !it.isNullOrBlank() }) { "Set all four TRAILNEST_RELEASE signing environment variables, or unset all four for an unsigned local build" }
+    require(file(releaseSigningValues.getValue("TRAILNEST_RELEASE_KEYSTORE")!!).isFile) { "Configured production release keystore is unavailable" }
+}
 fun billingLiteral(value: String): String {
     require(value.none { it.code < 32 }) { "Invalid billing build setting" }
     return "\"" + value.replace("\\", "\\\\").replace("\"", "\\\"") + "\""
@@ -49,8 +58,19 @@ android {
     testBuildType = providers.gradleProperty("trailnestTestBuildType").getOrElse("debug")
     compileOptions { sourceCompatibility = JavaVersion.VERSION_17; targetCompatibility = JavaVersion.VERSION_17 }
     kotlinOptions { jvmTarget = "17" }
+    signingConfigs {
+        if (releaseSigningConfigured) create("production") {
+            storeFile = file(releaseSigningValues.getValue("TRAILNEST_RELEASE_KEYSTORE")!!)
+            storePassword = releaseSigningValues.getValue("TRAILNEST_RELEASE_STORE_PASSWORD")
+            keyAlias = releaseSigningValues.getValue("TRAILNEST_RELEASE_KEY_ALIAS")
+            keyPassword = releaseSigningValues.getValue("TRAILNEST_RELEASE_KEY_PASSWORD")
+            enableV2Signing = true
+            enableV3Signing = true
+        }
+    }
     buildTypes {
         release {
+            signingConfig = if (releaseSigningConfigured) signingConfigs.getByName("production") else null
             isMinifyEnabled = false
             buildConfigField("boolean", "BILLING_ENABLED", (billingEnabled && billingEnvironment == "production").toString())
         }

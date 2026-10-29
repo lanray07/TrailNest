@@ -1,0 +1,266 @@
+{
+  "ready": false,
+  "version": "0.8.5",
+  "listings": [
+    {
+      "locale": "en-US",
+      "ready": false,
+      "errors": [
+        "listing is still a draft"
+      ]
+    },
+    {
+      "locale": "en-AU",
+      "ready": false,
+      "errors": [
+        "listing is still a draft"
+      ]
+    },
+    {
+      "locale": "en-IN",
+      "ready": false,
+      "errors": [
+        "listing is still a draft"
+      ]
+    },
+    {
+      "locale": "fr",
+      "ready": false,
+      "errors": [
+        "missing listing"
+      ]
+    },
+    {
+      "locale": "de",
+      "ready": false,
+      "errors": [
+        "missing listing"
+      ]
+    },
+    {
+      "locale": "it",
+      "ready": false,
+      "errors": [
+        "missing listing"
+      ]
+    },
+    {
+      "locale": "es",
+      "ready": false,
+      "errors": [
+        "missing listing"
+      ]
+    },
+    {
+      "locale": "pt-BR",
+      "ready": false,
+      "errors": [
+        "missing listing"
+      ]
+    },
+    {
+      "locale": "pt-PT",
+      "ready": false,
+      "errors": [
+        "missing listing"
+      ]
+    },
+    {
+      "locale": "nl",
+      "ready": false,
+      "errors": [
+        "missing listing"
+      ]
+    },
+    {
+      "locale": "pl",
+      "ready": false,
+      "errors": [
+        "missing listing"
+      ]
+    },
+    {
+      "locale": "sv",
+      "ready": false,
+      "errors": [
+        "missing listing"
+      ]
+    },
+    {
+      "locale": "ja",
+      "ready": false,
+      "errors": [
+        "missing listing"
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "locale": "en-US",
+      "ready": false,
+      "errors": [
+        "eight distinct planned screen captures missing"
+      ]
+    },
+    {
+      "locale": "en-GB",
+      "ready": false,
+      "errors": [
+        "eight distinct planned screen captures missing"
+      ]
+    },
+    {
+      "locale": "en-AU",
+      "ready": false,
+      "errors": [
+        "eight distinct planned screen captures missing"
+      ]
+    },
+    {
+      "locale": "en-IN",
+      "ready": false,
+      "errors": [
+        "eight distinct planned screen captures missing"
+      ]
+    },
+    {
+      "locale": "fr",
+      "ready": false,
+      "errors": [
+        "eight distinct planned screen captures missing"
+      ]
+    },
+    {
+      "locale": "de",
+      "ready": false,
+      "errors": [
+        "eight distinct planned screen captures missing"
+      ]
+    },
+    {
+      "locale": "it",
+      "ready": false,
+      "errors": [
+        "eight distinct planned screen captures missing"
+      ]
+    },
+    {
+      "locale": "es",
+      "ready": false,
+      "errors": [
+        "eight distinct planned screen captures missing"
+      ]
+    },
+    {
+      "locale": "es-MX",
+      "ready": false,
+      "errors": [
+        "eight distinct planned screen captures missing"
+      ]
+    },
+    {
+      "locale": "pt-BR",
+      "ready": false,
+      "errors": [
+        "eight distinct planned screen captures missing"
+      ]
+    },
+    {
+      "locale": "pt-PT",
+      "ready": false,
+      "errors": [
+        "eight distinct planned screen captures missing"
+      ]
+    },
+    {
+      "locale": "nl",
+      "ready": false,
+      "errors": [
+        "eight distinct planned screen captures missing"
+      ]
+    },
+    {
+      "locale": "pl",
+      "ready": false,
+      "errors": [
+        "eight distinct planned screen captures missing"
+      ]
+    },
+    {
+      "locale": "sv",
+      "ready": false,
+      "errors": [
+        "eight distinct planned screen captures missing"
+      ]
+    },
+    {
+      "locale": "ja",
+      "ready": false,
+      "errors": [
+        "eight distinct planned screen captures missing"
+      ]
+    },
+    {
+      "locale": "ar",
+      "ready": false,
+      "errors": [
+        "eight distinct planned screen captures missing"
+      ]
+    },
+    {
+      "locale": "hi",
+      "ready": false,
+      "errors": [
+        "eight distinct planned screen captures missing"
+      ]
+    },
+    {
+      "locale": "zh-Hans",
+      "ready": false,
+      "errors": [
+        "eight distinct planned screen captures missing"
+      ]
+    },
+    {
+      "locale": "ko",
+      "ready": false,
+      "errors": [
+        "eight distinct planned screen captures missing"
+      ]
+    }
+  ],
+  "failures": [
+    "Appstore listing en-US: listing is still a draft.",
+    "Appstore listing en-AU: listing is still a draft.",
+    "Appstore listing en-IN: listing is still a draft.",
+    "Appstore listing fr: missing listing.",
+    "Appstore listing de: missing listing.",
+    "Appstore listing it: missing listing.",
+    "Appstore listing es: missing listing.",
+    "Appstore listing pt-BR: missing listing.",
+    "Appstore listing pt-PT: missing listing.",
+    "Appstore listing nl: missing listing.",
+    "Appstore listing pl: missing listing.",
+    "Appstore listing sv: missing listing.",
+    "Appstore listing ja: missing listing.",
+    "Localized screenshots en-US: eight distinct planned screen captures missing.",
+    "Localized screenshots en-GB: eight distinct planned screen captures missing.",
+    "Localized screenshots en-AU: eight distinct planned screen captures missing.",
+    "Localized screenshots en-IN: eight distinct planned screen captures missing.",
+    "Localized screenshots fr: eight distinct planned screen captures missing.",
+    "Localized screenshots de: eight distinct planned screen captures missing.",
+    "Localized screenshots it: eight distinct planned screen captures missing.",
+    "Localized screenshots es: eight distinct planned screen captures missing.",
+    "Localized screenshots es-MX: eight distinct planned screen captures missing.",
+    "Localized screenshots pt-BR: eight distinct planned screen captures missing.",
+    "Localized screenshots pt-PT: eight distinct planned screen captures missing.",
+    "Localized screenshots nl: eight distinct planned screen captures missing.",
+    "Localized screenshots pl: eight distinct planned screen captures missing.",
+    "Localized screenshots sv: eight distinct planned screen captures missing.",
+    "Localized screenshots ja: eight distinct planned screen captures missing.",
+    "Localized screenshots ar: eight distinct planned screen captures missing.",
+    "Localized screenshots hi: eight distinct planned screen captures missing.",
+    "Localized screenshots zh-Hans: eight distinct planned screen captures missing.",
+    "Localized screenshots ko: eight distinct planned screen captures missing."
+  ]
+}

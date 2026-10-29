@@ -1,1 +1,48 @@
-{"status":"blocked_pending_implemented_features_and_real_device_captures","captures":[],"requirements":[{"headline":"Walking Routes Near You","blockedBy":"No published verified routes"},{"headline":"Hiking Trails & Walking Maps","blockedBy":"No licensed basemap provider"},{"headline":"Offline Walking Maps","blockedBy":"Geometry only; no offline map tile rights"},{"headline":"Turn-by-Turn Walking Navigation","blockedBy":"No validated turn instructions"},{"headline":"Dog-Friendly & Family Walks","blockedBy":"No verified suitability data"},{"headline":"Walking Checklist & Safety Tips","blockedBy":"Real Android capture and human review pending"},{"headline":"Voice-Guided Walking Routes","blockedBy":"Only progress speech implemented; no reviewed directions"},{"headline":"Track Your Walking Adventures","blockedBy":"Real Android capture and human review pending"}]}
+{
+  "status": "planned_not_captured_or_approved",
+  "captureFormat": "PNG",
+  "captures": [],
+  "note": "Eight screens per supported app locale are an owner requirement. Amazon tablet listings require 3–10 screenshots. Capture actual localized app UI; do not label fixtures as genuine purchases or licensed content.",
+  "requirements": [
+    {
+      "id": "journal",
+      "headline": "Remember Every Walk",
+      "feature": "Private journal with notes, ratings and favourites"
+    },
+    {
+      "id": "recording",
+      "headline": "Record Your Time Outdoors",
+      "feature": "Explicit start, pause and finish; estimated distance only where supported"
+    },
+    {
+      "id": "checklist",
+      "headline": "Head Out Prepared",
+      "feature": "Editable personal checklist"
+    },
+    {
+      "id": "photos",
+      "headline": "Keep the Moments That Matter",
+      "feature": "Private journal photo copies"
+    },
+    {
+      "id": "gpx",
+      "headline": "Bring Your Own Route",
+      "feature": "Private GPX import and geometry preview; no basemap claim"
+    },
+    {
+      "id": "progress",
+      "headline": "Follow Your Imported Geometry",
+      "feature": "Location progress on compatible devices; no turn-by-turn claim"
+    },
+    {
+      "id": "sharing",
+      "headline": "Share Your Walking Plan",
+      "feature": "User-initiated system share sheet; no emergency-monitoring claim"
+    },
+    {
+      "id": "settings",
+      "headline": "Make TrailNest Yours",
+      "feature": "Language, units, light and dark appearance"
+    }
+  ]
+}

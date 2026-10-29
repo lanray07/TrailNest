@@ -2,6 +2,10 @@
 
 Build date: 23 October 2026. Commands run in `D:\App Projects\TrailNest` using JDK 17, Android SDK 35, AGP 8.11.1 and Gradle 8.13.
 
+## Current Amazon release review — 29 October 2026
+
+The earlier catalog/publication blockers below are dated history. Test 2 purchase, fulfillment, four accelerated renewals, RVS expiry and final expired-state cold offline checks have since passed. See [the current release review](AMAZON-RELEASE-REVIEW.md) and [dated check summary](../artifacts/amazon-release-review-2026-10-29.json) for remaining production blockers and current automated results. No Test 1 change, production deployment or submission is part of this review.
+
 ## LAT catalog investigation and Amazon escalation — 24 October 2026
 
 Reproduced missing annual offer on Test 1's Amazon-installed 0.8.1/code 9, then minimized the probe to the foreground billing screen. The owner confirmed the Kindle uses the sole invited tester account; the console invitation is Delivered. Browser identity also matches, and no password/account change was performed. Read BuildConfig directly from the installed APK's `classes2.dex`: exact parent/term SKUs, billing enabled, non-debuggable, LAT enabled, correct LAT environment/endpoint. Console input values are ASCII with no surrounding whitespace and match the APK (21/26 characters).

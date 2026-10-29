@@ -1,5 +1,6 @@
 {
   "checkedOn": "2026-10-23",
+  "requiredAppLocales": ["en-US","fr","es","de","it","pt-BR","nl","pl","ar","hi","ja","ko","zh-Hans","zh-Hant","tr","id","sv"],
   "translationPolicy": {
     "humanReviewRequired": false,
     "decision": "owner_waived_translation_review",

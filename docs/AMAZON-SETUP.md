@@ -55,7 +55,11 @@ Sources: [installation and JSON](https://developer.amazon.com/docs/in-app-purcha
 
 ## 5. Live App Testing
 
-**Latest physical LAT check, 24 October 2026:** Test 1's Amazon-distributed 0.8.1/code 9 installed and launched on KFTRWI/API 28 with sandbox mode off. Amazon's GB SDK session returned no annual offer despite the console's approved TEST subscription/live annual term; Subscribe remains disabled, and restore did not grant Premium. Verifier readiness is 204, but no purchase/receipt/fulfillment acceptance passed. See [sanitized device evidence](../artifacts/amazon-lat-device-2026-10-24.json). The details below retain the earlier setup history. Source 0.8.3 includes the active translations and owner waiver of human translation review, and has not replaced the installed 0.8.1 LAT binary.
+**Current evidence, 29 October 2026:** Amazon-installed 0.8.5-lat/code 13 on the Kindle has completed Test 2 purchase, signed verification and fulfillment, four accelerated renewals, RVS automatic expiry, final expired-state online Restore, cold offline restart, offline Restore and online recovery. Test 1 remains unchanged. The original device expiry moment was missed during USB disconnection; event-time revocation latency is not claimed. Amazon’s latest reply, supplied by the owner, says historical receipt recovery is unnecessary. No further case response or console change was made. See [billing evidence](AMAZON-BILLING.md) and [remaining release blockers](AMAZON-RELEASE-REVIEW.md).
+
+The following dated paragraphs retain setup history and do not describe the current catalog or device state.
+
+**Historical physical LAT check, 24 October 2026:** Test 1's Amazon-distributed 0.8.1/code 9 installed and launched on KFTRWI/API 28 with sandbox mode off. Amazon's GB SDK session returned no annual offer despite the console's approved TEST subscription/live annual term; Subscribe remains disabled, and restore did not grant Premium. Verifier readiness is 204, but no purchase/receipt/fulfillment acceptance passed. See [sanitized device evidence](../artifacts/amazon-lat-device-2026-10-24.json). The details below retain the earlier setup history. Source 0.8.3 includes the active translations and owner waiver of human translation review, and has not replaced the installed 0.8.1 LAT binary.
 
 Follow-up investigation verified the installed BuildConfig and exact SKU values, the owner-confirmed invited account and SDK handling of an empty catalog map. Clearing Appstore cache and repeating restore did not resolve it; 27 billing JVM and 16 verifier tests passed. With explicit owner authorization, submitted Amazon Support case [22783242591](https://developer.amazon.com/support/cases/22783242591), now **In Process: pending Amazon action**. [Investigation and cleanup record](../artifacts/amazon-lat-catalog-investigation.json). Purchase acceptance remains blocked; no annual-term or receipt safeguards were relaxed.
 
@@ -81,13 +85,13 @@ Use accelerated subscriptions where available and selected before starting the t
 
 | Scenario | Required observation | Result |
 | --- | --- | --- |
-| Buy / restore / reinstall | Verified current account gets the documented benefit | Pending |
+| Buy / restore / reinstall | Verified current account gets the documented benefit | LAT buy/restore passed; original fresh purchase followed an earlier reinstall. Post-purchase reinstall recovery remains untested |
 | Cancel checkout / pending approval | No premature entitlement or fulfillment | Pending |
 | Account switch / another device | Current account binding and restore work | Pending |
-| Renewal / auto-renew off / expiry / refund / grace | Behavior follows verified receipt status | Pending |
-| Offline / verifier outage / fulfillment retry | Bounded cache, no fabricated or extended lease | Pending |
-| Restart / reboot / clock changes | Cache restrictions hold | Pending |
+| Renewal / auto-renew off / expiry / refund / grace | Behavior follows verified receipt status | Four LAT renewals, RVS expiry and final native expired state passed; auto-renew-off/refund/grace and event-time device revocation remain unobserved |
+| Offline / verifier outage / fulfillment retry | Bounded cache, no fabricated or extended lease | LAT offline retention, offline Restore and recovery passed; hosted outage/fulfillment-retry device cases remain pending |
+| Restart / reboot / clock changes | Cache restrictions hold | App cold restart passed with active/expired access; device reboot and clock-change acceptance remain pending |
 | Metadata unavailable / offer changed | Checkout unavailable for unsupported offers | Pending |
 | Localized price / renewal wording / accessibility | Human review of enabled purchase flow | Pending |
 
-After LAT passes, create and verify the separately configured production build/server and repeat relevant acceptance. Review all other release gates, signing, privacy/store declarations and human translation approvals. LAT promotion can replace upcoming-version metadata; review it before promoting. Never promote the isolated LAT verifier configuration into the live app. [Test promotion](https://developer.amazon.com/docs/app-testing/manage-test.html).
+After LAT passes, create and verify the separately configured production build/server and repeat relevant acceptance. Review all other release gates, signing, privacy/store declarations and translation validation under the existing owner waiver (human translation approval is not claimed). LAT promotion can replace upcoming-version metadata; review it before promoting. Never promote the isolated LAT verifier configuration into the live app. [Test promotion](https://developer.amazon.com/docs/app-testing/manage-test.html).

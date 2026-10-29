@@ -1,0 +1,88 @@
+{
+  "reviewDate": "2026-10-29",
+  "version": "0.8.5",
+  "versionCode": 13,
+  "scope": "Repository, local build outputs and previously recorded LAT evidence; live Developer Console was not inspected or changed.",
+  "baseCommit": "be53e3ca43464a0d58cd777fdd3ea2265b3e00fc",
+  "test1Changed": false,
+  "productionSubmissionApproved": false,
+  "productionDeploymentPerformed": false,
+  "actualProductionKeysAccessed": false,
+  "runtimeVerificationGuardsChanged": false,
+  "checks": {
+    "androidUnitTests": 64,
+    "androidUnitTestTaskExecutedFresh": true,
+    "backendTestsPassed": 18,
+    "toolingTestsPassed": 16,
+    "newReleaseAuditRegressions": 6,
+    "websiteTestsPassed": 5,
+    "websiteBuildPassed": true,
+    "editorialValidationPassed": true,
+    "publishedRouteCount": 0,
+    "releaseAndLatBuildPassed": true,
+    "finalBuildCommand": "gradlew.bat :app:assembleRelease :app:assembleLat :app:lintRelease :app:lintLat -PtrailnestLatBillingEnabled=true --offline --max-workers=2 --console=plain",
+    "releaseLint": {
+      "errors": 0,
+      "warnings": 44
+    },
+    "latLint": {
+      "errors": 0,
+      "warnings": 43
+    }
+  },
+  "signingChecks": {
+    "partialConfigurationRejected": true,
+    "missingKeystoreRejected": true,
+    "disposableQaSignedBuildPassed": true,
+    "qaSignatureV2Verified": true,
+    "qaSignatureV3Verified": true,
+    "latDidNotInheritProductionSigning": true,
+    "qaPrivateKeyRemoved": true,
+    "qaSignedOutputRemoved": true,
+    "unsignedReleaseRestored": true,
+    "realProductionSignatureVerified": false
+  },
+  "localisation": {
+    "currentAppLocaleBundlesAccepted": 19,
+    "humanApproved": 0,
+    "ownerReviewWaiverPreserved": true,
+    "requiredInitialLocalesMissing": [
+      "zh-Hant",
+      "tr",
+      "id"
+    ]
+  },
+  "releaseGate": {
+    "releaseReady": false,
+    "exitCode": 1,
+    "expectedBlockedResult": true,
+    "failureCount": 44,
+    "report": "artifacts/release-gate.json",
+    "marketingReport": "artifacts/marketing-audit.json"
+  },
+  "remainingBlockerGroups": [
+    "Licensed content/provider rights and unfinished route/map scope",
+    "Separate production billing service, pin, configuration and acceptance",
+    "Operator-provided production signing identity",
+    "Three required initial app languages",
+    "Ten missing storefront listings and approval of English drafts",
+    "Eight reviewed current screenshots for each supported app locale",
+    "Operator/privacy/retention and production store-declaration review",
+    "Broader device, spoken-screen-reader and billing-scenario acceptance",
+    "Commercial title availability"
+  ],
+  "artifacts": {
+    "release": {
+      "file": "app-release-unsigned.apk",
+      "sha256": "fb706ae9091301f00810af3e5537941d89809f56300cc7d2dbce3355a74df175",
+      "signed": false,
+      "productionApproved": false
+    },
+    "lat": {
+      "file": "app-lat-unsigned.apk",
+      "sha256": "0c71d86aedeeeeca212a5758a22f5cae5b20e699491ef7da382b20b9a678edb0",
+      "signed": false,
+      "productionApproved": false
+    }
+  }
+}
