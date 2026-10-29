@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-29",
+  "timeZone": "UTC (Europe/London also UTC on this date)",
+  "scope": "Existing Amazon-installed Test 2; final expired state and no offline resurrection",
+  "device": {
+    "model": "KFTRWI",
+    "package": "com.trailnest.app",
+    "versionName": "0.8.5-lat",
+    "versionCode": 13,
+    "installer": "com.amazon.venezia",
+    "usbDebuggingApprovedByOwner": true
+  },
+  "onlineRestore": {
+    "pressedAtUtc": "2026-10-29T18:32:14Z",
+    "premiumAlreadyOffAfterLaunch": true,
+    "premiumOffAfterRestore": true,
+    "annualSubscribeEnabled": true,
+    "verificationWarningVisible": false
+  },
+  "coldOfflineRestart": {
+    "startedAtUtc": "2026-10-29T18:32:44Z",
+    "wifiEnabled": false,
+    "forceStopConfirmedProcessAbsent": true,
+    "existingPackageRelaunched": true,
+    "premiumActive": false,
+    "activeLeaseDeadlineVisible": false,
+    "verificationUnavailableWarningVisible": true,
+    "subscribeEnabled": false
+  },
+  "offlineRestore": {
+    "pressedAtUtc": "2026-10-29T18:33:07Z",
+    "premiumActiveAfterRestore": false,
+    "verificationUnavailableWarningVisible": true,
+    "subscribeEnabled": false
+  },
+  "reconnection": {
+    "wifiRestoredAtUtc": "2026-10-29T18:33:13Z",
+    "restorePressedAtUtc": "2026-10-29T18:33:24Z",
+    "premiumActive": false,
+    "verificationWarningCleared": true,
+    "annualSubscribeEnabled": true,
+    "wifiRestoredToInitialState": true
+  },
+  "checks": {
+    "androidUnitTests": 64,
+    "androidFailures": 0,
+    "androidErrors": 0,
+    "androidSkipped": 0,
+    "androidTestTaskExecutedFresh": true,
+    "androidCommand": "gradlew.bat :app:testDebugUnitTest --rerun --console=plain",
+    "backendTestsPassed": 18,
+    "toolingTestsPassed": 10,
+    "localeTargetsValidated": 19,
+    "humanTranslationApprovalClaimed": false
+  },
+  "issueReproduced": false,
+  "runtimeCodeChangeRequired": false,
+  "limitations": [
+    "The Kindle was absent during the original Amazon expiry event. This pass occurred after the maximum six-hour lease had already elapsed; it does not measure live revocation latency or demonstrate definitive denial overriding a still-valid cache on the device.",
+    "Release app logs do not expose RVS HTTP status or SDK receipt counts. No new receipt-history count or HTTP status is inferred from UI. Original server-side HTTP 403 expiry evidence remains in the 27 October record.",
+    "Cold restart means app force-stop/relaunch, not a device reboot."
+  ],
+  "test1EditedResetCanceledOrInstalled": false,
+  "newPurchaseOrSubscriptionResetPerformed": false,
+  "appDataClearedOrPackageReinstalled": false,
+  "verificationGuardsChanged": false,
+  "backendDeploymentChanged": false,
+  "privacy": {
+    "rawAppProcessLogsAndScreenshotsKeptInIgnoredDirectory": true,
+    "receiptAccountIdentifiersAndTokensExcluded": true
+  },
+  "result": "Passed final expired-state online Restore, cold offline restart, offline Restore, and online recovery; original event-time revocation latency remains unobserved."
+}
