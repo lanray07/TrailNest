@@ -1,0 +1,2375 @@
+{
+  "version": "0.8.6",
+  "date": "2026-10-29",
+  "package": "com.trailnest.app.draft",
+  "model": "KFTRWI",
+  "api": 28,
+  "layout": {
+    "passed": 88,
+    "failures": [],
+    "configurations": [
+      {
+        "locale": "en-US",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "en-US",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "en-US",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "en-US",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "en-GB",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "en-GB",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "en-GB",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "en-GB",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "en-AU",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "en-AU",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "en-AU",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "en-AU",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "en-IN",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "en-IN",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "en-IN",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "en-IN",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "fr",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "fr",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "fr",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "fr",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "de",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "de",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "de",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "de",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "it",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "it",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "it",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "it",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "es",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "es",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "es",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "es",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "es-MX",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "es-MX",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "es-MX",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "es-MX",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "pt-BR",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "pt-BR",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "pt-BR",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "pt-BR",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "pt-PT",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "pt-PT",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "pt-PT",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "pt-PT",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "nl",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "nl",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "nl",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "nl",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "pl",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "pl",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "pl",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "pl",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "sv",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "sv",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "sv",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "sv",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "ja",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "ja",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "ja",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "ja",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "ar",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "ar",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "ar",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "ar",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "hi",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "hi",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "hi",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "hi",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "zh-Hans",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "zh-Hans",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "zh-Hans",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "zh-Hans",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "ko",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "ko",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "ko",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "ko",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "zh-Hant",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "zh-Hant",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "zh-Hant",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "zh-Hant",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "tr",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "tr",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "tr",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "tr",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "id",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "id",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "id",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 1,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      },
+      {
+        "locale": "id",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 2,
+        "screens": [
+          "Discover",
+          "My walks",
+          "Checklist",
+          "Offline packs",
+          "Settings",
+          "Coverage",
+          "Route",
+          "Share",
+          "Recording"
+        ],
+        "status": "passed"
+      }
+    ],
+    "accessibilityAuditConfigurations": 88
+  },
+  "billing": {
+    "passed": 26,
+    "failures": [],
+    "configurations": [
+      {
+        "locale": "en-US",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "syntheticOffer": "QA PRICE",
+        "states": [
+          "disabled",
+          "ready",
+          "checking",
+          "pending",
+          "active",
+          "unverified",
+          "no-offer"
+        ]
+      },
+      {
+        "locale": "en-GB",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "syntheticOffer": "QA PRICE",
+        "states": [
+          "disabled",
+          "ready",
+          "checking",
+          "pending",
+          "active",
+          "unverified",
+          "no-offer"
+        ]
+      },
+      {
+        "locale": "en-AU",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "syntheticOffer": "QA PRICE",
+        "states": [
+          "disabled",
+          "ready",
+          "checking",
+          "pending",
+          "active",
+          "unverified",
+          "no-offer"
+        ]
+      },
+      {
+        "locale": "en-IN",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "syntheticOffer": "QA PRICE",
+        "states": [
+          "disabled",
+          "ready",
+          "checking",
+          "pending",
+          "active",
+          "unverified",
+          "no-offer"
+        ]
+      },
+      {
+        "locale": "fr",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "syntheticOffer": "QA PRICE",
+        "states": [
+          "disabled",
+          "ready",
+          "checking",
+          "pending",
+          "active",
+          "unverified",
+          "no-offer"
+        ]
+      },
+      {
+        "locale": "de",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "syntheticOffer": "QA PRICE",
+        "states": [
+          "disabled",
+          "ready",
+          "checking",
+          "pending",
+          "active",
+          "unverified",
+          "no-offer"
+        ]
+      },
+      {
+        "locale": "it",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "syntheticOffer": "QA PRICE",
+        "states": [
+          "disabled",
+          "ready",
+          "checking",
+          "pending",
+          "active",
+          "unverified",
+          "no-offer"
+        ]
+      },
+      {
+        "locale": "es",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "syntheticOffer": "QA PRICE",
+        "states": [
+          "disabled",
+          "ready",
+          "checking",
+          "pending",
+          "active",
+          "unverified",
+          "no-offer"
+        ]
+      },
+      {
+        "locale": "es-MX",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "syntheticOffer": "QA PRICE",
+        "states": [
+          "disabled",
+          "ready",
+          "checking",
+          "pending",
+          "active",
+          "unverified",
+          "no-offer"
+        ]
+      },
+      {
+        "locale": "pt-BR",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "syntheticOffer": "QA PRICE",
+        "states": [
+          "disabled",
+          "ready",
+          "checking",
+          "pending",
+          "active",
+          "unverified",
+          "no-offer"
+        ]
+      },
+      {
+        "locale": "pt-PT",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "syntheticOffer": "QA PRICE",
+        "states": [
+          "disabled",
+          "ready",
+          "checking",
+          "pending",
+          "active",
+          "unverified",
+          "no-offer"
+        ]
+      },
+      {
+        "locale": "nl",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "syntheticOffer": "QA PRICE",
+        "states": [
+          "disabled",
+          "ready",
+          "checking",
+          "pending",
+          "active",
+          "unverified",
+          "no-offer"
+        ]
+      },
+      {
+        "locale": "pl",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "syntheticOffer": "QA PRICE",
+        "states": [
+          "disabled",
+          "ready",
+          "checking",
+          "pending",
+          "active",
+          "unverified",
+          "no-offer"
+        ]
+      },
+      {
+        "locale": "sv",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "syntheticOffer": "QA PRICE",
+        "states": [
+          "disabled",
+          "ready",
+          "checking",
+          "pending",
+          "active",
+          "unverified",
+          "no-offer"
+        ]
+      },
+      {
+        "locale": "ja",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "syntheticOffer": "QA PRICE",
+        "states": [
+          "disabled",
+          "ready",
+          "checking",
+          "pending",
+          "active",
+          "unverified",
+          "no-offer"
+        ]
+      },
+      {
+        "locale": "ar",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "syntheticOffer": "QA PRICE",
+        "states": [
+          "disabled",
+          "ready",
+          "checking",
+          "pending",
+          "active",
+          "unverified",
+          "no-offer"
+        ]
+      },
+      {
+        "locale": "hi",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "syntheticOffer": "QA PRICE",
+        "states": [
+          "disabled",
+          "ready",
+          "checking",
+          "pending",
+          "active",
+          "unverified",
+          "no-offer"
+        ]
+      },
+      {
+        "locale": "zh-Hans",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "syntheticOffer": "QA PRICE",
+        "states": [
+          "disabled",
+          "ready",
+          "checking",
+          "pending",
+          "active",
+          "unverified",
+          "no-offer"
+        ]
+      },
+      {
+        "locale": "ko",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "syntheticOffer": "QA PRICE",
+        "states": [
+          "disabled",
+          "ready",
+          "checking",
+          "pending",
+          "active",
+          "unverified",
+          "no-offer"
+        ]
+      },
+      {
+        "locale": "zh-Hant",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "syntheticOffer": "QA PRICE",
+        "states": [
+          "disabled",
+          "ready",
+          "checking",
+          "pending",
+          "active",
+          "unverified",
+          "no-offer"
+        ]
+      },
+      {
+        "locale": "tr",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "syntheticOffer": "QA PRICE",
+        "states": [
+          "disabled",
+          "ready",
+          "checking",
+          "pending",
+          "active",
+          "unverified",
+          "no-offer"
+        ]
+      },
+      {
+        "locale": "id",
+        "widthDp": 360,
+        "heightDp": 640,
+        "fontScale": 2,
+        "syntheticOffer": "QA PRICE",
+        "states": [
+          "disabled",
+          "ready",
+          "checking",
+          "pending",
+          "active",
+          "unverified",
+          "no-offer"
+        ]
+      },
+      {
+        "locale": "ar",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 2,
+        "syntheticOffer": "QA PRICE",
+        "states": [
+          "disabled",
+          "ready",
+          "checking",
+          "pending",
+          "active",
+          "unverified",
+          "no-offer"
+        ]
+      },
+      {
+        "locale": "de",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 2,
+        "syntheticOffer": "QA PRICE",
+        "states": [
+          "disabled",
+          "ready",
+          "checking",
+          "pending",
+          "active",
+          "unverified",
+          "no-offer"
+        ]
+      },
+      {
+        "locale": "ja",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 2,
+        "syntheticOffer": "QA PRICE",
+        "states": [
+          "disabled",
+          "ready",
+          "checking",
+          "pending",
+          "active",
+          "unverified",
+          "no-offer"
+        ]
+      },
+      {
+        "locale": "hi",
+        "widthDp": 800,
+        "heightDp": 640,
+        "fontScale": 2,
+        "syntheticOffer": "QA PRICE",
+        "states": [
+          "disabled",
+          "ready",
+          "checking",
+          "pending",
+          "active",
+          "unverified",
+          "no-offer"
+        ]
+      }
+    ],
+    "scope": "Synthetic states and Android cryptographic fixtures, not new Amazon purchases."
+  },
+  "keyboard": {
+    "passed": 12,
+    "failures": [],
+    "configurations": [
+      {
+        "configuration": "zh-Hant-360-1.0",
+        "status": "passed",
+        "actions": [
+          {
+            "action": "share-submit",
+            "bounds": "1007 582 1170 654",
+            "keyboardBounds": "0 672 1920 1128",
+            "realTouchInjected": true
+          },
+          {
+            "action": "share-submit",
+            "bounds": "1007 510 1170 582",
+            "keyboardBounds": "0 600 1920 1128",
+            "realTouchInjected": true
+          },
+          {
+            "action": "share-cancel",
+            "bounds": "908 510 995 582",
+            "keyboardBounds": "0 600 1920 1128",
+            "realTouchInjected": true
+          }
+        ],
+        "imeNextOrder": "duration>return>contact",
+        "sharedContactPreserved": true,
+        "doneBackOutsideChecks": true
+      },
+      {
+        "configuration": "zh-Hant-360-2.0",
+        "status": "passed",
+        "actions": [
+          {
+            "action": "share-submit",
+            "bounds": "899 571 1170 648",
+            "keyboardBounds": "0 672 1920 1128",
+            "realTouchInjected": true
+          },
+          {
+            "action": "share-submit",
+            "bounds": "899 499 1170 576",
+            "keyboardBounds": "0 600 1920 1128",
+            "realTouchInjected": true
+          },
+          {
+            "action": "share-cancel",
+            "bounds": "772 499 887 576",
+            "keyboardBounds": "0 600 1920 1128",
+            "realTouchInjected": true
+          }
+        ],
+        "imeNextOrder": "duration>return>contact",
+        "sharedContactPreserved": true,
+        "doneBackOutsideChecks": false
+      },
+      {
+        "configuration": "zh-Hant-800-1.0",
+        "status": "passed",
+        "actions": [
+          {
+            "action": "share-submit",
+            "bounds": "1181 582 1344 654",
+            "keyboardBounds": "0 672 1920 1128",
+            "realTouchInjected": true
+          },
+          {
+            "action": "share-submit",
+            "bounds": "1181 510 1344 582",
+            "keyboardBounds": "0 600 1920 1128",
+            "realTouchInjected": true
+          },
+          {
+            "action": "share-cancel",
+            "bounds": "1082 510 1169 582",
+            "keyboardBounds": "0 600 1920 1128",
+            "realTouchInjected": true
+          }
+        ],
+        "imeNextOrder": "duration>return>contact",
+        "sharedContactPreserved": true,
+        "doneBackOutsideChecks": false
+      },
+      {
+        "configuration": "zh-Hant-800-2.0",
+        "status": "passed",
+        "actions": [
+          {
+            "action": "share-submit",
+            "bounds": "1073 571 1344 648",
+            "keyboardBounds": "0 672 1920 1128",
+            "realTouchInjected": true
+          },
+          {
+            "action": "share-submit",
+            "bounds": "1073 499 1344 576",
+            "keyboardBounds": "0 600 1920 1128",
+            "realTouchInjected": true
+          },
+          {
+            "action": "share-cancel",
+            "bounds": "946 499 1061 576",
+            "keyboardBounds": "0 600 1920 1128",
+            "realTouchInjected": true
+          }
+        ],
+        "imeNextOrder": "duration>return>contact",
+        "sharedContactPreserved": true,
+        "doneBackOutsideChecks": false
+      },
+      {
+        "configuration": "tr-360-1.0",
+        "status": "passed",
+        "actions": [
+          {
+            "action": "share-submit",
+            "bounds": "893 582 1170 654",
+            "keyboardBounds": "0 672 1920 1128",
+            "realTouchInjected": true
+          },
+          {
+            "action": "share-submit",
+            "bounds": "893 510 1170 582",
+            "keyboardBounds": "0 600 1920 1128",
+            "realTouchInjected": true
+          },
+          {
+            "action": "share-cancel",
+            "bounds": "794 510 881 582",
+            "keyboardBounds": "0 600 1920 1128",
+            "realTouchInjected": true
+          }
+        ],
+        "imeNextOrder": "duration>return>contact",
+        "sharedContactPreserved": true,
+        "doneBackOutsideChecks": false
+      },
+      {
+        "configuration": "tr-360-2.0",
+        "status": "passed",
+        "actions": [
+          {
+            "action": "share-submit",
+            "bounds": "750 515 1170 648",
+            "keyboardBounds": "0 672 1920 1128",
+            "realTouchInjected": true
+          },
+          {
+            "action": "share-submit",
+            "bounds": "750 443 1170 576",
+            "keyboardBounds": "0 600 1920 1128",
+            "realTouchInjected": true
+          },
+          {
+            "action": "share-cancel",
+            "bounds": "1056 499 1170 576",
+            "keyboardBounds": "0 600 1920 1128",
+            "realTouchInjected": true
+          }
+        ],
+        "imeNextOrder": "duration>return>contact",
+        "sharedContactPreserved": true,
+        "doneBackOutsideChecks": false
+      },
+      {
+        "configuration": "tr-800-1.0",
+        "status": "passed",
+        "actions": [
+          {
+            "action": "share-submit",
+            "bounds": "1067 582 1344 654",
+            "keyboardBounds": "0 672 1920 1128",
+            "realTouchInjected": true
+          },
+          {
+            "action": "share-submit",
+            "bounds": "1067 510 1344 582",
+            "keyboardBounds": "0 600 1920 1128",
+            "realTouchInjected": true
+          },
+          {
+            "action": "share-cancel",
+            "bounds": "968 510 1055 582",
+            "keyboardBounds": "0 600 1920 1128",
+            "realTouchInjected": true
+          }
+        ],
+        "imeNextOrder": "duration>return>contact",
+        "sharedContactPreserved": true,
+        "doneBackOutsideChecks": false
+      },
+      {
+        "configuration": "tr-800-2.0",
+        "status": "passed",
+        "actions": [
+          {
+            "action": "share-submit",
+            "bounds": "854 571 1344 648",
+            "keyboardBounds": "0 672 1920 1128",
+            "realTouchInjected": true
+          },
+          {
+            "action": "share-submit",
+            "bounds": "854 499 1344 576",
+            "keyboardBounds": "0 600 1920 1128",
+            "realTouchInjected": true
+          },
+          {
+            "action": "share-cancel",
+            "bounds": "728 499 842 576",
+            "keyboardBounds": "0 600 1920 1128",
+            "realTouchInjected": true
+          }
+        ],
+        "imeNextOrder": "duration>return>contact",
+        "sharedContactPreserved": true,
+        "doneBackOutsideChecks": false
+      },
+      {
+        "configuration": "id-360-1.0",
+        "status": "passed",
+        "actions": [
+          {
+            "action": "share-submit",
+            "bounds": "966 582 1170 654",
+            "keyboardBounds": "0 672 1920 1128",
+            "realTouchInjected": true
+          },
+          {
+            "action": "share-submit",
+            "bounds": "966 510 1170 582",
+            "keyboardBounds": "0 600 1920 1128",
+            "realTouchInjected": true
+          },
+          {
+            "action": "share-cancel",
+            "bounds": "867 510 954 582",
+            "keyboardBounds": "0 600 1920 1128",
+            "realTouchInjected": true
+          }
+        ],
+        "imeNextOrder": "duration>return>contact",
+        "sharedContactPreserved": true,
+        "doneBackOutsideChecks": false
+      },
+      {
+        "configuration": "id-360-2.0",
+        "status": "passed",
+        "actions": [
+          {
+            "action": "share-submit",
+            "bounds": "819 571 1170 648",
+            "keyboardBounds": "0 672 1920 1128",
+            "realTouchInjected": true
+          },
+          {
+            "action": "share-submit",
+            "bounds": "819 499 1170 576",
+            "keyboardBounds": "0 600 1920 1128",
+            "realTouchInjected": true
+          },
+          {
+            "action": "share-cancel",
+            "bounds": "1043 499 1170 576",
+            "keyboardBounds": "0 600 1920 1128",
+            "realTouchInjected": true
+          }
+        ],
+        "imeNextOrder": "duration>return>contact",
+        "sharedContactPreserved": true,
+        "doneBackOutsideChecks": false
+      },
+      {
+        "configuration": "id-800-1.0",
+        "status": "passed",
+        "actions": [
+          {
+            "action": "share-submit",
+            "bounds": "1140 582 1344 654",
+            "keyboardBounds": "0 672 1920 1128",
+            "realTouchInjected": true
+          },
+          {
+            "action": "share-submit",
+            "bounds": "1140 510 1344 582",
+            "keyboardBounds": "0 600 1920 1128",
+            "realTouchInjected": true
+          },
+          {
+            "action": "share-cancel",
+            "bounds": "1041 510 1128 582",
+            "keyboardBounds": "0 600 1920 1128",
+            "realTouchInjected": true
+          }
+        ],
+        "imeNextOrder": "duration>return>contact",
+        "sharedContactPreserved": true,
+        "doneBackOutsideChecks": false
+      },
+      {
+        "configuration": "id-800-2.0",
+        "status": "passed",
+        "actions": [
+          {
+            "action": "share-submit",
+            "bounds": "993 571 1344 648",
+            "keyboardBounds": "0 672 1920 1128",
+            "realTouchInjected": true
+          },
+          {
+            "action": "share-submit",
+            "bounds": "993 499 1344 576",
+            "keyboardBounds": "0 600 1920 1128",
+            "realTouchInjected": true
+          },
+          {
+            "action": "share-cancel",
+            "bounds": "854 499 981 576",
+            "keyboardBounds": "0 600 1920 1128",
+            "realTouchInjected": true
+          }
+        ],
+        "imeNextOrder": "duration>return>contact",
+        "sharedContactPreserved": true,
+        "doneBackOutsideChecks": false
+      }
+    ]
+  },
+  "testBatch": {
+    "languagePickerNotificationLayoutBilling": {
+      "passedTests": 6,
+      "seconds": 780.716
+    },
+    "newLanguagesKeyboard": {
+      "passedTests": 1,
+      "seconds": 67.284
+    }
+  },
+  "originalReportSha256": {
+    "layout": "dab66ae777d24416ab6baedaf9a315789f293dc8750f04d225d06abaae1c5593",
+    "billing": "b9f85e4489a8883091fb32907ac6b836bbe1d271c39d238e30ceae5004089f20",
+    "keyboard": "3d714308a4bb8b583f944c0387483e48d58759ebc0372ad1498df97202b400e2"
+  },
+  "test1Changed": false,
+  "normalAmazonApp": {
+    "version": "0.8.5-lat",
+    "versionCode": 13,
+    "installer": "com.amazon.venezia",
+    "changed": false
+  },
+  "humanAccessibilityAcceptance": false,
+  "productionSubmissionApproved": false
+}

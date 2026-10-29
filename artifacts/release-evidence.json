@@ -1,0 +1,11 @@
+{
+  "marketingScreenshotsApproved": true,
+  "marketingReview": {
+    "version": "0.8.6",
+    "reviewer": "Codex",
+    "date": "2026-10-29",
+    "manifest": "marketing/screenshots.json",
+    "scope": "176 localized native screenshots only; no production submission approval",
+    "humanReviewed": false
+  }
+}

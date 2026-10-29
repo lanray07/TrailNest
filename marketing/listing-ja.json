@@ -1,0 +1,30 @@
+{
+  "locale": "ja",
+  "version": "0.8.6",
+  "status": "ready_for_submission",
+  "assetStatus": "prepared_and_agent_checked; whole_app_release_not_approved",
+  "amazonStorefrontMapped": true,
+  "titleAvailability": "not_verified",
+  "currentBuildTitle": "TrailNest – 散歩日記",
+  "shortDescription": "散歩の準備、写真付きのプライベート日記、自分のGPXルートの読み込みをひとつに。",
+  "longDescription": "散歩の準備、写真付きのプライベート日記、自分のGPXルートの読み込みをひとつに。\n\n行ったことのある場所や、残しておく価値のある瞬間を収めたプライベートな空間。 1 回の散歩につき最大 8 枚の写真を撮影できます。このデバイスではコピーは非公開のままです。場所のメタデータは削除されます。\n\nあなた専用の散歩前チェックリスト。キットをルート、天候、ニーズに合わせて調整してください。\n\nプライベート GPX ジオメトリがデバイスに保存されています。ベースマップ タイル、標高、確認されたルートは含まれません。 インポートされたルートは非公開のままでレビューされません。アクセスや状況を事前に確認してから歩きましょう。\n\n画面がオフになっているとき、またはアプリが最小化されているときに録画し、永続的な通知を行います。位置情報を有効にしておきます。バッテリー制御やデバイスの GPS の利用可能性により、記録が中断される場合があります。距離は推定値です。これは安全追跡装置ではありません。 継続時間と推定距離のみがこのデバイスに非公開で保存されます。座標はメモリ内で使用され、破棄されます。何もアップロードされていません。\n\n音声機能は、端末にインストールされた対応サービスによって異なります。音声コマンドは現在英語のみ対応しています。タッチ操作はいつでも利用できます。\n\nシステム音声サービスは、独自のプライバシー規約に基づいて音声データを処理する場合があります。アンインストールするとローカルデータが消去されます。バックアップは無効になっています。\n\nこのビルドでは購入はできません。製品、価格、または有料資格は構成されていません。 チェックリスト、ジャーナル、および 1 つのオフライン ジオメトリ パックは無料で利用できます。 GPX ツールはこの開発リリースに含まれています。",
+  "features": [
+    "散歩日記",
+    "あなた専用の散歩前チェックリスト。キットをルート、天候、ニーズに合わせて調整してください。",
+    "プライベート写真を追加",
+    "独自の GPX をインポートする",
+    "アプリの言語"
+  ],
+  "keywords": [
+    "散歩日記",
+    "チェックリスト",
+    "GPX",
+    "散歩記録"
+  ],
+  "releaseNotes": "繁体字中国語、トルコ語、インドネシア語を追加し、22の言語・地域設定に対応しました。",
+  "metadataSource": "https://developer.amazon.com/docs/app-submission/appstore-details.html",
+  "checkedOn": "2026-10-29",
+  "provenance": "agent-authored localized metadata; owner translation-review waiver; not native-speaker certification",
+  "humanReviewed": false,
+  "productionSubmissionApproved": false
+}

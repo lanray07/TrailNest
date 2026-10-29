@@ -1,0 +1,30 @@
+{
+  "locale": "it",
+  "version": "0.8.6",
+  "status": "ready_for_submission",
+  "assetStatus": "prepared_and_agent_checked; whole_app_release_not_approved",
+  "amazonStorefrontMapped": true,
+  "titleAvailability": "not_verified",
+  "currentBuildTitle": "TrailNest – Diario delle passeggiate",
+  "shortDescription": "Prepara le tue passeggiate, conserva un diario fotografico privato e importa i tuoi percorsi GPX.",
+  "longDescription": "Prepara le tue passeggiate, conserva un diario fotografico privato e importa i tuoi percorsi GPX.\n\nUno spazio privato per i luoghi in cui sei stato e i momenti che vale la pena conservare. Fino a otto foto per passeggiata. Le copie rimangono private su questo dispositivo; i metadati della posizione vengono rimossi.\n\nLa tua personale checklist pre-camminata. Adatta il tuo kit al percorso, al tempo e alle tue esigenze.\n\nGeometria GPX privata memorizzata sul tuo dispositivo. I riquadri della mappa di base, l'elevazione e le indicazioni stradali riviste non sono inclusi. Le rotte importate rimangono private e non revisionate. Controlla l'accesso e le condizioni prima di camminare.\n\nRegistra mentre lo schermo è spento o l'app è ridotta a icona, con una notifica persistente. Mantieni la posizione abilitata. I controlli della batteria e la disponibilità del GPS del dispositivo possono interrompere la registrazione. La distanza è una stima; questo non è un tracker di sicurezza. Solo la durata e la distanza stimata vengono memorizzate privatamente su questo dispositivo. Le coordinate vengono utilizzate in memoria e scartate. Non viene caricato nulla.\n\nLe funzioni vocali dipendono dai servizi compatibili installati. I comandi vocali sono attualmente disponibili solo in inglese; i controlli touch restano sempre accessibili.\n\nI servizi vocali del sistema possono elaborare i dati vocali in base ai propri termini di privacy. La disinstallazione cancella i dati locali. I backup sono disabilitati.\n\nL'acquisto non è disponibile in questa build. Nessun prodotto, prezzo o diritto a pagamento è configurato. La tua lista di controllo, il tuo diario e un pacchetto di geometrie offline sono disponibili gratuitamente. Gli strumenti GPX sono inclusi in questa versione di sviluppo.",
+  "features": [
+    "Diario delle passeggiate",
+    "La tua personale checklist pre-camminata. Adatta il tuo kit al percorso, al tempo e alle tue esigenze.",
+    "Aggiungi foto privata",
+    "Importa il tuo GPX",
+    "Lingua dell’app"
+  ],
+  "keywords": [
+    "Diario delle passeggiate",
+    "Lista di controllo",
+    "GPX",
+    "Registrazione della camminata"
+  ],
+  "releaseNotes": "Aggiunti cinese tradizionale, turco e indonesiano: l’app supporta ora 22 impostazioni locali.",
+  "metadataSource": "https://developer.amazon.com/docs/app-submission/appstore-details.html",
+  "checkedOn": "2026-10-29",
+  "provenance": "agent-authored localized metadata; owner translation-review waiver; not native-speaker certification",
+  "humanReviewed": false,
+  "productionSubmissionApproved": false
+}

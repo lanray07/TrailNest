@@ -1,0 +1,420 @@
+{
+  "en-US": {
+    "shortDescription": "Prepare a walk, keep a private journal with photos, and bring your own GPX route.",
+    "voiceDisclosure": "Speech depends on compatible installed services. Voice commands currently support English only; touch controls are always available.",
+    "sampleWalk": "Morning walk",
+    "demoLabel": "Example data",
+    "releaseNotes": "Adds Traditional Chinese, Turkish and Indonesian, bringing app language support to 22 locales.",
+    "provenance": "agent-authored localized metadata; owner translation-review waiver; not native-speaker certification",
+    "humanReviewed": false,
+    "headlines": {
+      "journal": "Every walk, remembered.",
+      "recording": "Your time outdoors, recorded.",
+      "checklist": "Head out prepared.",
+      "photos": "Keep your favorite moments.",
+      "gpx": "Bring your own route.",
+      "progress": "Your geometry, at a glance.",
+      "sharing": "Share your walking plan.",
+      "settings": "Make TrailNest yours."
+    }
+  },
+  "en-GB": {
+    "shortDescription": "Prepare a walk, keep a private journal with photos, and bring your own GPX route.",
+    "voiceDisclosure": "Speech depends on compatible installed services. Voice commands currently support English only; touch controls are always available.",
+    "sampleWalk": "Morning walk",
+    "demoLabel": "Example data",
+    "releaseNotes": "Adds Traditional Chinese, Turkish and Indonesian, bringing app language support to 22 locales.",
+    "provenance": "agent-authored localized metadata; owner translation-review waiver; not native-speaker certification",
+    "humanReviewed": false,
+    "headlines": {
+      "journal": "Every walk, remembered.",
+      "recording": "Your time outdoors, recorded.",
+      "checklist": "Head out prepared.",
+      "photos": "Keep your favourite moments.",
+      "gpx": "Bring your own route.",
+      "progress": "Your geometry, at a glance.",
+      "sharing": "Share your walking plan.",
+      "settings": "Make TrailNest yours."
+    }
+  },
+  "en-AU": {
+    "shortDescription": "Prepare a walk, keep a private journal with photos, and bring your own GPX route.",
+    "voiceDisclosure": "Speech depends on compatible installed services. Voice commands currently support English only; touch controls are always available.",
+    "sampleWalk": "Morning walk",
+    "demoLabel": "Example data",
+    "releaseNotes": "Adds Traditional Chinese, Turkish and Indonesian, bringing app language support to 22 locales.",
+    "provenance": "agent-authored localized metadata; owner translation-review waiver; not native-speaker certification",
+    "humanReviewed": false,
+    "headlines": {
+      "journal": "Every walk, remembered.",
+      "recording": "Your time outdoors, recorded.",
+      "checklist": "Head out prepared.",
+      "photos": "Keep your favourite moments.",
+      "gpx": "Bring your own route.",
+      "progress": "Your geometry, at a glance.",
+      "sharing": "Share your walking plan.",
+      "settings": "Make TrailNest yours."
+    }
+  },
+  "en-IN": {
+    "shortDescription": "Prepare a walk, keep a private journal with photos, and bring your own GPX route.",
+    "voiceDisclosure": "Speech depends on compatible installed services. Voice commands currently support English only; touch controls are always available.",
+    "sampleWalk": "Morning walk",
+    "demoLabel": "Example data",
+    "releaseNotes": "Adds Traditional Chinese, Turkish and Indonesian, bringing app language support to 22 locales.",
+    "provenance": "agent-authored localized metadata; owner translation-review waiver; not native-speaker certification",
+    "humanReviewed": false,
+    "headlines": {
+      "journal": "Every walk, remembered.",
+      "recording": "Your time outdoors, recorded.",
+      "checklist": "Head out prepared.",
+      "photos": "Keep your favourite moments.",
+      "gpx": "Bring your own route.",
+      "progress": "Your geometry, at a glance.",
+      "sharing": "Share your walking plan.",
+      "settings": "Make TrailNest yours."
+    }
+  },
+  "fr": {
+    "shortDescription": "Préparez vos balades, gardez un journal photo privé et importez vos propres itinéraires GPX.",
+    "voiceDisclosure": "La voix dépend des services compatibles installés. Les commandes vocales fonctionnent actuellement en anglais uniquement ; les commandes tactiles restent disponibles.",
+    "sampleWalk": "Balade du matin",
+    "demoLabel": "Données d’exemple",
+    "releaseNotes": "Ajout du chinois traditionnel, du turc et de l’indonésien : l’application propose désormais 22 paramètres régionaux.",
+    "provenance": "agent-authored localized metadata; owner translation-review waiver; not native-speaker certification",
+    "humanReviewed": false,
+    "headlines": {
+      "journal": "Chaque balade mérite un souvenir.",
+      "recording": "Gardez une trace du temps dehors.",
+      "checklist": "Partez bien préparé.",
+      "photos": "Gardez vos moments préférés.",
+      "gpx": "Emportez votre propre itinéraire.",
+      "progress": "Votre tracé, en un regard.",
+      "sharing": "Partagez votre projet de balade.",
+      "settings": "Un TrailNest à votre image."
+    }
+  },
+  "de": {
+    "shortDescription": "Bereiten Sie Spaziergänge vor, führen Sie ein privates Fototagebuch und importieren Sie eigene GPX-Routen.",
+    "voiceDisclosure": "Sprachausgabe und Erkennung hängen von kompatiblen installierten Diensten ab. Sprachbefehle sind derzeit nur auf Englisch verfügbar; die Touch-Bedienung bleibt immer möglich.",
+    "sampleWalk": "Morgenspaziergang",
+    "demoLabel": "Beispieldaten",
+    "releaseNotes": "Traditionelles Chinesisch, Türkisch und Indonesisch ergänzen die App auf insgesamt 22 Sprachvarianten.",
+    "provenance": "agent-authored localized metadata; owner translation-review waiver; not native-speaker certification",
+    "humanReviewed": false,
+    "headlines": {
+      "journal": "Jeder Spaziergang bleibt in Erinnerung.",
+      "recording": "Zeit draußen bewusst festhalten.",
+      "checklist": "Gut vorbereitet losgehen.",
+      "photos": "Lieblingsmomente bewahren.",
+      "gpx": "Die eigene Route mitnehmen.",
+      "progress": "Die Routengeometrie im Blick.",
+      "sharing": "Den Spaziergangsplan teilen.",
+      "settings": "TrailNest nach Ihren Wünschen."
+    }
+  },
+  "it": {
+    "shortDescription": "Prepara le tue passeggiate, conserva un diario fotografico privato e importa i tuoi percorsi GPX.",
+    "voiceDisclosure": "Le funzioni vocali dipendono dai servizi compatibili installati. I comandi vocali sono attualmente disponibili solo in inglese; i controlli touch restano sempre accessibili.",
+    "sampleWalk": "Passeggiata mattutina",
+    "demoLabel": "Dati di esempio",
+    "releaseNotes": "Aggiunti cinese tradizionale, turco e indonesiano: l’app supporta ora 22 impostazioni locali.",
+    "provenance": "agent-authored localized metadata; owner translation-review waiver; not native-speaker certification",
+    "humanReviewed": false,
+    "headlines": {
+      "journal": "Ogni passeggiata, un ricordo.",
+      "recording": "Conserva il tempo trascorso all’aperto.",
+      "checklist": "Parti con tutto il necessario.",
+      "photos": "Custodisci i tuoi momenti preferiti.",
+      "gpx": "Porta con te il tuo percorso.",
+      "progress": "La geometria del percorso, a colpo d’occhio.",
+      "sharing": "Condividi il piano della passeggiata.",
+      "settings": "Un TrailNest su misura per te."
+    }
+  },
+  "es": {
+    "shortDescription": "Prepara tus paseos, guarda un diario privado con fotos e importa tus propias rutas GPX.",
+    "voiceDisclosure": "La voz depende de los servicios compatibles instalados. Los comandos de voz solo están disponibles en inglés por ahora; los controles táctiles siempre están disponibles.",
+    "sampleWalk": "Paseo matutino",
+    "demoLabel": "Datos de ejemplo",
+    "releaseNotes": "Se añaden chino tradicional, turco e indonesio: la aplicación ya admite 22 configuraciones regionales.",
+    "provenance": "agent-authored localized metadata; owner translation-review waiver; not native-speaker certification",
+    "humanReviewed": false,
+    "headlines": {
+      "journal": "Cada paseo, un recuerdo.",
+      "recording": "Guarda tu tiempo al aire libre.",
+      "checklist": "Sal con todo preparado.",
+      "photos": "Conserva tus momentos favoritos.",
+      "gpx": "Lleva tu propia ruta.",
+      "progress": "La geometría de tu ruta, de un vistazo.",
+      "sharing": "Comparte tu plan de paseo.",
+      "settings": "Haz TrailNest a tu medida."
+    }
+  },
+  "es-MX": {
+    "shortDescription": "Prepara tus caminatas, guarda un diario privado con fotos e importa tus propias rutas GPX.",
+    "voiceDisclosure": "La voz depende de los servicios compatibles instalados. Los comandos de voz por ahora solo admiten inglés; los controles táctiles siempre están disponibles.",
+    "sampleWalk": "Caminata matutina",
+    "demoLabel": "Datos de ejemplo",
+    "releaseNotes": "Se agregan chino tradicional, turco e indonesio: la aplicación ahora admite 22 configuraciones regionales.",
+    "provenance": "agent-authored localized metadata; owner translation-review waiver; not native-speaker certification",
+    "humanReviewed": false,
+    "headlines": {
+      "journal": "Cada caminata, un recuerdo.",
+      "recording": "Registra tu tiempo al aire libre.",
+      "checklist": "Sal con todo preparado.",
+      "photos": "Conserva tus momentos favoritos.",
+      "gpx": "Lleva tu propia ruta.",
+      "progress": "La geometría de tu ruta, de un vistazo.",
+      "sharing": "Comparte tu plan de caminata.",
+      "settings": "Haz TrailNest a tu medida."
+    }
+  },
+  "pt-BR": {
+    "shortDescription": "Prepare suas caminhadas, mantenha um diário privado com fotos e importe suas próprias rotas GPX.",
+    "voiceDisclosure": "Os recursos de voz dependem dos serviços compatíveis instalados. Por enquanto, os comandos de voz aceitam apenas inglês; os controles por toque estão sempre disponíveis.",
+    "sampleWalk": "Caminhada matinal",
+    "demoLabel": "Dados de exemplo",
+    "releaseNotes": "Adicionados chinês tradicional, turco e indonésio: o aplicativo agora oferece 22 configurações regionais.",
+    "provenance": "agent-authored localized metadata; owner translation-review waiver; not native-speaker certification",
+    "humanReviewed": false,
+    "headlines": {
+      "journal": "Cada caminhada, uma lembrança.",
+      "recording": "Registre seu tempo ao ar livre.",
+      "checklist": "Saia bem preparado.",
+      "photos": "Guarde seus momentos favoritos.",
+      "gpx": "Leve sua própria rota.",
+      "progress": "A geometria da rota em um olhar.",
+      "sharing": "Compartilhe seu plano de caminhada.",
+      "settings": "Deixe o TrailNest com a sua cara."
+    }
+  },
+  "pt-PT": {
+    "shortDescription": "Prepare os seus passeios, mantenha um diário privado com fotografias e importe os seus percursos GPX.",
+    "voiceDisclosure": "As funções de voz dependem dos serviços compatíveis instalados. Os comandos de voz estão atualmente disponíveis apenas em inglês; os controlos táteis continuam sempre disponíveis.",
+    "sampleWalk": "Passeio matinal",
+    "demoLabel": "Dados de exemplo",
+    "releaseNotes": "Adicionados chinês tradicional, turco e indonésio: a aplicação oferece agora 22 configurações regionais.",
+    "provenance": "agent-authored localized metadata; owner translation-review waiver; not native-speaker certification",
+    "humanReviewed": false,
+    "headlines": {
+      "journal": "Cada passeio, uma memória.",
+      "recording": "Registe o seu tempo ao ar livre.",
+      "checklist": "Saia bem preparado.",
+      "photos": "Guarde os seus momentos preferidos.",
+      "gpx": "Leve o seu próprio percurso.",
+      "progress": "A geometria do percurso num relance.",
+      "sharing": "Partilhe o plano do seu passeio.",
+      "settings": "Um TrailNest à sua medida."
+    }
+  },
+  "nl": {
+    "shortDescription": "Bereid wandelingen voor, houd een privéfotodagboek bij en importeer je eigen GPX-routes.",
+    "voiceDisclosure": "Spraakfuncties zijn afhankelijk van compatibele geïnstalleerde diensten. Spraakopdrachten werken momenteel alleen in het Engels; aanraakbediening blijft altijd beschikbaar.",
+    "sampleWalk": "Ochtendwandeling",
+    "demoLabel": "Voorbeeldgegevens",
+    "releaseNotes": "Traditioneel Chinees, Turks en Indonesisch toegevoegd: de app ondersteunt nu 22 taalvarianten.",
+    "provenance": "agent-authored localized metadata; owner translation-review waiver; not native-speaker certification",
+    "humanReviewed": false,
+    "headlines": {
+      "journal": "Elke wandeling, een herinnering.",
+      "recording": "Leg je tijd buiten vast.",
+      "checklist": "Ga goed voorbereid op pad.",
+      "photos": "Bewaar je favoriete momenten.",
+      "gpx": "Neem je eigen route mee.",
+      "progress": "Je routegeometrie in één oogopslag.",
+      "sharing": "Deel je wandelplan.",
+      "settings": "Maak TrailNest helemaal van jou."
+    }
+  },
+  "pl": {
+    "shortDescription": "Przygotuj spacer, prowadź prywatny dziennik ze zdjęciami i importuj własne trasy GPX.",
+    "voiceDisclosure": "Funkcje głosowe zależą od zainstalowanych zgodnych usług. Polecenia głosowe są obecnie obsługiwane tylko po angielsku; sterowanie dotykowe jest zawsze dostępne.",
+    "sampleWalk": "Poranny spacer",
+    "demoLabel": "Dane przykładowe",
+    "releaseNotes": "Dodano tradycyjny chiński, turecki i indonezyjski. Aplikacja obsługuje teraz 22 ustawienia regionalne.",
+    "provenance": "agent-authored localized metadata; owner translation-review waiver; not native-speaker certification",
+    "humanReviewed": false,
+    "headlines": {
+      "journal": "Każdy spacer to wspomnienie.",
+      "recording": "Zapisuj czas spędzony na dworze.",
+      "checklist": "Wyrusz dobrze przygotowany.",
+      "photos": "Zachowaj ulubione chwile.",
+      "gpx": "Zabierz własną trasę.",
+      "progress": "Geometria trasy na pierwszy rzut oka.",
+      "sharing": "Udostępnij plan spaceru.",
+      "settings": "Dopasuj TrailNest do siebie."
+    }
+  },
+  "sv": {
+    "shortDescription": "Förbered promenader, spara en privat dagbok med foton och importera egna GPX-rutter.",
+    "voiceDisclosure": "Röstfunktioner kräver kompatibla installerade tjänster. Röstkommandon stöder för närvarande bara engelska; pekskärmskontroller finns alltid tillgängliga.",
+    "sampleWalk": "Morgonpromenad",
+    "demoLabel": "Exempeldata",
+    "releaseNotes": "Traditionell kinesiska, turkiska och indonesiska har lagts till. Appen stöder nu 22 språkinställningar.",
+    "provenance": "agent-authored localized metadata; owner translation-review waiver; not native-speaker certification",
+    "humanReviewed": false,
+    "headlines": {
+      "journal": "Varje promenad, ett minne.",
+      "recording": "Spara din tid utomhus.",
+      "checklist": "Ge dig ut förberedd.",
+      "photos": "Bevara dina favoritögonblick.",
+      "gpx": "Ta med din egen rutt.",
+      "progress": "Ruttens geometri i en blick.",
+      "sharing": "Dela din promenadplan.",
+      "settings": "Gör TrailNest till ditt."
+    }
+  },
+  "ja": {
+    "shortDescription": "散歩の準備、写真付きのプライベート日記、自分のGPXルートの読み込みをひとつに。",
+    "voiceDisclosure": "音声機能は、端末にインストールされた対応サービスによって異なります。音声コマンドは現在英語のみ対応しています。タッチ操作はいつでも利用できます。",
+    "sampleWalk": "朝の散歩",
+    "demoLabel": "サンプルデータ",
+    "releaseNotes": "繁体字中国語、トルコ語、インドネシア語を追加し、22の言語・地域設定に対応しました。",
+    "provenance": "agent-authored localized metadata; owner translation-review waiver; not native-speaker certification",
+    "humanReviewed": false,
+    "headlines": {
+      "journal": "一歩ごとの思い出を残そう。",
+      "recording": "外で過ごした時間を記録。",
+      "checklist": "準備を整えて、出かけよう。",
+      "photos": "お気に入りの瞬間を大切に。",
+      "gpx": "自分のルートを持っていこう。",
+      "progress": "ルートの形をひと目で確認。",
+      "sharing": "散歩の計画を共有しよう。",
+      "settings": "自分らしいTrailNestに。"
+    }
+  },
+  "ar": {
+    "shortDescription": "استعد للمشي، واحتفظ بيوميات خاصة مع الصور، واستورد مسارات GPX الخاصة بك.",
+    "voiceDisclosure": "تعتمد الميزات الصوتية على الخدمات المتوافقة المثبتة. تدعم الأوامر الصوتية الإنجليزية فقط حاليًا، وتبقى عناصر التحكم باللمس متاحة دائمًا.",
+    "sampleWalk": "نزهة صباحية",
+    "demoLabel": "بيانات توضيحية",
+    "releaseNotes": "أُضيفت الصينية التقليدية والتركية والإندونيسية، ليدعم التطبيق الآن 22 إعدادًا للغة والمنطقة.",
+    "provenance": "agent-authored localized metadata; owner translation-review waiver; not native-speaker certification",
+    "humanReviewed": false,
+    "headlines": {
+      "journal": "لكل نزهة ذكرى تستحق الحفظ.",
+      "recording": "سجّل وقتك في الهواء الطلق.",
+      "checklist": "انطلق وأنت مستعد.",
+      "photos": "احتفظ بلحظاتك المفضلة.",
+      "gpx": "اصطحب مسارك الخاص.",
+      "progress": "هندسة مسارك في لمحة.",
+      "sharing": "شارك خطة نزهتك.",
+      "settings": "اجعل TrailNest مناسبًا لك."
+    }
+  },
+  "hi": {
+    "shortDescription": "सैर की तैयारी करें, फ़ोटो वाली निजी डायरी रखें और अपने GPX मार्ग आयात करें।",
+    "voiceDisclosure": "आवाज़ की सुविधाएँ डिवाइस पर इंस्टॉल की गई संगत सेवाओं पर निर्भर करती हैं। वॉइस कमांड अभी केवल अंग्रेज़ी में उपलब्ध हैं; टच नियंत्रण हमेशा उपलब्ध रहते हैं।",
+    "sampleWalk": "सुबह की सैर",
+    "demoLabel": "उदाहरण डेटा",
+    "releaseNotes": "पारंपरिक चीनी, तुर्की और इंडोनेशियाई जोड़ी गई हैं। ऐप अब 22 भाषा और क्षेत्र सेटिंग का समर्थन करता है।",
+    "provenance": "agent-authored localized metadata; owner translation-review waiver; not native-speaker certification",
+    "humanReviewed": false,
+    "headlines": {
+      "journal": "हर सैर की याद सँजोएँ।",
+      "recording": "बाहर बिताया समय दर्ज करें।",
+      "checklist": "तैयार होकर निकलें।",
+      "photos": "पसंदीदा पलों को सहेजें।",
+      "gpx": "अपना मार्ग साथ लाएँ।",
+      "progress": "मार्ग की आकृति एक नज़र में।",
+      "sharing": "अपनी सैर की योजना साझा करें।",
+      "settings": "TrailNest को अपना बनाएँ।"
+    }
+  },
+  "zh-Hans": {
+    "shortDescription": "为散步做好准备，用照片记录私人日记，并导入自己的 GPX 路线。",
+    "voiceDisclosure": "语音功能取决于设备已安装的兼容服务。目前语音指令仅支持英语，触控操作始终可用。",
+    "sampleWalk": "晨间散步",
+    "demoLabel": "示例数据",
+    "releaseNotes": "新增繁体中文、土耳其语和印度尼西亚语，应用现支持 22 种语言和地区设置。",
+    "provenance": "agent-authored localized metadata; owner translation-review waiver; not native-speaker certification",
+    "humanReviewed": false,
+    "headlines": {
+      "journal": "留住每段散步回忆。",
+      "recording": "记录户外时光。",
+      "checklist": "准备好，再出发。",
+      "photos": "收藏喜爱的片刻。",
+      "gpx": "带上自己的路线。",
+      "progress": "路线几何，一目了然。",
+      "sharing": "分享您的散步计划。",
+      "settings": "打造自己的 TrailNest。"
+    }
+  },
+  "zh-Hant": {
+    "shortDescription": "做好步行準備，用照片寫下私人日記，並匯入自己的 GPX 路線。",
+    "voiceDisclosure": "語音功能取決於裝置上已安裝的相容服務。目前語音指令僅支援英語，觸控操作隨時可用。",
+    "sampleWalk": "晨間散步",
+    "demoLabel": "範例資料",
+    "releaseNotes": "新增繁體中文、土耳其語與印尼語，應用程式現已支援 22 種語言與地區設定。",
+    "provenance": "agent-authored localized metadata; owner translation-review waiver; not native-speaker certification",
+    "humanReviewed": false,
+    "headlines": {
+      "journal": "留住每段步行回憶。",
+      "recording": "記下戶外時光。",
+      "checklist": "準備好，再出發。",
+      "photos": "收藏喜愛的片刻。",
+      "gpx": "帶上自己的路線。",
+      "progress": "路線幾何，一目了然。",
+      "sharing": "分享您的步行計畫。",
+      "settings": "打造您的 TrailNest。"
+    }
+  },
+  "ko": {
+    "shortDescription": "산책을 준비하고 사진이 담긴 개인 일기를 남기며 나만의 GPX 경로를 가져오세요.",
+    "voiceDisclosure": "음성 기능은 기기에 설치된 호환 서비스에 따라 달라집니다. 음성 명령은 현재 영어만 지원하며 터치 조작은 항상 사용할 수 있습니다.",
+    "sampleWalk": "아침 산책",
+    "demoLabel": "예시 데이터",
+    "releaseNotes": "중국어 번체, 터키어, 인도네시아어를 추가해 이제 22개 언어 및 지역 설정을 지원합니다.",
+    "provenance": "agent-authored localized metadata; owner translation-review waiver; not native-speaker certification",
+    "humanReviewed": false,
+    "headlines": {
+      "journal": "모든 산책을 추억으로.",
+      "recording": "야외에서 보낸 시간을 기록하세요.",
+      "checklist": "준비하고 길을 나서세요.",
+      "photos": "좋아하는 순간을 간직하세요.",
+      "gpx": "나만의 경로를 가져오세요.",
+      "progress": "경로의 모양을 한눈에.",
+      "sharing": "산책 계획을 공유하세요.",
+      "settings": "나만의 TrailNest를 만드세요."
+    }
+  },
+  "tr": {
+    "shortDescription": "Yürüyüşe hazırlanın, fotoğraflı özel bir günlük tutun ve kendi GPX rotalarınızı içe aktarın.",
+    "voiceDisclosure": "Ses özellikleri, yüklü uyumlu hizmetlere bağlıdır. Sesli komutlar şu anda yalnızca İngilizceyi destekler; dokunmatik kontroller her zaman kullanılabilir.",
+    "sampleWalk": "Sabah yürüyüşü",
+    "demoLabel": "Örnek veriler",
+    "releaseNotes": "Geleneksel Çince, Türkçe ve Endonezce eklendi; uygulama artık 22 dil ve bölge seçeneğini destekliyor.",
+    "provenance": "agent-authored localized metadata; owner translation-review waiver; not native-speaker certification",
+    "humanReviewed": false,
+    "headlines": {
+      "journal": "Her yürüyüşü hatırlayın.",
+      "recording": "Doğada geçirdiğiniz zamanı kaydedin.",
+      "checklist": "Hazırlıklı yola çıkın.",
+      "photos": "Sevdiğiniz anları saklayın.",
+      "gpx": "Kendi rotanızı getirin.",
+      "progress": "Rotanızı bir bakışta görün.",
+      "sharing": "Yürüyüş planınızı paylaşın.",
+      "settings": "TrailNest’i kendinize uyarlayın."
+    }
+  },
+  "id": {
+    "shortDescription": "Siapkan jalan kaki, simpan jurnal pribadi dengan foto, dan impor rute GPX Anda sendiri.",
+    "voiceDisclosure": "Fitur suara bergantung pada layanan kompatibel yang terpasang. Perintah suara saat ini hanya mendukung bahasa Inggris; kontrol sentuh selalu tersedia.",
+    "sampleWalk": "Jalan pagi",
+    "demoLabel": "Data contoh",
+    "releaseNotes": "Menambahkan Mandarin Tradisional, Turki, dan Indonesia, sehingga aplikasi kini mendukung 22 pengaturan bahasa dan wilayah.",
+    "provenance": "agent-authored localized metadata; owner translation-review waiver; not native-speaker certification",
+    "humanReviewed": false,
+    "headlines": {
+      "journal": "Kenang setiap perjalanan kaki.",
+      "recording": "Catat waktu Anda di luar ruang.",
+      "checklist": "Berangkat dengan persiapan.",
+      "photos": "Simpan momen favorit Anda.",
+      "gpx": "Bawa rute Anda sendiri.",
+      "progress": "Geometri rute dalam sekilas.",
+      "sharing": "Bagikan rencana jalan kaki.",
+      "settings": "Sesuaikan TrailNest untuk Anda."
+    }
+  }
+}

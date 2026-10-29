@@ -186,7 +186,7 @@
     <string name="cancel">إلغاء</string>
     <string name="restore_defaults">استعادة القائمة الافتراضية</string>
     <string name="restore_defaults_warning">هل تريد استبدال قائمة المراجعة الحالية بالإعدادات الافتراضية؟ ستتم إزالة العناصر المخصصة والحالات المحددة.</string>
-    <string name="journal_title">قصتك في المشي.</string>
+    <string name="journal_title">يوميات مشيك الخاصة.</string>
     <string name="journal_description">مساحة خاصة للأماكن التي زرتها واللحظات التي تستحق الاحتفاظ بها.</string>
     <string name="journal_totals">%1$s · %2$s · %3$d دقيقة</string>
     <string name="record_walk">سجل المشي</string>

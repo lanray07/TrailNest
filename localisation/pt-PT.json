@@ -1494,10 +1494,10 @@
     "regionalAdaptationPending": true
   },
   "journal_title": {
-    "text": "A sua história ambulante.",
+    "text": "O seu diário de passeios.",
     "sourceHash": "1dbc1a2ad9746872ef4ce73b204f5d449b939a5daa8081561dfc7a4ea369dd9a",
     "reviewed": false,
-    "provenance": "machine draft via public Google Translate web interface",
+    "provenance": "agent-adapted native-language journal heading; owner translation-review waiver",
     "generatedAt": "2026-10-23T09:13:41.143Z",
     "requiresSafetyReview": false,
     "regionalAdaptationPending": true

@@ -1,0 +1,30 @@
+{
+  "locale": "pl",
+  "version": "0.8.6",
+  "status": "ready_for_submission",
+  "assetStatus": "prepared_and_agent_checked; whole_app_release_not_approved",
+  "amazonStorefrontMapped": true,
+  "titleAvailability": "not_verified",
+  "currentBuildTitle": "TrailNest – Dziennik spacerów",
+  "shortDescription": "Przygotuj spacer, prowadź prywatny dziennik ze zdjęciami i importuj własne trasy GPX.",
+  "longDescription": "Przygotuj spacer, prowadź prywatny dziennik ze zdjęciami i importuj własne trasy GPX.\n\nPrywatna przestrzeń dla miejsc, w których byłeś i chwil, które warto zachować. Do ośmiu zdjęć na spacer. Kopie pozostają prywatne na tym urządzeniu; metadane lokalizacji zostaną usunięte.\n\nTwoja osobista lista kontrolna przed spacerem. Dostosuj swój zestaw do trasy, pogody i swoich potrzeb.\n\nPrywatna geometria GPX przechowywana na Twoim urządzeniu. Kafelki mapy bazowej, wysokość i sprawdzone wskazówki nie są uwzględnione. Zaimportowane trasy pozostają prywatne i niesprawdzone. Zanim wyruszysz na spacer, sprawdź dostęp i warunki.\n\nNagrywa, gdy ekran jest wyłączony lub aplikacja jest zminimalizowana, ze stałym powiadomieniem. Pozostaw lokalizację włączoną. Kontrola baterii i dostępność GPS urządzenia mogą przerwać nagrywanie. Odległość jest wartością szacunkową; to nie jest narzędzie do śledzenia bezpieczeństwa. Na tym urządzeniu prywatnie przechowywany jest tylko czas trwania i szacowany dystans. Współrzędne są zapisywane w pamięci i odrzucane. Nic nie zostało przesłane.\n\nFunkcje głosowe zależą od zainstalowanych zgodnych usług. Polecenia głosowe są obecnie obsługiwane tylko po angielsku; sterowanie dotykowe jest zawsze dostępne.\n\nSystemowe usługi mowy mogą przetwarzać dane głosowe zgodnie z własnymi warunkami dotyczącymi prywatności. Odinstalowanie usuwa dane lokalne. Kopie zapasowe są wyłączone.\n\nZakupy nie są dostępne w tej kompilacji. Nie skonfigurowano żadnych produktów, cen ani płatnych uprawnień. Twoja lista kontrolna, dziennik i jeden pakiet geometrii offline są dostępne bezpłatnie. Narzędzia GPX są zawarte w tej wersji rozwojowej.",
+  "features": [
+    "Dziennik spacerów",
+    "Twoja osobista lista kontrolna przed spacerem. Dostosuj swój zestaw do trasy, pogody i swoich potrzeb.",
+    "Dodaj prywatne zdjęcie",
+    "Zaimportuj własny GPX",
+    "Język aplikacji"
+  ],
+  "keywords": [
+    "Dziennik spacerów",
+    "Lista kontrolna",
+    "GPX",
+    "Nagranie spaceru"
+  ],
+  "releaseNotes": "Dodano tradycyjny chiński, turecki i indonezyjski. Aplikacja obsługuje teraz 22 ustawienia regionalne.",
+  "metadataSource": "https://developer.amazon.com/docs/app-submission/appstore-details.html",
+  "checkedOn": "2026-10-29",
+  "provenance": "agent-authored localized metadata; owner translation-review waiver; not native-speaker certification",
+  "humanReviewed": false,
+  "productionSubmissionApproved": false
+}

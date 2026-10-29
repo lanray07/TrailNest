@@ -3,7 +3,9 @@ export const placeholders=text=>[...text.replaceAll('%%','').matchAll(/%(?:\d+\$
 export const sourceHash=value=>crypto.createHash('sha256').update(JSON.stringify(value)).digest('hex');
 export const xmlText=text=>text.replace(/&(?:amp|lt|gt|quot|apos);|&#(?:x[0-9a-f]+|\d+);/gi,entity=>({'&amp;':'&','&lt;':'<','&gt;':'>','&quot;':'"','&apos;':"'"}[entity]??String.fromCodePoint(entity[2]==='x'?parseInt(entity.slice(3,-1),16):parseInt(entity.slice(2,-1),10)))).replace(/\\([ntr'"\\])/g,(_,c)=>({n:'\n',t:'\t',r:'\r'}[c]??c));
 export const escapeAndroid=text=>text.replaceAll('\\','\\\\').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll("'","\\'").replaceAll('"','\\"').replaceAll('\n','\\n').replaceAll('\t','\\t').replaceAll('\r','\\r');
-export const androidQualifier=tag=>'values-b+'+tag.replaceAll('-','+');
+// Keep canonical BCP47 "id" in app preferences/localeConfig, but use Android's
+// legacy resource qualifier for Indonesian on older Fire/Android releases.
+export const androidQualifier=tag=>tag==='id'?'values-in':'values-b+'+tag.replaceAll('-','+');
 export function entryReviewed(entry){return entry?.reviewed===true&&typeof entry.reviewer==='string'&&!!entry.reviewer.trim()&&typeof entry.reviewedAt==='string'&&Number.isFinite(Date.parse(entry.reviewedAt))&&(!entry.requiresSafetyReview||(typeof entry.safetyReviewer==='string'&&!!entry.safetyReviewer.trim()));}
 export function localeAccepted(audit,locale,policy){
   return audit.missing.length===0&&audit.invalid.length===0&&

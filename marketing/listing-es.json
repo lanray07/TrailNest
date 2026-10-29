@@ -1,0 +1,30 @@
+{
+  "locale": "es",
+  "version": "0.8.6",
+  "status": "ready_for_submission",
+  "assetStatus": "prepared_and_agent_checked; whole_app_release_not_approved",
+  "amazonStorefrontMapped": true,
+  "titleAvailability": "not_verified",
+  "currentBuildTitle": "TrailNest – Diario de caminata",
+  "shortDescription": "Prepara tus paseos, guarda un diario privado con fotos e importa tus propias rutas GPX.",
+  "longDescription": "Prepara tus paseos, guarda un diario privado con fotos e importa tus propias rutas GPX.\n\nUn espacio privado para los lugares en los que has estado y los momentos que vale la pena conservar. Hasta ocho fotografías por paseo. Las copias permanecen privadas en este dispositivo; Se eliminan los metadatos de ubicación.\n\nTu lista de verificación personal previa a la caminata. Adapta tu kit a la ruta, la climatología y tus necesidades.\n\nGeometría GPX privada almacenada en su dispositivo. Los mosaicos del mapa base, la elevación y las direcciones revisadas no están incluidos. Las rutas importadas permanecen privadas y no revisadas. Consulta el acceso y las condiciones antes de caminar.\n\nGraba mientras la pantalla está apagada o la aplicación minimizada, con una notificación persistente. Mantener la ubicación habilitada. Los controles de la batería y la disponibilidad del GPS del dispositivo pueden interrumpir la grabación. La distancia es una estimación; Este no es un rastreador de seguridad. Solo la duración y la distancia estimada se almacenan de forma privada en este dispositivo. Las coordenadas se utilizan en la memoria y se descartan. No se carga nada.\n\nLa voz depende de los servicios compatibles instalados. Los comandos de voz solo están disponibles en inglés por ahora; los controles táctiles siempre están disponibles.\n\nLos servicios de voz del sistema pueden procesar datos de voz según sus propios términos de privacidad. La desinstalación borra los datos locales. Las copias de seguridad están deshabilitadas.\n\nLa compra no está disponible en esta versión. No se configuran productos, precios ni derechos pagados. Su lista de verificación, diario y un paquete de geometría fuera de línea están disponibles de forma gratuita. Las herramientas GPX se incluyen en esta versión de desarrollo.",
+  "features": [
+    "Diario de caminata",
+    "Tu lista de verificación personal previa a la caminata. Adapta tu kit a la ruta, la climatología y tus necesidades.",
+    "Agregar foto privada",
+    "Importa tu propio GPX",
+    "Idioma de la aplicación"
+  ],
+  "keywords": [
+    "Diario de caminata",
+    "Lista de preparación",
+    "GPX",
+    "Grabación de caminata"
+  ],
+  "releaseNotes": "Se añaden chino tradicional, turco e indonesio: la aplicación ya admite 22 configuraciones regionales.",
+  "metadataSource": "https://developer.amazon.com/docs/app-submission/appstore-details.html",
+  "checkedOn": "2026-10-29",
+  "provenance": "agent-authored localized metadata; owner translation-review waiver; not native-speaker certification",
+  "humanReviewed": false,
+  "productionSubmissionApproved": false
+}

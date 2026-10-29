@@ -1,35 +1,30 @@
 {
-  "status": "development_draft_not_for_submission",
-  "proposedCommercialTitle": "TrailNest – Walk Journal & Preparation",
+  "locale": "en-IN",
+  "version": "0.8.6",
+  "status": "ready_for_submission",
+  "assetStatus": "prepared_and_agent_checked; whole_app_release_not_approved",
+  "amazonStorefrontMapped": true,
   "titleAvailability": "not_verified",
-  "currentBuildTitle": "TrailNest â€“ Walk Journal & Preparation",
-  "shortDescription": "Prepare for a walk, keep a private journal with photos, and import your own GPX route geometry.",
-  "longDescription": "Prepare and remember your walks with TrailNest. Build a personal checklist, keep a journal with notes, ratings, favourites and private photo copies, and import or export a single continuous GPX route or track. Choose miles or kilometres, light or dark appearance, and an app language.\n\nStart, pause and finish a walk recording when your device provides suitable location data. Distance is an estimate and may be incomplete. Interrupted recordings recover paused. View progress along imported geometry, with accuracy and stale-location checks. Compatible installed voices can read progress aloud; voice commands currently recognise explicit English phrases and depend on the installed recognition service. Touch alternatives remain available.\n\nImported routes are private and unreviewed. Offline geometry packs contain route geometry, not basemap tiles or reviewed directions. No curated route catalogue, licensed basemaps, validated turn-by-turn navigation or emergency monitoring is provided. The free tier supports one marked geometry pack. The annual Premium integration lifts only that pack limit; it has passed Live App Testing, but production billing is not yet configured and remains disabled in the normal release build.\n\nJournal entries, checklists, imported routes and preferences stay on your device. Private photo copies have location metadata removed. Optional plan sharing opens the system share sheet; it does not automatically contact anyone. Amazon account and receipt identifiers are sent over HTTPS for purchase verification when billing is enabled. No advertising or analytics is implemented.",
+  "currentBuildTitle": "TrailNest – Walk journal",
+  "shortDescription": "Prepare a walk, keep a private journal with photos, and bring your own GPX route.",
+  "longDescription": "Prepare a walk, keep a private journal with photos, and bring your own GPX route.\n\nA private space for the places you’ve been and the moments worth keeping. Up to eight photos per walk. Copies stay private on this device; location metadata is removed.\n\nYour personal pre-walk checklist. Adapt your kit to the route, weather and your needs.\n\nPrivate GPX geometry stored on your device. Basemap tiles, elevation and reviewed directions are not included. Imported routes remain private and unreviewed. Check access and conditions before you walk.\n\nRecords while the screen is off or the app is minimised, with a persistent notification. Keep location enabled. Battery controls and device GPS availability can interrupt recording. Distance is an estimate; this is not a safety tracker. Only duration and estimated distance are stored privately on this device. Coordinates are used in memory and discarded. Nothing is uploaded.\n\nSpeech depends on compatible installed services. Voice commands currently support English only; touch controls are always available.\n\nSystem speech services may process voice data under their own privacy terms. Uninstalling clears local data. Backups are disabled.\n\nPurchasing is not available in this build. No products, prices or paid entitlements are configured. Your checklist, journal and one offline geometry pack are available free. GPX tools are included in this development release.",
   "features": [
-    "Prepare a personal walking checklist",
-    "Keep a private journal with notes, ratings and photos",
-    "Import and export your own GPX route geometry",
-    "Record estimated walk duration and distance on compatible devices",
-    "Choose your app language, units and appearance"
+    "Walk journal",
+    "Your personal pre-walk checklist. Adapt your kit to the route, weather and your needs.",
+    "Add private photo",
+    "Import your own GPX",
+    "App language"
   ],
   "keywords": [
-    "walk journal",
-    "walking checklist",
-    "GPX geometry",
-    "walk preparation"
+    "Walk journal",
+    "Checklist",
+    "GPX",
+    "Walk recording"
   ],
-  "releaseNotes": "Android 0.8.5 development candidate: app language selection, background walk recording, private journal and GPX tools. Test 2 purchase, accelerated renewals, server-side expiry and final expired-state offline checks completed. Commercial release gates remain open.",
+  "releaseNotes": "Adds Traditional Chinese, Turkish and Indonesian, bringing app language support to 22 locales.",
   "metadataSource": "https://developer.amazon.com/docs/app-submission/appstore-details.html",
-  "verifiedLimits": {
-    "shortDescriptionBytes": 2000,
-    "longDescriptionCharacters": 4000,
-    "featureBulletsMin": 3,
-    "featureBulletsMax": 5
-  },
-  "unknownLimits": [
-    "display title limit and availability require Developer Console verification"
-  ],
   "checkedOn": "2026-10-29",
-  "locale": "en-IN",
-  "provenance": "Agent-authored English draft, checked against implemented Android 0.8.5; not uploaded or owner-approved for release."
+  "provenance": "agent-authored localized metadata; owner translation-review waiver; not native-speaker certification",
+  "humanReviewed": false,
+  "productionSubmissionApproved": false
 }

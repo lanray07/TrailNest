@@ -1,14 +1,16 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import crypto from 'node:crypto';
+import { captureFingerprint } from './marketing-content.mjs';
 
 const tabletSizes = new Set(['800x480', '1024x600', '1280x720', '1280x800', '1920x1080', '1920x1200', '2560x1600']);
 const nonempty = value => typeof value === 'string' && value.trim().length > 0;
 
-export function listingErrors(listing, locale) {
+export function listingErrors(listing, locale, version) {
   if (!listing) return ['missing listing'];
   const errors = [];
   if (listing.locale !== locale) errors.push('listing locale mismatch');
+  if (version && listing.version !== version) errors.push('stale listing app version');
   if (listing.status !== 'ready_for_submission') errors.push('listing is still a draft');
   for (const key of ['currentBuildTitle', 'shortDescription', 'longDescription', 'releaseNotes']) {
     if (!nonempty(listing[key])) errors.push(`missing ${key}`);
@@ -47,11 +49,13 @@ export async function auditMarketing(root, registry, version) {
   const screenshotLocales = registry.locales.map(locale => locale.tag);
   const failures = [], listings = [], screenshots = [];
   let manifest = {};
+  let copy = {};
   try { manifest = JSON.parse(await fs.readFile(path.join(root, 'marketing/screenshots.json'), 'utf8')) || {}; } catch {}
+  try { copy = JSON.parse(await fs.readFile(path.join(root, 'marketing/localized-copy.json'), 'utf8')); } catch {}
   for (const locale of listingLocales) {
     let listing;
     try { listing = JSON.parse(await fs.readFile(path.join(root, `marketing/listing-${locale}.json`), 'utf8')); } catch {}
-    const errors = listingErrors(listing, locale);
+    const errors = listingErrors(listing, locale, version);
     listings.push({ locale, ready: errors.length === 0, errors });
     if (errors.length) failures.push(`Appstore listing ${locale}: ${errors.join('; ')}.`);
   }
@@ -62,9 +66,18 @@ export async function auditMarketing(root, registry, version) {
   for (const locale of screenshotLocales) {
     const selected = captures.filter(capture => capture.locale === locale);
     const errors = [];
+    let expectedFingerprint, expectedStrings;
+    try {
+      const entries = JSON.parse(await fs.readFile(path.join(root, `localisation/${locale}.json`), 'utf8'));
+      expectedFingerprint = captureFingerprint(entries, copy[locale], version);
+      expectedStrings = Object.values(entries).filter(entry => typeof entry.text === 'string').length;
+    } catch { errors.push('current capture wording unavailable'); }
     if (selected.length !== 8 || !validPlan || requiredScreens.some(id => selected.filter(capture => capture.screenId === id).length !== 1)) errors.push('eight distinct planned screen captures missing');
     if (new Set(selected.map(capture => capture.sha256)).size !== selected.length) errors.push('duplicate screen images');
-    for (const capture of selected) errors.push(...(await screenshotErrors(root, capture, version)).map(error => `${capture.screenId}: ${error}`));
+    for (const capture of selected) {
+      if (!expectedFingerprint || capture.contentFingerprint !== expectedFingerprint || capture.resourceStringsVerified !== expectedStrings) errors.push(`${capture.screenId}: stale or unverified installed wording`);
+      errors.push(...(await screenshotErrors(root, capture, version)).map(error => `${capture.screenId}: ${error}`));
+    }
     screenshots.push({ locale, ready: errors.length === 0, errors });
     if (errors.length) failures.push(`Localized screenshots ${locale}: ${errors.join('; ')}.`);
   }

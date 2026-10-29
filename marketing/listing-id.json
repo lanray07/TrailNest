@@ -1,0 +1,30 @@
+{
+  "locale": "id",
+  "version": "0.8.6",
+  "status": "ready_for_submission",
+  "assetStatus": "prepared_and_agent_checked; whole_app_release_not_approved",
+  "amazonStorefrontMapped": false,
+  "titleAvailability": "not_verified",
+  "currentBuildTitle": "TrailNest – Jurnal jalan kaki",
+  "shortDescription": "Siapkan jalan kaki, simpan jurnal pribadi dengan foto, dan impor rute GPX Anda sendiri.",
+  "longDescription": "Siapkan jalan kaki, simpan jurnal pribadi dengan foto, dan impor rute GPX Anda sendiri.\n\nRuang pribadi untuk tempat yang Anda kunjungi dan momen yang layak disimpan. Hingga delapan foto per jalan kaki. Salinan tetap pribadi di perangkat ini; metadata lokasi dihapus.\n\nDaftar periksa pribadi sebelum berjalan. Sesuaikan perlengkapan dengan rute, cuaca, dan kebutuhan Anda.\n\nGeometri GPX pribadi yang disimpan di perangkat. Ubin peta dasar, elevasi, dan petunjuk yang telah ditinjau tidak disertakan. Rute yang diimpor tetap pribadi dan belum ditinjau. Periksa izin akses dan kondisi sebelum berjalan.\n\nMerekam saat layar mati atau aplikasi diminimalkan, dengan notifikasi tetap. Biarkan lokasi aktif. Kontrol baterai dan ketersediaan GPS perangkat dapat mengganggu perekaman. Jarak adalah perkiraan; ini bukan pelacak keselamatan. Hanya durasi dan perkiraan jarak yang disimpan secara pribadi di perangkat ini. Koordinat digunakan di memori lalu dibuang. Tidak ada yang diunggah.\n\nFitur suara bergantung pada layanan kompatibel yang terpasang. Perintah suara saat ini hanya mendukung bahasa Inggris; kontrol sentuh selalu tersedia.\n\nLayanan suara sistem dapat memproses data suara berdasarkan ketentuan privasinya sendiri. Menghapus aplikasi akan menghapus data lokal. Pencadangan dinonaktifkan.\n\nPembelian tidak tersedia di versi ini. Produk, harga, dan hak akses berbayar belum dikonfigurasi. Daftar periksa, jurnal, dan satu paket geometri offline tersedia gratis. Alat GPX disertakan dalam versi pengembangan ini.",
+  "features": [
+    "Jurnal jalan kaki",
+    "Daftar periksa pribadi sebelum berjalan. Sesuaikan perlengkapan dengan rute, cuaca, dan kebutuhan Anda.",
+    "Tambah foto pribadi",
+    "Impor GPX Anda sendiri",
+    "Bahasa aplikasi"
+  ],
+  "keywords": [
+    "Jurnal jalan kaki",
+    "Daftar periksa",
+    "GPX",
+    "Perekaman jalan kaki"
+  ],
+  "releaseNotes": "Menambahkan Mandarin Tradisional, Turki, dan Indonesia, sehingga aplikasi kini mendukung 22 pengaturan bahasa dan wilayah.",
+  "metadataSource": "https://developer.amazon.com/docs/app-submission/appstore-details.html",
+  "checkedOn": "2026-10-29",
+  "provenance": "agent-authored localized metadata; owner translation-review waiver; not native-speaker certification",
+  "humanReviewed": false,
+  "productionSubmissionApproved": false
+}

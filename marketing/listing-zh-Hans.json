@@ -1,0 +1,30 @@
+{
+  "locale": "zh-Hans",
+  "version": "0.8.6",
+  "status": "ready_for_submission",
+  "assetStatus": "prepared_and_agent_checked; whole_app_release_not_approved",
+  "amazonStorefrontMapped": false,
+  "titleAvailability": "not_verified",
+  "currentBuildTitle": "TrailNest – 行走日记",
+  "shortDescription": "为散步做好准备，用照片记录私人日记，并导入自己的 GPX 路线。",
+  "longDescription": "为散步做好准备，用照片记录私人日记，并导入自己的 GPX 路线。\n\n一个私人空间，记录您去过的地方和值得保留的时刻。 每次步行最多八张照片。副本在此设备上保密；位置元数据已删除。\n\n您的个人步行前检查清单。根据路线、天气和您的需求调整您的装备。\n\n存储在您设备上的私有 GPX 几何图形。不包括底图图块、标高和查看的方向。 导入的路线保持私有且未经审查。步行前检查通道和条件。\n\n在屏幕关闭或应用程序最小化时进行录制，并发出持续通知。保持位置启用。电池控制和设备 GPS 可用性可能会中断录制。距离是一个估计值；这不是安全追踪器。 仅持续时间和估计距离存储在该设备上。坐标在内存中使用并被丢弃。没有上传任何内容。\n\n语音功能取决于设备已安装的兼容服务。目前语音指令仅支持英语，触控操作始终可用。\n\n系统语音服务可能会根据自己的隐私条款处理语音数据。卸载会清除本地数据。备份已禁用。\n\n此版本不支持购买。未配置任何产品、价格或付费权利。 您的清单、日记和一个离线几何包免费提供。  GPX 工具包含在此开发版本中。",
+  "features": [
+    "行走日记",
+    "您的个人步行前检查清单。根据路线、天气和您的需求调整您的装备。",
+    "添加私人照片",
+    "导入自己的GPX",
+    "应用语言"
+  ],
+  "keywords": [
+    "行走日记",
+    "检查清单",
+    "GPX",
+    "步行记录"
+  ],
+  "releaseNotes": "新增繁体中文、土耳其语和印度尼西亚语，应用现支持 22 种语言和地区设置。",
+  "metadataSource": "https://developer.amazon.com/docs/app-submission/appstore-details.html",
+  "checkedOn": "2026-10-29",
+  "provenance": "agent-authored localized metadata; owner translation-review waiver; not native-speaker certification",
+  "humanReviewed": false,
+  "productionSubmissionApproved": false
+}

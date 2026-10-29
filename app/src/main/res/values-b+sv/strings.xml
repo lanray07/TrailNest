@@ -84,7 +84,7 @@
     <string name="filter_0">Alla promenader</string>
     <string name="filter_1">Skogsmark</string>
     <string name="filter_2">Kustnära</string>
-    <string name="filter_3">Riverside</string>
+    <string name="filter_3">Flodstrand</string>
     <string name="filter_4">Kullar</string>
     <string name="search_empty">Inga granskade rutter matchar \"%1$s\". Prova att importera din egen GPX medan vår samling förbereds.</string>
     <string name="filter_empty">%1$s filter valt. Inga granskade rutter är tillgängliga ännu.</string>
@@ -186,7 +186,7 @@
     <string name="cancel">Avbryt</string>
     <string name="restore_defaults">Återställ standardchecklista</string>
     <string name="restore_defaults_warning">Ersätta din nuvarande checklista med standardvärdena? Anpassade objekt och markerade tillstånd kommer att tas bort.</string>
-    <string name="journal_title">Din vandringsberättelse.</string>
+    <string name="journal_title">Din promenaddagbok.</string>
     <string name="journal_description">Ett privat utrymme för platserna du har varit och stunderna värda att behålla.</string>
     <string name="journal_totals">%1$s · %2$s · %3$d min</string>
     <string name="record_walk">Spela in en promenad</string>

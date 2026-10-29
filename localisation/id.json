@@ -1,0 +1,2126 @@
+{
+  "billing_offer": {
+    "text": "Langganan tahunan: %1$s. Diperpanjang otomatis kecuali dibatalkan di akun Amazon Anda.",
+    "sourceHash": "05c0a4c27c10422467681f0fb97fce192e6d4a7e9d2c8aeb24e7b61a39f36386",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "billing_subscribe": {
+    "text": "Berlangganan",
+    "sourceHash": "bbce327a0c77d5eb9b1813b2d1f69d0f0fc721d992342470ba767fda0c079300",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "billing_restore": {
+    "text": "Pulihkan pembelian",
+    "sourceHash": "542896d5857e7ea1bcedf64fd643780f25c722aa9e6ee0f21dd3db6069c7e1c3",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "billing_active": {
+    "text": "Verifikasi Premium berlaku hingga %1$s.",
+    "sourceHash": "0bd54e4c4ba43c919ef317ac1e27017cecdec1bbd9be8d8840d41036709264a3",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "billing_checking": {
+    "text": "Memeriksa pembelian…",
+    "sourceHash": "34752d3230c9f39ba86b89c91ecd6fbad5155e0ee6ad07c930d4298380827e6c",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "billing_pending": {
+    "text": "Menunggu persetujuan Amazon.",
+    "sourceHash": "c8f052ff67934ad18ff5c6c5f82810bc12a63e8a8fbbebed029ddcd1a1d71e52",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "billing_problem": {
+    "text": "Verifikasi pembelian tidak tersedia. Pulihkan saat terhubung ke internet.",
+    "sourceHash": "d96d3c6de2dbaed263fed40ec135dfd81ae0423f5e3d81619b309c481f35cf2e",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "billing_benefit": {
+    "text": "Premium memungkinkan lebih banyak paket geometri GPX pribadi. Peta berlisensi dan rute terkurasi tidak tersedia.",
+    "sourceHash": "0bd2073476dbc7819b59a782b958cfd460e76862b2c0b343fa81d494a5dfd6e8",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "billing_no_offer": {
+    "text": "Saat ini Amazon tidak menyediakan penawaran tahunan.",
+    "sourceHash": "e2c1457ff32eca94348f5569eee1127bfd12b6788680b59d33a45082869aefe3",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "billing_limit": {
+    "text": "Akun gratis dapat menyimpan satu paket geometri. Hapus satu paket atau pulihkan langganan aktif.",
+    "sourceHash": "327fd324d160203df270c66d6cabac09a6120037a5d351c6e87f1df9b4acc9cb",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "language_title": {
+    "text": "Bahasa aplikasi",
+    "sourceHash": "328f384847f7d268813200844abd48eda71fc8a8d717430f7e5e0bffa8229dbe",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "language_device": {
+    "text": "Gunakan bahasa perangkat",
+    "sourceHash": "ea8c5b00e0d5c66b0caec1eb12ec0105d369679c2bbadaf63c6b2f45b76b6da8",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "navigation_open": {
+    "text": "Buka navigasi",
+    "sourceHash": "47760aefb75836fb6bc4f20a5053ec83ec02f17101ce6cbc61df023640e8431a",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "navigation_close": {
+    "text": "Tutup navigasi",
+    "sourceHash": "be2f542729b77c98d4b65afdc0de2c21be1ab22be9b47721dd7e480c7c9f2fb0",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "packs_empty_title": {
+    "text": "Bawa rute Anda.",
+    "sourceHash": "05930a8488b564f5e9961c29466961ba4a0ead52c98f754ac938c4b9daca2bae",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_a_brighter_outdoors_one_step_at_a_time": {
+    "text": "Suasana luar ruang yang lebih cerah.\nSelangkah demi selangkah.",
+    "sourceHash": "93b9a7f339e212ad0abd80eec06242dd65c918e9104ad6d21a66eaf3807e58b8",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_got_it": {
+    "text": "Mengerti",
+    "sourceHash": "481e29fbd9ffbe690383f7d881fc83608fae4c41117cce47eedb864ce28004f2",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_search_a_town_region_or_national_park": {
+    "text": "Cari kota, wilayah, atau taman nasional",
+    "sourceHash": "a314790d2e981087fc65250f427a2e820fd8844d968227ec94431160d84209db",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_united_kingdom_coverage_planned": {
+    "text": "Britania Raya · Cakupan direncanakan",
+    "sourceHash": "1de6688224cdbc90d84934e62698d223989696aa1c5574e2eb7398b3fc35ca45",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_your_next_adventure": {
+    "text": "Petualangan Anda berikutnya",
+    "sourceHash": "98201d395128e8ec5af72ec053ebe181945e5f9a93e7496799cc08aaef8e586b",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_explore_coverage": {
+    "text": "Jelajahi cakupan",
+    "sourceHash": "a874fdc10ff90223f2fc622b70fdc34c5bd37253a531a2294b31bea85419168d",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_be_prepared": {
+    "text": "Bersiaplah",
+    "sourceHash": "ca33cb7fed81ea680ca6cb9a218ca244d6f8c9da9e31a441932368bab22c2deb",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_a_little_preparation_goes_a_long_way": {
+    "text": "Sedikit persiapan sangat berarti.",
+    "sourceHash": "032574463c689943e951931b1a2f4c5fa39300813fd188df507d94e0c0f672a0",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_open_checklist": {
+    "text": "Buka daftar periksa",
+    "sourceHash": "bd9f0b474973c0a52b4b94b2ec2ba7e51782ebdaa3f6639cb069c1675261f061",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_continue_your_journey": {
+    "text": "Lanjutkan perjalanan Anda",
+    "sourceHash": "70e8338b33f50ba927d6f12d0661883cb5f3f8798769a9c95a7c63cd6b033c51",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_import_your_own_gpx": {
+    "text": "Impor GPX Anda sendiri",
+    "sourceHash": "70d044b2b8615ff0aa7ab9210fa9618194acae6c55b1e9b41836cc6da3b8e224",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_imported_routes_remain_private_and_unreviewed_check_access_and_co": {
+    "text": "Rute yang diimpor tetap pribadi dan belum ditinjau. Periksa izin akses dan kondisi sebelum berjalan.",
+    "sourceHash": "df8d96909ce6822633a05ac27e3fc7dae910e93af796e5d8b5064490399f59ca",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "ui_offline_route_packs": {
+    "text": "Paket rute offline",
+    "sourceHash": "f72d1813862a79ea6a65e27eb2c3ac16dae86a664486dd71fe47279e21d65e9a",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_walk_journal": {
+    "text": "Jurnal jalan kaki",
+    "sourceHash": "8ea8bb4427f7304d7e7ddfebad3b3530eea8d28752f52fdec7607251681e11ed",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_ready_when_you_are": {
+    "text": "Siap saat Anda siap.",
+    "sourceHash": "faa08540271e7c080a0ba15f1de08b2975150dc8acdfccee3097c8d26d9021b3",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_import_gpx": {
+    "text": "Impor GPX",
+    "sourceHash": "0fe02a0f52860bf54f51142d9e655322025efbe5a11ede9c71aeef63b455620e",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_user_supplied_access_unreviewed_no_turn_instructions": {
+    "text": "Disediakan pengguna · Akses belum ditinjau · Tanpa petunjuk belokan",
+    "sourceHash": "8da3bb7e96676d31152833db466bd0a3405d929abf402bc148c7470901a17778",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "ui_open_route": {
+    "text": "Buka rute",
+    "sourceHash": "a10f4e8791d8bf80f785c86647aa6c2c4ef1c104b4b2a7d942a0d0dfe8d7d3d5",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_delete_import": {
+    "text": "Hapus impor",
+    "sourceHash": "eaf95aafc77fad37e6baf5a8e8e364829ccb6bfde510f0a5cff555d2a3fcc70d",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_delete_imported_route": {
+    "text": "Hapus rute yang diimpor?",
+    "sourceHash": "d37d3023179363efc4f2e691fadad313bd8bb6bd95ecb3496f9bc0c0ea26cb63",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_the_route_and_its_offline_pack_will_be_removed_from_this_device": {
+    "text": "Rute dan paket offline-nya akan dihapus dari perangkat ini.",
+    "sourceHash": "23c1177da848130f0756860c7609dda42fa08bb0d8bb6edc03cfac75ee28b942",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_delete": {
+    "text": "Hapus",
+    "sourceHash": "b26de372b4b0eaac60202884a72db98a6be6e9036e785ea867ea01c5f7921098",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_keep_route": {
+    "text": "Simpan rute",
+    "sourceHash": "19b3c8a6b85ee3867077943b7a15054441812af0582e96f87be53ebf0e4580ce",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_good_information_comes_first": {
+    "text": "Informasi yang baik adalah langkah pertama.",
+    "sourceHash": "1e963e373f20f12ac5c75e2dd126f927bbfff036b108bc64fee136c60d5ff76c",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_offline_basemap_downloads_unavailable": {
+    "text": "Unduhan peta dasar offline tidak tersedia",
+    "sourceHash": "f4a1019596e5f7d10db237ceee340e7bc58b2bfa570fdbe86cc725e6a73f6657",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_make_yourself_at_home": {
+    "text": "Buat diri Anda nyaman.",
+    "sourceHash": "eb41f710e3a4491db81379983c6619e7ef63599c6a1ec400f3af6e2b4f42d1e4",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_your_preferences": {
+    "text": "Preferensi Anda",
+    "sourceHash": "d99bf3d783b0df6d2b4ab230b6330c021fbff25ca9c03a9979eb1f0c87dc98e1",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_dark_appearance": {
+    "text": "  Tampilan gelap",
+    "sourceHash": "10944c682074d57fcfad7ffb14030fb05beb8bba252ad216b2caec2ec82376b4",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_distance_units": {
+    "text": "Satuan jarak",
+    "sourceHash": "f380301ddacde9ea5b09373de0e6fdc338f20a1971fbf7328555604c3d4f69ee",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_miles": {
+    "text": "Mil",
+    "sourceHash": "5bd9c048220c94c0a825b07de9fa6c0b117add9b23ace5b4238624fffad7fa36",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_kilometres": {
+    "text": "Kilometer",
+    "sourceHash": "ff4b53736b5d05daca2e320474f0a3ba85179db4908280c2854722f37ef69039",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_recognition_depends_on_your_device_s_installed_service_it_may_req": {
+    "text": "Pengenalan bergantung pada layanan yang terpasang di perangkat Anda. Layanan mungkin memerlukan koneksi internet. Kontrol sentuh selalu tersedia.",
+    "sourceHash": "469cab97b7de3c62d8d3bcf88c33b811e4ec000f4cefe735249c2479804999ee",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_trailnest_premium": {
+    "text": "TrailNest Premium",
+    "sourceHash": "6070fd1968f70992f7fc75eff72c6ea8d0553ffd92f2b22a6073664126ed4490",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_purchasing_is_not_available_in_this_build_no_products_prices_or_p": {
+    "text": "Pembelian tidak tersedia di versi ini. Produk, harga, dan hak akses berbayar belum dikonfigurasi.",
+    "sourceHash": "0e9ca350fda22254cf4298d0194951f7caa9d080dc4fa2a6315cb7f072fdeb13",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_your_checklist_journal_and_one_offline_geometry_pack_are_availabl": {
+    "text": "Daftar periksa, jurnal, dan satu paket geometri offline tersedia gratis. Alat GPX disertakan dalam versi pengembangan ini.",
+    "sourceHash": "62b5dae300b501ef025a25bcd1a990d6d058b1dce6eba36fa0b465f1ad976dae",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_your_privacy": {
+    "text": "Privasi Anda",
+    "sourceHash": "2e29ad563dc6d16cf6f74d8685cd162f8ee8cc5b07de474613ff7abb25ca8460",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "ui_walks_imports_and_preferences_stay_on_this_device_no_accounts_ads": {
+    "text": "Jalan kaki, impor, dan preferensi tetap di perangkat ini. Tanpa akun, iklan, atau analitik. Progres rute berhenti saat aplikasi tidak berada di latar depan. Perekaman jalan kaki langsung hanya dimulai atas pilihan Anda dan berlanjut melalui layanan latar depan hingga dijeda atau diselesaikan, termasuk saat layar mati. Perekaman hanya menyimpan perkiraan jarak dan durasi aktif; koordinat dibuang. Lembar berbagi Android hanya dibuka atas pilihan Anda.",
+    "sourceHash": "859f79ad2593df5a2d8dd212b86687d27607499a7e6a613846cc036a192f1971",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "ui_system_speech_services_may_process_voice_data_under_their_own_pri": {
+    "text": "Layanan suara sistem dapat memproses data suara berdasarkan ketentuan privasinya sendiri. Menghapus aplikasi akan menghapus data lokal. Pencadangan dinonaktifkan.",
+    "sourceHash": "169334df4c704c25335e6db8c7aa3e900262edf9da9355fb5467baacbb1890bc",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "ui_responsible_access": {
+    "text": "Akses yang bertanggung jawab",
+    "sourceHash": "b67334fea9ab86526899b19e6cbe90e2118f368bd1e9f4787656a9a00dca9a06",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "ui_follow_local_signs_respect_wildlife_and_livestock_leave_gates_as_": {
+    "text": "Ikuti rambu setempat, hormati satwa liar dan hewan ternak, biarkan gerbang seperti saat ditemukan, dan bawa pulang sampah. Aturan berbeda menurut negara dan wilayah; periksa panduan terkini dari pengelola lahan terkait.",
+    "sourceHash": "1ce8dab31a9154e2e58b36bee66de748b2efc35d359c0f3b2f8caeffd226922c",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_uk_reference_gov_uk_government_publications_the_countryside_code_": {
+    "text": "Referensi Britania Raya: gov.uk/government/publications/the-countryside-code. Pedoman Inggris dan Wales bukan kebijakan akses global.",
+    "sourceHash": "cc7c40d34a40c1edc39a931fa77a3b781cda0c3568de19241d3b383d16c8b975",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "ui_back_to_routes": {
+    "text": "Kembali ke rute",
+    "sourceHash": "408f3b734cfe3dcab1c2c6229b3eb36863f23b00aee0a16c85df02e3669dc7a6",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_geometry_overview_green_start_brown_finish_teal_recent_position_n": {
+    "text": "Ikhtisar geometri · Hijau: mulai · Cokelat: selesai · Toska: posisi terkini. Tanpa peta dasar. Utara berada di atas; skala bervariasi sesuai batas rute.",
+    "sourceHash": "cc34fdd632b0c00d17c24e7e980ad43539b89b33c99b94800ddaac30802acc1c",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_your_route_at_a_glance": {
+    "text": "Rute Anda dalam sekilas.",
+    "sourceHash": "97788905f4123c80395e37af2d9c499323146924d505913b90f412054a20704e",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_read_progress_aloud": {
+    "text": "Bacakan progres",
+    "sourceHash": "cb5d0abaf221c3fb7f18bbccfcd4c6f5143063dd87ff472561e0b77a06301c33",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_push_to_talk": {
+    "text": "Tekan untuk bicara",
+    "sourceHash": "ea31daabafa3f1b248e96bab82d2381772018ed5fee6fcfbfc242d517c37a82f",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_no_validated_turn_instructions_are_included_spoken_output_reports": {
+    "text": "Petunjuk belokan yang tervalidasi tidak disertakan. Keluaran suara hanya melaporkan progres dan ketidakpastian. Tampilan ini tidak menggantikan peta atau pemeriksaan akses.",
+    "sourceHash": "fe6113c1a085b1ab896c64148e6fd41cbc57008eed684b90597f936f222f3f08",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "ui_export_gpx": {
+    "text": "Ekspor GPX",
+    "sourceHash": "ca6d412b185ede33dd51976d93e0493a50d7646e2cc7e3bd53e9d078707e6301",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "packs_description": {
+    "text": "Geometri GPX pribadi yang disimpan di perangkat. Ubin peta dasar, elevasi, dan petunjuk yang telah ditinjau tidak disertakan.",
+    "sourceHash": "21759e7f0386166df0efc52afa73885d3c18477ec8c59da6badd95d6f2d20a93",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "packs_empty_description": {
+    "text": "Impor trek GPX, periksa geometrinya, lalu simpan sebagai paket rute offline. Unduhan peta belum dikonfigurasi.",
+    "sourceHash": "5338b685277b754875d00ac37ff0028932ca3c11b50fec8a4f3f98562440677a",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "coverage_description": {
+    "text": "Dukungan bahasa tidak berarti adanya cakupan rute. Setiap pasar diawali dengan data berlisensi dan tinjauan editorial.",
+    "sourceHash": "8baf80db918b32812b8c0cfe4198fb66504622a899bc7b012f4f5e1f00abf0fb",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_offline_geometry_pack": {
+    "text": "Paket geometri offline",
+    "sourceHash": "b03f6760e0e00d8ef423c79d5e031141fc9cbd40efd9b17ae5e0d22e4f0975b0",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_private_gpx_import": {
+    "text": "Impor GPX pribadi",
+    "sourceHash": "50e50871164f204794da2353ab6cbfc7a2657c691628bd4cd7e70ca577f3fa32",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_sha_256_integrity_check_passed": {
+    "text": "Pemeriksaan integritas SHA-256 berhasil",
+    "sourceHash": "61939775405e4472242774c3ca62ee4c9a5650729a0ae59ca172a887423da878",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_integrity_check_failed": {
+    "text": "Pemeriksaan integritas gagal",
+    "sourceHash": "a48bbadc9fbbc7cdbe4139c4d87dec823f54f69fac7a384aaa2199e39055e39d",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_remove_offline_pack": {
+    "text": "Hapus paket offline",
+    "sourceHash": "e9cc623187ecee7371991d2f90e9218c2b9f9655dc9fca936045f46ea650c0b3",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_save_geometry_offline": {
+    "text": "Simpan geometri offline",
+    "sourceHash": "0830efa99e8acec6ccd169ce4cd181119cd7acffebe6d9b3c6c5ce664ec11b7f",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "packs_usage": {
+    "text": "%1$d dari 1 paket gratis tersimpan · %2$d byte geometri",
+    "sourceHash": "8a7b269605f10208b8b87ee1cc3ca86a368aabc882370baba66ae26cc2f73a5a",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "country_planned": {
+    "text": "%1$s · Direncanakan · Belum ada rute tertinjau yang diterbitkan",
+    "sourceHash": "b71dc10109a57bf00902693b5f27228387f05a5c0c00b811a69f5dfa907722df",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "voice_available": {
+    "text": "Keluaran suara: tersedia untuk bahasa perangkat",
+    "sourceHash": "aa015a03f4642d24318eb554c3f2f8eed64c2a53620afc24b4e3fea372332053",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "voice_unavailable": {
+    "text": "Keluaran suara: belum ada suara kompatibel yang terpasang",
+    "sourceHash": "1fe4d8b8d995441607575296f8f9077a4cf93ab419939574078ceef816a1a6b1",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "offline_short": {
+    "text": "Offline",
+    "sourceHash": "cff17bc0d0c9823ceedf84ea0ab2896bd05d57906c8f6139778ebdc4bd8c1cd7",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "landscape_description": {
+    "text": "Ilustrasi perbukitan dan jalan setapak berkelok, sebuah lanskap imajiner",
+    "sourceHash": "687601882aa161ff8f62f82ec5e715fbd0776976b0780380e64c157073d19243",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "error_integrity": {
+    "text": "Pemeriksaan integritas gagal. Impor ulang GPX asli.",
+    "sourceHash": "95ff48df20abe28634985f91bc5eb642f99c63412355cdb9f7150c946c3ade1a",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "error_pack_limit": {
+    "text": "Paket gratis menyimpan satu paket rute. Hapus paket yang ada terlebih dahulu. Pembelian Premium belum dikonfigurasi.",
+    "sourceHash": "796e87709f8837711bdcc4983d944ec2a1e44dfe57d7dea813f3d754c530f99e",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "filter_0": {
+    "text": "Semua jalan kaki",
+    "sourceHash": "d24485737d7806debce3c2905fe39c80566187beb44b9d22c1f9ecffa0363a48",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "filter_1": {
+    "text": "Hutan",
+    "sourceHash": "c1f5c19f9704f09305d8731520969b8fde62686c789a3de93247e15de6167ccc",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "filter_2": {
+    "text": "Pesisir",
+    "sourceHash": "ee5a6b5c6dc08f66de3148708314ef2cd37cf75f3e493f5bcced9bde4408cc18",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "filter_3": {
+    "text": "Tepi sungai",
+    "sourceHash": "9d92eba99534f1e32b4e09dc769c65628121fbe5e046e723105d15737cc7501c",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "filter_4": {
+    "text": "Perbukitan",
+    "sourceHash": "d76749697eb2cf144761f72ba4ed17dd462552ff242b38f822daf744ab0cdde6",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "search_empty": {
+    "text": "Tidak ada rute tertinjau yang cocok dengan “%1$s”. Coba impor GPX sendiri selagi koleksi kami disiapkan.",
+    "sourceHash": "e0c6e4ef983183d50d2feb57601b685a1f056db13af844010ecc1ca1c199238d",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "filter_empty": {
+    "text": "Filter %1$s dipilih. Belum ada rute yang telah ditinjau.",
+    "sourceHash": "087ce0a0f99719bd44022e29393e9d86cb71c67cff444295b6af1afead231afe",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "preparation_item": {
+    "text": "• %1$s",
+    "sourceHash": "f55974ac5f4a202fed1dc34229cb7b4dc1a62bd531dfc1f56d5b1ac52b2a43e9",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "location_paused": {
+    "text": "Lokasi dijeda.",
+    "sourceHash": "97d1f541099929a669966789f4baf90731b2936fb2ea6d2aa52e4747b5b93f0b",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "location_waiting": {
+    "text": "Menunggu posisi lokasi terkini.",
+    "sourceHash": "1dde15c25fc7452a653849de00c5d74abb9f3bd35f647b8796dfb6b2ca0bdcdd",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "location_uncertain": {
+    "text": "Akurasi lokasi buruk. Posisi tidak pasti.",
+    "sourceHash": "f4b179194bcb5024de5420ccac48c3c521381d46ee9c30f5525a1983fb54ab92",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "route_off_route": {
+    "text": "Anda tampaknya keluar dari rute yang direncanakan. Periksa keadaan sekitar.",
+    "sourceHash": "016252eeb619a294b60952c20013d9198c16827f95cb569a4187b503215ec76e",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "route_remaining": {
+    "text": "Sekitar %1$s tersisa.",
+    "sourceHash": "55ea2910697857a92dfe7e2325b856e868b6c07fedd654eeed3557e7777af80e",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "voice_save_hint": {
+    "text": "Gunakan Catat jalan kaki di jurnal untuk menyimpan jarak, durasi, dan catatan.",
+    "sourceHash": "a98c73caadf1b8b233fdf55937e2ee852a1033659eb8fc74249df4ea48769a51",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "route_description": {
+    "text": "Rute impor pribadi · Akses dan petunjuk belum ditinjau",
+    "sourceHash": "51bc994a063e46cf3fc234a32e92af21cb64d45ae808d7867115b829cdfa1d45",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "route_summary": {
+    "text": "%1$s · %2$s",
+    "sourceHash": "e815c74b80a6814d8bc3ef1de0438b08a20fd215f1603f29774e665893c90150",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "reported_accuracy": {
+    "text": "Akurasi yang dilaporkan: ±%1$d m",
+    "sourceHash": "d308271b4c710a4459376fe9b6421e67ee2accadc7bc6485b0427c7e57c1f55a",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "pause_location": {
+    "text": "Jeda lokasi",
+    "sourceHash": "bf2326ce3074a34e7562b35b2b3c42a4f6f1d0643c15a5f771a46fc0ec7bff6e",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "foreground_location": {
+    "text": "Gunakan lokasi saat aplikasi terbuka",
+    "sourceHash": "fa9dadec2fc3abd0cef47fc422d537e5c16794ad1410e037de53f1f80a311942",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "walk_summary": {
+    "text": "%1$s · %2$s · %3$d mnt",
+    "sourceHash": "04b9ed2b1e16111c335fcb61e413750591e31d666e10ec458a1e33c8c65eb2ed",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "error_use_an_item_name_between_1_and_120_characters": {
+    "text": "Gunakan nama item antara 1 dan 120 karakter.",
+    "sourceHash": "38222c3b3b654ca1fcecdec80db62edafdec193f698900dc07fb53ce822c4eb9",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "error_a_completed_walk_cannot_be_dated_in_the_future": {
+    "text": "Jalan kaki yang selesai tidak dapat diberi tanggal di masa depan.",
+    "sourceHash": "6d883ddd50e0a141522ac2101f3e1b12a7766333e0a33d9f4b7ab3863d0e5b81",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "error_choose_a_date_from_1970_onwards": {
+    "text": "Pilih tanggal mulai tahun 1970.",
+    "sourceHash": "28c0ea3c1e2f19a552ae1b8f19b5c709d5a3313ce22ae4bced00ca9f18a2e109",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "error_enter_a_walk_title_of_up_to_120_characters": {
+    "text": "Masukkan judul jalan kaki hingga 120 karakter.",
+    "sourceHash": "0d864836b19740c7fe5a74fc26831ecd47844ac47df62d94a02507c4058b1816",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "error_enter_a_distance_from_zero_to_1_000_zero_means_no_distance_was_me": {
+    "text": "Masukkan jarak dari nol hingga 1.000. Nol berarti tidak ada jarak yang diukur.",
+    "sourceHash": "f47af413a41e3cfb59ff530dad6dead0f7c71b318fe42a36e2f96bd9a49268a4",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "error_enter_a_duration_between_1_and_10_080_minutes": {
+    "text": "Masukkan durasi antara 1 dan 10.080 menit.",
+    "sourceHash": "09f9909f633e0c833b91c3dcb9973678f092025acbc7f0958beebd051a00e01c",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "error_choose_a_return_time_outside_a_daylight_saving_clock_change": {
+    "text": "Pilih waktu kembali di luar perubahan jam waktu musim panas.",
+    "sourceHash": "d4a40347ac0df34a8f7fdbbc89d4f1928cc07b8690779f9a0150a0d90320f9cf",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "error_choose_an_expected_return_time_in_the_future": {
+    "text": "Pilih perkiraan waktu kembali di masa depan.",
+    "sourceHash": "c419ba0449b266414aca7884a234841f0d245b8cfe8b2f64449ec9f83f8e8260",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "error_enter_an_estimated_duration_between_1_and_10_080_minutes": {
+    "text": "Masukkan perkiraan durasi antara 1 dan 10.080 menit.",
+    "sourceHash": "5e14408c70cd7933ce8b8f6e719fa5e3ec453bf1c17dd19a8cdebaea5df0a6e1",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "error_contact_details_must_be_500_characters_or_fewer": {
+    "text": "Detail kontak maksimal 500 karakter.",
+    "sourceHash": "867a75002707ead8fe9587b9cfaccc600cf1597735299e7c8e281e2be4d62564",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "error_gpx_must_be_smaller_than_5_mb": {
+    "text": "GPX harus lebih kecil dari 5 MB.",
+    "sourceHash": "441bb59cc1cddd67ba15ee743659d51ec8ed8cf00bd419dac0fe88f1a5b885b9",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "error_external_xml_declarations_are_not_allowed": {
+    "text": "Deklarasi XML eksternal tidak diizinkan.",
+    "sourceHash": "472009b50cc3d43cd7ea878f2c4f695e229d079d00fc4c8cccde6813d5d223a2",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "error_the_document_root_must_be_gpx": {
+    "text": "Elemen akar dokumen harus GPX.",
+    "sourceHash": "cfca6c540093146472495727b0e628f4c653ccbb080325c1c0c97b83e0619771",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "error_import_one_track_at_a_time": {
+    "text": "Impor satu trek setiap kali.",
+    "sourceHash": "1ccf19d86891e883e549a3956ce92afad3d31101585b00e569913a5cc4c3efc3",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "error_multiple_track_segments_could_conceal_gaps_import_one_continuous_": {
+    "text": "Beberapa segmen trek dapat menyembunyikan celah. Impor satu segmen berkesinambungan.",
+    "sourceHash": "2dc93a97103a5ca5698e15859783afc5f283dba320eaa04ea9c293be5984c49f",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "error_import_one_continuous_route_or_track": {
+    "text": "Impor satu rute atau trek berkesinambungan.",
+    "sourceHash": "01a2bdff692dc2723fbb005f9bd69fbf6e8490ae607b93a88b4a1302dbc3283d",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "error_mixed_routes_and_tracks_are_not_supported": {
+    "text": "Gabungan rute dan trek tidak didukung.",
+    "sourceHash": "4251de8ff9cdd57a6a5ded9e125a116dc06e7d8a012c492b7423eeae69c3eaec",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "error_gpx_exceeds_50_000_points": {
+    "text": "GPX melebihi 50.000 titik.",
+    "sourceHash": "0f8eec30b44e24a31e3c8c81358d3762e6b5029940075516a51d936979d54371",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "error_choose_a_gpx_file_with_at_least_two_track_or_route_points": {
+    "text": "Pilih file GPX dengan minimal dua titik trek atau rute.",
+    "sourceHash": "a8c69520e0bf0a07d1c5cb9effe15dc69f5d6387cbb75448ec9e6f5e8d94534a",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "error_the_route_has_no_length": {
+    "text": "Rute tidak memiliki panjang.",
+    "sourceHash": "40cc253584a2e82ab39750e1789eb0e5dc91e4ad3255259c39c07f20500f9fea",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "error_invalid_photo_reference": {
+    "text": "Referensi foto tidak valid.",
+    "sourceHash": "b5a6f3e93af55af8c9f01d6a8157f615bb62eeb2934f9f695e29c580aabb1042",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "error_choose_a_photo_smaller_than_20_mb": {
+    "text": "Pilih foto yang lebih kecil dari 20 MB.",
+    "sourceHash": "91249ba9090549126ac5656bc5403ed0aeada3f5ac99abf47fdc02fcafda5d85",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "error_choose_a_supported_image_file": {
+    "text": "Pilih file gambar yang didukung.",
+    "sourceHash": "471ffd34da2b091d1aadd9250bf38bb1ddbcc31e8f57e522dc91378a79f9e82b",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "error_the_selected_photo_cannot_be_opened": {
+    "text": "Foto yang dipilih tidak dapat dibuka.",
+    "sourceHash": "702bed6f52084f7efb35f95dffcd7cb767efd83e9a8a6137eb57bd1b1f612fe3",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "error_the_image_cannot_be_decoded": {
+    "text": "Gambar tidak dapat didekode.",
+    "sourceHash": "476916430f07346d5179e7d396f2f16b65d0be0049b172454ec57fb36cc9d0f2",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "error_unable_to_checkpoint_recording_free_device_storage_before_continu": {
+    "text": "Titik pemeriksaan rekaman tidak dapat disimpan. Kosongkan penyimpanan perangkat sebelum melanjutkan.",
+    "sourceHash": "41bde95090d6fa7e0a4aa0e99b08a86e9d4d19695360730e2234df4ef0cf483e",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "error_save_the_walk_before_adding_a_photo": {
+    "text": "Simpan jalan kaki sebelum menambahkan foto.",
+    "sourceHash": "e386dbdb16655c8a6d2d40fca8fc03420ab93954345d84e5c1a38fb375bc2bd3",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "error_each_walk_can_contain_up_to_eight_photos": {
+    "text": "Setiap jalan kaki dapat berisi hingga delapan foto.",
+    "sourceHash": "96f07862764c27cd5facd10c130b92e3f7c0829d106042f6242687eef59d5e7a",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "error_unable_to_open_this_file": {
+    "text": "File ini tidak dapat dibuka.",
+    "sourceHash": "3543fbd69142a77d69a7b419520d789066a984e8cc4e75d7fc81a104c195d89d",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "error_unable_to_open_destination": {
+    "text": "Tujuan tidak dapat dibuka.",
+    "sourceHash": "7fa88a360228ef6c9b86fad9d168f8cd3287ca23f4a93781a4e86765905fdb35",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_location_permission_was_declined_route_overview_is_still_availabl": {
+    "text": "Izin lokasi ditolak. Ikhtisar rute tetap tersedia.",
+    "sourceHash": "a9a1e46f405ef243e00ed1a0b2440d478d454ea15c87733768c04f799500638b",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_gpx_imported_privately_access_and_directions_have_not_been_review": {
+    "text": "GPX diimpor secara pribadi. Akses dan petunjuk belum ditinjau.",
+    "sourceHash": "e557d9f33cd128c27545576566adba073ccb2cb4e15bfc11fea0149e79c25c4e",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "ui_gpx_exported": {
+    "text": "GPX diekspor.",
+    "sourceHash": "c57bcf9fbf386149190f8528edf6930323a9b1b50d995f5e87bfef7a1691b7ba",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_command_not_recognised_use_the_touch_controls_english_commands_ar": {
+    "text": "Perintah tidak dikenali. Gunakan kontrol sentuh. Saat ini perintah bahasa Inggris didukung.",
+    "sourceHash": "f30e5575e9bb3caf26640b4c9eb9789195a6c52f6a88ecb6bcb4a81a7a74c7db",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_no_compatible_voice_is_installed_for_this_language": {
+    "text": "Tidak ada suara kompatibel yang terpasang untuk bahasa ini.",
+    "sourceHash": "54839e769dc335bfc0fedcc0e6452bda1abd2b389f2647d6ecc163abd30534e4",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_audio_is_unavailable_use_the_on_screen_progress": {
+    "text": "Audio tidak tersedia. Gunakan progres di layar.",
+    "sourceHash": "5ab357968b09ae759246629104dc6383636c14f5a397cf151fae9d5626a090c8",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_speech_recognition_is_unavailable_on_this_device_use_touch_contro": {
+    "text": "Pengenalan ucapan tidak tersedia di perangkat ini. Gunakan kontrol sentuh.",
+    "sourceHash": "4ef0ed81ccb6392114020ccc622b0b53e139a234deaaaf30f31829ee5d68a112",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_enable_location_in_device_settings_some_fire_tablets_have_no_gps_": {
+    "text": "Aktifkan lokasi di pengaturan perangkat. Beberapa tablet Fire tidak memiliki penerima GPS.",
+    "sourceHash": "e15ab663a214539159c78ad46d79f2a2c09621f0bf9470214e329db5b6002a78",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "ui_location_permission_is_required": {
+    "text": "Izin lokasi diperlukan.",
+    "sourceHash": "08cf6a08fd6f0884127f3ededabe0603915ce96e36e7afe1f05649616f8916e2",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "error_export": {
+    "text": "Ekspor gagal. Pilih tujuan yang dapat ditulis lalu coba lagi.",
+    "sourceHash": "8b942fe000fc9e110b7aee2cad07376465db48e76d1cc0ddcf1fd50e75f9ba3a",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "error_import": {
+    "text": "GPX tidak dapat diimpor. Pilih rute atau trek GPX berkesinambungan yang valid.",
+    "sourceHash": "ca178931572c373c94342fb8a3a0761bde56a90f8035727f0c4926bf67df8a11",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "imported_walk": {
+    "text": "Jalan kaki yang diimpor",
+    "sourceHash": "258550253abf13bba947ca405e17f9fae7939dae62d7b13b2602edca369e4061",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "error_journal": {
+    "text": "Masukkan detail jalan kaki yang valid sesuai format tanggal yang ditampilkan.",
+    "sourceHash": "9d3b0102dfaca404a3b6fe5f87687896f52e3f1dc5c4d14b8a34c29a3c551430",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "error_checklist": {
+    "text": "Gunakan nama item antara 1 dan 120 karakter.",
+    "sourceHash": "38222c3b3b654ca1fcecdec80db62edafdec193f698900dc07fb53ce822c4eb9",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "error_plan": {
+    "text": "Periksa detail rencana dan format waktu kembali.",
+    "sourceHash": "211e08e331587fd10484bfb5809d1a986d8bdc51cc045db96ec8b1aba9e8abe3",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "error_photo": {
+    "text": "Impor foto gagal. Pilih gambar yang didukung lalu coba lagi.",
+    "sourceHash": "769a00e510ba7eb36b3fef9afbb2e23d8dd4c5396f668645764ac4a4145c3b19",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "error_recording_save": {
+    "text": "Rekaman tidak dapat disimpan. Periksa jurnal atau draf saat penyimpanan tersedia.",
+    "sourceHash": "fa7d0dcaa81ce09beee391af9178c78d1f5b193bed520a6a4388267c138e4b49",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "checklist_default_0": {
+    "text": "Air minum",
+    "sourceHash": "4fbfe29236ee912d53fce1d1b82f8dc98b35a9fa5c42426aa80884dfb9c9ba78",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "checklist_default_1": {
+    "text": "Alas kaki yang sesuai",
+    "sourceHash": "53ccb1ee5151b97f5a5f66bcf68c01e9b7238bed118dca66b480a81a1fc4f6ab",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "checklist_default_2": {
+    "text": "Pakaian sesuai cuaca",
+    "sourceHash": "3a38a1e4195a26393e695638a6c5cde9c8c7d5fbf5cfdac5dd5302d21096719f",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "checklist_default_3": {
+    "text": "Ponsel yang terisi daya",
+    "sourceHash": "566f805a72b95be136bbf06e18cc18b08ca1720183acaba9af28e2334f492c42",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "checklist_default_4": {
+    "text": "Power bank",
+    "sourceHash": "67b046f3b4236c40431cddf5b5fdb139f0f7201bcfe00970d305b448f48c4477",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "checklist_default_5": {
+    "text": "Camilan",
+    "sourceHash": "44f76189b63eb47a41dbaf64e8b20e7609725059d4ac90650bdf7a4c1cbb9287",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "checklist_default_6": {
+    "text": "Informasi rute offline",
+    "sourceHash": "19d514ab00a3229210699ab7a786c0c331b7b79e60b0b6c7798f2d0885ed6d2c",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "checklist_default_7": {
+    "text": "Periksa kondisi terkini",
+    "sourceHash": "a477764fdd52fd5000e8aa3f2bef5ce4c4e21e7697b9e2a91f1cb81d7ffd4232",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "checklist_default_8": {
+    "text": "Rencana kontak darurat",
+    "sourceHash": "22bdf7e2bbb0018e607dc84f8a11c0cdb7211d677d197de171dbfa3e61713110",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "checklist_default_9": {
+    "text": "Tali anjing, jika diperlukan",
+    "sourceHash": "c8be5e2a1903cf1d84b366edc783115c795ce6bc0de98b62f7f5b5621ff7aa78",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "checklist_default_10": {
+    "text": "Perlengkapan P3K dasar",
+    "sourceHash": "051d1905350f613e0afa9934c1ea3c69b94374618c75a82223605dd546208e9f",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "shared_plan_body": {
+    "text": "Rencana jalan kaki TrailNest\n%1$s\nMulai: %2$s\nJarak: %3$s\nPerkiraan durasi: %4$d mnt (perkiraan pribadi)\nPerkiraan kembali: %5$s%6$s\nAkses belum ditinjau. Geometri GPX dapat diekspor terpisah. Hanya rencana statis; tanpa pelacakan langsung atau pemantauan darurat.",
+    "sourceHash": "8b633f82a03039f54ea4400dbb692960d424407c0354c93b2d1f341f43ee356b",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "shared_plan_contact": {
+    "text": "\nKontak opsional: %1$s",
+    "sourceHash": "bdaf975f93cad44c55145756f6d452ca188699e6ddf33797f7938c3ab1839e55",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "distance_miles_value": {
+    "text": "%1$s mi",
+    "sourceHash": "94a7d4af3baec1a2d9e7f6ae7eccf9ad019a080bc12792dd78bc7986d0816efd",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "distance_km_value": {
+    "text": "%1$s km",
+    "sourceHash": "f20d363ae1915b3391dfba55bc4d938044882ccd75f8828f7be58bd24a362684",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "translation_draft_notice": {
+    "text": "Pratinjau terjemahan belum ditinjau · Hanya draf",
+    "sourceHash": "f685456d559c63ffde517979417a61ce3aace10d02ed6ff52d88028d5fc7d7a8",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "accessibility_action_for": {
+    "text": "%1$s: %2$s",
+    "sourceHash": "9fd41ba9abc9e1e9af8963f445db0131f1dcfd4bbcea049369800d1ce10e3a67",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "accessibility_rating": {
+    "text": "%1$d dari 5 bintang untuk %2$s",
+    "sourceHash": "23492f816b27e146e8fee005f4c1d763f5050f696136c44020f7af820c513044",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "accessibility_expanded": {
+    "text": "Diperluas",
+    "sourceHash": "9853d6612eebe7fc530d1855d671f1a2a3eaa26b29705fd9a88020b155176069",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "accessibility_collapsed": {
+    "text": "Diciutkan",
+    "sourceHash": "5f0335ddd5bfa699fdee4be12f5a9bd4bf67c56bfc3bff42d608dcfd5106d1c1",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "accessibility_geometry": {
+    "text": "Ikhtisar geometri rute untuk %1$s",
+    "sourceHash": "9c74575834ff2adbd576a21d93aea2ee2768c6555409d96f2581b9e3dd60bdce",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "checklist_title": {
+    "text": "Sedikit persiapan sangat berarti.",
+    "sourceHash": "032574463c689943e951931b1a2f4c5fa39300813fd188df507d94e0c0f672a0",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "checklist_description": {
+    "text": "Daftar periksa pribadi sebelum berjalan. Sesuaikan perlengkapan dengan rute, cuaca, dan kebutuhan Anda.",
+    "sourceHash": "c89e9928bbee655a2da5820272ea15e386b5318321314f90125e6ba27872e6ea",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "checklist_safety": {
+    "text": "Daftar periksa yang selesai tidak menjamin keselamatan. Periksa kondisi terkini, akses, dan kemampuan Anda.",
+    "sourceHash": "35949d11b8df452f12e342f4c4fc0c9e2fb568232dc2d3c782f0f49deeb08a7c",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "edit_checklist": {
+    "text": "Edit daftar periksa",
+    "sourceHash": "b70b9bfd6dc6d894ba9bb5499071bed6766f2fcd2e709c7f1aae48e4864da0b7",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "finish_editing": {
+    "text": "Selesai mengedit",
+    "sourceHash": "e3f3ad99a5dab6ba670e7b2341ed6615a911556c1b280dd18178a3614d7cf4dd",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "reset_checklist": {
+    "text": "Atur ulang daftar periksa",
+    "sourceHash": "32865e3b592ad1a89ebc4d31625bb08c160d09d0bd7b1f260c8f02ac175ec708",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "empty_checklist": {
+    "text": "Daftar periksa kosong. Tambahkan item atau pulihkan bawaan.",
+    "sourceHash": "5cf249d15ead52ba1fce409987bd523160449c55ab045ca8d618d8e159a5ed23",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "checklist_item_name": {
+    "text": "Nama item",
+    "sourceHash": "28edf3b77ba7ecb278454843910d3004ea25248d2f84374198b24443cea000a9",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "add_item": {
+    "text": "Tambah item",
+    "sourceHash": "b6e9536b0698451c30c0234d6deb55d55ffe2c5971557199b47ff22c58b1d480",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "rename_item": {
+    "text": "Ganti nama",
+    "sourceHash": "d6952b4e54d246ddccdbd03bb88c35d7d33e0845dc4120195a46a689297e9d12",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "move_up": {
+    "text": "Pindah ke atas",
+    "sourceHash": "d49ea60a2312df2f30c411f30fe4884b4e504d837ef053c7f79d5d762fcd24d7",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "move_down": {
+    "text": "Pindah ke bawah",
+    "sourceHash": "a06a50e63f0c240e67639dc7fda144d7967da9118ec3ef97f36363c37e9d7fd1",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "remove_item": {
+    "text": "Hapus",
+    "sourceHash": "9469a102f04ea196365c93fa64ca212b2b242f572b394238063093cc809020f5",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "save_changes": {
+    "text": "Simpan perubahan",
+    "sourceHash": "a9851c28b343e87b5854922a712e56bd2f9fd9f7976749f60921acf88abc6d99",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "cancel": {
+    "text": "Batal",
+    "sourceHash": "c0774c185060fc1366ab0c01488af84eb5e4e1f4f59229431e064de73e0de6c5",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "restore_defaults": {
+    "text": "Pulihkan daftar periksa bawaan",
+    "sourceHash": "a2b453ce1919283e9c4d3a3eadb4ea32518904446133e51bb9947171008c344d",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "restore_defaults_warning": {
+    "text": "Ganti daftar periksa saat ini dengan bawaan? Item khusus dan status centang akan dihapus.",
+    "sourceHash": "43168908972438d2a417a3fbb5ca524ca13432ee5c2da5c450fa53f64843466a",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "journal_title": {
+    "text": "Jurnal jalan kaki Anda.",
+    "sourceHash": "1dbc1a2ad9746872ef4ce73b204f5d449b939a5daa8081561dfc7a4ea369dd9a",
+    "reviewed": false,
+    "provenance": "agent-adapted native-language journal heading; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "journal_description": {
+    "text": "Ruang pribadi untuk tempat yang Anda kunjungi dan momen yang layak disimpan.",
+    "sourceHash": "9d8c977bb8a83099acccd9c6a59b9598b7c23b1af1131198f7408f992a047b86",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "journal_totals": {
+    "text": "%1$s · %2$s · %3$d mnt",
+    "sourceHash": "04b9ed2b1e16111c335fcb61e413750591e31d666e10ec458a1e33c8c65eb2ed",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "record_walk": {
+    "text": "Catat jalan kaki",
+    "sourceHash": "ef0b28c3092bf174b3bc5032f2795041f98050b36b65ccff50b3b9db32e2137d",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "edit_walk": {
+    "text": "Edit jalan kaki",
+    "sourceHash": "5b22db55f329586bb4ebbf9b5ce98fa212252bb28812bcce86371f40cf32ef43",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "save_walk": {
+    "text": "Simpan jalan kaki",
+    "sourceHash": "f0ab1c5ccbcc88b6415e8a625de002440aaa08e0510e40170e396dbdf48b62ad",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "walk_title": {
+    "text": "Judul jalan kaki",
+    "sourceHash": "20db3f0f32b98888b051456cca61dba54acf5cf624d1e3adc1ebcfa24800a548",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "walk_date": {
+    "text": "Tanggal jalan kaki",
+    "sourceHash": "41b5586ab2052f9ead4a8aa334fd5f48af53feba46317ac3498486468326003d",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "date_format_hint": {
+    "text": "YYYY-MM-DD · Hanya jalan kaki yang selesai",
+    "sourceHash": "52abb5fc14e3714834eabfb33fee4b4cebd0ee175bf89d3036dce31306615a82",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "distance_miles": {
+    "text": "Jarak (mil)",
+    "sourceHash": "5c01c7e6b5039e73b93715e129f37555020475a9184fd51aa85ec1e1eee1854e",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "distance_km": {
+    "text": "Jarak (km)",
+    "sourceHash": "ee668cf89a552602dd3fed82160b2ec0b698df30dc1c5097b1e2126553e5a339",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "duration_minutes": {
+    "text": "Durasi (menit)",
+    "sourceHash": "346b382b32cab6f61d04e870fbbf33aa330bc9ccee129a24446185ece343f65a",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "walk_notes": {
+    "text": "Catatan",
+    "sourceHash": "28a939dccbff00d72d3f023442a9d16f293da56937e299cd36513b64f6760570",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "favourites_only": {
+    "text": "Hanya favorit",
+    "sourceHash": "f17442613d36467f40d741693f772a83bf509ab640d641644e51396b7eea0c07",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "favourite": {
+    "text": "Favoritkan",
+    "sourceHash": "d7e2c290050cd25a4f84ef819eb70beb0be1715e471aa2901de7b8726c3af543",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "unfavourite": {
+    "text": "Hapus dari favorit",
+    "sourceHash": "7e5f19123979d007c36f6581b6c3a651cab70663af00a37f7a047f41ee37dfe7",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "journal_empty_title": {
+    "text": "Setiap jalan kaki punya cerita.",
+    "sourceHash": "09ff910f6024c65ed3054c751b6bc64b912f4e3cc0fe1da4475cf040b830d29f",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "journal_empty_body": {
+    "text": "Tambahkan jalan kaki yang selesai untuk memulai jurnal pribadi.",
+    "sourceHash": "2fe96fd799e1b41ed746483736b92fe2fd1252cb9cf16d54bed2dae1c60564c4",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "no_favourites": {
+    "text": "Tandai jalan kaki sebagai favorit untuk menemukannya di sini.",
+    "sourceHash": "3ee47184b30703ad4e5637339a28f89475cdae2a4e56448f3e46498a0fc733b8",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "delete_entry": {
+    "text": "Hapus entri",
+    "sourceHash": "93af6037a582e5725ac3dfebfa70f6914fe5ff292c9b6c76b54bf04936e5b140",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "delete_walk_title": {
+    "text": "Hapus jalan kaki ini?",
+    "sourceHash": "218b941cf71d5ac72052f43ecd0515cda9147aacd795038d8fa0667990e518dc",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "delete_walk_body": {
+    "text": "“%1$s” dan salinan foto pribadinya akan dihapus permanen dari perangkat ini.",
+    "sourceHash": "958b520c7ef93308b635aa5a4c66e139853f784a3eb718c71e139ecf649e17a9",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "personal_rating": {
+    "text": "Penilaian pribadi · Pilih lagi untuk menghapus",
+    "sourceHash": "2ecab2778a75413ccea53248343dadc0e67a0ad68f24c241fcc12fabae83abed",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "rating_value": {
+    "text": "%1$d / 5",
+    "sourceHash": "48a8cd17a4a9cbfc23dd67a99eef2a5a759eff299fc55afe1e6babba41ab5978",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "add_photo": {
+    "text": "Tambah foto pribadi",
+    "sourceHash": "fe792051c72aaec4999feff576a9d52de306e0725c13942ec796dc29cc06d37c",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "remove_photo": {
+    "text": "Hapus foto",
+    "sourceHash": "cd18785a9972f3581943ed67856ef3c0aa8279a72b3549ddae9012960953e16a",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "remove_photo_body": {
+    "text": "Hapus salinan pribadi aplikasi ini? Foto asli Anda tidak berubah.",
+    "sourceHash": "e8af58c5c9f6a96471ae1f31a85aeec7f449ce0662a1b0ea978c7f1fbf310a0c",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "photo_privacy": {
+    "text": "Hingga delapan foto per jalan kaki. Salinan tetap pribadi di perangkat ini; metadata lokasi dihapus.",
+    "sourceHash": "66bb0fb3eee0574abe64f7a0ccf4a852508f24077295e2dd3bd13dce13d3ca9e",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "walk_photo_description": {
+    "text": "Foto %1$d untuk %2$s",
+    "sourceHash": "73ea30de446644791bb185706e59eeaec920c70dd3ae4619e6a8e01a7fb057dd",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "photo_unavailable": {
+    "text": "Foto tidak tersedia",
+    "sourceHash": "8cdc38ab4aa492bbbd57e1a241d3b4927ad64b8d4a181d433c1a4fcb2c7c5273",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "importing_photo": {
+    "text": "Mengimpor foto pribadi…",
+    "sourceHash": "39f7fae81d541e7701a9d94828dcb91e971d3d7f4b2a85251dbb9699a7a41ece",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "year_summary": {
+    "text": "Ringkasan jalan kaki %1$d Anda",
+    "sourceHash": "8865366952f6a6a12e8bde68f8f24ebdb5799d9bef708a34f69ab68d46f645d9",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "previous_year": {
+    "text": "Tahun sebelumnya",
+    "sourceHash": "626f99d2fe184eb3918f91bddf252cc1c75978f7d68cb929195a52955e7f097e",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "next_year": {
+    "text": "Tahun berikutnya",
+    "sourceHash": "b19aca07c46d70fa4e2ac910ecdde9f4bb47defa7833745cd78a11994ed8082c",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "show_months": {
+    "text": "Tampilkan aktivitas bulanan",
+    "sourceHash": "bbf9c3034d9eef15f3555cbbc9efc49b54e29ba98325bf4e70bd8b327c1038b9",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "hide_months": {
+    "text": "Sembunyikan aktivitas bulanan",
+    "sourceHash": "8a313db0afb00037983b39febef2ab7263f0fe51375605728f14a80e50d86b9c",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "month_summary": {
+    "text": "%1$s · %2$s · %3$s · %4$d mnt",
+    "sourceHash": "fcc223f1724246252837491ad5a761ebd54c607817e12aa84300c82638f88b52",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "share_plan_title": {
+    "text": "Bagikan rencana jalan kaki",
+    "sourceHash": "b52c43ce426fb8f5b8b5e25d34b144cfa83b28294c70a36087c5058464c70afa",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "estimated_minutes": {
+    "text": "Perkiraan durasi (menit)",
+    "sourceHash": "99a5378d47e8da3f5a3e27b3a11dfa86c8a629924ae6bf558044fbd82eac31b1",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "duration_estimate_hint": {
+    "text": "Perkiraan awal menggunakan 4 km/jam. Sesuaikan dengan kecepatan, istirahat, dan medan Anda.",
+    "sourceHash": "6444771f51e1bc51d6d919fe3da66faaa5f48194cbed0a8b8c58db289172682c",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "expected_return": {
+    "text": "Perkiraan waktu kembali",
+    "sourceHash": "ce6504ac147e6430732f9221e9596c605f182a7e7d97afee7671422b5769b51c",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "return_time_hint": {
+    "text": "YYYY-MM-DDTHH:MM · Zona waktu perangkat: %1$s",
+    "sourceHash": "eebad2f244ef5d564cc442a00591d8381f1e8ff10a74b8b29dfe9abd3f5e1232",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "optional_contact": {
+    "text": "Detail kontak opsional",
+    "sourceHash": "d4671a26d955d6feb37005f377f055869746eeb5adc4dc7039bd695d0d0e6da5",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "share_plan_privacy": {
+    "text": "Hanya rencana statis ini yang dibagikan saat opsi berbagi dibuka. Tidak ada pelacakan langsung atau pemantauan darurat.",
+    "sourceHash": "82c3c2725848b126d4b98e84718b56bb1c207dd39e38992366032849312bbae9",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "open_share_options": {
+    "text": "Buka opsi berbagi",
+    "sourceHash": "3bfa7e7511bb6edd3a93a174574544dbabcea59d8855228b1596f7dca56198ed",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "build_notice": {
+    "text": "TrailNest %1$s · Versi pengembangan · Belum disetujui untuk rilis Appstore",
+    "sourceHash": "960b9a10accb7013e349a78ffe20b547a01b81435410cfa085ec035d9e6e8c41",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "recording_channel": {
+    "text": "Perekaman jalan kaki",
+    "sourceHash": "5f1804dce9dd7f55853e64e624e1f456cc3bf69f4ebd83de9bc0c04af08ef109",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "recording_active": {
+    "text": "Merekam jalan kaki Anda",
+    "sourceHash": "ba6ff2bdb2943a4e9ba6456018183e23c1b12ed35267c5b34cf2e56e707dcd67",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "recording_paused": {
+    "text": "Perekaman jalan kaki dijeda",
+    "sourceHash": "dc6749116e8cdc23300e5bbdb02c08dbdd381f7918acbb3a55b20f3889cf9ac7",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "recording_notification": {
+    "text": "Buka TrailNest untuk melanjutkan, menyelesaikan, atau membuang.",
+    "sourceHash": "17c378f6d4316d84fafc57532034062f68aff9afaa471948e5a45070ca83502c",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "start_recording": {
+    "text": "Mulai perekaman langsung",
+    "sourceHash": "6378ea362ff0e76687aa5ed94534819eb25efbdad297291df9989f6c5ca46c8d",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "pause_recording": {
+    "text": "Jeda perekaman",
+    "sourceHash": "d63dc90d99a26f21987aa99f697f9cea79b18fa13c8ca4caf853926aa91ca877",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "resume_recording": {
+    "text": "Lanjutkan perekaman",
+    "sourceHash": "5df366356cdb00d2fa012588d71c98c1ea506c56d7a0222e0ccff8d5fb680f43",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "finish_recording": {
+    "text": "Selesaikan dan tinjau",
+    "sourceHash": "b6a5b5c1c72fa5b41ff3c4e4d4e3279ab45050c0039c1d4e60e69a8e6c508816",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "discard_recording": {
+    "text": "Buang rekaman",
+    "sourceHash": "926cb6694d7a320d62a2e752f8eb677a1a62d83d29831bf49b69a12848a7c1c2",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "discard_recording_body": {
+    "text": "Buang permanen jalan kaki yang belum disimpan ini?",
+    "sourceHash": "01322f54a15d1bb593c96bec5c87f551dd98ad167ba1ec3ef98d1ef0d5f4fb47",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "recording_description": {
+    "text": "Merekam saat layar mati atau aplikasi diminimalkan, dengan notifikasi tetap. Biarkan lokasi aktif. Kontrol baterai dan ketersediaan GPS perangkat dapat mengganggu perekaman. Jarak adalah perkiraan; ini bukan pelacak keselamatan.",
+    "sourceHash": "53670990b4b21c4ccde7ee69cc14dde1eef0ca6db9e07d00513b0671c518da4d",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "recording_privacy": {
+    "text": "Hanya durasi dan perkiraan jarak yang disimpan secara pribadi di perangkat ini. Koordinat digunakan di memori lalu dibuang. Tidak ada yang diunggah.",
+    "sourceHash": "2533b10b5a5b525f746176779f9778951a9a07120a4471a08ff10235d1084416",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "recording_interrupted": {
+    "text": "Perekaman terputus. Titik pemeriksaan terakhir dijeda; lanjutkan secara eksplisit. Waktu dan jarak sejak titik tersebut mungkin hilang.",
+    "sourceHash": "8bc24a5ceb1199f9d555d0e0269a968a916180920d60af8533ed985d63c9adcc",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "recording_notifications": {
+    "text": "Izinkan notifikasi saat diminta untuk melihat kontrol perekaman di luar aplikasi. Jika notifikasi dinonaktifkan, buka kembali Jalan kaki saya untuk menjeda atau menyelesaikan.",
+    "sourceHash": "e538c5ad6779590da432abb63d8d4d92f13f5e58db1c4e34a8705b6cc2cd930c",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "recording_waiting": {
+    "text": "Menunggu lokasi terkini dengan akurasi 40 m atau lebih baik. Waktu terus berjalan; jarak mungkin tidak lengkap.",
+    "sourceHash": "e9c6d2e94b273e84a15ab9a8fec89d2609f030bb2225b93f0047ebf2c4cce604",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "recording_measurements": {
+    "text": "%1$s · %2$s waktu aktif",
+    "sourceHash": "da20ffeb50aab72f00884f928c4c7fd4567cc670f9d30f4e4ed9355a1c80b5c4",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "recording_save_hint": {
+    "text": "Durasi jurnal dibulatkan ke atas hingga setidaknya satu menit penuh. Jarak nol berarti tidak ada gerakan andal yang diukur; Anda dapat memperbaikinya nanti.",
+    "sourceHash": "8daf95058d04a8f831cccff0391efeb3a5f3ad63fc05cb12c6fe6383348976a2",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "recording_permission": {
+    "text": "Izinkan lokasi untuk merekam jalan kaki. Perkiraan lokasi mungkin terlalu tidak akurat untuk mengukur jarak.",
+    "sourceHash": "7e1b010c9c43eef97e33f7dc41610157bfa0214b9216ba7bd4ebd59b2807425c",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "recording_location_disabled": {
+    "text": "Aktifkan lokasi di pengaturan perangkat. Perangkat ini memerlukan penyedia lokasi yang tersedia untuk merekam.",
+    "sourceHash": "8521744b1707e4f8727241dd32c7351f6b92f6eb24eceb9ce155fc6418b353d6",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "recording_start_failed": {
+    "text": "Perekaman tidak dapat dimulai. Periksa izin lokasi dan pengaturan perangkat; draf yang ada dijeda.",
+    "sourceHash": "5fd05f83b0151ef9a6ae99d8c85a3819c17ae3a69eb679c03f7eb64e1737f7cc",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "recording_title_required": {
+    "text": "Masukkan judul jalan kaki sebelum menyimpan.",
+    "sourceHash": "ec0250860623254c2175dc396aefe0ce41a332c7f02c9b6303b46eb169076983",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": true
+  },
+  "discover": {
+    "text": "Jelajahi",
+    "sourceHash": "b22f790b1fd2ecd35e9bfd7527771fce23854ac6e826be0bfa01fd006084b9cf",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "my_walks": {
+    "text": "Jalan kaki saya",
+    "sourceHash": "cd3ed5a45d5261678695914065952202b48c4f32e34cc57c6119f0423cd8f0fd",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "offline": {
+    "text": "Paket offline",
+    "sourceHash": "ce677921672c70fbce7697e85ba8055dcfe2976ff80258c08dac27943c8021f5",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "checklist": {
+    "text": "Daftar periksa",
+    "sourceHash": "eeeccc83b41aff85903e10da491c9c2630ed562a6d29432227e226c95e0f10b0",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "settings": {
+    "text": "Pengaturan",
+    "sourceHash": "83909f82446ee9c3e82a04ace7c904f1b6a4b230d1b970b55932d62959fbe73d",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "headline": {
+    "text": "Sedikit lebih jauh.\nSedikit lebih bebas.",
+    "sourceHash": "fe87e35b585ae34d2ad5d4619b6220db4ce3248fff09e3e1031ed531e2fa694a",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "tagline": {
+    "text": "Temukan lebih banyak. Berjalan dengan yakin. Jelajahi dengan cara Anda.",
+    "sourceHash": "e6f66e45b2bdfa61c85900f4a2fa167917359c438d1dada180e432c88836e650",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "no_routes": {
+    "text": "Jalan kaki yang baik dimulai dengan informasi yang baik.",
+    "sourceHash": "f418200330f28af1d8238606798e0b6aecfec24584ccf5b4f6ae36803842faa3",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "coverage_message": {
+    "text": "Koleksi rute Britania Raya kami sedang disiapkan. Hanya rute yang telah ditinjau yang akan muncul di sini.",
+    "sourceHash": "dd46343a6d37783b3e362bdd5e0bc366aa614df568612cfda95690f9f3e73170",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "requiresSafetyReview": false
+  },
+  "route_points": {
+    "forms": {
+      "other": "%1$d titik"
+    },
+    "sourceHash": "17c8bc7d59ca2b691d767c606b7fd97ba3a78fece483b98bb2e884413f9be514",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00"
+  },
+  "checklist_progress": {
+    "forms": {
+      "other": "%1$d dari %2$d item dicentang"
+    },
+    "sourceHash": "e63dc677b8f7d7322f8d350309532826b768193d485d615ec8935833be5b216d",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00"
+  },
+  "walk_count": {
+    "forms": {
+      "other": "%1$d jalan kaki"
+    },
+    "sourceHash": "71c49fab29374ad311b48074528c0a95b907499ddf24f2f69d8d1183c96c2910",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00"
+  },
+  "recording_saved_notes": {
+    "forms": {
+      "other": "Perekaman langsung: %1$d detik aktif. Jarak diperkirakan dan mungkin tidak lengkap; jeda dan celah lokasi tidak dihitung."
+    },
+    "sourceHash": "cfd379d84ef3140bb96907b99d05c814cb4c77916f33b37de2d6fe5c69eba58c",
+    "reviewed": false,
+    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00"
+  }
+}

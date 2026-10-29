@@ -2,6 +2,18 @@
 
 Build date: 23 October 2026. Commands run in `D:\App Projects\TrailNest` using JDK 17, Android SDK 35, AGP 8.11.1 and Gradle 8.13.
 
+## Android 0.8.6 — 22 locales and localized store assets
+
+Traditional Chinese, Turkish and Indonesian are active alongside the previous 19 locales. Each of the 22 bundles has 261 strings and four plural resources. Translation checks accept all 22 under the existing owner waiver, with zero human approvals. Indonesian's legacy Android resource alias failed a focused regression and installed-string repro before the `values-in` fix, then passed afterward.
+
+Debug, unsigned release, local LAT, isolated preview and instrumentation APKs built. The final debug/release/LAT build, fresh JVM tests and lint completed in 3m 15s. **64 Android unit, 19 tooling, 18 backend and 5 website tests passed**; the website static build also passed. Lint has zero errors, with 48 debug and 45 LAT warnings; warnings were not suppressed.
+
+All 22 listing files pass byte/content/version/feature validation. The final native capture test passed in 198.225 seconds, producing **176 unchanged 1920×1200 PNGs**, eight per locale. Each locale passed comparison of all 261 installed strings before capture; text measurement found zero overflow. All 22 final contact sheets were agent-reviewed for composition, localized UI, RTL, labels and illustrative-data provenance; one original Spanish geometry screenshot was also checked at full resolution. Current wording/plurals, example text, headlines and version are tied to capture fingerprints. No native-speaker approval is claimed. [Asset gallery](../marketing/README.md), [verification record](../artifacts/verification-0.8.6.json).
+
+The connected KFTRWI/API 28 passed the language-picker, notification, complete layout matrix and three billing device tests: six tests in 780.716 seconds. The matrix passed **88 configurations** (22 locales × 360/800 dp × 100%/200% text), nine screens per configuration, with zero failures and 88 accessibility-control audits. Billing UI passed **26 configurations**, each checking seven synthetic states at 200% text. The new-language sharing keyboard run passed **12 configurations** in 67.284 seconds, including real touch actions, input order and contact preservation. Including native capture, eight instrumentation tests passed. These are fixtures, not additional Amazon purchases or spoken screen-reader acceptance. [Sanitized device summary](../artifacts/localisation-device-0.8.6.json).
+
+The 13 registry-mapped storefront localizations have complete copy; nine additional app-language asset sets are supplemental pending final console mapping review. No Amazon upload, Test 1 change or production submission occurred. The installed Amazon app was not replaced: all new device work uses `com.trailnest.app.draft`. Only marketing screenshot review evidence is approved; the overall release gate correctly remains blocked for eight unrelated commercial prerequisites. Voice support remains device/service dependent, with English-only recognized commands and touch alternatives. API 33+ and broader physical-device/human accessibility acceptance remain open.
+
 ## Current Amazon release review — 29 October 2026
 
 The earlier catalog/publication blockers below are dated history. Test 2 purchase, fulfillment, four accelerated renewals, RVS expiry and final expired-state cold offline checks have since passed. See [the current release review](AMAZON-RELEASE-REVIEW.md) and [dated check summary](../artifacts/amazon-release-review-2026-10-29.json) for remaining production blockers and current automated results. No Test 1 change, production deployment or submission is part of this review.

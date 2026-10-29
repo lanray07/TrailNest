@@ -1,0 +1,30 @@
+{
+  "locale": "sv",
+  "version": "0.8.6",
+  "status": "ready_for_submission",
+  "assetStatus": "prepared_and_agent_checked; whole_app_release_not_approved",
+  "amazonStorefrontMapped": true,
+  "titleAvailability": "not_verified",
+  "currentBuildTitle": "TrailNest – Gådagbok",
+  "shortDescription": "Förbered promenader, spara en privat dagbok med foton och importera egna GPX-rutter.",
+  "longDescription": "Förbered promenader, spara en privat dagbok med foton och importera egna GPX-rutter.\n\nEtt privat utrymme för platserna du har varit och stunderna värda att behålla. Upp till åtta bilder per promenad. Kopior förblir privata på den här enheten; platsmetadata tas bort.\n\nDin personliga checklista före promenad. Anpassa ditt kit efter rutten, vädret och dina behov.\n\nPrivat GPX-geometri lagrad på din enhet. Grundkartor, höjd och granskade vägbeskrivningar ingår inte. Importerade rutter förblir privata och inte granskade. Kontrollera åtkomst och villkor innan du går.\n\nSpelar in medan skärmen är avstängd eller appen minimeras, med en ihållande avisering. Håll plats aktiverad. Batterikontroller och enhetens GPS-tillgänglighet kan avbryta inspelningen. Avstånd är en uppskattning; detta är inte en säkerhetsspårare. Endast varaktighet och beräknat avstånd lagras privat på den här enheten. Koordinater används i minnet och kasseras. Ingenting laddas upp.\n\nRöstfunktioner kräver kompatibla installerade tjänster. Röstkommandon stöder för närvarande bara engelska; pekskärmskontroller finns alltid tillgängliga.\n\nSystemtaltjänster kan behandla röstdata under sina egna sekretessvillkor. Avinstallation rensar lokal data. Säkerhetskopiering är inaktiverat.\n\nInköp är inte tillgängligt i den här versionen. Inga produkter, priser eller betalda rättigheter är konfigurerade. Din checklista, journal och ett offline geometripaket är tillgängliga gratis. GPX-verktyg ingår i denna utvecklingsversion.",
+  "features": [
+    "Gådagbok",
+    "Din personliga checklista före promenad. Anpassa ditt kit efter rutten, vädret och dina behov.",
+    "Lägg till privat foto",
+    "Importera din egen GPX",
+    "Appspråk"
+  ],
+  "keywords": [
+    "Gådagbok",
+    "Checklista",
+    "GPX",
+    "Promenadinspelning"
+  ],
+  "releaseNotes": "Traditionell kinesiska, turkiska och indonesiska har lagts till. Appen stöder nu 22 språkinställningar.",
+  "metadataSource": "https://developer.amazon.com/docs/app-submission/appstore-details.html",
+  "checkedOn": "2026-10-29",
+  "provenance": "agent-authored localized metadata; owner translation-review waiver; not native-speaker certification",
+  "humanReviewed": false,
+  "productionSubmissionApproved": false
+}

@@ -3,13 +3,23 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {extractResources,escapeAndroid,placeholders,sourceHash,sourceIsCurrent,entryReviewed,androidQualifier,hardcodedUiStrings,pluralErrors,localeAccepted} from '../localisation-resources.mjs';
 const root=new URL('../../',import.meta.url),read=p=>JSON.parse(fs.readFileSync(new URL(p,root),'utf8'));
+test('non-English UI does not retain full English phrases or the English appearance label',()=>{
+  const source=read('localisation/source.json');
+  for(const locale of read('config/locales.json').locales.filter(item=>!item.tag.startsWith('en'))){
+    const entries=read(`localisation/${locale.tag}.json`);
+    for(const[key,value]of Object.entries(source)){
+      const words=value.replace(/%\d+\$[sd]/g,'').match(/\b[A-Za-z]{3,}\b/g)||[];
+      if(words.length>=3||['ui_dark_appearance','ui_import_gpx'].includes(key))assert.notEqual(entries[key].text.trim().replace(/\s+/g,' '),value.trim().replace(/\s+/g,' '),`${locale.tag}/${key}: English fallback`);
+    }
+  }
+});
 test('Android XML escaping round-trips punctuation, newlines and protected placeholders',()=>{
-  const text='It\'s "private" & <local>\n%1$s · %2$d · \\path';
+  const text='It\'s "private" & <local>\n%1$s Â· %2$d Â· \\path';
   assert.equal(extractResources([`<string name="test">${escapeAndroid(text)}</string>`]).strings.test,text);
   assert.deepEqual(extractResources(['<string name="brand" translatable="false">TrailNest</string>']).strings,{});
 });
 test('placeholder audit permits reordering and catches changed widths or argument types',()=>{
-  assert.equal(placeholders('%1$s · %2$d'),placeholders('%2$d · %1$s'));
+  assert.equal(placeholders('%1$s Â· %2$d'),placeholders('%2$d Â· %1$s'));
   assert.notEqual(placeholders('%1$s'),placeholders('%1$d'));
   assert.notEqual(placeholders('%02d'),placeholders('%d'));
   assert.equal(placeholders('100%% complete'),'');
@@ -23,6 +33,7 @@ test('source changes invalidate an otherwise reviewed draft and safety review is
 });
 test('BCP47 qualifiers retain region and script distinctions',()=>{
   assert.equal(androidQualifier('pt-BR'),'values-b+pt+BR');assert.equal(androidQualifier('zh-Hans'),'values-b+zh+Hans');
+  assert.equal(androidQualifier('id'),'values-in');
   assert.notEqual(androidQualifier('en-GB'),androidQualifier('en-US'));
 });
 test('waiving human review never bypasses missing, stale or invalid translation checks',()=>{
@@ -37,9 +48,9 @@ test('UI scanner catches literal labels, descriptions and notices while ignoring
   assert.equal(hardcodedUiStrings('Text("Hello"); EmptyPanel("Empty", body); Image(painter, "Hills"); notice = "Failed"').length,4);
   assert.equal(hardcodedUiStrings('"My walks" -> JournalScreen(); Text(userNotes); Text(stringResource(R.string.title))').length,0);
 });
-test('all 19 active draft bundles are complete, current and retain review status',()=>{
+test('all configured active draft bundles are complete, current and retain review status',()=>{
   const registry=read('config/locales.json'),source=read('localisation/source.json'),plurals=read('localisation/plurals-source.json');
-  assert.equal(registry.locales.length,19);
+  assert.equal(registry.locales.length,22);
   for(const locale of registry.locales){
     assert.equal(locale.reviewed,false);
     const data=read(`localisation/${locale.tag}.json`);
@@ -57,7 +68,7 @@ test('all 19 active draft bundles are complete, current and retain review status
     }
   }
   // Every variant inherits the same locales; preview overrides cannot mask them.
-  assert.equal(fs.readdirSync(new URL('app/src/main/res/',root)).filter(name=>name.startsWith('values-b+')).length,19);
+  assert.equal(fs.readdirSync(new URL('app/src/main/res/',root)).filter(name=>name.startsWith('values-b+')||name==='values-in').length,registry.locales.length);
   const previewRes=new URL('app/src/translationPreview/res/',root);
   assert.equal(fs.existsSync(previewRes)?fs.readdirSync(previewRes).filter(name=>name.startsWith('values-b+')).length:0,0);
   const config=fs.readFileSync(new URL('app/src/main/res/xml/locales_config.xml',root),'utf8');

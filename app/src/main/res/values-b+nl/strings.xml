@@ -186,7 +186,7 @@
     <string name="cancel">Annuleren</string>
     <string name="restore_defaults">Standaardchecklist herstellen</string>
     <string name="restore_defaults_warning">Uw huidige checklist vervangen door de standaardwaarden? Aangepaste items en aangevinkte statussen worden verwijderd.</string>
-    <string name="journal_title">Jouw wandelverhaal.</string>
+    <string name="journal_title">Jouw wandeldagboek.</string>
     <string name="journal_description">Een privéruimte voor de plaatsen waar je bent geweest en de momenten die de moeite waard zijn om te bewaren.</string>
     <string name="journal_totals">%1$s · %2$s · %3$d min</string>
     <string name="record_walk">Neem een wandeling op</string>

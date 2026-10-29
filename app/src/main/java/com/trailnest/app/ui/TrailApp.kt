@@ -36,7 +36,7 @@ import com.trailnest.app.domain.*
     LaunchedEffect(recordingError) { recordingError?.let { model.message.value = it; model.recordingError.value = null } }
     val dark = prefs[booleanPreferencesKey("dark")] ?: false
     val imperial = prefs[stringPreferencesKey("units")] != "metric"
-    val scheme = if (dark) darkColorScheme(primary = Color(0xFFA7D3BC), background = Color(0xFF17241E), surface = Color(0xFF22332A), onSurface = Ivory) else lightColorScheme(primary = Forest, background = Ivory, surface = Color(0xFFFCFBF7), onSurface = Ink, outlineVariant = Color(0xFFDDDFD5))
+    val scheme = trailColorScheme(dark)
     var page by rememberSaveable { mutableStateOf("Discover") }
     var selectedId by rememberSaveable { mutableStateOf<String?>(null) }
     LaunchedEffect(recordingPage) { if (recordingPage > 0) { page = "My walks"; selectedId = null } }

@@ -1,0 +1,30 @@
+{
+  "locale": "fr",
+  "version": "0.8.6",
+  "status": "ready_for_submission",
+  "assetStatus": "prepared_and_agent_checked; whole_app_release_not_approved",
+  "amazonStorefrontMapped": true,
+  "titleAvailability": "not_verified",
+  "currentBuildTitle": "TrailNest – Journal de marche",
+  "shortDescription": "Préparez vos balades, gardez un journal photo privé et importez vos propres itinéraires GPX.",
+  "longDescription": "Préparez vos balades, gardez un journal photo privé et importez vos propres itinéraires GPX.\n\nUn espace privé pour les lieux que vous avez visités et les moments à conserver. Jusqu'à huit photos par promenade. Les copies restent privées sur cet appareil ; les métadonnées de localisation sont supprimées.\n\nVotre liste de contrôle personnelle avant la marche. Adaptez votre kit au parcours, à la météo et à vos besoins.\n\nGéométrie GPX privée stockée sur votre appareil. Les tuiles de fond de carte, l’élévation et les directions révisées ne sont pas incluses. Les itinéraires importés restent privés et non vérifiés. Vérifiez l'accès et les conditions avant de marcher.\n\nEnregistre lorsque l'écran est éteint ou que l'application est réduite, avec une notification persistante. Gardez la localisation activée. Les contrôles de la batterie et la disponibilité du GPS de l'appareil peuvent interrompre l'enregistrement. La distance est une estimation ; ce n'est pas un tracker de sécurité. Seules la durée et la distance estimée sont stockées en privé sur cet appareil. Les coordonnées sont utilisées en mémoire et supprimées. Rien n'est téléchargé.\n\nLa voix dépend des services compatibles installés. Les commandes vocales fonctionnent actuellement en anglais uniquement ; les commandes tactiles restent disponibles.\n\nLes services vocaux du système peuvent traiter les données vocales selon leurs propres conditions de confidentialité. La désinstallation efface les données locales. Les sauvegardes sont désactivées.\n\nL'achat n'est pas disponible dans cette version. Aucun produit, prix ou droit payant n'est configuré. Votre liste de contrôle, votre journal et un pack de géométrie hors ligne sont disponibles gratuitement. Les outils GPX sont inclus dans cette version de développement.",
+  "features": [
+    "Journal de marche",
+    "Votre liste de contrôle personnelle avant la marche. Adaptez votre kit au parcours, à la météo et à vos besoins.",
+    "Ajouter une photo privée",
+    "Importez votre propre GPX",
+    "Langue de l’application"
+  ],
+  "keywords": [
+    "Journal de marche",
+    "Liste de préparation",
+    "GPX",
+    "Enregistrement de marche"
+  ],
+  "releaseNotes": "Ajout du chinois traditionnel, du turc et de l’indonésien : l’application propose désormais 22 paramètres régionaux.",
+  "metadataSource": "https://developer.amazon.com/docs/app-submission/appstore-details.html",
+  "checkedOn": "2026-10-29",
+  "provenance": "agent-authored localized metadata; owner translation-review waiver; not native-speaker certification",
+  "humanReviewed": false,
+  "productionSubmissionApproved": false
+}

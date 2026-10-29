@@ -186,7 +186,7 @@
     <string name="cancel">キャンセル</string>
     <string name="restore_defaults">デフォルトのチェックリストを復元する</string>
     <string name="restore_defaults_warning">現在のチェックリストをデフォルトに置き換えますか?カスタム項目とチェックされた状態は削除されます。</string>
-    <string name="journal_title">あなたの歩く物語。</string>
+    <string name="journal_title">あなたの散歩日記。</string>
     <string name="journal_description">行ったことのある場所や、残しておく価値のある瞬間を収めたプライベートな空間。</string>
     <string name="journal_totals">%1$s · %2$s · %3$d 分</string>
     <string name="record_walk">散歩を記録する</string>

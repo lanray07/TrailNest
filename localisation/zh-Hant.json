@@ -1,0 +1,2126 @@
+{
+  "billing_offer": {
+    "sourceHash": "05c0a4c27c10422467681f0fb97fce192e6d4a7e9d2c8aeb24e7b61a39f36386",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "年度訂閱：%1$s。除非在 Amazon 賬戶中取消，否則會自動續訂。",
+    "requiresSafetyReview": false
+  },
+  "billing_subscribe": {
+    "sourceHash": "bbce327a0c77d5eb9b1813b2d1f69d0f0fc721d992342470ba767fda0c079300",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "訂閱",
+    "requiresSafetyReview": false
+  },
+  "billing_restore": {
+    "sourceHash": "542896d5857e7ea1bcedf64fd643780f25c722aa9e6ee0f21dd3db6069c7e1c3",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "恢復購買",
+    "requiresSafetyReview": false
+  },
+  "billing_active": {
+    "sourceHash": "0bd54e4c4ba43c919ef317ac1e27017cecdec1bbd9be8d8840d41036709264a3",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "Premium 驗證有效期至 %1$s。",
+    "requiresSafetyReview": false
+  },
+  "billing_checking": {
+    "sourceHash": "34752d3230c9f39ba86b89c91ecd6fbad5155e0ee6ad07c930d4298380827e6c",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "正在檢查購買…",
+    "requiresSafetyReview": false
+  },
+  "billing_pending": {
+    "sourceHash": "c8f052ff67934ad18ff5c6c5f82810bc12a63e8a8fbbebed029ddcd1a1d71e52",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "正在等待 Amazon 批准。",
+    "requiresSafetyReview": false
+  },
+  "billing_problem": {
+    "sourceHash": "d96d3c6de2dbaed263fed40ec135dfd81ae0423f5e3d81619b309c481f35cf2e",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "購買驗證不可用。請在聯網後恢復購買。",
+    "requiresSafetyReview": false
+  },
+  "billing_benefit": {
+    "sourceHash": "0bd2073476dbc7819b59a782b958cfd460e76862b2c0b343fa81d494a5dfd6e8",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "Premium 允許儲存更多私人 GPX 幾何資料包。授權地圖和精選路線暫不可用。",
+    "requiresSafetyReview": false
+  },
+  "billing_no_offer": {
+    "sourceHash": "e2c1457ff32eca94348f5569eee1127bfd12b6788680b59d33a45082869aefe3",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "Amazon 目前沒有可用的年度優惠。",
+    "requiresSafetyReview": false
+  },
+  "billing_limit": {
+    "sourceHash": "327fd324d160203df270c66d6cabac09a6120037a5d351c6e87f1df9b4acc9cb",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "免費賬戶可保留一個幾何資料包。請移除一個資料包或恢復有效訂閱。",
+    "requiresSafetyReview": false
+  },
+  "language_title": {
+    "sourceHash": "328f384847f7d268813200844abd48eda71fc8a8d717430f7e5e0bffa8229dbe",
+    "reviewed": false,
+    "provenance": "agent-adapted Traditional Chinese wording after OpenCC conversion; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "應用程式語言",
+    "requiresSafetyReview": false
+  },
+  "language_device": {
+    "sourceHash": "ea8c5b00e0d5c66b0caec1eb12ec0105d369679c2bbadaf63c6b2f45b76b6da8",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "使用裝置語言",
+    "requiresSafetyReview": false
+  },
+  "navigation_open": {
+    "sourceHash": "47760aefb75836fb6bc4f20a5053ec83ec02f17101ce6cbc61df023640e8431a",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "開啟導航",
+    "requiresSafetyReview": false
+  },
+  "navigation_close": {
+    "sourceHash": "be2f542729b77c98d4b65afdc0de2c21be1ab22be9b47721dd7e480c7c9f2fb0",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "關閉導航",
+    "requiresSafetyReview": false
+  },
+  "packs_empty_title": {
+    "sourceHash": "05930a8488b564f5e9961c29466961ba4a0ead52c98f754ac938c4b9daca2bae",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "隨身攜帶您的路線。",
+    "requiresSafetyReview": false
+  },
+  "ui_a_brighter_outdoors_one_step_at_a_time": {
+    "sourceHash": "93b9a7f339e212ad0abd80eec06242dd65c918e9104ad6d21a66eaf3807e58b8",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "戶外更明亮。\n一次一步。",
+    "requiresSafetyReview": false
+  },
+  "ui_got_it": {
+    "sourceHash": "481e29fbd9ffbe690383f7d881fc83608fae4c41117cce47eedb864ce28004f2",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "明白了",
+    "requiresSafetyReview": false
+  },
+  "ui_search_a_town_region_or_national_park": {
+    "sourceHash": "a314790d2e981087fc65250f427a2e820fd8844d968227ec94431160d84209db",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "搜尋城鎮、地區或國家公園",
+    "requiresSafetyReview": false
+  },
+  "ui_united_kingdom_coverage_planned": {
+    "sourceHash": "1de6688224cdbc90d84934e62698d223989696aa1c5574e2eb7398b3fc35ca45",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "英國 · 計劃覆蓋範圍",
+    "requiresSafetyReview": false
+  },
+  "ui_your_next_adventure": {
+    "sourceHash": "98201d395128e8ec5af72ec053ebe181945e5f9a93e7496799cc08aaef8e586b",
+    "reviewed": false,
+    "provenance": "agent correction of untranslated or misleading UI wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "下一段旅程",
+    "requiresSafetyReview": false
+  },
+  "ui_explore_coverage": {
+    "sourceHash": "a874fdc10ff90223f2fc622b70fdc34c5bd37253a531a2294b31bea85419168d",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "探索覆蓋範圍",
+    "requiresSafetyReview": false
+  },
+  "ui_be_prepared": {
+    "sourceHash": "ca33cb7fed81ea680ca6cb9a218ca244d6f8c9da9e31a441932368bab22c2deb",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "做好準備",
+    "requiresSafetyReview": false
+  },
+  "ui_a_little_preparation_goes_a_long_way": {
+    "sourceHash": "032574463c689943e951931b1a2f4c5fa39300813fd188df507d94e0c0f672a0",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "一點準備就會大有幫助。",
+    "requiresSafetyReview": false
+  },
+  "ui_open_checklist": {
+    "sourceHash": "bd9f0b474973c0a52b4b94b2ec2ba7e51782ebdaa3f6639cb069c1675261f061",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "開啟清單",
+    "requiresSafetyReview": false
+  },
+  "ui_continue_your_journey": {
+    "sourceHash": "70e8338b33f50ba927d6f12d0661883cb5f3f8798769a9c95a7c63cd6b033c51",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "繼續你的旅程",
+    "requiresSafetyReview": false
+  },
+  "ui_import_your_own_gpx": {
+    "sourceHash": "70d044b2b8615ff0aa7ab9210fa9618194acae6c55b1e9b41836cc6da3b8e224",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "匯入自己的GPX",
+    "requiresSafetyReview": false
+  },
+  "ui_imported_routes_remain_private_and_unreviewed_check_access_and_co": {
+    "sourceHash": "df8d96909ce6822633a05ac27e3fc7dae910e93af796e5d8b5064490399f59ca",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "匯入的路線保持私有且未經審查。步行前檢查通道和條件。",
+    "requiresSafetyReview": true
+  },
+  "ui_offline_route_packs": {
+    "sourceHash": "f72d1813862a79ea6a65e27eb2c3ac16dae86a664486dd71fe47279e21d65e9a",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "離線路線包",
+    "requiresSafetyReview": false
+  },
+  "ui_walk_journal": {
+    "sourceHash": "8ea8bb4427f7304d7e7ddfebad3b3530eea8d28752f52fdec7607251681e11ed",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "行走日記",
+    "requiresSafetyReview": false
+  },
+  "ui_ready_when_you_are": {
+    "sourceHash": "faa08540271e7c080a0ba15f1de08b2975150dc8acdfccee3097c8d26d9021b3",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "準備好了。",
+    "requiresSafetyReview": false
+  },
+  "ui_import_gpx": {
+    "sourceHash": "0fe02a0f52860bf54f51142d9e655322025efbe5a11ede9c71aeef63b455620e",
+    "reviewed": false,
+    "provenance": "agent correction of English import-label fallback; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "匯入 GPX",
+    "requiresSafetyReview": false
+  },
+  "ui_user_supplied_access_unreviewed_no_turn_instructions": {
+    "sourceHash": "8da3bb7e96676d31152833db466bd0a3405d929abf402bc148c7470901a17778",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "使用者提供 · 訪問未經審查 · 無轉彎指示",
+    "requiresSafetyReview": true
+  },
+  "ui_open_route": {
+    "sourceHash": "a10f4e8791d8bf80f785c86647aa6c2c4ef1c104b4b2a7d942a0d0dfe8d7d3d5",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "開通航線",
+    "requiresSafetyReview": false
+  },
+  "ui_delete_import": {
+    "sourceHash": "eaf95aafc77fad37e6baf5a8e8e364829ccb6bfde510f0a5cff555d2a3fcc70d",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "刪除匯入",
+    "requiresSafetyReview": false
+  },
+  "ui_delete_imported_route": {
+    "sourceHash": "d37d3023179363efc4f2e691fadad313bd8bb6bd95ecb3496f9bc0c0ea26cb63",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "刪除匯入的路由？",
+    "requiresSafetyReview": false
+  },
+  "ui_the_route_and_its_offline_pack_will_be_removed_from_this_device": {
+    "sourceHash": "23c1177da848130f0756860c7609dda42fa08bb0d8bb6edc03cfac75ee28b942",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "該路線及其離線包將從該裝置中刪除。",
+    "requiresSafetyReview": false
+  },
+  "ui_delete": {
+    "sourceHash": "b26de372b4b0eaac60202884a72db98a6be6e9036e785ea867ea01c5f7921098",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "刪除",
+    "requiresSafetyReview": false
+  },
+  "ui_keep_route": {
+    "sourceHash": "19b3c8a6b85ee3867077943b7a15054441812af0582e96f87be53ebf0e4580ce",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "保持路線",
+    "requiresSafetyReview": false
+  },
+  "ui_good_information_comes_first": {
+    "sourceHash": "1e963e373f20f12ac5c75e2dd126f927bbfff036b108bc64fee136c60d5ff76c",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "好的資訊是第一位的。",
+    "requiresSafetyReview": false
+  },
+  "ui_offline_basemap_downloads_unavailable": {
+    "sourceHash": "f4a1019596e5f7d10db237ceee340e7bc58b2bfa570fdbe86cc725e6a73f6657",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "離線底圖下載不可用",
+    "requiresSafetyReview": false
+  },
+  "ui_make_yourself_at_home": {
+    "sourceHash": "eb41f710e3a4491db81379983c6619e7ef63599c6a1ec400f3af6e2b4f42d1e4",
+    "reviewed": false,
+    "provenance": "agent correction of untranslated or misleading UI wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "打造自在的使用體驗。",
+    "requiresSafetyReview": false
+  },
+  "ui_your_preferences": {
+    "sourceHash": "d99bf3d783b0df6d2b4ab230b6330c021fbff25ca9c03a9979eb1f0c87dc98e1",
+    "reviewed": false,
+    "provenance": "agent correction of untranslated or misleading UI wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "偏好設定",
+    "requiresSafetyReview": false
+  },
+  "ui_dark_appearance": {
+    "sourceHash": "10944c682074d57fcfad7ffb14030fb05beb8bba252ad216b2caec2ec82376b4",
+    "reviewed": false,
+    "provenance": "agent correction of untranslated or misleading UI wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "  深色外觀",
+    "requiresSafetyReview": false
+  },
+  "ui_distance_units": {
+    "sourceHash": "f380301ddacde9ea5b09373de0e6fdc338f20a1971fbf7328555604c3d4f69ee",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "距離單位",
+    "requiresSafetyReview": false
+  },
+  "ui_miles": {
+    "sourceHash": "5bd9c048220c94c0a825b07de9fa6c0b117add9b23ace5b4238624fffad7fa36",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "英里",
+    "requiresSafetyReview": false
+  },
+  "ui_kilometres": {
+    "sourceHash": "ff4b53736b5d05daca2e320474f0a3ba85179db4908280c2854722f37ef69039",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "公里",
+    "requiresSafetyReview": false
+  },
+  "ui_recognition_depends_on_your_device_s_installed_service_it_may_req": {
+    "sourceHash": "469cab97b7de3c62d8d3bcf88c33b811e4ec000f4cefe735249c2479804999ee",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "識別取決於您裝置安裝的服務。它可能需要網際網路連線。觸控控制始終可用。",
+    "requiresSafetyReview": false
+  },
+  "ui_trailnest_premium": {
+    "sourceHash": "6070fd1968f70992f7fc75eff72c6ea8d0553ffd92f2b22a6073664126ed4490",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "TrailNest 高階版",
+    "requiresSafetyReview": false
+  },
+  "ui_purchasing_is_not_available_in_this_build_no_products_prices_or_p": {
+    "sourceHash": "0e9ca350fda22254cf4298d0194951f7caa9d080dc4fa2a6315cb7f072fdeb13",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "此版本不支援購買。未配置任何產品、價格或付費權利。",
+    "requiresSafetyReview": false
+  },
+  "ui_your_checklist_journal_and_one_offline_geometry_pack_are_availabl": {
+    "sourceHash": "62b5dae300b501ef025a25bcd1a990d6d058b1dce6eba36fa0b465f1ad976dae",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "您的清單、日記和一個離線幾何包免費提供。  GPX 工具包含在此開發版本中。",
+    "requiresSafetyReview": false
+  },
+  "ui_your_privacy": {
+    "sourceHash": "2e29ad563dc6d16cf6f74d8685cd162f8ee8cc5b07de474613ff7abb25ca8460",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "您的隱私",
+    "requiresSafetyReview": true
+  },
+  "ui_walks_imports_and_preferences_stay_on_this_device_no_accounts_ads": {
+    "sourceHash": "859f79ad2593df5a2d8dd212b86687d27607499a7e6a613846cc036a192f1971",
+    "reviewed": false,
+    "provenance": "agent-adapted Traditional Chinese wording after OpenCC conversion; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "步行記錄、匯入資料與偏好設定都保留在此裝置上。不需建立帳戶，也沒有廣告或分析追蹤。應用程式離開前景時，路線進度便會停止。即時步行記錄僅由您手動啟動，之後透過前景服務持續運作，直到您暫停或完成；螢幕關閉時也會繼續。記錄只儲存估計距離與活動時間，座標會捨棄。Android 分享面板只會在您選擇分享時開啟。",
+    "requiresSafetyReview": false
+  },
+  "ui_system_speech_services_may_process_voice_data_under_their_own_pri": {
+    "sourceHash": "169334df4c704c25335e6db8c7aa3e900262edf9da9355fb5467baacbb1890bc",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "系統語音服務可能會根據自己的隱私條款處理語音資料。解除安裝會清除本地資料。備份已禁用。",
+    "requiresSafetyReview": false
+  },
+  "ui_responsible_access": {
+    "sourceHash": "b67334fea9ab86526899b19e6cbe90e2118f368bd1e9f4787656a9a00dca9a06",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "負責任的訪問",
+    "requiresSafetyReview": true
+  },
+  "ui_follow_local_signs_respect_wildlife_and_livestock_leave_gates_as_": {
+    "sourceHash": "1ce8dab31a9154e2e58b36bee66de748b2efc35d359c0f3b2f8caeffd226922c",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "遵循當地標誌，尊重野生動物和牲畜，離開發現的大門，並將垃圾帶回家。規則因國家和地區而異；檢查相關土地管理者的當前指導。",
+    "requiresSafetyReview": true
+  },
+  "ui_uk_reference_gov_uk_government_publications_the_countryside_code_": {
+    "sourceHash": "cc7c40d34a40c1edc39a931fa77a3b781cda0c3568de19241d3b383d16c8b975",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "英國參考：gov.uk/government/publications/the-countryside-code。英格蘭和威爾士法規不是全球准入政策。",
+    "requiresSafetyReview": true
+  },
+  "ui_back_to_routes": {
+    "sourceHash": "408f3b734cfe3dcab1c2c6229b3eb36863f23b00aee0a16c85df02e3669dc7a6",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "返回路線",
+    "requiresSafetyReview": false
+  },
+  "ui_geometry_overview_green_start_brown_finish_teal_recent_position_n": {
+    "sourceHash": "cc34fdd632b0c00d17c24e7e980ad43539b89b33c99b94800ddaac30802acc1c",
+    "reviewed": false,
+    "provenance": "agent-adapted Traditional Chinese wording after OpenCC conversion; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "幾何概覽 · 綠色：起點 · 棕色：終點 · 青綠色：最近位置。沒有底圖。上方為北方，比例隨路線範圍而變。",
+    "requiresSafetyReview": false
+  },
+  "ui_your_route_at_a_glance": {
+    "sourceHash": "97788905f4123c80395e37af2d9c499323146924d505913b90f412054a20704e",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "您的路線，一目瞭然。",
+    "requiresSafetyReview": false
+  },
+  "ui_read_progress_aloud": {
+    "sourceHash": "cb5d0abaf221c3fb7f18bbccfcd4c6f5143063dd87ff472561e0b77a06301c33",
+    "reviewed": false,
+    "provenance": "agent-adapted Traditional Chinese wording after OpenCC conversion; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "朗讀進度",
+    "requiresSafetyReview": false
+  },
+  "ui_push_to_talk": {
+    "sourceHash": "ea31daabafa3f1b248e96bab82d2381772018ed5fee6fcfbfc242d517c37a82f",
+    "reviewed": false,
+    "provenance": "agent-adapted Traditional Chinese wording after OpenCC conversion; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "點按說話",
+    "requiresSafetyReview": false
+  },
+  "ui_no_validated_turn_instructions_are_included_spoken_output_reports": {
+    "sourceHash": "fe6113c1a085b1ab896c64148e6fd41cbc57008eed684b90597f936f222f3f08",
+    "reviewed": false,
+    "provenance": "agent-adapted Traditional Chinese wording after OpenCC conversion; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "不包含經過驗證的轉彎指示。語音只會報告進度與不確定性。此畫面不能取代地圖或通行權限檢查。",
+    "requiresSafetyReview": true
+  },
+  "ui_export_gpx": {
+    "sourceHash": "ca6d412b185ede33dd51976d93e0493a50d7646e2cc7e3bd53e9d078707e6301",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "匯出GPX",
+    "requiresSafetyReview": false
+  },
+  "packs_description": {
+    "sourceHash": "21759e7f0386166df0efc52afa73885d3c18477ec8c59da6badd95d6f2d20a93",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "儲存在您裝置上的私有 GPX 幾何圖形。不包括底圖圖塊、標高和檢視的方向。",
+    "requiresSafetyReview": false
+  },
+  "packs_empty_description": {
+    "sourceHash": "5338b685277b754875d00ac37ff0028932ca3c11b50fec8a4f3f98562440677a",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "匯入 GPX 賽道，檢查其幾何形狀，然後將其儲存為離線路線包。未配置地圖下載。",
+    "requiresSafetyReview": false
+  },
+  "coverage_description": {
+    "sourceHash": "8baf80db918b32812b8c0cfe4198fb66504622a899bc7b012f4f5e1f00abf0fb",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "語言支援並不代表路線覆蓋。每個市場都始於許可資料和編輯評論。",
+    "requiresSafetyReview": false
+  },
+  "ui_offline_geometry_pack": {
+    "sourceHash": "b03f6760e0e00d8ef423c79d5e031141fc9cbd40efd9b17ae5e0d22e4f0975b0",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "離線幾何包",
+    "requiresSafetyReview": false
+  },
+  "ui_private_gpx_import": {
+    "sourceHash": "50e50871164f204794da2353ab6cbfc7a2657c691628bd4cd7e70ca577f3fa32",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "私人GPX匯入",
+    "requiresSafetyReview": false
+  },
+  "ui_sha_256_integrity_check_passed": {
+    "sourceHash": "61939775405e4472242774c3ca62ee4c9a5650729a0ae59ca172a887423da878",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "SHA-256 完整性檢查透過",
+    "requiresSafetyReview": false
+  },
+  "ui_integrity_check_failed": {
+    "sourceHash": "a48bbadc9fbbc7cdbe4139c4d87dec823f54f69fac7a384aaa2199e39055e39d",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "完整性檢查失敗",
+    "requiresSafetyReview": false
+  },
+  "ui_remove_offline_pack": {
+    "sourceHash": "e9cc623187ecee7371991d2f90e9218c2b9f9655dc9fca936045f46ea650c0b3",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "刪除離線包",
+    "requiresSafetyReview": false
+  },
+  "ui_save_geometry_offline": {
+    "sourceHash": "0830efa99e8acec6ccd169ce4cd181119cd7acffebe6d9b3c6c5ce664ec11b7f",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "離線儲存幾何體",
+    "requiresSafetyReview": false
+  },
+  "packs_usage": {
+    "sourceHash": "8a7b269605f10208b8b87ee1cc3ca86a368aabc882370baba66ae26cc2f73a5a",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "已儲存 1 個免費包的 %1$d · %2$d 幾何位元組",
+    "requiresSafetyReview": false
+  },
+  "country_planned": {
+    "sourceHash": "b71dc10109a57bf00902693b5f27228387f05a5c0c00b811a69f5dfa907722df",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "%1$s · 計劃中 · 未釋出稽核路線",
+    "requiresSafetyReview": false
+  },
+  "voice_available": {
+    "sourceHash": "aa015a03f4642d24318eb554c3f2f8eed64c2a53620afc24b4e3fea372332053",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "語音輸出：適用於裝置語言",
+    "requiresSafetyReview": false
+  },
+  "voice_unavailable": {
+    "sourceHash": "1fe4d8b8d995441607575296f8f9077a4cf93ab419939574078ceef816a1a6b1",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "語音輸出：未安裝相容的語音",
+    "requiresSafetyReview": false
+  },
+  "offline_short": {
+    "sourceHash": "cff17bc0d0c9823ceedf84ea0ab2896bd05d57906c8f6139778ebdc4bd8c1cd7",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "離線",
+    "requiresSafetyReview": false
+  },
+  "landscape_description": {
+    "sourceHash": "687601882aa161ff8f62f82ec5e715fbd0776976b0780380e64c157073d19243",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "山巒蜿蜒，想象中的風景",
+    "requiresSafetyReview": false
+  },
+  "error_integrity": {
+    "sourceHash": "95ff48df20abe28634985f91bc5eb642f99c63412355cdb9f7150c946c3ade1a",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "完整性檢查失敗。重新匯入原來的GPX。",
+    "requiresSafetyReview": false
+  },
+  "error_pack_limit": {
+    "sourceHash": "796e87709f8837711bdcc4983d944ec2a1e44dfe57d7dea813f3d754c530f99e",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "免費套餐儲存一個路線包。首先刪除現有的包。高階購買尚未配置。",
+    "requiresSafetyReview": false
+  },
+  "filter_0": {
+    "sourceHash": "d24485737d7806debce3c2905fe39c80566187beb44b9d22c1f9ecffa0363a48",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "所有步行",
+    "requiresSafetyReview": false
+  },
+  "filter_1": {
+    "sourceHash": "c1f5c19f9704f09305d8731520969b8fde62686c789a3de93247e15de6167ccc",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "林地",
+    "requiresSafetyReview": false
+  },
+  "filter_2": {
+    "sourceHash": "ee5a6b5c6dc08f66de3148708314ef2cd37cf75f3e493f5bcced9bde4408cc18",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "沿海",
+    "requiresSafetyReview": false
+  },
+  "filter_3": {
+    "sourceHash": "9d92eba99534f1e32b4e09dc769c65628121fbe5e046e723105d15737cc7501c",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "河畔",
+    "requiresSafetyReview": false
+  },
+  "filter_4": {
+    "sourceHash": "d76749697eb2cf144761f72ba4ed17dd462552ff242b38f822daf744ab0cdde6",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "丘陵",
+    "requiresSafetyReview": false
+  },
+  "search_empty": {
+    "sourceHash": "e0c6e4ef983183d50d2feb57601b685a1f056db13af844010ecc1ca1c199238d",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "沒有稽核的路線匹配“ %1$s ”。在我們準備好收藏時嘗試匯入您自己的 GPX。",
+    "requiresSafetyReview": false
+  },
+  "filter_empty": {
+    "sourceHash": "087ce0a0f99719bd44022e29393e9d86cb71c67cff444295b6af1afead231afe",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "選擇 %1$s 濾波器。尚無可用的稽核路線。",
+    "requiresSafetyReview": false
+  },
+  "preparation_item": {
+    "sourceHash": "f55974ac5f4a202fed1dc34229cb7b4dc1a62bd531dfc1f56d5b1ac52b2a43e9",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "• %1$s",
+    "requiresSafetyReview": false
+  },
+  "location_paused": {
+    "sourceHash": "97d1f541099929a669966789f4baf90731b2936fb2ea6d2aa52e4747b5b93f0b",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "位置已暫停。",
+    "requiresSafetyReview": false
+  },
+  "location_waiting": {
+    "sourceHash": "1dde15c25fc7452a653849de00c5d74abb9f3bd35f647b8796dfb6b2ca0bdcdd",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "等待最近的位置修復。",
+    "requiresSafetyReview": false
+  },
+  "location_uncertain": {
+    "sourceHash": "f4b179194bcb5024de5420ccac48c3c521381d46ee9c30f5525a1983fb54ab92",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "定位精度較差。立場不確定。",
+    "requiresSafetyReview": true
+  },
+  "route_off_route": {
+    "sourceHash": "016252eeb619a294b60952c20013d9198c16827f95cb569a4187b503215ec76e",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "您似乎偏離了計劃路線。檢查你的周圍環境。",
+    "requiresSafetyReview": true
+  },
+  "route_remaining": {
+    "sourceHash": "55ea2910697857a92dfe7e2325b856e868b6c07fedd654eeed3557e7777af80e",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "剩餘約%1$s。",
+    "requiresSafetyReview": false
+  },
+  "voice_save_hint": {
+    "sourceHash": "a98c73caadf1b8b233fdf55937e2ee852a1033659eb8fc74249df4ea48769a51",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "使用在日記中記錄步行來節省距離、持續時間和筆記。",
+    "requiresSafetyReview": false
+  },
+  "route_description": {
+    "sourceHash": "51bc994a063e46cf3fc234a32e92af21cb64d45ae808d7867115b829cdfa1d45",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "私人匯入路線 · 通道及方向未稽核",
+    "requiresSafetyReview": true
+  },
+  "route_summary": {
+    "sourceHash": "e815c74b80a6814d8bc3ef1de0438b08a20fd215f1603f29774e665893c90150",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "%1$s · %2$s",
+    "requiresSafetyReview": false
+  },
+  "reported_accuracy": {
+    "sourceHash": "d308271b4c710a4459376fe9b6421e67ee2accadc7bc6485b0427c7e57c1f55a",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "報告精度：±%1$d m",
+    "requiresSafetyReview": false
+  },
+  "pause_location": {
+    "sourceHash": "bf2326ce3074a34e7562b35b2b3c42a4f6f1d0643c15a5f771a46fc0ec7bff6e",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "暫停位置",
+    "requiresSafetyReview": false
+  },
+  "foreground_location": {
+    "sourceHash": "fa9dadec2fc3abd0cef47fc422d537e5c16794ad1410e037de53f1f80a311942",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "應用程式開啟時使用位置",
+    "requiresSafetyReview": false
+  },
+  "walk_summary": {
+    "sourceHash": "04b9ed2b1e16111c335fcb61e413750591e31d666e10ec458a1e33c8c65eb2ed",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "%1$s · %2$s · %3$d 最小值",
+    "requiresSafetyReview": false
+  },
+  "error_use_an_item_name_between_1_and_120_characters": {
+    "sourceHash": "38222c3b3b654ca1fcecdec80db62edafdec193f698900dc07fb53ce822c4eb9",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "使用 1 到 120 個字元之間的專案名稱。",
+    "requiresSafetyReview": false
+  },
+  "error_a_completed_walk_cannot_be_dated_in_the_future": {
+    "sourceHash": "6d883ddd50e0a141522ac2101f3e1b12a7766333e0a33d9f4b7ab3863d0e5b81",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "已完成的步行無法在未來確定日期。",
+    "requiresSafetyReview": false
+  },
+  "error_choose_a_date_from_1970_onwards": {
+    "sourceHash": "28c0ea3c1e2f19a552ae1b8f19b5c709d5a3313ce22ae4bced00ca9f18a2e109",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "選擇 1970 年以後的日期。",
+    "requiresSafetyReview": false
+  },
+  "error_enter_a_walk_title_of_up_to_120_characters": {
+    "sourceHash": "0d864836b19740c7fe5a74fc26831ecd47844ac47df62d94a02507c4058b1816",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "輸入最多 120 個字元的步行標題。",
+    "requiresSafetyReview": false
+  },
+  "error_enter_a_distance_from_zero_to_1_000_zero_means_no_distance_was_me": {
+    "sourceHash": "f47af413a41e3cfb59ff530dad6dead0f7c71b318fe42a36e2f96bd9a49268a4",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "輸入 0 到 1,000 之間的距離。零表示沒有測量距離。",
+    "requiresSafetyReview": false
+  },
+  "error_enter_a_duration_between_1_and_10_080_minutes": {
+    "sourceHash": "09f9909f633e0c833b91c3dcb9973678f092025acbc7f0958beebd051a00e01c",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "輸入 1 到 10,080 分鐘之間的持續時間。",
+    "requiresSafetyReview": false
+  },
+  "error_choose_a_return_time_outside_a_daylight_saving_clock_change": {
+    "sourceHash": "d4a40347ac0df34a8f7fdbbc89d4f1928cc07b8690779f9a0150a0d90320f9cf",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "選擇夏令時時鐘更改之外的返回時間。",
+    "requiresSafetyReview": true
+  },
+  "error_choose_an_expected_return_time_in_the_future": {
+    "sourceHash": "c419ba0449b266414aca7884a234841f0d245b8cfe8b2f64449ec9f83f8e8260",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "選擇未來預計返回時間。",
+    "requiresSafetyReview": true
+  },
+  "error_enter_an_estimated_duration_between_1_and_10_080_minutes": {
+    "sourceHash": "5e14408c70cd7933ce8b8f6e719fa5e3ec453bf1c17dd19a8cdebaea5df0a6e1",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "輸入 1 到 10,080 分鐘之間的預計持續時間。",
+    "requiresSafetyReview": false
+  },
+  "error_contact_details_must_be_500_characters_or_fewer": {
+    "sourceHash": "867a75002707ead8fe9587b9cfaccc600cf1597735299e7c8e281e2be4d62564",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "聯絡方式不得超過 500 個字元。",
+    "requiresSafetyReview": false
+  },
+  "error_gpx_must_be_smaller_than_5_mb": {
+    "sourceHash": "441bb59cc1cddd67ba15ee743659d51ec8ed8cf00bd419dac0fe88f1a5b885b9",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "GPX 必須小於 5 MB。",
+    "requiresSafetyReview": false
+  },
+  "error_external_xml_declarations_are_not_allowed": {
+    "sourceHash": "472009b50cc3d43cd7ea878f2c4f695e229d079d00fc4c8cccde6813d5d223a2",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "不允許外部 XML 宣告。",
+    "requiresSafetyReview": false
+  },
+  "error_the_document_root_must_be_gpx": {
+    "sourceHash": "cfca6c540093146472495727b0e628f4c653ccbb080325c1c0c97b83e0619771",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "文件根必須是 GPX 。",
+    "requiresSafetyReview": false
+  },
+  "error_import_one_track_at_a_time": {
+    "sourceHash": "1ccf19d86891e883e549a3956ce92afad3d31101585b00e569913a5cc4c3efc3",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "一次匯入一首曲目。",
+    "requiresSafetyReview": false
+  },
+  "error_multiple_track_segments_could_conceal_gaps_import_one_continuous_": {
+    "sourceHash": "2dc93a97103a5ca5698e15859783afc5f283dba320eaa04ea9c293be5984c49f",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "多個軌道段可能會隱藏間隙。匯入一個連續的片段。",
+    "requiresSafetyReview": false
+  },
+  "error_import_one_continuous_route_or_track": {
+    "sourceHash": "01a2bdff692dc2723fbb005f9bd69fbf6e8490ae607b93a88b4a1302dbc3283d",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "匯入一條連續的路線或軌跡。",
+    "requiresSafetyReview": false
+  },
+  "error_mixed_routes_and_tracks_are_not_supported": {
+    "sourceHash": "4251de8ff9cdd57a6a5ded9e125a116dc06e7d8a012c492b7423eeae69c3eaec",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "不支援混合路線和軌道。",
+    "requiresSafetyReview": false
+  },
+  "error_gpx_exceeds_50_000_points": {
+    "sourceHash": "0f8eec30b44e24a31e3c8c81358d3762e6b5029940075516a51d936979d54371",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "GPX 超過 50,000 點。",
+    "requiresSafetyReview": false
+  },
+  "error_choose_a_gpx_file_with_at_least_two_track_or_route_points": {
+    "sourceHash": "a8c69520e0bf0a07d1c5cb9effe15dc69f5d6387cbb75448ec9e6f5e8d94534a",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "選擇至少包含兩個軌跡或路線點的 GPX 檔案。",
+    "requiresSafetyReview": false
+  },
+  "error_the_route_has_no_length": {
+    "sourceHash": "40cc253584a2e82ab39750e1789eb0e5dc91e4ad3255259c39c07f20500f9fea",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "路線沒有長度。",
+    "requiresSafetyReview": false
+  },
+  "error_invalid_photo_reference": {
+    "sourceHash": "b5a6f3e93af55af8c9f01d6a8157f615bb62eeb2934f9f695e29c580aabb1042",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "照片參考無效。",
+    "requiresSafetyReview": false
+  },
+  "error_choose_a_photo_smaller_than_20_mb": {
+    "sourceHash": "91249ba9090549126ac5656bc5403ed0aeada3f5ac99abf47fdc02fcafda5d85",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "選擇小於 20 MB 的照片。",
+    "requiresSafetyReview": false
+  },
+  "error_choose_a_supported_image_file": {
+    "sourceHash": "471ffd34da2b091d1aadd9250bf38bb1ddbcc31e8f57e522dc91378a79f9e82b",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "選擇支援的影象檔案。",
+    "requiresSafetyReview": false
+  },
+  "error_the_selected_photo_cannot_be_opened": {
+    "sourceHash": "702bed6f52084f7efb35f95dffcd7cb767efd83e9a8a6137eb57bd1b1f612fe3",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "無法開啟所選照片。",
+    "requiresSafetyReview": false
+  },
+  "error_the_image_cannot_be_decoded": {
+    "sourceHash": "476916430f07346d5179e7d396f2f16b65d0be0049b172454ec57fb36cc9d0f2",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "圖片無法解碼。",
+    "requiresSafetyReview": false
+  },
+  "error_unable_to_checkpoint_recording_free_device_storage_before_continu": {
+    "sourceHash": "41bde95090d6fa7e0a4aa0e99b08a86e9d4d19695360730e2234df4ef0cf483e",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "無法檢查點錄製。繼續之前釋放裝置儲存空間。",
+    "requiresSafetyReview": true
+  },
+  "error_save_the_walk_before_adding_a_photo": {
+    "sourceHash": "e386dbdb16655c8a6d2d40fca8fc03420ab93954345d84e5c1a38fb375bc2bd3",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "新增照片之前儲存步行路線。",
+    "requiresSafetyReview": false
+  },
+  "error_each_walk_can_contain_up_to_eight_photos": {
+    "sourceHash": "96f07862764c27cd5facd10c130b92e3f7c0829d106042f6242687eef59d5e7a",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "每次步行最多可包含八張照片。",
+    "requiresSafetyReview": false
+  },
+  "error_unable_to_open_this_file": {
+    "sourceHash": "3543fbd69142a77d69a7b419520d789066a984e8cc4e75d7fc81a104c195d89d",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "無法開啟此檔案。",
+    "requiresSafetyReview": false
+  },
+  "error_unable_to_open_destination": {
+    "sourceHash": "7fa88a360228ef6c9b86fad9d168f8cd3287ca23f4a93781a4e86765905fdb35",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "無法開啟目的地。",
+    "requiresSafetyReview": false
+  },
+  "ui_location_permission_was_declined_route_overview_is_still_availabl": {
+    "sourceHash": "a9a1e46f405ef243e00ed1a0b2440d478d454ea15c87733768c04f799500638b",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "位置許可被拒絕。路線概覽仍然可用。",
+    "requiresSafetyReview": true
+  },
+  "ui_gpx_imported_privately_access_and_directions_have_not_been_review": {
+    "sourceHash": "e557d9f33cd128c27545576566adba073ccb2cb4e15bfc11fea0149e79c25c4e",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "GPX 私人匯入。訪問和方向尚未經過審查。",
+    "requiresSafetyReview": true
+  },
+  "ui_gpx_exported": {
+    "sourceHash": "c57bcf9fbf386149190f8528edf6930323a9b1b50d995f5e87bfef7a1691b7ba",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "GPX 已匯出。",
+    "requiresSafetyReview": false
+  },
+  "ui_command_not_recognised_use_the_touch_controls_english_commands_ar": {
+    "sourceHash": "f30e5575e9bb3caf26640b4c9eb9789195a6c52f6a88ecb6bcb4a81a7a74c7db",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "命令無法識別。使用觸控控制。目前支援英文命令。",
+    "requiresSafetyReview": false
+  },
+  "ui_no_compatible_voice_is_installed_for_this_language": {
+    "sourceHash": "54839e769dc335bfc0fedcc0e6452bda1abd2b389f2647d6ecc163abd30534e4",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "沒有安裝該語言的相容語音。",
+    "requiresSafetyReview": false
+  },
+  "ui_audio_is_unavailable_use_the_on_screen_progress": {
+    "sourceHash": "5ab357968b09ae759246629104dc6383636c14f5a397cf151fae9d5626a090c8",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "音訊不可用。使用螢幕上的進度。",
+    "requiresSafetyReview": false
+  },
+  "ui_speech_recognition_is_unavailable_on_this_device_use_touch_contro": {
+    "sourceHash": "4ef0ed81ccb6392114020ccc622b0b53e139a234deaaaf30f31829ee5d68a112",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "此裝置上無法使用語音識別。使用觸控控制。",
+    "requiresSafetyReview": false
+  },
+  "ui_enable_location_in_device_settings_some_fire_tablets_have_no_gps_": {
+    "sourceHash": "e15ab663a214539159c78ad46d79f2a2c09621f0bf9470214e329db5b6002a78",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "在裝置設定中啟用位置。某些 Fire 平板電腦沒有 GPS 接收器。",
+    "requiresSafetyReview": false
+  },
+  "ui_location_permission_is_required": {
+    "sourceHash": "08cf6a08fd6f0884127f3ededabe0603915ce96e36e7afe1f05649616f8916e2",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "需要位置許可。",
+    "requiresSafetyReview": true
+  },
+  "error_export": {
+    "sourceHash": "8b942fe000fc9e110b7aee2cad07376465db48e76d1cc0ddcf1fd50e75f9ba3a",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "匯出失敗。選擇一個可寫目的地並重試。",
+    "requiresSafetyReview": false
+  },
+  "error_import": {
+    "sourceHash": "ca178931572c373c94342fb8a3a0761bde56a90f8035727f0c4926bf67df8a11",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "無法匯入 GPX 。選擇有效的連續 GPX 路線或軌跡。",
+    "requiresSafetyReview": false
+  },
+  "imported_walk": {
+    "sourceHash": "258550253abf13bba947ca405e17f9fae7939dae62d7b13b2602edca369e4061",
+    "reviewed": false,
+    "provenance": "agent correction of untranslated or misleading UI wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "匯入的步行路線",
+    "requiresSafetyReview": false
+  },
+  "error_journal": {
+    "sourceHash": "9d3b0102dfaca404a3b6fe5f87687896f52e3f1dc5c4d14b8a34c29a3c551430",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "使用顯示的日期格式輸入有效的步行詳細資訊。",
+    "requiresSafetyReview": false
+  },
+  "error_checklist": {
+    "sourceHash": "38222c3b3b654ca1fcecdec80db62edafdec193f698900dc07fb53ce822c4eb9",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "使用 1 到 120 個字元之間的專案名稱。",
+    "requiresSafetyReview": false
+  },
+  "error_plan": {
+    "sourceHash": "211e08e331587fd10484bfb5809d1a986d8bdc51cc045db96ec8b1aba9e8abe3",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "檢查計劃詳情和返回時間格式。",
+    "requiresSafetyReview": false
+  },
+  "error_photo": {
+    "sourceHash": "769a00e510ba7eb36b3fef9afbb2e23d8dd4c5396f668645764ac4a4145c3b19",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "​​照片匯入失敗。選擇支援的影象並重試。",
+    "requiresSafetyReview": false
+  },
+  "error_recording_save": {
+    "sourceHash": "fa7d0dcaa81ce09beee391af9178c78d1f5b193bed520a6a4388267c138e4b49",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "無法儲存記錄。當儲存空間可用時，您可以檢查您的日記或草稿。",
+    "requiresSafetyReview": true
+  },
+  "checklist_default_0": {
+    "sourceHash": "4fbfe29236ee912d53fce1d1b82f8dc98b35a9fa5c42426aa80884dfb9c9ba78",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "飲用水",
+    "requiresSafetyReview": false
+  },
+  "checklist_default_1": {
+    "sourceHash": "53ccb1ee5151b97f5a5f66bcf68c01e9b7238bed118dca66b480a81a1fc4f6ab",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "合適的鞋子",
+    "requiresSafetyReview": false
+  },
+  "checklist_default_2": {
+    "sourceHash": "3a38a1e4195a26393e695638a6c5cde9c8c7d5fbf5cfdac5dd5302d21096719f",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "適合天氣的衣服",
+    "requiresSafetyReview": false
+  },
+  "checklist_default_3": {
+    "sourceHash": "566f805a72b95be136bbf06e18cc18b08ca1720183acaba9af28e2334f492c42",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "手機充滿電",
+    "requiresSafetyReview": false
+  },
+  "checklist_default_4": {
+    "sourceHash": "67b046f3b4236c40431cddf5b5fdb139f0f7201bcfe00970d305b448f48c4477",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "移動電源",
+    "requiresSafetyReview": false
+  },
+  "checklist_default_5": {
+    "sourceHash": "44f76189b63eb47a41dbaf64e8b20e7609725059d4ac90650bdf7a4c1cbb9287",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "零食",
+    "requiresSafetyReview": false
+  },
+  "checklist_default_6": {
+    "sourceHash": "19d514ab00a3229210699ab7a786c0c331b7b79e60b0b6c7798f2d0885ed6d2c",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "離線路線資訊",
+    "requiresSafetyReview": false
+  },
+  "checklist_default_7": {
+    "sourceHash": "a477764fdd52fd5000e8aa3f2bef5ce4c4e21e7697b9e2a91f1cb81d7ffd4232",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "檢視當前狀況",
+    "requiresSafetyReview": false
+  },
+  "checklist_default_8": {
+    "sourceHash": "22bdf7e2bbb0018e607dc84f8a11c0cdb7211d677d197de171dbfa3e61713110",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "緊急聯絡預案",
+    "requiresSafetyReview": true
+  },
+  "checklist_default_9": {
+    "sourceHash": "c8be5e2a1903cf1d84b366edc783115c795ce6bc0de98b62f7f5b5621ff7aa78",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "牽狗繩（如果相關）",
+    "requiresSafetyReview": false
+  },
+  "checklist_default_10": {
+    "sourceHash": "051d1905350f613e0afa9934c1ea3c69b94374618c75a82223605dd546208e9f",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "急救要領",
+    "requiresSafetyReview": false
+  },
+  "shared_plan_body": {
+    "sourceHash": "8b633f82a03039f54ea4400dbb692960d424407c0354c93b2d1f341f43ee356b",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "TrailNest 步行計劃\n %1$s \n開始於：%2$s \n距離：%3$s \n預計持續時間：%4$d 分鐘（個人估計）\n預期回報：%5$s %6$s \n訪問未經審查。  GPX幾何體可以單獨匯出。僅靜態計劃；沒有實時跟蹤或緊急監控。",
+    "requiresSafetyReview": true
+  },
+  "shared_plan_contact": {
+    "sourceHash": "bdaf975f93cad44c55145756f6d452ca188699e6ddf33797f7938c3ab1839e55",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "\n可選聯絡人：%1$s",
+    "requiresSafetyReview": false
+  },
+  "distance_miles_value": {
+    "sourceHash": "94a7d4af3baec1a2d9e7f6ae7eccf9ad019a080bc12792dd78bc7986d0816efd",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "%1$s米",
+    "requiresSafetyReview": false
+  },
+  "distance_km_value": {
+    "sourceHash": "f20d363ae1915b3391dfba55bc4d938044882ccd75f8828f7be58bd24a362684",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "%1$s 公里",
+    "requiresSafetyReview": false
+  },
+  "translation_draft_notice": {
+    "sourceHash": "f685456d559c63ffde517979417a61ce3aace10d02ed6ff52d88028d5fc7d7a8",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "未審稿翻譯預覽 · 僅草稿",
+    "requiresSafetyReview": true
+  },
+  "accessibility_action_for": {
+    "sourceHash": "9fd41ba9abc9e1e9af8963f445db0131f1dcfd4bbcea049369800d1ce10e3a67",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "%1$s：%2$s",
+    "requiresSafetyReview": false
+  },
+  "accessibility_rating": {
+    "sourceHash": "23492f816b27e146e8fee005f4c1d763f5050f696136c44020f7af820c513044",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "%2$s的評分：5星中的%1$d星",
+    "requiresSafetyReview": false
+  },
+  "accessibility_expanded": {
+    "sourceHash": "9853d6612eebe7fc530d1855d671f1a2a3eaa26b29705fd9a88020b155176069",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "已展開",
+    "requiresSafetyReview": false
+  },
+  "accessibility_collapsed": {
+    "sourceHash": "5f0335ddd5bfa699fdee4be12f5a9bd4bf67c56bfc3bff42d608dcfd5106d1c1",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "已摺疊",
+    "requiresSafetyReview": false
+  },
+  "accessibility_geometry": {
+    "sourceHash": "9c74575834ff2adbd576a21d93aea2ee2768c6555409d96f2581b9e3dd60bdce",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "%1$s的路線幾何概覽",
+    "requiresSafetyReview": false
+  },
+  "checklist_title": {
+    "sourceHash": "032574463c689943e951931b1a2f4c5fa39300813fd188df507d94e0c0f672a0",
+    "reviewed": false,
+    "provenance": "agent-adapted Traditional Chinese wording after OpenCC conversion; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "稍作準備，從容出發。",
+    "requiresSafetyReview": false
+  },
+  "checklist_description": {
+    "sourceHash": "c89e9928bbee655a2da5820272ea15e386b5318321314f90125e6ba27872e6ea",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "您的個人步行前檢查清單。根據路線、天氣和您的需求調整您的裝備。",
+    "requiresSafetyReview": false
+  },
+  "checklist_safety": {
+    "sourceHash": "35949d11b8df452f12e342f4c4fc0c9e2fb568232dc2d3c782f0f49deeb08a7c",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "完整的檢查表並不能保證安全。檢查當前條件、訪問許可權和您自己的能力。",
+    "requiresSafetyReview": true
+  },
+  "edit_checklist": {
+    "sourceHash": "b70b9bfd6dc6d894ba9bb5499071bed6766f2fcd2e709c7f1aae48e4864da0b7",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "編輯清單",
+    "requiresSafetyReview": false
+  },
+  "finish_editing": {
+    "sourceHash": "e3f3ad99a5dab6ba670e7b2341ed6615a911556c1b280dd18178a3614d7cf4dd",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "編輯完成",
+    "requiresSafetyReview": false
+  },
+  "reset_checklist": {
+    "sourceHash": "32865e3b592ad1a89ebc4d31625bb08c160d09d0bd7b1f260c8f02ac175ec708",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "重置清單",
+    "requiresSafetyReview": false
+  },
+  "empty_checklist": {
+    "sourceHash": "5cf249d15ead52ba1fce409987bd523160449c55ab045ca8d618d8e159a5ed23",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "您的清單是空的。新增專案或恢復預設值。",
+    "requiresSafetyReview": false
+  },
+  "checklist_item_name": {
+    "sourceHash": "28edf3b77ba7ecb278454843910d3004ea25248d2f84374198b24443cea000a9",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "商品名稱",
+    "requiresSafetyReview": false
+  },
+  "add_item": {
+    "sourceHash": "b6e9536b0698451c30c0234d6deb55d55ffe2c5971557199b47ff22c58b1d480",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "新增專案",
+    "requiresSafetyReview": false
+  },
+  "rename_item": {
+    "sourceHash": "d6952b4e54d246ddccdbd03bb88c35d7d33e0845dc4120195a46a689297e9d12",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "重新命名",
+    "requiresSafetyReview": false
+  },
+  "move_up": {
+    "sourceHash": "d49ea60a2312df2f30c411f30fe4884b4e504d837ef053c7f79d5d762fcd24d7",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "向上移動",
+    "requiresSafetyReview": false
+  },
+  "move_down": {
+    "sourceHash": "a06a50e63f0c240e67639dc7fda144d7967da9118ec3ef97f36363c37e9d7fd1",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "下移",
+    "requiresSafetyReview": false
+  },
+  "remove_item": {
+    "sourceHash": "9469a102f04ea196365c93fa64ca212b2b242f572b394238063093cc809020f5",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "刪除",
+    "requiresSafetyReview": false
+  },
+  "save_changes": {
+    "sourceHash": "a9851c28b343e87b5854922a712e56bd2f9fd9f7976749f60921acf88abc6d99",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "儲存更改",
+    "requiresSafetyReview": false
+  },
+  "cancel": {
+    "sourceHash": "c0774c185060fc1366ab0c01488af84eb5e4e1f4f59229431e064de73e0de6c5",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "取消",
+    "requiresSafetyReview": false
+  },
+  "restore_defaults": {
+    "sourceHash": "a2b453ce1919283e9c4d3a3eadb4ea32518904446133e51bb9947171008c344d",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "恢復預設清單",
+    "requiresSafetyReview": false
+  },
+  "restore_defaults_warning": {
+    "sourceHash": "43168908972438d2a417a3fbb5ca524ca13432ee5c2da5c450fa53f64843466a",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "將當前清單替換為預設清單？自定義專案和選中狀態將被刪除。",
+    "requiresSafetyReview": true
+  },
+  "journal_title": {
+    "sourceHash": "1dbc1a2ad9746872ef4ce73b204f5d449b939a5daa8081561dfc7a4ea369dd9a",
+    "reviewed": false,
+    "provenance": "agent-adapted native-language journal heading; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "您的步行日記。",
+    "requiresSafetyReview": false
+  },
+  "journal_description": {
+    "sourceHash": "9d8c977bb8a83099acccd9c6a59b9598b7c23b1af1131198f7408f992a047b86",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "一個私人空間，記錄您去過的地方和值得保留的時刻。",
+    "requiresSafetyReview": false
+  },
+  "journal_totals": {
+    "sourceHash": "04b9ed2b1e16111c335fcb61e413750591e31d666e10ec458a1e33c8c65eb2ed",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "%1$s · %2$s · %3$d 最小值",
+    "requiresSafetyReview": false
+  },
+  "record_walk": {
+    "sourceHash": "ef0b28c3092bf174b3bc5032f2795041f98050b36b65ccff50b3b9db32e2137d",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "記錄一次散步",
+    "requiresSafetyReview": false
+  },
+  "edit_walk": {
+    "sourceHash": "5b22db55f329586bb4ebbf9b5ce98fa212252bb28812bcce86371f40cf32ef43",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "編輯步行記錄",
+    "requiresSafetyReview": false
+  },
+  "save_walk": {
+    "sourceHash": "f0ab1c5ccbcc88b6415e8a625de002440aaa08e0510e40170e396dbdf48b62ad",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "儲存步行記錄",
+    "requiresSafetyReview": false
+  },
+  "walk_title": {
+    "sourceHash": "20db3f0f32b98888b051456cca61dba54acf5cf624d1e3adc1ebcfa24800a548",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "步行標題",
+    "requiresSafetyReview": false
+  },
+  "walk_date": {
+    "sourceHash": "41b5586ab2052f9ead4a8aa334fd5f48af53feba46317ac3498486468326003d",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "步行約會",
+    "requiresSafetyReview": false
+  },
+  "date_format_hint": {
+    "sourceHash": "52abb5fc14e3714834eabfb33fee4b4cebd0ee175bf89d3036dce31306615a82",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "YYYY-MM-DD · 僅完成步行",
+    "requiresSafetyReview": false
+  },
+  "distance_miles": {
+    "sourceHash": "5c01c7e6b5039e73b93715e129f37555020475a9184fd51aa85ec1e1eee1854e",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "距離（英里）",
+    "requiresSafetyReview": false
+  },
+  "distance_km": {
+    "sourceHash": "ee668cf89a552602dd3fed82160b2ec0b698df30dc1c5097b1e2126553e5a339",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "距離（公里）",
+    "requiresSafetyReview": false
+  },
+  "duration_minutes": {
+    "sourceHash": "346b382b32cab6f61d04e870fbbf33aa330bc9ccee129a24446185ece343f65a",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "持續時間（分鐘）",
+    "requiresSafetyReview": false
+  },
+  "walk_notes": {
+    "sourceHash": "28a939dccbff00d72d3f023442a9d16f293da56937e299cd36513b64f6760570",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "備註",
+    "requiresSafetyReview": false
+  },
+  "favourites_only": {
+    "sourceHash": "f17442613d36467f40d741693f772a83bf509ab640d641644e51396b7eea0c07",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "僅限收藏夾",
+    "requiresSafetyReview": false
+  },
+  "favourite": {
+    "sourceHash": "d7e2c290050cd25a4f84ef819eb70beb0be1715e471aa2901de7b8726c3af543",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "最喜歡",
+    "requiresSafetyReview": false
+  },
+  "unfavourite": {
+    "sourceHash": "7e5f19123979d007c36f6581b6c3a651cab70663af00a37f7a047f41ee37dfe7",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "不喜歡",
+    "requiresSafetyReview": false
+  },
+  "journal_empty_title": {
+    "sourceHash": "09ff910f6024c65ed3054c751b6bc64b912f4e3cc0fe1da4475cf040b830d29f",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "每一次散步都有一個故事。",
+    "requiresSafetyReview": false
+  },
+  "journal_empty_body": {
+    "sourceHash": "2fe96fd799e1b41ed746483736b92fe2fd1252cb9cf16d54bed2dae1c60564c4",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "新增已完成的步行以開始您的個人日記。",
+    "requiresSafetyReview": false
+  },
+  "no_favourites": {
+    "sourceHash": "3ee47184b30703ad4e5637339a28f89475cdae2a4e56448f3e46498a0fc733b8",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "將步行標記為最愛，以便在此處找到它。",
+    "requiresSafetyReview": false
+  },
+  "delete_entry": {
+    "sourceHash": "93af6037a582e5725ac3dfebfa70f6914fe5ff292c9b6c76b54bf04936e5b140",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "刪除條目",
+    "requiresSafetyReview": false
+  },
+  "delete_walk_title": {
+    "sourceHash": "218b941cf71d5ac72052f43ecd0515cda9147aacd795038d8fa0667990e518dc",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "刪除此步行嗎？",
+    "requiresSafetyReview": false
+  },
+  "delete_walk_body": {
+    "sourceHash": "958b520c7ef93308b635aa5a4c66e139853f784a3eb718c71e139ecf649e17a9",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "“%1$s”及其私人照片副本將從該裝置中永久刪除。",
+    "requiresSafetyReview": false
+  },
+  "personal_rating": {
+    "sourceHash": "2ecab2778a75413ccea53248343dadc0e67a0ad68f24c241fcc12fabae83abed",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "個人評分 · 再次選擇清除",
+    "requiresSafetyReview": false
+  },
+  "rating_value": {
+    "sourceHash": "48a8cd17a4a9cbfc23dd67a99eef2a5a759eff299fc55afe1e6babba41ab5978",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "%1$d / 5",
+    "requiresSafetyReview": false
+  },
+  "add_photo": {
+    "sourceHash": "fe792051c72aaec4999feff576a9d52de306e0725c13942ec796dc29cc06d37c",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "新增私人照片",
+    "requiresSafetyReview": false
+  },
+  "remove_photo": {
+    "sourceHash": "cd18785a9972f3581943ed67856ef3c0aa8279a72b3549ddae9012960953e16a",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "刪除照片",
+    "requiresSafetyReview": false
+  },
+  "remove_photo_body": {
+    "sourceHash": "e8af58c5c9f6a96471ae1f31a85aeec7f449ce0662a1b0ea978c7f1fbf310a0c",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "刪除此應用程式私人副本嗎？您的原始照片將保持不變。",
+    "requiresSafetyReview": false
+  },
+  "photo_privacy": {
+    "sourceHash": "66bb0fb3eee0574abe64f7a0ccf4a852508f24077295e2dd3bd13dce13d3ca9e",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "每次步行最多八張照片。副本在此裝置上保密；位置後設資料已刪除。",
+    "requiresSafetyReview": true
+  },
+  "walk_photo_description": {
+    "sourceHash": "73ea30de446644791bb185706e59eeaec920c70dd3ae4619e6a8e01a7fb057dd",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "%2$s 的照片 %1$d",
+    "requiresSafetyReview": false
+  },
+  "photo_unavailable": {
+    "sourceHash": "8cdc38ab4aa492bbbd57e1a241d3b4927ad64b8d4a181d433c1a4fcb2c7c5273",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "照片不可用",
+    "requiresSafetyReview": false
+  },
+  "importing_photo": {
+    "sourceHash": "39f7fae81d541e7701a9d94828dcb91e971d3d7f4b2a85251dbb9699a7a41ece",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "正在匯入私人照片...",
+    "requiresSafetyReview": false
+  },
+  "year_summary": {
+    "sourceHash": "8865366952f6a6a12e8bde68f8f24ebdb5799d9bef708a34f69ab68d46f645d9",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "你的%1$d行走總結",
+    "requiresSafetyReview": false
+  },
+  "previous_year": {
+    "sourceHash": "626f99d2fe184eb3918f91bddf252cc1c75978f7d68cb929195a52955e7f097e",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "去年",
+    "requiresSafetyReview": false
+  },
+  "next_year": {
+    "sourceHash": "b19aca07c46d70fa4e2ac910ecdde9f4bb47defa7833745cd78a11994ed8082c",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "明年",
+    "requiresSafetyReview": false
+  },
+  "show_months": {
+    "sourceHash": "bbf9c3034d9eef15f3555cbbc9efc49b54e29ba98325bf4e70bd8b327c1038b9",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "顯示每月活動",
+    "requiresSafetyReview": false
+  },
+  "hide_months": {
+    "sourceHash": "8a313db0afb00037983b39febef2ab7263f0fe51375605728f14a80e50d86b9c",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "隱藏每月活動",
+    "requiresSafetyReview": false
+  },
+  "month_summary": {
+    "sourceHash": "fcc223f1724246252837491ad5a761ebd54c607817e12aa84300c82638f88b52",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "%1$s · %2$s · %3$s · %4$d 最小值",
+    "requiresSafetyReview": false
+  },
+  "share_plan_title": {
+    "sourceHash": "b52c43ce426fb8f5b8b5e25d34b144cfa83b28294c70a36087c5058464c70afa",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "分享步行計劃",
+    "requiresSafetyReview": false
+  },
+  "estimated_minutes": {
+    "sourceHash": "99a5378d47e8da3f5a3e27b3a11dfa86c8a629924ae6bf558044fbd82eac31b1",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "預計持續時間（分鐘）",
+    "requiresSafetyReview": false
+  },
+  "duration_estimate_hint": {
+    "sourceHash": "6444771f51e1bc51d6d919fe3da66faaa5f48194cbed0a8b8c58db289172682c",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "初步估算使用 4 公里/小時。根據您的配速、停靠點和地形進行調整。",
+    "requiresSafetyReview": false
+  },
+  "expected_return": {
+    "sourceHash": "ce6504ac147e6430732f9221e9596c605f182a7e7d97afee7671422b5769b51c",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "預計返回時間",
+    "requiresSafetyReview": true
+  },
+  "return_time_hint": {
+    "sourceHash": "eebad2f244ef5d564cc442a00591d8381f1e8ff10a74b8b29dfe9abd3f5e1232",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "YYYY-MM-DDTHH:MM · 裝置時區：%1$s",
+    "requiresSafetyReview": true
+  },
+  "optional_contact": {
+    "sourceHash": "d4671a26d955d6feb37005f377f055869746eeb5adc4dc7039bd695d0d0e6da5",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "可選聯絡方式",
+    "requiresSafetyReview": false
+  },
+  "share_plan_privacy": {
+    "sourceHash": "82c3c2725848b126d4b98e84718b56bb1c207dd39e38992366032849312bbae9",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "當您開啟共享選項時，僅共享此靜態計劃。沒有實時跟蹤或緊急監控。",
+    "requiresSafetyReview": true
+  },
+  "open_share_options": {
+    "sourceHash": "3bfa7e7511bb6edd3a93a174574544dbabcea59d8855228b1596f7dca56198ed",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "開啟共享選項",
+    "requiresSafetyReview": false
+  },
+  "build_notice": {
+    "sourceHash": "960b9a10accb7013e349a78ffe20b547a01b81435410cfa085ec035d9e6e8c41",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "TrailNest %1$s · 開發版本 · 未獲批准用於 Appstore 釋出",
+    "requiresSafetyReview": false
+  },
+  "recording_channel": {
+    "sourceHash": "5f1804dce9dd7f55853e64e624e1f456cc3bf69f4ebd83de9bc0c04af08ef109",
+    "reviewed": false,
+    "provenance": "agent correction of untranslated or misleading UI wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "步行記錄",
+    "requiresSafetyReview": true
+  },
+  "recording_active": {
+    "sourceHash": "ba6ff2bdb2943a4e9ba6456018183e23c1b12ed35267c5b34cf2e56e707dcd67",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "記錄你的行走",
+    "requiresSafetyReview": true
+  },
+  "recording_paused": {
+    "sourceHash": "dc6749116e8cdc23300e5bbdb02c08dbdd381f7918acbb3a55b20f3889cf9ac7",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "步行記錄暫停",
+    "requiresSafetyReview": true
+  },
+  "recording_notification": {
+    "sourceHash": "17c378f6d4316d84fafc57532034062f68aff9afaa471948e5a45070ca83502c",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "開啟TrailNest 進行恢復、完成或放棄。",
+    "requiresSafetyReview": true
+  },
+  "start_recording": {
+    "sourceHash": "6378ea362ff0e76687aa5ed94534819eb25efbdad297291df9989f6c5ca46c8d",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "開始記錄",
+    "requiresSafetyReview": true
+  },
+  "pause_recording": {
+    "sourceHash": "d63dc90d99a26f21987aa99f697f9cea79b18fa13c8ca4caf853926aa91ca877",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "暫停記錄",
+    "requiresSafetyReview": true
+  },
+  "resume_recording": {
+    "sourceHash": "5df366356cdb00d2fa012588d71c98c1ea506c56d7a0222e0ccff8d5fb680f43",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "繼續記錄",
+    "requiresSafetyReview": true
+  },
+  "finish_recording": {
+    "sourceHash": "b6a5b5c1c72fa5b41ff3c4e4d4e3279ab45050c0039c1d4e60e69a8e6c508816",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "結束並檢查",
+    "requiresSafetyReview": true
+  },
+  "discard_recording": {
+    "sourceHash": "926cb6694d7a320d62a2e752f8eb677a1a62d83d29831bf49b69a12848a7c1c2",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "放棄記錄",
+    "requiresSafetyReview": true
+  },
+  "discard_recording_body": {
+    "sourceHash": "01322f54a15d1bb593c96bec5c87f551dd98ad167ba1ec3ef98d1ef0d5f4fb47",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "永久丟棄這條未儲存的步行嗎？",
+    "requiresSafetyReview": true
+  },
+  "recording_description": {
+    "sourceHash": "53670990b4b21c4ccde7ee69cc14dde1eef0ca6db9e07d00513b0671c518da4d",
+    "reviewed": false,
+    "provenance": "agent-adapted Traditional Chinese wording after OpenCC conversion; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "螢幕關閉或應用程式最小化時，仍會透過常駐通知持續記錄。請保持定位開啟。電池限制與裝置的 GPS 可用性可能中斷記錄。距離為估計值；這不是安全追蹤工具。",
+    "requiresSafetyReview": true
+  },
+  "recording_privacy": {
+    "sourceHash": "2533b10b5a5b525f746176779f9778951a9a07120a4471a08ff10235d1084416",
+    "reviewed": false,
+    "provenance": "agent-adapted Traditional Chinese wording after OpenCC conversion; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "只有活動時間與估計距離會私下儲存在此裝置上。座標只在記憶體中使用，隨後捨棄。不會上傳任何內容。",
+    "requiresSafetyReview": true
+  },
+  "recording_interrupted": {
+    "sourceHash": "8bc24a5ceb1199f9d555d0e0269a968a916180920d60af8533ed985d63c9adcc",
+    "reviewed": false,
+    "provenance": "agent-adapted Traditional Chinese wording after OpenCC conversion; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "記錄已中斷。最後儲存的檢查點已暫停，請手動繼續。該檢查點之後的時間與距離可能遺失。",
+    "requiresSafetyReview": true
+  },
+  "recording_notifications": {
+    "sourceHash": "e538c5ad6779590da432abb63d8d4d92f13f5e58db1c4e34a8705b6cc2cd930c",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "當要求檢視應用程式外部的錄製控制元件時允許通知。如果通知已禁用，請重新開啟“我的步行”以暫停或完成。",
+    "requiresSafetyReview": true
+  },
+  "recording_waiting": {
+    "sourceHash": "e9c6d2e94b273e84a15ab9a8fec89d2609f030bb2225b93f0047ebf2c4cce604",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "等待精確到 40 m 或更好的最近位置。時間繼續；距離可能不完整。",
+    "requiresSafetyReview": true
+  },
+  "recording_measurements": {
+    "sourceHash": "da20ffeb50aab72f00884f928c4c7fd4567cc670f9d30f4e4ed9355a1c80b5c4",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "%1$s · %2$s 活躍時間",
+    "requiresSafetyReview": true
+  },
+  "recording_save_hint": {
+    "sourceHash": "8daf95058d04a8f831cccff0391efeb3a5f3ad63fc05cb12c6fe6383348976a2",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "日記持續時間至少四捨五入為一整分鐘。零距離意味著沒有測量到可靠的運動；您可以稍後更正。",
+    "requiresSafetyReview": true
+  },
+  "recording_permission": {
+    "sourceHash": "7e1b010c9c43eef97e33f7dc41610157bfa0214b9216ba7bd4ebd59b2807425c",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "允許位置記錄步行。大致位置可能太不精確而無法測量距離。",
+    "requiresSafetyReview": true
+  },
+  "recording_location_disabled": {
+    "sourceHash": "8521744b1707e4f8727241dd32c7351f6b92f6eb24eceb9ce155fc6418b353d6",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "在裝置設定中啟用位置。該裝置需要可用的位置提供程式來進行記錄。",
+    "requiresSafetyReview": true
+  },
+  "recording_start_failed": {
+    "sourceHash": "5fd05f83b0151ef9a6ae99d8c85a3819c17ae3a69eb679c03f7eb64e1737f7cc",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "記錄無法開始。檢查位置許可權和裝置設定；任何現有草稿均已暫停。",
+    "requiresSafetyReview": true
+  },
+  "recording_title_required": {
+    "sourceHash": "ec0250860623254c2175dc396aefe0ce41a332c7f02c9b6303b46eb169076983",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "儲存前輸入步行標題。",
+    "requiresSafetyReview": true
+  },
+  "discover": {
+    "sourceHash": "b22f790b1fd2ecd35e9bfd7527771fce23854ac6e826be0bfa01fd006084b9cf",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "探索",
+    "requiresSafetyReview": false
+  },
+  "my_walks": {
+    "sourceHash": "cd3ed5a45d5261678695914065952202b48c4f32e34cc57c6119f0423cd8f0fd",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "我的步行",
+    "requiresSafetyReview": false
+  },
+  "offline": {
+    "sourceHash": "ce677921672c70fbce7697e85ba8055dcfe2976ff80258c08dac27943c8021f5",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "離線包",
+    "requiresSafetyReview": false
+  },
+  "checklist": {
+    "sourceHash": "eeeccc83b41aff85903e10da491c9c2630ed562a6d29432227e226c95e0f10b0",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "檢查清單",
+    "requiresSafetyReview": false
+  },
+  "settings": {
+    "sourceHash": "83909f82446ee9c3e82a04ace7c904f1b6a4b230d1b970b55932d62959fbe73d",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "設定",
+    "requiresSafetyReview": false
+  },
+  "headline": {
+    "sourceHash": "fe87e35b585ae34d2ad5d4619b6220db4ce3248fff09e3e1031ed531e2fa694a",
+    "reviewed": false,
+    "provenance": "agent-adapted Traditional Chinese wording after OpenCC conversion; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "多走一點。\n自在一點。",
+    "requiresSafetyReview": false
+  },
+  "tagline": {
+    "sourceHash": "e6f66e45b2bdfa61c85900f4a2fa167917359c438d1dada180e432c88836e650",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "發現更多。自信地行走。探索你的方式。",
+    "requiresSafetyReview": false
+  },
+  "no_routes": {
+    "sourceHash": "f418200330f28af1d8238606798e0b6aecfec24584ccf5b4f6ae36803842faa3",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "好的徒步旅行始於好的資訊。",
+    "requiresSafetyReview": false
+  },
+  "coverage_message": {
+    "sourceHash": "dd46343a6d37783b3e362bdd5e0bc366aa614df568612cfda95690f9f3e73170",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing machine/agent-authored Simplified Chinese; agent reviewed wording; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "text": "我們的英國航線合集正在準備中。只有經過稽核的路線才會顯示在此處。",
+    "requiresSafetyReview": false
+  },
+  "route_points": {
+    "sourceHash": "17c8bc7d59ca2b691d767c606b7fd97ba3a78fece483b98bb2e884413f9be514",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing Chinese plural text; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "forms": {
+      "other": "%1$d 積分"
+    }
+  },
+  "checklist_progress": {
+    "sourceHash": "e63dc677b8f7d7322f8d350309532826b768193d485d615ec8935833be5b216d",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing Chinese plural text; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "forms": {
+      "other": "%1$d 共 %2$d 項已檢查"
+    }
+  },
+  "walk_count": {
+    "sourceHash": "71c49fab29374ad311b48074528c0a95b907499ddf24f2f69d8d1183c96c2910",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing Chinese plural text; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "forms": {
+      "other": "%1$d 行走"
+    }
+  },
+  "recording_saved_notes": {
+    "sourceHash": "cfd379d84ef3140bb96907b99d05c814cb4c77916f33b37de2d6fe5c69eba58c",
+    "reviewed": false,
+    "provenance": "OpenCC 0.1.7 s2twp conversion of existing Chinese plural text; owner translation-review waiver",
+    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "forms": {
+      "other": "現場錄音：%1$d 活躍秒數。距離是估計的，可能不完整；暫停和位置間隙被排除在外。"
+    }
+  }
+}

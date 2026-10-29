@@ -31,7 +31,7 @@ import java.util.concurrent.ConcurrentLinkedQueue
 class LocaleLayoutDeviceTest {
     @get:Rule val compose = createAndroidComposeRule<androidx.activity.ComponentActivity>()
     data class Case(val tag: String, val width: Int, val scale: Float, val screen: String = "Discover")
-    private val tags = listOf("en-US","en-GB","en-AU","en-IN","fr","de","it","es","es-MX","pt-BR","pt-PT","nl","pl","sv","ja","ar","hi","zh-Hans","ko")
+    private val tags = AppLanguage.supportedTags(InstrumentationRegistry.getInstrumentation().targetContext)
     @Test fun localeFontAndViewportMatrix() {
         Assume.assumeTrue("Run against the isolated translationPreview APK", BuildConfig.APPLICATION_ID.endsWith(".draft"))
         prepareTestWindow { compose.activity }

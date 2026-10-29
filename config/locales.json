@@ -1,5 +1,5 @@
 {
-  "checkedOn": "2026-10-23",
+  "checkedOn": "2026-10-29",
   "requiredAppLocales": ["en-US","fr","es","de","it","pt-BR","nl","pl","ar","hi","ja","ko","zh-Hans","zh-Hant","tr","id","sv"],
   "translationPolicy": {
     "humanReviewRequired": false,
@@ -27,6 +27,9 @@
     {"tag":"ar","amazonListing":false,"reviewed":false,"rtl":true,"optional":true},
     {"tag":"hi","amazonListing":false,"reviewed":false,"optional":true},
     {"tag":"zh-Hans","amazonListing":false,"reviewed":false,"optional":true},
-    {"tag":"ko","amazonListing":false,"reviewed":false,"optional":true}
+    {"tag":"ko","amazonListing":false,"reviewed":false,"optional":true},
+    {"tag":"zh-Hant","amazonListing":false,"reviewed":false},
+    {"tag":"tr","amazonListing":false,"reviewed":false},
+    {"tag":"id","amazonListing":false,"reviewed":false}
   ]
 }

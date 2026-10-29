@@ -20,7 +20,7 @@
     <string name="ui_got_it">明白了</string>
     <string name="ui_search_a_town_region_or_national_park">搜索城镇、地区或国家公园</string>
     <string name="ui_united_kingdom_coverage_planned">英国 · 计划覆盖范围</string>
-    <string name="ui_your_next_adventure">Your next adventure</string>
+    <string name="ui_your_next_adventure">下一段旅程</string>
     <string name="ui_explore_coverage">探索覆盖范围</string>
     <string name="ui_be_prepared">做好准备</string>
     <string name="ui_a_little_preparation_goes_a_long_way">一点准备就会大有帮助。</string>
@@ -31,7 +31,7 @@
     <string name="ui_offline_route_packs">离线路线包</string>
     <string name="ui_walk_journal">行走日记</string>
     <string name="ui_ready_when_you_are">准备好了。</string>
-    <string name="ui_import_gpx">Import  GPX</string>
+    <string name="ui_import_gpx">导入 GPX</string>
     <string name="ui_user_supplied_access_unreviewed_no_turn_instructions">用户提供 · 访问未经审查 · 无转弯指示</string>
     <string name="ui_open_route">开通航线</string>
     <string name="ui_delete_import">删除导入</string>
@@ -43,7 +43,7 @@
     <string name="ui_offline_basemap_downloads_unavailable">离线底图下载不可用</string>
     <string name="ui_make_yourself_at_home">让自己宾至如归。</string>
     <string name="ui_your_preferences">您的喜好</string>
-    <string name="ui_dark_appearance">Dark appearance</string>
+    <string name="ui_dark_appearance">  深色外观</string>
     <string name="ui_distance_units">距离单位</string>
     <string name="ui_miles">英里</string>
     <string name="ui_kilometres">公里</string>
@@ -52,7 +52,7 @@
     <string name="ui_purchasing_is_not_available_in_this_build_no_products_prices_or_p">此版本不支持购买。未配置任何产品、价格或付费权利。</string>
     <string name="ui_your_checklist_journal_and_one_offline_geometry_pack_are_availabl">您的清单、日记和一个离线几何包免费提供。  GPX 工具包含在此开发版本中。</string>
     <string name="ui_your_privacy">您的隐私</string>
-    <string name="ui_walks_imports_and_preferences_stay_on_this_device_no_accounts_ads">步行、导入和偏好设置保留在此设备上。没有帐户、广告或分析。当应用程序离开前台时，路线进度停止。仅当您选择实时步行录制时，它才会开始，并继续使用前台服务，直到暂停或完成，包括屏幕关闭。记录仅存储估计距离和活动持续时间； coordinates are discarded.仅当您选择共享时，才会打开 Android 共享表。</string>
+    <string name="ui_walks_imports_and_preferences_stay_on_this_device_no_accounts_ads">步行、导入和偏好设置保留在此设备上。没有帐户、广告或分析。当应用程序离开前台时，路线进度停止。仅当您选择实时步行录制时，它才会开始，并继续使用前台服务，直到暂停或完成，包括屏幕关闭。记录仅存储估计距离和活动持续时间；坐标会被丢弃。仅当您选择共享时，才会打开 Android 共享表。</string>
     <string name="ui_system_speech_services_may_process_voice_data_under_their_own_pri">系统语音服务可能会根据自己的隐私条款处理语音数据。卸载会清除本地数据。备份已禁用。</string>
     <string name="ui_responsible_access">负责任的访问</string>
     <string name="ui_follow_local_signs_respect_wildlife_and_livestock_leave_gates_as_">遵循当地标志，尊重野生动物和牲畜，离开发现的大门，并将垃圾带回家。规则因国家和地区而异；检查相关土地管理者的当前指导。</string>
@@ -147,7 +147,7 @@
     <string name="error_checklist">使用 1 到 120 个字符之间的项目名称。</string>
     <string name="error_plan">检查计划详情和返回时间格式。</string>
     <string name="error_photo">​​照片导入失败。选择支持的图像并重试。</string>
-    <string name="error_recording_save">无法保存录音。当存储空间可用时，您可以检查您的日记或草稿。</string>
+    <string name="error_recording_save">无法保存记录。当存储空间可用时，您可以检查您的日记或草稿。</string>
     <string name="checklist_default_0">饮用水</string>
     <string name="checklist_default_1">合适的鞋子</string>
     <string name="checklist_default_2">适合天气的衣服</string>
@@ -186,7 +186,7 @@
     <string name="cancel">取消</string>
     <string name="restore_defaults">恢复默认清单</string>
     <string name="restore_defaults_warning">将当前清单替换为默认清单？自定义项目和选中状态将被删除。</string>
-    <string name="journal_title">你行走的故事。</string>
+    <string name="journal_title">您的散步日记。</string>
     <string name="journal_description">一个私人空间，记录您去过的地方和值得保留的时刻。</string>
     <string name="journal_totals">%1$s · %2$s · %3$d 最小值</string>
     <string name="record_walk">记录一次散步</string>
@@ -232,9 +232,9 @@
     <string name="share_plan_privacy">当您打开共享选项时，仅共享此静态计划。没有实时跟踪或紧急监控。</string>
     <string name="open_share_options">打开共享选项</string>
     <string name="build_notice">TrailNest %1$s · 开发版本 · 未获批准用于 Appstore 发布</string>
-    <string name="recording_channel">步行录音</string>
+    <string name="recording_channel">步行记录</string>
     <string name="recording_active">记录你的行走</string>
-    <string name="recording_paused">步行录音暂停</string>
+    <string name="recording_paused">步行记录暂停</string>
     <string name="recording_notification">打开TrailNest 进行恢复、完成或放弃。</string>
     <string name="start_recording">开始记录</string>
     <string name="pause_recording">暂停记录</string>
@@ -244,14 +244,14 @@
     <string name="discard_recording_body">永久丢弃这条未保存的步行吗？</string>
     <string name="recording_description">在屏幕关闭或应用程序最小化时进行录制，并发出持续通知。保持位置启用。电池控制和设备 GPS 可用性可能会中断录制。距离是一个估计值；这不是安全追踪器。</string>
     <string name="recording_privacy">仅持续时间和估计距离存储在该设备上。坐标在内存中使用并被丢弃。没有上传任何内容。</string>
-    <string name="recording_interrupted">录音中断。最后一个检查点暂停；明确恢复。可能缺少自该检查点以来的时间和距离。</string>
+    <string name="recording_interrupted">记录中断。最后一个检查点暂停；明确恢复。可能缺少自该检查点以来的时间和距离。</string>
     <string name="recording_notifications">当要求查看应用程序外部的录制控件时允许通知。如果通知已禁用，请重新打开“我的步行”以暂停或完成。</string>
     <string name="recording_waiting">等待精确到 40 m 或更好的最近位置。时间继续；距离可能不完整。</string>
     <string name="recording_measurements">%1$s · %2$s 活跃时间</string>
     <string name="recording_save_hint">日记持续时间至少四舍五入为一整分钟。零距离意味着没有测量到可靠的运动；您可以稍后更正。</string>
     <string name="recording_permission">允许位置记录步行。大致位置可能太不精确而无法测量距离。</string>
     <string name="recording_location_disabled">在设备设置中启用位置。该设备需要可用的位置提供程序来进行记录。</string>
-    <string name="recording_start_failed">录音无法开始。检查位置权限和设备设置；任何现有草稿均已暂停。</string>
+    <string name="recording_start_failed">记录无法开始。检查位置权限和设备设置；任何现有草稿均已暂停。</string>
     <string name="recording_title_required">保存前输入步行标题。</string>
     <string name="discover">探索</string>
     <string name="my_walks">我的步行</string>

@@ -45,10 +45,10 @@
     "regionalAdaptationPending": false
   },
   "ui_your_next_adventure": {
-    "text": "Your next adventure",
+    "text": "下一段旅程",
     "sourceHash": "98201d395128e8ec5af72ec053ebe181945e5f9a93e7496799cc08aaef8e586b",
     "reviewed": false,
-    "provenance": "machine draft via public Google Translate web interface",
+    "provenance": "agent correction of untranslated or misleading UI wording; owner translation-review waiver",
     "generatedAt": "2026-10-23T09:13:51.417Z",
     "requiresSafetyReview": false,
     "regionalAdaptationPending": false
@@ -144,10 +144,10 @@
     "regionalAdaptationPending": false
   },
   "ui_import_gpx": {
-    "text": "Import  GPX",
+    "text": "导入 GPX",
     "sourceHash": "0fe02a0f52860bf54f51142d9e655322025efbe5a11ede9c71aeef63b455620e",
     "reviewed": false,
-    "provenance": "machine draft via public Google Translate web interface",
+    "provenance": "agent correction of English import-label fallback; owner translation-review waiver",
     "generatedAt": "2026-10-23T09:13:51.417Z",
     "requiresSafetyReview": false,
     "regionalAdaptationPending": false
@@ -252,10 +252,10 @@
     "regionalAdaptationPending": false
   },
   "ui_dark_appearance": {
-    "text": "Dark appearance",
+    "text": "  深色外观",
     "sourceHash": "10944c682074d57fcfad7ffb14030fb05beb8bba252ad216b2caec2ec82376b4",
     "reviewed": false,
-    "provenance": "machine draft via public Google Translate web interface",
+    "provenance": "agent correction of untranslated or misleading UI wording; owner translation-review waiver",
     "generatedAt": "2026-10-23T09:13:51.417Z",
     "requiresSafetyReview": false,
     "regionalAdaptationPending": false
@@ -333,10 +333,10 @@
     "regionalAdaptationPending": false
   },
   "ui_walks_imports_and_preferences_stay_on_this_device_no_accounts_ads": {
-    "text": "步行、导入和偏好设置保留在此设备上。没有帐户、广告或分析。当应用程序离开前台时，路线进度停止。仅当您选择实时步行录制时，它才会开始，并继续使用前台服务，直到暂停或完成，包括屏幕关闭。记录仅存储估计距离和活动持续时间； coordinates are discarded.仅当您选择共享时，才会打开 Android 共享表。",
+    "text": "步行、导入和偏好设置保留在此设备上。没有帐户、广告或分析。当应用程序离开前台时，路线进度停止。仅当您选择实时步行录制时，它才会开始，并继续使用前台服务，直到暂停或完成，包括屏幕关闭。记录仅存储估计距离和活动持续时间；坐标会被丢弃。仅当您选择共享时，才会打开 Android 共享表。",
     "sourceHash": "859f79ad2593df5a2d8dd212b86687d27607499a7e6a613846cc036a192f1971",
     "reviewed": false,
-    "provenance": "machine draft via public Google Translate web interface",
+    "provenance": "existing machine translation with agent correction of untranslated coordinate-disposal clause",
     "generatedAt": "2026-10-23T09:13:51.417Z",
     "requiresSafetyReview": false,
     "regionalAdaptationPending": false
@@ -1188,7 +1188,7 @@
     "regionalAdaptationPending": false
   },
   "error_recording_save": {
-    "text": "无法保存录音。当存储空间可用时，您可以检查您的日记或草稿。",
+    "text": "无法保存记录。当存储空间可用时，您可以检查您的日记或草稿。",
     "sourceHash": "fa7d0dcaa81ce09beee391af9178c78d1f5b193bed520a6a4388267c138e4b49",
     "reviewed": false,
     "provenance": "machine draft via public Google Translate web interface",
@@ -1494,10 +1494,10 @@
     "regionalAdaptationPending": false
   },
   "journal_title": {
-    "text": "你行走的故事。",
+    "text": "您的散步日记。",
     "sourceHash": "1dbc1a2ad9746872ef4ce73b204f5d449b939a5daa8081561dfc7a4ea369dd9a",
     "reviewed": false,
-    "provenance": "machine draft via public Google Translate web interface",
+    "provenance": "agent-adapted native-language journal heading; owner translation-review waiver",
     "generatedAt": "2026-10-23T09:13:51.419Z",
     "requiresSafetyReview": false,
     "regionalAdaptationPending": false
@@ -1908,10 +1908,10 @@
     "regionalAdaptationPending": false
   },
   "recording_channel": {
-    "text": "步行录音",
+    "text": "步行记录",
     "sourceHash": "5f1804dce9dd7f55853e64e624e1f456cc3bf69f4ebd83de9bc0c04af08ef109",
     "reviewed": false,
-    "provenance": "machine draft via public Google Translate web interface",
+    "provenance": "agent correction of untranslated or misleading UI wording; owner translation-review waiver",
     "generatedAt": "2026-10-23T09:13:51.419Z",
     "requiresSafetyReview": true,
     "regionalAdaptationPending": false
@@ -1926,7 +1926,7 @@
     "regionalAdaptationPending": false
   },
   "recording_paused": {
-    "text": "步行录音暂停",
+    "text": "步行记录暂停",
     "sourceHash": "dc6749116e8cdc23300e5bbdb02c08dbdd381f7918acbb3a55b20f3889cf9ac7",
     "reviewed": false,
     "provenance": "machine draft via public Google Translate web interface",
@@ -2016,7 +2016,7 @@
     "regionalAdaptationPending": false
   },
   "recording_interrupted": {
-    "text": "录音中断。最后一个检查点暂停；明确恢复。可能缺少自该检查点以来的时间和距离。",
+    "text": "记录中断。最后一个检查点暂停；明确恢复。可能缺少自该检查点以来的时间和距离。",
     "sourceHash": "8bc24a5ceb1199f9d555d0e0269a968a916180920d60af8533ed985d63c9adcc",
     "reviewed": false,
     "provenance": "machine draft via public Google Translate web interface",
@@ -2079,7 +2079,7 @@
     "regionalAdaptationPending": false
   },
   "recording_start_failed": {
-    "text": "录音无法开始。检查位置权限和设备设置；任何现有草稿均已暂停。",
+    "text": "记录无法开始。检查位置权限和设备设置；任何现有草稿均已暂停。",
     "sourceHash": "5fd05f83b0151ef9a6ae99d8c85a3819c17ae3a69eb679c03f7eb64e1737f7cc",
     "reviewed": false,
     "provenance": "machine draft via public Google Translate web interface",

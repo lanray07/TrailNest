@@ -186,7 +186,7 @@
     <string name="cancel">Anuluj</string>
     <string name="restore_defaults">Przywróć domyślną listę kontrolną</string>
     <string name="restore_defaults_warning">Zamienić aktualną listę kontrolną na domyślną? Elementy niestandardowe i zaznaczone stany zostaną usunięte.</string>
-    <string name="journal_title">Twoja chodząca historia.</string>
+    <string name="journal_title">Twój dziennik spacerów.</string>
     <string name="journal_description">Prywatna przestrzeń dla miejsc, w których byłeś i chwil, które warto zachować.</string>
     <string name="journal_totals">%1$s · %2$s · %3$d min</string>
     <string name="record_walk">Nagraj spacer</string>

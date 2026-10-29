@@ -1,0 +1,30 @@
+{
+  "locale": "de",
+  "version": "0.8.6",
+  "status": "ready_for_submission",
+  "assetStatus": "prepared_and_agent_checked; whole_app_release_not_approved",
+  "amazonStorefrontMapped": true,
+  "titleAvailability": "not_verified",
+  "currentBuildTitle": "TrailNest – Spaziergangstagebuch",
+  "shortDescription": "Bereiten Sie Spaziergänge vor, führen Sie ein privates Fototagebuch und importieren Sie eigene GPX-Routen.",
+  "longDescription": "Bereiten Sie Spaziergänge vor, führen Sie ein privates Fototagebuch und importieren Sie eigene GPX-Routen.\n\nEin privater Raum für die Orte, an denen Sie waren, und die Momente, die es wert sind, festgehalten zu werden. Bis zu acht Fotos pro Spaziergang. Kopien bleiben auf diesem Gerät privat; Standortmetadaten werden entfernt.\n\nIhre persönliche Pre-Walk-Checkliste. Passen Sie Ihre Ausrüstung an die Route, das Wetter und Ihre Bedürfnisse an.\n\nPrivate GPX-Geometrie, die auf Ihrem Gerät gespeichert ist. Grundkartenkacheln, Höhenangaben und überprüfte Wegbeschreibungen sind nicht enthalten. Importierte Routen bleiben privat und werden nicht überprüft. Überprüfen Sie den Zugang und die Bedingungen, bevor Sie losgehen.\n\nZeichnet auf, während der Bildschirm ausgeschaltet oder die App minimiert ist, mit einer dauerhaften Benachrichtigung. Standort aktiviert lassen. Batteriekontrollen und die GPS-Verfügbarkeit des Geräts können die Aufzeichnung unterbrechen. Die Entfernung ist eine Schätzung; Dies ist kein Sicherheits-Tracker. Nur die Dauer und die geschätzte Entfernung werden privat auf diesem Gerät gespeichert. Koordinaten werden im Speicher verwendet und verworfen. Es wird nichts hochgeladen.\n\nSprachausgabe und Erkennung hängen von kompatiblen installierten Diensten ab. Sprachbefehle sind derzeit nur auf Englisch verfügbar; die Touch-Bedienung bleibt immer möglich.\n\nSystemsprachdienste können Sprachdaten im Rahmen ihrer eigenen Datenschutzbestimmungen verarbeiten. Durch die Deinstallation werden lokale Daten gelöscht. Backups sind deaktiviert.\n\nDer Kauf ist in diesem Build nicht verfügbar. Es sind keine Produkte, Preise oder kostenpflichtigen Berechtigungen konfiguriert. Ihre Checkliste, Ihr Tagebuch und ein Offline-Geometriepaket sind kostenlos verfügbar. GPX-Tools sind in dieser Entwicklungsversion enthalten.",
+  "features": [
+    "Spaziergangstagebuch",
+    "Ihre persönliche Pre-Walk-Checkliste. Passen Sie Ihre Ausrüstung an die Route, das Wetter und Ihre Bedürfnisse an.",
+    "Privates Foto hinzufügen",
+    "Importieren Sie Ihr eigenes GPX",
+    "App-Sprache"
+  ],
+  "keywords": [
+    "Spaziergangstagebuch",
+    "Checkliste",
+    "GPX",
+    "Gehaufzeichnung"
+  ],
+  "releaseNotes": "Traditionelles Chinesisch, Türkisch und Indonesisch ergänzen die App auf insgesamt 22 Sprachvarianten.",
+  "metadataSource": "https://developer.amazon.com/docs/app-submission/appstore-details.html",
+  "checkedOn": "2026-10-29",
+  "provenance": "agent-authored localized metadata; owner translation-review waiver; not native-speaker certification",
+  "humanReviewed": false,
+  "productionSubmissionApproved": false
+}

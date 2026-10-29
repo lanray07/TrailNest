@@ -17,6 +17,7 @@ val Forest = Color(0xFF285C4D)
 val Ivory = Color(0xFFF7F5EE)
 val Ink = Color(0xFF26332E)
 val Sage = Color(0xFFE7EBDF)
+fun trailColorScheme(dark: Boolean) = if (dark) darkColorScheme(primary = Color(0xFFA7D3BC), background = Color(0xFF17241E), surface = Color(0xFF22332A), onSurface = Ivory) else lightColorScheme(primary = Forest, background = Ivory, surface = Color(0xFFFCFBF7), onSurface = Ink, outlineVariant = Color(0xFFDDDFD5))
 @Composable fun Heading(text: String, small: Boolean = false) { TrailText(text, Modifier.semantics { heading() }, fontFamily = FontFamily.Serif, fontSize = if (small) 26.sp else 38.sp, lineHeight = if (small) 36.sp else 48.sp, fontWeight = FontWeight.Medium) }
 @Composable fun SectionLabel(text: String) {
     val locale = androidx.compose.ui.platform.LocalConfiguration.current.locales[0]

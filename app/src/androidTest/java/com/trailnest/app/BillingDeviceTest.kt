@@ -50,7 +50,7 @@ class BillingDeviceTest {
         prepareTestWindow { compose.activity }
         val instrumentation=InstrumentationRegistry.getInstrumentation();val app=instrumentation.targetContext
         val output=File(app.getExternalFilesDir(null),"billing-checks").apply { mkdirs() }
-        val tags=listOf("en-US","en-GB","en-AU","en-IN","fr","de","it","es","es-MX","pt-BR","pt-PT","nl","pl","sv","ja","ar","hi","zh-Hans","ko")
+        val tags=AppLanguage.supportedTags(InstrumentationRegistry.getInstrumentation().targetContext)
         val cases=tags.map { Case(it,360) }+listOf("ar","de","ja","hi").map { Case(it,800) }
         var current by mutableStateOf(cases.first());var state by mutableStateOf(BillingState())
         var buyCalls=0;var restoreCalls=0

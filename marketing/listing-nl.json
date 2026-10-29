@@ -1,0 +1,30 @@
+{
+  "locale": "nl",
+  "version": "0.8.6",
+  "status": "ready_for_submission",
+  "assetStatus": "prepared_and_agent_checked; whole_app_release_not_approved",
+  "amazonStorefrontMapped": true,
+  "titleAvailability": "not_verified",
+  "currentBuildTitle": "TrailNest – Wandeldagboek",
+  "shortDescription": "Bereid wandelingen voor, houd een privéfotodagboek bij en importeer je eigen GPX-routes.",
+  "longDescription": "Bereid wandelingen voor, houd een privéfotodagboek bij en importeer je eigen GPX-routes.\n\nEen privéruimte voor de plaatsen waar je bent geweest en de momenten die de moeite waard zijn om te bewaren. Maximaal acht foto's per wandeling. Kopieën blijven privé op dit apparaat; locatiemetagegevens worden verwijderd.\n\nJouw persoonlijke checklist vóór de wandeling. Pas uw uitrusting aan de route, het weer en uw behoeften aan.\n\nPrivé GPX-geometrie opgeslagen op uw apparaat. Basiskaarttegels, hoogteverschillen en herziene richtingen zijn niet inbegrepen. Geïmporteerde routes blijven privé en worden niet beoordeeld. Controleer de toegang en voorwaarden voordat u gaat lopen.\n\nNeemt op terwijl het scherm is uitgeschakeld of de app is geminimaliseerd, met een aanhoudende melding. Houd locatie ingeschakeld. Batterijbedieningen en GPS-beschikbaarheid van het apparaat kunnen de opname onderbreken. Afstand is een schatting; dit is geen veiligheidstracker. Alleen de duur en de geschatte afstand worden privé op dit apparaat opgeslagen. Coördinaten worden in het geheugen gebruikt en weggegooid. Er wordt niets geüpload.\n\nSpraakfuncties zijn afhankelijk van compatibele geïnstalleerde diensten. Spraakopdrachten werken momenteel alleen in het Engels; aanraakbediening blijft altijd beschikbaar.\n\nSysteemspraakdiensten kunnen spraakgegevens verwerken onder hun eigen privacyvoorwaarden. Als u de installatie ongedaan maakt, worden de lokale gegevens gewist. Back-ups zijn uitgeschakeld.\n\nKopen is niet beschikbaar in deze build. Er zijn geen producten, prijzen of betaalde rechten geconfigureerd. Uw checklist, dagboek en één offline geometriepakket zijn gratis beschikbaar. GPX-tools zijn opgenomen in deze ontwikkelingsrelease.",
+  "features": [
+    "Wandeldagboek",
+    "Jouw persoonlijke checklist vóór de wandeling. Pas uw uitrusting aan de route, het weer en uw behoeften aan.",
+    "Privéfoto toevoegen",
+    "Importeer uw eigen GPX",
+    "App-taal"
+  ],
+  "keywords": [
+    "Wandeldagboek",
+    "Controlelijst",
+    "GPX",
+    "Wandelopname"
+  ],
+  "releaseNotes": "Traditioneel Chinees, Turks en Indonesisch toegevoegd: de app ondersteunt nu 22 taalvarianten.",
+  "metadataSource": "https://developer.amazon.com/docs/app-submission/appstore-details.html",
+  "checkedOn": "2026-10-29",
+  "provenance": "agent-authored localized metadata; owner translation-review waiver; not native-speaker certification",
+  "humanReviewed": false,
+  "productionSubmissionApproved": false
+}

@@ -186,7 +186,7 @@
     <string name="cancel">रद्द करें</string>
     <string name="restore_defaults">डिफ़ॉल्ट चेकलिस्ट पुनर्स्थापित करें</string>
     <string name="restore_defaults_warning">अपनी वर्तमान चेकलिस्ट को डिफ़ॉल्ट के साथ बदलें? कस्टम आइटम और जाँच की गई स्थितियाँ हटा दी जाएंगी।</string>
-    <string name="journal_title">आपकी चलती फिरती कहानी.</string>
+    <string name="journal_title">आपकी सैर की डायरी।</string>
     <string name="journal_description">उन स्थानों और यादगार पलों के लिए एक निजी स्थान जहां आप जा चुके हैं।</string>
     <string name="journal_totals">%1$s · %2$s · %3$d मिनट</string>
     <string name="record_walk">टहलना रिकॉर्ड करें</string>

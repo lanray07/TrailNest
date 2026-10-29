@@ -1,0 +1,30 @@
+{
+  "locale": "tr",
+  "version": "0.8.6",
+  "status": "ready_for_submission",
+  "assetStatus": "prepared_and_agent_checked; whole_app_release_not_approved",
+  "amazonStorefrontMapped": false,
+  "titleAvailability": "not_verified",
+  "currentBuildTitle": "TrailNest – Yürüyüş günlüğü",
+  "shortDescription": "Yürüyüşe hazırlanın, fotoğraflı özel bir günlük tutun ve kendi GPX rotalarınızı içe aktarın.",
+  "longDescription": "Yürüyüşe hazırlanın, fotoğraflı özel bir günlük tutun ve kendi GPX rotalarınızı içe aktarın.\n\nGittiğiniz yerler ve saklamaya değer anlar için özel bir alan. Yürüyüş başına en fazla sekiz fotoğraf. Kopyalar bu cihazda özel kalır; konum meta verileri kaldırılır.\n\nYürüyüş öncesi kişisel kontrol listeniz. Ekipmanınızı rotaya, hava durumuna ve ihtiyaçlarınıza uyarlayın.\n\nCihazınızda saklanan özel GPX geometrisi. Altlık harita karoları, yükseklik ve incelenmiş yön tarifleri dahil değildir. İçe aktarılan rotalar özel kalır ve incelenmemiştir. Yürüyüşten önce geçiş izinlerini ve koşulları kontrol edin.\n\nKalıcı bir bildirimle, ekran kapalıyken veya uygulama küçültülmüşken kayıt yapar. Konumu açık tutun. Pil kontrolleri ve cihazın GPS kullanılabilirliği kaydı kesintiye uğratabilir. Mesafe bir tahmindir; bu bir güvenlik takip aracı değildir. Yalnızca süre ve tahminî mesafe bu cihazda özel olarak saklanır. Koordinatlar bellekte kullanılır ve silinir. Hiçbir şey yüklenmez.\n\nSes özellikleri, yüklü uyumlu hizmetlere bağlıdır. Sesli komutlar şu anda yalnızca İngilizceyi destekler; dokunmatik kontroller her zaman kullanılabilir.\n\nSistem konuşma hizmetleri ses verilerini kendi gizlilik koşullarına göre işleyebilir. Uygulamayı kaldırmak yerel verileri siler. Yedekleme devre dışıdır.\n\nBu sürümde satın alma kullanılamıyor. Ürün, fiyat veya ücretli erişim yapılandırılmadı. Kontrol listeniz, günlüğünüz ve bir çevrimdışı geometri paketi ücretsizdir. Bu geliştirme sürümüne GPX araçları dahildir.",
+  "features": [
+    "Yürüyüş günlüğü",
+    "Yürüyüş öncesi kişisel kontrol listeniz. Ekipmanınızı rotaya, hava durumuna ve ihtiyaçlarınıza uyarlayın.",
+    "Özel fotoğraf ekle",
+    "Kendi GPX dosyanızı içe aktarın",
+    "Uygulama dili"
+  ],
+  "keywords": [
+    "Yürüyüş günlüğü",
+    "Kontrol listesi",
+    "GPX",
+    "Yürüyüş kaydı"
+  ],
+  "releaseNotes": "Geleneksel Çince, Türkçe ve Endonezce eklendi; uygulama artık 22 dil ve bölge seçeneğini destekliyor.",
+  "metadataSource": "https://developer.amazon.com/docs/app-submission/appstore-details.html",
+  "checkedOn": "2026-10-29",
+  "provenance": "agent-authored localized metadata; owner translation-review waiver; not native-speaker certification",
+  "humanReviewed": false,
+  "productionSubmissionApproved": false
+}

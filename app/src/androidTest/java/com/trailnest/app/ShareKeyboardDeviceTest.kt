@@ -32,7 +32,7 @@ import java.util.Locale
 /** Uses the real keyboard window and screen coordinates, not just Compose visibility. */
 class ShareKeyboardDeviceTest {
     @get:Rule val compose = createAndroidComposeRule<androidx.activity.ComponentActivity>()
-    private val tags = listOf("en-US","en-GB","en-AU","en-IN","fr","de","it","es","es-MX","pt-BR","pt-PT","nl","pl","sv","ja","ar","hi","zh-Hans","ko")
+    private val tags = AppLanguage.supportedTags(InstrumentationRegistry.getInstrumentation().targetContext)
     data class Case(val tag: String, val width: Int, val scale: Float)
 
     @Test fun actionsAreTouchableAboveOpenKeyboard() {
@@ -48,7 +48,8 @@ class ShareKeyboardDeviceTest {
         val app = instrumentation.targetContext
         val output = File(app.getExternalFilesDir(null),"share-keyboard-checks").apply { mkdirs() }
         val smoke = InstrumentationRegistry.getArguments().getString("layoutSmoke") == "true"
-        val languages = if(smoke) listOf("ar","de") else tags
+        val languages = InstrumentationRegistry.getArguments().getString("shareLocales")?.split(',') ?: if(smoke) listOf("ar","de") else tags
+        Assert.assertTrue("Only configured locales may be tested", languages.isNotEmpty() && languages.all { it in tags })
         val results = JSONArray()
         val failures = mutableListOf<String>()
         var current by mutableStateOf(Case(languages.first(),360,2f))

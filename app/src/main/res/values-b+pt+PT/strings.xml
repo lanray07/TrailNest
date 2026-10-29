@@ -186,7 +186,7 @@
     <string name="cancel">Cancelar</string>
     <string name="restore_defaults">Restaurar lista de verificação predefinida</string>
     <string name="restore_defaults_warning">Substituir a sua lista de verificação atual pelos padrões? Os itens personalizados e os estados verificados serão removidos.</string>
-    <string name="journal_title">A sua história ambulante.</string>
+    <string name="journal_title">O seu diário de passeios.</string>
     <string name="journal_description">Um espaço privado para os locais onde esteve e os momentos que vale a pena guardar.</string>
     <string name="journal_totals">%1$s · %2$s · %3$d min</string>
     <string name="record_walk">Grave uma caminhada</string>

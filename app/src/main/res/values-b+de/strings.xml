@@ -186,7 +186,7 @@
     <string name="cancel">Abbrechen</string>
     <string name="restore_defaults">Standard-Checkliste wiederherstellen</string>
     <string name="restore_defaults_warning">Ihre aktuelle Checkliste durch die Standardwerte ersetzen? Benutzerdefinierte Elemente und aktivierte Status werden entfernt.</string>
-    <string name="journal_title">Deine Wandergeschichte.</string>
+    <string name="journal_title">Ihr Wandertagebuch.</string>
     <string name="journal_description">Ein privater Raum für die Orte, an denen Sie waren, und die Momente, die es wert sind, festgehalten zu werden.</string>
     <string name="journal_totals">%1$s · %2$s · %3$d min</string>
     <string name="record_walk">Zeichnen Sie einen Spaziergang auf</string>

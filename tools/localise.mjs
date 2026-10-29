@@ -66,6 +66,16 @@ for(const locale of registry.locales){
 }
 for(const {folder,xml}of generated){await fs.mkdir(folder,{recursive:true});await fs.writeFile(path.join(folder,'strings.xml'),xml);}
 if(generated.length){
+  // Migrate only our generated former Indonesian output. Leaving it alongside
+  // values-in can retain a different bundle for one of the id/in runtime aliases.
+  const oldIndonesian=path.join(root,'app/src/main/res/values-b+id/strings.xml');
+  try {
+    const content=await fs.readFile(oldIndonesian,'utf8');
+    if(content.includes('Generated translations. Provenance and review history')){
+      await fs.unlink(oldIndonesian);
+      try{await fs.rmdir(path.dirname(oldIndonesian));}catch(error){if(!['ENOTEMPTY','ENOENT'].includes(error.code))throw error;}
+    }
+  }catch(error){if(error.code!=='ENOENT')throw error;}
   const xml='<locale-config xmlns:android="http://schemas.android.com/apk/res/android">\n'+registry.locales.map(locale=>`    <locale android:name="${locale.tag}" />`).join('\n')+'\n</locale-config>\n';
   await fs.writeFile(path.join(root,'app/src/main/res/xml/locales_config.xml'),xml);
 }

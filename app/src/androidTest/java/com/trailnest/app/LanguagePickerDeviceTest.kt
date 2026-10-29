@@ -15,7 +15,8 @@ class LanguagePickerDeviceTest {
         prepareTestWindow { compose.activity }
         val original = AppLanguage.selectedTag()
         val tags = AppLanguage.supportedTags(compose.activity)
-        Assert.assertEquals(19, tags.distinct().size)
+        Assert.assertEquals(22, tags.distinct().size)
+        Assert.assertTrue(tags.containsAll(listOf("zh-Hant", "tr", "id")))
         try {
             if (compose.onAllNodesWithTag("navigation-toggle").fetchSemanticsNodes().isNotEmpty())
                 compose.onNodeWithTag("navigation-toggle").performClick()

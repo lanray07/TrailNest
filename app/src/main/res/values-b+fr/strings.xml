@@ -186,7 +186,7 @@
     <string name="cancel">Annuler</string>
     <string name="restore_defaults">Restaurer la liste de contrôle par défaut</string>
     <string name="restore_defaults_warning">Remplacer votre liste de contrôle actuelle par les valeurs par défaut ? Les éléments personnalisés et les états cochés seront supprimés.</string>
-    <string name="journal_title">Votre histoire de marche.</string>
+    <string name="journal_title">Votre journal de balades.</string>
     <string name="journal_description">Un espace privé pour les lieux que vous avez visités et les moments à conserver.</string>
     <string name="journal_totals">%1$s · %2$s · %3$d min</string>
     <string name="record_walk">Enregistrer une promenade</string>

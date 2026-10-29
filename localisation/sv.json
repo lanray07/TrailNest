@@ -621,10 +621,10 @@
     "regionalAdaptationPending": false
   },
   "filter_3": {
-    "text": "Riverside",
+    "text": "Flodstrand",
     "sourceHash": "9d92eba99534f1e32b4e09dc769c65628121fbe5e046e723105d15737cc7501c",
     "reviewed": false,
-    "provenance": "machine draft via public Google Translate web interface",
+    "provenance": "agent correction of untranslated or misleading UI wording; owner translation-review waiver",
     "generatedAt": "2026-10-23T09:13:41.177Z",
     "requiresSafetyReview": false,
     "regionalAdaptationPending": false
@@ -1494,10 +1494,10 @@
     "regionalAdaptationPending": false
   },
   "journal_title": {
-    "text": "Din vandringsberättelse.",
+    "text": "Din promenaddagbok.",
     "sourceHash": "1dbc1a2ad9746872ef4ce73b204f5d449b939a5daa8081561dfc7a4ea369dd9a",
     "reviewed": false,
-    "provenance": "machine draft via public Google Translate web interface",
+    "provenance": "agent-adapted native-language journal heading; owner translation-review waiver",
     "generatedAt": "2026-10-23T09:13:41.179Z",
     "requiresSafetyReview": false,
     "regionalAdaptationPending": false

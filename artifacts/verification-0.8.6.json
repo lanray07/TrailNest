@@ -1,0 +1,115 @@
+{
+  "version": "0.8.6",
+  "versionCode": 14,
+  "checkedOn": "2026-10-29",
+  "scope": "Traditional Chinese, Turkish and Indonesian; localized app/store assets. Isolated preview device work only.",
+  "builds": {
+    "debug": "passed",
+    "release": "passed_unsigned",
+    "lat": "passed_local_only",
+    "translationPreview": "passed",
+    "translationPreviewAndroidTest": "passed",
+    "finalGradleSeconds": 195
+  },
+  "unitTests": {
+    "passed": 64,
+    "failed": 0,
+    "skipped": 0
+  },
+  "toolingTests": {
+    "passed": 19,
+    "failed": 0
+  },
+  "backendTests": {
+    "passed": 18,
+    "failed": 0
+  },
+  "website": {
+    "testsPassed": 5,
+    "buildPassed": true
+  },
+  "lint": {
+    "debug": {
+      "errors": 0,
+      "warnings": 48
+    },
+    "lat": {
+      "errors": 0,
+      "warnings": 45
+    }
+  },
+  "localisation": {
+    "tags": [
+      "en-US",
+      "en-GB",
+      "en-AU",
+      "en-IN",
+      "fr",
+      "de",
+      "it",
+      "es",
+      "es-MX",
+      "pt-BR",
+      "pt-PT",
+      "nl",
+      "pl",
+      "sv",
+      "ja",
+      "ar",
+      "hi",
+      "zh-Hans",
+      "ko",
+      "zh-Hant",
+      "tr",
+      "id"
+    ],
+    "stringsPerLocale": 261,
+    "pluralResourcesPerLocale": 4,
+    "policyAccepted": 22,
+    "humanApproved": 0,
+    "policy": "existing owner translation-review waiver",
+    "resourceRegression": "Canonical Indonesian id uses generated values-in on legacy Android. Failing qualifier regression and installed-string repro passed after fix."
+  },
+  "marketing": {
+    "listingsChecked": 22,
+    "registryMappedStorefronts": 13,
+    "supplementaryCopySets": 9,
+    "nativeScreenshots": 176,
+    "scenesPerLocale": 8,
+    "dimensions": "1920x1200",
+    "allInstalledStringsVerified": true,
+    "textOverflows": 0,
+    "agentVisualReview": "All 22 final contact sheets; Spanish progress also checked at original resolution. No human/native-speaker review claimed.",
+    "manifest": "marketing/screenshots.json",
+    "gallery": "marketing/README.md",
+    "auditReady": true,
+    "amazonUploaded": false,
+    "provenance": "Production composables with localized illustrative data in com.trailnest.app.draft; original imaginary landscape imported through PhotoStore; no real trip, purchase, licensed map or reviewed public route."
+  },
+  "device": {
+    "model": "KFTRWI",
+    "api": 28,
+    "targetPackage": "com.trailnest.app.draft",
+    "nativeCaptureTestPassed": true,
+    "nativeCaptureSeconds": 198.225,
+    "pipelinePassed": true,
+    "instrumentedTestsPassed": 8,
+    "layoutConfigurationsPassed": 88,
+    "billingConfigurationsPassed": 26,
+    "billingStatesPerConfiguration": 7,
+    "newLanguageKeyboardConfigurationsPassed": 12,
+    "languagePickerAndNotificationsPassed": true,
+    "evidence": "artifacts/localisation-device-0.8.6.json",
+    "normalAmazonAppVersion": "0.8.5-lat/code13 unchanged"
+  },
+  "test1Changed": false,
+  "normalAmazonPackageChanged": false,
+  "productionSubmissionApproved": false,
+  "limits": [
+    "Agent translation/visual review under owner waiver; no native-speaker certification.",
+    "Speech depends on installed compatible services; commands remain English-only.",
+    "API33+ and broader physical-device acceptance unverified.",
+    "Assets prepared locally; no Amazon upload.",
+    "Eight separate commercial release blockers remain; see release-gate.json."
+  ]
+}

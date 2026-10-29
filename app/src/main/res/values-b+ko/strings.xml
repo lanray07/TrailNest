@@ -186,7 +186,7 @@
     <string name="cancel">취소</string>
     <string name="restore_defaults">기본 체크리스트 복원</string>
     <string name="restore_defaults_warning">현재 체크리스트를 기본값으로 바꾸시겠습니까? 사용자 정의 항목과 선택된 상태가 제거됩니다.</string>
-    <string name="journal_title">당신의 걷는 이야기.</string>
+    <string name="journal_title">나만의 산책 일기.</string>
     <string name="journal_description">가본 장소와 간직할 가치가 있는 순간을 위한 개인적인 공간입니다.</string>
     <string name="journal_totals">%1$s · %2$s · %3$d 분</string>
     <string name="record_walk">산책 기록하기</string>
