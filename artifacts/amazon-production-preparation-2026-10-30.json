@@ -40,18 +40,58 @@
       "18+"
     ],
     "contentRatingQuestionnaire": "Complete",
-    "privacyDataQuestionnaire": "Not started; final release scope pending",
+    "privacyDataQuestionnaire": "Saved for review",
     "privacyPolicyUrlSaved": true,
-    "privacyPolicyUrlReloadVerified": true
+    "privacyPolicyUrlReloadVerified": true,
+    "testingInstructions": "1185 characters prepared and entered; review page does not retain them after reload, so re-enter at final submission"
   },
   "remaining": [
     "Existing production keystore local path and alias; password environment variables",
     "Owner selection of current free release scope or production subscriptions",
-    "Privacy questionnaire for final production configuration",
-    "Verify public GitHub Pages URL and save in Console",
     "Upload signed APK and verify compatible target devices",
-    "Owner export certification at action time"
+    "Owner export certification at action time",
+    "Resolve remaining release-evidence requirements for the chosen product scope; full-product release gate remains false"
   ],
   "test1Changed": false,
-  "productionSubmitted": false
+  "productionSubmitted": false,
+  "freshChecks": {
+    "toolingTests": {
+      "passed": 19,
+      "failed": 0
+    },
+    "backendTests": {
+      "passed": 18,
+      "failed": 0
+    },
+    "websiteTests": {
+      "passed": 5,
+      "failed": 0
+    },
+    "localisation": {
+      "locales": 22,
+      "stringsPerLocale": 261,
+      "pluralsPerLocale": 4,
+      "acceptedByOwnerWaiver": 22,
+      "humanApproved": 0
+    },
+    "editorial": {
+      "validated": true,
+      "publishedRoutes": 0
+    }
+  },
+  "privacyDisclosures": {
+    "scope": "Current production candidate 0.8.6; purchasing disabled",
+    "collectedForAppFunctionality": [
+      "Fitness info",
+      "Approximate location",
+      "Precise location",
+      "Photos",
+      "Voice or sound recordings",
+      "Other user-generated content",
+      "Files and doc"
+    ],
+    "thirdPartyTransfer": false,
+    "rationale": "Local app processing is disclosed conservatively. Optional installed speech recognition is service-provider processing; explicit Sharesheet/export is user initiated. Amazon privacy-label definitions exclude these from third-party transfers. No analytics or advertising. Production billing is disabled and the SDK listener is not registered.",
+    "source": "https://developer.amazon.com/docs/app-submission/appstore-privacy-labels.html"
+  }
 }
