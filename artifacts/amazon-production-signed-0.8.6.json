@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-30",
+  "version": "0.8.6",
+  "versionCode": 14,
+  "package": "com.trailnest.app",
+  "artifact": "artifacts/trailnest-0.8.6-production.apk",
+  "bytes": 16248479,
+  "sha256": "7a8439bacedd9ca475b903684b198dabe5788c5f3c3344584de431395f69fed9",
+  "signature": {
+    "verified": true,
+    "v2": true,
+    "v3": true,
+    "certificateSha256": "26f2271f2b835489924dc3fe055d74f5435a350a22f6d5c07bc5d2f1a298b000",
+    "alias": "trailnest-production",
+    "keySize": 3072
+  },
+  "badging": [
+    "package: name='com.trailnest.app' versionCode='14' versionName='0.8.6' platformBuildVersionName='15' platformBuildVersionCode='35' compileSdkVersion='35' compileSdkVersionCodename='15'",
+    "sdkVersion:'26'",
+    "targetSdkVersion:'35'",
+    "native-code: 'arm64-v8a' 'armeabi-v7a' 'x86' 'x86_64'"
+  ],
+  "configuration": {
+    "debug": false,
+    "latBuild": false,
+    "billingEnabled": false,
+    "billingEnvironment": "production",
+    "verificationEndpoint": ""
+  },
+  "buildChecks": {
+    "gradle": "BUILD SUCCESSFUL",
+    "jvmTests": 64,
+    "lintErrors": 0,
+    "lintWarnings": 46,
+    "cachedOutputsReused": true
+  },
+  "keyProtection": {
+    "outsideGit": true,
+    "acl": "Current Windows user and SYSTEM only",
+    "password": "Current-user Windows DPAPI; not printed or committed",
+    "backup": "Local encrypted keystore plus DPAPI copy; owner must retain an independent recoverable backup"
+  },
+  "amazonUpload": "Processed in production draft; app-release.apk, version code 14",
+  "productionSubmitted": false,
+  "test1Changed": false,
+  "targetedDevices": [
+    "Fire HD 10 (2021) KFTRWI"
+  ],
+  "supportWebsite": "https://lanray07.github.io/TrailNest/support/"
+}

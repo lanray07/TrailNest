@@ -1,0 +1,11 @@
+{
+  "alias": "trailnest-production",
+  "certificateSha256": "26f2271f2b835489924dc3fe055d74f5435a350a22f6d5c07bc5d2f1a298b000",
+  "algorithm": "RSA",
+  "keySize": 3072,
+  "certificateExpires": "2054-03-17",
+  "privateStorageRelativeToUserProfile": ".codex/signing/trailnest-production",
+  "passwordProtection": "Windows DPAPI, current user",
+  "ownerAuthorizedCreation": "2026-10-30",
+  "containsPrivateKeyOrPassword": false
+}

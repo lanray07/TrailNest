@@ -7,5 +7,15 @@
     "manifest": "marketing/screenshots.json",
     "scope": "176 localized native screenshots only; no production submission approval",
     "humanReviewed": false
+  },
+  "signingConfigured": true,
+  "productionSigning": {
+    "identity": "config/production-signing.json",
+    "artifactRecord": "artifacts/amazon-production-signed-0.8.6.json",
+    "verifiedSchemes": [
+      "v2",
+      "v3"
+    ],
+    "date": "2026-10-30"
   }
 }

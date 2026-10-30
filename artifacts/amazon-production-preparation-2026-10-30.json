@@ -6,7 +6,8 @@
     "file": "app/build/outputs/apk/release/app-release-unsigned.apk",
     "bytes": 16236191,
     "sha256": "bf0b2c31f0769e23ff95f40e01932fb5b2bcb5df0ed97fec62c915a5bd9a1810",
-    "signed": false
+    "signed": false,
+    "historicalOnly": true
   },
   "jvmTests": {
     "tests": 64,
@@ -43,14 +44,16 @@
     "privacyDataQuestionnaire": "Saved for review",
     "privacyPolicyUrlSaved": true,
     "privacyPolicyUrlReloadVerified": true,
-    "testingInstructions": "1185 characters prepared and entered; review page does not retain them after reload, so re-enter at final submission"
+    "testingInstructions": "1185 characters prepared and entered; review page does not retain them after reload, so re-enter at final submission",
+    "signedApkUploaded": true,
+    "targetedDevices": [
+      "Fire HD 10 (2021) KFTRWI"
+    ]
   },
   "remaining": [
-    "Existing production keystore local path and alias; password environment variables",
     "Owner selection of current free release scope or production subscriptions",
-    "Upload signed APK and verify compatible target devices",
     "Owner export certification at action time",
-    "Resolve remaining release-evidence requirements for the chosen product scope; full-product release gate remains false"
+    "Full-product release gate remains false; no claim of wider device/human accessibility/title/legal acceptance"
   ],
   "test1Changed": false,
   "productionSubmitted": false,
@@ -93,5 +96,6 @@
     "thirdPartyTransfer": false,
     "rationale": "Local app processing is disclosed conservatively. Optional installed speech recognition is service-provider processing; explicit Sharesheet/export is user initiated. Amazon privacy-label definitions exclude these from third-party transfers. No analytics or advertising. Production billing is disabled and the SDK listener is not registered.",
     "source": "https://developer.amazon.com/docs/app-submission/appstore-privacy-labels.html"
-  }
+  },
+  "signedApkRecord": "artifacts/amazon-production-signed-0.8.6.json"
 }
