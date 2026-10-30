@@ -51,9 +51,11 @@
     ]
   },
   "remaining": [
-    "Owner selection of current free release scope or production subscriptions",
-    "Owner export certification at action time",
-    "Full-product release gate remains false; no claim of wider device/human accessibility/title/legal acceptance"
+    "Configure and accept production billing on a commercial-eligible host",
+    "Implement and validate licensed offline maps",
+    "Import licensed route drafts and complete human editorial/access review",
+    "Complete device/accessibility/privacy/title acceptance",
+    "Refresh paid-build APK, listings, screenshots and privacy disclosures; rerun release gates"
   ],
   "test1Changed": false,
   "productionSubmitted": false,
@@ -97,5 +99,7 @@
     "rationale": "Local app processing is disclosed conservatively. Optional installed speech recognition is service-provider processing; explicit Sharesheet/export is user initiated. Amazon privacy-label definitions exclude these from third-party transfers. No analytics or advertising. Production billing is disabled and the SDK listener is not registered.",
     "source": "https://developer.amazon.com/docs/app-submission/appstore-privacy-labels.html"
   },
-  "signedApkRecord": "artifacts/amazon-production-signed-0.8.6.json"
+  "signedApkRecord": "artifacts/amazon-production-signed-0.8.6.json",
+  "releaseScope": "paid_full_required",
+  "freeCandidateApprovedForSubmission": false
 }

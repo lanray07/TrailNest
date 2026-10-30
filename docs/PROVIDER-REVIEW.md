@@ -1,5 +1,13 @@
 # Provider and distribution decisions
 
+## Free-provider follow-up — 30 October 2026
+
+The owner requires the paid/full product before submission and requested free providers. OpenFreeMap is now a viable hosted-map candidate: its current terms explicitly permit bounded offline downloads and its FAQ permits commercial use. This is a newly verified provider option, not an implemented or device-tested renderer. Retain the attribution and download/concurrency limits in the [free-provider assessment](FREE-PROVIDERS-2026-10-30.md). OSM and official California State Parks data are possible licensed route sources, but neither replaces the required route editorial/access review. No public tile service has been enabled.
+
+The existing Vercel team is on Hobby, which is restricted to non-commercial use. Leave its sandbox/LAT services unchanged. Cloudflare Workers Free is a candidate for the receipt-only production service, subject to account, rate-limit and CPU acceptance; no production service has been deployed.
+
+## Historical review — 23 October 2026
+
 Checked 23 October 2026. No commercial map or route-content rights are available; confirmed by the user during this build. No provider is enabled and no network tiles are requested or downloaded.
 
 ## MapLibre Native candidate
