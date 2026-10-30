@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-29T20:29:56.478Z",
-  "registryCheckedOn": "2026-10-29",
+  "generatedAt": "2026-10-30T14:08:08.186Z",
+  "registryCheckedOn": "2026-10-30",
   "resourceStrings": 261,
   "resourcePlurals": 4,
   "humanReviewComplete": false,
@@ -289,7 +289,7 @@
     },
     {
       "tag": "en-GB",
-      "amazonListing": false,
+      "amazonListing": true,
       "missing": [],
       "invalid": [],
       "needsReview": [
@@ -2214,7 +2214,7 @@
     },
     {
       "tag": "es-MX",
-      "amazonListing": false,
+      "amazonListing": true,
       "missing": [],
       "invalid": [],
       "needsReview": [

@@ -2,6 +2,12 @@
 
 Build date: 23 October 2026. Commands run in `D:\App Projects\TrailNest` using JDK 17, Android SDK 35, AGP 8.11.1 and Gradle 8.13.
 
+## Amazon draft upload — 30 October 2026
+
+The authenticated Console now contains all **15 offered localized descriptions** and **88 localized tablet screenshots across all 11 offered image locales**. After reloading, title, short/long description and feature-bullet values matched the local copy exactly for all 15 locales. All 11 image locales had eight screenshots; non-U.S. sets contained no inherited U.S. image references, while the U.S. set remained unchanged. These current Console options supersede the earlier documentation-derived 13-locale mapping. All 22 app-language source asset sets remain in the repository.
+
+Category and the 13 supported language labels offered by the app-file form are saved and recognized in final review. **Submit App is disabled:** no production APK is attached, targeted devices require that file, target audience/content-rating fields are incomplete, no privacy-policy URL is set, and the export-compliance certification is unchecked. No legal certification or production submission was performed. Normal release signing and production billing remain unresolved in the separate repository release gate. Test 1 and Test 2 were not edited. [Sanitized upload evidence](../artifacts/amazon-localized-draft-upload-2026-10-30.json).
+
 ## Android 0.8.6 — 22 locales and localized store assets
 
 Traditional Chinese, Turkish and Indonesian are active alongside the previous 19 locales. Each of the 22 bundles has 261 strings and four plural resources. Translation checks accept all 22 under the existing owner waiver, with zero human approvals. Indonesian's legacy Android resource alias failed a focused regression and installed-string repro before the `values-in` fix, then passed afterward.

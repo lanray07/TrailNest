@@ -2,6 +2,10 @@
 
 **Commercial submission remains blocked.** This is a repository and existing-evidence review for Android 0.8.6/code 14, not a new inspection or approval of the live Developer Console. Test 1 was not modified. Only the isolated preview package was used for new localization/layout checks and captures. No Amazon test, purchase, reset, account change, secret transfer, production deployment or submission was performed.
 
+## Console follow-up — 30 October 2026
+
+All 15 description locales and all 11 image/video locales offered by the live Console are saved in the unsubmitted production draft (88 screenshots). Reload verification passed. The app category and offered language-support labels are now recorded. The final Submit App control remains disabled: a production APK, device targeting, target audience/content rating, privacy-policy URL and export certification are still required. No LAT binary was promoted and no legal declaration was invented. Test 1 is unchanged. [Exact upload coverage and blockers](../artifacts/amazon-localized-draft-upload-2026-10-30.json).
+
 ## Completed evidence
 
 - Amazon-installed Test 2: purchase, signed verification, fulfillment, four accelerated renewals and RVS-side expiry. After reconnecting the Kindle, online Restore, cold offline restart, offline Restore and reconnection confirmed Premium remained off. The original expiry moment occurred while USB was disconnected; live revocation latency is not established. [Purchase/renewal evidence](../artifacts/amazon-lat-test2-checkout-2026-10-27.json), [final device checks](../artifacts/amazon-lat-test2-expiry-device-2026-10-29.json).

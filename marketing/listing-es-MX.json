@@ -3,7 +3,7 @@
   "version": "0.8.6",
   "status": "ready_for_submission",
   "assetStatus": "prepared_and_agent_checked; whole_app_release_not_approved",
-  "amazonStorefrontMapped": false,
+  "amazonStorefrontMapped": true,
   "titleAvailability": "not_verified",
   "currentBuildTitle": "TrailNest – Diario de caminata",
   "shortDescription": "Prepara tus caminatas, guarda un diario privado con fotos e importa tus propias rutas GPX.",

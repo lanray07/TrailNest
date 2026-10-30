@@ -1,0 +1,185 @@
+{
+  "date": "2026-10-30",
+  "app": "TrailNest",
+  "sourceVersion": "0.8.6",
+  "productionReleaseId": "amzn1.devportal.apprelease.88ac065d7c6240948b5ee9e636e5e8c5",
+  "status": "draft_saved_submission_blocked",
+  "descriptions": [
+    {
+      "locale": "en-US",
+      "fieldsMatched": true
+    },
+    {
+      "locale": "de",
+      "fieldsMatched": true
+    },
+    {
+      "locale": "en-AU",
+      "fieldsMatched": true
+    },
+    {
+      "locale": "en-GB",
+      "fieldsMatched": true
+    },
+    {
+      "locale": "en-IN",
+      "fieldsMatched": true
+    },
+    {
+      "locale": "es",
+      "fieldsMatched": true
+    },
+    {
+      "locale": "es-MX",
+      "fieldsMatched": true
+    },
+    {
+      "locale": "fr",
+      "fieldsMatched": true
+    },
+    {
+      "locale": "it",
+      "fieldsMatched": true
+    },
+    {
+      "locale": "ja",
+      "fieldsMatched": true
+    },
+    {
+      "locale": "nl",
+      "fieldsMatched": true
+    },
+    {
+      "locale": "pl",
+      "fieldsMatched": true
+    },
+    {
+      "locale": "pt-BR",
+      "fieldsMatched": true
+    },
+    {
+      "locale": "pt-PT",
+      "fieldsMatched": true
+    },
+    {
+      "locale": "sv",
+      "fieldsMatched": true
+    }
+  ],
+  "images": [
+    {
+      "locale": "en-US",
+      "screenshotCount": 8,
+      "localizedSet": true
+    },
+    {
+      "locale": "de",
+      "screenshotCount": 8,
+      "localizedSet": true
+    },
+    {
+      "locale": "en-AU",
+      "screenshotCount": 8,
+      "localizedSet": true
+    },
+    {
+      "locale": "en-GB",
+      "screenshotCount": 8,
+      "localizedSet": true
+    },
+    {
+      "locale": "en-IN",
+      "screenshotCount": 8,
+      "localizedSet": true
+    },
+    {
+      "locale": "es",
+      "screenshotCount": 8,
+      "localizedSet": true
+    },
+    {
+      "locale": "es-MX",
+      "screenshotCount": 8,
+      "localizedSet": true
+    },
+    {
+      "locale": "fr",
+      "screenshotCount": 8,
+      "localizedSet": true
+    },
+    {
+      "locale": "it",
+      "screenshotCount": 8,
+      "localizedSet": true
+    },
+    {
+      "locale": "ja",
+      "screenshotCount": 8,
+      "localizedSet": true
+    },
+    {
+      "locale": "pt-BR",
+      "screenshotCount": 8,
+      "localizedSet": true
+    }
+  ],
+  "uploadedScreenshotCount": 88,
+  "verification": "Reloaded Console and compared all 15 title, short/long-description and feature fields to local copy; verified 8 non-inherited screenshots per offered image locale.",
+  "descriptionLocalesUnavailable": [
+    "ar",
+    "hi",
+    "zh-Hans",
+    "ko",
+    "zh-Hant",
+    "tr",
+    "id"
+  ],
+  "imageLocalesUnavailable": [
+    "pt-PT",
+    "nl",
+    "pl",
+    "sv",
+    "ar",
+    "hi",
+    "zh-Hans",
+    "ko",
+    "zh-Hant",
+    "tr",
+    "id"
+  ],
+  "category": "Health & Fitness",
+  "languageSupportControlsSelected": [
+    "Arabic",
+    "Chinese",
+    "Dutch",
+    "English",
+    "French",
+    "German",
+    "Hindi",
+    "Italian",
+    "Japanese",
+    "Korean",
+    "Polish",
+    "Portuguese",
+    "Spanish"
+  ],
+  "consoleSubmissionBlockers": [
+    "No app file uploaded",
+    "Targeted devices require app file",
+    "No target audience selected",
+    "Content rating: 13 fields unfilled",
+    "Privacy policy URL missing",
+    "Export-compliance certification not accepted"
+  ],
+  "productionReadiness": "Existing release gate remains blocked; local 0.8.6 normal release is unsigned and production billing is disabled.",
+  "test1Changed": false,
+  "productionSubmitted": false,
+  "appFilesUploaded": false,
+  "proof": [
+    "artifacts/reports/amazon-draft-upload-2026-10-30/listings-saved.png",
+    "artifacts/reports/amazon-draft-upload-2026-10-30/submission-blockers.png",
+    "artifacts/reports/amazon-draft-upload-2026-10-30/review-summary.png"
+  ],
+  "languageSupportVerifiedOnFinalReview": true,
+  "submitButtonEnabled": false
+}

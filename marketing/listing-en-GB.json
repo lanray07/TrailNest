@@ -3,7 +3,7 @@
   "version": "0.8.6",
   "status": "ready_for_submission",
   "assetStatus": "prepared_and_agent_checked; whole_app_release_not_approved",
-  "amazonStorefrontMapped": false,
+  "amazonStorefrontMapped": true,
   "titleAvailability": "not_verified",
   "currentBuildTitle": "TrailNest – Walk journal",
   "shortDescription": "Prepare a walk, keep a private journal with photos, and bring your own GPX route.",

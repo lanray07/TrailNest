@@ -26,7 +26,7 @@ Website: `cd website`, `npm run dev`, then open `http://127.0.0.1:4173`. No depe
 
 Screen-reader labels identify repeated action targets; settings controls expose roles/states, headings and pages have navigation semantics, and the compact menu supports keyboard focus and dismissal. The locale matrix also audits accessibility labels, traversal and touch targets. See `docs/ACCESSIBILITY.md` for scope and human acceptance limits.
 
-Localized Amazon listing copy and eight native screenshots per locale are prepared for all 22 app locales, including Traditional Chinese, Turkish and Indonesian. See [the asset gallery](marketing/README.md). The 13 registry storefront mappings have complete copy; remaining language assets are supplemental pending console mapping review. Assets use localized example data in the isolated preview package and have agent visual review under the existing translation waiver; no native-speaker certification or Amazon upload is claimed.
+Localized Amazon listing copy and eight native screenshots per locale are prepared for all 22 app locales, including Traditional Chinese, Turkish and Indonesian. See [the asset gallery](marketing/README.md). All 15 description locales and 11 image locales currently offered by the Console have been saved to the unsubmitted production draft: 15 descriptions and 88 screenshots, verified after reload on 30 October 2026. Other app-language asset sets remain local because the Console does not offer matching fields. Assets use localized example data in the isolated preview package and have agent visual review under the existing translation waiver; no native-speaker certification or production submission is claimed.
 
 ## Missing or blocked
 

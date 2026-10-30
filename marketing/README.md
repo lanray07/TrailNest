@@ -1,8 +1,8 @@
 # TrailNest 0.8.6 localized store assets
 
-Native tablet PNG captures of the real production UI components in the isolated preview app, with localized example data. The photo is the app’s original imaginary landscape used to demonstrate private photo handling. No real purchase, recorded trip, licensed basemap or reviewed public route is implied. No Amazon upload or whole-app release approval is claimed.
+Native tablet PNG captures of the real production UI components in the isolated preview app, with localized example data. The photo is the app’s original imaginary landscape used to demonstrate private photo handling. No real purchase, recorded trip, licensed basemap or reviewed public route is implied. No whole-app release approval is claimed. On 30 October 2026, all Console-offered description and image localizations were saved to the unsubmitted production draft; see [verified upload evidence](../artifacts/amazon-localized-draft-upload-2026-10-30.json).
 
-All 22 app locales have listing copy and eight screenshots. Only locales marked amazonStorefrontMapped in their listing are mapped to the 13 storefront localizations in the current registry; other copies are supplemental app-language assets. Human translation approval is not claimed under the existing owner waiver.
+All 22 app locales have listing copy and eight screenshots. The live Console offers 15 description locales and 11 image/video locales. Those 15 copy sets and 88 screenshots (eight per image locale) were uploaded and verified after reload. Registry flags distinguish the two sets; remaining app-language assets are retained locally. Human translation approval is not claimed under the existing owner waiver.
 
 | Locale | Copy | Native screenshots |
 | --- | --- | --- |

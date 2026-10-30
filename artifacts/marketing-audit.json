@@ -8,6 +8,11 @@
       "errors": []
     },
     {
+      "locale": "en-GB",
+      "ready": true,
+      "errors": []
+    },
+    {
       "locale": "en-AU",
       "ready": true,
       "errors": []
@@ -34,6 +39,11 @@
     },
     {
       "locale": "es",
+      "ready": true,
+      "errors": []
+    },
+    {
+      "locale": "es-MX",
       "ready": true,
       "errors": []
     },

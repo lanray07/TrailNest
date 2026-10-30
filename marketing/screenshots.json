@@ -3721,7 +3721,7 @@
       "reviewedOn": "2026-10-29"
     }
   ],
-  "note": "Eight native PNGs per app locale. Localized demonstration data and original illustrative photo; no real GPS, purchase, licensed-map or public-route claim. Assets prepared locally, not uploaded to Amazon.",
+  "note": "Eight reviewed native PNGs per app locale. Localized demonstration data and original illustrative photo; no real GPS, purchase, licensed-map or public-route claim. On 30 October 2026, 88 screenshots across the 11 Console-offered image locales were saved to the production draft; no production submission.",
   "requirements": [
     {
       "id": "journal",
@@ -3771,5 +3771,12 @@
     "scope": "All 22 eight-scene contact sheets; original Spanish progress PNG checked at full resolution. Composition, localized UI, RTL, labels, illustrative data and privacy reviewed. Automated capture found zero text overflow.",
     "humanReviewed": false,
     "productionSubmissionApproved": false
+  },
+  "amazonDraftUpload": {
+    "date": "2026-10-30",
+    "imageLocales": 11,
+    "screenshots": 88,
+    "evidence": "artifacts/amazon-localized-draft-upload-2026-10-30.json",
+    "productionSubmitted": false
   }
 }
