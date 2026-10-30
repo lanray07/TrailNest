@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-30",
+  "version": "0.8.6",
+  "versionCode": 14,
+  "unsignedApk": {
+    "file": "app/build/outputs/apk/release/app-release-unsigned.apk",
+    "bytes": 16236191,
+    "sha256": "bf0b2c31f0769e23ff95f40e01932fb5b2bcb5df0ed97fec62c915a5bd9a1810",
+    "signed": false
+  },
+  "jvmTests": {
+    "tests": 64,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "releaseLint": {
+    "status": "passed",
+    "errors": 0,
+    "warnings": 46,
+    "verification": "Gradle assembleRelease/testDebugUnitTest/lintRelease BUILD SUCCESSFUL; cached outputs reused"
+  },
+  "privacy": {
+    "operatorName": "O. Bankole",
+    "source": "public-pages/privacy/index.html",
+    "hosting": "GitHub Pages",
+    "expectedUrl": "https://lanray07.github.io/TrailNest/privacy/",
+    "deploymentStatus": "waiting",
+    "workflowRun": "https://github.com/lanray07/TrailNest/actions/runs/41108558365",
+    "publicReachabilityVerified": false
+  },
+  "console": {
+    "targetingPage": "available",
+    "reviewPage": "available",
+    "newFieldsSavedThisRun": true,
+    "productionSubmitted": false,
+    "targetAudience": [
+      "16-17",
+      "18+"
+    ],
+    "contentRatingQuestionnaire": "Complete",
+    "privacyDataQuestionnaire": "Not started; final release scope pending",
+    "privacyPolicyUrlSaved": false
+  },
+  "remaining": [
+    "Existing production keystore local path and alias; password environment variables",
+    "Owner selection of current free release scope or production subscriptions",
+    "Privacy questionnaire for final production configuration",
+    "Verify public GitHub Pages URL and save in Console",
+    "Upload signed APK and verify compatible target devices",
+    "Owner export certification at action time"
+  ],
+  "test1Changed": false,
+  "productionSubmitted": false
+}

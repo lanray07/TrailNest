@@ -8,6 +8,12 @@ All 15 description locales and all 11 image/video locales offered by the live Co
 
 ## Completed evidence
 
+### Production preparation — 30 October 2026
+
+Normal release assembly and 64 JVM tests passed; release lint has zero errors and 46 warnings. These results include cached Gradle outputs. The APK remains unsigned: the owner chose an existing production keystore but has not supplied its local path/alias or configured its password environment variables.
+
+The production draft now has a 16+ intended audience and a completed content-rating questionnaire. The separate user-data privacy questionnaire remains pending final production scope. O. Bankole was supplied as operator and GitHub was requested for public URLs. Privacy/support sources are in `public-pages/`, with a GitHub Pages workflow. Its first deployment is waiting; public reachability and the Console privacy URL are not yet verified. No export certification was accepted and no app was submitted. Test 1 is unchanged. [Preparation record](../artifacts/amazon-production-preparation-2026-10-30.json).
+
 - Amazon-installed Test 2: purchase, signed verification, fulfillment, four accelerated renewals and RVS-side expiry. After reconnecting the Kindle, online Restore, cold offline restart, offline Restore and reconnection confirmed Premium remained off. The original expiry moment occurred while USB was disconnected; live revocation latency is not established. [Purchase/renewal evidence](../artifacts/amazon-lat-test2-checkout-2026-10-27.json), [final device checks](../artifacts/amazon-lat-test2-expiry-device-2026-10-29.json).
 - All 22 in-app locale bundles validate under the owner's translation-review waiver, including Traditional Chinese, Turkish and Indonesian. All 22 have complete localized listing copy and eight native screenshots (176 total), with installed-string verification, current content fingerprints and agent visual review. These are prepared local assets, not Amazon uploads or native-speaker certification. [Asset gallery](../marketing/README.md), [0.8.6 verification](../artifacts/verification-0.8.6.json).
 - Private journal, checklist, photos, bounded GPX import/export and explicit recording are implemented. Recording screen-off/notification/recovery smoke evidence exists, but measured outdoor distance and broader OS/hardware acceptance remain open. [Recording limits](RECORDING.md).
