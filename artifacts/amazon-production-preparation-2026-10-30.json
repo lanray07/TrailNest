@@ -25,9 +25,10 @@
     "source": "public-pages/privacy/index.html",
     "hosting": "GitHub Pages",
     "expectedUrl": "https://lanray07.github.io/TrailNest/privacy/",
-    "deploymentStatus": "waiting",
+    "deploymentStatus": "success",
     "workflowRun": "https://github.com/lanray07/TrailNest/actions/runs/41108558365",
-    "publicReachabilityVerified": false
+    "publicReachabilityVerified": true,
+    "url": "https://lanray07.github.io/TrailNest/privacy/"
   },
   "console": {
     "targetingPage": "available",
@@ -40,7 +41,8 @@
     ],
     "contentRatingQuestionnaire": "Complete",
     "privacyDataQuestionnaire": "Not started; final release scope pending",
-    "privacyPolicyUrlSaved": false
+    "privacyPolicyUrlSaved": true,
+    "privacyPolicyUrlReloadVerified": true
   },
   "remaining": [
     "Existing production keystore local path and alias; password environment variables",
