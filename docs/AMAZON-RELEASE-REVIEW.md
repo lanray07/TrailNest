@@ -3,9 +3,10 @@
 **Commercial submission remains blocked.** This is a repository and existing-evidence review for Android 0.8.6/code 14, not a new inspection or approval of the live Developer Console. Test 1 was not modified. Only the isolated preview package was used for new localization/layout checks and captures. No Amazon test, purchase, reset, account change, secret transfer, production deployment or submission was performed.
 
 ## Console follow-up — 30 October 2026
+
 The owner subsequently declined submission of the free candidate and required the paid/full product first. The free APK remains an unsubmitted draft; it is not approved for submission. Production billing, implemented/licensed offline maps, reviewed route content and the remaining acceptance gates must be completed before replacing it and submitting. The owner requested free providers; see the [current research](FREE-PROVIDERS-2026-10-30.md). Test 1 remains unchanged.
 
-All 15 description locales and all 11 image/video locales offered by the live Console are saved in the unsubmitted production draft (88 screenshots). Reload verification passed. The app category and offered language-support labels are now recorded. The signed production APK is now processed, age/content fields and privacy URL are saved, and targeting is limited to the tested Fire HD 10 (2021) KFTRWI. Final submission still awaits the owner’s release-scope choice and export certification. No LAT binary was promoted and no legal declaration was invented. Test 1 is unchanged. [Exact upload coverage and blockers](../artifacts/amazon-localized-draft-upload-2026-10-30.json).
+All 15 description locales and all 11 image/video locales offered by the live Console are saved in the unsubmitted production draft (88 screenshots). Reload verification passed. The app category and offered language-support labels are now recorded. The signed free-candidate APK is processed, age/content fields and privacy URL are saved, and targeting is limited to the tested Fire HD 10 (2021) KFTRWI. Final submission now awaits completion and acceptance of the required paid/full product. The export checkbox remains unchecked while this work is incomplete. No LAT binary was promoted and no app was submitted. Test 1 is unchanged. [Exact upload coverage and blockers](../artifacts/amazon-localized-draft-upload-2026-10-30.json).
 
 ## Completed evidence
 
