@@ -36,7 +36,11 @@ jobs:
       - name: Validate Worker bundle without deployment
         run: npx --yes wrangler@4.156.0 deploy --config billing-server/wrangler.jsonc --dry-run --outdir "$RUNNER_TEMP/trailnest-worker"
       - name: Install Android build platform
-        run: sdkmanager 'platforms;android-35' 'build-tools;35.0.0'
+        uses: android-actions/setup-android@be39fa834029ff78f1a44aa3bb0819b8fc2bd8fd # v4
+        with:
+          cmdline-tools-version: '12266719'
+          packages: 'platform-tools platforms;android-35 build-tools;35.0.0'
+          log-accepted-android-sdk-licenses: 'false'
       - name: Build isolated draft and run Android JVM checks
         run: bash gradlew :app:testDebugUnitTest :app:assembleTranslationPreview :app:assembleTranslationPreviewAndroidTest :app:lintDebug -PtrailnestTestBuildType=translationPreview --max-workers=2 --console=plain
       - name: Explain acceptance scope
