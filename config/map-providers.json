@@ -6,13 +6,20 @@
   "terms": "https://openfreemap.org/tos/",
   "termsVersion": "2026-10-14",
   "authorization": "Owner instructed use of OpenFreeMap and MapLibre Native.",
-  "attribution": "© OpenMapTiles © OpenStreetMap contributors",
+  "attribution": "\u00c2\u00a9 OpenMapTiles \u00c2\u00a9 OpenStreetMap contributors",
   "dataLicence": "ODbL-1.0",
   "otherNotices": "https://github.com/hyperknot/openfreemap/blob/main/LICENSE.md",
   "maxParallelRequests": 4,
   "downloadBytesPerAppSession": 40000000,
   "downloadResourcesPerAppSession": 2800,
-  "offlineZoomRange": [0, 14],
-  "completeRegionCeilings": {"bytes": 50000000, "tiles": 3000},
-  "deviceAcceptance": "pending Fire rendering, interrupted download, deletion and cold offline restart"
+  "offlineZoomRange": [
+    0,
+    14
+  ],
+  "completeRegionCeilings": {
+    "bytes": 50000000,
+    "tiles": 3000
+  },
+  "deviceAcceptance": "KFTRWI API 28: online download/render, deletion/re-download, immediate cancel/resume (one region), two cold-offline passes; final pass cleared ambient cache while disconnected. Scoped route view only; not live Premium billing or whole-app acceptance.",
+  "deviceEvidence": "artifacts/amazon-paid-progress-2026-11-01.json"
 }

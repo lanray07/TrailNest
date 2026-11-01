@@ -8,15 +8,33 @@
   "maps": {
     "renderer": "MapLibre Native 11.8.2",
     "provider": "OpenFreeMap",
-    "fireAcceptance": "partial: two online download/render passes; latest-marker, interrupt and cold-offline acceptance pending USB authorization",
+    "fireAcceptance": "passed scoped map rendering, deletion/re-download, interrupt/resume and cold-offline restart on KFTRWI API 28; production entitlement not tested",
     "implementation": "compiled; online renderer and offline pack download exercised on Fire",
     "onlineDownload": {
       "package": "com.trailnest.app.draft",
       "resources": 432,
       "tiles": 36,
-      "successfulRuns": 2,
+      "successfulRuns": 3,
       "bytes": 22700906,
       "ambientCacheClearedAfter": true
+    },
+    "coldOffline": {
+      "passedRuns": 2,
+      "activeNetworkAbsentAsserted": true,
+      "ambientCacheClearedWhileOffline": true,
+      "processStoppedBeforeStart": true,
+      "wifiRestored": true,
+      "bytes": 22700906,
+      "resources": 432,
+      "tiles": 36,
+      "laterRepeat": "Excluded: another app took foreground; host intentionally force-stopped only TrailNest draft and confirmed Wi-Fi enabled. No product crash conclusion."
+    },
+    "interruptResume": {
+      "passed": true,
+      "matchingNativeRegionCount": 1,
+      "bytes": 22414050,
+      "resources": 427,
+      "tiles": 31
     }
   },
   "routes": {
@@ -54,10 +72,23 @@
     "androidJvmPassed": 67,
     "paidBuildReadinessGuard": "correctly blocked actual 503",
     "locales": 22,
-    "instrumentationApk": "compiled; two online map passes; latest fixes, interrupt and offline checks pending",
+    "instrumentationApk": "compiled; current map download, interrupt/resume, cold-offline, and Arabic/German 200% narrow/tablet checks passed",
     "humanTranslationsApproved": 0,
     "workflowYaml": "parsed",
-    "githubPassedRun": "https://github.com/lanray07/TrailNest/actions/runs/41300505280"
+    "githubPassedRun": "https://github.com/lanray07/TrailNest/actions/runs/41302859689",
+    "deviceLayoutSmoke": {
+      "locales": [
+        "ar",
+        "de"
+      ],
+      "widthsDp": [
+        360,
+        800
+      ],
+      "passed": true,
+      "fontScale": 2.0,
+      "humanAccessibilityReviewed": false
+    }
   },
   "releaseGate": {
     "failureCount": 43,
@@ -67,7 +98,7 @@
   "blockers": [
     "Authenticated browser and Windows Computer Use fail before startup with kernel-assets path error, including after reset.",
     "Amazon RVS key is write-only in the unchanged LAT Vercel project; no usable local copy found.",
-    "Connected Kindle reports USB debugging unauthorized. Final latest-build, interrupt/resume, cold-offline and accessibility checks remain; Wi-Fi unchanged.",
+    "Map-specific Fire checks and Arabic/German layout smoke passed. Further device tests paused after shared-device foreground interference; whole-app accessibility and paid production-device acceptance remain.",
     "Live CPU/production billing acceptance, privacy/disclosures, title/coverage acceptance and fresh localized listings/screenshots remain."
   ],
   "details": "docs/PAID-RELEASE-2026-11-01.md",
@@ -82,6 +113,9 @@
   "privacy": {
     "publicSourceUpdated": true,
     "amazonDisclosuresUpdated": false,
-    "legalAssessmentComplete": false
+    "legalAssessmentComplete": false,
+    "publicHttp": 200,
+    "supportHttp": 200,
+    "pagesDeployment": "https://github.com/lanray07/TrailNest/actions/runs/41302859681"
   }
 }

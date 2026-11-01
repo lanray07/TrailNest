@@ -19,6 +19,7 @@ import org.junit.After
 class MapProviderDeviceTest {
     @get:Rule val compose = createAndroidComposeRule<MainActivity>()
     @After fun restoreRequestedNetworkState() {
+        if (InstrumentationRegistry.getArguments().getString("mapProviderAcceptance") != "true") return
         if (InstrumentationRegistry.getArguments().getString("restoreWifiAfter") == "true") {
             android.os.ParcelFileDescriptor.AutoCloseInputStream(InstrumentationRegistry.getInstrumentation().uiAutomation.executeShellCommand("svc wifi enable")).use { it.readBytes() }
         }
@@ -76,10 +77,15 @@ class MapProviderDeviceTest {
             assertNull("Disconnect networking before the cold offline acceptance phase", connectivity.activeNetwork)
             compose.waitUntil(10000) { offline.packs.value.containsKey(key) }
             assertEquals("Offline phase requires the online download to have completed in the earlier process", MapPackState.COMPLETE, offline.packs.value[key]?.state)
+            // Clear again while disconnected: an earlier test failure may have
+            // restored networking before its activity finished shutting down.
+            clearAmbientCache()
         }
         compose.onAllNodesWithText("Open route")[routeIndex].performScrollTo().performClick()
         compose.onNodeWithText("Load map").performScrollTo().performClick()
-        compose.waitUntil(60000) { compose.onAllNodesWithTag("route-map-rendered").fetchSemanticsNodes().isNotEmpty() }
+        // A connectivity configuration update can briefly remove the activity's
+        // root; the final rendered-map assertion remains mandatory.
+        compose.waitUntil(60000) { runCatching { compose.onAllNodesWithTag("route-map-rendered").fetchSemanticsNodes().isNotEmpty() }.getOrDefault(false) }
         compose.onNodeWithTag("route-map-rendered").performScrollTo().assertIsDisplayed()
         val instrumentation = InstrumentationRegistry.getInstrumentation()
         val screenshot = instrumentation.uiAutomation.takeScreenshot()
