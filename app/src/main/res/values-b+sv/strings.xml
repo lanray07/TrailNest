@@ -185,6 +185,7 @@
     <string name="map_delete">Radera offlinekarta</string>
     <string name="map_credits">Kartkällor</string>
     <string name="map_budget">Hämtningsbudget per appsession: %1$s MB / %2$s resurser. Zoomnivåer 0–14.</string>
+    <string name="map_legend">Grön: start · Brun: mål · Blågrön: senaste position.</string>
     <string name="checklist_title">Lite förberedelser räcker långt.</string>
     <string name="checklist_description">Din personliga checklista före promenad. Anpassa ditt kit efter rutten, vädret och dina behov.</string>
     <string name="checklist_safety">En ifylld checklista kan inte garantera säkerheten. Kontrollera aktuella förhållanden, tillgång och din egen förmåga.</string>

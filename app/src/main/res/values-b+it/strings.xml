@@ -185,6 +185,7 @@
     <string name="map_delete">Elimina mappa offline</string>
     <string name="map_credits">Crediti della mappa</string>
     <string name="map_budget">Limite di download per sessione: %1$s MB / %2$s risorse. Livelli di zoom 0–14.</string>
+    <string name="map_legend">Verde: partenza · Marrone: arrivo · Verde acqua: posizione recente.</string>
     <string name="checklist_title">Un po’ di preparazione fa la differenza.</string>
     <string name="checklist_description">La tua personale checklist pre-camminata. Adatta il tuo kit al percorso, al tempo e alle tue esigenze.</string>
     <string name="checklist_safety">Una lista di controllo completata non può garantire la sicurezza. Controlla le condizioni attuali, l\'accesso e le tue capacità.</string>

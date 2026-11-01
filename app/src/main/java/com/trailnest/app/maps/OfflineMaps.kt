@@ -11,7 +11,7 @@ import org.maplibre.android.offline.*
 import kotlin.math.*
 
 enum class MapPackState { MISSING, PARTIAL, DOWNLOADING, COMPLETE, FAILED, LIMIT }
-data class MapPack(val state: MapPackState, val completed: Long = 0, val required: Long = 0)
+data class MapPack(val state: MapPackState, val completed: Long = 0, val required: Long = 0, val bytesSaved: Long = 0, val tilesSaved: Long = 0)
 
 /** One explicit foreground download at a time; the SDK's durable database owns
  * tiles, styles, glyphs and sprites. No partial area is labelled available. */
@@ -21,6 +21,7 @@ class OfflineMaps private constructor(context: Context) {
     private val mutablePacks = MutableStateFlow<Map<String, MapPack>>(emptyMap())
     val packs = mutablePacks.asStateFlow()
     private var active: String? = null
+    private var generation = 0L
     private var loading = true
     private val mutableReady = MutableStateFlow(false)
     val ready = mutableReady.asStateFlow()
@@ -34,7 +35,7 @@ class OfflineMaps private constructor(context: Context) {
                         region.setDownloadState(OfflineRegion.STATE_INACTIVE)
                         region.getStatus(object : OfflineRegion.OfflineRegionStatusCallback {
                             override fun onStatus(status: OfflineRegionStatus?) {
-                                if (status != null) update(key, status, false)
+                                if (status != null && regions[key] === region) update(key, status, active == key)
                             }
                             override fun onError(error: String?) { set(key, MapPack(MapPackState.FAILED)) }
                         })
@@ -50,7 +51,7 @@ class OfflineMaps private constructor(context: Context) {
     private fun update(key: String, status: OfflineRegionStatus, downloading: Boolean) {
         val oversized = status.completedResourceSize > 50_000_000 || status.completedTileCount > 3000
         val complete = status.isRequiredResourceCountPrecise && status.isComplete && !oversized
-        set(key, MapPack(when { oversized -> MapPackState.LIMIT; complete -> MapPackState.COMPLETE; downloading -> MapPackState.DOWNLOADING; else -> MapPackState.PARTIAL }, status.completedResourceCount, status.requiredResourceCount))
+        set(key, MapPack(when { oversized -> MapPackState.LIMIT; complete -> MapPackState.COMPLETE; downloading -> MapPackState.DOWNLOADING; else -> MapPackState.PARTIAL }, status.completedResourceCount, status.requiredResourceCount, status.completedResourceSize, status.completedTileCount))
         if (complete || oversized) pause(key)
     }
     fun download(key: String, points: List<GeoPoint>) {
@@ -58,41 +59,51 @@ class OfflineMaps private constructor(context: Context) {
         val bounds = bounds(points)
         if (bounds == null || MapNetwork.beginDownload() == null) { set(key, MapPack(MapPackState.LIMIT)); return }
         active = key; set(key, MapPack(MapPackState.DOWNLOADING))
+        val operation = ++generation
         fun start(region: OfflineRegion) {
             regions[key] = region
-            if (active != key) return
+            if (active != key || operation != generation) return
             region.setObserver(object : OfflineRegion.OfflineRegionObserver {
                 override fun onStatusChanged(status: OfflineRegionStatus) {
-                    if (active == key) update(key, status, true)
+                    if (active == key && operation == generation) update(key, status, true)
                 }
                 override fun onError(error: OfflineRegionError) {
-                    if (active != key) return
+                    if (active != key || operation != generation) return
                     set(key, MapPack(if (MapNetwork.budget?.stopped == true) MapPackState.LIMIT else MapPackState.FAILED)); pause(key)
                 }
-                override fun mapboxTileCountLimitExceeded(limit: Long) { set(key, MapPack(MapPackState.LIMIT)); pause(key) }
+                override fun mapboxTileCountLimitExceeded(limit: Long) { if (active == key && operation == generation) { set(key, MapPack(MapPackState.LIMIT)); pause(key) } }
             })
             region.setDownloadState(OfflineRegion.STATE_ACTIVE)
         }
         val existing = regions[key]
         if (existing != null) start(existing)
-        else manager.createOfflineRegion(OfflineTilePyramidRegionDefinition(OpenFreeMapProvider.STYLE_URL, bounds, 0.0, 14.0, 1f, true), key.toByteArray(), object : OfflineManager.CreateOfflineRegionCallback {
-            override fun onCreate(offlineRegion: OfflineRegion) { start(offlineRegion) }
-            override fun onError(error: String) { if (active == key) { active = null; set(key, MapPack(MapPackState.FAILED)) } }
+        // MapView rasterizes CJK ideographs from installed Android fonts. Fetching
+        // all remote ideograph ranges can exhaust a small area's byte allowance.
+        else manager.createOfflineRegion(OfflineTilePyramidRegionDefinition(OpenFreeMapProvider.STYLE_URL, bounds, 0.0, 14.0, 1f, false), key.toByteArray(), object : OfflineManager.CreateOfflineRegionCallback {
+            override fun onCreate(offlineRegion: OfflineRegion) {
+                if (active == key && operation == generation) start(offlineRegion)
+                else offlineRegion.delete(object : OfflineRegion.OfflineRegionDeleteCallback {
+                    override fun onDelete() = Unit
+                    override fun onError(error: String) = Unit
+                })
+            }
+            override fun onError(error: String) { if (active == key && operation == generation) { active = null; set(key, MapPack(MapPackState.FAILED)) } }
         })
     }
     fun pause(key: String) {
         regions[key]?.setDownloadState(OfflineRegion.STATE_INACTIVE)
         if (active == key) {
+            generation++
             active = null
             if (mutablePacks.value[key]?.state == MapPackState.DOWNLOADING) set(key, MapPack(MapPackState.PARTIAL))
         }
     }
-    fun delete(key: String) {
+    fun delete(key: String, onComplete: (Boolean) -> Unit = {}) {
         pause(key)
-        val region = regions[key] ?: return
+        val region = regions[key] ?: run { mutablePacks.value = mutablePacks.value - key; onComplete(true); return }
         region.delete(object : OfflineRegion.OfflineRegionDeleteCallback {
-            override fun onDelete() { regions.remove(key); mutablePacks.value = mutablePacks.value - key }
-            override fun onError(error: String) { set(key, MapPack(MapPackState.FAILED)) }
+            override fun onDelete() { regions.remove(key); mutablePacks.value = mutablePacks.value - key; onComplete(true) }
+            override fun onError(error: String) { set(key, MapPack(MapPackState.FAILED)); onComplete(false) }
         })
     }
     companion object {

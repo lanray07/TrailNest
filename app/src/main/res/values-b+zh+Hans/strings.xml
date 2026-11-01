@@ -185,6 +185,7 @@
     <string name="map_delete">删除离线地图</string>
     <string name="map_credits">地图来源</string>
     <string name="map_budget">每次应用会话的下载上限：%1$s MB / %2$s项资源。缩放级别0–14。</string>
+    <string name="map_legend">绿色：起点 · 棕色：终点 · 青绿色：最近位置。</string>
     <string name="checklist_title">一点准备就会大有帮助。</string>
     <string name="checklist_description">您的个人步行前检查清单。根据路线、天气和您的需求调整您的装备。</string>
     <string name="checklist_safety">完整的检查表并不能保证安全。检查当前条件、访问权限和您自己的能力。</string>

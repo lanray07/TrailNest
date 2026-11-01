@@ -185,6 +185,7 @@
     <string name="map_delete">حذف الخريطة المحفوظة</string>
     <string name="map_credits">مصادر الخريطة</string>
     <string name="map_budget">حد التنزيل لكل جلسة تطبيق: %1$s ميغابايت / %2$s موردًا. مستويات التكبير 0–14.</string>
+    <string name="map_legend">الأخضر: البداية · البني: النهاية · الأزرق المخضر: الموقع الأخير.</string>
     <string name="checklist_title">القليل من التحضير يقطع شوطا طويلا.</string>
     <string name="checklist_description">قائمة المراجعة الشخصية الخاصة بك قبل المشي. قم بتكييف مجموعتك مع الطريق والطقس واحتياجاتك.</string>
     <string name="checklist_safety">لا يمكن لقائمة المراجعة المكتملة أن تضمن السلامة. تحقق من الظروف الحالية والوصول وقدرتك الخاصة.</string>

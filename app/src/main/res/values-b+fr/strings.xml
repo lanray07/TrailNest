@@ -185,6 +185,7 @@
     <string name="map_delete">Supprimer la carte hors ligne</string>
     <string name="map_credits">Crédits cartographiques</string>
     <string name="map_budget">Budget de téléchargement par session : %1$s Mo / %2$s ressources. Niveaux de zoom 0–14.</string>
+    <string name="map_legend">Vert : départ · Marron : arrivée · Bleu-vert : position récente.</string>
     <string name="checklist_title">Un peu de préparation suffit.</string>
     <string name="checklist_description">Votre liste de contrôle personnelle avant la marche. Adaptez votre kit au parcours, à la météo et à vos besoins.</string>
     <string name="checklist_safety">Une liste de contrôle complétée ne peut garantir la sécurité. Vérifiez les conditions actuelles, l\'accès et vos propres capacités.</string>

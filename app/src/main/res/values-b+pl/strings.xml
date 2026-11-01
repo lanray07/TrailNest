@@ -185,6 +185,7 @@
     <string name="map_delete">Usuń mapę offline</string>
     <string name="map_credits">Źródła mapy</string>
     <string name="map_budget">Limit pobierania na sesję aplikacji: %1$s MB / %2$s zasobów. Poziomy przybliżenia 0–14.</string>
+    <string name="map_legend">Zielony: początek · Brązowy: koniec · Turkusowy: ostatnia pozycja.</string>
     <string name="checklist_title">Małe przygotowanie może bardzo pomóc.</string>
     <string name="checklist_description">Twoja osobista lista kontrolna przed spacerem. Dostosuj swój zestaw do trasy, pogody i swoich potrzeb.</string>
     <string name="checklist_safety">Wypełniona lista kontrolna nie gwarantuje bezpieczeństwa. Sprawdź aktualne warunki, dostęp i własne możliwości.</string>

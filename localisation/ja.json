@@ -2449,5 +2449,12 @@
     "reviewed": false,
     "provenance": "AI translation 2026-11-01; owner translation-review waiver",
     "requiresSafetyReview": false
+  },
+  "map_legend": {
+    "text": "緑：出発点 · 茶：終点 · 青緑：最近の位置。",
+    "sourceHash": "133d2f2c8091f1cfc4119a8efbf58278789c2a0a6dc95cc24de9af73b0d72e8f",
+    "reviewed": false,
+    "provenance": "AI translation 2026-11-01; owner translation-review waiver",
+    "requiresSafetyReview": true
   }
 }

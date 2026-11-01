@@ -185,6 +185,7 @@
     <string name="map_delete">刪除離線地圖</string>
     <string name="map_credits">地圖來源</string>
     <string name="map_budget">每次應用程式工作階段的下載上限：%1$s MB / %2$s項資源。縮放層級0–14。</string>
+    <string name="map_legend">綠色：起點 · 棕色：終點 · 藍綠色：最近位置。</string>
     <string name="checklist_title">稍作準備，從容出發。</string>
     <string name="checklist_description">您的個人步行前檢查清單。根據路線、天氣和您的需求調整您的裝備。</string>
     <string name="checklist_safety">完整的檢查表並不能保證安全。檢查當前條件、訪問許可權和您自己的能力。</string>

@@ -185,6 +185,7 @@
     <string name="map_delete">オフライン地図を削除</string>
     <string name="map_credits">地図の出典</string>
     <string name="map_budget">アプリの1セッションあたりのダウンロード上限：%1$s MB / %2$sリソース。ズームレベル0～14。</string>
+    <string name="map_legend">緑：出発点 · 茶：終点 · 青緑：最近の位置。</string>
     <string name="checklist_title">ちょっとした準備が大いに役立ちます。</string>
     <string name="checklist_description">あなた専用の散歩前チェックリスト。キットをルート、天候、ニーズに合わせて調整してください。</string>
     <string name="checklist_safety">チェックリストを完了しても安全は保証できません。現状やアクセス、自分の実力を確認してみましょう。</string>

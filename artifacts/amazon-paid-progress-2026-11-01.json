@@ -8,8 +8,16 @@
   "maps": {
     "renderer": "MapLibre Native 11.8.2",
     "provider": "OpenFreeMap",
-    "fireAcceptance": "pending disconnected device",
-    "implementation": "compiled"
+    "fireAcceptance": "partial: two online download/render passes; latest-marker, interrupt and cold-offline acceptance pending USB authorization",
+    "implementation": "compiled; online renderer and offline pack download exercised on Fire",
+    "onlineDownload": {
+      "package": "com.trailnest.app.draft",
+      "resources": 432,
+      "tiles": 36,
+      "successfulRuns": 2,
+      "bytes": 22700906,
+      "ambientCacheClearedAfter": true
+    }
   },
   "routes": {
     "humanApproved": false,
@@ -37,18 +45,19 @@
   },
   "checks": {
     "backendPassed": 24,
-    "strings": 277,
+    "strings": 278,
     "toolingPassed": 23,
     "lintWarnings": 56,
     "lintErrors": 0,
-    "appBuild": "translationPreview succeeded",
+    "appBuild": "latest translationPreview and instrumentation APKs succeeded; current-map-build.txt",
     "plurals": 4,
     "androidJvmPassed": 67,
     "paidBuildReadinessGuard": "correctly blocked actual 503",
     "locales": 22,
-    "instrumentationApk": "compiled; new device tests unexecuted",
+    "instrumentationApk": "compiled; two online map passes; latest fixes, interrupt and offline checks pending",
     "humanTranslationsApproved": 0,
-    "workflowYaml": "parsed"
+    "workflowYaml": "parsed",
+    "githubPassedRun": "https://github.com/lanray07/TrailNest/actions/runs/41300505280"
   },
   "releaseGate": {
     "failureCount": 43,
@@ -58,7 +67,7 @@
   "blockers": [
     "Authenticated browser and Windows Computer Use fail before startup with kernel-assets path error, including after reset.",
     "Amazon RVS key is write-only in the unchanged LAT Vercel project; no usable local copy found.",
-    "No Kindle is currently connected for renderer, interrupted-download, deletion, offline-restart and accessibility acceptance.",
+    "Connected Kindle reports USB debugging unauthorized. Final latest-build, interrupt/resume, cold-offline and accessibility checks remain; Wi-Fi unchanged.",
     "Live CPU/production billing acceptance, privacy/disclosures, title/coverage acceptance and fresh localized listings/screenshots remain."
   ],
   "details": "docs/PAID-RELEASE-2026-11-01.md",
@@ -66,8 +75,13 @@
     "path": "app/build/outputs/apk/translationPreview/app-translationPreview.apk",
     "applicationId": "com.trailnest.app.draft",
     "versionName": "0.8.7-draft",
-    "sha256": "1ae1d7acbd33eeacc47ba4b6e6465c332620d301ed8f3b55a3cbc6edcfc44d13",
-    "bytes": 67131048,
+    "sha256": "54e5864bfdc8dcd12c56b2bfffb91bfb7492e07199a29a9c7036ad8293d21eed",
+    "bytes": 67133640,
     "productionApproved": false
+  },
+  "privacy": {
+    "publicSourceUpdated": true,
+    "amazonDisclosuresUpdated": false,
+    "legalAssessmentComplete": false
   }
 }

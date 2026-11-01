@@ -183,6 +183,7 @@
   "map_delete": "Delete offline map",
   "map_credits": "Map credits",
   "map_budget": "Download budget per app session: %1$s MB / %2$s resources. Zoom levels 0–14.",
+  "map_legend": "Green: start · Brown: finish · Teal: recent position.",
   "checklist_title": "A little preparation goes a long way.",
   "checklist_description": "Your personal pre-walk checklist. Adapt your kit to the route, weather and your needs.",
   "checklist_safety": "A completed checklist cannot guarantee safety. Check current conditions, access and your own ability.",

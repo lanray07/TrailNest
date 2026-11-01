@@ -11,4 +11,5 @@
     <string name="map_delete">Delete offline map</string>
     <string name="map_credits">Map credits</string>
     <string name="map_budget">Download budget per app session: %1$s MB / %2$s resources. Zoom levels 0–14.</string>
+    <string name="map_legend">Green: start · Brown: finish · Teal: recent position.</string>
 </resources>

@@ -24,6 +24,7 @@ import androidx.compose.ui.res.stringResource
 @Composable fun RouteScreen(route: ImportedRoute, fix: Location?, locating: Boolean, imperial: Boolean, voiceReady: Boolean, command: VoiceCommand, consume: () -> Unit, onLocation: () -> Unit, speak: (String) -> Unit, listen: () -> Unit, export: (ImportedRoute) -> Unit, share: (String) -> Unit, back: () -> Unit, notice: (String) -> Unit, premiumAvailable: () -> Boolean = { false }, catalogue: CatalogueRoute? = null) {
     val points = remember(route.geometry) { Gpx.points(route) }
     var sharing by rememberSaveable(route.id) { mutableStateOf(false) }
+    var mapShown by rememberSaveable(route.id) { mutableStateOf(false) }
     var now by remember { mutableLongStateOf(SystemClock.elapsedRealtimeNanos()) }
     LaunchedEffect(locating) { while (locating) { now = SystemClock.elapsedRealtimeNanos(); delay(3000) } }
     val fresh = fix != null && (now - fix.elapsedRealtimeNanos) / 1e9 < 30 && now >= fix.elapsedRealtimeNanos
@@ -42,17 +43,17 @@ import androidx.compose.ui.res.stringResource
     }
     val latestLocating by rememberUpdatedState(locating)
     DisposableEffect(route.id) { onDispose { if (latestLocating) onLocation() } }
-    Page(route.title, stringResource(R.string.route_description)) {
+    Page(route.title, if (catalogue == null) stringResource(R.string.route_description) else stringResource(R.string.catalogue_review, reviewDate(catalogue.reviewedAt))) {
         TextButton(onClick = back) { TrailText(stringResource(R.string.ui_back_to_routes)) }
         TrailText(stringResource(R.string.route_summary, distanceText(route.metres, imperial), androidx.compose.ui.res.pluralStringResource(R.plurals.route_points, points.size, points.size)))
         if (catalogue != null) {
             val uri = androidx.compose.ui.platform.LocalUriHandler.current
-            TrailText(stringResource(R.string.catalogue_review, reviewDate(catalogue.reviewedAt)))
             TrailText(stringResource(R.string.catalogue_shape))
             TrailText(stringResource(R.string.catalogue_access))
             TextButton(onClick = { uri.openUri("https://www.royalparks.org.uk/visit/parks/richmond-park") }) { TrailText(stringResource(R.string.catalogue_notices)) }
             TextButton(onClick = { uri.openUri(catalogue.source) }) { TrailText(stringResource(R.string.map_osm_licence, catalogue.licence)) }
         }
+        if (!mapShown) {
         val overviewDescription = stringResource(R.string.accessibility_geometry, route.title)
         Canvas(Modifier.fillMaxWidth().height(260.dp).background(Sage).testTag("route-geometry").semantics { contentDescription = overviewDescription }) {
             val minLat = points.minOf { it.lat }; val maxLat = points.maxOf { it.lat }
@@ -68,7 +69,8 @@ import androidx.compose.ui.res.stringResource
             if (fresh && fix != null) { val pos = offset(GeoPoint(fix.latitude, fix.longitude)); if (pos.x in 0f..size.width && pos.y in 0f..size.height) drawCircle(Color(0xFF287E83), 7.dp.toPx(), pos) }
         }
         TrailText(stringResource(R.string.ui_geometry_overview_green_start_brown_finish_teal_recent_position_n), style = MaterialTheme.typography.bodySmall)
-        MapPanel(route.sha256, points, premiumAvailable, if (fresh && fix != null) GeoPoint(fix.latitude, fix.longitude) else null)
+        }
+        MapPanel(route.sha256, points, premiumAvailable, if (fresh && fix != null) GeoPoint(fix.latitude, fix.longitude) else null, onMapVisibility = { mapShown = it })
         TrailPanel(Modifier.fillMaxWidth()) {
             Heading(stringResource(R.string.ui_your_route_at_a_glance), true); TrailText(status)
             if (fresh && fix != null) TrailText(stringResource(R.string.reported_accuracy, fix.accuracy.toInt()))

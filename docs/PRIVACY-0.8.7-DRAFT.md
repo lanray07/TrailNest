@@ -1,6 +1,6 @@
 # Privacy additions for the paid 0.8.7 release — draft
 
-Prepared 1 November 2026. Reconcile these additions into the live GitHub policy and Amazon disclosures before enabling the paid release. The existing public page describes the earlier 0.8.6 candidate. Operator remains **O. Bankole**, public support **banksmi@mail.com**; no operator country or completed legal assessment is invented.
+Prepared 1 November 2026. The public-pages source now includes these map and conditional production-verification disclosures alongside the earlier 0.8.6 behaviour. Publish/verify that page and reconcile Amazon disclosures before enabling the paid release. This source update is not completion of the operator/legal review. Operator remains **O. Bankole**, public support **banksmi@mail.com**; no operator country or completed legal assessment is invented.
 
 ## Optional maps
 

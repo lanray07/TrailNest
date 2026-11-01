@@ -185,6 +185,7 @@
     <string name="map_delete">Hapus peta offline</string>
     <string name="map_credits">Sumber peta</string>
     <string name="map_budget">Batas unduhan per sesi aplikasi: %1$s MB / %2$s sumber daya. Tingkat zoom 0–14.</string>
+    <string name="map_legend">Hijau: awal · Cokelat: akhir · Hijau kebiruan: posisi terbaru.</string>
     <string name="checklist_title">Sedikit persiapan sangat berarti.</string>
     <string name="checklist_description">Daftar periksa pribadi sebelum berjalan. Sesuaikan perlengkapan dengan rute, cuaca, dan kebutuhan Anda.</string>
     <string name="checklist_safety">Daftar periksa yang selesai tidak menjamin keselamatan. Periksa kondisi terkini, akses, dan kemampuan Anda.</string>

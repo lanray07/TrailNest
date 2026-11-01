@@ -185,6 +185,7 @@
     <string name="map_delete">ऑफ़लाइन मानचित्र हटाएँ</string>
     <string name="map_credits">मानचित्र के स्रोत</string>
     <string name="map_budget">हर ऐप सत्र की डाउनलोड सीमा: %1$s MB / %2$s संसाधन। ज़ूम स्तर 0–14।</string>
+    <string name="map_legend">हरा: शुरुआत · भूरा: अंत · नीला-हरा: हाल की स्थिति।</string>
     <string name="checklist_title">थोड़ी सी तैयारी बहुत काम आती है।</string>
     <string name="checklist_description">आपकी व्यक्तिगत प्री-वॉक चेकलिस्ट। अपनी किट को मार्ग, मौसम और अपनी आवश्यकताओं के अनुसार अनुकूलित करें।</string>
     <string name="checklist_safety">एक पूर्ण चेकलिस्ट सुरक्षा की गारंटी नहीं दे सकती। वर्तमान स्थितियों, पहुंच और अपनी क्षमता की जांच करें।</string>

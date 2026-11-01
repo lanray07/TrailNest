@@ -185,6 +185,7 @@
     <string name="map_delete">Excluir mapa offline</string>
     <string name="map_credits">Créditos do mapa</string>
     <string name="map_budget">Limite de download por sessão: %1$s MB / %2$s recursos. Níveis de zoom 0–14.</string>
+    <string name="map_legend">Verde: início · Marrom: fim · Verde-azulado: posição recente.</string>
     <string name="checklist_title">Um pouco de preparação ajuda muito.</string>
     <string name="checklist_description">Sua lista de verificação pessoal antes da caminhada. Adapte o seu kit ao percurso, ao clima e às suas necessidades.</string>
     <string name="checklist_safety">Uma lista de verificação preenchida não pode garantir a segurança. Verifique as condições atuais, o acesso e a sua capacidade.</string>

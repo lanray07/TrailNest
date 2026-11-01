@@ -185,6 +185,7 @@
     <string name="map_delete">Offline-Karte löschen</string>
     <string name="map_credits">Kartennachweise</string>
     <string name="map_budget">Downloadbudget pro App-Sitzung: %1$s MB / %2$s Ressourcen. Zoomstufen 0–14.</string>
+    <string name="map_legend">Grün: Start · Braun: Ziel · Türkis: letzte Position.</string>
     <string name="checklist_title">Eine kleine Vorbereitung reicht weit.</string>
     <string name="checklist_description">Ihre persönliche Pre-Walk-Checkliste. Passen Sie Ihre Ausrüstung an die Route, das Wetter und Ihre Bedürfnisse an.</string>
     <string name="checklist_safety">Eine ausgefüllte Checkliste kann keine Sicherheit garantieren. Überprüfen Sie die aktuellen Bedingungen, den Zugang und Ihre eigenen Fähigkeiten.</string>

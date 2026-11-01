@@ -185,6 +185,7 @@
     <string name="map_delete">오프라인 지도 삭제</string>
     <string name="map_credits">지도 출처</string>
     <string name="map_budget">앱 세션당 다운로드 한도: %1$s MB / %2$s 리소스. 확대 수준 0–14.</string>
+    <string name="map_legend">초록: 출발 · 갈색: 도착 · 청록: 최근 위치.</string>
     <string name="checklist_title">약간의 준비가 큰 도움이 됩니다.</string>
     <string name="checklist_description">개인 걷기 전 체크리스트. 경로, 날씨, 필요에 맞게 키트를 조정하세요.</string>
     <string name="checklist_safety">완성된 체크리스트가 안전을 보장할 수는 없습니다. 현재 상황과 접근성, 자신의 능력을 확인해보세요.</string>

@@ -185,6 +185,7 @@
     <string name="map_delete">Eliminar mapa sin conexión</string>
     <string name="map_credits">Créditos del mapa</string>
     <string name="map_budget">Límite de descarga por sesión: %1$s MB / %2$s recursos. Niveles de zoom 0–14.</string>
+    <string name="map_legend">Verde: inicio · Marrón: final · Verde azulado: posición reciente.</string>
     <string name="checklist_title">Un poco de preparación ayuda mucho.</string>
     <string name="checklist_description">Tu lista de verificación personal previa a la caminata. Adapta tu kit a la ruta, la climatología y tus necesidades.</string>
     <string name="checklist_safety">Una lista de verificación completa no puede garantizar la seguridad. Consulta las condiciones actuales, el acceso y tu propia capacidad.</string>

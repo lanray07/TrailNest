@@ -185,6 +185,7 @@
     <string name="map_delete">Çevrimdışı haritayı sil</string>
     <string name="map_credits">Harita kaynakları</string>
     <string name="map_budget">Uygulama oturumu başına indirme sınırı: %1$s MB / %2$s kaynak. Yakınlaştırma düzeyleri 0–14.</string>
+    <string name="map_legend">Yeşil: başlangıç · Kahverengi: bitiş · Turkuaz: son konum.</string>
     <string name="checklist_title">Küçük bir hazırlık çok şey değiştirir.</string>
     <string name="checklist_description">Yürüyüş öncesi kişisel kontrol listeniz. Ekipmanınızı rotaya, hava durumuna ve ihtiyaçlarınıza uyarlayın.</string>
     <string name="checklist_safety">Tamamlanmış bir kontrol listesi güvenliği garanti edemez. Güncel koşulları, geçiş izinlerini ve kendi becerilerinizi kontrol edin.</string>
