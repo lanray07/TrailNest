@@ -1,0 +1,13 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {publishableRoute} from './editorial-review.mjs';
+const root=fileURLToPath(new URL('../',import.meta.url));
+const catalogue=JSON.parse(await fs.readFile(path.join(root,'content/routes.json'),'utf8'));
+const policy=JSON.parse(await fs.readFile(path.join(root,'config/editorial-policy.json'),'utf8'));
+const routes=catalogue.routes.filter(r=>r.publicationStatus==='published');
+for(const r of routes)if(!publishableRoute(r,policy))throw Error(`Unpublishable route: ${r.id}`);
+const output=process.argv[2];if(!output)throw Error('Provide a generated assets directory');
+await fs.mkdir(output,{recursive:true});
+await fs.writeFile(path.join(output,'reviewed-routes.json'),JSON.stringify({schemaVersion:1,routes})+'\n');
+console.log(`Bundled ${routes.length} reviewed routes; review method retained.`);

@@ -35,10 +35,11 @@ class TrailDeviceTest {
         originalPreferences?.let { original -> InstrumentationRegistry.getInstrumentation().targetContext.preferences.updateData { original } }
         Unit
     }
-    @Test fun homeExplainsUnavailableCoverage() {
-        compose.onNodeWithText("Good walks start with good information.").performScrollTo().assertIsDisplayed()
-        compose.onNodeWithText("Explore coverage").performScrollTo().performClick()
-        compose.onNodeWithText("Good information comes first.").assertIsDisplayed()
+    @Test fun homeOpensReviewedRouteWithoutLoadingRemoteMap() {
+        compose.onNodeWithText("Tamsin Trail · 1").performScrollTo().assertIsDisplayed()
+        compose.onAllNodesWithText("Open route").onFirst().performScrollTo().performClick()
+        compose.onNodeWithText("AI desk review", substring = true).performScrollTo().assertIsDisplayed()
+        compose.onNodeWithText("Load map").performScrollTo().assertIsDisplayed()
     }
     @Test fun checklistCanBeChecked() {
         compose.onNodeWithText("Checklist", useUnmergedTree = true).performClick()
@@ -85,6 +86,8 @@ class TrailDeviceTest {
         assertEquals(Gpx.digest(route.geometry), route.sha256)
         val roundtrip = Gpx.read(Gpx.export(route).byteInputStream(), "fixture")
         assertEquals(route.geometry, roundtrip.geometry)
+        val attributed = route.copy(provenance = "TrailNest source: © OpenStreetMap contributors; ODbL-1.0; https://www.openstreetmap.org/copyright")
+        assertEquals(attributed.provenance, Gpx.read(Gpx.export(attributed).byteInputStream(), "fixture").provenance)
         for (invalid in listOf("<!DOCTYPE gpx [<!ENTITY x 'bad'>]><gpx/>", valid.replace("</trk>", "<trkseg><trkpt lat='0' lon='1'/></trkseg></trk>"), valid.replace("lat='0'", "lat='91'"))) {
             assertTrue(runCatching { Gpx.read(invalid.byteInputStream(), "fixture") }.isFailure)
         }

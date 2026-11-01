@@ -44,13 +44,15 @@ import com.trailnest.app.domain.*
     val recordingBusy by model.recordingBusy.collectAsStateWithLifecycle()
     val selected = routes.find { it.id == selectedId }
     val context = androidx.compose.ui.platform.LocalContext.current
+    val catalogue = remember { RouteCatalogue.load(context) }
+    val selectedCatalogue = catalogue.find { it.route.id == selectedId }
     MaterialTheme(colorScheme = scheme) {
         Surface(Modifier.fillMaxSize(), color = scheme.background) {
             Box(Modifier.fillMaxSize()) {
                 TrailScaffold(page, { page = it; selectedId = null }) {
-                            if (selected != null) RouteScreen(selected, fix, locating, imperial, voiceReady, command, onConsumeCommand, onLocation, onSpeak, onListen, onExport, onShare, { selectedId = null }, onNotice)
+                            if (selected != null || selectedCatalogue != null) RouteScreen(selected ?: selectedCatalogue!!.route, fix, locating, imperial, voiceReady, command, onConsumeCommand, onLocation, onSpeak, onListen, onExport, onShare, { selectedId = null }, onNotice, premiumAvailable, selectedCatalogue)
                             else when (page) {
-                                "Discover" -> DiscoverScreen({ page = it }, onImport)
+                                "Discover" -> DiscoverScreen({ page = it }, onImport, catalogue, { selectedId = it.route.id }, imperial)
                                 "My walks" -> JournalScreen(walks, photos, imperial, photoBusy, model::save, model::deleteWalk, model::addPhoto, model::deletePhoto,
                                     recordingRevealKey = recordingPage, recording = { RecordingPanel(recording, imperial, recordingBusy, onRecordingAction, model::finishRecording) })
                                 "Offline packs" -> PacksScreen(routes, imperial, onImport, {
@@ -75,7 +77,7 @@ import com.trailnest.app.domain.*
 }
 
 @OptIn(ExperimentalLayoutApi::class)
-@Composable fun DiscoverScreen(navigate: (String) -> Unit, onImport: () -> Unit) {
+@Composable fun DiscoverScreen(navigate: (String) -> Unit, onImport: () -> Unit, catalogue: List<CatalogueRoute> = emptyList(), open: (CatalogueRoute) -> Unit = {}, imperial: Boolean = true) {
     var search by rememberSaveable { mutableStateOf("") }
     var filter by rememberSaveable { mutableIntStateOf(0) }
     val filters = listOf(stringResource(R.string.filter_0), stringResource(R.string.filter_1), stringResource(R.string.filter_2), stringResource(R.string.filter_3), stringResource(R.string.filter_4))
@@ -85,7 +87,15 @@ import com.trailnest.app.domain.*
         OutlinedTextField(search, { search = it }, Modifier.fillMaxWidth(), label = { TrailText(stringResource(R.string.ui_search_a_town_region_or_national_park)) }, leadingIcon = { Icon(Icons.Outlined.Search, null) }, singleLine = true, shape = RoundedCornerShape(50))
         TextButton(onClick = { navigate("Coverage") }) { Icon(Icons.Outlined.Place, null); TrailText(stringResource(R.string.ui_united_kingdom_coverage_planned)) }
         FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) { filters.forEachIndexed { index, label -> FilterChip(selected = filter == index, onClick = { filter = index }, label = { TrailText(label) }) } }
-        TrailPanel(Modifier.fillMaxWidth()) {
+        val matches = if (filter == 0) catalogue.filter { search.isBlank() || (it.route.title + " Richmond Park London").contains(search, ignoreCase = true) } else emptyList()
+        matches.forEach { item -> TrailPanel(Modifier.fillMaxWidth()) {
+            Heading(item.route.title, true)
+            TrailText(distanceText(item.route.metres, imperial))
+            TrailText(stringResource(R.string.catalogue_review, reviewDate(item.reviewedAt)))
+            TrailText(stringResource(R.string.catalogue_shape))
+            Button(onClick = { open(item) }) { TrailText(stringResource(R.string.ui_open_route)) }
+        } }
+        if (matches.isEmpty()) TrailPanel(Modifier.fillMaxWidth()) {
             SectionLabel(stringResource(R.string.ui_your_next_adventure))
             Heading(stringResource(R.string.no_routes), true)
             TrailText(if (search.isNotBlank()) stringResource(R.string.search_empty , search) else stringResource(R.string.coverage_message))

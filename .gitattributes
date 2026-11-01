@@ -4,3 +4,5 @@ gradlew text eol=lf
 *.bat text eol=crlf
 *.png binary
 *.jar binary
+# Source snapshots retain the exact bytes used by provenance SHA-256 records.
+content/sources/*.json text eol=lf

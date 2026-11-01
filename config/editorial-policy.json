@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "allowAiDeskReview": true,
+  "authorization": "Owner explicitly instructed Codex to perform the route review itself on 2026-11-01.",
+  "requiredDisclosure": "AI desk review; not field checked",
+  "humanReviewPerformed": false
+}

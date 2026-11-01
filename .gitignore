@@ -17,3 +17,6 @@ artifacts/reports/
 billing-server/secrets/
 *.private.pem
 .vercel/
+.wrangler/
+.dev.vars*
+billing-server/artifacts/

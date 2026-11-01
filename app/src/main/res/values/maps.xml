@@ -1,0 +1,14 @@
+<resources>
+    <string name="map_title">Route map</string>
+    <string name="map_privacy">Loading sends your IP address and viewed map area to OpenFreeMap/Cloudflare. Offline downloads require Premium.</string>
+    <string name="map_load">Load map</string>
+    <string name="map_complete">Offline map ready (zoom levels 0–14). Check access and closures.</string>
+    <string name="map_downloading">Downloading map…</string>
+    <string name="map_failed">Map unavailable. Check your connection or saved download.</string>
+    <string name="map_limit">Map download limit reached. A complete map is required for offline use.</string>
+    <string name="map_partial">Not saved for offline use.</string>
+    <string name="map_download">Download offline map</string>
+    <string name="map_delete">Delete offline map</string>
+    <string name="map_credits">Map credits</string>
+    <string name="map_budget">Download budget per app session: %1$s MB / %2$s resources. Zoom levels 0–14.</string>
+</resources>

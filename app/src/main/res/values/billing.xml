@@ -7,7 +7,7 @@
     <string name="billing_checking">Checking purchases…</string>
     <string name="billing_pending">Awaiting Amazon approval.</string>
     <string name="billing_problem">Purchase verification is unavailable. Restore when online.</string>
-    <string name="billing_benefit">Premium allows more private GPX geometry packs. Licensed maps and curated routes are unavailable.</string>
+    <string name="billing_benefit">Premium adds offline basemap downloads for your routes and more private GPX packs. Provider download limits apply.</string>
     <string name="billing_no_offer">No annual offer is available from Amazon right now.</string>
     <string name="billing_limit">Free accounts can keep one geometry pack. Remove a pack or restore an active subscription.</string>
 </resources>

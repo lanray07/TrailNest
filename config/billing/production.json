@@ -1,0 +1,11 @@
+{
+  "environment": "production",
+  "verificationUrl": "https://trailnest-billing-production.lanraybanks.workers.dev/v1/amazon/verify",
+  "readinessUrl": "https://trailnest-billing-production.lanraybanks.workers.dev/ready",
+  "parentSku": "com.trailnest.premium",
+  "annualSku": "com.trailnest.premium_term",
+  "applicationId": "com.trailnest.app",
+  "privateIdentity": "Current-user DPAPI outside Git; separate from sandbox and LAT",
+  "acceptance": "pending_runtime_and_device_checks",
+  "publicKeySpkiSha256": "c7fe43170031a6639d352d98881a811892356ff85bee3b175fa91620b7c1b2ed"
+}

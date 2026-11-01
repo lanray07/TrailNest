@@ -1,5 +1,7 @@
 # Amazon billing integration — prepared, disabled
 
+**1 November follow-up:** A separate Cloudflare production adapter and public Android release pin are implemented. The Worker is deployed but remains unready (503) while its secrets and new-host/device acceptance are incomplete. `tools/build-production.ps1 -Paid` refuses to build against an unready verifier. Default purchasing stays disabled. Sandbox/LAT deployments and Test 1 are unchanged. See [current paid-release status](PAID-RELEASE-2026-11-01.md).
+
 Android 0.8 integrates the native Amazon Appstore SDK **3.0.9** and a separate Node receipt-verification service. The initial implementation shipped disabled. On 23 October 2026, the Amazon app/subscription, Amazon public key and hosted sandbox were configured, followed by an isolated LAT verifier with the actual RVS shared key. The subscription was approved for TEST only. A signed LAT APK is uploaded to the LAT draft; see [current setup](../config/billing/README.md). **Normal builds remain disabled by default. LAT execution and production signing/service/acceptance remain incomplete.** The Amazon release gate remains unapproved. Optional one-time packs, trial/promotional offers, add-ons and tier changes are not implemented; unsupported offers are not sold as a simple annual plan.
 
 ## Purchase and restore flow

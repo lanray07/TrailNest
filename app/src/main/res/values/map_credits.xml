@@ -1,0 +1,4 @@
+<resources>
+    <string name="map_openmaptiles" translatable="false">OpenMapTiles</string>
+    <string name="map_osm_licence" translatable="false">© OpenStreetMap contributors · %1$s</string>
+</resources>

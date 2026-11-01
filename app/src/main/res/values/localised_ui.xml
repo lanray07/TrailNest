@@ -52,7 +52,7 @@
     <string name="ui_no_validated_turn_instructions_are_included_spoken_output_reports">No validated turn instructions are included. Spoken output reports progress and uncertainty only. This view does not replace a map or access checks.</string>
     <string name="ui_export_gpx">Export GPX</string>
     <string name="packs_description">Private GPX geometry stored on your device. Basemap tiles, elevation and reviewed directions are not included.</string>
-    <string name="packs_empty_description">Import a GPX track, inspect its geometry, then save it as your offline route pack. No map downloads are configured.</string>
+    <string name="packs_empty_description">Import a GPX track, inspect its geometry and open its map. Offline basemap downloads require Premium.</string>
     <string name="coverage_description">Language support does not imply route coverage. Every market starts with licensed data and editorial review.</string>
     <string name="ui_offline_geometry_pack">Offline geometry pack</string>
     <string name="ui_private_gpx_import">Private GPX import</string>

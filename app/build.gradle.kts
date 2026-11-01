@@ -36,6 +36,11 @@ if (billingEnabled) {
     require(endpoint.scheme == "https" && !endpoint.host.isNullOrBlank() && endpoint.userInfo == null && endpoint.query == null && endpoint.fragment == null && endpoint.path.endsWith("/v1/amazon/verify")) { "Configure a fixed HTTPS URL ending in /v1/amazon/verify" }
     require(file("src/main/assets/AppstoreAuthenticationKey.pem").isFile && file("src/main/assets/billing-verifier-public.pem").isFile) { "Configure Amazon and verifier PUBLIC keys" }
     require(billingEnvironment == "production" || gradle.startParameter.taskNames.none { it.contains("release", ignoreCase = true) }) { "Release builds cannot accept test entitlements" }
+    if (gradle.startParameter.taskNames.any { it.contains("release", ignoreCase = true) }) {
+        require(file("src/release/assets/billing-verifier-public.pem").isFile) { "A separate production verifier pin is required" }
+        require(file("src/release/assets/billing-verifier-public.pem").readText().trim() != file("src/main/assets/billing-verifier-public.pem").readText().trim()) { "Production cannot reuse the sandbox verifier identity" }
+        require(billingUrl == "https://trailnest-billing-production.lanraybanks.workers.dev/v1/amazon/verify" && billingParent == "com.trailnest.premium" && billingAnnual == "com.trailnest.premium_term") { "Production billing requires the fixed production host and annual SKUs" }
+    }
 }
 android {
     namespace = "com.trailnest.app"
@@ -44,8 +49,8 @@ android {
         applicationId = "com.trailnest.app"
         minSdk = 26
         targetSdk = 35
-        versionCode = 14
-        versionName = "0.8.6"
+        versionCode = 15
+        versionName = "0.8.7"
         buildConfigField("boolean", "LAT_BUILD", "false")
         buildConfigField("boolean", "BILLING_ENABLED", billingEnabled.toString())
         buildConfigField("String", "BILLING_ENVIRONMENT", billingLiteral(billingEnvironment))
@@ -96,7 +101,19 @@ android {
         }
     }
 }
+val catalogueAssets = layout.buildDirectory.dir("generated/catalogueAssets")
+val buildCatalogue by tasks.registering(Exec::class) {
+    workingDir(rootProject.projectDir)
+    commandLine("node", "tools/build-catalogue.mjs", catalogueAssets.get().asFile.absolutePath)
+    inputs.files(rootProject.file("content/routes.json"), rootProject.file("config/editorial-policy.json"), rootProject.file("tools/editorial-review.mjs"), rootProject.file("tools/build-catalogue.mjs"))
+    outputs.dir(catalogueAssets)
+}
+android.sourceSets.getByName("main").assets.srcDir(catalogueAssets)
+tasks.named("preBuild").configure { dependsOn(buildCatalogue) }
 dependencies {
+    // Pin the stable SDK compatible with this project's Kotlin 2.1 toolchain.
+    implementation("org.maplibre.gl:android-sdk:11.8.2")
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
     implementation("androidx.appcompat:appcompat:1.7.0")
     implementation("com.amazon.device:amazon-appstore-sdk:3.0.9")
     implementation(platform("androidx.compose:compose-bom:2025.04.01"))

@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "trailnest-billing-production",
+  "main": "cloudflare-handler.mjs",
+  "compatibility_date": "2026-10-30",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": true,
+  "observability": {"enabled": false},
+  "ratelimits": [{
+    "name": "VERIFY_RATE_LIMITER",
+    "namespace_id": "185491307624811",
+    "simple": {"limit": 20, "period": 60}
+  }]
+}

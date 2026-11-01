@@ -22,6 +22,8 @@ fun Context.distanceText(metres: Double, imperial: Boolean, locale: Locale = res
 }
 @Composable fun distanceText(metres: Double, imperial: Boolean) = LocalContext.current.distanceText(metres, imperial, LocalConfiguration.current.locales[0])
 @Composable fun countryLabel(iso: String): String = Locale("", iso).getDisplayCountry(LocalConfiguration.current.locales[0])
+@Composable fun reviewDate(iso: String): String = java.time.LocalDate.parse(iso).format(
+    java.time.format.DateTimeFormatter.ofLocalizedDate(java.time.format.FormatStyle.MEDIUM).withLocale(LocalConfiguration.current.locales[0]))
 
 private val defaultKit = listOf(R.string.checklist_default_0, R.string.checklist_default_1, R.string.checklist_default_2,
     R.string.checklist_default_3, R.string.checklist_default_4, R.string.checklist_default_5, R.string.checklist_default_6,

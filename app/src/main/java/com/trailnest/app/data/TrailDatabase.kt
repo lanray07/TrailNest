@@ -9,7 +9,7 @@ import androidx.sqlite.db.SupportSQLiteDatabase
 @Entity(tableName = "walks")
 data class Walk(@PrimaryKey val id: String, val title: String, val date: Long, val metres: Double, val minutes: Int, val notes: String, val rating: Int, val favourite: Boolean)
 @Entity(tableName = "routes")
-data class ImportedRoute(@PrimaryKey val id: String, val title: String, val geometry: String, val metres: Double, val importedAt: Long, val sha256: String, val packed: Boolean = false)
+data class ImportedRoute(@PrimaryKey val id: String, val title: String, val geometry: String, val metres: Double, val importedAt: Long, val sha256: String, val packed: Boolean = false, val provenance: String? = null)
 @Entity(tableName = "walk_photos", foreignKeys = [ForeignKey(entity = Walk::class, parentColumns = ["id"], childColumns = ["walkId"], onDelete = ForeignKey.CASCADE)], indices = [Index("walkId")])
 data class WalkPhoto(@PrimaryKey val id: String, val walkId: String, val fileName: String)
 @Dao interface TrailDao {
@@ -27,10 +27,13 @@ data class WalkPhoto(@PrimaryKey val id: String, val walkId: String, val fileNam
     @Upsert suspend fun save(route: ImportedRoute)
     @Query("DELETE FROM routes WHERE id = :id") suspend fun deleteRoute(id: String)
 }
-@Database(entities = [Walk::class, ImportedRoute::class, WalkPhoto::class], version = 2, exportSchema = false)
+@Database(entities = [Walk::class, ImportedRoute::class, WalkPhoto::class], version = 3, exportSchema = false)
 abstract class TrailDatabase : RoomDatabase() {
     abstract fun dao(): TrailDao
     companion object {
+        val MIGRATION_2_3 = object : Migration(2, 3) {
+            override fun migrate(db: SupportSQLiteDatabase) { db.execSQL("ALTER TABLE `routes` ADD COLUMN `provenance` TEXT") }
+        }
         val MIGRATION_1_2 = object : Migration(1, 2) {
             override fun migrate(db: SupportSQLiteDatabase) {
                 db.execSQL("CREATE TABLE IF NOT EXISTS `walk_photos` (`id` TEXT NOT NULL, `walkId` TEXT NOT NULL, `fileName` TEXT NOT NULL, PRIMARY KEY(`id`), FOREIGN KEY(`walkId`) REFERENCES `walks`(`id`) ON UPDATE NO ACTION ON DELETE CASCADE)")
@@ -39,7 +42,7 @@ abstract class TrailDatabase : RoomDatabase() {
         }
         @Volatile private var instance: TrailDatabase? = null
         fun create(context: Context): TrailDatabase = instance ?: synchronized(this) {
-            instance ?: Room.databaseBuilder(context.applicationContext, TrailDatabase::class.java, "trailnest.db").addMigrations(MIGRATION_1_2).build().also { instance = it }
+            instance ?: Room.databaseBuilder(context.applicationContext, TrailDatabase::class.java, "trailnest.db").addMigrations(MIGRATION_1_2, MIGRATION_2_3).build().also { instance = it }
         }
     }
 }

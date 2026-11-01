@@ -14,7 +14,7 @@ test('plural validation checks language categories and placeholders',()=>{
 });
 test('actual migration SQL preserves old walks/routes and cascades photo rows',()=>{
   const source=fs.readFileSync(new URL('../../app/src/main/java/com/trailnest/app/data/TrailDatabase.kt',import.meta.url),'utf8');
-  const statements=[...source.matchAll(/db\.execSQL\("([^"]+)"\)/g)].map(m=>m[1]);assert.equal(statements.length,2);
+  const statements=[...source.matchAll(/db\.execSQL\("([^"]+)"\)/g)].map(m=>m[1]);assert.equal(statements.length,3);
   const db=new DatabaseSync(':memory:');
   try {
     db.exec('PRAGMA foreign_keys=ON; CREATE TABLE walks(id TEXT NOT NULL PRIMARY KEY,title TEXT NOT NULL,date INTEGER NOT NULL,metres REAL NOT NULL,minutes INTEGER NOT NULL,notes TEXT NOT NULL,rating INTEGER NOT NULL,favourite INTEGER NOT NULL); CREATE TABLE routes(id TEXT PRIMARY KEY,geometry TEXT);');
@@ -23,6 +23,9 @@ test('actual migration SQL preserves old walks/routes and cascades photo rows',(
     for(const sql of statements)db.exec(sql);
     assert.equal(db.prepare('SELECT notes FROM walks').get().notes,'keep notes');
     assert.equal(db.prepare('SELECT geometry FROM routes').get().geometry,'geometry kept');
+    assert.equal(db.prepare('SELECT provenance FROM routes').get().provenance,null);
+    db.prepare('UPDATE routes SET provenance=?').run('OSM source; ODbL-1.0');
+    assert.equal(db.prepare('SELECT provenance FROM routes').get().provenance,'OSM source; ODbL-1.0');
     db.prepare('INSERT INTO walk_photos VALUES(?,?,?)').run('photo','kept','private.jpg');
     assert.throws(()=>db.prepare('INSERT INTO walk_photos VALUES(?,?,?)').run('orphan','missing','photo.jpg'));
     db.prepare('DELETE FROM walks WHERE id=?').run('kept');assert.equal(db.prepare('SELECT COUNT(*) AS count FROM walk_photos').get().count,0);

@@ -35,7 +35,7 @@ import com.trailnest.app.domain.*
 }
 @Composable fun CoverageScreen() {
     Page(stringResource(R.string.ui_good_information_comes_first), stringResource(R.string.coverage_description)) {
-        Countries.all.forEach { country -> TrailPanel(Modifier.fillMaxWidth()) { Heading(countryLabel(country.iso), true); TrailText(stringResource(R.string.country_planned, country.iso)); TrailText(stringResource(R.string.ui_offline_basemap_downloads_unavailable)) } }
+        Countries.all.forEach { country -> TrailPanel(Modifier.fillMaxWidth()) { Heading(countryLabel(country.iso), true); TrailText(stringResource(R.string.country_planned, country.iso)); TrailText(stringResource(R.string.map_privacy)) } }
     }
 }
 @OptIn(ExperimentalLayoutApi::class)

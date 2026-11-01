@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-01",
+  "version": "0.8.7",
+  "versionCode": 15,
+  "submittedToAmazon": false,
+  "test1Changed": false,
+  "paidBuildProduced": false,
+  "maps": {
+    "renderer": "MapLibre Native 11.8.2",
+    "provider": "OpenFreeMap",
+    "fireAcceptance": "pending disconnected device",
+    "implementation": "compiled"
+  },
+  "routes": {
+    "humanApproved": false,
+    "publishedSections": 2,
+    "reviewMethod": "AI desk review; not field checked",
+    "ownerPolicy": "config/editorial-policy.json",
+    "originalLoop": "unpublished; source endpoint gap"
+  },
+  "cloudflare": {
+    "url": "https://trailnest-billing-production.lanraybanks.workers.dev",
+    "perRequestCpuMeasured": false,
+    "readinessHttp": 503,
+    "secretsUploaded": false,
+    "rateBindingProvisioned": true,
+    "startupMs": 5,
+    "liveAmazonVerificationTested": false,
+    "deploymentVersion": "0d6e5484-f939-4ba5-9cb4-91a8bf96f8b2",
+    "localWorkerd": {
+      "productionKeyUsed": false,
+      "signatureVerified": true,
+      "syntheticResponse": 200,
+      "readiness": 204,
+      "malformedRequest": 400
+    }
+  },
+  "checks": {
+    "backendPassed": 24,
+    "strings": 277,
+    "toolingPassed": 23,
+    "lintWarnings": 56,
+    "lintErrors": 0,
+    "appBuild": "translationPreview succeeded",
+    "plurals": 4,
+    "androidJvmPassed": 67,
+    "paidBuildReadinessGuard": "correctly blocked actual 503",
+    "locales": 22,
+    "instrumentationApk": "compiled; new device tests unexecuted",
+    "humanTranslationsApproved": 0,
+    "workflowYaml": "parsed"
+  },
+  "releaseGate": {
+    "failureCount": 43,
+    "report": "artifacts/release-gate.json",
+    "ready": false
+  },
+  "blockers": [
+    "Authenticated browser and Windows Computer Use fail before startup with kernel-assets path error, including after reset.",
+    "Amazon RVS key is write-only in the unchanged LAT Vercel project; no usable local copy found.",
+    "No Kindle is currently connected for renderer, interrupted-download, deletion, offline-restart and accessibility acceptance.",
+    "Live CPU/production billing acceptance, privacy/disclosures, title/coverage acceptance and fresh localized listings/screenshots remain."
+  ],
+  "details": "docs/PAID-RELEASE-2026-11-01.md",
+  "draftApk": {
+    "path": "app/build/outputs/apk/translationPreview/app-translationPreview.apk",
+    "applicationId": "com.trailnest.app.draft",
+    "versionName": "0.8.7-draft",
+    "sha256": "1ae1d7acbd33eeacc47ba4b6e6465c332620d301ed8f3b55a3cbc6edcfc44d13",
+    "bytes": 67131048,
+    "productionApproved": false
+  }
+}

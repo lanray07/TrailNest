@@ -1,5 +1,5 @@
 # Uses the owner-approved local production identity; creates no keys.
-param([switch]$Checks)
+param([switch]$Checks, [switch]$Paid)
 $ErrorActionPreference = 'Stop'
 $signingDirectory = Join-Path $env:USERPROFILE '.codex\signing\trailnest-production'
 $keystorePath = Join-Path $signingDirectory 'trailnest-production.p12'
@@ -20,7 +20,22 @@ try {
     $env:TRAILNEST_RELEASE_KEY_PASSWORD = $env:TRAILNEST_RELEASE_STORE_PASSWORD
     $tasks = @(':app:assembleRelease')
     if ($Checks) { $tasks += ':app:testDebugUnitTest', ':app:lintRelease' }
-    & .\gradlew.bat @tasks --offline --max-workers=2 --console=plain
+    $billingArguments = @()
+    if ($Paid) {
+        $billing = Get-Content -LiteralPath '.\config\billing\production.json' -Raw | ConvertFrom-Json
+        $publicKey = [Security.Cryptography.RSA]::Create()
+        try {
+            $publicKey.ImportFromPem((Get-Content -LiteralPath '.\app\src\release\assets\billing-verifier-public.pem' -Raw))
+            $fingerprint = [Convert]::ToHexString([Security.Cryptography.SHA256]::HashData($publicKey.ExportSubjectPublicKeyInfo())).ToLowerInvariant()
+            if ($fingerprint -ne $billing.publicKeySpkiSha256) { throw 'Production verifier pin does not match the retained configuration.' }
+        } finally { $publicKey.Dispose() }
+        $ready = Invoke-WebRequest -Method Head -Uri $billing.readinessUrl -SkipHttpErrorCheck
+        if ([int]$ready.StatusCode -ne 204) { throw 'Production verifier is not ready; refusing a paid build.' }
+        $billingArguments = @('-PtrailnestBillingEnabled=true', '-PtrailnestBillingEnvironment=production',
+            "-PtrailnestBillingParentSku=$($billing.parentSku)", "-PtrailnestBillingAnnualSku=$($billing.annualSku)",
+            "-PtrailnestBillingVerificationUrl=$($billing.verificationUrl)")
+    }
+    & .\gradlew.bat @tasks @billingArguments --offline --max-workers=2 --console=plain
     if ($LASTEXITCODE -ne 0) { throw 'Production build/checks failed.' }
     $identity = Get-Content -LiteralPath '.\config\production-signing.json' -Raw | ConvertFrom-Json
     $apksigner = Join-Path $env:LOCALAPPDATA 'Android\Sdk\build-tools\35.0.0\apksigner.bat'

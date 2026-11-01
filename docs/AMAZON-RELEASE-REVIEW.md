@@ -1,5 +1,7 @@
 # Amazon release review — 29 October 2026
 
+**Current follow-up:** [1 November paid-release integration](PAID-RELEASE-2026-11-01.md) supersedes the implementation status below. Historical 0.8.6 screenshots/listings and device evidence have not been relabelled as 0.8.7 acceptance. No production app has been submitted.
+
 **Commercial submission remains blocked.** This is a repository and existing-evidence review for Android 0.8.6/code 14, not a new inspection or approval of the live Developer Console. Test 1 was not modified. Only the isolated preview package was used for new localization/layout checks and captures. No Amazon test, purchase, reset, account change, secret transfer, production deployment or submission was performed.
 
 ## Console follow-up — 30 October 2026

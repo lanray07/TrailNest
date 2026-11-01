@@ -97,11 +97,12 @@ test('private paths, bad image headers and unsupported dimensions are rejected',
 }));
 test('release CLI rejects a stale accepted translation report when fresh validation fails', async () => fixture(async root => {
   await fs.mkdir(path.join(root, 'tools')); await fs.mkdir(path.join(root, 'artifacts')); await fs.mkdir(path.join(root, 'config')); await fs.mkdir(path.join(root, 'content')); await fs.mkdir(path.join(root, 'app'));
-  for (const filename of ['release-gate.mjs', 'marketing-audit.mjs', 'marketing-content.mjs']) await fs.copyFile(new URL(`../${filename}`, import.meta.url), path.join(root, 'tools', filename));
+  for (const filename of ['release-gate.mjs', 'marketing-audit.mjs', 'marketing-content.mjs', 'editorial-review.mjs']) await fs.copyFile(new URL(`../${filename}`, import.meta.url), path.join(root, 'tools', filename));
   await fs.writeFile(path.join(root, 'tools/localise.mjs'), 'process.exitCode = 1;');
   for (const [filename, data] of Object.entries({
     'config/countries.json': { countries: [] }, 'config/locales.json': { ...registry, requiredAppLocales: ['tr'] },
     'content/routes.json': { routes: [] },
+    'config/editorial-policy.json': { allowAiDeskReview: false },
     'artifacts/localisation-report.json': { translationReady: true, locales: [], hardcodedComposeStrings: [] }
   })) await fs.writeFile(path.join(root, filename), JSON.stringify(data));
   await fs.writeFile(path.join(root, 'app/build.gradle.kts'), 'versionName = "0.8.5"');

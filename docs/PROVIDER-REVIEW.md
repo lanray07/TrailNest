@@ -1,5 +1,9 @@
 # Provider and distribution decisions
 
+## Integration follow-up — 1 November 2026
+
+The owner selected OpenFreeMap, MapLibre Native and Cloudflare Workers and explicitly delegated route review to Codex. See [the integration and acceptance record](PAID-RELEASE-2026-11-01.md), [map provider configuration](../config/map-providers.json) and [editorial policy](../config/editorial-policy.json). The following dated research is historical; the new renderer is implemented but Fire acceptance remains pending, and the separate Cloudflare production Worker is deployed but unready. Neither development progress nor an AI desk review is presented as field testing or complete release acceptance.
+
 ## Free-provider follow-up — 30 October 2026
 
 The owner requires the paid/full product before submission and requested free providers. OpenFreeMap is now a viable hosted-map candidate: its current terms explicitly permit bounded offline downloads and its FAQ permits commercial use. This is a newly verified provider option, not an implemented or device-tested renderer. Retain the attribution and download/concurrency limits in the [free-provider assessment](FREE-PROVIDERS-2026-10-30.md). OSM and official California State Parks data are possible licensed route sources, but neither replaces the required route editorial/access review. No public tile service has been enabled.

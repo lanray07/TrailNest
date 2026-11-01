@@ -29,7 +29,7 @@ object Gpx {
         val parser = Xml.newPullParser()
         parser.setFeature(XmlPullParser.FEATURE_PROCESS_NAMESPACES, true)
         parser.setInput(text.reader())
-        val points = mutableListOf<GeoPoint>(); var title = fallbackTitle
+        val points = mutableListOf<GeoPoint>(); var title = fallbackTitle; var provenance: String? = null
         var rootSeen = false; var segments = 0; var routes = 0; var tracks = 0
         while (parser.eventType != XmlPullParser.END_DOCUMENT) {
             if (parser.eventType == XmlPullParser.START_TAG) {
@@ -40,6 +40,10 @@ object Gpx {
                     "trkseg" -> { segments++; require(segments <= 1) { throw TextFailure("error_multiple_track_segments_could_conceal_gaps_import_one_continuous_") } }
                     "rte" -> { routes++; require(routes <= 1 && tracks == 0) { throw TextFailure("error_import_one_continuous_route_or_track") } }
                     "name" -> if (title == fallbackTitle) title = parser.nextText().take(120).ifBlank { fallbackTitle }
+                    "desc" -> if (parser.depth == 3) {
+                        val description = parser.nextText().take(5000)
+                        if (description.startsWith("TrailNest source:")) provenance = description
+                    }
                     "trkpt", "rtept" -> {
                         require(!(tracks > 0 && routes > 0)) { throw TextFailure("error_mixed_routes_and_tracks_are_not_supported") }
                         require(points.size < 50000) { throw TextFailure("error_gpx_exceeds_50_000_points") }
@@ -52,10 +56,11 @@ object Gpx {
         require(rootSeen && points.size >= 2) { throw TextFailure("error_choose_a_gpx_file_with_at_least_two_track_or_route_points") }
         require(TrailMath.length(points) > 0) { throw TextFailure("error_the_route_has_no_length") }
         val geometry = points.joinToString(";") { "${it.lat},${it.lon}" }
-        return ImportedRoute(UUID.randomUUID().toString(), title, geometry, TrailMath.length(points), System.currentTimeMillis(), digest(geometry))
+        return ImportedRoute(UUID.randomUUID().toString(), title, geometry, TrailMath.length(points), System.currentTimeMillis(), digest(geometry), provenance = provenance)
     }
     fun export(route: ImportedRoute): String {
         val title = route.title.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace("\"", "&quot;").replace("'", "&apos;")
-        return "<?xml version=\"1.0\" encoding=\"UTF-8\"?><gpx version=\"1.1\" creator=\"TrailNest\" xmlns=\"http://www.topografix.com/GPX/1/1\"><trk><name>$title</name><trkseg>" + points(route).joinToString("") { "<trkpt lat=\"${it.lat}\" lon=\"${it.lon}\"/>" } + "</trkseg></trk></gpx>"
+        val provenance = route.provenance?.replace("&", "&amp;")?.replace("<", "&lt;")?.replace(">", "&gt;")?.let { "<metadata><desc>$it</desc></metadata>" } ?: ""
+        return "<?xml version=\"1.0\" encoding=\"UTF-8\"?><gpx version=\"1.1\" creator=\"TrailNest\" xmlns=\"http://www.topografix.com/GPX/1/1\">$provenance<trk><name>$title</name><trkseg>" + points(route).joinToString("") { "<trkpt lat=\"${it.lat}\" lon=\"${it.lon}\"/>" } + "</trkseg></trk></gpx>"
     }
 }

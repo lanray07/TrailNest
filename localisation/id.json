@@ -56,11 +56,10 @@
     "requiresSafetyReview": false
   },
   "billing_benefit": {
-    "text": "Premium memungkinkan lebih banyak paket geometri GPX pribadi. Peta berlisensi dan rute terkurasi tidak tersedia.",
-    "sourceHash": "0bd2073476dbc7819b59a782b958cfd460e76862b2c0b343fa81d494a5dfd6e8",
+    "text": "Premium menambahkan unduhan peta dasar offline untuk rute Anda dan lebih banyak paket GPX pribadi. Batas unduhan penyedia berlaku.",
+    "sourceHash": "2855449cce68cfca7c62e9231534f44f58c0620bb0717908b5cac18f393cbbf9",
     "reviewed": false,
-    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
-    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "provenance": "AI translation 2026-11-01; owner translation-review waiver",
     "requiresSafetyReview": false
   },
   "billing_no_offer": {
@@ -512,11 +511,10 @@
     "requiresSafetyReview": false
   },
   "packs_empty_description": {
-    "text": "Impor trek GPX, periksa geometrinya, lalu simpan sebagai paket rute offline. Unduhan peta belum dikonfigurasi.",
-    "sourceHash": "5338b685277b754875d00ac37ff0028932ca3c11b50fec8a4f3f98562440677a",
+    "text": "Impor trek GPX, periksa geometrinya, lalu buka petanya. Unduhan peta dasar offline memerlukan Premium.",
+    "sourceHash": "41ee1326a74f8c976999e449fc675f515f3c22fe77d773c29e3d75ef2bab9ed4",
     "reviewed": false,
-    "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
-    "generatedAt": "2026-10-29T19:34:16.573558+00:00",
+    "provenance": "AI translation 2026-11-01; owner translation-review waiver",
     "requiresSafetyReview": false
   },
   "coverage_description": {
@@ -2122,5 +2120,117 @@
     "reviewed": false,
     "provenance": "agent-authored Indonesian translation; owner translation-review waiver",
     "generatedAt": "2026-10-29T19:34:16.573558+00:00"
+  },
+  "map_title": {
+    "text": "Peta rute",
+    "sourceHash": "2262b7ec59d543bd91a50f3b8b42a317b9b8f809a22b43449d5279e9e18c558e",
+    "reviewed": false,
+    "provenance": "AI translation 2026-11-01; owner translation-review waiver",
+    "requiresSafetyReview": false
+  },
+  "map_privacy": {
+    "text": "Pemuatan mengirim alamat IP dan area peta yang dilihat ke OpenFreeMap/Cloudflare. Unduhan offline memerlukan Premium.",
+    "sourceHash": "38719ac3961c0a72ae523eca0f4384c6cadc78f80252e1363fc702b5ee775309",
+    "reviewed": false,
+    "provenance": "AI translation 2026-11-01; owner translation-review waiver",
+    "requiresSafetyReview": true
+  },
+  "map_load": {
+    "text": "Muat peta",
+    "sourceHash": "c3c5ba9e87a58eccf4d28f50bd16def7112bfc21c3eeae15821513f3b09d5c60",
+    "reviewed": false,
+    "provenance": "AI translation 2026-11-01; owner translation-review waiver",
+    "requiresSafetyReview": false
+  },
+  "map_complete": {
+    "text": "Peta offline siap (tingkat zoom 0–14). Periksa akses dan penutupan.",
+    "sourceHash": "4f4991518681bf8d4f14da2c2fbbcfc6fb517abc439a5a073092762306c2e5f9",
+    "reviewed": false,
+    "provenance": "AI translation 2026-11-01; owner translation-review waiver",
+    "requiresSafetyReview": true
+  },
+  "map_downloading": {
+    "text": "Mengunduh peta…",
+    "sourceHash": "2426a8622c490911c1c34b8f9b3e82d97ad319ac7805c00d97f58f6ea1955768",
+    "reviewed": false,
+    "provenance": "AI translation 2026-11-01; owner translation-review waiver",
+    "requiresSafetyReview": false
+  },
+  "map_failed": {
+    "text": "Peta tidak tersedia. Periksa koneksi atau unduhan yang disimpan.",
+    "sourceHash": "47855aef454579710f5d1e99006bce240b28fc11b43eecb46e66cafdcc90a886",
+    "reviewed": false,
+    "provenance": "AI translation 2026-11-01; owner translation-review waiver",
+    "requiresSafetyReview": false
+  },
+  "map_limit": {
+    "text": "Batas unduhan tercapai. Peta lengkap diperlukan untuk penggunaan offline.",
+    "sourceHash": "d38ff80d0ec8d7d8e0bac2c485be8b1e45a6e373050740339d699480c458cb6e",
+    "reviewed": false,
+    "provenance": "AI translation 2026-11-01; owner translation-review waiver",
+    "requiresSafetyReview": false
+  },
+  "map_partial": {
+    "text": "Belum disimpan untuk penggunaan offline.",
+    "sourceHash": "a7fcc5374bd5af5400c95a9685328f9533d043bfebab3dbe639594f7d36da3db",
+    "reviewed": false,
+    "provenance": "AI translation 2026-11-01; owner translation-review waiver",
+    "requiresSafetyReview": false
+  },
+  "map_download": {
+    "text": "Unduh peta offline",
+    "sourceHash": "5141351fe13939ee57df4c3dea4bb1dd1e9a96c8ac7a70b8ddc880d35df805db",
+    "reviewed": false,
+    "provenance": "AI translation 2026-11-01; owner translation-review waiver",
+    "requiresSafetyReview": false
+  },
+  "map_delete": {
+    "text": "Hapus peta offline",
+    "sourceHash": "4f294840a1dffa73291bc312eb8354b4dcb780f03eed90057d7e4a8e9c1ebaf2",
+    "reviewed": false,
+    "provenance": "AI translation 2026-11-01; owner translation-review waiver",
+    "requiresSafetyReview": false
+  },
+  "map_credits": {
+    "text": "Sumber peta",
+    "sourceHash": "2942758f71f4126b321a37d2470f1f3f4b588649842a1a3d6328ac7befd9ae7c",
+    "reviewed": false,
+    "provenance": "AI translation 2026-11-01; owner translation-review waiver",
+    "requiresSafetyReview": false
+  },
+  "catalogue_review": {
+    "text": "Tinjauan sumber oleh AI · %1$s · Belum diperiksa di lapangan.",
+    "sourceHash": "41238bd6b0ecde088614a1e6709467df3eb6a109851f26be628cf5ba8e217020",
+    "reviewed": false,
+    "provenance": "AI translation 2026-11-01; owner translation-review waiver",
+    "requiresSafetyReview": true
+  },
+  "catalogue_shape": {
+    "text": "Segmen jalur satu arah. Rencanakan perjalanan pulang.",
+    "sourceHash": "c9e2a709c69bd665608dc18cf51442cadc22f07afdeb8e3e61b62c6a560fc6c9",
+    "reviewed": false,
+    "provenance": "AI translation 2026-11-01; owner translation-review waiver",
+    "requiresSafetyReview": true
+  },
+  "catalogue_access": {
+    "text": "Gunakan hanya pada siang hari. Periksa pengumuman resmi, akses, dan penutupan sebelum berangkat. Jalur bersama dengan permukaan tidak rata. Tidak ada petunjuk belokan yang ditinjau.",
+    "sourceHash": "1fd1f4b6f5c080ba011111785ed2b9b0d8e5a5779b97bfff87bf58b340dc02b4",
+    "reviewed": false,
+    "provenance": "AI translation 2026-11-01; owner translation-review waiver",
+    "requiresSafetyReview": true
+  },
+  "catalogue_notices": {
+    "text": "Pengumuman taman terbaru",
+    "sourceHash": "7ba44ecc2ed557e8477a86dec75100abdd579f2254a2d858b577a0571dd585ab",
+    "reviewed": false,
+    "provenance": "AI translation 2026-11-01; owner translation-review waiver",
+    "requiresSafetyReview": true
+  },
+  "map_budget": {
+    "text": "Batas unduhan per sesi aplikasi: %1$s MB / %2$s sumber daya. Tingkat zoom 0–14.",
+    "sourceHash": "ee555ba2de5e91b189883fae8f3cc7a87fcefd2624e3efb2b2cb37cc30a7d4fb",
+    "reviewed": false,
+    "provenance": "AI translation 2026-11-01; owner translation-review waiver",
+    "requiresSafetyReview": false
   }
 }

@@ -1,0 +1,6 @@
+<resources>
+    <string name="catalogue_review">AI desk review · %1$s · Not field checked.</string>
+    <string name="catalogue_shape">One-way trail section. Plan your return.</string>
+    <string name="catalogue_access">Daytime use only. Check official notices, access and closures before setting out. Shared paths; uneven surfaces. No reviewed turn instructions.</string>
+    <string name="catalogue_notices">Current park notices</string>
+</resources>

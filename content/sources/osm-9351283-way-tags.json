@@ -1,0 +1,670 @@
+{
+  "licence": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "reviewedOn": "2026-11-01",
+  "elements": [
+    {
+      "type": "way",
+      "id": 4436096,
+      "version": 20,
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "surface": "fine_gravel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 4769815,
+      "version": 16,
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "smoothness": "intermediate",
+        "surface": "fine_gravel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 4769816,
+      "version": 11,
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "smoothness": "bad",
+        "surface": "fine_gravel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 4769819,
+      "version": 11,
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "surface": "dirt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 4769820,
+      "version": 18,
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "smoothness": "intermediate",
+        "surface": "fine_gravel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 62492771,
+      "version": 11,
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "surface": "fine_gravel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 62492783,
+      "version": 5,
+      "tags": {
+        "bicycle": "designated",
+        "bridge": "yes",
+        "foot": "designated",
+        "highway": "cycleway",
+        "layer": "1",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "surface": "wood"
+      }
+    },
+    {
+      "type": "way",
+      "id": 109431208,
+      "version": 14,
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "smoothness": "intermediate",
+        "surface": "fine_gravel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 109431210,
+      "version": 5,
+      "tags": {
+        "bicycle": "designated",
+        "bridge": "yes",
+        "foot": "designated",
+        "highway": "cycleway",
+        "layer": "1",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "surface": "wood"
+      }
+    },
+    {
+      "type": "way",
+      "id": 156458919,
+      "version": 10,
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "surface": "fine_gravel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 156458923,
+      "version": 10,
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "surface": "dirt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 156458924,
+      "version": 11,
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "surface": "fine_gravel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 156458929,
+      "version": 11,
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "surface": "fine_gravel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 157063069,
+      "version": 6,
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "smoothness": "intermediate",
+        "surface": "concrete"
+      }
+    },
+    {
+      "type": "way",
+      "id": 168270963,
+      "version": 10,
+      "tags": {
+        "bicycle": "designated",
+        "description": "Fine gravel is thin and largely compact.",
+        "foot": "designated",
+        "highway": "cycleway",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "smoothness": "intermediate",
+        "surface": "fine_gravel",
+        "width": "1.70"
+      }
+    },
+    {
+      "type": "way",
+      "id": 168270976,
+      "version": 9,
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "surface": "gravel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 312047322,
+      "version": 4,
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "surface": "gravel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 312047324,
+      "version": 12,
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "smoothness": "intermediate",
+        "surface": "fine_gravel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 312047325,
+      "version": 5,
+      "tags": {
+        "bicycle": "designated",
+        "bridge": "yes",
+        "foot": "designated",
+        "highway": "cycleway",
+        "layer": "1",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "surface": "wood"
+      }
+    },
+    {
+      "type": "way",
+      "id": 316643207,
+      "version": 5,
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "smoothness": "good",
+        "surface": "compacted"
+      }
+    },
+    {
+      "type": "way",
+      "id": 316643208,
+      "version": 5,
+      "tags": {
+        "bicycle": "designated",
+        "bridge": "yes",
+        "foot": "designated",
+        "highway": "cycleway",
+        "layer": "1",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "surface": "wood"
+      }
+    },
+    {
+      "type": "way",
+      "id": 584965538,
+      "version": 13,
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "oneway": "no",
+        "segregated": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 617893251,
+      "version": 2,
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "lit": "no",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "surface": "dirt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 620189498,
+      "version": 5,
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "smoothness": "good",
+        "surface": "compacted"
+      }
+    },
+    {
+      "type": "way",
+      "id": 632418600,
+      "version": 5,
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "smoothness": "good",
+        "surface": "compacted"
+      }
+    },
+    {
+      "type": "way",
+      "id": 711976309,
+      "version": 3,
+      "tags": {
+        "bicycle": "designated",
+        "bridge": "yes",
+        "foot": "designated",
+        "highway": "cycleway",
+        "layer": "1",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "surface": "fine_gravel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 711976310,
+      "version": 3,
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "surface": "fine_gravel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 711976311,
+      "version": 3,
+      "tags": {
+        "bicycle": "designated",
+        "bridge": "yes",
+        "foot": "designated",
+        "highway": "cycleway",
+        "layer": "1",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "surface": "fine_gravel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 711976312,
+      "version": 5,
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "surface": "fine_gravel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 711976319,
+      "version": 3,
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "surface": "fine_gravel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 711976320,
+      "version": 3,
+      "tags": {
+        "bicycle": "designated",
+        "bridge": "yes",
+        "foot": "designated",
+        "highway": "cycleway",
+        "layer": "1",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "surface": "fine_gravel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 859365259,
+      "version": 5,
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "smoothness": "intermediate",
+        "surface": "fine_gravel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 859365260,
+      "version": 4,
+      "tags": {
+        "bicycle": "designated",
+        "bridge": "yes",
+        "foot": "designated",
+        "highway": "cycleway",
+        "layer": "1",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "smoothness": "bad",
+        "surface": "fine_gravel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 955348327,
+      "version": 1,
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "surface": "fine_gravel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 955352928,
+      "version": 1,
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "surface": "fine_gravel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1097415844,
+      "version": 5,
+      "tags": {
+        "bicycle": "designated",
+        "crossing": "unmarked",
+        "cycleway": "crossing",
+        "foot": "designated",
+        "highway": "cycleway",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1097415845,
+      "version": 1,
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1112710007,
+      "version": 1,
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1112710009,
+      "version": 1,
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "surface": "fine_gravel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1262626994,
+      "version": 1,
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1262626995,
+      "version": 1,
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1468806188,
+      "version": 2,
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "lit": "no",
+        "maxspeed": "10 mph",
+        "name": "The Tamsin Trail",
+        "segregated": "no",
+        "smoothness": "good",
+        "surface": "asphalt"
+      }
+    }
+  ]
+}
