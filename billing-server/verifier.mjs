@@ -46,7 +46,7 @@ async function boundedJson(response){
   try {return JSON.parse(Buffer.concat(chunks).toString('utf8'));}catch{throw new VerificationError(503);}
 }
 
-export function createVerifier(rawConfig,{fetchImpl=fetch,now=Date.now,audit=()=>{}}={}){
+export function createVerifier(rawConfig,{fetchImpl=fetch,now=Date.now,audit=()=>{},signImpl=(bytes,key)=>sign('RSA-SHA256',bytes,key)}={}){
   const config=validateConfig(rawConfig);
   return async request=>{
     if(!request||Array.isArray(request)||Object.keys(request).sort().join(',')!=='amazonUserId,receiptId'||
@@ -90,7 +90,7 @@ export function createVerifier(rawConfig,{fetchImpl=fetch,now=Date.now,audit=()=
     expiresAt=Math.min(expiresAt,issuedAt+config.leaseMs);
     const payload=['TN1',config.applicationId,config.environment,hash(request.amazonUserId),hash(request.receiptId),config.parentSku,config.termSku,issuedAt,expiresAt].join('\n');
     const encoded=Buffer.from(payload,'utf8').toString('base64url');
-    const signature=sign('RSA-SHA256',Buffer.from(encoded,'ascii'),config.privateKey).toString('base64url');
+    const signature=Buffer.from(await signImpl(Buffer.from(encoded,'ascii'),config.privateKey)).toString('base64url');
     return {lease:encoded+'.'+signature};
   };
 }

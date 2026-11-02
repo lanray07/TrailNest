@@ -11,12 +11,12 @@
   "signingConfigured": true,
   "productionSigning": {
     "identity": "config/production-signing.json",
-    "artifactRecord": "artifacts/amazon-production-signed-0.8.6.json",
+    "artifactRecord": "artifacts/production-apk-0.8.7.json",
     "verifiedSchemes": [
       "v2",
       "v3"
     ],
-    "date": "2026-10-30"
+    "date": "2026-11-02"
   },
   "titleAvailabilityChecked": true,
   "titleReview": {
@@ -42,5 +42,22 @@
     "automaticDeletion": false,
     "operatorResponsible": true,
     "document": "docs/SUPPORT-RETENTION-PROPOSAL.md"
+  },
+  "fireDeviceTest": true,
+  "fireDeviceAcceptance": {
+    "record": "artifacts/fire-acceptance-0.8.7.json",
+    "version": "0.8.7",
+    "device": "KFTRWI",
+    "scope": "Scoped core, maps, 22-locale layouts, billing UI and owner VoiceView operability; real production purchase remains separate."
+  },
+  "operatorAndPrivacyApproved": true,
+  "operatorAndPrivacyReview": {
+    "record": "docs/PRIVACY-REVIEW-0.8.7.md",
+    "date": "2026-11-02",
+    "ownerConfirmedIdentityAndCountry": true,
+    "ownerApprovedRetentionProcess": true,
+    "technicalDataFlowReviewComplete": true,
+    "amazonQuestionnaireStatus": "Saved for review",
+    "legalComplianceCertification": false
   }
 }

@@ -2,10 +2,6 @@
   "version": "0.8.7",
   "releaseReady": false,
   "failures": [
-    "No country has completed provider/device coverage acceptance.",
-    "Complete target-device acceptance (partial Kindle evidence exists) missing.",
-    "Production billing configuration and acceptance (LAT checks are separate) missing.",
-    "Complete operator/privacy/retention review (public support contact exists) missing.",
-    "Human accessibility and spoken-screen-reader review missing."
+    "Production billing configuration and acceptance (LAT checks are separate) missing."
   ]
 }

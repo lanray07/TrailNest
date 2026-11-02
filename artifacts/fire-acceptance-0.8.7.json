@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-02",
+  "version": "0.8.7",
+  "versionCode": 16,
+  "deviceModel": "KFTRWI",
+  "api": 28,
+  "package": "com.trailnest.app.draft",
+  "coreDeviceTestsPassed": 13,
+  "layoutConfigurationsPassed": 88,
+  "billingLayoutConfigurationsPassed": 26,
+  "keyboardConfigurationsPassed": 10,
+  "coldOfflineMapPassed": true,
+  "ambientCacheClearedWhileOffline": true,
+  "interruptResumeRegionCount": 1,
+  "wifiRestored": true,
+  "humanVoiceViewRecord": "artifacts/voiceview-human-0.8.7.json",
+  "mapEvidence": "artifacts/amazon-paid-progress-2026-11-01.json",
+  "historicalRealLatExpiryEvidence": "artifacts/amazon-lat-test2-expiry-device-2026-10-29.json",
+  "realProductionPurchaseVerified": false,
+  "scope": "Scoped core/device/map acceptance, not universal device, country-wide map, human linguistic/field-route or real production purchase certification.",
+  "test1Changed": false
+}

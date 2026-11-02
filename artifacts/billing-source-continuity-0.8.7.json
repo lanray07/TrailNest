@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-02",
+  "realLatBaseline": "5a6422e",
+  "androidBillingEngineUnchanged": true,
+  "coreVerifierByteIdentical": false,
+  "receiptGuardLogicUnchanged": true,
+  "signingChange": "Optional async signer dispatch; Cloudflare uses Web Crypto with unchanged RSA-SHA256 payload. Default Node signer stays for other hosts.",
+  "androidSourceSha256": {
+    "app/src/main/java/com/trailnest/app/billing/AmazonBillingRuntime.kt": "53e033488d24a7185a91e2741ca7bb39c4fcd730fa4841069b9e541f9146c15d",
+    "app/src/main/java/com/trailnest/app/billing/BillingController.kt": "70d1303357b56b22d12ff45f29aaee53ff503e6f6118b616ec157ee5c9465242",
+    "app/src/main/java/com/trailnest/app/billing/EntitlementLease.kt": "5c8d947359c3b9d9fc07a60d4b62c7cf97c8795980c5638cdcdf5e555d8a5a43"
+  },
+  "realLatPurchaseRenewalEvidence": "artifacts/amazon-lat-test2-checkout-2026-10-27.json",
+  "realLatExpiredDeviceEvidence": "artifacts/amazon-lat-test2-expiry-device-2026-10-29.json",
+  "newProductionSkuRealCheckoutVerified": false
+}

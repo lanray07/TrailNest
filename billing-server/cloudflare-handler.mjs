@@ -1,5 +1,7 @@
 import {isIP} from 'node:net';
 import {createVerifier, VerificationError, hash} from './verifier.mjs';
+import {createWebCryptoSigner} from './cloudflare-signing.mjs';
+const signLease=createWebCryptoSigner();
 
 const headers={'Content-Type':'application/json','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'};
 const json=(status,body)=>new Response(JSON.stringify(body),{status,headers});
@@ -11,7 +13,7 @@ export function productionVerifier(env){
   const privateKey=Buffer.from(encoded,'base64');
   if(privateKey.toString('base64')!==encoded)throw Error('Signing configuration invalid');
   return createVerifier({environment:'production',applicationId:'com.trailnest.app',parentSku:'com.trailnest.premium.production',
-    termSku:'com.trailnest.premium.production.annual',sharedSecret:env.AMAZON_RVS_SHARED_SECRET,privateKey});
+    termSku:'com.trailnest.premium.production.annual',sharedSecret:env.AMAZON_RVS_SHARED_SECRET,privateKey},{signImpl:signLease});
 }
 
 export function createWorkerHandler({getVerifier=productionVerifier}={}){

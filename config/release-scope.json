@@ -1,0 +1,12 @@
+{
+  "version": "0.8.7",
+  "versionCode": 16,
+  "deviceModels": ["KFTRWI"],
+  "contentCountry": "GB",
+  "countryWideCoverage": false,
+  "provider": "openfreemap",
+  "mapScope": "saved_initial_route_viewport",
+  "routeIds": ["osm-9351283-section-1", "osm-9351283-section-2"],
+  "limitations": "Two Richmond Park one-way sections with AI desk review, not field checked. No reviewed turn directions, safety/accessibility certification or country-wide coverage. Private GPX maps remain provider/budget dependent. Device acceptance is Fire HD 10 (2021) only.",
+  "storeAvailability": "May be distributed in all selected markets as a journal/private GPX tool; this does not assert reviewed local routes or tested country-wide maps in those markets."
+}

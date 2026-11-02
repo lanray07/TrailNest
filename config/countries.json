@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "capabilityStates": ["supported_verified","supported_limited","planned","unavailable"],
   "countries": [
-    {"iso":"GB","languages":["en-GB"],"units":"imperial","mapProviders":["openfreemap"],"coverage":"planned","offlineMaps":false,"accessRules":[],"emergencySources":[],"products":[],"legalNotices":[],"contentStatus":"awaiting_licensed_reviewed_routes"},
+    {"iso":"GB","languages":["en-GB"],"units":"imperial","mapProviders":["openfreemap"],"coverage":"supported_limited","offlineMaps":true,"coverageScope":"Two Tamsin Trail sections, saved initial route viewport on KFTRWI; not country-wide or field checked","accessRules":[],"emergencySources":[],"products":[],"legalNotices":[],"contentStatus":"two_licensed_ai_desk_reviewed_sections"},
     {"iso":"US","languages":["en-US"],"units":"imperial","mapProviders":["openfreemap"],"coverage":"planned","offlineMaps":false,"accessRules":[],"emergencySources":[],"products":[],"legalNotices":[],"contentStatus":"planned"},
     {"iso":"CA","languages":["en-CA","fr-CA"],"units":"metric","mapProviders":["openfreemap"],"coverage":"planned","offlineMaps":false,"accessRules":[],"emergencySources":[],"products":[],"legalNotices":[],"contentStatus":"planned"},
     {"iso":"DE","languages":["de"],"units":"metric","mapProviders":["openfreemap"],"coverage":"planned","offlineMaps":false,"accessRules":[],"emergencySources":[],"products":[],"legalNotices":[],"contentStatus":"planned"},
