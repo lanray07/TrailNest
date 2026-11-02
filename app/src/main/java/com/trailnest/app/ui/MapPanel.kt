@@ -46,7 +46,7 @@ import org.maplibre.geojson.FeatureCollection
     val offline = remember { OfflineMaps.get(context) }
     val packs by offline.packs.collectAsStateWithLifecycle()
     val ready by offline.ready.collectAsStateWithLifecycle()
-    val key = "TNMAP1:$digest"
+    val key = "TNMAP2:$digest"
     val pack = packs[key]
     var show by rememberSaveable(digest) { mutableStateOf(false) }
     var mapError by remember { mutableStateOf(false) }

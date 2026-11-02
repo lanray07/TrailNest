@@ -47,7 +47,9 @@ class MarketingCaptureDeviceTest {
         val copy = instrumentation.context.assets.open("marketing/locales.json").bufferedReader().use { JSONObject(it.readText()) }
         val requested = InstrumentationRegistry.getArguments().getString("marketingLocales")
         val tags = requested?.split(',') ?: AppLanguage.supportedTags(app)
-        val screens = listOf("journal", "recording", "checklist", "photos", "gpx", "progress", "sharing", "settings")
+        val allScreens = listOf("journal", "recording", "checklist", "photos", "gpx", "progress", "sharing", "settings")
+        val screens = InstrumentationRegistry.getArguments().getString("marketingScreens")?.split(',') ?: allScreens
+        require(screens.isNotEmpty() && screens.distinct().size == screens.size && screens.all { it in allScreens })
         val output = File(app.getExternalFilesDir(null), "marketing-captures").apply { mkdirs() }
         val results = JSONArray()
         val overflows = ConcurrentLinkedQueue<String>()
@@ -123,6 +125,19 @@ class MarketingCaptureDeviceTest {
                 }
                 compose.runOnIdle { overflows.clear(); scene = Scene(tag, screen) }
                 compose.waitForIdle()
+                if (screen == "sharing") {
+                    // Invoke the real dialog's Done action to clear focus and
+                    // hide IME; capture the complete form rather than a keyboard.
+                    compose.onNodeWithTag("share-contact").performScrollTo().performImeAction()
+                    compose.waitForIdle()
+                    compose.onNodeWithTag("share-submit").performScrollTo().assertIsDisplayed()
+                }
+                if (screen == "progress") {
+                    val localized = app.createConfigurationContext(Configuration(app.resources.configuration).apply { setLocale(Locale.forLanguageTag(tag)) })
+                    compose.onNodeWithText(localized.getString(R.string.map_load)).performScrollTo().performClick()
+                    compose.waitUntil(60000) { runCatching { compose.onAllNodesWithTag("route-map-rendered").fetchSemanticsNodes().isNotEmpty() }.getOrDefault(false) }
+                    compose.onNodeWithTag("route-map-rendered").performScrollTo().assertIsDisplayed()
+                }
                 if (screen == "photos") {
                     compose.onNodeWithTag("walk-marketing-walk").performScrollTo()
                     compose.waitForIdle()

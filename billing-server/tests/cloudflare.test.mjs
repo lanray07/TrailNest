@@ -56,3 +56,24 @@ test('production loader fixes identity and rejects missing/invalid secrets',()=>
   assert.equal(typeof productionVerifier(e),'function');
   for(const patch of [{BILLING_SIGNING_KEY_BASE64:'bad!'},{AMAZON_RVS_SHARED_SECRET:''}])assert.throws(()=>productionVerifier({...e,...patch}));
 });
+test('production loader grants only the dedicated production annual SKU',async(t)=>{
+  const keys=generateKeyPairSync('rsa',{modulusLength:2048});
+  const now=Date.now();
+  let receipt={receiptId:'qa-receipt',productId:'com.trailnest.premium.production',
+    termSku:'com.trailnest.premium.production.annual',productType:'SUBSCRIPTION',
+    purchaseDate:now-1000,renewalDate:now+3600000,cancelDate:null,gracePeriodEndDate:null,
+    testTransaction:false,betaProduct:false,baseReceipts:null};
+  t.mock.method(globalThis,'fetch',async()=>new Response(JSON.stringify(receipt)));
+  const verify=productionVerifier({BILLING_SIGNING_KEY_BASE64:Buffer.from(keys.privateKey.export({format:'pem',type:'pkcs8'})).toString('base64'),AMAZON_RVS_SHARED_SECRET:'QA-only'});
+  const body={amazonUserId:'qa-user',receiptId:'qa-receipt'};
+  const result=await verify(body);
+  const payload=Buffer.from(result.lease.split('.')[0],'base64url').toString('utf8');
+  assert.match(payload,/\nproduction\n/);
+  assert.match(payload,/\ncom\.trailnest\.premium\.production\ncom\.trailnest\.premium\.production\.annual\n/);
+  for(const patch of [{productId:'com.trailnest.premium',termSku:'com.trailnest.premium_term'},
+    {testTransaction:true},{betaProduct:true}]){
+    const original=receipt;receipt={...receipt,...patch};
+    await assert.rejects(verify(body),error=>error instanceof VerificationError&&error.status===403);
+    receipt=original;
+  }
+});

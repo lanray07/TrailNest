@@ -34,7 +34,7 @@ class MapProviderDeviceTest {
         require(phase in listOf("download", "offline", "interrupt"))
         val routeIndex = if (phase == "interrupt") 1 else 0
         val route = RouteCatalogue.load(context)[routeIndex].route
-        val key = "TNMAP1:${route.sha256}"
+        val key = "TNMAP2:${route.sha256}"
         lateinit var offline: OfflineMaps
         compose.runOnUiThread { offline = OfflineMaps.get(context) }
         compose.waitUntil(10000) { offline.ready.value }

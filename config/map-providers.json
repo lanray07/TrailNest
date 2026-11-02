@@ -6,7 +6,7 @@
   "terms": "https://openfreemap.org/tos/",
   "termsVersion": "2026-10-14",
   "authorization": "Owner instructed use of OpenFreeMap and MapLibre Native.",
-  "attribution": "\u00c2\u00a9 OpenMapTiles \u00c2\u00a9 OpenStreetMap contributors",
+  "attribution": "© OpenMapTiles © OpenStreetMap contributors",
   "dataLicence": "ODbL-1.0",
   "otherNotices": "https://github.com/hyperknot/openfreemap/blob/main/LICENSE.md",
   "maxParallelRequests": 4,
@@ -20,6 +20,7 @@
     "bytes": 50000000,
     "tiles": 3000
   },
-  "deviceAcceptance": "KFTRWI API 28: online download/render, deletion/re-download, immediate cancel/resume (one region), two cold-offline passes; final pass cleared ambient cache while disconnected. Scoped route view only; not live Premium billing or whole-app acceptance.",
-  "deviceEvidence": "artifacts/amazon-paid-progress-2026-11-01.json"
+  "deviceAcceptance": "2 November, TNMAP2: KFTRWI API 28 online/full cold-offline landscape rendering and cancel/resume (one region) passed. 171 tiles / 567 resources / 34,080,017 bytes. Scoped route view; not live Premium billing or whole-app acceptance.",
+  "deviceEvidence": "artifacts/amazon-paid-progress-2026-11-01.json",
+  "offlineViewport": "Initial camera padding plus landscape aspect up to 4:1; same conservative byte/resource caps. TNMAP1 was pre-release draft metadata and is not reused."
 }

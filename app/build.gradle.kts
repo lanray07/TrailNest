@@ -39,7 +39,7 @@ if (billingEnabled) {
     if (gradle.startParameter.taskNames.any { it.contains("release", ignoreCase = true) }) {
         require(file("src/release/assets/billing-verifier-public.pem").isFile) { "A separate production verifier pin is required" }
         require(file("src/release/assets/billing-verifier-public.pem").readText().trim() != file("src/main/assets/billing-verifier-public.pem").readText().trim()) { "Production cannot reuse the sandbox verifier identity" }
-        require(billingUrl == "https://trailnest-billing-production.lanraybanks.workers.dev/v1/amazon/verify" && billingParent == "com.trailnest.premium" && billingAnnual == "com.trailnest.premium_term") { "Production billing requires the fixed production host and annual SKUs" }
+        require(billingUrl == "https://trailnest-billing-production.lanraybanks.workers.dev/v1/amazon/verify" && billingParent == "com.trailnest.premium.production" && billingAnnual == "com.trailnest.premium.production.annual") { "Production billing requires the fixed production host and annual SKUs" }
     }
 }
 android {
@@ -49,7 +49,7 @@ android {
         applicationId = "com.trailnest.app"
         minSdk = 26
         targetSdk = 35
-        versionCode = 15
+        versionCode = 16
         versionName = "0.8.7"
         buildConfigField("boolean", "LAT_BUILD", "false")
         buildConfigField("boolean", "BILLING_ENABLED", billingEnabled.toString())

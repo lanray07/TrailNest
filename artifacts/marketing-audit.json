@@ -1,636 +1,194 @@
 {
-  "ready": false,
+  "ready": true,
   "version": "0.8.7",
   "listings": [
     {
       "locale": "en-US",
-      "ready": false,
-      "errors": [
-        "stale listing app version"
-      ]
+      "ready": true,
+      "errors": []
     },
     {
       "locale": "en-GB",
-      "ready": false,
-      "errors": [
-        "stale listing app version"
-      ]
+      "ready": true,
+      "errors": []
     },
     {
       "locale": "en-AU",
-      "ready": false,
-      "errors": [
-        "stale listing app version"
-      ]
+      "ready": true,
+      "errors": []
     },
     {
       "locale": "en-IN",
-      "ready": false,
-      "errors": [
-        "stale listing app version"
-      ]
+      "ready": true,
+      "errors": []
     },
     {
       "locale": "fr",
-      "ready": false,
-      "errors": [
-        "stale listing app version"
-      ]
+      "ready": true,
+      "errors": []
     },
     {
       "locale": "de",
-      "ready": false,
-      "errors": [
-        "stale listing app version"
-      ]
+      "ready": true,
+      "errors": []
     },
     {
       "locale": "it",
-      "ready": false,
-      "errors": [
-        "stale listing app version"
-      ]
+      "ready": true,
+      "errors": []
     },
     {
       "locale": "es",
-      "ready": false,
-      "errors": [
-        "stale listing app version"
-      ]
+      "ready": true,
+      "errors": []
     },
     {
       "locale": "es-MX",
-      "ready": false,
-      "errors": [
-        "stale listing app version"
-      ]
+      "ready": true,
+      "errors": []
     },
     {
       "locale": "pt-BR",
-      "ready": false,
-      "errors": [
-        "stale listing app version"
-      ]
+      "ready": true,
+      "errors": []
     },
     {
       "locale": "pt-PT",
-      "ready": false,
-      "errors": [
-        "stale listing app version"
-      ]
+      "ready": true,
+      "errors": []
     },
     {
       "locale": "nl",
-      "ready": false,
-      "errors": [
-        "stale listing app version"
-      ]
+      "ready": true,
+      "errors": []
     },
     {
       "locale": "pl",
-      "ready": false,
-      "errors": [
-        "stale listing app version"
-      ]
+      "ready": true,
+      "errors": []
     },
     {
       "locale": "sv",
-      "ready": false,
-      "errors": [
-        "stale listing app version"
-      ]
+      "ready": true,
+      "errors": []
     },
     {
       "locale": "ja",
-      "ready": false,
-      "errors": [
-        "stale listing app version"
-      ]
+      "ready": true,
+      "errors": []
     }
   ],
   "screenshots": [
     {
       "locale": "en-US",
-      "ready": false,
-      "errors": [
-        "journal: stale or unverified installed wording",
-        "journal: stale app version",
-        "recording: stale or unverified installed wording",
-        "recording: stale app version",
-        "checklist: stale or unverified installed wording",
-        "checklist: stale app version",
-        "photos: stale or unverified installed wording",
-        "photos: stale app version",
-        "gpx: stale or unverified installed wording",
-        "gpx: stale app version",
-        "progress: stale or unverified installed wording",
-        "progress: stale app version",
-        "sharing: stale or unverified installed wording",
-        "sharing: stale app version",
-        "settings: stale or unverified installed wording",
-        "settings: stale app version"
-      ]
+      "ready": true,
+      "errors": []
     },
     {
       "locale": "en-GB",
-      "ready": false,
-      "errors": [
-        "journal: stale or unverified installed wording",
-        "journal: stale app version",
-        "recording: stale or unverified installed wording",
-        "recording: stale app version",
-        "checklist: stale or unverified installed wording",
-        "checklist: stale app version",
-        "photos: stale or unverified installed wording",
-        "photos: stale app version",
-        "gpx: stale or unverified installed wording",
-        "gpx: stale app version",
-        "progress: stale or unverified installed wording",
-        "progress: stale app version",
-        "sharing: stale or unverified installed wording",
-        "sharing: stale app version",
-        "settings: stale or unverified installed wording",
-        "settings: stale app version"
-      ]
+      "ready": true,
+      "errors": []
     },
     {
       "locale": "en-AU",
-      "ready": false,
-      "errors": [
-        "journal: stale or unverified installed wording",
-        "journal: stale app version",
-        "recording: stale or unverified installed wording",
-        "recording: stale app version",
-        "checklist: stale or unverified installed wording",
-        "checklist: stale app version",
-        "photos: stale or unverified installed wording",
-        "photos: stale app version",
-        "gpx: stale or unverified installed wording",
-        "gpx: stale app version",
-        "progress: stale or unverified installed wording",
-        "progress: stale app version",
-        "sharing: stale or unverified installed wording",
-        "sharing: stale app version",
-        "settings: stale or unverified installed wording",
-        "settings: stale app version"
-      ]
+      "ready": true,
+      "errors": []
     },
     {
       "locale": "en-IN",
-      "ready": false,
-      "errors": [
-        "journal: stale or unverified installed wording",
-        "journal: stale app version",
-        "recording: stale or unverified installed wording",
-        "recording: stale app version",
-        "checklist: stale or unverified installed wording",
-        "checklist: stale app version",
-        "photos: stale or unverified installed wording",
-        "photos: stale app version",
-        "gpx: stale or unverified installed wording",
-        "gpx: stale app version",
-        "progress: stale or unverified installed wording",
-        "progress: stale app version",
-        "sharing: stale or unverified installed wording",
-        "sharing: stale app version",
-        "settings: stale or unverified installed wording",
-        "settings: stale app version"
-      ]
+      "ready": true,
+      "errors": []
     },
     {
       "locale": "fr",
-      "ready": false,
-      "errors": [
-        "journal: stale or unverified installed wording",
-        "journal: stale app version",
-        "recording: stale or unverified installed wording",
-        "recording: stale app version",
-        "checklist: stale or unverified installed wording",
-        "checklist: stale app version",
-        "photos: stale or unverified installed wording",
-        "photos: stale app version",
-        "gpx: stale or unverified installed wording",
-        "gpx: stale app version",
-        "progress: stale or unverified installed wording",
-        "progress: stale app version",
-        "sharing: stale or unverified installed wording",
-        "sharing: stale app version",
-        "settings: stale or unverified installed wording",
-        "settings: stale app version"
-      ]
+      "ready": true,
+      "errors": []
     },
     {
       "locale": "de",
-      "ready": false,
-      "errors": [
-        "journal: stale or unverified installed wording",
-        "journal: stale app version",
-        "recording: stale or unverified installed wording",
-        "recording: stale app version",
-        "checklist: stale or unverified installed wording",
-        "checklist: stale app version",
-        "photos: stale or unverified installed wording",
-        "photos: stale app version",
-        "gpx: stale or unverified installed wording",
-        "gpx: stale app version",
-        "progress: stale or unverified installed wording",
-        "progress: stale app version",
-        "sharing: stale or unverified installed wording",
-        "sharing: stale app version",
-        "settings: stale or unverified installed wording",
-        "settings: stale app version"
-      ]
+      "ready": true,
+      "errors": []
     },
     {
       "locale": "it",
-      "ready": false,
-      "errors": [
-        "journal: stale or unverified installed wording",
-        "journal: stale app version",
-        "recording: stale or unverified installed wording",
-        "recording: stale app version",
-        "checklist: stale or unverified installed wording",
-        "checklist: stale app version",
-        "photos: stale or unverified installed wording",
-        "photos: stale app version",
-        "gpx: stale or unverified installed wording",
-        "gpx: stale app version",
-        "progress: stale or unverified installed wording",
-        "progress: stale app version",
-        "sharing: stale or unverified installed wording",
-        "sharing: stale app version",
-        "settings: stale or unverified installed wording",
-        "settings: stale app version"
-      ]
+      "ready": true,
+      "errors": []
     },
     {
       "locale": "es",
-      "ready": false,
-      "errors": [
-        "journal: stale or unverified installed wording",
-        "journal: stale app version",
-        "recording: stale or unverified installed wording",
-        "recording: stale app version",
-        "checklist: stale or unverified installed wording",
-        "checklist: stale app version",
-        "photos: stale or unverified installed wording",
-        "photos: stale app version",
-        "gpx: stale or unverified installed wording",
-        "gpx: stale app version",
-        "progress: stale or unverified installed wording",
-        "progress: stale app version",
-        "sharing: stale or unverified installed wording",
-        "sharing: stale app version",
-        "settings: stale or unverified installed wording",
-        "settings: stale app version"
-      ]
+      "ready": true,
+      "errors": []
     },
     {
       "locale": "es-MX",
-      "ready": false,
-      "errors": [
-        "journal: stale or unverified installed wording",
-        "journal: stale app version",
-        "recording: stale or unverified installed wording",
-        "recording: stale app version",
-        "checklist: stale or unverified installed wording",
-        "checklist: stale app version",
-        "photos: stale or unverified installed wording",
-        "photos: stale app version",
-        "gpx: stale or unverified installed wording",
-        "gpx: stale app version",
-        "progress: stale or unverified installed wording",
-        "progress: stale app version",
-        "sharing: stale or unverified installed wording",
-        "sharing: stale app version",
-        "settings: stale or unverified installed wording",
-        "settings: stale app version"
-      ]
+      "ready": true,
+      "errors": []
     },
     {
       "locale": "pt-BR",
-      "ready": false,
-      "errors": [
-        "journal: stale or unverified installed wording",
-        "journal: stale app version",
-        "recording: stale or unverified installed wording",
-        "recording: stale app version",
-        "checklist: stale or unverified installed wording",
-        "checklist: stale app version",
-        "photos: stale or unverified installed wording",
-        "photos: stale app version",
-        "gpx: stale or unverified installed wording",
-        "gpx: stale app version",
-        "progress: stale or unverified installed wording",
-        "progress: stale app version",
-        "sharing: stale or unverified installed wording",
-        "sharing: stale app version",
-        "settings: stale or unverified installed wording",
-        "settings: stale app version"
-      ]
+      "ready": true,
+      "errors": []
     },
     {
       "locale": "pt-PT",
-      "ready": false,
-      "errors": [
-        "journal: stale or unverified installed wording",
-        "journal: stale app version",
-        "recording: stale or unverified installed wording",
-        "recording: stale app version",
-        "checklist: stale or unverified installed wording",
-        "checklist: stale app version",
-        "photos: stale or unverified installed wording",
-        "photos: stale app version",
-        "gpx: stale or unverified installed wording",
-        "gpx: stale app version",
-        "progress: stale or unverified installed wording",
-        "progress: stale app version",
-        "sharing: stale or unverified installed wording",
-        "sharing: stale app version",
-        "settings: stale or unverified installed wording",
-        "settings: stale app version"
-      ]
+      "ready": true,
+      "errors": []
     },
     {
       "locale": "nl",
-      "ready": false,
-      "errors": [
-        "journal: stale or unverified installed wording",
-        "journal: stale app version",
-        "recording: stale or unverified installed wording",
-        "recording: stale app version",
-        "checklist: stale or unverified installed wording",
-        "checklist: stale app version",
-        "photos: stale or unverified installed wording",
-        "photos: stale app version",
-        "gpx: stale or unverified installed wording",
-        "gpx: stale app version",
-        "progress: stale or unverified installed wording",
-        "progress: stale app version",
-        "sharing: stale or unverified installed wording",
-        "sharing: stale app version",
-        "settings: stale or unverified installed wording",
-        "settings: stale app version"
-      ]
+      "ready": true,
+      "errors": []
     },
     {
       "locale": "pl",
-      "ready": false,
-      "errors": [
-        "journal: stale or unverified installed wording",
-        "journal: stale app version",
-        "recording: stale or unverified installed wording",
-        "recording: stale app version",
-        "checklist: stale or unverified installed wording",
-        "checklist: stale app version",
-        "photos: stale or unverified installed wording",
-        "photos: stale app version",
-        "gpx: stale or unverified installed wording",
-        "gpx: stale app version",
-        "progress: stale or unverified installed wording",
-        "progress: stale app version",
-        "sharing: stale or unverified installed wording",
-        "sharing: stale app version",
-        "settings: stale or unverified installed wording",
-        "settings: stale app version"
-      ]
+      "ready": true,
+      "errors": []
     },
     {
       "locale": "sv",
-      "ready": false,
-      "errors": [
-        "journal: stale or unverified installed wording",
-        "journal: stale app version",
-        "recording: stale or unverified installed wording",
-        "recording: stale app version",
-        "checklist: stale or unverified installed wording",
-        "checklist: stale app version",
-        "photos: stale or unverified installed wording",
-        "photos: stale app version",
-        "gpx: stale or unverified installed wording",
-        "gpx: stale app version",
-        "progress: stale or unverified installed wording",
-        "progress: stale app version",
-        "sharing: stale or unverified installed wording",
-        "sharing: stale app version",
-        "settings: stale or unverified installed wording",
-        "settings: stale app version"
-      ]
+      "ready": true,
+      "errors": []
     },
     {
       "locale": "ja",
-      "ready": false,
-      "errors": [
-        "journal: stale or unverified installed wording",
-        "journal: stale app version",
-        "recording: stale or unverified installed wording",
-        "recording: stale app version",
-        "checklist: stale or unverified installed wording",
-        "checklist: stale app version",
-        "photos: stale or unverified installed wording",
-        "photos: stale app version",
-        "gpx: stale or unverified installed wording",
-        "gpx: stale app version",
-        "progress: stale or unverified installed wording",
-        "progress: stale app version",
-        "sharing: stale or unverified installed wording",
-        "sharing: stale app version",
-        "settings: stale or unverified installed wording",
-        "settings: stale app version"
-      ]
+      "ready": true,
+      "errors": []
     },
     {
       "locale": "ar",
-      "ready": false,
-      "errors": [
-        "journal: stale or unverified installed wording",
-        "journal: stale app version",
-        "recording: stale or unverified installed wording",
-        "recording: stale app version",
-        "checklist: stale or unverified installed wording",
-        "checklist: stale app version",
-        "photos: stale or unverified installed wording",
-        "photos: stale app version",
-        "gpx: stale or unverified installed wording",
-        "gpx: stale app version",
-        "progress: stale or unverified installed wording",
-        "progress: stale app version",
-        "sharing: stale or unverified installed wording",
-        "sharing: stale app version",
-        "settings: stale or unverified installed wording",
-        "settings: stale app version"
-      ]
+      "ready": true,
+      "errors": []
     },
     {
       "locale": "hi",
-      "ready": false,
-      "errors": [
-        "journal: stale or unverified installed wording",
-        "journal: stale app version",
-        "recording: stale or unverified installed wording",
-        "recording: stale app version",
-        "checklist: stale or unverified installed wording",
-        "checklist: stale app version",
-        "photos: stale or unverified installed wording",
-        "photos: stale app version",
-        "gpx: stale or unverified installed wording",
-        "gpx: stale app version",
-        "progress: stale or unverified installed wording",
-        "progress: stale app version",
-        "sharing: stale or unverified installed wording",
-        "sharing: stale app version",
-        "settings: stale or unverified installed wording",
-        "settings: stale app version"
-      ]
+      "ready": true,
+      "errors": []
     },
     {
       "locale": "zh-Hans",
-      "ready": false,
-      "errors": [
-        "journal: stale or unverified installed wording",
-        "journal: stale app version",
-        "recording: stale or unverified installed wording",
-        "recording: stale app version",
-        "checklist: stale or unverified installed wording",
-        "checklist: stale app version",
-        "photos: stale or unverified installed wording",
-        "photos: stale app version",
-        "gpx: stale or unverified installed wording",
-        "gpx: stale app version",
-        "progress: stale or unverified installed wording",
-        "progress: stale app version",
-        "sharing: stale or unverified installed wording",
-        "sharing: stale app version",
-        "settings: stale or unverified installed wording",
-        "settings: stale app version"
-      ]
+      "ready": true,
+      "errors": []
     },
     {
       "locale": "ko",
-      "ready": false,
-      "errors": [
-        "journal: stale or unverified installed wording",
-        "journal: stale app version",
-        "recording: stale or unverified installed wording",
-        "recording: stale app version",
-        "checklist: stale or unverified installed wording",
-        "checklist: stale app version",
-        "photos: stale or unverified installed wording",
-        "photos: stale app version",
-        "gpx: stale or unverified installed wording",
-        "gpx: stale app version",
-        "progress: stale or unverified installed wording",
-        "progress: stale app version",
-        "sharing: stale or unverified installed wording",
-        "sharing: stale app version",
-        "settings: stale or unverified installed wording",
-        "settings: stale app version"
-      ]
+      "ready": true,
+      "errors": []
     },
     {
       "locale": "zh-Hant",
-      "ready": false,
-      "errors": [
-        "journal: stale or unverified installed wording",
-        "journal: stale app version",
-        "recording: stale or unverified installed wording",
-        "recording: stale app version",
-        "checklist: stale or unverified installed wording",
-        "checklist: stale app version",
-        "photos: stale or unverified installed wording",
-        "photos: stale app version",
-        "gpx: stale or unverified installed wording",
-        "gpx: stale app version",
-        "progress: stale or unverified installed wording",
-        "progress: stale app version",
-        "sharing: stale or unverified installed wording",
-        "sharing: stale app version",
-        "settings: stale or unverified installed wording",
-        "settings: stale app version"
-      ]
+      "ready": true,
+      "errors": []
     },
     {
       "locale": "tr",
-      "ready": false,
-      "errors": [
-        "journal: stale or unverified installed wording",
-        "journal: stale app version",
-        "recording: stale or unverified installed wording",
-        "recording: stale app version",
-        "checklist: stale or unverified installed wording",
-        "checklist: stale app version",
-        "photos: stale or unverified installed wording",
-        "photos: stale app version",
-        "gpx: stale or unverified installed wording",
-        "gpx: stale app version",
-        "progress: stale or unverified installed wording",
-        "progress: stale app version",
-        "sharing: stale or unverified installed wording",
-        "sharing: stale app version",
-        "settings: stale or unverified installed wording",
-        "settings: stale app version"
-      ]
+      "ready": true,
+      "errors": []
     },
     {
       "locale": "id",
-      "ready": false,
-      "errors": [
-        "journal: stale or unverified installed wording",
-        "journal: stale app version",
-        "recording: stale or unverified installed wording",
-        "recording: stale app version",
-        "checklist: stale or unverified installed wording",
-        "checklist: stale app version",
-        "photos: stale or unverified installed wording",
-        "photos: stale app version",
-        "gpx: stale or unverified installed wording",
-        "gpx: stale app version",
-        "progress: stale or unverified installed wording",
-        "progress: stale app version",
-        "sharing: stale or unverified installed wording",
-        "sharing: stale app version",
-        "settings: stale or unverified installed wording",
-        "settings: stale app version"
-      ]
+      "ready": true,
+      "errors": []
     }
   ],
-  "failures": [
-    "Appstore listing en-US: stale listing app version.",
-    "Appstore listing en-GB: stale listing app version.",
-    "Appstore listing en-AU: stale listing app version.",
-    "Appstore listing en-IN: stale listing app version.",
-    "Appstore listing fr: stale listing app version.",
-    "Appstore listing de: stale listing app version.",
-    "Appstore listing it: stale listing app version.",
-    "Appstore listing es: stale listing app version.",
-    "Appstore listing es-MX: stale listing app version.",
-    "Appstore listing pt-BR: stale listing app version.",
-    "Appstore listing pt-PT: stale listing app version.",
-    "Appstore listing nl: stale listing app version.",
-    "Appstore listing pl: stale listing app version.",
-    "Appstore listing sv: stale listing app version.",
-    "Appstore listing ja: stale listing app version.",
-    "Localized screenshots en-US: journal: stale or unverified installed wording; journal: stale app version; recording: stale or unverified installed wording; recording: stale app version; checklist: stale or unverified installed wording; checklist: stale app version; photos: stale or unverified installed wording; photos: stale app version; gpx: stale or unverified installed wording; gpx: stale app version; progress: stale or unverified installed wording; progress: stale app version; sharing: stale or unverified installed wording; sharing: stale app version; settings: stale or unverified installed wording; settings: stale app version.",
-    "Localized screenshots en-GB: journal: stale or unverified installed wording; journal: stale app version; recording: stale or unverified installed wording; recording: stale app version; checklist: stale or unverified installed wording; checklist: stale app version; photos: stale or unverified installed wording; photos: stale app version; gpx: stale or unverified installed wording; gpx: stale app version; progress: stale or unverified installed wording; progress: stale app version; sharing: stale or unverified installed wording; sharing: stale app version; settings: stale or unverified installed wording; settings: stale app version.",
-    "Localized screenshots en-AU: journal: stale or unverified installed wording; journal: stale app version; recording: stale or unverified installed wording; recording: stale app version; checklist: stale or unverified installed wording; checklist: stale app version; photos: stale or unverified installed wording; photos: stale app version; gpx: stale or unverified installed wording; gpx: stale app version; progress: stale or unverified installed wording; progress: stale app version; sharing: stale or unverified installed wording; sharing: stale app version; settings: stale or unverified installed wording; settings: stale app version.",
-    "Localized screenshots en-IN: journal: stale or unverified installed wording; journal: stale app version; recording: stale or unverified installed wording; recording: stale app version; checklist: stale or unverified installed wording; checklist: stale app version; photos: stale or unverified installed wording; photos: stale app version; gpx: stale or unverified installed wording; gpx: stale app version; progress: stale or unverified installed wording; progress: stale app version; sharing: stale or unverified installed wording; sharing: stale app version; settings: stale or unverified installed wording; settings: stale app version.",
-    "Localized screenshots fr: journal: stale or unverified installed wording; journal: stale app version; recording: stale or unverified installed wording; recording: stale app version; checklist: stale or unverified installed wording; checklist: stale app version; photos: stale or unverified installed wording; photos: stale app version; gpx: stale or unverified installed wording; gpx: stale app version; progress: stale or unverified installed wording; progress: stale app version; sharing: stale or unverified installed wording; sharing: stale app version; settings: stale or unverified installed wording; settings: stale app version.",
-    "Localized screenshots de: journal: stale or unverified installed wording; journal: stale app version; recording: stale or unverified installed wording; recording: stale app version; checklist: stale or unverified installed wording; checklist: stale app version; photos: stale or unverified installed wording; photos: stale app version; gpx: stale or unverified installed wording; gpx: stale app version; progress: stale or unverified installed wording; progress: stale app version; sharing: stale or unverified installed wording; sharing: stale app version; settings: stale or unverified installed wording; settings: stale app version.",
-    "Localized screenshots it: journal: stale or unverified installed wording; journal: stale app version; recording: stale or unverified installed wording; recording: stale app version; checklist: stale or unverified installed wording; checklist: stale app version; photos: stale or unverified installed wording; photos: stale app version; gpx: stale or unverified installed wording; gpx: stale app version; progress: stale or unverified installed wording; progress: stale app version; sharing: stale or unverified installed wording; sharing: stale app version; settings: stale or unverified installed wording; settings: stale app version.",
-    "Localized screenshots es: journal: stale or unverified installed wording; journal: stale app version; recording: stale or unverified installed wording; recording: stale app version; checklist: stale or unverified installed wording; checklist: stale app version; photos: stale or unverified installed wording; photos: stale app version; gpx: stale or unverified installed wording; gpx: stale app version; progress: stale or unverified installed wording; progress: stale app version; sharing: stale or unverified installed wording; sharing: stale app version; settings: stale or unverified installed wording; settings: stale app version.",
-    "Localized screenshots es-MX: journal: stale or unverified installed wording; journal: stale app version; recording: stale or unverified installed wording; recording: stale app version; checklist: stale or unverified installed wording; checklist: stale app version; photos: stale or unverified installed wording; photos: stale app version; gpx: stale or unverified installed wording; gpx: stale app version; progress: stale or unverified installed wording; progress: stale app version; sharing: stale or unverified installed wording; sharing: stale app version; settings: stale or unverified installed wording; settings: stale app version.",
-    "Localized screenshots pt-BR: journal: stale or unverified installed wording; journal: stale app version; recording: stale or unverified installed wording; recording: stale app version; checklist: stale or unverified installed wording; checklist: stale app version; photos: stale or unverified installed wording; photos: stale app version; gpx: stale or unverified installed wording; gpx: stale app version; progress: stale or unverified installed wording; progress: stale app version; sharing: stale or unverified installed wording; sharing: stale app version; settings: stale or unverified installed wording; settings: stale app version.",
-    "Localized screenshots pt-PT: journal: stale or unverified installed wording; journal: stale app version; recording: stale or unverified installed wording; recording: stale app version; checklist: stale or unverified installed wording; checklist: stale app version; photos: stale or unverified installed wording; photos: stale app version; gpx: stale or unverified installed wording; gpx: stale app version; progress: stale or unverified installed wording; progress: stale app version; sharing: stale or unverified installed wording; sharing: stale app version; settings: stale or unverified installed wording; settings: stale app version.",
-    "Localized screenshots nl: journal: stale or unverified installed wording; journal: stale app version; recording: stale or unverified installed wording; recording: stale app version; checklist: stale or unverified installed wording; checklist: stale app version; photos: stale or unverified installed wording; photos: stale app version; gpx: stale or unverified installed wording; gpx: stale app version; progress: stale or unverified installed wording; progress: stale app version; sharing: stale or unverified installed wording; sharing: stale app version; settings: stale or unverified installed wording; settings: stale app version.",
-    "Localized screenshots pl: journal: stale or unverified installed wording; journal: stale app version; recording: stale or unverified installed wording; recording: stale app version; checklist: stale or unverified installed wording; checklist: stale app version; photos: stale or unverified installed wording; photos: stale app version; gpx: stale or unverified installed wording; gpx: stale app version; progress: stale or unverified installed wording; progress: stale app version; sharing: stale or unverified installed wording; sharing: stale app version; settings: stale or unverified installed wording; settings: stale app version.",
-    "Localized screenshots sv: journal: stale or unverified installed wording; journal: stale app version; recording: stale or unverified installed wording; recording: stale app version; checklist: stale or unverified installed wording; checklist: stale app version; photos: stale or unverified installed wording; photos: stale app version; gpx: stale or unverified installed wording; gpx: stale app version; progress: stale or unverified installed wording; progress: stale app version; sharing: stale or unverified installed wording; sharing: stale app version; settings: stale or unverified installed wording; settings: stale app version.",
-    "Localized screenshots ja: journal: stale or unverified installed wording; journal: stale app version; recording: stale or unverified installed wording; recording: stale app version; checklist: stale or unverified installed wording; checklist: stale app version; photos: stale or unverified installed wording; photos: stale app version; gpx: stale or unverified installed wording; gpx: stale app version; progress: stale or unverified installed wording; progress: stale app version; sharing: stale or unverified installed wording; sharing: stale app version; settings: stale or unverified installed wording; settings: stale app version.",
-    "Localized screenshots ar: journal: stale or unverified installed wording; journal: stale app version; recording: stale or unverified installed wording; recording: stale app version; checklist: stale or unverified installed wording; checklist: stale app version; photos: stale or unverified installed wording; photos: stale app version; gpx: stale or unverified installed wording; gpx: stale app version; progress: stale or unverified installed wording; progress: stale app version; sharing: stale or unverified installed wording; sharing: stale app version; settings: stale or unverified installed wording; settings: stale app version.",
-    "Localized screenshots hi: journal: stale or unverified installed wording; journal: stale app version; recording: stale or unverified installed wording; recording: stale app version; checklist: stale or unverified installed wording; checklist: stale app version; photos: stale or unverified installed wording; photos: stale app version; gpx: stale or unverified installed wording; gpx: stale app version; progress: stale or unverified installed wording; progress: stale app version; sharing: stale or unverified installed wording; sharing: stale app version; settings: stale or unverified installed wording; settings: stale app version.",
-    "Localized screenshots zh-Hans: journal: stale or unverified installed wording; journal: stale app version; recording: stale or unverified installed wording; recording: stale app version; checklist: stale or unverified installed wording; checklist: stale app version; photos: stale or unverified installed wording; photos: stale app version; gpx: stale or unverified installed wording; gpx: stale app version; progress: stale or unverified installed wording; progress: stale app version; sharing: stale or unverified installed wording; sharing: stale app version; settings: stale or unverified installed wording; settings: stale app version.",
-    "Localized screenshots ko: journal: stale or unverified installed wording; journal: stale app version; recording: stale or unverified installed wording; recording: stale app version; checklist: stale or unverified installed wording; checklist: stale app version; photos: stale or unverified installed wording; photos: stale app version; gpx: stale or unverified installed wording; gpx: stale app version; progress: stale or unverified installed wording; progress: stale app version; sharing: stale or unverified installed wording; sharing: stale app version; settings: stale or unverified installed wording; settings: stale app version.",
-    "Localized screenshots zh-Hant: journal: stale or unverified installed wording; journal: stale app version; recording: stale or unverified installed wording; recording: stale app version; checklist: stale or unverified installed wording; checklist: stale app version; photos: stale or unverified installed wording; photos: stale app version; gpx: stale or unverified installed wording; gpx: stale app version; progress: stale or unverified installed wording; progress: stale app version; sharing: stale or unverified installed wording; sharing: stale app version; settings: stale or unverified installed wording; settings: stale app version.",
-    "Localized screenshots tr: journal: stale or unverified installed wording; journal: stale app version; recording: stale or unverified installed wording; recording: stale app version; checklist: stale or unverified installed wording; checklist: stale app version; photos: stale or unverified installed wording; photos: stale app version; gpx: stale or unverified installed wording; gpx: stale app version; progress: stale or unverified installed wording; progress: stale app version; sharing: stale or unverified installed wording; sharing: stale app version; settings: stale or unverified installed wording; settings: stale app version.",
-    "Localized screenshots id: journal: stale or unverified installed wording; journal: stale app version; recording: stale or unverified installed wording; recording: stale app version; checklist: stale or unverified installed wording; checklist: stale app version; photos: stale or unverified installed wording; photos: stale app version; gpx: stale or unverified installed wording; gpx: stale app version; progress: stale or unverified installed wording; progress: stale app version; sharing: stale or unverified installed wording; sharing: stale app version; settings: stale or unverified installed wording; settings: stale app version."
-  ]
+  "failures": []
 }

@@ -30,7 +30,7 @@ class OfflineMaps private constructor(context: Context) {
             override fun onList(offlineRegions: Array<OfflineRegion>?) {
                 offlineRegions.orEmpty().forEach { region ->
                     val key = region.metadata.toString(Charsets.UTF_8)
-                    if (key.matches(Regex("TNMAP1:[a-f0-9]{64}"))) {
+                    if (key.matches(Regex("TNMAP2:[a-f0-9]{64}"))) {
                         regions[key] = region
                         region.setDownloadState(OfflineRegion.STATE_INACTIVE)
                         region.getStatus(object : OfflineRegion.OfflineRegionStatusCallback {
@@ -114,10 +114,17 @@ class OfflineMaps private constructor(context: Context) {
         }
         fun bounds(points: List<GeoPoint>): LatLngBounds? {
             if (points.size < 2) return null
-            val south = (points.minOf { it.lat } - .002).coerceAtLeast(-85.0)
-            val north = (points.maxOf { it.lat } + .002).coerceAtMost(85.0)
-            val west = (points.minOf { it.lon } - .002).coerceAtLeast(-180.0)
-            val east = (points.maxOf { it.lon } + .002).coerceAtMost(180.0)
+            val midLat = (points.minOf { it.lat } + points.maxOf { it.lat }) / 2
+            val midLon = (points.minOf { it.lon } + points.maxOf { it.lon }) / 2
+            // Include the initial camera's 48dp padding in its 320dp view and
+            // landscape viewports up to 4:1. A tight route box leaves visible
+            // neighbouring tiles absent even when its own region is complete.
+            val latSpan = (points.maxOf { it.lat } - points.minOf { it.lat } + .004) * 1.6
+            val lonSpan = max((points.maxOf { it.lon } - points.minOf { it.lon } + .004) * 1.6, latSpan * 4 / cos(Math.toRadians(midLat)).coerceAtLeast(.08))
+            val south = (midLat - latSpan / 2).coerceAtLeast(-85.0)
+            val north = (midLat + latSpan / 2).coerceAtMost(85.0)
+            val west = (midLon - lonSpan / 2).coerceAtLeast(-180.0)
+            val east = (midLon + lonSpan / 2).coerceAtMost(180.0)
             if (south >= north || west >= east || east - west > 5) return null
             // Include both current style sources, every zoom and a boundary tile
             // margin. The network budget remains authoritative if styles change.

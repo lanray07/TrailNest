@@ -10,9 +10,9 @@
 <body><main>
   <a href="../">TrailNest</a>
   <h1>Your walks are yours.</h1>
-  <p class="intro">Privacy policy for TrailNest Android 0.8.6 and the 0.8.7 candidate. Updated 1 November 2026. Version 0.8.7 has not yet been submitted; its production purchasing remains disabled until configuration and acceptance are complete.</p>
+  <p class="intro">Privacy policy for TrailNest Android 0.8.6 and the 0.8.7 candidate. Updated 2 November 2026. Version 0.8.7 is a signed paid candidate in the Amazon submission draft, not a released app. Its production verifier is configured; store availability and release acceptance remain pending.</p>
   <h2>Who operates TrailNest</h2>
-  <p>TrailNest is operated by O. Bankole. For privacy questions, data requests or support, email <a href="mailto:banksmi@mail.com">banksmi@mail.com</a>. Please do not send passwords, payment details or full purchase receipts.</p>
+  <p>TrailNest is operated by O. Bankole, United Kingdom. For privacy questions, data requests or support, email <a href="mailto:banksmi@mail.com">banksmi@mail.com</a>. Please do not send passwords, payment details or full purchase receipts.</p>
   <h2>Your private journal</h2>
   <p>Journal entries, notes, imported GPX routes, preferences and recording drafts are stored in the app's private storage on your device. Attached photos are copied into private app files and location metadata is removed from those copies. Original photos outside TrailNest are unchanged. TrailNest has no account, cloud sync, analytics or advertisements in this version. It does not upload your journal, photos or routes to a TrailNest service.</p>
   <h2>Location and walk recording</h2>
@@ -28,7 +28,7 @@
   <h2>Purchases</h2>
   <p>Purchasing is disabled in the 0.8.6 production candidate. It does not send Amazon account or receipt identifiers to TrailNest's receipt-verification service. Separate Amazon Live App Testing builds have different purchase-verification behaviour and are outside the scope of this production policy.</p>
   <h2>Receipt verification when production purchasing is enabled</h2>
-  <p>The planned paid 0.8.7 configuration uses Amazon checkout. Amazon handles payment, renewal and cancellation; TrailNest does not collect card details. When checking or restoring an entitlement, the Amazon SDK supplies an Amazon user identifier and receipt identifier. TrailNest sends these over HTTPS to its Cloudflare-hosted verifier, which sends them to Amazon's Receipt Verification Service to check the annual product and current subscription status. This configuration is not yet enabled for production use.</p>
+  <p>The paid 0.8.7 candidate uses Amazon checkout. Amazon handles payment, renewal and cancellation; TrailNest does not collect card details. When checking or restoring an entitlement, the Amazon SDK supplies an Amazon user identifier and receipt identifier. TrailNest sends these over HTTPS to its Cloudflare-hosted verifier, which sends them to Amazon's Receipt Verification Service to check the annual product and current subscription status. This candidate has not yet been released; an offer is available only when Amazon supplies an eligible subscription product.</p>
   <p>The verifier returns an expiring signed lease bound to hashed account/receipt identifiers, package and product. Billing state and the lease are stored privately on the device to support bounded offline access and restore. The verifier has no receipt database and does not intentionally log identifiers, request bodies, secrets or RVS URLs; application observability is disabled. Network metadata is used for rate limiting. Cloudflare and Amazon may process infrastructure/security metadata under their own policies. This does not mean those providers retain no logs.</p>
   <p>Removing app data does not cancel an Amazon subscription. Manage or cancel it through Amazon. Restore while online to refresh entitlement. The maximum six-hour application lease is separate from the subscription period. Expired or revoked receipts cannot grant new access.</p>
   <h2>Keeping and deleting information</h2>

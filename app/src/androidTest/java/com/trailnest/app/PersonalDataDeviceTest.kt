@@ -40,11 +40,14 @@ class PersonalDataDeviceTest {
             db.execSQL("INSERT INTO routes VALUES('route','Keep route','0.0,0.0;0.0,0.001',111,123,'digest',1)")
             db.version = 1
         }
-        val migrated = Room.databaseBuilder(context, TrailDatabase::class.java, name).addMigrations(TrailDatabase.MIGRATION_1_2).build()
+        val migrated = Room.databaseBuilder(context, TrailDatabase::class.java, name)
+            .addMigrations(TrailDatabase.MIGRATION_1_2, TrailDatabase.MIGRATION_2_3).build()
         try {
             val kept = migrated.dao().walk("existing")!!
             assertEquals("Keep these notes", kept.notes); assertTrue(kept.favourite); assertEquals(4, kept.rating)
-            migrated.openHelper.readableDatabase.query("SELECT title FROM routes WHERE id='route'").use { assertTrue(it.moveToFirst()); assertEquals("Keep route", it.getString(0)) }
+            migrated.openHelper.readableDatabase.query("SELECT title,provenance FROM routes WHERE id='route'").use {
+                assertTrue(it.moveToFirst()); assertEquals("Keep route", it.getString(0)); assertTrue(it.isNull(1))
+            }
             migrated.dao().addPhoto(WalkPhoto("photo", kept.id, "test.jpg"))
             assertEquals(1, migrated.dao().photosFor(kept.id).size)
             migrated.dao().deleteWalk(kept.id)

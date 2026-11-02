@@ -1,6 +1,6 @@
 # Privacy additions for the paid 0.8.7 release — draft
 
-Prepared 1 November 2026. The public-pages source now includes these map and conditional production-verification disclosures alongside the earlier 0.8.6 behaviour. Publish/verify that page and reconcile Amazon disclosures before enabling the paid release. This source update is not completion of the operator/legal review. Operator remains **O. Bankole**, public support **banksmi@mail.com**; no operator country or completed legal assessment is invented.
+Prepared 1 November 2026. The public-pages source now includes these map and conditional production-verification disclosures alongside the earlier 0.8.6 behaviour. Publish/verify that page and reconcile Amazon disclosures before enabling the paid release. This source update is not completion of the operator/legal review. Operator remains **O. Bankole**, public support **banksmi@mail.com**; the owner confirmed United Kingdom on 2 November. This does not constitute a completed legal assessment.
 
 ## Optional maps
 
@@ -20,7 +20,7 @@ Removing the app's local data does not cancel an Amazon subscription. Manage or 
 
 ## Outstanding operator decisions and disclosures
 
-- Confirm the complete operator/contact information and relevant jurisdiction.
+- Operator identity/contact and country are recorded: O. Bankole, United Kingdom, banksmi@mail.com. Review any additional market-specific information obligations before release.
 - Establish and operate a support-correspondence retention/deletion process; the previous policy does not specify a fixed period. Do not promise an automated deletion schedule that is not implemented.
 - Assess provider roles, lawful basis, transfers and rights handling for the intended markets. Do not claim legal compliance from this draft.
 - Update Amazon's questionnaire for external map-area/IP requests and receipt/account verification. Preserve accurate local processing, optional voice-service and recording explanations from the existing policy.

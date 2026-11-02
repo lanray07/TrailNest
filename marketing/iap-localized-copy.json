@@ -1,0 +1,112 @@
+{
+  "en-US": {
+    "title": "TrailNest Premium",
+    "description": "0.8.7+: Premium adds offline basemap downloads for your routes and more private GPX packs. Provider download limits apply. Annual subscription renews automatically unless canceled through Amazon.",
+    "provenance": "Agent-authored localized IAP copy under existing owner translation-review waiver; not human-approved."
+  },
+  "en-GB": {
+    "title": "TrailNest Premium",
+    "description": "0.8.7+: Premium adds offline basemap downloads for your routes and more private GPX packs. Provider download limits apply. Annual subscription renews automatically unless cancelled through Amazon.",
+    "provenance": "Agent-authored localized IAP copy under existing owner translation-review waiver; not human-approved."
+  },
+  "en-AU": {
+    "title": "TrailNest Premium",
+    "description": "0.8.7+: Premium adds offline basemap downloads for your routes and more private GPX packs. Provider download limits apply. Annual subscription renews automatically unless cancelled through Amazon.",
+    "provenance": "Agent-authored localized IAP copy under existing owner translation-review waiver; not human-approved."
+  },
+  "en-IN": {
+    "title": "TrailNest Premium",
+    "description": "0.8.7+: Premium adds offline basemap downloads for your routes and more private GPX packs. Provider download limits apply. Annual subscription renews automatically unless cancelled through Amazon.",
+    "provenance": "Agent-authored localized IAP copy under existing owner translation-review waiver; not human-approved."
+  },
+  "fr": {
+    "title": "TrailNest Premium",
+    "description": "0.8.7+: Premium ajoute le téléchargement de fonds de carte hors ligne pour vos itinéraires et davantage de packs GPX privés. Les limites du fournisseur s’appliquent. L’abonnement annuel se renouvelle automatiquement, sauf résiliation via Amazon.",
+    "provenance": "Agent-authored localized IAP copy under existing owner translation-review waiver; not human-approved."
+  },
+  "de": {
+    "title": "TrailNest Premium",
+    "description": "0.8.7+: Premium bietet Offline-Basiskarten für Ihre Routen und weitere private GPX-Pakete. Die Downloadlimits des Anbieters gelten. Das Jahresabonnement verlängert sich automatisch, sofern es nicht über Amazon gekündigt wird.",
+    "provenance": "Agent-authored localized IAP copy under existing owner translation-review waiver; not human-approved."
+  },
+  "it": {
+    "title": "TrailNest Premium",
+    "description": "0.8.7+: Premium aggiunge mappe di base offline per i tuoi percorsi e più pacchetti GPX privati. Si applicano i limiti di download del fornitore. L’abbonamento annuale si rinnova automaticamente, salvo disdetta tramite Amazon.",
+    "provenance": "Agent-authored localized IAP copy under existing owner translation-review waiver; not human-approved."
+  },
+  "es": {
+    "title": "TrailNest Premium",
+    "description": "0.8.7+: Premium añade mapas base sin conexión para tus rutas y más paquetes GPX privados. Se aplican los límites de descarga del proveedor. La suscripción anual se renueva automáticamente, salvo que la canceles a través de Amazon.",
+    "provenance": "Agent-authored localized IAP copy under existing owner translation-review waiver; not human-approved."
+  },
+  "es-MX": {
+    "title": "TrailNest Premium",
+    "description": "0.8.7+: Premium añade mapas base sin conexión para tus rutas y más paquetes GPX privados. Se aplican los límites de descarga del proveedor. La suscripción anual se renueva automáticamente, salvo que la canceles a través de Amazon.",
+    "provenance": "Agent-authored localized IAP copy under existing owner translation-review waiver; not human-approved."
+  },
+  "pt-BR": {
+    "title": "TrailNest Premium",
+    "description": "0.8.7+: Premium oferece downloads de mapas base offline para seus percursos e mais pacotes GPX privados. Os limites de download do provedor se aplicam. A assinatura anual é renovada automaticamente, a menos que seja cancelada pela Amazon.",
+    "provenance": "Agent-authored localized IAP copy under existing owner translation-review waiver; not human-approved."
+  },
+  "pt-PT": {
+    "title": "TrailNest Premium",
+    "description": "0.8.7+: Premium permite descarregar mapas base offline para os seus percursos e guardar mais pacotes GPX privados. Aplicam-se os limites de download do fornecedor. A subscrição anual renova-se automaticamente, salvo cancelamento através da Amazon.",
+    "provenance": "Agent-authored localized IAP copy under existing owner translation-review waiver; not human-approved."
+  },
+  "nl": {
+    "title": "TrailNest Premium",
+    "description": "0.8.7+: Premium biedt offline basiskaarten voor uw routes en meer privé GPX-pakketten. De downloadlimieten van de aanbieder gelden. Het jaarabonnement wordt automatisch verlengd, tenzij je het via Amazon opzegt.",
+    "provenance": "Agent-authored localized IAP copy under existing owner translation-review waiver; not human-approved."
+  },
+  "pl": {
+    "title": "TrailNest Premium",
+    "description": "0.8.7+: Premium umożliwia pobieranie map bazowych offline dla tras i przechowywanie większej liczby prywatnych pakietów GPX. Obowiązują limity dostawcy. Roczna subskrypcja odnawia się automatycznie, chyba że anulujesz ją w Amazon.",
+    "provenance": "Agent-authored localized IAP copy under existing owner translation-review waiver; not human-approved."
+  },
+  "sv": {
+    "title": "TrailNest Premium",
+    "description": "0.8.7+: Premium ger offlinekartor för dina rutter och fler privata GPX-paket. Leverantörens hämtningsgränser gäller. Årsprenumerationen förnyas automatiskt om den inte sägs upp via Amazon.",
+    "provenance": "Agent-authored localized IAP copy under existing owner translation-review waiver; not human-approved."
+  },
+  "ja": {
+    "title": "TrailNest Premium",
+    "description": "0.8.7+: Premiumではルートのオフライン基本地図をダウンロードし、より多くの非公開GPXパックを保存できます。提供元のダウンロード上限が適用されます。 年間サブスクリプションは、Amazonで解約しない限り自動更新されます。",
+    "provenance": "Agent-authored localized IAP copy under existing owner translation-review waiver; not human-approved."
+  },
+  "ar": {
+    "title": "TrailNest Premium",
+    "description": "0.8.7+: يتيح Premium تنزيل الخرائط الأساسية بلا اتصال لمساراتك وحفظ المزيد من حزم GPX الخاصة. تُطبق حدود التنزيل لدى المزوّد. يتجدد الاشتراك السنوي تلقائيًا ما لم يتم إلغاؤه عبر Amazon.",
+    "provenance": "Agent-authored localized IAP copy under existing owner translation-review waiver; not human-approved."
+  },
+  "hi": {
+    "title": "TrailNest Premium",
+    "description": "0.8.7+: Premium से आपके मार्गों के लिए ऑफ़लाइन आधार मानचित्र डाउनलोड और अधिक निजी GPX पैक मिलते हैं। प्रदाता की डाउनलोड सीमाएँ लागू हैं। वार्षिक सदस्यता अपने आप नवीनीकृत होती है, जब तक आप इसे Amazon के माध्यम से रद्द नहीं करते।",
+    "provenance": "Agent-authored localized IAP copy under existing owner translation-review waiver; not human-approved."
+  },
+  "zh-Hans": {
+    "title": "TrailNest Premium",
+    "description": "0.8.7+: Premium提供路线离线底图下载和更多私人GPX包。受提供方下载上限限制。 年度订阅会自动续订，除非通过 Amazon 取消。",
+    "provenance": "Agent-authored localized IAP copy under existing owner translation-review waiver; not human-approved."
+  },
+  "ko": {
+    "title": "TrailNest Premium",
+    "description": "0.8.7+: Premium은 경로의 오프라인 기본 지도 다운로드와 더 많은 비공개 GPX 팩을 제공합니다. 제공업체의 다운로드 한도가 적용됩니다. 연간 구독은 Amazon에서 취소하지 않으면 자동으로 갱신됩니다.",
+    "provenance": "Agent-authored localized IAP copy under existing owner translation-review waiver; not human-approved."
+  },
+  "zh-Hant": {
+    "title": "TrailNest Premium",
+    "description": "0.8.7+: Premium提供路線離線底圖下載及更多私人GPX套件。受提供方下載上限限制。 年度訂閱會自動續訂，除非透過 Amazon 取消。",
+    "provenance": "Agent-authored localized IAP copy under existing owner translation-review waiver; not human-approved."
+  },
+  "tr": {
+    "title": "TrailNest Premium",
+    "description": "0.8.7+: Premium, rotalarınız için çevrimdışı temel harita indirmeleri ve daha fazla özel GPX paketi sunar. Sağlayıcının indirme sınırları geçerlidir. Yıllık abonelik, Amazon üzerinden iptal edilmediği sürece otomatik olarak yenilenir.",
+    "provenance": "Agent-authored localized IAP copy under existing owner translation-review waiver; not human-approved."
+  },
+  "id": {
+    "title": "TrailNest Premium",
+    "description": "0.8.7+: Premium menambahkan unduhan peta dasar offline untuk rute Anda dan lebih banyak paket GPX pribadi. Batas unduhan penyedia berlaku. Langganan tahunan diperpanjang otomatis kecuali dibatalkan melalui Amazon.",
+    "provenance": "Agent-authored localized IAP copy under existing owner translation-review waiver; not human-approved."
+  }
+}

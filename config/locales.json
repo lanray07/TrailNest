@@ -1,5 +1,5 @@
 {
-  "checkedOn": "2026-10-30",
+  "checkedOn": "2026-11-02",
   "requiredAppLocales": ["en-US","fr","es","de","it","pt-BR","nl","pl","ar","hi","ja","ko","zh-Hans","zh-Hant","tr","id","sv"],
   "translationPolicy": {
     "humanReviewRequired": false,
@@ -7,8 +7,8 @@
     "changedOn": "2026-10-23"
   },
   "source": "https://developer.amazon.com/docs/app-submission/distribute-your-app-internationally.html",
-  "note": "Observed in the authenticated production-draft Console on 30 October 2026: 15 description localizations and 11 image/video localizations. App binary language support is separate. The public documentation list differs from the current Console; preserve observed mappings and recheck before each release.",
-  "consoleMappingEvidence": "artifacts/amazon-localized-draft-upload-2026-10-30.json",
+  "note": "Observed in the authenticated production-draft Console on 2 November 2026: 15 description localizations and 11 image/video localizations. App binary language support is separate. The public documentation list differs from the current Console; preserve observed mappings and recheck before each release.",
+  "consoleMappingEvidence": "artifacts/amazon-localized-draft-upload-2026-11-02.json",
   "locales": [
     {"tag":"en-US","amazonListing":true,"reviewed":false,"amazonImageLocalization":true},
     {"tag":"en-GB","amazonListing":true,"reviewed":false,"amazonImageLocalization":true},

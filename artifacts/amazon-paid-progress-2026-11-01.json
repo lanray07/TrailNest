@@ -1,14 +1,14 @@
 {
   "date": "2026-11-01",
   "version": "0.8.7",
-  "versionCode": 15,
+  "versionCode": 16,
   "submittedToAmazon": false,
   "test1Changed": false,
-  "paidBuildProduced": false,
+  "paidBuildProduced": true,
   "maps": {
     "renderer": "MapLibre Native 11.8.2",
     "provider": "OpenFreeMap",
-    "fireAcceptance": "passed scoped map rendering, deletion/re-download, interrupt/resume and cold-offline restart on KFTRWI API 28; production entitlement not tested",
+    "fireAcceptance": "TNMAP2 landscape-region fix passed online, cold-offline full rendering and interrupt/resume on 2 November. Broader whole-app/production-billing acceptance remains.",
     "implementation": "compiled; online renderer and offline pack download exercised on Fire",
     "onlineDownload": {
       "package": "com.trailnest.app.draft",
@@ -32,9 +32,18 @@
     "interruptResume": {
       "passed": true,
       "matchingNativeRegionCount": 1,
-      "bytes": 22414050,
-      "resources": 427,
-      "tiles": 31
+      "bytes": 34540670,
+      "resources": 582,
+      "tiles": 186
+    },
+    "currentRegion": {
+      "metadataVersion": "TNMAP2",
+      "bytes": 34080017,
+      "resources": 567,
+      "tiles": 171,
+      "coldOfflinePassed": true,
+      "ambientCacheClearedWhileOffline": true,
+      "wifiRestored": true
     }
   },
   "routes": {
@@ -47,22 +56,30 @@
   "cloudflare": {
     "url": "https://trailnest-billing-production.lanraybanks.workers.dev",
     "perRequestCpuMeasured": false,
-    "readinessHttp": 503,
-    "secretsUploaded": false,
+    "readinessHttp": 204,
+    "secretsUploaded": true,
     "rateBindingProvisioned": true,
     "startupMs": 5,
     "liveAmazonVerificationTested": false,
-    "deploymentVersion": "0d6e5484-f939-4ba5-9cb4-91a8bf96f8b2",
+    "deploymentVersion": "6a37c537-b9c3-4f55-9829-2d08b31d80b2",
     "localWorkerd": {
       "productionKeyUsed": false,
       "signatureVerified": true,
       "syntheticResponse": 200,
       "readiness": 204,
       "malformedRequest": 400
+    },
+    "keyProvenance": "Existing Amazon Developer Console shared key retrieved through authenticated UI; encrypted with current-user DPAPI outside Git, uploaded only to the separate production Worker. Value not retained in reports.",
+    "perRequestCpuSample": {
+      "requests": 3,
+      "errors": 0,
+      "p50Microseconds": 5557,
+      "p99Microseconds": 6184,
+      "scope": "readiness/negative paths only, not successful production receipt acceptance"
     }
   },
   "checks": {
-    "backendPassed": 24,
+    "backendPassed": 25,
     "strings": 278,
     "toolingPassed": 23,
     "lintWarnings": 56,
@@ -88,18 +105,30 @@
       "passed": true,
       "fontScale": 2.0,
       "humanAccessibilityReviewed": false
+    },
+    "deviceLayoutMatrix": {
+      "configurations": 88,
+      "locales": 22,
+      "widthsDp": [
+        360,
+        800
+      ],
+      "fontScales": [
+        1,
+        2
+      ],
+      "failures": 0,
+      "humanAccessibilityReviewed": false
     }
   },
   "releaseGate": {
-    "failureCount": 43,
+    "failureCount": 6,
     "report": "artifacts/release-gate.json",
     "ready": false
   },
   "blockers": [
-    "Authenticated browser and Windows Computer Use fail before startup with kernel-assets path error, including after reset.",
-    "Amazon RVS key is write-only in the unchanged LAT Vercel project; no usable local copy found.",
-    "Map-specific Fire checks and Arabic/German layout smoke passed. Further device tests paused after shared-device foreground interference; whole-app accessibility and paid production-device acceptance remain.",
-    "Live CPU/production billing acceptance, privacy/disclosures, title/coverage acceptance and fresh localized listings/screenshots remain."
+    "Whole-app and production purchase acceptance, human screen-reader review, scoped coverage and complete privacy acceptance remain unverified.",
+    "Dedicated production IAP publishing and code16 draft replacement in progress."
   ],
   "details": "docs/PAID-RELEASE-2026-11-01.md",
   "draftApk": {
@@ -116,6 +145,31 @@
     "legalAssessmentComplete": false,
     "publicHttp": 200,
     "supportHttp": 200,
-    "pagesDeployment": "https://github.com/lanray07/TrailNest/actions/runs/41302859681"
+    "pagesDeployment": "https://github.com/lanray07/TrailNest/actions/runs/41302859681",
+    "operator": "O. Bankole",
+    "country": "United Kingdom"
+  },
+  "updatedOn": "2026-11-02",
+  "paidBuildCurrent": "Signed paid code16 passed 67 JVM tests, release lint and retained v2/v3 signature checks; uploaded and saved in production draft.",
+  "marketing": {
+    "localImages": 176,
+    "amazonImageLocales": 11,
+    "amazonImages": 88,
+    "amazonDescriptionLocales": 15,
+    "reloadVerified": true,
+    "humanReviewed": false
+  },
+  "titleDecision": {
+    "keepName": true,
+    "ownerConfirmed": true,
+    "knownConflict": "Same-name camping journal on Apple App Store under another developer; no trademark clearance claimed."
+  },
+  "iap": {
+    "parentSku": "com.trailnest.premium.production",
+    "annualSku": "com.trailnest.premium.production.annual",
+    "status": "Approved",
+    "localizedEntries": 12,
+    "basePriceGbp": 4.99,
+    "oldLatSkuUnchanged": true
   }
 }

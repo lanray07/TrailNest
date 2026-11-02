@@ -10,8 +10,8 @@ export function productionVerifier(env){
   if(typeof encoded!=='string'||encoded.length>16384||!/^[A-Za-z0-9+/]+={0,2}$/.test(encoded))throw Error('Signing configuration incomplete');
   const privateKey=Buffer.from(encoded,'base64');
   if(privateKey.toString('base64')!==encoded)throw Error('Signing configuration invalid');
-  return createVerifier({environment:'production',applicationId:'com.trailnest.app',parentSku:'com.trailnest.premium',
-    termSku:'com.trailnest.premium_term',sharedSecret:env.AMAZON_RVS_SHARED_SECRET,privateKey});
+  return createVerifier({environment:'production',applicationId:'com.trailnest.app',parentSku:'com.trailnest.premium.production',
+    termSku:'com.trailnest.premium.production.annual',sharedSecret:env.AMAZON_RVS_SHARED_SECRET,privateKey});
 }
 
 export function createWorkerHandler({getVerifier=productionVerifier}={}){

@@ -1,11 +1,11 @@
 {
   "marketingScreenshotsApproved": true,
   "marketingReview": {
-    "version": "0.8.6",
+    "version": "0.8.7",
     "reviewer": "Codex",
-    "date": "2026-10-29",
+    "date": "2026-11-02",
     "manifest": "marketing/screenshots.json",
-    "scope": "176 localized native screenshots only; no production submission approval",
+    "scope": "176 localized native screenshots only; no whole-app submission approval",
     "humanReviewed": false
   },
   "signingConfigured": true,
@@ -17,5 +17,13 @@
       "v3"
     ],
     "date": "2026-10-30"
+  },
+  "titleAvailabilityChecked": true,
+  "titleReview": {
+    "checkedOn": "2026-11-02",
+    "source": "https://apps.apple.com/be/app/trailnest-camping-journal/id6797452551",
+    "finding": "Same-name camping journal from another developer, overlapping journal/GPX features.",
+    "ownerDecision": "Keep TrailNest for Amazon",
+    "legalClearance": false
   }
 }

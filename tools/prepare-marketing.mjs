@@ -5,6 +5,7 @@ const root = new URL('../', import.meta.url);
 const read = async file => JSON.parse(await fs.readFile(new URL(file, root), 'utf8'));
 const registry = await read('config/locales.json');
 const copy = await read('marketing/localized-copy.json');
+const iapCopy = await read('marketing/iap-localized-copy.json');
 const source = await read('localisation/source.json');
 const version = (await fs.readFile(new URL('app/build.gradle.kts', root), 'utf8')).match(/versionName\s*=\s*"([\d.]+)"/)[1];
 const headlineKeys = { journal: 'journal_title', recording: 'recording_channel', checklist: 'checklist_title', photos: 'add_photo', gpx: 'ui_import_your_own_gpx', progress: 'ui_your_route_at_a_glance', sharing: 'share_plan_title', settings: 'ui_make_yourself_at_home' };
@@ -21,6 +22,7 @@ for (const locale of registry.locales) {
   if (!extra) throw Error(`Missing metadata for ${locale.tag}`);
   for (const field of ['shortDescription', 'voiceDisclosure', 'sampleWalk', 'demoLabel', 'releaseNotes']) if (typeof extra[field] !== 'string' || !extra[field].trim()) throw Error(`${locale.tag}: missing ${field}`);
   for (const screen of Object.keys(headlineKeys)) if (typeof extra.headlines?.[screen] !== 'string' || !extra.headlines[screen].trim()) throw Error(`${locale.tag}: missing headline ${screen}`);
+  const reviewDate = new Intl.DateTimeFormat(locale.tag, { dateStyle: 'medium', timeZone: 'UTC' }).format(new Date('2026-11-01T12:00:00Z'));
   const listing = {
     locale: locale.tag, version, status: 'ready_for_submission',
     assetStatus: 'prepared_and_agent_checked; whole_app_release_not_approved',
@@ -30,17 +32,19 @@ for (const locale of registry.locales) {
     longDescription: [extra.shortDescription,
       `${text('journal_description')} ${text('photo_privacy')}`,
       text('checklist_description'),
-      `${text('packs_description')} ${text('ui_imported_routes_remain_private_and_unreviewed_check_access_and_co')}`,
+      `GPX: ${text('packs_description')} ${text('ui_imported_routes_remain_private_and_unreviewed_check_access_and_co')}`,
       `${text('recording_description')} ${text('recording_privacy')}`,
       extra.voiceDisclosure,
       text('ui_system_speech_services_may_process_voice_data_under_their_own_pri'),
-      `${text('ui_purchasing_is_not_available_in_this_build_no_products_prices_or_p')} ${text('ui_your_checklist_journal_and_one_offline_geometry_pack_are_availabl')}`
+      `${text('map_title')}. ${text('map_privacy')}`,
+      `Tamsin Trail · 1 / Tamsin Trail · 2. ${text('catalogue_review').replace('%1$s', reviewDate)} ${text('catalogue_shape')} ${text('catalogue_access')}`,
+      iapCopy[locale.tag].description.replace(/^0\.8\.7\+: /, '')
     ].join('\n\n'),
     features: [text('ui_walk_journal'), text('checklist_description'), text('add_photo'), text('ui_import_your_own_gpx'), text('language_title')],
     keywords: [text('ui_walk_journal'), text('checklist'), 'GPX', text('recording_channel')],
     releaseNotes: extra.releaseNotes,
     metadataSource: 'https://developer.amazon.com/docs/app-submission/appstore-details.html',
-    checkedOn: '2026-10-29', provenance: extra.provenance,
+    checkedOn: '2026-11-02', provenance: extra.provenance,
     humanReviewed: false, productionSubmissionApproved: false
   };
   await fs.writeFile(new URL(`marketing/listing-${locale.tag}.json`, root), JSON.stringify(listing, null, 2) + '\n');

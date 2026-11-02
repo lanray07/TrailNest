@@ -1,13 +1,13 @@
 {
   "locale": "en-GB",
-  "version": "0.8.6",
+  "version": "0.8.7",
   "status": "ready_for_submission",
   "assetStatus": "prepared_and_agent_checked; whole_app_release_not_approved",
   "amazonStorefrontMapped": true,
   "titleAvailability": "not_verified",
   "currentBuildTitle": "TrailNest – Walk journal",
   "shortDescription": "Prepare a walk, keep a private journal with photos, and bring your own GPX route.",
-  "longDescription": "Prepare a walk, keep a private journal with photos, and bring your own GPX route.\n\nA private space for the places you’ve been and the moments worth keeping. Up to eight photos per walk. Copies stay private on this device; location metadata is removed.\n\nYour personal pre-walk checklist. Adapt your kit to the route, weather and your needs.\n\nPrivate GPX geometry stored on your device. Basemap tiles, elevation and reviewed directions are not included. Imported routes remain private and unreviewed. Check access and conditions before you walk.\n\nRecords while the screen is off or the app is minimised, with a persistent notification. Keep location enabled. Battery controls and device GPS availability can interrupt recording. Distance is an estimate; this is not a safety tracker. Only duration and estimated distance are stored privately on this device. Coordinates are used in memory and discarded. Nothing is uploaded.\n\nSpeech depends on compatible installed services. Voice commands currently support English only; touch controls are always available.\n\nSystem speech services may process voice data under their own privacy terms. Uninstalling clears local data. Backups are disabled.\n\nPurchasing is not available in this build. No products, prices or paid entitlements are configured. Your checklist, journal and one offline geometry pack are available free. GPX tools are included in this development release.",
+  "longDescription": "Prepare a walk, keep a private journal with photos, and bring your own GPX route.\n\nA private space for the places you’ve been and the moments worth keeping. Up to eight photos per walk. Copies stay private on this device; location metadata is removed.\n\nYour personal pre-walk checklist. Adapt your kit to the route, weather and your needs.\n\nGPX: Private GPX geometry stored on your device. Basemap tiles, elevation and reviewed directions are not included. Imported routes remain private and unreviewed. Check access and conditions before you walk.\n\nRecords while the screen is off or the app is minimised, with a persistent notification. Keep location enabled. Battery controls and device GPS availability can interrupt recording. Distance is an estimate; this is not a safety tracker. Only duration and estimated distance are stored privately on this device. Coordinates are used in memory and discarded. Nothing is uploaded.\n\nSpeech depends on compatible installed services. Voice commands currently support English only; touch controls are always available.\n\nSystem speech services may process voice data under their own privacy terms. Uninstalling clears local data. Backups are disabled.\n\nRoute map. Loading sends your IP address and viewed map area to OpenFreeMap/Cloudflare. Offline downloads require Premium.\n\nTamsin Trail · 1 / Tamsin Trail · 2. AI desk review · 1 Nov 2026 · Not field checked. One-way trail section. Plan your return. Daytime use only. Check official notices, access and closures before setting out. Shared paths; uneven surfaces. No reviewed turn instructions.\n\nPremium adds offline basemap downloads for your routes and more private GPX packs. Provider download limits apply. Annual subscription renews automatically unless cancelled through Amazon.",
   "features": [
     "Walk journal",
     "Your personal pre-walk checklist. Adapt your kit to the route, weather and your needs.",
@@ -23,7 +23,7 @@
   ],
   "releaseNotes": "Adds Traditional Chinese, Turkish and Indonesian, bringing app language support to 22 locales.",
   "metadataSource": "https://developer.amazon.com/docs/app-submission/appstore-details.html",
-  "checkedOn": "2026-10-29",
+  "checkedOn": "2026-11-02",
   "provenance": "agent-authored localized metadata; owner translation-review waiver; not native-speaker certification",
   "humanReviewed": false,
   "productionSubmissionApproved": false
