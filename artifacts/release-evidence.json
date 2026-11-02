@@ -25,5 +25,22 @@
     "finding": "Same-name camping journal from another developer, overlapping journal/GPX features.",
     "ownerDecision": "Keep TrailNest for Amazon",
     "legalClearance": false
+  },
+  "accessibilityReviewed": true,
+  "accessibilityReview": {
+    "record": "artifacts/voiceview-human-0.8.7.json",
+    "version": "0.8.7",
+    "date": "2026-11-02",
+    "humanReviewed": true,
+    "scope": "Owner-reported VoiceView clarity and named controls on KFTRWI draft, combined with 88 automated layout/a11y configurations; no universal certification."
+  },
+  "supportRetention": {
+    "approvedBy": "Owner",
+    "date": "2026-11-02",
+    "closedCaseRetentionDays": 90,
+    "reviewFrequency": "monthly",
+    "automaticDeletion": false,
+    "operatorResponsible": true,
+    "document": "docs/SUPPORT-RETENTION-PROPOSAL.md"
   }
 }

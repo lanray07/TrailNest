@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-02",
+  "version": "0.8.7",
+  "versionCode": 16,
+  "device": "Fire HD 10 (2021), KFTRWI",
+  "package": "com.trailnest.app.draft",
+  "reviewer": "Owner",
+  "humanReviewed": true,
+  "reportedObservations": {
+    "speech": "voice is clear",
+    "operability": "Yes, all listed controls were usable"
+  },
+  "operabilityScope": [
+    "navigation tabs",
+    "route/map controls",
+    "checklist checked state",
+    "App language picker",
+    "journal fields",
+    "Restore purchases control"
+  ],
+  "checklist": "docs/FIRE-VOICEVIEW-ACCEPTANCE.md",
+  "limits": [
+    "Owner-reported result, not an independently witnessed audio capture.",
+    "No claim of every language, every VoiceView action, field-route safety or production checkout acceptance."
+  ],
+  "test1Changed": false
+}
