@@ -92,7 +92,7 @@
     "instrumentationApk": "compiled; current map download, interrupt/resume, cold-offline, and Arabic/German 200% narrow/tablet checks passed",
     "humanTranslationsApproved": 0,
     "workflowYaml": "parsed",
-    "githubPassedRun": "https://github.com/lanray07/TrailNest/actions/runs/41302859689",
+    "githubPassedRun": "https://github.com/lanray07/TrailNest/actions/runs/41449327894",
     "deviceLayoutSmoke": {
       "locales": [
         "ar",
@@ -119,16 +119,35 @@
       ],
       "failures": 0,
       "humanAccessibilityReviewed": false
+    },
+    "coreDevice": {
+      "tests": 13,
+      "passed": 13,
+      "package": "com.trailnest.app.draft",
+      "device": "KFTRWI/API28",
+      "keyboardLocales": [
+        "en-US",
+        "ar",
+        "de",
+        "ja",
+        "hi"
+      ],
+      "keyboardWidthsDp": [
+        360,
+        800
+      ],
+      "keyboardFontScale": 2,
+      "scope": "Targeted core regression; not human screen-reader or real production purchase acceptance"
     }
   },
   "releaseGate": {
-    "failureCount": 6,
+    "failureCount": 5,
     "report": "artifacts/release-gate.json",
     "ready": false
   },
   "blockers": [
-    "Whole-app and production purchase acceptance, human screen-reader review, scoped coverage and complete privacy acceptance remain unverified.",
-    "Dedicated production IAP publishing and code16 draft replacement in progress."
+    "Five release-gate acceptance items remain; see docs/RELEASE-ACCEPTANCE-2026-11-02.md.",
+    "App code16 saved in production draft and dedicated annual IAP Approved; no app submission or real production purchase performed."
   ],
   "details": "docs/PAID-RELEASE-2026-11-01.md",
   "draftApk": {
@@ -145,9 +164,10 @@
     "legalAssessmentComplete": false,
     "publicHttp": 200,
     "supportHttp": 200,
-    "pagesDeployment": "https://github.com/lanray07/TrailNest/actions/runs/41302859681",
+    "pagesDeployment": "https://github.com/lanray07/TrailNest/actions/runs/41449327732",
     "operator": "O. Bankole",
-    "country": "United Kingdom"
+    "country": "United Kingdom",
+    "publicOperatorUkVerified": true
   },
   "updatedOn": "2026-11-02",
   "paidBuildCurrent": "Signed paid code16 passed 67 JVM tests, release lint and retained v2/v3 signature checks; uploaded and saved in production draft.",
