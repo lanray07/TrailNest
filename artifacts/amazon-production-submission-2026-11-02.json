@@ -1,0 +1,26 @@
+{
+  "observedAtUtc": "2026-11-02T14:38:17Z",
+  "version": "0.8.7",
+  "versionCode": 16,
+  "package": "com.trailnest.app",
+  "releaseId": "amzn1.devportal.apprelease.88ac065d7c6240948b5ee9e636e5e8c5",
+  "status": "SUBMITTED",
+  "visibleConfirmation": "App Submission Successful",
+  "visibleHistoryDate": "02 Nov 2026",
+  "estimatedAppstoreDate": "07 Nov 2026, 07:00 AM PST",
+  "approved": false,
+  "published": false,
+  "targetDevice": "Fire HD 10 (2021), KFTRWI",
+  "apkSha256": "6019e869b63e1d4ddf07b7d7d58feebb85e170553f1624f75db65846ecadf7d2",
+  "sourceCommit": "f4e3405b64add1f92fd521fd60892a3045d4b369",
+  "ci": {
+    "url": "https://github.com/lanray07/TrailNest/actions/runs/41462840481",
+    "conclusion": "success"
+  },
+  "exportDeclaration": "Checked under the owner's explicit certification for this unchanged code16 candidate.",
+  "reviewerInstructions": "Submitted with device, map/route, voice, annual IAP, privacy and pre-release billing limits.",
+  "realProductionPurchaseVerified": false,
+  "postPublicationAction": "Owner-controlled real production checkout, receipt verification, Restore and lifecycle smoke remains pending publication.",
+  "test1Changed": false,
+  "proofScreenshot": "artifacts/reports/fire-map-2026-11-01/amazon-submitted-code16-nov2.png"
+}

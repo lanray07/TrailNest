@@ -2,7 +2,7 @@
   "date": "2026-11-01",
   "version": "0.8.7",
   "versionCode": 16,
-  "submittedToAmazon": false,
+  "submittedToAmazon": true,
   "test1Changed": false,
   "paidBuildProduced": true,
   "maps": {
@@ -171,7 +171,7 @@
     "supportRetentionApproved": true
   },
   "updatedOn": "2026-11-02",
-  "paidBuildCurrent": "Signed paid code16 passed 67 JVM tests, release lint and retained v2/v3 signature checks; uploaded and saved in production draft.",
+  "paidBuildCurrent": "Signed paid code16 submitted to Amazon; final GitHub checks passed. Approval and publication pending.",
   "marketing": {
     "localImages": 176,
     "amazonImageLocales": 11,
@@ -195,5 +195,18 @@
   },
   "postPublicationChecks": [
     "Owner-controlled real production checkout/receipt, Restore and subsequent lifecycle smoke; not claimed complete before publication."
-  ]
+  ],
+  "amazonSubmission": {
+    "status": "SUBMITTED",
+    "date": "2026-11-02",
+    "estimatedAppstoreDate": "07 Nov 2026, 07:00 AM PST",
+    "record": "artifacts/amazon-production-submission-2026-11-02.json",
+    "approved": false,
+    "published": false
+  },
+  "finalCi": {
+    "runId": 41462840481,
+    "conclusion": "success",
+    "sourceCommit": "f4e3405b64add1f92fd521fd60892a3045d4b369"
+  }
 }
