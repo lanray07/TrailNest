@@ -3,6 +3,18 @@
   "versionCode": 16,
   "bytes": 59760209,
   "sha256": "6019e869b63e1d4ddf07b7d7d58feebb85e170553f1624f75db65846ecadf7d2",
+  "productionBindings": {
+    "APPLICATION_ID": "com.trailnest.app",
+    "BUILD_TYPE": "release",
+    "DEBUG": false,
+    "LAT_BUILD": false,
+    "BILLING_ENABLED": true,
+    "BILLING_ENVIRONMENT": "production",
+    "BILLING_PARENT_SKU": "com.trailnest.premium.production",
+    "BILLING_ANNUAL_SKU": "com.trailnest.premium.production.annual",
+    "BILLING_VERIFICATION_URL": "https://trailnest-billing-production.lanraybanks.workers.dev/v1/amazon/verify"
+  },
+  "publicKeySpkiSha256": "c7fe43170031a6639d352d98881a811892356ff85bee3b175fa91620b7c1b2ed",
   "compiledProductionBindingsVerified": true,
   "independentPublicPinVerified": true,
   "realProductionPurchaseVerified": false

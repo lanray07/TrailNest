@@ -6,6 +6,7 @@
   "annualSku": "com.trailnest.premium.production.annual",
   "applicationId": "com.trailnest.app",
   "privateIdentity": "Current-user DPAPI outside Git; separate from sandbox and LAT",
-  "acceptance": "pending_runtime_and_device_checks",
-  "publicKeySpkiSha256": "c7fe43170031a6639d352d98881a811892356ff85bee3b175fa91620b7c1b2ed"
+  "acceptance": "pre_release_qualified_real_production_purchase_pending_after_publication",
+  "publicKeySpkiSha256": "c7fe43170031a6639d352d98881a811892356ff85bee3b175fa91620b7c1b2ed",
+  "acceptanceRecord": "artifacts/billing-pre-release-acceptance-0.8.7.json"
 }

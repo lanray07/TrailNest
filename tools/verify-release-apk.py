@@ -102,6 +102,8 @@ def verify(apk):
             raise ValueError('Amazon authentication public key mismatch')
     return {'version': config['VERSION_NAME'], 'versionCode': config['VERSION_CODE'],
             'bytes': apk.stat().st_size, 'sha256': hashlib.sha256(apk.read_bytes()).hexdigest(),
+            'productionBindings': {name: config[name] for name in expected},
+            'publicKeySpkiSha256': hashlib.sha256(der).hexdigest(),
             'compiledProductionBindingsVerified': True, 'independentPublicPinVerified': True,
             'realProductionPurchaseVerified': False}
 

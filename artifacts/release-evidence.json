@@ -59,5 +59,12 @@
     "technicalDataFlowReviewComplete": true,
     "amazonQuestionnaireStatus": "Saved for review",
     "legalComplianceCertification": false
+  },
+  "amazonIapVerified": true,
+  "amazonIapAcceptance": {
+    "record": "artifacts/billing-pre-release-acceptance-0.8.7.json",
+    "version": "0.8.7",
+    "scope": "Pre-release qualification: real historical LAT lifecycle, unchanged Android billing engine/receipt guards, new production SKU contract/pin/build and live negative-path checks, deployed QA signature/CPU probes. Not a charged production checkout.",
+    "realProductionPurchaseVerified": false
   }
 }

@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-02",
+  "scope": "Deployed real adapter/verifier with ephemeral QA RSA-2048 key, synthetic receipt and draft audience; no production key or real Amazon purchase",
+  "nodeLazy": {
+    "requests": 9,
+    "errors": 0,
+    "cpuP50Microseconds": 2127,
+    "cpuP99Microseconds": 12448
+  },
+  "nodeStartupPrepared": {
+    "requests": 9,
+    "errors": 0,
+    "cpuP50Microseconds": 2583,
+    "cpuP99Microseconds": 15133
+  },
+  "webCryptoCold1": {
+    "requests": 8,
+    "errors": 0,
+    "cpuP50Microseconds": 1978,
+    "cpuP99Microseconds": 8436
+  },
+  "webCryptoCold2": {
+    "requests": 8,
+    "errors": 0,
+    "cpuP50Microseconds": 1830,
+    "cpuP99Microseconds": 7592
+  },
+  "webCryptoSignedResponsesVerified": 16,
+  "temporaryWorkerRemoved": true,
+  "cleanupConfirmationHttp": 404,
+  "limits": "Two small single-location samples, not load or all-location certification. Production pin and existing LAT/sandbox deployments unchanged."
+}

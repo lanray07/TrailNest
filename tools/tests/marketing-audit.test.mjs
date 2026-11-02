@@ -103,7 +103,8 @@ test('release CLI rejects a stale accepted translation report when fresh validat
     'config/countries.json': { countries: [] }, 'config/locales.json': { ...registry, requiredAppLocales: ['tr'] },
     'content/routes.json': { routes: [] },
     'config/editorial-policy.json': { allowAiDeskReview: false },
-    'artifacts/localisation-report.json': { translationReady: true, locales: [], hardcodedComposeStrings: [] }
+    'artifacts/localisation-report.json': { translationReady: true, locales: [], hardcodedComposeStrings: [] },
+    'artifacts/release-evidence.json': { amazonIapVerified: true }
   })) await fs.writeFile(path.join(root, filename), JSON.stringify(data));
   await fs.writeFile(path.join(root, 'app/build.gradle.kts'), 'versionName = "0.8.5"');
   const result = spawnSync(process.execPath, [path.join(root, 'tools/release-gate.mjs')], { encoding: 'utf8' });
@@ -112,4 +113,5 @@ test('release CLI rejects a stale accepted translation report when fresh validat
   assert.equal(report.releaseReady, false);
   assert.ok(report.failures.some(error => error.startsWith('Fresh translation validation failed')));
   assert.ok(report.failures.includes('Required initial app locale tr is not implemented.'));
+  assert.ok(report.failures.includes('Current APK, source-bound pre-release billing and deployed QA signing/CPU evidence missing or stale.'));
 }));

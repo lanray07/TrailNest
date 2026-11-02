@@ -1,7 +1,8 @@
 {
   "version": "0.8.7",
-  "releaseReady": false,
-  "failures": [
-    "Production billing configuration and acceptance (LAT checks are separate) missing."
-  ]
+  "versionCode": 16,
+  "qualification": "scoped_pre_submission",
+  "releaseReady": true,
+  "realProductionPurchaseVerified": false,
+  "failures": []
 }

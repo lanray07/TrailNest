@@ -61,7 +61,7 @@
     "rateBindingProvisioned": true,
     "startupMs": 5,
     "liveAmazonVerificationTested": false,
-    "deploymentVersion": "6a37c537-b9c3-4f55-9829-2d08b31d80b2",
+    "deploymentVersion": "5db98878-d262-427a-b52e-755d0d59ddde",
     "localWorkerd": {
       "productionKeyUsed": false,
       "signatureVerified": true,
@@ -76,12 +76,14 @@
       "p50Microseconds": 5557,
       "p99Microseconds": 6184,
       "scope": "readiness/negative paths only, not successful production receipt acceptance"
-    }
+    },
+    "signer": "Web Crypto RSASSA-PKCS1-v1_5/SHA-256",
+    "qaSignedCpuRecord": "artifacts/cloudflare-signing-cpu-2026-11-02.json"
   },
   "checks": {
-    "backendPassed": 25,
+    "backendPassed": 27,
     "strings": 278,
-    "toolingPassed": 23,
+    "toolingPassed": 24,
     "lintWarnings": 56,
     "lintErrors": 0,
     "appBuild": "latest translationPreview and instrumentation APKs succeeded; current-map-build.txt",
@@ -141,14 +143,11 @@
     }
   },
   "releaseGate": {
-    "failureCount": 5,
+    "failureCount": 0,
     "report": "artifacts/release-gate.json",
-    "ready": false
+    "ready": true
   },
-  "blockers": [
-    "Five release-gate acceptance items remain; see docs/RELEASE-ACCEPTANCE-2026-11-02.md.",
-    "App code16 saved in production draft and dedicated annual IAP Approved; no app submission or real production purchase performed."
-  ],
+  "blockers": [],
   "details": "docs/PAID-RELEASE-2026-11-01.md",
   "draftApk": {
     "path": "app/build/outputs/apk/translationPreview/app-translationPreview.apk",
@@ -160,14 +159,16 @@
   },
   "privacy": {
     "publicSourceUpdated": true,
-    "amazonDisclosuresUpdated": false,
+    "amazonDisclosuresUpdated": true,
     "legalAssessmentComplete": false,
     "publicHttp": 200,
     "supportHttp": 200,
     "pagesDeployment": "https://github.com/lanray07/TrailNest/actions/runs/41449327732",
     "operator": "O. Bankole",
     "country": "United Kingdom",
-    "publicOperatorUkVerified": true
+    "publicOperatorUkVerified": true,
+    "technicalOperatorReviewComplete": true,
+    "supportRetentionApproved": true
   },
   "updatedOn": "2026-11-02",
   "paidBuildCurrent": "Signed paid code16 passed 67 JVM tests, release lint and retained v2/v3 signature checks; uploaded and saved in production draft.",
@@ -191,5 +192,8 @@
     "localizedEntries": 12,
     "basePriceGbp": 4.99,
     "oldLatSkuUnchanged": true
-  }
+  },
+  "postPublicationChecks": [
+    "Owner-controlled real production checkout/receipt, Restore and subsequent lifecycle smoke; not claimed complete before publication."
+  ]
 }

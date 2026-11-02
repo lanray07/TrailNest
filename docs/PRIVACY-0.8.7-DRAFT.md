@@ -24,3 +24,7 @@ Removing the app's local data does not cancel an Amazon subscription. Manage or 
 - Establish and operate a support-correspondence retention/deletion process; the previous policy does not specify a fixed period. Do not promise an automated deletion schedule that is not implemented.
 - Assess provider roles, lawful basis, transfers and rights handling for the intended markets. Do not claim legal compliance from this draft.
 - Update Amazon's questionnaire for external map-area/IP requests and receipt/account verification. Preserve accurate local processing, optional voice-service and recording explanations from the existing policy.
+
+## Completed technical/operator checkpoint — 2 November
+
+Owner identity/country and the 90-day post-closure/manual monthly retention process are confirmed. The public policy includes those details and rights/contact information. The 39-field Amazon questionnaire is saved for review with explicit local/network distinctions. See `PRIVACY-REVIEW-0.8.7.md` for the completed technical review and its limits. This checkpoint supersedes the unresolved implementation/operator items above; it is not a blanket legal-compliance certification or a claim of automatic email deletion.
