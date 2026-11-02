@@ -46,6 +46,8 @@ class ShareKeyboardDeviceTest {
         info.flags = info.flags or AccessibilityServiceInfo.FLAG_RETRIEVE_INTERACTIVE_WINDOWS
         automation.serviceInfo = info
         val app = instrumentation.targetContext
+        val keyguard = app.getSystemService(android.content.Context.KEYGUARD_SERVICE) as android.app.KeyguardManager
+        Assert.assertFalse("Unlock the device before real-keyboard acceptance; a show-when-locked test window cannot establish IME access", keyguard.isKeyguardLocked)
         val output = File(app.getExternalFilesDir(null),"share-keyboard-checks").apply { mkdirs() }
         val smoke = InstrumentationRegistry.getArguments().getString("layoutSmoke") == "true"
         val languages = InstrumentationRegistry.getArguments().getString("shareLocales")?.split(',') ?: if(smoke) listOf("ar","de") else tags
