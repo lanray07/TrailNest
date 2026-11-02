@@ -92,7 +92,7 @@
     "instrumentationApk": "compiled; current map download, interrupt/resume, cold-offline, and Arabic/German 200% narrow/tablet checks passed",
     "humanTranslationsApproved": 0,
     "workflowYaml": "parsed",
-    "githubPassedRun": "https://github.com/lanray07/TrailNest/actions/runs/41449327894",
+    "githubPassedRun": "https://github.com/lanray07/TrailNest/actions/runs/41450734352",
     "deviceLayoutSmoke": {
       "locales": [
         "ar",
