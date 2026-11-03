@@ -61,7 +61,7 @@
     "rateBindingProvisioned": true,
     "startupMs": 5,
     "liveAmazonVerificationTested": false,
-    "deploymentVersion": "5db98878-d262-427a-b52e-755d0d59ddde",
+    "deploymentVersion": "9c52c6ad-4502-45ef-9670-f865f7bad0a4",
     "localWorkerd": {
       "productionKeyUsed": false,
       "signatureVerified": true,
@@ -170,8 +170,8 @@
     "technicalOperatorReviewComplete": true,
     "supportRetentionApproved": true
   },
-  "updatedOn": "2026-11-02",
-  "paidBuildCurrent": "Signed paid code16 submitted to Amazon; final GitHub checks passed. Approval and publication pending.",
+  "updatedOn": "2026-11-03",
+  "paidBuildCurrent": "Unchanged signed code16 resubmitted after correcting production readiness routing; tests passed. Approval/publication and real charged production purchase remain pending.",
   "marketing": {
     "localImages": 176,
     "amazonImageLocales": 11,
@@ -198,15 +198,15 @@
   ],
   "amazonSubmission": {
     "status": "SUBMITTED",
-    "date": "2026-11-02",
-    "estimatedAppstoreDate": "07 Nov 2026, 07:00 AM PST",
-    "record": "artifacts/amazon-production-submission-2026-11-02.json",
+    "date": "2026-11-03",
+    "estimatedAppstoreDate": "08 Nov 2026, 08:30 AM PST",
+    "record": "artifacts/amazon-iap-readiness-remediation-2026-11-03.json",
     "approved": false,
     "published": false
   },
   "finalCi": {
-    "runId": 41462840481,
+    "runId": 41670720726,
     "conclusion": "success",
-    "sourceCommit": "f4e3405b64add1f92fd521fd60892a3045d4b369"
+    "sourceCommit": "75ff6bdd7f1461d243208daab0f3ca28f11436e5"
   }
 }

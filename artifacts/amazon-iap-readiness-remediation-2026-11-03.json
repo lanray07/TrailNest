@@ -5,8 +5,17 @@
   "issue": "IAP displays error",
   "reviewVideoObservation": "Annual price visible; purchase verification unavailable error before checkout.",
   "cause": "Android requests /v1/amazon/ready, but the production Worker exposed only /ready.",
-  "before": {"androidReadinessHttp": 404, "operationsReadinessHttp": 204, "contractTestFailed": true},
-  "after": {"androidReadinessHttp": 204, "operationsReadinessHttp": 204, "invalidReceiptHttp": 403, "invalidReceiptLeaseReturned": false},
+  "before": {
+    "androidReadinessHttp": 404,
+    "operationsReadinessHttp": 204,
+    "contractTestFailed": true
+  },
+  "after": {
+    "androidReadinessHttp": 204,
+    "operationsReadinessHttp": 204,
+    "invalidReceiptHttp": 403,
+    "invalidReceiptLeaseReturned": false
+  },
   "deploymentVersion": "9c52c6ad-4502-45ef-9670-f865f7bad0a4",
   "backendTestsPassed": 28,
   "toolingTestsPassed": 24,
@@ -21,5 +30,17 @@
   "keysOrGuardsChanged": false,
   "test1Changed": false,
   "latOrSandboxDeploymentChanged": false,
-  "resubmitted": false
+  "resubmitted": true,
+  "resubmissionStatus": "SUBMITTED",
+  "resubmissionObservedAtUtc": "2026-11-03T16:11:33Z",
+  "visibleConfirmation": "App Submission Successful",
+  "estimatedAppstoreDate": "08 Nov 2026, 08:30 AM PST",
+  "approved": false,
+  "published": false,
+  "ci": {
+    "url": "https://github.com/lanray07/TrailNest/actions/runs/41670720726",
+    "conclusion": "success",
+    "sourceCommit": "75ff6bdd7f1461d243208daab0f3ca28f11436e5"
+  },
+  "proofScreenshot": "artifacts/reports/iap-readiness-2026-11-03/amazon-resubmitted.png"
 }

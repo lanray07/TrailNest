@@ -1,5 +1,7 @@
 # Submission acceptance — TrailNest 0.8.7 / code 16
 
+**3 November update:** Amazon rejected the initial submission for an IAP error. The Android checkout readiness URL was missing from the production Worker. This server routing defect was reproduced, corrected and verified on the Kindle, with a regression test and passing GitHub checks. The unchanged APK is resubmitted and Amazon confirms **SUBMITTED**; estimate 8 November, 08:30 PST. See `IAP-REJECTION-2026-11-03.md`. The original acceptance below missed that URL contract; it is not evidence of a real new-SKU purchase.
+
 The signed paid candidate was submitted to Amazon on 2 November 2026. The Console confirms **SUBMITTED** and “App Submission Successful”; its estimated Appstore date is 7 November 2026, 07:00 PST, not an approval guarantee. The dedicated annual IAP is Approved. Test1 is unchanged.
 
 Final [GitHub App checks](https://github.com/lanray07/TrailNest/actions/runs/41462840481) passed for source commit `f4e3405`. Sanitized submission evidence: `artifacts/amazon-production-submission-2026-11-02.json`.
