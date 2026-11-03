@@ -1,6 +1,7 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {generateKeyPairSync} from 'node:crypto';
+import {readFileSync} from 'node:fs';
 import {createWorkerHandler,productionVerifier} from '../cloudflare-handler.mjs';
 import {VerificationError} from '../verifier.mjs';
 const env=()=>({VERIFY_RATE_LIMITER:{limit:async()=>({success:true})}});
@@ -9,6 +10,20 @@ function request(body={amazonUserId:'qa-user',receiptId:'qa-receipt'},patch={}){
   Object.defineProperty(r,'cf',{value:{colo:'QA'}});return r;
 }
 const handler=(options={})=>createWorkerHandler({getVerifier:()=>async()=>({lease:'QA-only'}),...options});
+
+test('shipped Android checkout readiness URL reaches the production Worker',async()=>{
+  const configuration=JSON.parse(readFileSync(new URL('../../config/billing/production.json',import.meta.url),'utf8').replace(/^\uFEFF/,''));
+  const android=readFileSync(new URL('../../app/src/main/java/com/trailnest/app/billing/AmazonBillingRuntime.kt',import.meta.url),'utf8');
+  // Bind this contract test to the actual client derivation, rather than only
+  // testing a separately configured health URL that the client never requests.
+  assert.match(android,/URL\(endpoint\.removeSuffix\("verify"\) \+ "ready"\)/);
+  const checkoutReady=configuration.verificationUrl.replace(/verify$/,'ready');
+  assert.equal(configuration.readinessUrl,checkoutReady);
+  const h=handler();
+  assert.equal((await h(new Request(checkoutReady,{method:'HEAD'}),env())).status,204);
+  assert.equal((await h(new Request(checkoutReady,{method:'HEAD'}),{})).status,503);
+  assert.equal((await h(new Request(checkoutReady),env())).status,405);
+});
 test('Worker routes, transport, method, content type and runtime boundary',async()=>{
   const h=handler(),e=env();
   for(const [r,status]of [[new Request('http://billing.invalid/ready',{method:'HEAD'}),426],

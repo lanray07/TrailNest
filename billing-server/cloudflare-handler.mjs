@@ -22,8 +22,10 @@ export function createWorkerHandler({getVerifier=productionVerifier}={}){
   return async(request,env)=>{
     const url=new URL(request.url);
     if(url.protocol!=='https:')return json(426,{error:'https_required'});
-    if(!['/ready','/v1/amazon/verify'].includes(url.pathname)||url.search)return json(404,{error:'not_found'});
-    const ready=url.pathname==='/ready';
+    // Android derives readiness beside /v1/amazon/verify. Keep /ready as a
+    // backwards-compatible operations probe, with identical fail-closed checks.
+    const ready=['/ready','/v1/amazon/ready'].includes(url.pathname);
+    if((!ready&&url.pathname!=='/v1/amazon/verify')||url.search)return json(404,{error:'not_found'});
     if(request.method!==(ready?'HEAD':'POST'))return json(405,{error:'method_not_allowed'});
     if(!ready&&request.headers.get('content-type')?.split(';')[0].trim()!=='application/json')return json(415,{error:'json_required'});
     let verify;

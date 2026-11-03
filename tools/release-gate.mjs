@@ -40,6 +40,8 @@ try{
     fields.BILLING_ENABLED===true&&fields.DEBUG===false&&fields.LAT_BUILD===false&&fields.BILLING_ENVIRONMENT==='production'&&
     fields.APPLICATION_ID===b.applicationId&&fields.BILLING_PARENT_SKU===b.parentSku&&fields.BILLING_ANNUAL_SKU===b.annualSku&&
     fields.BILLING_VERIFICATION_URL===b.verificationUrl&&apk.publicKeySpkiSha256===b.publicKeySpkiSha256&&
+    b.readinessUrl===b.verificationUrl.replace(/verify$/,'ready')&&a.readinessUrl===b.readinessUrl&&
+    a.androidReadinessDevicePassed===true&&a.checkoutHandoffDevicePassed===true&&
     a.parentSku===b.parentSku&&a.annualSku===b.annualSku&&a.productionCatalogStatus==='Approved'&&
     a.readinessHttp===204&&a.invalidReceiptHttp===403&&a.invalidReceiptLeaseReturned===false&&
     a.workerSignatureCompatibilityPassed===true&&sourcesCurrent&&source.androidBillingEngineUnchanged===true&&source.receiptGuardLogicUnchanged===true&&

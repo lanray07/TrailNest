@@ -5,7 +5,7 @@
   "qualification": "pre_release",
   "realProductionPurchaseVerified": false,
   "realProductionPurchaseStage": "After Amazon publishes the app; owner performs any paid checkout",
-  "productionDeployment": "5db98878-d262-427a-b52e-755d0d59ddde",
+  "productionDeployment": "9c52c6ad-4502-45ef-9670-f865f7bad0a4",
   "readinessHttp": 204,
   "invalidReceiptHttp": 403,
   "invalidReceiptLeaseReturned": false,
@@ -16,7 +16,7 @@
     "artifacts/amazon-lat-test2-expiry-device-2026-10-29.json"
   ],
   "productionSkuContractTestsPassed": true,
-  "backendTestsPassed": 27,
+  "backendTestsPassed": 28,
   "toolingTestsPassed": 24,
   "coreDeviceTestsPassed": 13,
   "workerSignatureCompatibilityPassed": true,
@@ -41,9 +41,13 @@
     "app/src/main/java/com/trailnest/app/billing/BillingController.kt": "70d1303357b56b22d12ff45f29aaee53ff503e6f6118b616ec157ee5c9465242",
     "app/src/main/java/com/trailnest/app/billing/EntitlementLease.kt": "5c8d947359c3b9d9fc07a60d4b62c7cf97c8795980c5638cdcdf5e555d8a5a43",
     "app/src/release/assets/billing-verifier-public.pem": "51c7386566106147e2f67beca86c84c71f30dda0ea3b41f846817ba76074d3c2",
-    "billing-server/cloudflare-handler.mjs": "9fce174411c41e70a0a51851a9dd17cdd75d1c7528ed84b0c1ad4490df11ab73",
+    "billing-server/cloudflare-handler.mjs": "6db038ebc1b572a8bc064163abacc5b276b9efe388b1bab883c529d19e3b23da",
     "billing-server/cloudflare-signing.mjs": "d44ed948b439df378aa9465f911964935d3485fa28634d7633c74ea72557cf16",
     "billing-server/verifier.mjs": "d1e6451460d6fb00fffbefa593c152793c51ac3d6caf9ef28f77b2e0bb2941a1"
   },
-  "sourceHashFormat": "UTF-8 text, CRLF normalised to LF"
+  "sourceHashFormat": "UTF-8 text, CRLF normalised to LF",
+  "readinessUrl": "https://trailnest-billing-production.lanraybanks.workers.dev/v1/amazon/ready",
+  "androidReadinessDevicePassed": true,
+  "checkoutHandoffDevicePassed": true,
+  "readinessRemediationRecord": "artifacts/amazon-iap-readiness-remediation-2026-11-03.json"
 }

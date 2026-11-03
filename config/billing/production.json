@@ -1,7 +1,7 @@
 {
   "environment": "production",
   "verificationUrl": "https://trailnest-billing-production.lanraybanks.workers.dev/v1/amazon/verify",
-  "readinessUrl": "https://trailnest-billing-production.lanraybanks.workers.dev/ready",
+  "readinessUrl": "https://trailnest-billing-production.lanraybanks.workers.dev/v1/amazon/ready",
   "parentSku": "com.trailnest.premium.production",
   "annualSku": "com.trailnest.premium.production.annual",
   "applicationId": "com.trailnest.app",
